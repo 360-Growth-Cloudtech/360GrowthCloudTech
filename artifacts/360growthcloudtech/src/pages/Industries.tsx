@@ -70,8 +70,8 @@ export default function Industries() {
                   </span>
                 </div>
                 
-                <h3 className="text-2xl font-bold mb-3">{industry.name}</h3>
-                <p className="text-muted-foreground mb-6 flex-1">{industry.desc}</p>
+                <h3 className="text-lg font-bold mb-2 text-foreground">{industry.name}</h3>
+                <p className="text-sm text-muted-foreground mb-5 flex-1">{industry.desc}</p>
                 
                 <div className="pt-6 border-t border-border/50">
                   <ul className="space-y-3">

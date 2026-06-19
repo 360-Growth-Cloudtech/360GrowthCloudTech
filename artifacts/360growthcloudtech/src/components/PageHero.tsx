@@ -8,40 +8,36 @@ interface PageHeroProps {
 
 export function PageHero({ label, title, subtitle }: PageHeroProps) {
   return (
-    <div className="relative pt-32 pb-20 overflow-hidden gradient-bg text-center text-white" data-testid="page-hero">
-      <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-white/5 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-white/5 rounded-full blur-3xl -z-10 -translate-x-1/2 translate-y-1/2"></div>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-3xl mx-auto">
-          {label && (
-            <motion.span 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="inline-block py-1.5 px-4 rounded-full bg-white/10 font-semibold text-sm mb-6 border border-white/20 uppercase tracking-wider"
-            >
-              {label}
-            </motion.span>
-          )}
-          <motion.h1 
-            initial={{ opacity: 0, y: 30 }}
+    <section className="pt-36 pb-12 bg-white text-center border-b border-border/40" data-testid="page-hero">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+        {label && (
+          <motion.span
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6"
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent uppercase tracking-wider mb-4 border border-accent/20 bg-accent/5 px-3 py-1 rounded-full"
           >
-            {title}
-          </motion.h1>
-          {subtitle && (
-            <motion.p 
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="text-lg md:text-xl text-white/80"
-            >
-              {subtitle}
-            </motion.p>
-          )}
-        </div>
+            {label}
+          </motion.span>
+        )}
+        <motion.h1
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="text-4xl md:text-5xl font-extrabold text-foreground mb-4 leading-tight"
+        >
+          <span className="gradient-text">{title}</span>
+        </motion.h1>
+        {subtitle && (
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto leading-relaxed"
+          >
+            {subtitle}
+          </motion.p>
+        )}
       </div>
-    </div>
+    </section>
   );
 }

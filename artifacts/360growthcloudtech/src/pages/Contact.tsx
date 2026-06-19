@@ -18,8 +18,8 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
             
             <div>
-              <h2 className="text-3xl font-extrabold mb-6">Get in Touch</h2>
-              <p className="text-muted-foreground text-lg mb-12">
+              <h2 className="text-2xl font-extrabold mb-4 text-foreground">Get in Touch</h2>
+              <p className="text-sm text-muted-foreground mb-10">
                 Whether you have a fully fleshed-out RFP or just an idea on a napkin, our team is ready to help you take the next step.
               </p>
 
@@ -29,8 +29,8 @@ export default function Contact() {
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg">Email Us</h4>
-                    <p className="text-muted-foreground">hello@360growthcloudtech.com</p>
+                    <h4 className="text-base font-bold text-foreground">Email Us</h4>
+                    <p className="text-sm text-muted-foreground">hello@360growthcloudtech.com</p>
                   </div>
                 </div>
                 
@@ -39,8 +39,8 @@ export default function Contact() {
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg">Call Us</h4>
-                    <p className="text-muted-foreground">+1 (800) 123-4567</p>
+                    <h4 className="text-base font-bold text-foreground">Call Us</h4>
+                    <p className="text-sm text-muted-foreground">+1 (800) 123-4567</p>
                   </div>
                 </div>
 
@@ -49,8 +49,8 @@ export default function Contact() {
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg">Visit Us</h4>
-                    <p className="text-muted-foreground">123 Innovation Drive, Tech District<br/>San Francisco, CA 94105</p>
+                    <h4 className="text-base font-bold text-foreground">Visit Us</h4>
+                    <p className="text-sm text-muted-foreground">123 Innovation Drive, Tech District<br/>San Francisco, CA 94105</p>
                   </div>
                 </div>
               </div>

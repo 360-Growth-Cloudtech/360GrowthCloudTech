@@ -83,8 +83,8 @@ export default function Services() {
                     <div className="w-14 h-14 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
                       <service.icon className="w-7 h-7 text-primary group-hover:text-white transition-colors" />
                     </div>
-                    <h4 className="text-xl font-bold mb-3">{service.title}</h4>
-                    <p className="text-muted-foreground leading-relaxed">{service.desc}</p>
+                    <h4 className="text-base font-bold mb-2 text-foreground">{service.title}</h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{service.desc}</p>
                   </div>
                 ))}
               </div>
@@ -97,8 +97,8 @@ export default function Services() {
                     <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-6">
                       <service.icon className="w-7 h-7 text-accent" />
                     </div>
-                    <h4 className="text-xl font-bold mb-3">{service.title}</h4>
-                    <p className="text-muted-foreground mb-6">{service.desc}</p>
+                    <h4 className="text-base font-bold mb-2 text-foreground">{service.title}</h4>
+                    <p className="text-sm text-muted-foreground mb-5">{service.desc}</p>
                     <ul className="space-y-2">
                       {service.bullets.map((bullet, j) => (
                         <li key={j} className="flex items-center text-sm text-foreground/80">
@@ -119,8 +119,8 @@ export default function Services() {
                     <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
                       <service.icon className="w-7 h-7 text-primary" />
                     </div>
-                    <h4 className="text-xl font-bold mb-3">{service.title}</h4>
-                    <p className="text-muted-foreground mb-6">{service.desc}</p>
+                    <h4 className="text-base font-bold mb-2 text-foreground">{service.title}</h4>
+                    <p className="text-sm text-muted-foreground mb-5">{service.desc}</p>
                     <ul className="space-y-2">
                       {service.bullets.map((bullet, j) => (
                         <li key={j} className="flex items-center text-sm text-foreground/80">

@@ -61,8 +61,8 @@ export default function CaseStudies() {
                   <span className="inline-block py-1 px-3 rounded-full bg-slate-100 text-xs font-semibold text-primary mb-4 w-max">
                     {study.industry}
                   </span>
-                  <h4 className="text-xl font-bold mb-3">{study.title}</h4>
-                  <p className="text-sm text-muted-foreground mb-6 line-clamp-3">{study.challenge}</p>
+                  <h4 className="text-base font-bold mb-2 text-foreground">{study.title}</h4>
+                  <p className="text-sm text-muted-foreground mb-5 line-clamp-3">{study.challenge}</p>
                   
                   <div className="space-y-3 mb-8 flex-1">
                     <div className="text-sm font-semibold text-foreground mb-4">Key Results:</div>
