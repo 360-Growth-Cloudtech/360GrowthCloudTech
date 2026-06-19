@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "@assets/logo360_(1)_1781888366275.png";
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
@@ -44,10 +43,14 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6">Company</h4>
             <ul className="space-y-3">
+              <li><a href="#about-us" className="text-white/80 hover:text-accent transition-colors text-sm">About Us</a></li>
               <li><a href="#why-us" className="text-white/80 hover:text-accent transition-colors text-sm">Why Choose Us</a></li>
               <li><a href="#process" className="text-white/80 hover:text-accent transition-colors text-sm">Our Process</a></li>
               <li><a href="#industries" className="text-white/80 hover:text-accent transition-colors text-sm">Industries</a></li>
+              <li><a href="#case-studies" className="text-white/80 hover:text-accent transition-colors text-sm">Case Studies</a></li>
+              <li><a href="#insights" className="text-white/80 hover:text-accent transition-colors text-sm">Insights</a></li>
               <li><a href="#contact" className="text-white/80 hover:text-accent transition-colors text-sm">Contact Us</a></li>
+              <li><a href="#contact" className="text-white/80 hover:text-accent transition-colors text-sm text-accent">Schedule Meeting</a></li>
             </ul>
           </div>
 

@@ -1,15 +1,18 @@
-import React from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ContactForm } from "@/components/ContactForm";
+import { ScheduleMeeting } from "@/components/ScheduleMeeting";
 import { 
   Code2, Users, TrendingUp, Cloud, ShieldCheck, ShoppingCart,
   HeartPulse, Plane, Building2, Landmark, GraduationCap, Building,
-  CheckCircle2, ArrowRight, Star
+  CheckCircle2, ArrowRight, Star, Lightbulb, Shield, Zap, Target
 } from "lucide-react";
 
 export default function Home() {
+  const [scheduleMeetingOpen, setScheduleMeetingOpen] = useState(false);
+
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
@@ -22,7 +25,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background" data-testid="home-page">
-      <Navbar />
+      <Navbar onScheduleClick={() => setScheduleMeetingOpen(true)} />
 
       {/* HERO SECTION */}
       <section id="hero" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
@@ -57,9 +60,13 @@ export default function Home() {
               className="flex flex-col sm:flex-row items-center justify-center gap-4"
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.5 }}
             >
-              <a href="#contact" className="w-full sm:w-auto gradient-bg px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-primary/25 hover:shadow-2xl hover:-translate-y-1 transition-all flex items-center justify-center gap-2">
+              <button 
+                onClick={() => setScheduleMeetingOpen(true)}
+                className="w-full sm:w-auto gradient-bg px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-primary/25 hover:shadow-2xl hover:-translate-y-1 transition-all flex items-center justify-center gap-2 text-white"
+                data-testid="hero-cta-get-started"
+              >
                 Get Started <ArrowRight size={20} />
-              </a>
+              </button>
               <a href="#services" className="w-full sm:w-auto bg-white border border-border text-foreground px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-50 transition-colors flex items-center justify-center">
                 Explore Services
               </a>
@@ -68,8 +75,74 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ABOUT US SECTION */}
+      <section id="about-us" className="py-24 bg-white border-t border-border/50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-16">
+            <h2 className="text-sm font-bold text-accent uppercase tracking-wider mb-3">Who We Are</h2>
+            <h3 className="text-3xl md:text-4xl font-extrabold mb-6">Built by Technologists. Driven by Results.</h3>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
+            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+              <p>
+                We are more than just a development agency; we are your end-to-end digital partner. We understand that launching a product is only the first step. Success requires a strategic combination of robust architecture, continuous growth marketing, and unwavering security.
+              </p>
+              <p>
+                Our passionate team of engineers, designers, marketers, and security experts work in unison to eliminate the friction of dealing with multiple vendors. We bring everything under one roof, ensuring a cohesive vision and seamless execution.
+              </p>
+              <p>
+                With a global reach and a commitment to excellence, we have helped startups scale into industry leaders and enterprises modernize their legacy systems. Your success is our mission.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {[
+                { icon: Lightbulb, title: "Innovation", desc: "Pushing boundaries with cutting-edge technology." },
+                { icon: Shield, title: "Trust", desc: "Uncompromising security and transparency." },
+                { icon: Zap, title: "Agility", desc: "Rapid iteration and adaptive strategies." },
+                { icon: Target, title: "Excellence", desc: "Delivering exceptional quality in every detail." }
+              ].map((pillar, i) => (
+                <div key={i} className="bg-slate-50 p-6 rounded-2xl border border-border/60">
+                  <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-4">
+                    <pillar.icon className="w-6 h-6 text-accent" />
+                  </div>
+                  <h4 className="text-lg font-bold mb-2">{pillar.title}</h4>
+                  <p className="text-sm text-muted-foreground">{pillar.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div className="bg-primary rounded-3xl p-10 md:p-12 text-white shadow-xl relative overflow-hidden mb-16">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-3xl"></div>
+            <div className="relative z-10 flex flex-col md:flex-row justify-around gap-8 text-center">
+              {[
+                { num: "250+", label: "Projects Delivered" },
+                { num: "99.9%", label: "Uptime Achieved" },
+                { num: "50+", label: "Enterprise Clients" },
+                { num: "10+", label: "Years Experience" }
+              ].map((stat, i) => (
+                <div key={i}>
+                  <div className="text-4xl md:text-5xl font-black mb-2">{stat.num}</div>
+                  <div className="text-white/80 text-sm font-semibold uppercase tracking-wider">{stat.label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div className="max-w-4xl mx-auto text-center">
+            <blockquote className="text-2xl md:text-3xl font-bold text-primary/90 italic leading-snug relative">
+              <span className="absolute -top-6 -left-8 text-6xl text-accent/20">"</span>
+              Our mission is to empower businesses with technology that not only solves today's problems but anticipates tomorrow's opportunities.
+              <span className="absolute -bottom-8 -right-8 text-6xl text-accent/20">"</span>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
       {/* SERVICES SECTION */}
-      <section id="services" className="py-24 bg-white">
+      <section id="services" className="py-24 bg-slate-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-sm font-bold text-accent uppercase tracking-wider mb-3">Our Expertise</h2>
@@ -92,7 +165,7 @@ export default function Home() {
               { icon: ShieldCheck, title: "Cybersecurity", desc: "Enterprise-grade protection, secure deployments, and strict compliance management." },
               { icon: ShoppingCart, title: "E-commerce Solutions", desc: "End-to-end web & mobile stores with seamless payment gateway integrations." }
             ].map((service, i) => (
-              <motion.div key={i} variants={fadeIn} className="bg-background rounded-2xl p-8 border border-border/50 hover:shadow-xl transition-shadow group">
+              <motion.div key={i} variants={fadeIn} className="bg-white rounded-2xl p-8 border border-border/50 hover:shadow-xl transition-shadow group">
                 <div className="w-14 h-14 rounded-xl bg-primary/5 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
                   <service.icon className="w-7 h-7 text-primary group-hover:text-white transition-colors" />
                 </div>
@@ -166,7 +239,7 @@ export default function Home() {
       </section>
 
       {/* WHY US & STATS */}
-      <section id="why-us" className="py-24 bg-background border-y border-border/50">
+      <section id="why-us" className="py-24 bg-slate-50 border-y border-border/50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             
@@ -223,7 +296,7 @@ export default function Home() {
               { quote: "Having development and marketing under one roof changed everything for us. Our new e-commerce platform saw a 40% increase in conversions.", name: "Marcus Chen", role: "Founder, Peak Retail" },
               { quote: "Their cloud infrastructure setup is flawless. We haven't had a minute of downtime since migrating our booking engine to their systems.", name: "Elena Rodriguez", role: "VP Engineering, Global Travel" }
             ].map((test, i) => (
-              <div key={i} className="bg-background p-8 rounded-2xl border border-border">
+              <div key={i} className="bg-slate-50 p-8 rounded-2xl border border-border/60">
                 <div className="flex gap-1 mb-6">
                   {[1,2,3,4,5].map(star => <Star key={star} className="w-5 h-5 fill-accent text-accent" />)}
                 </div>
@@ -238,8 +311,119 @@ export default function Home() {
         </div>
       </section>
 
+      {/* CASE STUDIES SECTION */}
+      <section id="case-studies" className="py-24 bg-slate-50 border-y border-border/50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-sm font-bold text-accent uppercase tracking-wider mb-3">Our Work</h2>
+            <h3 className="text-3xl md:text-4xl font-extrabold mb-6">Real Problems. Real Results.</h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { 
+                industry: "Healthcare",
+                title: "Patient Portal Transformation",
+                challenge: "Legacy systems caused slow load times and poor patient engagement.",
+                results: ["40% faster load time", "HIPAA compliance achieved", "3x increase in active users"]
+              },
+              { 
+                industry: "Travel",
+                title: "Booking Engine Overhaul",
+                challenge: "Frequent downtime during peak booking seasons led to lost revenue.",
+                results: ["99.99% uptime achieved", "Auto-scaling infrastructure", "Zero data loss during spikes"]
+              },
+              { 
+                industry: "Retail",
+                title: "E-commerce Revenue Scale",
+                challenge: "Low conversion rates and high cart abandonment on mobile.",
+                results: ["Mobile-first PWA launch", "2x conversion rate", "Sub-second page transitions"]
+              }
+            ].map((study, i) => (
+              <div key={i} className="bg-white rounded-2xl border border-border shadow-sm hover:shadow-xl transition-all hover:-translate-y-1 relative overflow-hidden flex flex-col h-full">
+                <div className="h-2 w-full gradient-bg absolute top-0 left-0"></div>
+                <div className="p-8 flex-1 flex flex-col">
+                  <span className="inline-block py-1 px-3 rounded-full bg-slate-100 text-xs font-semibold text-primary mb-4 w-max">
+                    {study.industry}
+                  </span>
+                  <h4 className="text-xl font-bold mb-3">{study.title}</h4>
+                  <p className="text-sm text-muted-foreground mb-6 line-clamp-2">{study.challenge}</p>
+                  
+                  <div className="space-y-3 mb-8 flex-1">
+                    {study.results.map((result, j) => (
+                      <div key={j} className="flex items-start gap-2">
+                        <CheckCircle2 className="w-5 h-5 text-accent shrink-0" />
+                        <span className="text-sm font-medium text-foreground/80">{result}</span>
+                      </div>
+                    ))}
+                  </div>
+                  
+                  <a href="#" className="text-primary font-bold text-sm hover:text-accent transition-colors flex items-center gap-1 mt-auto">
+                    Read More <ArrowRight size={16} />
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* INSIGHTS SECTION */}
+      <section id="insights" className="py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-sm font-bold text-accent uppercase tracking-wider mb-3">Knowledge Hub</h2>
+            <h3 className="text-3xl md:text-4xl font-extrabold mb-6">Insights & Perspectives</h3>
+            <p className="text-muted-foreground text-lg">Stay ahead with our latest thinking on technology, growth, and security.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                category: "Cloud",
+                title: "Why Multi-Cloud is the Future of Enterprise Infrastructure",
+                excerpt: "Explore how distributing workloads across multiple cloud providers reduces risk and optimizes performance.",
+                author: "Sarah J.",
+                date: "Oct 12, 2023"
+              },
+              {
+                category: "Marketing",
+                title: "How Google Ads + SEO Work Together to Dominate Search",
+                excerpt: "A comprehensive guide on blending paid and organic strategies for maximum visibility and ROI.",
+                author: "Mark T.",
+                date: "Nov 05, 2023"
+              },
+              {
+                category: "Security",
+                title: "Zero-Trust Security: What It Means for Your Business",
+                excerpt: "Understanding the shift from perimeter-based security to continuous verification in modern architectures.",
+                author: "Elena R.",
+                date: "Dec 01, 2023"
+              }
+            ].map((article, i) => (
+              <div key={i} className="group cursor-pointer">
+                <div className="bg-slate-100 rounded-2xl p-8 h-full flex flex-col border border-transparent group-hover:border-border/60 group-hover:bg-slate-50 transition-colors">
+                  <span className="text-accent text-xs font-bold uppercase tracking-wider mb-4">{article.category}</span>
+                  <h4 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{article.title}</h4>
+                  <p className="text-muted-foreground text-sm mb-6 flex-1">{article.excerpt}</p>
+                  
+                  <div className="flex items-center justify-between mt-auto pt-6 border-t border-border/40">
+                    <div className="text-xs text-muted-foreground">
+                      <span className="font-semibold text-foreground">{article.author}</span> • {article.date}
+                    </div>
+                    <span className="text-primary text-sm font-bold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                      Read Article <ArrowRight size={14} />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CONTACT */}
-      <section id="contact" className="py-24 bg-background relative">
+      <section id="contact" className="py-24 bg-slate-50 relative border-t border-border/50">
         <div className="absolute top-0 left-0 w-full h-1/2 bg-primary -z-10"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto">
@@ -254,6 +438,11 @@ export default function Home() {
       </section>
 
       <Footer />
+      
+      <ScheduleMeeting 
+        open={scheduleMeetingOpen} 
+        onOpenChange={setScheduleMeetingOpen} 
+      />
     </div>
   );
 }
