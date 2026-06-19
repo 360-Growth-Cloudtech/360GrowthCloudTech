@@ -1,5 +1,6 @@
 import logo from "@assets/logo360_(1)_1781888366275.png";
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Link } from "wouter";
 
 export function Footer() {
   return (
@@ -8,7 +9,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           
           <div className="space-y-6">
-            <img src={logo} alt="360GrowthCloudTech" className="h-12 w-auto brightness-0 invert" />
+            <Link href="/">
+              <img src={logo} alt="360GrowthCloudTech" className="h-12 w-auto brightness-0 invert cursor-pointer" />
+            </Link>
             <p className="text-white/80 text-sm leading-relaxed max-w-xs">
               The one partner your business needs to go from idea to a live, secure, growing digital product.
             </p>
@@ -31,26 +34,23 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6">Our Services</h4>
             <ul className="space-y-3">
-              <li><a href="#services" className="text-white/80 hover:text-accent transition-colors text-sm">Custom Software</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-accent transition-colors text-sm">CRM Tools</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-accent transition-colors text-sm">Digital Marketing</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-accent transition-colors text-sm">Cloud Infrastructure</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-accent transition-colors text-sm">Cybersecurity</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-accent transition-colors text-sm">E-commerce</a></li>
+              <li><Link href="/services" className="text-white/80 hover:text-accent transition-colors text-sm">Custom Software</Link></li>
+              <li><Link href="/services" className="text-white/80 hover:text-accent transition-colors text-sm">CRM Tools</Link></li>
+              <li><Link href="/services" className="text-white/80 hover:text-accent transition-colors text-sm">Digital Marketing</Link></li>
+              <li><Link href="/services" className="text-white/80 hover:text-accent transition-colors text-sm">Cloud Infrastructure</Link></li>
+              <li><Link href="/services" className="text-white/80 hover:text-accent transition-colors text-sm">Cybersecurity</Link></li>
+              <li><Link href="/services" className="text-white/80 hover:text-accent transition-colors text-sm">E-commerce</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-bold mb-6">Company</h4>
             <ul className="space-y-3">
-              <li><a href="#about-us" className="text-white/80 hover:text-accent transition-colors text-sm">About Us</a></li>
-              <li><a href="#why-us" className="text-white/80 hover:text-accent transition-colors text-sm">Why Choose Us</a></li>
-              <li><a href="#process" className="text-white/80 hover:text-accent transition-colors text-sm">Our Process</a></li>
-              <li><a href="#industries" className="text-white/80 hover:text-accent transition-colors text-sm">Industries</a></li>
-              <li><a href="#case-studies" className="text-white/80 hover:text-accent transition-colors text-sm">Case Studies</a></li>
-              <li><a href="#insights" className="text-white/80 hover:text-accent transition-colors text-sm">Insights</a></li>
-              <li><a href="#contact" className="text-white/80 hover:text-accent transition-colors text-sm">Contact Us</a></li>
-              <li><a href="#contact" className="text-white/80 hover:text-accent transition-colors text-sm text-accent">Schedule Meeting</a></li>
+              <li><Link href="/about" className="text-white/80 hover:text-accent transition-colors text-sm">About Us</Link></li>
+              <li><Link href="/industries" className="text-white/80 hover:text-accent transition-colors text-sm">Industries</Link></li>
+              <li><Link href="/case-studies" className="text-white/80 hover:text-accent transition-colors text-sm">Case Studies</Link></li>
+              <li><Link href="/insights" className="text-white/80 hover:text-accent transition-colors text-sm">Insights</Link></li>
+              <li><Link href="/contact" className="text-white/80 hover:text-accent transition-colors text-sm">Contact Us</Link></li>
             </ul>
           </div>
 
