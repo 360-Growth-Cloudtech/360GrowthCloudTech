@@ -30,6 +30,18 @@ export function Navbar() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  useEffect(() => {
+    const handleProgress = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      setScrollProgress(docHeight > 0 ? (scrollTop / docHeight) * 100 : 0);
+    };
+    window.addEventListener("scroll", handleProgress, { passive: true });
+    return () => window.removeEventListener("scroll", handleProgress);
+  }, []);
+
   const isActive = (path: string) => location === path;
   
   const linkClass = (path: string) => 
@@ -128,41 +140,15 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* TICKER STRIP */}
-      <div className="overflow-hidden border-t border-border/30 bg-white/95 backdrop-blur-sm" style={{ height: "32px" }}>
-        <div className="ticker-track flex items-center gap-0 whitespace-nowrap" style={{ width: "max-content" }}>
-          {[
-            "Custom Software Development",
-            "Cloud Infrastructure",
-            "Cybersecurity & Compliance",
-            "Digital Marketing & SEO",
-            "Google & Meta Ads",
-            "Custom CRM Tools",
-            "E-commerce Solutions",
-            "Mobile App Development",
-            "24/7 Support",
-            "40+ Industries Served",
-            "Enterprise-Grade Security",
-            "DevOps & CI/CD Pipelines",
-            "Custom Software Development",
-            "Cloud Infrastructure",
-            "Cybersecurity & Compliance",
-            "Digital Marketing & SEO",
-            "Google & Meta Ads",
-            "Custom CRM Tools",
-            "E-commerce Solutions",
-            "Mobile App Development",
-            "24/7 Support",
-            "40+ Industries Served",
-            "Enterprise-Grade Security",
-            "DevOps & CI/CD Pipelines",
-          ].map((item, i) => (
-            <span key={i} className="inline-flex items-center gap-3 px-4 text-xs font-semibold text-foreground/70 tracking-wide">
-              <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block shrink-0" />
-              {item}
-            </span>
-          ))}
-        </div>
+      {/* SCROLL PROGRESS BAR */}
+      <div className="h-[3px] w-full bg-border/30">
+        <div
+          className="h-full transition-[width] duration-75 ease-out"
+          style={{
+            width: `${scrollProgress}%`,
+            background: "linear-gradient(to right, #0d1f6e, #1a6be0, #00c5c8)",
+          }}
+        />
       </div>
 
       {mobileMenuOpen && (

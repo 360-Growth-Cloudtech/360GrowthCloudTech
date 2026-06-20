@@ -236,16 +236,6 @@
   @apply bg-gradient-to-r from-primary via-secondary to-accent text-white;
 }
 
-@keyframes ticker-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-.ticker-track {
-  animation: ticker-scroll 28s linear infinite;
-}
-.ticker-track:hover {
-  animation-play-state: paused;
-}
 
 @layer utilities {
   input[type="search"]::-webkit-search-cancel-button {
