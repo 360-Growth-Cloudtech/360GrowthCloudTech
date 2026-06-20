@@ -101,9 +101,6 @@ export function Navbar() {
             <Link href="/about" className={linkClass("/about")} data-testid="nav-link-about-us">
               About Us
             </Link>
-            <Link href="/case-studies" className={linkClass("/case-studies")} data-testid="nav-link-case-studies">
-              Case Studies
-            </Link>
             <Link href="/insights" className={linkClass("/insights")} data-testid="nav-link-insights">
               Insights
             </Link>
@@ -162,7 +159,6 @@ export function Navbar() {
               </div>
             </div>
             <Link href="/about" onClick={() => setMobileMenuOpen(false)} className={mobileLinkClass("/about")}>About Us</Link>
-            <Link href="/case-studies" onClick={() => setMobileMenuOpen(false)} className={mobileLinkClass("/case-studies")}>Case Studies</Link>
             <Link href="/insights" onClick={() => setMobileMenuOpen(false)} className={mobileLinkClass("/insights")}>Insights</Link>
             <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className={mobileLinkClass("/contact")}>Contact Us</Link>
             <button onClick={() => { setMobileMenuOpen(false); setOpen(true); }} className="text-left text-base font-medium text-primary py-2 border-b border-border/50">Schedule Meeting</button>
