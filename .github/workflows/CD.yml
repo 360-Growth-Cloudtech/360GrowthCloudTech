@@ -1,0 +1,33 @@
+name: CD
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+  workflow_dispatch: 
+
+env:
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/360growthcloudtech
+
+jobs:
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: self-hosted
+    permissions:
+      contents: read
+
+    steps:
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Pull deployed image
+        run: docker pull ${{ env.IMAGE_NAME }}:${{ github.event.workflow_run.head_sha }}
+
+      - name: Stop old container
+        run: docker rm -f 360growthcloudtech || true
+
+      - name: Start new container
+        run: docker run -d --name 360growthcloudtech -p 80:80 ${{ env.IMAGE_NAME }}:${{ github.event.workflow_run.head_sha }}
