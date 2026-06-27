@@ -4,7 +4,7 @@ on:
   workflow_run:
     workflows: [CI]
     types: [completed]
-  workflow_dispatch:
+  workflow_dispatch: 
 
 env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/360growthcloudtech
