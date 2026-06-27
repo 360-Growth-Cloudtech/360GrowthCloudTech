@@ -34,4 +34,5 @@ jobs:
         run: docker run -d --name 360growthcloudtech -p 80:80 ${{ env.IMAGE_NAME }}:${{ github.event.inputs.git_sha }}
 
       - name: Confirm running image
-        run: docker inspect 360growthcloudtech --format='Running image: {{.Config.Image}}'
+        run: |
+          docker inspect 360growthcloudtech --format="Running image: {{.Config.Image}}"
