@@ -34,5 +34,5 @@ jobs:
         run: |
           docker run -d --name 360growthcloudtech \
             -p 80:80 -p 443:443 \
-            -v ${{ env.CERTS_PATH }}:/etc/nginx/ssl:ro \
+            -v /etc/nginx/ssl/:/etc/nginx/ssl:ro \
             ${{ env.IMAGE_NAME }}:${{ github.event.workflow_run.head_sha }}
