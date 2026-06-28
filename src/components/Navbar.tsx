@@ -156,16 +156,6 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* Scroll progress bar */}
-      <div className="h-[2px] w-full bg-border/20">
-        <div
-          className="h-full transition-[width] duration-75 ease-out"
-          style={{
-            width: `${scrollProgress}%`,
-            background: "linear-gradient(to right, #0d1f6e, #1a6be0, #00c5c8)",
-          }}
-        />
-      </div>
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
