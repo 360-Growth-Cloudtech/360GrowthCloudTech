@@ -76,19 +76,6 @@ export default function Contact() {
             </motion.div>
           </div>
 
-          {/* Map placeholder */}
-          <motion.div
-            className="w-full h-52 bg-muted/60 rounded-2xl border border-border overflow-hidden relative flex items-center justify-center hero-grid-bg"
-            variants={fadeUp} initial="initial" whileInView="animate" viewport={{ once: true }} transition={{ duration: 0.6 }}
-          >
-            <div className="text-center">
-              <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
-                <MapPin className="w-6 h-6 text-white" />
-              </div>
-              <p className="text-sm font-semibold text-foreground">Tech District, Innovation Hub</p>
-              <p className="text-xs text-muted-foreground mt-0.5">San Francisco, CA 94105</p>
-            </div>
-          </motion.div>
         </div>
       </section>
     </Layout>
