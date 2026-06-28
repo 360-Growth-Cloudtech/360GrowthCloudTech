@@ -8,6 +8,7 @@ on:
 
 env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/360growthcloudtech
+  CERTS_PATH: /home/ubuntu/certs/mehra.tyagi.fun   # adjust user if not ubuntu
 
 jobs:
   deploy:
@@ -30,4 +31,8 @@ jobs:
         run: docker rm -f 360growthcloudtech || true
 
       - name: Start new container
-        run: docker run -d --name 360growthcloudtech -p 80:80 ${{ env.IMAGE_NAME }}:${{ github.event.workflow_run.head_sha }}
+        run: |
+          docker run -d --name 360growthcloudtech \
+            -p 80:80 -p 443:443 \
+            -v ${{ env.CERTS_PATH }}:/etc/nginx/ssl:ro \
+            ${{ env.IMAGE_NAME }}:${{ github.event.workflow_run.head_sha }}
