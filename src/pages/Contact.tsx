@@ -1,95 +1,81 @@
+import { motion } from "framer-motion";
 import { Layout } from "@/components/Layout";
 import { PageHero } from "@/components/PageHero";
 import { ContactForm } from "@/components/ContactForm";
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, CalendarDays } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
+
+const fadeUp = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 } };
 
 export default function Contact() {
   const { setOpen } = useScheduleMeeting();
 
+  const contactDetails = [
+    { icon: Mail, label: "Email Us", value: "hello@360growthcloudtech.com" },
+    { icon: Phone, label: "Call Us", value: "+1 (800) 123-4567" },
+    { icon: MapPin, label: "Visit Us", value: "123 Innovation Drive, Tech District\nSan Francisco, CA 94105" },
+  ];
+
   return (
     <Layout>
-      <PageHero 
-        title="Let's Build Something Amazing Together" 
-      />
-      
-      <section className="py-24 bg-slate-50">
+      <PageHero label="Contact Us" title="Let's talk." subtitle="Whether you have an RFP or just an idea on a napkin — we're ready to help." />
+
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
-            
-            <div>
-              <h2 className="text-2xl font-extrabold mb-4 text-foreground">Get in Touch</h2>
-              <p className="text-sm text-muted-foreground mb-10">
-                Whether you have a fully fleshed-out RFP or just an idea on a napkin, our team is ready to help you take the next step.
-              </p>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 mb-12">
 
-              <div className="space-y-8 mb-12">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                    <Mail className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="text-base font-bold text-foreground">Email Us</h4>
-                    <p className="text-sm text-muted-foreground">hello@360growthcloudtech.com</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                    <Phone className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="text-base font-bold text-foreground">Call Us</h4>
-                    <p className="text-sm text-muted-foreground">+1 (800) 123-4567</p>
-                  </div>
-                </div>
+            {/* Left column */}
+            <motion.div className="lg:col-span-2 flex flex-col gap-4" variants={fadeUp} initial="initial" animate="animate" transition={{ duration: 0.6 }}>
+              <div>
+                <h2 className="display-heading text-2xl md:text-3xl text-foreground mb-2">Get in touch.</h2>
+                <p className="text-muted-foreground text-sm leading-relaxed">We typically respond within 2 hours during business hours.</p>
+              </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
+              <div className="flex flex-col gap-3">
+                {contactDetails.map((item, i) => (
+                  <div key={i} className="premium-card rounded-2xl p-4 flex items-start gap-3.5">
+                    <div className="w-9 h-9 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+                      <item.icon className="w-4 h-4 text-primary" />
+                    </div>
+                    <div>
+                      <div className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-0.5">{item.label}</div>
+                      <div className="text-sm font-semibold text-foreground whitespace-pre-line leading-relaxed">{item.value}</div>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="text-base font-bold text-foreground">Visit Us</h4>
-                    <p className="text-sm text-muted-foreground">123 Innovation Drive, Tech District<br/>San Francisco, CA 94105</p>
-                  </div>
+                ))}
+              </div>
+
+              <div>
+                <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">Follow Us</p>
+                <div className="flex gap-2">
+                  {[{ icon: Linkedin, label: "LinkedIn" }, { icon: Twitter, label: "Twitter" }, { icon: Facebook, label: "Facebook" }].map(({ icon: Icon, label }) => (
+                    <a key={label} href="#" aria-label={label} className="w-9 h-9 rounded-full border border-border bg-white/60 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/20 hover:bg-white transition-all">
+                      <Icon size={15} />
+                    </a>
+                  ))}
                 </div>
               </div>
 
-              <div className="mb-12">
-                <h4 className="font-bold mb-4">Follow Us</h4>
-                <div className="flex gap-4">
-                  <a href="#" className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center hover:bg-slate-50 transition-colors text-primary">
-                    <Facebook size={18} />
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center hover:bg-slate-50 transition-colors text-primary">
-                    <Twitter size={18} />
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-white border border-border flex items-center justify-center hover:bg-slate-50 transition-colors text-primary">
-                    <Linkedin size={18} />
-                  </a>
+              {/* Schedule card */}
+              <div className="rounded-2xl p-5 relative overflow-hidden" style={{ backgroundColor: "#1a1512" }}>
+                <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 70% 60% at 50% 100%, rgba(232,82,26,0.22) 0%, transparent 70%)" }} />
+                <div className="relative z-10">
+                  <CalendarDays size={20} className="text-primary mb-2.5" />
+                  <h4 className="font-bold text-white text-sm mb-1">Prefer a call?</h4>
+                  <p className="text-xs mb-4 leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>Book a free 30-min strategy session with our team.</p>
+                  <button onClick={() => setOpen(true)} className="btn-primary rounded-full" style={{ fontSize: "0.8rem", padding: "9px 18px" }}>
+                    Schedule a Meeting
+                  </button>
                 </div>
               </div>
+            </motion.div>
 
-              <button 
-                onClick={() => setOpen(true)}
-                className="gradient-bg px-8 py-4 rounded-full font-bold text-white shadow-lg hover:shadow-xl transition-all"
-              >
-                Schedule a Meeting
-              </button>
-            </div>
-
-            <div>
+            {/* Contact form */}
+            <motion.div className="lg:col-span-3" variants={fadeUp} initial="initial" animate="animate" transition={{ duration: 0.6, delay: 0.15 }}>
               <ContactForm />
-            </div>
-            
+            </motion.div>
           </div>
 
-          <div className="w-full h-[400px] bg-slate-200 rounded-3xl border border-border overflow-hidden relative flex items-center justify-center group">
-            <div className="absolute inset-0 bg-[url('https://maps.wikimedia.org/osm-intl/13/1310/3166.png')] opacity-50 mix-blend-luminosity grayscale group-hover:grayscale-0 transition-all duration-500"></div>
-            <div className="bg-white p-4 rounded-full shadow-xl relative z-10 animate-bounce">
-              <MapPin className="w-8 h-8 text-accent" />
-            </div>
-          </div>
         </div>
       </section>
     </Layout>

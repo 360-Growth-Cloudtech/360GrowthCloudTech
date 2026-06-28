@@ -1,65 +1,37 @@
+import { motion } from "framer-motion";
 import { Layout } from "@/components/Layout";
 import { PageHero } from "@/components/PageHero";
-import { motion } from "framer-motion";
-import {
-  ShieldCheck, CheckCircle, Star, Award,
-  Rocket, Users, BookOpen, Trophy,
-  Target, Globe, Lightbulb, Handshake,
-  Zap, Heart, Eye, TrendingUp,
-} from "lucide-react";
-import { AvatarFallback, Avatar as AvatarUI } from "@/components/ui/avatar";
+import { ShieldCheck, CheckCircle, Star, Award, Rocket, Users, BookOpen, Trophy, Globe, Lightbulb, Handshake, Heart } from "lucide-react";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.55 } },
-};
-
-const stagger = {
-  visible: { transition: { staggerChildren: 0.1 } },
-  hidden: {},
-};
-
-function SectionLabel({ children }: { children: React.ReactNode }) {
-  return (
-    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary uppercase tracking-wider mb-4 border border-primary/20 bg-primary/5 px-3 py-1 rounded-full">
-      {children}
-    </span>
-  );
-}
+const fadeUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } };
+const stagger = { visible: { transition: { staggerChildren: 0.09 } }, hidden: {} };
 
 export default function About() {
   return (
     <Layout>
-      <PageHero
-        title="Who We Are"
-        subtitle="Built by Technologists. Driven by Results."
-        label="About Us"
-      />
+      <PageHero label="About Us" title="Who we are." subtitle="Built by technologists. Driven by results. Powered by partnership." />
 
       {/* WHAT WE DO */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          <motion.div
-            className="text-center mb-14"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-          >
-            <SectionLabel>What We Do</SectionLabel>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-6">
-              Solving the World's Toughest <span className="gradient-text">Challenges</span>
+          <motion.div className="text-center mb-14" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
+            <span className="section-label mb-5 inline-flex">What We Do</span>
+            <h2 className="display-heading text-3xl md:text-5xl text-foreground mb-5">
+              Solving the world's toughest <span className="cursive-accent">challenges.</span>
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed max-w-3xl mx-auto">
-              360GrowthCloudTech solves our clients' toughest challenges by providing unmatched services in strategy, consulting, digital, technology and operations. We drive innovation to improve the way the world works and lives. With expertise across more than 40 industries and all business functions, we deliver transformational outcomes for a demanding new digital world.
+            <p className="text-muted-foreground text-sm leading-relaxed max-w-3xl mx-auto">
+              360GrowthCloudTech solves our clients' toughest challenges by providing unmatched services in strategy, consulting, digital, technology and operations. With expertise across more than 40 industries, we deliver transformational outcomes for a demanding new digital world.
             </p>
           </motion.div>
 
-          {/* Stats banner */}
+          {/* Stats bar */}
           <motion.div
-            className="rounded-3xl p-10 md:p-12 text-white shadow-xl relative overflow-hidden"
-            style={{ background: "linear-gradient(135deg, #0d1f6e 0%, #1a6be0 60%, #00c5c8 100%)" }}
+            className="rounded-3xl p-10 text-white relative overflow-hidden"
+            style={{ backgroundColor: "#1a1512" }}
             initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
           >
-            <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl" />
-            <div className="relative z-10 flex flex-col md:flex-row justify-around gap-8 text-center">
+            <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 50% 60% at 50% 100%, rgba(232,82,26,0.18) 0%, transparent 70%)" }} />
+            <div className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               {[
                 { num: "40+", label: "Industries Served" },
                 { num: "250+", label: "Projects Delivered" },
@@ -67,8 +39,8 @@ export default function About() {
                 { num: "10+", label: "Years Experience" },
               ].map((stat, i) => (
                 <div key={i} data-testid={`stat-${i}`}>
-                  <div className="text-4xl md:text-5xl font-black mb-2">{stat.num}</div>
-                  <div className="text-white/80 text-sm font-semibold uppercase tracking-wider">{stat.label}</div>
+                  <div className="display-heading text-3xl md:text-4xl text-white mb-1.5">{stat.num}</div>
+                  <div className="text-xs font-bold uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.45)" }}>{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -77,120 +49,58 @@ export default function About() {
       </section>
 
       {/* WHAT THIS MEANS FOR YOU */}
-      <section className="py-20" style={{ background: "#f4f7ff" }}>
+      <section className="py-20 bg-white/40 border-t border-border/60">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          <motion.div
-            className="text-center mb-14"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-          >
-            <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">
-              What This Means for You
+          <motion.div className="text-center mb-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
+            <span className="section-label mb-5 inline-flex">Our Impact</span>
+            <h2 className="display-heading text-3xl md:text-5xl text-foreground mb-4">
+              What this means for <span className="cursive-accent">you.</span>
             </h2>
           </motion.div>
-
-          <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}
-          >
+          <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
             {[
-              {
-                icon: ShieldCheck,
-                bg: "bg-blue-500",
-                title: "Secure Operations",
-                desc: "Enterprise-grade security protocols protecting your data",
-              },
-              {
-                icon: CheckCircle,
-                bg: "bg-purple-500",
-                title: "Privacy Compliance",
-                desc: "Full compliance with global privacy regulations",
-              },
-              {
-                icon: Star,
-                bg: "bg-orange-500",
-                title: "Innovation Focus",
-                desc: "Government-backed startup driving innovation",
-              },
-              {
-                icon: Award,
-                bg: "bg-green-500",
-                title: "Quality Assurance",
-                desc: "Internationally certified processes and standards",
-              },
+              { icon: ShieldCheck, title: "Secure Operations", desc: "Enterprise-grade security protocols protecting your data." },
+              { icon: CheckCircle, title: "Privacy Compliance", desc: "Full compliance with global privacy regulations." },
+              { icon: Star, title: "Innovation Focus", desc: "Government-backed startup driving innovation." },
+              { icon: Award, title: "Quality Assurance", desc: "Internationally certified processes and standards." },
             ].map((item, i) => (
-              <motion.div
-                key={i}
-                variants={fadeUp}
-                className="bg-white rounded-2xl p-8 text-center shadow-sm border border-border/40 hover:shadow-md transition-shadow"
-                data-testid={`means-card-${i}`}
-              >
-                <div className={`w-14 h-14 ${item.bg} rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-lg`}>
-                  <item.icon className="w-7 h-7 text-white" />
+              <motion.div key={i} variants={fadeUp} className="premium-card rounded-2xl p-6 text-center" data-testid={`means-card-${i}`}>
+                <div className="w-11 h-11 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <item.icon className="w-5 h-5 text-primary" />
                 </div>
-                <h4 className="text-base font-bold text-foreground mb-2">{item.title}</h4>
-                <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+                <h4 className="font-bold text-sm text-foreground mb-1.5">{item.title}</h4>
+                <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
         </div>
       </section>
 
-      {/* OUR CORE VALUE */}
-      <section className="py-20 bg-white">
+      {/* CORE VALUES */}
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          <motion.div
-            className="text-center mb-14"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-          >
-            <SectionLabel>Our Core Value</SectionLabel>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-5">
-              Our Values Drive Everything We Do
+          <motion.div className="text-center mb-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
+            <span className="section-label mb-5 inline-flex">Core Values</span>
+            <h2 className="display-heading text-3xl md:text-5xl text-foreground mb-4">
+              Values that drive <span className="cursive-accent">everything.</span>
             </h2>
-            <p className="text-muted-foreground text-base leading-relaxed max-w-2xl mx-auto">
-              Our values shape the culture of our organization and define the character of our company. We live the core values through individual behaviors. They serve as the foundation for how we act and make decisions.
-            </p>
-            <p className="text-muted-foreground text-base leading-relaxed max-w-2xl mx-auto mt-2">
-              These core principles guide our decisions, shape our culture, and define how we build lasting partnerships with our clients.
+            <p className="text-muted-foreground text-sm leading-relaxed max-w-lg mx-auto">
+              These principles guide our decisions, shape our culture, and define how we build lasting partnerships.
             </p>
           </motion.div>
-
-          <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}
-          >
+          <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
             {[
-              {
-                icon: Lightbulb,
-                title: "Innovation",
-                desc: "We push boundaries and embrace emerging technologies to deliver cutting-edge solutions",
-              },
-              {
-                icon: Handshake,
-                title: "Collaboration",
-                desc: "We believe in the power of teamwork and building strong partnerships with our clients",
-              },
-              {
-                icon: Award,
-                title: "Excellence",
-                desc: "We maintain the highest standards of quality in everything we do and deliver",
-              },
-              {
-                icon: Globe,
-                title: "Impact",
-                desc: "We create solutions that make a meaningful difference to businesses and communities",
-              },
+              { icon: Lightbulb, title: "Innovation", desc: "Push boundaries and embrace emerging technologies.", accent: "text-amber-600" },
+              { icon: Handshake, title: "Collaboration", desc: "Strong partnerships and teamwork at every step.", accent: "text-primary" },
+              { icon: Award, title: "Excellence", desc: "Highest standards of quality in everything we deliver.", accent: "text-foreground" },
+              { icon: Globe, title: "Impact", desc: "Solutions that make a meaningful global difference.", accent: "text-emerald-600" },
             ].map((item, i) => (
-              <motion.div
-                key={i}
-                variants={fadeUp}
-                className="bg-white rounded-2xl p-8 text-center border border-border/50 shadow-sm hover:shadow-md transition-shadow"
-                data-testid={`value-card-${i}`}
-              >
-                <div className="w-14 h-14 bg-primary/8 rounded-full flex items-center justify-center mx-auto mb-5" style={{ background: "rgba(13,31,110,0.08)" }}>
-                  <item.icon className="w-6 h-6 text-primary" />
+              <motion.div key={i} variants={fadeUp} className="premium-card rounded-2xl p-6 text-center" data-testid={`value-card-${i}`}>
+                <div className="w-11 h-11 rounded-xl flex items-center justify-center mx-auto mb-4" style={{ background: "rgba(26,21,18,0.05)" }}>
+                  <item.icon className={`w-5 h-5 ${item.accent}`} />
                 </div>
-                <h4 className="text-base font-bold text-foreground mb-3">{item.title}</h4>
-                <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+                <h4 className="font-bold text-sm text-foreground mb-1.5">{item.title}</h4>
+                <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -198,62 +108,27 @@ export default function About() {
       </section>
 
       {/* CULTURE */}
-      <section className="py-20" style={{ background: "#f4f7ff" }}>
+      <section className="py-20 bg-white/40 border-t border-border/60">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          <motion.div
-            className="text-center mb-14"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-          >
-            <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary border border-primary/20 bg-white px-3 py-1 rounded-full mb-4">
-              <Heart size={12} /> Our Culture
-            </span>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">Culture</h2>
-            <p className="text-muted-foreground text-base leading-relaxed max-w-xl mx-auto">
-              Join a culture of innovation, collaboration, and continuous growth where your ideas shape the future of technology.
-            </p>
+          <motion.div className="text-center mb-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
+            <span className="section-label mb-5 inline-flex"><Heart size={10} />Our Culture</span>
+            <h2 className="display-heading text-3xl md:text-5xl text-foreground mb-4">
+              A culture of <span className="cursive-accent">growth.</span>
+            </h2>
           </motion.div>
-
-          <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}
-          >
+          <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
             {[
-              {
-                icon: Rocket,
-                bg: "bg-blue-500",
-                title: "Innovation First",
-                desc: "Cutting-edge projects and emerging technologies",
-              },
-              {
-                icon: Users,
-                bg: "bg-purple-500",
-                title: "Collaborative Spirit",
-                desc: "Cross-functional teams working towards common goals",
-              },
-              {
-                icon: BookOpen,
-                bg: "bg-green-500",
-                title: "Continuous Learning",
-                desc: "Professional development and skill enhancement",
-              },
-              {
-                icon: Trophy,
-                bg: "bg-orange-500",
-                title: "Recognition",
-                desc: "Celebrating achievements and milestones",
-              },
+              { icon: Rocket, title: "Innovation First", desc: "Cutting-edge projects and emerging technologies." },
+              { icon: Users, title: "Collaborative Spirit", desc: "Cross-functional teams with common goals." },
+              { icon: BookOpen, title: "Continuous Learning", desc: "Professional development and skill enhancement." },
+              { icon: Trophy, title: "Recognition", desc: "Celebrating achievements and milestones." },
             ].map((item, i) => (
-              <motion.div
-                key={i}
-                variants={fadeUp}
-                className="bg-white rounded-2xl p-8 text-center border border-border/40 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all"
-                data-testid={`culture-card-${i}`}
-              >
-                <div className={`w-14 h-14 ${item.bg} rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-lg`}>
-                  <item.icon className="w-7 h-7 text-white" />
+              <motion.div key={i} variants={fadeUp} className="premium-card rounded-2xl p-6 text-center" data-testid={`culture-card-${i}`}>
+                <div className="w-11 h-11 bg-foreground rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <item.icon className="w-5 h-5 text-white" />
                 </div>
-                <h4 className="text-base font-bold text-foreground mb-2">{item.title}</h4>
-                <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+                <h4 className="font-bold text-sm text-foreground mb-1.5">{item.title}</h4>
+                <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -261,54 +136,47 @@ export default function About() {
       </section>
 
       {/* MISSION QUOTE */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <motion.div
-            className="text-center"
+            className="rounded-3xl overflow-hidden p-10 md:p-14 text-center relative"
+            style={{ backgroundColor: "#1a1512" }}
             initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
           >
-            <blockquote className="text-2xl md:text-3xl font-bold text-foreground leading-snug relative px-8">
-              <span className="absolute -top-4 -left-0 text-6xl text-accent/20 font-serif">"</span>
-              Our mission is to empower businesses with technology that not only solves today's problems but anticipates tomorrow's opportunities.
-              <span className="absolute -bottom-8 -right-0 text-6xl text-accent/20 font-serif">"</span>
-            </blockquote>
+            <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 55% 60% at 50% 100%, rgba(232,82,26,0.15) 0%, transparent 70%)" }} />
+            <div className="relative z-10">
+              <div className="display-heading text-5xl text-white/10 mb-3">"</div>
+              <blockquote className="display-heading text-lg md:text-2xl text-white leading-relaxed max-w-2xl mx-auto font-normal">
+                Our mission is to empower businesses with technology that not only solves today's problems but anticipates tomorrow's opportunities.
+              </blockquote>
+              <div className="display-heading text-5xl text-white/10 mt-3">"</div>
+            </div>
           </motion.div>
         </div>
       </section>
 
       {/* TEAM */}
-      <section className="py-20" style={{ background: "#f4f7ff" }}>
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          <motion.div
-            className="text-center mb-14"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-          >
-            <SectionLabel>Our Team</SectionLabel>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">Meet the Experts</h2>
-            <p className="text-muted-foreground text-base">The people driving your success.</p>
+      <section className="py-20 bg-white/40 border-t border-border/60">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <motion.div className="text-center mb-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
+            <span className="section-label mb-5 inline-flex">Our Team</span>
+            <h2 className="display-heading text-3xl md:text-5xl text-foreground mb-3">
+              Meet the <span className="cursive-accent">experts.</span>
+            </h2>
           </motion.div>
-
-          <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
-            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}
-          >
+          <motion.div className="grid grid-cols-2 sm:grid-cols-4 gap-6" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
             {[
-              { name: "Alexandra Reed", role: "CEO & Founder", initials: "AR", bg: "bg-blue-600" },
-              { name: "David Chen", role: "CTO", initials: "DC", bg: "bg-purple-600" },
-              { name: "Sarah Jenkins", role: "Head of Marketing", initials: "SJ", bg: "bg-teal-600" },
-              { name: "Marcus Johnson", role: "Lead Architect", initials: "MJ", bg: "bg-orange-600" },
+              { name: "Alexandra Reed", role: "CEO & Founder", initials: "AR" },
+              { name: "David Chen", role: "CTO", initials: "DC" },
+              { name: "Sarah Jenkins", role: "Head of Marketing", initials: "SJ" },
+              { name: "Marcus Johnson", role: "Lead Architect", initials: "MJ" },
             ].map((member, i) => (
-              <motion.div
-                key={i}
-                variants={fadeUp}
-                className="text-center group"
-                data-testid={`team-member-${i}`}
-              >
-                <AvatarUI className="w-24 h-24 mx-auto mb-4 border-4 border-white shadow-md group-hover:shadow-lg transition-shadow">
-                  <AvatarFallback className={`text-xl font-bold text-white ${member.bg}`}>{member.initials}</AvatarFallback>
-                </AvatarUI>
-                <h4 className="text-base font-bold text-foreground">{member.name}</h4>
-                <p className="text-sm text-muted-foreground">{member.role}</p>
+              <motion.div key={i} variants={fadeUp} className="text-center group" data-testid={`team-member-${i}`}>
+                <div className="w-20 h-20 mx-auto mb-3 rounded-full bg-foreground flex items-center justify-center text-lg font-black text-white shadow-md border-4 border-background group-hover:scale-105 transition-transform">
+                  {member.initials}
+                </div>
+                <h4 className="font-bold text-sm text-foreground">{member.name}</h4>
+                <p className="text-xs text-muted-foreground mt-0.5">{member.role}</p>
               </motion.div>
             ))}
           </motion.div>
