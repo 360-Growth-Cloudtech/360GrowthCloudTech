@@ -88,70 +88,76 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+/* ── Palette: Deep Indigo-Violet + Emerald ──────────────────── */
 :root {
-  --button-outline: rgba(0,0,0, .10);
-  --badge-outline: rgba(0,0,0, .05);
+  --button-outline: rgba(0,0,0,.10);
+  --badge-outline: rgba(0,0,0,.05);
   --opaque-button-border-intensity: -8;
-  --elevate-1: rgba(0,0,0, .03);
-  --elevate-2: rgba(0,0,0, .08);
+  --elevate-1: rgba(0,0,0,.03);
+  --elevate-2: rgba(0,0,0,.08);
 
-  --background: 220 33% 97%;
-  --foreground: 226 60% 8%;
-  --border: 220 20% 88%;
+  /* Neutral off-white background — no blue tint */
+  --background: 0 0% 97%;
+  --foreground: 240 25% 8%;
+  --border: 240 12% 88%;
 
   --card: 0 0% 100%;
-  --card-foreground: 226 60% 8%;
-  --card-border: 220 20% 90%;
+  --card-foreground: 240 25% 8%;
+  --card-border: 240 12% 90%;
 
   --sidebar: 0 0% 100%;
-  --sidebar-foreground: 226 60% 8%;
-  --sidebar-border: 220 20% 90%;
-  --sidebar-primary: 229 79% 24%;
+  --sidebar-foreground: 240 25% 8%;
+  --sidebar-border: 240 12% 90%;
+  --sidebar-primary: 258 72% 35%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 215 79% 49%;
+  --sidebar-accent: 270 76% 58%;
   --sidebar-accent-foreground: 0 0% 100%;
-  --sidebar-ring: 229 79% 24%;
+  --sidebar-ring: 258 72% 35%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 226 60% 8%;
-  --popover-border: 220 20% 90%;
+  --popover-foreground: 240 25% 8%;
+  --popover-border: 240 12% 90%;
 
-  --primary: 229 79% 24%;
+  /* Primary: deep indigo-purple  #3b1fa8 */
+  --primary: 258 72% 38%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 215 79% 49%;
+  /* Secondary: vivid violet  #7c3aed */
+  --secondary: 267 84% 58%;
   --secondary-foreground: 0 0% 100%;
 
-  --muted: 220 15% 94%;
-  --muted-foreground: 220 15% 42%;
+  --muted: 240 10% 94%;
+  --muted-foreground: 240 10% 44%;
 
-  --accent: 181 100% 39%;
+  /* Accent: emerald green  #10b981 */
+  --accent: 158 64% 40%;
   --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
 
-  --input: 220 20% 90%;
-  --ring: 229 79% 24%;
+  --input: 240 12% 88%;
+  --ring: 258 72% 38%;
 
-  --chart-1: 229 79% 24%;
-  --chart-2: 215 79% 49%;
-  --chart-3: 181 100% 39%;
-  --chart-4: 210 50% 60%;
-  --chart-5: 190 60% 70%;
+  --chart-1: 258 72% 38%;
+  --chart-2: 267 84% 58%;
+  --chart-3: 158 64% 40%;
+  --chart-4: 36 100% 52%;
+  --chart-5: 199 89% 48%;
 
   --app-font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
   --app-font-serif: Georgia, serif;
   --app-font-mono: Menlo, monospace;
   --radius: 0.875rem;
-  --shadow-2xs: 0 1px 2px rgba(13, 31, 110, 0.04);
-  --shadow-xs: 0 1px 3px rgba(13, 31, 110, 0.06);
-  --shadow-sm: 0 2px 6px rgba(13, 31, 110, 0.07), 0 1px 2px rgba(13, 31, 110, 0.04);
-  --shadow: 0 4px 12px rgba(13, 31, 110, 0.08), 0 1px 3px rgba(13, 31, 110, 0.05);
-  --shadow-md: 0 8px 20px rgba(13, 31, 110, 0.10), 0 2px 6px rgba(13, 31, 110, 0.06);
-  --shadow-lg: 0 12px 32px rgba(13, 31, 110, 0.12), 0 4px 8px rgba(13, 31, 110, 0.07);
-  --shadow-xl: 0 20px 48px rgba(13, 31, 110, 0.16), 0 8px 16px rgba(13, 31, 110, 0.08);
-  --shadow-2xl: 0 32px 64px rgba(13, 31, 110, 0.20);
+
+  --shadow-2xs: 0 1px 2px rgba(59,31,168,.04);
+  --shadow-xs: 0 1px 3px rgba(59,31,168,.06);
+  --shadow-sm: 0 2px 6px rgba(59,31,168,.07), 0 1px 2px rgba(59,31,168,.04);
+  --shadow: 0 4px 12px rgba(59,31,168,.08), 0 1px 3px rgba(59,31,168,.05);
+  --shadow-md: 0 8px 20px rgba(59,31,168,.09), 0 2px 6px rgba(59,31,168,.05);
+  --shadow-lg: 0 12px 32px rgba(59,31,168,.11), 0 4px 8px rgba(59,31,168,.06);
+  --shadow-xl: 0 20px 48px rgba(59,31,168,.15), 0 8px 16px rgba(59,31,168,.07);
+  --shadow-2xl: 0 32px 64px rgba(59,31,168,.18);
   --tracking-normal: 0em;
   --spacing: 0.25rem;
 
@@ -165,67 +171,61 @@
 }
 
 .dark {
-  --button-outline: rgba(0,0,0, .10);
-  --badge-outline: rgba(0,0,0, .05);
+  --button-outline: rgba(0,0,0,.10);
+  --badge-outline: rgba(0,0,0,.05);
   --opaque-button-border-intensity: -8;
-  --elevate-1: rgba(0,0,0, .03);
-  --elevate-2: rgba(0,0,0, .08);
-  --background: 220 33% 97%;
-  --foreground: 226 60% 8%;
-  --border: 220 20% 88%;
+  --elevate-1: rgba(0,0,0,.03);
+  --elevate-2: rgba(0,0,0,.08);
+  --background: 0 0% 97%;
+  --foreground: 240 25% 8%;
+  --border: 240 12% 88%;
   --card: 0 0% 100%;
-  --card-foreground: 226 60% 8%;
-  --card-border: 220 20% 90%;
+  --card-foreground: 240 25% 8%;
+  --card-border: 240 12% 90%;
   --sidebar: 0 0% 100%;
-  --sidebar-foreground: 226 60% 8%;
-  --sidebar-border: 220 20% 90%;
-  --sidebar-primary: 229 79% 24%;
+  --sidebar-foreground: 240 25% 8%;
+  --sidebar-border: 240 12% 90%;
+  --sidebar-primary: 258 72% 35%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 215 79% 49%;
+  --sidebar-accent: 270 76% 58%;
   --sidebar-accent-foreground: 0 0% 100%;
-  --sidebar-ring: 229 79% 24%;
+  --sidebar-ring: 258 72% 35%;
   --popover: 0 0% 100%;
-  --popover-foreground: 226 60% 8%;
-  --popover-border: 220 20% 90%;
-  --primary: 229 79% 24%;
+  --popover-foreground: 240 25% 8%;
+  --popover-border: 240 12% 90%;
+  --primary: 258 72% 38%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 215 79% 49%;
+  --secondary: 267 84% 58%;
   --secondary-foreground: 0 0% 100%;
-  --muted: 220 15% 94%;
-  --muted-foreground: 220 15% 42%;
-  --accent: 181 100% 39%;
+  --muted: 240 10% 94%;
+  --muted-foreground: 240 10% 44%;
+  --accent: 158 64% 40%;
   --accent-foreground: 0 0% 100%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
-  --input: 220 20% 90%;
-  --ring: 229 79% 24%;
-  --chart-1: 229 79% 24%;
-  --chart-2: 215 79% 49%;
-  --chart-3: 181 100% 39%;
-  --chart-4: 210 50% 60%;
-  --chart-5: 190 60% 70%;
-  --shadow-2xs: 0 1px 2px rgba(13, 31, 110, 0.04);
-  --shadow-xs: 0 1px 3px rgba(13, 31, 110, 0.06);
-  --shadow-sm: 0 2px 6px rgba(13, 31, 110, 0.07), 0 1px 2px rgba(13, 31, 110, 0.04);
-  --shadow: 0 4px 12px rgba(13, 31, 110, 0.08), 0 1px 3px rgba(13, 31, 110, 0.05);
-  --shadow-md: 0 8px 20px rgba(13, 31, 110, 0.10), 0 2px 6px rgba(13, 31, 110, 0.06);
-  --shadow-lg: 0 12px 32px rgba(13, 31, 110, 0.12), 0 4px 8px rgba(13, 31, 110, 0.07);
-  --shadow-xl: 0 20px 48px rgba(13, 31, 110, 0.16), 0 8px 16px rgba(13, 31, 110, 0.08);
-  --shadow-2xl: 0 32px 64px rgba(13, 31, 110, 0.20);
+  --input: 240 12% 88%;
+  --ring: 258 72% 38%;
+  --chart-1: 258 72% 38%;
+  --chart-2: 267 84% 58%;
+  --chart-3: 158 64% 40%;
+  --chart-4: 36 100% 52%;
+  --chart-5: 199 89% 48%;
+  --shadow-2xs: 0 1px 2px rgba(59,31,168,.04);
+  --shadow-xs: 0 1px 3px rgba(59,31,168,.06);
+  --shadow-sm: 0 2px 6px rgba(59,31,168,.07), 0 1px 2px rgba(59,31,168,.04);
+  --shadow: 0 4px 12px rgba(59,31,168,.08), 0 1px 3px rgba(59,31,168,.05);
+  --shadow-md: 0 8px 20px rgba(59,31,168,.09), 0 2px 6px rgba(59,31,168,.05);
+  --shadow-lg: 0 12px 32px rgba(59,31,168,.11), 0 4px 8px rgba(59,31,168,.06);
+  --shadow-xl: 0 20px 48px rgba(59,31,168,.15), 0 8px 16px rgba(59,31,168,.07);
+  --shadow-2xl: 0 32px 64px rgba(59,31,168,.18);
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
   body {
     @apply font-sans antialiased bg-background text-foreground;
-    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-feature-settings: "cv02","cv03","cv04","cv11";
   }
 }
 
@@ -233,111 +233,78 @@
 
 .gradient-text {
   @apply bg-clip-text text-transparent;
-  background-image: linear-gradient(135deg, #0d1f6e 0%, #1a6be0 50%, #00c5c8 100%);
+  background-image: linear-gradient(135deg, #3b1fa8 0%, #7c3aed 55%, #10b981 100%);
 }
 
 .gradient-bg {
-  background-image: linear-gradient(135deg, #0d1f6e 0%, #1a6be0 55%, #00c5c8 100%);
+  background-image: linear-gradient(135deg, #2d1580 0%, #5b21b6 45%, #7c3aed 75%, #10b981 100%);
   @apply text-white;
 }
 
-.gradient-bg-soft {
-  background-image: linear-gradient(135deg, rgba(13,31,110,0.06) 0%, rgba(26,107,224,0.06) 50%, rgba(0,197,200,0.06) 100%);
-}
-
-/* ─── Glass Card ──────────────────────────────────────────────── */
+/* ─── Glass / Premium Card ────────────────────────────────────── */
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255,255,255,0.72);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 32px rgba(13, 31, 110, 0.08);
+  border: 1px solid rgba(255,255,255,0.5);
+  box-shadow: 0 8px 32px rgba(59,31,168,.07);
 }
-
-/* ─── Premium Card ────────────────────────────────────────────── */
 
 .premium-card {
   background: #ffffff;
-  border: 1px solid rgba(13, 31, 110, 0.08);
-  box-shadow: 0 1px 3px rgba(13, 31, 110, 0.05), 0 4px 16px rgba(13, 31, 110, 0.04);
-  transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+  border: 1px solid rgba(59,31,168,.08);
+  box-shadow: 0 1px 3px rgba(59,31,168,.05), 0 4px 12px rgba(59,31,168,.04);
+  transition: box-shadow .25s ease, transform .25s ease, border-color .25s ease;
 }
-
 .premium-card:hover {
-  box-shadow: 0 4px 24px rgba(13, 31, 110, 0.12), 0 1px 4px rgba(13, 31, 110, 0.06);
-  border-color: rgba(26, 107, 224, 0.18);
+  box-shadow: 0 4px 20px rgba(124,58,237,.13), 0 1px 4px rgba(59,31,168,.06);
+  border-color: rgba(124,58,237,.18);
   transform: translateY(-2px);
 }
 
-/* ─── Noise Texture ───────────────────────────────────────────── */
+/* ─── Background Patterns ─────────────────────────────────────── */
 
 .hero-grid-bg {
   background-image:
-    linear-gradient(rgba(26, 107, 224, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(26, 107, 224, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(124,58,237,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124,58,237,.035) 1px, transparent 1px);
   background-size: 48px 48px;
 }
 
-/* ─── Glow Effects ────────────────────────────────────────────── */
-
-.glow-primary {
-  box-shadow: 0 0 40px rgba(26, 107, 224, 0.25);
-}
-
-.glow-accent {
-  box-shadow: 0 0 40px rgba(0, 197, 200, 0.25);
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.18) 1px, transparent 1px);
+  background-size: 22px 22px;
 }
 
 /* ─── Section Label ───────────────────────────────────────────── */
-
 .section-label {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: #1a6be0;
-  background: rgba(26, 107, 224, 0.08);
-  border: 1px solid rgba(26, 107, 224, 0.15);
-  padding: 5px 14px;
+  color: #5b21b6;
+  background: rgba(91,33,182,.08);
+  border: 1px solid rgba(91,33,182,.15);
+  padding: 4px 12px;
   border-radius: 100px;
 }
 
-/* ─── Animated Underline Link ─────────────────────────────────── */
-
-.link-hover {
-  position: relative;
-}
-
+/* ─── Misc ────────────────────────────────────────────────────── */
+.link-hover { position: relative; }
 .link-hover::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, #0d1f6e, #1a6be0);
-  transition: width 0.3s ease;
-  border-radius: 2px;
+  content:'';position:absolute;bottom:-2px;left:0;
+  width:0;height:2px;
+  background:linear-gradient(90deg,#3b1fa8,#7c3aed);
+  transition:width .3s ease;border-radius:2px;
 }
-
-.link-hover:hover::after {
-  width: 100%;
-}
-
-/* ─── Dot Pattern ─────────────────────────────────────────────── */
-.dot-pattern {
-  background-image: radial-gradient(circle, rgba(13, 31, 110, 0.12) 1px, transparent 1px);
-  background-size: 24px 24px;
-}
+.link-hover:hover::after { width:100%; }
 
 @layer utilities {
-  input[type="search"]::-webkit-search-cancel-button {
-    @apply hidden;
-  }
+  input[type="search"]::-webkit-search-cancel-button { @apply hidden; }
   [contenteditable][data-placeholder]:empty::before {
     content: attr(data-placeholder);
     color: hsl(var(--muted-foreground));
@@ -345,52 +312,28 @@
   }
   .no-default-hover-elevate {}
   .no-default-active-elevate {}
-  .toggle-elevate::before,
-  .toggle-elevate-2::before {
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    inset: 0px;
-    border-radius: inherit;
-    z-index: -1;
+  .toggle-elevate::before,.toggle-elevate-2::before {
+    content:"";pointer-events:none;position:absolute;inset:0px;border-radius:inherit;z-index:-1;
   }
-  .toggle-elevate.toggle-elevated::before {
-    background-color: var(--elevate-2);
-  }
-  .border.toggle-elevate::before {
-    inset: -1px;
-  }
+  .toggle-elevate.toggle-elevated::before { background-color:var(--elevate-2); }
+  .border.toggle-elevate::before { inset:-1px; }
   .hover-elevate:not(.no-default-hover-elevate),
   .active-elevate:not(.no-default-active-elevate),
   .hover-elevate-2:not(.no-default-hover-elevate),
-  .active-elevate-2:not(.no-default-active-elevate) {
-    position: relative;
-    z-index: 0;
-  }
+  .active-elevate-2:not(.no-default-active-elevate) { position:relative;z-index:0; }
   .hover-elevate:not(.no-default-hover-elevate)::after,
   .active-elevate:not(.no-default-active-elevate)::after,
   .hover-elevate-2:not(.no-default-hover-elevate)::after,
   .active-elevate-2:not(.no-default-active-elevate)::after {
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    inset: 0px;
-    border-radius: inherit;
-    z-index: 999;
+    content:"";pointer-events:none;position:absolute;inset:0px;border-radius:inherit;z-index:999;
   }
   .hover-elevate:hover:not(.no-default-hover-elevate)::after,
-  .active-elevate:active:not(.no-default-active-elevate)::after {
-    background-color: var(--elevate-1);
-  }
+  .active-elevate:active:not(.no-default-active-elevate)::after { background-color:var(--elevate-1); }
   .hover-elevate-2:hover:not(.no-default-hover-elevate)::after,
-  .active-elevate-2:active:not(.no-default-active-elevate)::after {
-    background-color: var(--elevate-2);
-  }
+  .active-elevate-2:active:not(.no-default-active-elevate)::after { background-color:var(--elevate-2); }
   .border.hover-elevate:not(.no-hover-interaction-elevate)::after,
   .border.active-elevate:not(.no-active-interaction-elevate)::after,
   .border.hover-elevate-2:not(.no-hover-interaction-elevate)::after,
   .border.active-elevate-2:not(.no-active-interaction-elevate)::after,
-  .border.hover-elevate:not(.no-hover-interaction-elevate)::after {
-    inset: -1px;
-  }
+  .border.hover-elevate:not(.no-hover-interaction-elevate)::after { inset:-1px; }
 }
