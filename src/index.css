@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "@tailwindcss/typography";
@@ -86,7 +86,7 @@
   --ring: 15 82% 51%;
 
   --app-font-sans: 'Plus Jakarta Sans', sans-serif;
-  --app-font-serif: 'Plus Jakarta Sans', sans-serif;
+  --app-font-serif: 'Playfair Display', serif;
   --app-font-mono: Menlo, monospace;
   --radius: 0.75rem;
 
@@ -134,18 +134,17 @@
   }
 }
 
-/* ── Display headings (sans-serif) ────────────────────────────── */
+/* ── Display / Serif headings ─────────────────────────────────── */
 .display-heading {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: -0.025em;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
 }
 
 .cursive-accent {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 800;
-  font-style: italic;
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
   color: #e8521a;
 }
 
