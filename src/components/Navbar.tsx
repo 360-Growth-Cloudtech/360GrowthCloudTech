@@ -5,19 +5,11 @@ import { Link, useLocation } from "wouter";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 
 export function Navbar() {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const [location] = useLocation();
   const { setOpen } = useScheduleMeeting();
-  const [scrollProgress, setScrollProgress] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 24);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -30,40 +22,26 @@ export function Navbar() {
   }, []);
 
   useEffect(() => {
-    const handleProgress = () => {
-      const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      setScrollProgress(docHeight > 0 ? (scrollTop / docHeight) * 100 : 0);
-    };
-    window.addEventListener("scroll", handleProgress, { passive: true });
-    return () => window.removeEventListener("scroll", handleProgress);
-  }, []);
+    setMobileMenuOpen(false);
+  }, [location]);
 
   const isActive = (path: string) => location === path;
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white/85 backdrop-blur-xl shadow-sm border-b border-border/40 py-3"
-          : "bg-transparent py-5"
-      }`}
-      data-testid="navbar"
-    >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
+    <>
+      <nav
+        className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-3xl"
+        data-testid="navbar"
+      >
+        <div className="floating-nav px-4 py-2.5 flex items-center justify-between gap-2">
 
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center gap-2" data-testid="nav-logo-link">
-              <img src={logo} alt="360GrowthCloudTech" className="h-9 w-auto" />
-            </Link>
-          </div>
+          <Link href="/" className="flex items-center gap-2 shrink-0" data-testid="nav-logo-link">
+            <img src={logo} alt="360GrowthCloudTech" className="h-8 w-auto" />
+          </Link>
 
-          {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-1">
-
-            {/* Services dropdown */}
+          {/* Desktop nav links — center */}
+          <div className="hidden md:flex items-center gap-0.5">
             <div
               className="relative"
               ref={dropdownRef}
@@ -71,33 +49,25 @@ export function Navbar() {
               onMouseLeave={() => setServicesDropdownOpen(false)}
             >
               <button
-                className={`flex items-center gap-1 px-4 py-2 rounded-xl text-sm font-semibold transition-colors ${
-                  isActive("/services") || isActive("/industries")
-                    ? "text-primary bg-primary/6"
-                    : "text-foreground/75 hover:text-foreground hover:bg-foreground/5"
-                }`}
                 onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
                 data-testid="nav-link-services"
-                style={{ background: isActive("/services") || isActive("/industries") ? "rgba(13,31,110,0.06)" : undefined }}
+                className={`flex items-center gap-1 px-3.5 py-2 rounded-full text-sm font-semibold transition-colors ${
+                  isActive("/services") || isActive("/industries")
+                    ? "text-primary"
+                    : "text-foreground/70 hover:text-foreground"
+                }`}
               >
                 Services
                 <ChevronDown size={13} className={`transition-transform duration-200 ${servicesDropdownOpen ? "rotate-180" : ""}`} />
               </button>
 
               {servicesDropdownOpen && (
-                <div className="absolute top-full left-0 pt-2 w-52" data-testid="nav-dropdown-services">
-                  <div className="bg-white rounded-2xl shadow-xl border border-border/50 overflow-hidden p-1.5 flex flex-col gap-0.5">
-                    <Link
-                      href="/services"
-                      className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:bg-primary/6 hover:text-primary rounded-xl transition-colors"
-                      style={{}}
-                    >
+                <div className="absolute top-full left-0 pt-2 w-44" data-testid="nav-dropdown-services">
+                  <div className="bg-white rounded-2xl shadow-xl border border-border/60 overflow-hidden p-1.5 flex flex-col gap-0.5">
+                    <Link href="/services" className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:bg-primary/8 hover:text-primary rounded-xl transition-colors">
                       All Services
                     </Link>
-                    <Link
-                      href="/industries"
-                      className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:bg-primary/6 hover:text-primary rounded-xl transition-colors"
-                    >
+                    <Link href="/industries" className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:bg-primary/8 hover:text-primary rounded-xl transition-colors">
                       Industries
                     </Link>
                   </div>
@@ -106,86 +76,80 @@ export function Navbar() {
             </div>
 
             {[
-              { href: "/about", label: "About Us", testId: "nav-link-about-us" },
+              { href: "/about", label: "About", testId: "nav-link-about-us" },
               { href: "/insights", label: "Insights", testId: "nav-link-insights" },
               { href: "/contact", label: "Contact", testId: "nav-link-contact-us" },
             ].map(({ href, label, testId }) => (
               <Link
                 key={href}
                 href={href}
-                className={`px-4 py-2 rounded-xl text-sm font-semibold transition-colors ${
-                  isActive(href)
-                    ? "text-primary"
-                    : "text-foreground/75 hover:text-foreground hover:bg-foreground/5"
-                }`}
                 data-testid={testId}
-                style={isActive(href) ? { background: "rgba(13,31,110,0.06)" } : {}}
+                className={`px-3.5 py-2 rounded-full text-sm font-semibold transition-colors ${
+                  isActive(href) ? "text-primary" : "text-foreground/70 hover:text-foreground"
+                }`}
               >
                 {label}
               </Link>
             ))}
+          </div>
 
+          {/* Right side */}
+          <div className="flex items-center gap-2">
             <button
               onClick={() => setOpen(true)}
-              className="ml-2 px-4 py-2 rounded-xl text-sm font-semibold text-primary hover:bg-primary/6 transition-colors"
               data-testid="nav-link-schedule-meeting"
-              style={{}}
+              className="hidden md:block text-sm font-semibold text-foreground/70 hover:text-foreground transition-colors px-3"
             >
-              Schedule Meeting
+              Book a call
             </button>
-
             <Link
               href="/contact"
-              className="ml-1 gradient-bg px-5 py-2.5 rounded-xl text-sm font-bold text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all"
               data-testid="nav-cta-button"
+              className="btn-dark text-sm px-4 py-2 rounded-full"
+              style={{ fontSize: "0.82rem", padding: "8px 18px" }}
             >
-              Get Started
+              Get started
             </Link>
-          </div>
-
-          {/* Mobile toggle */}
-          <div className="md:hidden">
+            {/* Mobile toggle */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="w-10 h-10 flex items-center justify-center rounded-xl text-foreground hover:bg-foreground/5 transition-colors"
+              className="md:hidden w-9 h-9 flex items-center justify-center rounded-full text-foreground hover:bg-foreground/6 transition-colors"
               data-testid="nav-mobile-toggle"
             >
-              {mobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
+              {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
           </div>
         </div>
-      </div>
 
-
-      {/* Mobile menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-xl border-b border-border shadow-xl">
-          <div className="container mx-auto px-4 py-6 flex flex-col gap-1">
-            <div className="pb-4 mb-2 border-b border-border/50">
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3 px-4">Services</p>
-              <Link href="/services" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2.5 text-sm font-medium text-foreground/80 hover:text-primary rounded-xl hover:bg-primary/5 transition-colors">All Services</Link>
-              <Link href="/industries" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2.5 text-sm font-medium text-foreground/80 hover:text-primary rounded-xl hover:bg-primary/5 transition-colors">Industries</Link>
-            </div>
-            {[
-              { href: "/about", label: "About Us" },
-              { href: "/insights", label: "Insights" },
-              { href: "/contact", label: "Contact Us" },
-            ].map(({ href, label }) => (
-              <Link key={href} href={href} onClick={() => setMobileMenuOpen(false)} className={`px-4 py-2.5 rounded-xl text-sm font-medium transition-colors ${isActive(href) ? "text-primary bg-primary/5" : "text-foreground/80 hover:text-primary hover:bg-primary/5"}`}>
-                {label}
-              </Link>
-            ))}
-            <button onClick={() => { setMobileMenuOpen(false); setOpen(true); }} className="text-left px-4 py-2.5 rounded-xl text-sm font-semibold text-primary hover:bg-primary/5 transition-colors">
-              Schedule Meeting
-            </button>
-            <div className="pt-4 mt-2 border-t border-border/50">
-              <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="gradient-bg flex justify-center w-full px-5 py-3.5 rounded-xl text-sm font-bold text-white shadow-md">
-                Get Started Free
-              </Link>
+        {/* Mobile dropdown */}
+        {mobileMenuOpen && (
+          <div className="md:hidden mt-2 rounded-3xl overflow-hidden bg-white/95 backdrop-blur-xl border border-border shadow-xl">
+            <div className="px-4 py-5 flex flex-col gap-1">
+              <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2 px-3">Services</p>
+              <Link href="/services" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2.5 text-sm font-semibold text-foreground/80 hover:text-primary rounded-xl hover:bg-primary/5 transition-colors">All Services</Link>
+              <Link href="/industries" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2.5 text-sm font-semibold text-foreground/80 hover:text-primary rounded-xl hover:bg-primary/5 transition-colors">Industries</Link>
+              <div className="my-2 border-t border-border/50" />
+              {[
+                { href: "/about", label: "About Us" },
+                { href: "/insights", label: "Insights" },
+                { href: "/contact", label: "Contact" },
+              ].map(({ href, label }) => (
+                <Link key={href} href={href} onClick={() => setMobileMenuOpen(false)} className={`px-3 py-2.5 rounded-xl text-sm font-semibold transition-colors ${isActive(href) ? "text-primary" : "text-foreground/80 hover:text-primary hover:bg-primary/5"}`}>
+                  {label}
+                </Link>
+              ))}
+              <div className="mt-3 flex flex-col gap-2">
+                <button onClick={() => { setMobileMenuOpen(false); setOpen(true); }} className="btn-primary w-full rounded-full text-sm">
+                  Book a Free Call
+                </button>
+                <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="btn-outline w-full rounded-full text-sm text-center">
+                  Send a Message
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      )}
-    </nav>
+        )}
+      </nav>
+    </>
   );
 }
