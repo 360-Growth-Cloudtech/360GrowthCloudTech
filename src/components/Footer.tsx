@@ -47,16 +47,16 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
           <div className="lg:col-span-2 space-y-5">
-            <Link href="/">
-              <img src={logo} alt="360GrowthCloudTech" className="h-10 w-auto brightness-0 invert cursor-pointer" />
+            <Link href="/" className="flex items-center gap-3 w-fit">
+              <img src={logo} alt="360GrowthCloudTech" className="h-10 w-auto brightness-0 invert shrink-0" />
+              <span className="text-base font-bold text-white leading-snug">
+                360 Growth cloud tech
+              </span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs" style={{ color: "rgba(255,255,255,0.45)" }}>
               Designing digital-first technologies for future growth — across software, cloud, security, and marketing.
             </p>
             <ul className="space-y-2.5">
-              <li className="flex items-center gap-2.5 text-sm" style={{ color: "rgba(255,255,255,0.45)" }}>
-                <MapPin size={13} /> Tech District, Innovation Hub, San Francisco
-              </li>
               <li className="flex items-center gap-2.5 text-sm" style={{ color: "rgba(255,255,255,0.45)" }}>
                 <Mail size={13} /> hello@360growthcloudtech.com
               </li>
