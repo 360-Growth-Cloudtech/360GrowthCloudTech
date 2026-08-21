@@ -1,5 +1,6 @@
+"use client";
+
 import { useState } from "react";
-import { Layout } from "@/components/Layout";
 import { PageHero } from "@/components/PageHero";
 import { Eye, Heart, MessageCircle, Search, ChevronDown, ArrowRight, BookOpen } from "lucide-react";
 import { motion } from "framer-motion";
@@ -191,7 +192,7 @@ export default function Insights() {
   const featuredSmall = featuredArticles.filter((a) => a.featuredSize === "small");
 
   return (
-    <Layout>
+    <>
       <PageHero label="Insights & Innovation" title="Latest insights." subtitle="Cutting-edge perspectives on technology trends, industry innovations, and successful digital transformation stories." />
 
       {/* SEARCH + FILTER BAR */}
@@ -398,6 +399,6 @@ export default function Insights() {
           </div>
         </section>
       </div>
-    </Layout>
+    </>
   );
 }

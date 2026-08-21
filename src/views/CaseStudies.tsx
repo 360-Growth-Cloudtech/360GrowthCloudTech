@@ -1,7 +1,8 @@
-import { Layout } from "@/components/Layout";
+"use client";
+
+import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { CheckCircle2, ArrowRight } from "lucide-react";
-import { Link } from "wouter";
 
 export default function CaseStudies() {
   const caseStudies = [
@@ -26,7 +27,7 @@ export default function CaseStudies() {
   ];
 
   return (
-    <Layout>
+    <>
       <PageHero 
         title="Case Studies" 
         subtitle="Real Problems. Real Results."
@@ -91,6 +92,6 @@ export default function CaseStudies() {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }

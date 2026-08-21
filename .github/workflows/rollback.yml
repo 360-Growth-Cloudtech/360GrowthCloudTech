@@ -31,7 +31,7 @@ jobs:
         run: docker rm -f 360growthcloudtech || true
 
       - name: Start rollback container
-        run: docker run -d --name 360growthcloudtech -p 80:80 ${{ env.IMAGE_NAME }}:${{ github.event.inputs.git_sha }}
+        run: docker run -d --name 360growthcloudtech -p 80:3000 ${{ env.IMAGE_NAME }}:${{ github.event.inputs.git_sha }}
 
       - name: Confirm running image
         run: |

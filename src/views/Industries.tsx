@@ -1,8 +1,9 @@
+"use client";
+
 import { motion } from "framer-motion";
-import { Layout } from "@/components/Layout";
+import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { HeartPulse, Plane, Building2, Landmark, GraduationCap, Building, ArrowRight, CheckCircle } from "lucide-react";
-import { Link } from "wouter";
 
 const fadeUp = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 } };
 const stagger = { animate: { transition: { staggerChildren: 0.09 } } };
@@ -18,7 +19,7 @@ export default function Industries() {
   ];
 
   return (
-    <Layout>
+    <>
       <PageHero label="Industries" title="Who we serve." subtitle="Deep domain expertise across complex, regulated, and high-growth sectors." />
 
       <section className="py-20 bg-background">
@@ -65,6 +66,6 @@ export default function Industries() {
           </motion.div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }

@@ -1,5 +1,6 @@
+"use client";
+
 import { motion } from "framer-motion";
-import { Layout } from "@/components/Layout";
 import { PageHero } from "@/components/PageHero";
 import { ContactForm } from "@/components/ContactForm";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, CalendarDays } from "lucide-react";
@@ -11,13 +12,13 @@ export default function Contact() {
   const { setOpen } = useScheduleMeeting();
 
   const contactDetails = [
-    { icon: Mail, label: "Email Us", value: "hello@360growthcloudtech.com" },
+    { icon: Mail, label: "Email Us", value: "hello@360cloudtech.com" },
     { icon: Phone, label: "Call Us", value: "+1 (800) 123-4567" },
     { icon: MapPin, label: "Visit Us", value: "123 Innovation Drive, Tech District\nSan Francisco, CA 94105" },
   ];
 
   return (
-    <Layout>
+    <>
       <PageHero label="Contact Us" title="Let's talk." subtitle="Whether you have an RFP or just an idea on a napkin — we're ready to help." />
 
       <section className="py-20 bg-background">
@@ -78,6 +79,6 @@ export default function Contact() {
 
         </div>
       </section>
-    </Layout>
+    </>
   );
 }

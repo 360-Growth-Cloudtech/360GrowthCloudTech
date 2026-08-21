@@ -1,5 +1,6 @@
+"use client";
+
 import { motion } from "framer-motion";
-import { Layout } from "@/components/Layout";
 import { PageHero } from "@/components/PageHero";
 import { ShieldCheck, CheckCircle, Star, Award, Rocket, Users, BookOpen, Trophy, Globe, Lightbulb, Handshake, Heart } from "lucide-react";
 
@@ -8,7 +9,7 @@ const stagger = { visible: { transition: { staggerChildren: 0.09 } }, hidden: {}
 
 export default function About() {
   return (
-    <Layout>
+    <>
       <PageHero label="About Us" title="Who we are." subtitle="Built by technologists. Driven by results. Powered by partnership." />
 
       {/* WHAT WE DO */}
@@ -20,7 +21,7 @@ export default function About() {
               Solving the world's toughest <span className="cursive-accent">challenges.</span>
             </h2>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-3xl mx-auto">
-              360GrowthCloudTech solves our clients' toughest challenges by providing unmatched services in strategy, consulting, digital, technology and operations. With expertise across more than 40 industries, we deliver transformational outcomes for a demanding new digital world.
+              360CloudTech solves our clients' toughest challenges by providing unmatched services in strategy, consulting, digital, technology and operations. With expertise across more than 40 industries, we deliver transformational outcomes for a demanding new digital world.
             </p>
           </motion.div>
 
@@ -182,6 +183,6 @@ export default function About() {
           </motion.div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }

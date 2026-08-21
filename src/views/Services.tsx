@@ -1,8 +1,9 @@
+"use client";
+
 import { motion } from "framer-motion";
-import { Layout } from "@/components/Layout";
+import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Link } from "wouter";
 import { Code2, Users, TrendingUp, Cloud, ShieldCheck, ShoppingCart, ArrowRight, CheckCircle } from "lucide-react";
 
 const fadeUp = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 } };
@@ -39,7 +40,7 @@ export default function Services() {
   ];
 
   return (
-    <Layout>
+    <>
       <PageHero label="Services" title="What we do." subtitle="From idea to a live, growing product — we handle every layer of the stack." />
 
       <section className="py-16 bg-background">
@@ -157,6 +158,6 @@ export default function Services() {
           </motion.div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }

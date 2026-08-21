@@ -1,6 +1,8 @@
-import logo from "@assets/logo.png";
-import { Linkedin, Mail, MapPin, ArrowRight, CalendarDays, Send, Twitter, Facebook } from "lucide-react";
-import { Link } from "wouter";
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { Linkedin, Mail, ArrowRight, CalendarDays, Send, Twitter, Facebook } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 
 export function Footer() {
@@ -9,48 +11,21 @@ export function Footer() {
   return (
     <footer data-testid="footer" style={{ backgroundColor: "#1a1512", color: "white" }}>
 
-      {/* NEWSLETTER */}
-      <div style={{ borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl py-16 text-center">
-          <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest mb-5 border px-3 py-1 rounded-full" style={{ color: "rgba(255,255,255,0.45)", borderColor: "rgba(255,255,255,0.12)" }}>
-            Stay Updated
-          </span>
-          <h2 style={{ fontFamily: "'Playfair Display', serif", fontWeight: 800 }} className="text-3xl md:text-4xl text-white mb-4">
-            Never miss an insight.
-          </h2>
-          <p className="text-sm leading-relaxed mb-8 max-w-sm mx-auto" style={{ color: "rgba(255,255,255,0.45)" }}>
-            Get the latest case studies and industry trends delivered to your inbox weekly.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto mb-3" onSubmit={(e) => e.preventDefault()}>
-            <input
-              type="email"
-              placeholder="Enter your email"
-              required
-              className="flex-1 px-5 py-3 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-primary/40"
-              style={{ backgroundColor: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", color: "white" }}
-              data-testid="footer-newsletter-email"
-            />
-            <button
-              type="submit"
-              className="shrink-0 btn-primary rounded-full text-sm"
-              style={{ fontSize: "0.85rem", padding: "11px 22px" }}
-              data-testid="footer-newsletter-subscribe"
-            >
-              Subscribe <ArrowRight size={14} />
-            </button>
-          </form>
-          <p className="text-xs" style={{ color: "rgba(255,255,255,0.28)" }}>Join 10,000+ professionals getting weekly insights</p>
-        </div>
-      </div>
 
       {/* MAIN FOOTER */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
           <div className="lg:col-span-2 space-y-5">
             <Link href="/" className="flex items-center gap-3 w-fit">
-              <img src={logo} alt="360GrowthCloudTech" className="h-10 w-auto brightness-0 invert shrink-0" />
+              <Image
+                src="/logo.png"
+                alt="360 cloud tech"
+                width={40}
+                height={40}
+                className="h-10 w-auto brightness-0 invert shrink-0"
+              />
               <span className="text-base font-bold text-white leading-snug">
-                360 Growth cloud tech
+                360 cloud tech
               </span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs" style={{ color: "rgba(255,255,255,0.45)" }}>
@@ -58,7 +33,7 @@ export function Footer() {
             </p>
             <ul className="space-y-2.5">
               <li className="flex items-center gap-2.5 text-sm" style={{ color: "rgba(255,255,255,0.45)" }}>
-                <Mail size={13} /> hello@360growthcloudtech.com
+                <Mail size={13} /> hello@360cloudtech.com
               </li>
             </ul>
             <div className="flex gap-2">
@@ -137,7 +112,7 @@ export function Footer() {
         {/* BOTTOM */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-8" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }}>
           <p className="text-xs" style={{ color: "rgba(255,255,255,0.3)" }}>
-            © {new Date().getFullYear()} 360GrowthCloudTech. All rights reserved.
+            © {new Date().getFullYear()} 360CloudTech. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs" style={{ color: "rgba(255,255,255,0.3)" }}>
             <a href="#" className="hover:text-white transition-colors" data-testid="footer-privacy">Privacy Policy</a>
