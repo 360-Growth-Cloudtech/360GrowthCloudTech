@@ -33,7 +33,7 @@ export function Navbar() {
 
   return (
     <motion.nav
-      className="fixed top-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2"
+      className="fixed top-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-4xl -translate-x-1/2"
       data-testid="navbar"
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
@@ -47,12 +47,15 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0 group" data-testid="nav-logo-link">
           <motion.span
-            className="inline-flex"
+            className="inline-flex shrink-0"
             whileHover={{ rotate: -8, scale: 1.08 }}
             transition={{ type: "spring", stiffness: 320, damping: 14 }}
           >
-            <Image src="/logo.png" alt="360 cloud tech" width={35} height={35} className="h-8 w-auto" priority />
+            <Image src="/logo.png" alt="" width={35} height={35} className="h-8 w-auto" priority />
           </motion.span>
+          <span className="hidden sm:block text-sm font-bold text-foreground leading-none tracking-tight group-hover:text-primary transition-colors">
+            Cloud Tech
+          </span>
         </Link>
 
         {/* Desktop nav links — center */}
