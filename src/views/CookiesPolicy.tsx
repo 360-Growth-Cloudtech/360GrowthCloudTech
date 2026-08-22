@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LegalDocument, LegalSection, COMPANY, EMAIL, WEBSITE } from "@/components/LegalDocument";
+import { LegalDocument, LegalSection, COMPANY, EMAIL, PHONE, CONTACT_PHONE_TEL, WEBSITE } from "@/components/LegalDocument";
 
 const LAST_UPDATED = "2026-08-22";
 
@@ -122,6 +122,10 @@ export default function CookiesPolicy() {
           If you have questions about our use of cookies, contact us at{" "}
           <a href={`mailto:${EMAIL}`} className="text-primary font-semibold hover:underline">
             {EMAIL}
+          </a>{" "}
+          or{" "}
+          <a href={CONTACT_PHONE_TEL} className="text-primary font-semibold hover:underline">
+            {PHONE}
           </a>
           .
         </p>

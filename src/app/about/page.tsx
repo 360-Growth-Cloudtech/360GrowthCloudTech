@@ -3,7 +3,7 @@ import About from "@/views/About";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Built by technologists. Driven by results. Powered by partnership.",
+  description: "A team that designs and engineers what it ships — product strategy through production deployment.",
 };
 
 export default function AboutPage() {

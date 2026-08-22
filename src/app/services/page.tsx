@@ -3,7 +3,7 @@ import Services from "@/views/Services";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Custom software, CRM, digital marketing, cloud, and e-commerce services.",
+  description: "AI engineering and design, end to end — product strategy through production deployment.",
 };
 
 export default function ServicesPage() {

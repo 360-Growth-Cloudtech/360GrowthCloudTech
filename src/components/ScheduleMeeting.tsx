@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { CONTACT_PHONE } from "@/lib/contact";
 import {
   Dialog,
   DialogContent,
@@ -160,7 +161,7 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                       <FormItem>
                         <FormLabel>Phone Number</FormLabel>
                         <FormControl>
-                          <Input placeholder="+1 (555) 000-0000" {...field} data-testid="schedule-phone" />
+                          <Input placeholder={CONTACT_PHONE} {...field} data-testid="schedule-phone" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>

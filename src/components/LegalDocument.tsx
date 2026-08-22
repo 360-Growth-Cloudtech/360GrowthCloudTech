@@ -1,10 +1,12 @@
 import { PageHero } from "@/components/PageHero";
+import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from "@/lib/contact";
 
 const COMPANY = "360GrowthCloudTech";
-const EMAIL = "contact@360cloudtech.com";
+const EMAIL = CONTACT_EMAIL;
+const PHONE = CONTACT_PHONE;
 const WEBSITE = "360cloudtech.com";
 
-export { COMPANY, EMAIL, WEBSITE };
+export { COMPANY, EMAIL, PHONE, CONTACT_PHONE_TEL, WEBSITE };
 
 export function LegalDocument({
   title,
@@ -31,6 +33,10 @@ export function LegalDocument({
               Questions about this document? Contact us at{" "}
               <a href={`mailto:${EMAIL}`} className="font-semibold text-primary hover:underline">
                 {EMAIL}
+              </a>{" "}
+              or{" "}
+              <a href={CONTACT_PHONE_TEL} className="font-semibold text-primary hover:underline">
+                {PHONE}
               </a>
               .
             </p>

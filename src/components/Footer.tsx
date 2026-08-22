@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Linkedin, Mail, ArrowRight, CalendarDays, Send, Twitter, Facebook } from "lucide-react";
+import { Linkedin, Mail, Phone, ArrowRight, CalendarDays, Send, Twitter, Facebook } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
+import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from "@/lib/contact";
 
 export function Footer() {
   const { setOpen } = useScheduleMeeting();
@@ -34,11 +35,20 @@ export function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="mailto:contact@360cloudtech.com"
+                  href={`mailto:${CONTACT_EMAIL}`}
                   className="flex items-center gap-2.5 text-sm transition-colors hover:text-white"
                   style={{ color: "rgba(255,255,255,0.45)" }}
                 >
-                  <Mail size={13} /> contact@360cloudtech.com
+                  <Mail size={13} /> {CONTACT_EMAIL}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={CONTACT_PHONE_TEL}
+                  className="flex items-center gap-2.5 text-sm transition-colors hover:text-white"
+                  style={{ color: "rgba(255,255,255,0.45)" }}
+                >
+                  <Phone size={13} /> {CONTACT_PHONE}
                 </a>
               </li>
             </ul>
@@ -54,7 +64,10 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-bold text-white mb-5">Company</h4>
             <ul className="space-y-3">
-              {[{ label: "About Us", href: "/about" }, { label: "Careers", href: "/about" }, { label: "Contact", href: "/contact" }].map((item) => (
+              {[
+                { label: "About", href: "/about" },
+                { label: "Contact", href: "/contact" },
+              ].map((item) => (
                 <li key={item.label}>
                   <Link href={item.href} className="text-sm transition-colors hover:text-white" style={{ color: "rgba(255,255,255,0.45)" }}>{item.label}</Link>
                 </li>

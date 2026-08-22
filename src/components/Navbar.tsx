@@ -115,7 +115,6 @@ export function Navbar() {
           </div>
 
           {[
-            { href: "/about", label: "About", testId: "nav-link-about-us" },
             { href: "/insights", label: "Insights", testId: "nav-link-insights" },
             { href: "/contact", label: "Contact", testId: "nav-link-contact-us" },
           ].map(({ href, label, testId }) => (
@@ -178,7 +177,6 @@ export function Navbar() {
               <Link href="/industries" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2.5 text-sm font-semibold text-foreground/80 hover:text-primary rounded-xl hover:bg-primary/5 transition-colors">Industries</Link>
               <div className="my-2 border-t border-border/50" />
               {[
-                { href: "/about", label: "About Us" },
                 { href: "/insights", label: "Insights" },
                 { href: "/contact", label: "Contact" },
               ].map(({ href, label }) => (

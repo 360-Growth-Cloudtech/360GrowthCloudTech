@@ -1,4 +1,4 @@
-import { LegalDocument, LegalSection, COMPANY, EMAIL, WEBSITE } from "@/components/LegalDocument";
+import { LegalDocument, LegalSection, COMPANY, EMAIL, PHONE, CONTACT_PHONE_TEL, WEBSITE } from "@/components/LegalDocument";
 
 const LAST_UPDATED = "2026-08-22";
 
@@ -163,6 +163,10 @@ export default function TermsOfService() {
           For questions about these Terms, contact us at{" "}
           <a href={`mailto:${EMAIL}`} className="text-primary font-semibold hover:underline">
             {EMAIL}
+          </a>{" "}
+          or{" "}
+          <a href={CONTACT_PHONE_TEL} className="text-primary font-semibold hover:underline">
+            {PHONE}
           </a>
           .
         </p>

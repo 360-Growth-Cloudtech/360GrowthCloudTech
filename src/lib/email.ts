@@ -1,5 +1,6 @@
 import nodemailer from "nodemailer";
 import type { LeadPayload } from "@/lib/schemas/lead";
+import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from "@/lib/contact";
 
 function firstName(fullName: string): string {
   return fullName.trim().split(/\s+/)[0] || "there";
@@ -25,12 +26,15 @@ function buildAutoReplyHtml(name: string): string {
             typically within <strong style="color:#1a1512;">2 business hours</strong> during weekdays.
           </p>
           <p style="margin:0 0 24px;font-size:15px;line-height:1.65;color:#4a4038;">
-            If your request is urgent, feel free to reply directly to this email.
+            If your request is urgent, call us at
+            <a href="${CONTACT_PHONE_TEL}" style="color:#e8521a;text-decoration:none;"> ${CONTACT_PHONE}</a>
+            or reply directly to this email.
           </p>
           <p style="margin:0;font-size:15px;line-height:1.65;color:#4a4038;">
             Best regards,<br>
             <strong style="color:#1a1512;">360GrowthCloudTech Team</strong><br>
-            <a href="mailto:contact@360cloudtech.com" style="color:#e8521a;text-decoration:none;">contact@360cloudtech.com</a>
+            <a href="mailto:${CONTACT_EMAIL}" style="color:#e8521a;text-decoration:none;">${CONTACT_EMAIL}</a><br>
+            <a href="${CONTACT_PHONE_TEL}" style="color:#e8521a;text-decoration:none;">${CONTACT_PHONE}</a>
           </p>
         </td></tr>
       </table>
@@ -47,11 +51,12 @@ function buildAutoReplyText(name: string): string {
 
 Thank you for contacting 360GrowthCloudTech. We have received your message and a member of our team will get back to you shortly — typically within 2 business hours during weekdays.
 
-If your request is urgent, feel free to reply directly to this email.
+If your request is urgent, call us at ${CONTACT_PHONE} or reply directly to this email.
 
 Best regards,
 360GrowthCloudTech Team
-contact@360cloudtech.com`;
+${CONTACT_EMAIL}
+${CONTACT_PHONE}`;
 }
 
 function getTransporter() {

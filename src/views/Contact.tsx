@@ -5,6 +5,7 @@ import { PageHero } from "@/components/PageHero";
 import { ContactForm } from "@/components/ContactForm";
 import { Mail, Phone, Linkedin, Twitter, Facebook, CalendarDays } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
+import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from "@/lib/contact";
 
 const fadeUp = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 } };
 
@@ -12,8 +13,8 @@ export default function Contact() {
   const { setOpen } = useScheduleMeeting();
 
   const contactDetails = [
-    { icon: Mail, label: "Email Us", value: "contact@360cloudtech.com" },
-    // { icon: Phone, label: "Call Us", value: "+91 9643320521" },
+    { icon: Mail, label: "Email Us", value: CONTACT_EMAIL, href: `mailto:${CONTACT_EMAIL}` },
+    { icon: Phone, label: "Call Us", value: CONTACT_PHONE, href: CONTACT_PHONE_TEL },
   ];
 
   return (
@@ -39,7 +40,13 @@ export default function Contact() {
                     </div>
                     <div>
                       <div className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-0.5">{item.label}</div>
-                      <div className="text-sm font-semibold text-foreground whitespace-pre-line leading-relaxed">{item.value}</div>
+                      {item.href ? (
+                        <a href={item.href} className="text-sm font-semibold text-foreground whitespace-pre-line leading-relaxed hover:text-primary transition-colors">
+                          {item.value}
+                        </a>
+                      ) : (
+                        <div className="text-sm font-semibold text-foreground whitespace-pre-line leading-relaxed">{item.value}</div>
+                      )}
                     </div>
                   </div>
                 ))}

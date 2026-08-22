@@ -22,6 +22,7 @@ import {
   Code2, Users, TrendingUp, Cloud, ShoppingCart,
   ArrowRight, Star, CheckCircle, Zap, Globe, Lock, Monitor, Palette, Tablet,
 } from "lucide-react";
+import { serviceDisciplines } from "@/lib/services-data";
 
 function FloatingIcon({
   className,
@@ -138,6 +139,12 @@ export default function Home() {
   ];
 
   const trustedBy = ["HealthTech Corp", "Peak Retail", "Global Travel", "FinServe Group", "MedCare Health", "CloudFirst"];
+
+  const whatWeDo = serviceDisciplines.map(({ icon, title, summary }) => ({
+    icon,
+    title,
+    desc: summary,
+  }));
 
   return (
     <div data-testid="home-page">
@@ -290,6 +297,45 @@ export default function Home() {
               </span>
             ))}
           </Marquee>
+        </div>
+      </section>
+
+      {/* ── WHAT WE DO ───────────────────────────────────── */}
+      <section className="py-24 bg-[#fcfbf9] border-y border-border/40">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] gap-12 lg:gap-20 items-start max-w-6xl mx-auto">
+            <Reveal className="lg:sticky lg:top-28">
+              <p className="text-xs font-bold uppercase tracking-[0.14em] text-primary mb-5">
+                What We Do
+              </p>
+              <h2 className="display-heading text-3xl md:text-4xl lg:text-[2.65rem] text-foreground mb-6 leading-[1.12]">
+                Digital engineering and design, under one roof
+              </h2>
+              <p className="text-muted-foreground leading-relaxed text-base max-w-md">
+                Seven disciplines, one team. From product strategy through cloud architecture to
+                production deployment, without a handoff.
+              </p>
+            </Reveal>
+
+            <div className="border-t border-border/70">
+              {whatWeDo.map((item, i) => {
+                const Icon = item.icon;
+                return (
+                  <Reveal key={item.title} delay={i * 0.06} duration={0.5}>
+                    <div className="flex gap-5 py-7 border-b border-border/70">
+                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white border border-border/60 shadow-sm">
+                        <Icon size={18} className="text-foreground/55" strokeWidth={1.75} />
+                      </div>
+                      <div className="min-w-0 pt-0.5">
+                        <h3 className="font-bold text-foreground text-base mb-1.5">{item.title}</h3>
+                        <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+                      </div>
+                    </div>
+                  </Reveal>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </section>
 
