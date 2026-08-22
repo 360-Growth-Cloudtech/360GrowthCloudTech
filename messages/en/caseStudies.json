@@ -65,7 +65,7 @@
         "Clear studio identity: original artwork, oil and canvas",
         "Foundation for expanding collections and exhibition pages"
       ],
-      "stack": ["Next.js", "React", "Tailwind CSS", "Cloudinary", "Vercel"],
+      "stack": ["Next.js", "React", "Tailwind CSS", "Firebase Hosting", "GCP Cloud Run"],
       "imageAlt": "Geetha Studio artist portfolio homepage with original artwork"
     },
     "atory-hub": {
@@ -91,7 +91,7 @@
         "Scalable directory architecture across healthcare, retail, hospitality, and more",
         "Platform ready for lookbooks, directories, and vendor outreach features"
       ],
-      "stack": ["Next.js", "React", "PostgreSQL", "Algolia", "AWS"],
+      "stack": ["Next.js", "React","Firebase Hosting", "GCP Cloud Run", "Spring Boot", "PostgreSQL", "Algolia", "AWS mail service"],
       "imageAlt": "Atory Hub commercial real estate discovery homepage",
       "gallery": [
         {
@@ -126,7 +126,7 @@
         "PGI scores visible in real time for care team follow-up",
         "Audit-ready logs for compliance and quality review"
       ],
-      "stack": ["React", "Node.js", "PostgreSQL", "Twilio IVR", "AWS"],
+      "stack": ["Angular", "PostgreSQL","Spring Boot", "Twilio IVR", "GCP Cloud Run"],
       "imageAlt": "Healthcare IVR and patient assessment platform dashboard"
     },
     "dermayoga": {
@@ -151,7 +151,7 @@
         "Integrated consult CTA to connect commerce with expert advice",
         "Scalable catalog structure for new brands and SKUs"
       ],
-      "stack": ["Next.js", "React", "Tailwind CSS", "Stripe", "Headless CMS"],
+      "stack": ["Next.js", "React", "Node.js", "Tailwind CSS", "Payu", "Headless CMS"],
       "imageAlt": "DermaYoga skincare e-commerce website homepage",
       "gallery": [
         {
@@ -182,7 +182,7 @@
         "Trust signals from leading medical institutions",
         "Foundation for LMS integration and paid course flows"
       ],
-      "stack": ["Next.js", "React", "Tailwind CSS", "CMS", "Analytics"],
+      "stack": ["Next.js", "Spring Boot", "Tailwind CSS", "CMS", "Analytics"],
       "imageAlt": "Skinfinity Academy dermatology education website"
     },
     "studio-atory": {
@@ -207,7 +207,7 @@
         "Brand credibility via founding-member client logos",
         "Fast, maintainable marketing site for ongoing work updates"
       ],
-      "stack": ["Next.js", "React", "Tailwind CSS", "Vercel"],
+      "stack": ["Next.js", "React", "Tailwind CSS", "Google Cloud Run"],
       "imageAlt": "Studio Atory commercial architecture website"
     },
     "mahasu-travels-crm": {
@@ -232,7 +232,7 @@
         "Booking and driver ops in one CRM instead of multiple tools",
         "Scalable foundation for multi-website travel operations"
       ],
-      "stack": ["React", "Node.js", "PostgreSQL", "Chart.js", "AWS"],
+      "stack": ["React", "Node.js", "PostgreSQL", "Chart.js", "Hostinger VPS"],
       "imageAlt": "Mahasu Travels dispatch CRM dashboard"
     }
   }
