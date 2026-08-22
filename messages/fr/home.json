@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "360CloudTech — Logiciel sur mesure, cloud et marketing digital",
+    "description": "Transformation digitale de bout en bout pour les entreprises ambitieuses — logiciel sur mesure, cloud, CRM et marketing de croissance."
+  },
   "hero": {
     "label": "✦ Code propre. Architecture scalable. ✦",
     "titleLine1": "Nous construisons le produit.",

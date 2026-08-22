@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { ScheduleMeetingGlobal } from "@/components/ScheduleMeetingGlobal";
 import { ScrollProgress } from "@/components/motion";
+import { OrganizationWebSiteJsonLd } from "@/lib/seo/json-ld";
 import { routing, type Locale } from "@/i18n/routing";
 
 type Props = {
@@ -29,6 +30,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <OrganizationWebSiteJsonLd locale={locale as Locale} />
       <ScrollProgress />
       <div className="flex min-h-[100dvh] flex-col relative bg-background">
         <Navbar />

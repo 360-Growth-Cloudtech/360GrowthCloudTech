@@ -14,9 +14,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "home" });
 
   return buildPageMetadata({
-    title: "360CloudTech",
-    description: t("hero.subtitle"),
+    title: t("meta.title"),
+    description: t("meta.description"),
     path: "",
+    locale: locale as Locale,
   });
 }
 
