@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import CaseStudies from "@/views/CaseStudies";
 
 export const metadata: Metadata = {
-  title: "Case Studies",
-  description: "Real results from digital transformation projects across industries.",
+  title: "Work",
+  description:
+    "Case studies: Himachal Tourism Google Ads, Geetha Studio, Atory Hub, healthcare IVR, DermaYoga, and more.",
 };
 
 export default function CaseStudiesPage() {

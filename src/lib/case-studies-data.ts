@@ -1,0 +1,310 @@
+export type CaseStudyImageVariant = "default" | "laptop";
+
+export type CaseStudyGalleryImage = {
+  src: string;
+  alt: string;
+  caption?: string;
+  variant?: CaseStudyImageVariant;
+};
+
+export type CaseStudy = {
+  slug: string;
+  client: string;
+  category: string;
+  date: string;
+  readTime: string;
+  title: string;
+  excerpt: string;
+  summary: string;
+  challenge: string;
+  solution: string[];
+  results: string[];
+  stack: string[];
+  image: string;
+  imageAlt: string;
+  /** "laptop" frames a plain screenshot in a device mockup; omit for pre-rendered mockups. */
+  imageVariant?: CaseStudyImageVariant;
+  gallery?: CaseStudyGalleryImage[];
+};
+
+export const caseStudies: CaseStudy[] = [
+  {
+    slug: "himachal-tourism-google-ads",
+    client: "Himachal Tourism Cab",
+    category: "Travel & Tourism · Google Ads",
+    date: "Aug 10, 2026",
+    readTime: "7 min",
+    title: "Google Ads management & conversion optimization for steady off-season leads",
+    excerpt:
+      "Himachal Tourism Cab was spending on Google Ads blind — broken conversion tracking, no attribution, and no way to know what drove bookings. We rebuilt tracking, restructured campaigns, and turned data into qualified leads.",
+    summary:
+      "Google Ads management and conversion optimization for a Himachal Pradesh cab and tour operator — rebuilt conversion tracking, restructured campaigns on real performance data, and improved lead quality while lowering cost per lead.",
+    challenge:
+      "Himachal Tourism Cab, a cab and tour service operating across Himachal Pradesh, was investing in Google Ads without any real visibility into performance. Their website's conversion tracking wasn't set up correctly, which meant they had no reliable data on how visitors were engaging with their enquiry forms — making it nearly impossible to know which campaigns, keywords, or landing pages were actually generating bookings versus simply consuming budget.",
+    solution: [
+      "Rebuilt conversion tracking from the ground up — every form submission captured and attributed to source",
+      "Audited and restructured the Google Ads account based on actual performance data",
+      "Refined audience targeting to reduce spend on low-intent traffic",
+      "Reallocated budget toward campaigns and keywords driving real bookings",
+      "Optimized landing pages to improve visitor-to-enquiry conversion rates",
+    ],
+    results: [
+      "Cost per lead ↓ 20%",
+      "Lead quality ↑ 30%",
+      "Conversion rate ↑ 10%",
+      "Steady, qualified leads during traditional off-season — previously slow and unpredictable",
+      "Reliable attribution from click to enquiry for ongoing campaign decisions",
+    ],
+    stack: ["Google Ads", "Google Tag Manager", "GA4", "Landing Page CRO", "Search Campaigns"],
+    image: "/case-studies/himachal-tourism-google-ads.png",
+    imageAlt: "Google Ads conversion tracking and campaign performance dashboard for tourism",
+    imageVariant: "laptop",
+  },
+  {
+    slug: "geetha-studio",
+    client: "Geetha Studio",
+    category: "Art · Portfolio",
+    date: "Mar 15, 2026",
+    readTime: "5 min",
+    title: "A personal artist portfolio and online gallery",
+    excerpt:
+      "An immersive fine-art studio site for Geetha — original artwork, gallery browsing, and a contact path that lets the paintings stay center stage.",
+    summary:
+      "Personal artist portfolio and online gallery for original oil and canvas work — still life, surreal landscapes, and the quiet beauty of everyday things, presented with gallery-first UX.",
+    challenge:
+      "Geetha needed more than a generic portfolio template. The site had to feel like walking into a studio — full-bleed artwork, minimal chrome, and clear paths to gallery, about, and contact without distracting from the paintings.",
+    solution: [
+      "Full-viewport hero featuring original artwork as the primary visual",
+      "Gallery, About, and Contact navigation with translucent floating header",
+      "Editorial typography and artist statement on the home experience",
+      "Mobile-responsive layout that preserves image quality and composition",
+      "Contact flow for commissions, inquiries, and studio visits",
+    ],
+    results: [
+      "Premium presentation aligned with fine-art positioning",
+      "Gallery-first UX that keeps artwork as the hero",
+      "Clear studio identity: original artwork, oil and canvas",
+      "Foundation for expanding collections and exhibition pages",
+    ],
+    stack: ["Next.js", "React", "Tailwind CSS", "Cloudinary", "Vercel"],
+    image: "/case-studies/geetha-studio.jpg",
+    imageAlt: "Geetha Studio artist portfolio homepage with original artwork",
+    imageVariant: "laptop",
+  },
+  {
+    slug: "atory-hub",
+    client: "Atory Hub",
+    category: "PropTech · Marketplace",
+    date: "Mar 1, 2026",
+    readTime: "10 min",
+    title: "Plan, design, and execute commercial spaces — in one hub",
+    excerpt:
+      "A discovery platform connecting businesses with architects, designers, and contractors — plus inspiration galleries, professional directories, and planning tools.",
+    summary:
+      "Atory Hub helps businesses plan, design, and execute commercial spaces by connecting them with the right professionals and providing project and design inspiration in one platform.",
+    challenge:
+      "Commercial tenants and business owners struggle to find trusted professionals, understand costs, and gather design inspiration before committing to a build-out. Scattered Pinterest boards, spreadsheets, and cold outreach slowed every project.",
+    solution: [
+      "Discovery homepage: inspirations vs professionals search with category toggles",
+      "Inspirations gallery with trending styles, lookbooks, and filterable commercial interiors",
+      "Professionals directory with project category filters, location radius, and list/grid views",
+      "Profile cards with specialties, project tags, firm size, and portfolio previews",
+      "LaunchBOX planning tools and editorial content for cost and scope education",
+      "Join-as-Pro and Sign In flows for professionals and business owners",
+    ],
+    results: [
+      "Single hub replacing fragmented inspiration and vendor search",
+      "Browse-to-connect journey from mood board to professional shortlist",
+      "Scalable directory architecture across healthcare, retail, hospitality, and more",
+      "Platform ready for lookbooks, directories, and vendor outreach features",
+    ],
+    stack: ["Next.js", "React", "PostgreSQL", "Algolia", "AWS"],
+    image: "/case-studies/atory-hub-home.jpg",
+    imageAlt: "Atory Hub commercial real estate discovery homepage",
+    imageVariant: "laptop",
+    gallery: [
+      {
+        src: "/case-studies/atory-hub-inspirations.jpg",
+        alt: "Atory Hub inspirations gallery with commercial interior photos",
+        caption: "Inspirations — searchable gallery with trending styles and lookbooks",
+        variant: "laptop",
+      },
+      {
+        src: "/case-studies/atory-hub-professionals.png",
+        alt: "Atory Hub professionals directory with filters and listings",
+        caption: "Professionals — directory with category filters, location search, and profiles",
+        variant: "laptop",
+      },
+    ],
+  },
+  {
+    slug: "healthcare-ivr-platform",
+    client: "Healthcare Platform",
+    category: "Healthcare",
+    date: "Aug 18, 2026",
+    readTime: "8 min",
+    title: "IVR, onboarding, assessment & PGI — one intake workflow",
+    excerpt:
+      "How we replaced fragmented phone intake and paper assessments with IVR routing, digital onboarding, structured clinical assessments, and PGI tracking for care teams.",
+    summary:
+      "End-to-end patient intake system with IVR routing, digital onboarding, structured assessments, and PGI scoring — built for clinical teams and care coordinators.",
+    challenge:
+      "The client needed to replace fragmented phone intake and paper-based assessments with a unified digital workflow. Call volumes were high, onboarding was inconsistent, and clinicians lacked a single view of patient progress and PGI outcomes.",
+    solution: [
+      "Multi-level IVR setup with department routing, business-hours logic, and fallback queues",
+      "Guided patient onboarding with identity verification and consent capture",
+      "Configurable clinical assessment modules with scoring and clinician review",
+      "PGI (Patient Global Impression) tracking with trend views and exportable reports",
+      "Role-based dashboards for admins, coordinators, and clinical staff",
+    ],
+    results: [
+      "Reduced manual intake time with automated IVR-to-digital handoff",
+      "Standardized onboarding and assessment flows across sites",
+      "PGI scores visible in real time for care team follow-up",
+      "Audit-ready logs for compliance and quality review",
+    ],
+    stack: ["React", "Node.js", "PostgreSQL", "Twilio IVR", "AWS"],
+    image: "/case-studies/healthcare-ivr-platform.png",
+    imageAlt: "Healthcare IVR and patient assessment platform dashboard",
+    imageVariant: "laptop",
+  },
+  {
+    slug: "dermayoga",
+    client: "DermaYoga",
+    category: "E-commerce",
+    date: "Jul 12, 2026",
+    readTime: "6 min",
+    title: "Dermatologist-formulated skincare, built to convert",
+    excerpt:
+      "A premium e-commerce storefront for skin and hair care — category-led discovery, live consult entry points, and a checkout flow designed for trust and repeat purchase.",
+    summary:
+      "Full-featured e-commerce experience for a skin and hair care brand — category-led shopping, live consult entry points, and conversion-focused product discovery.",
+    challenge:
+      "DermaYoga needed a premium online store that reflected clinical credibility while staying easy to shop. They required category navigation (skin, hair, supplements), search, wishlist, cart, and a path to live dermatology consultation.",
+    solution: [
+      "Custom storefront with Shop All, Skin, Hair, Products, and Brands navigation",
+      "Promotional top bar, sitewide search, and mobile-first product grids",
+      "Wishlist, cart, and profile flows with clean checkout UX",
+      "LIVE Consult entry point integrated into primary navigation",
+      "SEO-ready category pages and dermatologist-trust messaging in hero",
+    ],
+    results: [
+      "Professional brand presence aligned with clinical positioning",
+      "Clear shop-by-category paths for skin, hair, and supplements",
+      "Integrated consult CTA to connect commerce with expert advice",
+      "Scalable catalog structure for new brands and SKUs",
+    ],
+    stack: ["Next.js", "React", "Tailwind CSS", "Stripe", "Headless CMS"],
+    image: "/case-studies/dermayoga.jpg",
+    imageAlt: "DermaYoga skincare e-commerce website homepage",
+    gallery: [
+      {
+        src: "/case-studies/dermayoga-product.jpg",
+        alt: "DermaYoga product detail page with pack size, delivery check, and buy flow",
+        caption: "Product detail — trust badges, pack size selector, pincode delivery check, and buy-now flow",
+        variant: "laptop",
+      },
+    ],
+  },
+  {
+    slug: "skinfinity-academy",
+    client: "Skinfinity Academy",
+    category: "EdTech",
+    date: "Jun 4, 2026",
+    readTime: "7 min",
+    title: "An academy site that earns trust before enrollment",
+    excerpt:
+      "Positioning a dermatology education brand for doctors worldwide — courses, workshops, faculty credibility, and a clear enroll-now path without generic LMS feel.",
+    summary:
+      "Education platform for dermatology professionals with course catalog, workshops, calendar, testimonials, and enrollment funnel.",
+    challenge:
+      "Skinfinity needed a credible digital academy to attract doctors worldwide — showcasing courses, faculty credibility, live lectures, and a clear enroll-now journey without feeling like a generic LMS template.",
+    solution: [
+      "Hero focused on career advancement with trust metrics (students, courses, faculty, countries)",
+      "Courses, Calendar, Workshops, Testimonials, and Blog information architecture",
+      "Institution trust strip and faculty-led positioning",
+      "Login and Enroll Now CTAs with admission announcement bar",
+      "Responsive layout for international medical audiences",
+    ],
+    results: [
+      "Clear value proposition for 5000+ doctors trained narrative",
+      "Structured paths to courses, workshops, and enrollment",
+      "Trust signals from leading medical institutions",
+      "Foundation for LMS integration and paid course flows",
+    ],
+    stack: ["Next.js", "React", "Tailwind CSS", "CMS", "Analytics"],
+    image: "/case-studies/skinfinity-academy.jpg",
+    imageAlt: "Skinfinity Academy dermatology education website",
+    imageVariant: "laptop",
+  },
+  {
+    slug: "studio-atory",
+    client: "Studio Atory",
+    category: "Architecture",
+    date: "May 22, 2026",
+    readTime: "5 min",
+    title: "Commercial architecture, positioned for brands — not brochures",
+    excerpt:
+      "An editorial studio site for commercial architecture: services, markets, founding-member credibility, and contact-first conversion with restraint.",
+    summary:
+      "Minimal, editorial website for a commercial architecture practice — positioning built around commercial reality from toolkit to permit-ready design.",
+    challenge:
+      "Studio Atory required a refined portfolio presence that speaks to brands and developers — not residential homeowners. The site had to communicate services, markets, and credibility with restraint and clarity.",
+    solution: [
+      "Editorial hero: commercial architecture and planning built around commercial reality",
+      "Work, Services, Markets, Calculator, and About navigation structure",
+      "Founding-member brand strip (retail, hospitality, corporate clients)",
+      "Contact-first conversion with LinkedIn social proof",
+      "Light, typography-led design system with copper accent details",
+    ],
+    results: [
+      "Premium positioning for commercial architecture leads",
+      "Clear service and market discovery without clutter",
+      "Brand credibility via founding-member client logos",
+      "Fast, maintainable marketing site for ongoing work updates",
+    ],
+    stack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
+    image: "/case-studies/studio-atory.png",
+    imageAlt: "Studio Atory commercial architecture website",
+    imageVariant: "laptop",
+  },
+  {
+    slug: "mahasu-travels-crm",
+    client: "Mahasu Travels",
+    category: "Travel · CRM",
+    date: "Apr 9, 2026",
+    readTime: "9 min",
+    title: "One dispatch CRM for leads, bookings, and marketing ROI",
+    excerpt:
+      "Replacing spreadsheets with a unified ops system — lead pipeline, quote-to-booking flow, driver coordination, and ad spend analytics in one dashboard.",
+    summary:
+      "Operations CRM for a travel dispatch business — lead pipeline, quotes, bookings, driver assignment, ad spend tracking, and revenue dashboards.",
+    challenge:
+      "Mahasu Travels ran dispatch on spreadsheets and disconnected tools. They needed one system for leads from Google/Meta ads, quote-to-booking conversion, driver coordination, and marketing ROI visibility.",
+    solution: [
+      "Unified dashboard: leads, quotes sent, bookings confirmed, revenue on record",
+      "Lead management with source split (Google Ads, Meta, website, manual)",
+      "Bookings, drivers, vehicles, itineraries, and hotels modules",
+      "Ad spend & marketing ROI with CPL and ROAS tracking",
+      "Role-based access, search, and new-lead quick actions",
+    ],
+    results: [
+      "Single dispatch view replacing fragmented workflows",
+      "Revenue trend and lead-source analytics for marketing decisions",
+      "Booking and driver ops in one CRM instead of multiple tools",
+      "Scalable foundation for multi-website travel operations",
+    ],
+    stack: ["React", "Node.js", "PostgreSQL", "Chart.js", "AWS"],
+    image: "/case-studies/mahasu-travels-crm.png",
+    imageAlt: "Mahasu Travels dispatch CRM dashboard",
+    imageVariant: "laptop",
+  },
+];
+
+export function getCaseStudyBySlug(slug: string): CaseStudy | undefined {
+  return caseStudies.find((study) => study.slug === slug);
+}
+
+export function getAllCaseStudySlugs(): string[] {
+  return caseStudies.map((study) => study.slug);
+}

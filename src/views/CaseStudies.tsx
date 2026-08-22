@@ -1,97 +1,109 @@
 "use client";
 
 import Link from "next/link";
-import { PageHero } from "@/components/PageHero";
-import { CheckCircle2, ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
+import { CaseStudyPreviewImage } from "@/components/CaseStudyPreviewImage";
+import { ArrowRight } from "lucide-react";
+import { caseStudies } from "@/lib/case-studies-data";
+
+const fadeUp = {
+  initial: { opacity: 0, y: 20 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: "-40px" },
+  transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] as const },
+};
 
 export default function CaseStudies() {
-  const caseStudies = [
-    { 
-      industry: "Healthcare",
-      title: "Patient Portal Transformation",
-      challenge: "Legacy systems caused slow load times and poor patient engagement. Security was a major concern for compliance.",
-      results: ["40% faster load time", "HIPAA compliance achieved", "3x increase in active users"]
-    },
-    { 
-      industry: "Travel",
-      title: "Booking Engine Overhaul",
-      challenge: "Frequent downtime during peak booking seasons led to lost revenue and customer frustration.",
-      results: ["99.99% uptime achieved", "Auto-scaling infrastructure", "Zero data loss during spikes"]
-    },
-    { 
-      industry: "Retail",
-      title: "E-commerce Revenue Scale",
-      challenge: "Low conversion rates and high cart abandonment on mobile due to poor UX and slow checkout.",
-      results: ["Mobile-first PWA launch", "2x conversion rate", "Sub-second page transitions"]
-    }
-  ];
-
   return (
-    <>
-      <PageHero 
-        title="Case Studies" 
-        subtitle="Real Problems. Real Results."
-      />
-      
-      <section className="py-12 bg-white border-b border-border/50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 divide-y md:divide-y-0 md:divide-x divide-border">
-            <div className="text-center py-4 md:py-0">
-              <div className="text-4xl font-black gradient-text mb-2">40%</div>
-              <div className="text-sm font-semibold uppercase text-muted-foreground tracking-wider">Faster Load Times</div>
-            </div>
-            <div className="text-center py-4 md:py-0">
-              <div className="text-4xl font-black gradient-text mb-2">2x</div>
-              <div className="text-sm font-semibold uppercase text-muted-foreground tracking-wider">Conversion Rates</div>
-            </div>
-            <div className="text-center py-4 md:py-0">
-              <div className="text-4xl font-black gradient-text mb-2">99.99%</div>
-              <div className="text-sm font-semibold uppercase text-muted-foreground tracking-wider">System Uptime</div>
-            </div>
-          </div>
+    <div data-testid="case-studies-page" className="bg-background min-h-screen">
+      {/* Hero */}
+      <section className="pt-36 pb-14 md:pt-40 md:pb-20 border-b border-border/50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-8"
+          >
+            Work
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.06 }}
+            className="display-heading text-4xl md:text-5xl lg:text-[3.35rem] text-foreground leading-[1.1] max-w-4xl mb-8"
+          >
+            Case studies from products that ship.
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.12 }}
+            className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-3xl"
+          >
+            Real builds from the 360GrowthCloudTech team — healthcare workflows, e-commerce,
+            education, architecture, and travel ops — and the engineering decisions behind them.
+          </motion.p>
         </div>
       </section>
 
-      <section className="py-24 bg-slate-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {caseStudies.map((study, i) => (
-              <div key={i} className="bg-white rounded-2xl border border-border shadow-sm hover:shadow-xl transition-all hover:-translate-y-1 relative overflow-hidden flex flex-col h-full">
-                <div className="h-2 w-full gradient-bg absolute top-0 left-0"></div>
-                <div className="p-8 flex-1 flex flex-col">
-                  <span className="inline-block py-1 px-3 rounded-full bg-slate-100 text-xs font-semibold text-primary mb-4 w-max">
-                    {study.industry}
-                  </span>
-                  <h4 className="text-base font-bold mb-2 text-foreground">{study.title}</h4>
-                  <p className="text-sm text-muted-foreground mb-5 line-clamp-3">{study.challenge}</p>
-                  
-                  <div className="space-y-3 mb-8 flex-1">
-                    <div className="text-sm font-semibold text-foreground mb-4">Key Results:</div>
-                    {study.results.map((result, j) => (
-                      <div key={j} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-accent shrink-0" />
-                        <span className="text-sm font-medium text-foreground/80">{result}</span>
-                      </div>
-                    ))}
-                  </div>
-                  
-                  <Link href={`/contact`} className="text-primary font-bold text-sm hover:text-accent transition-colors flex items-center gap-1 mt-auto">
-                    Read More <ArrowRight size={16} />
+      {/* List */}
+      <section className="py-4 md:py-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+          {caseStudies.map((study, index) => (
+            <motion.article
+              key={study.slug}
+              {...fadeUp}
+              transition={{ delay: index * 0.04 }}
+              className="border-b border-border/60 py-12 md:py-14 last:border-b-0"
+            >
+              <div className="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(240px,340px)] gap-8 md:gap-10 lg:gap-14 items-start">
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-[0.12em] mb-5">
+                    <span className="text-primary">{study.category}</span>
+                    <span className="text-muted-foreground/50 mx-2">·</span>
+                    <span className="text-muted-foreground">{study.date}</span>
+                    <span className="text-muted-foreground/50 mx-2">·</span>
+                    <span className="text-muted-foreground">{study.readTime}</span>
+                  </p>
+                  <h2 className="display-heading text-2xl md:text-[1.75rem] text-foreground leading-snug mb-4 max-w-2xl">
+                    <Link
+                      href={`/case-studies/${study.slug}`}
+                      className="hover:text-primary transition-colors"
+                    >
+                      {study.title}
+                    </Link>
+                  </h2>
+                  <p className="text-muted-foreground leading-relaxed text-base max-w-2xl mb-6">
+                    {study.excerpt}
+                  </p>
+                  <Link
+                    href={`/case-studies/${study.slug}`}
+                    className="inline-flex items-center gap-1.5 text-sm font-bold text-foreground hover:text-primary transition-colors group"
+                  >
+                    Read the case study
+                    <ArrowRight
+                      size={15}
+                      className="transition-transform group-hover:translate-x-0.5"
+                    />
                   </Link>
                 </div>
-              </div>
-            ))}
-          </div>
 
-          <div className="mt-20 text-center max-w-2xl mx-auto bg-primary rounded-2xl p-10 text-white">
-            <h3 className="text-2xl font-bold mb-4">Have a similar challenge?</h3>
-            <p className="text-white/80 mb-8">Let's discuss how we can engineer a solution tailored to your specific business needs.</p>
-            <Link href="/contact" className="inline-block bg-white text-primary px-8 py-3 rounded-full font-bold shadow-lg hover:-translate-y-0.5 transition-transform">
-              Let's Talk
-            </Link>
-          </div>
+                <Link
+                  href={`/case-studies/${study.slug}`}
+                  className="block md:mt-6 hover:opacity-[0.98] transition-opacity"
+                >
+                  <CaseStudyPreviewImage
+                    src={study.image}
+                    alt={study.imageAlt}
+                    priority={index < 2}
+                    variant={study.imageVariant}
+                  />
+                </Link>
+              </div>
+            </motion.article>
+          ))}
         </div>
       </section>
-    </>
+    </div>
   );
 }

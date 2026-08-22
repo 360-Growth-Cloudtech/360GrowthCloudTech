@@ -1,10 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
+import { CaseStudyPreviewImage } from "@/components/CaseStudyPreviewImage";
 import {
   serviceDisciplines,
   serviceProcessSteps,
@@ -38,11 +39,20 @@ export default function Services() {
     <div data-testid="services-page">
       {/* Hero */}
       <section className="relative min-h-[72vh] flex items-center justify-center py-32 overflow-hidden">
+        <Image
+          src="/services/cloud-platform.png"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          aria-hidden
+          className="object-cover object-center scale-105"
+        />
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(26,21,18,0.45) 0%, rgba(26,21,18,0.92) 50%, #1a1512 100%), radial-gradient(ellipse 70% 55% at 50% 35%, rgba(232,82,26,0.14) 0%, transparent 65%)",
+              "linear-gradient(180deg, rgba(26,21,18,0.55) 0%, rgba(26,21,18,0.88) 45%, #1a1512 100%), radial-gradient(ellipse 70% 55% at 50% 35%, rgba(232,82,26,0.12) 0%, transparent 65%)",
           }}
         />
         <div
@@ -175,16 +185,12 @@ export default function Services() {
                 transition={{ delay: i * 0.08 }}
                 className="group flex flex-col"
               >
-                <div className="rounded-2xl overflow-hidden mb-5 aspect-[4/3] relative bg-[#1a1512] shadow-md ring-1 ring-border/40">
-                  <Image
-                    src={project.image}
-                    alt={project.imageAlt}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent pointer-events-none" />
-                </div>
+                <CaseStudyPreviewImage
+                  src={project.image}
+                  alt={project.imageAlt}
+                  className="mb-5 group-hover:shadow-[0_16px_48px_rgba(26,21,18,0.12)] transition-shadow"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
                 <span className="text-xs font-bold uppercase tracking-widest text-primary mb-2 block">
                   {project.tag}
                 </span>

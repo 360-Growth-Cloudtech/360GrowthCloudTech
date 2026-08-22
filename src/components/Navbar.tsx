@@ -1,19 +1,17 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { Magnetic } from "@/components/motion";
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
   const { setOpen } = useScheduleMeeting();
 
@@ -25,16 +23,6 @@ export function Navbar() {
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setServicesDropdownOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   useEffect(() => {
@@ -69,53 +57,9 @@ export function Navbar() {
 
         {/* Desktop nav links — center */}
         <div className="hidden md:flex items-center gap-0.5">
-          <div
-            className="relative"
-            ref={dropdownRef}
-            onMouseEnter={() => setServicesDropdownOpen(true)}
-            onMouseLeave={() => setServicesDropdownOpen(false)}
-          >
-            <button
-              onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
-              data-testid="nav-link-services"
-              className={`nav-link flex items-center gap-1 px-3.5 py-2 rounded-full text-sm font-semibold transition-colors ${
-                isActive("/services") || isActive("/industries")
-                  ? "text-primary is-active"
-                  : "text-foreground/70 hover:text-foreground"
-              }`}
-            >
-              Services
-              <ChevronDown
-                size={13}
-                className={`transition-transform duration-300 ${servicesDropdownOpen ? "rotate-180" : ""}`}
-              />
-            </button>
-
-            <AnimatePresence>
-              {servicesDropdownOpen && (
-                <motion.div
-                  className="absolute top-full left-0 pt-2 w-44"
-                  data-testid="nav-dropdown-services"
-                  initial={{ opacity: 0, y: -8, scale: 0.97 }}
-                  animate={{ opacity: 1, y: 0, scale: 1 }}
-                  exit={{ opacity: 0, y: -8, scale: 0.97 }}
-                  transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
-                >
-                  <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-xl border border-border/60 overflow-hidden p-1.5 flex flex-col gap-0.5">
-                    <Link href="/services" className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:bg-primary/8 hover:text-primary rounded-xl transition-colors">
-                      All Services
-                    </Link>
-                    <Link href="/industries" className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:bg-primary/8 hover:text-primary rounded-xl transition-colors">
-                      Industries
-                    </Link>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
-
           {[
-            { href: "/insights", label: "Insights", testId: "nav-link-insights" },
+            { href: "/services", label: "Services", testId: "nav-link-services" },
+            { href: "/case-studies", label: "Work", testId: "nav-link-work" },
             { href: "/contact", label: "Contact", testId: "nav-link-contact-us" },
           ].map(({ href, label, testId }) => (
             <Link
@@ -172,15 +116,21 @@ export function Navbar() {
             transition={{ duration: 0.32, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="px-4 py-5 flex flex-col gap-1">
-              <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2 px-3">Services</p>
-              <Link href="/services" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2.5 text-sm font-semibold text-foreground/80 hover:text-primary rounded-xl hover:bg-primary/5 transition-colors">All Services</Link>
-              <Link href="/industries" onClick={() => setMobileMenuOpen(false)} className="block px-3 py-2.5 text-sm font-semibold text-foreground/80 hover:text-primary rounded-xl hover:bg-primary/5 transition-colors">Industries</Link>
-              <div className="my-2 border-t border-border/50" />
               {[
-                { href: "/insights", label: "Insights" },
+                { href: "/services", label: "Services" },
+                { href: "/case-studies", label: "Work" },
                 { href: "/contact", label: "Contact" },
               ].map(({ href, label }) => (
-                <Link key={href} href={href} onClick={() => setMobileMenuOpen(false)} className={`px-3 py-2.5 rounded-xl text-sm font-semibold transition-colors ${isActive(href) ? "text-primary" : "text-foreground/80 hover:text-primary hover:bg-primary/5"}`}>
+                <Link
+                  key={href}
+                  href={href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`px-3 py-2.5 rounded-xl text-sm font-semibold transition-colors ${
+                    isActive(href)
+                      ? "text-primary"
+                      : "text-foreground/80 hover:text-primary hover:bg-primary/5"
+                  }`}
+                >
                   {label}
                 </Link>
               ))}
