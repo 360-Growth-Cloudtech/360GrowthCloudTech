@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "label": "✦ Code propre. Architecture scalable. ✦",
+    "titleLine1": "Nous construisons le produit.",
+    "titleLine2a": "Vous construisez",
+    "titleLine2b": "l'entreprise.",
+    "subtitle": "Nous sommes l'équipe d'ingénierie derrière les fondateurs ambitieux — livrant des applications web, des outils SaaS et des produits digitaux sur des technologies modernes et maintenables.",
+    "trustItems": {
+      "noLockIn": "Sans contrat d'engagement",
+      "soc2": "Certifié SOC 2",
+      "globalDelivery": "Livraison mondiale"
+    }
+  },
+  "trustedBy": {
+    "label": "La confiance des leaders du secteur",
+    "companies": ["HealthTech Corp", "Peak Retail", "Global Travel", "FinServe Group", "MedCare Health", "CloudFirst"]
+  },
+  "whatWeDo": {
+    "label": "Ce que nous faisons",
+    "title": "Ingénierie digitale et design, sous un même toit",
+    "subtitle": "Sept disciplines, une seule équipe. De la stratégie produit à l'architecture cloud jusqu'au déploiement en production, sans relais intermédiaire."
+  },
+  "expertise": {
+    "label": "Notre expertise",
+    "titleLine1": "Tout ce dont vous avez besoin",
+    "titleLine2": "pour réussir en ligne.",
+    "subtitle": "De l'idée au produit live et en croissance — nous couvrons chaque couche de la stack.",
+    "services": {
+      "customSoftware": {
+        "title": "Logiciel sur mesure",
+        "desc": "Applications web et mobiles haute performance, conçues pour l'échelle.",
+        "tag": "Ingénierie"
+      },
+      "customCrm": {
+        "title": "Outils CRM sur mesure",
+        "desc": "Systèmes CRM personnalisés adaptés à votre flux de travail exact.",
+        "tag": "Produit"
+      },
+      "digitalMarketing": {
+        "title": "Marketing digital",
+        "desc": "Publicités data-driven et croissance SEO complète.",
+        "tag": "Croissance"
+      },
+      "cloudInfrastructure": {
+        "title": "Infrastructure cloud",
+        "desc": "Configuration cloud scalable et pipelines CI/CD robustes.",
+        "tag": "DevOps"
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "desc": "Boutiques de bout en bout avec des flux de paiement fluides.",
+        "tag": "Commerce"
+      }
+    }
+  },
+  "stats": {
+    "projectsDelivered": { "value": "250+", "label": "Projets livrés" },
+    "uptime": { "value": "99.9%", "label": "Disponibilité atteinte" },
+    "enterpriseClients": { "value": "50+", "label": "Clients entreprise" },
+    "yearsExperience": { "value": "10+", "label": "Années d'expérience" }
+  },
+  "whyChooseUs": {
+    "label": "Pourquoi nous choisir",
+    "titleLine1": "Un partenaire pour",
+    "titleLine2": "tout votre parcours.",
+    "subtitle": "Nous devenons votre partenaire technologique de long terme — vous aidant à grandir, vous adapter et mener dans votre secteur avec confiance.",
+    "features": {
+      "fastDelivery": {
+        "title": "Livraison rapide",
+        "desc": "Sprints agiles avec démos hebdomadaires — voyez les progrès dès le premier jour."
+      },
+      "enterpriseSecurity": {
+        "title": "Sécurité entreprise",
+        "desc": "Conforme SOC 2 avec les normes HIPAA, GDPR et ISO 27001."
+      },
+      "globalSupport": {
+        "title": "Support mondial",
+        "desc": "Équipe de support 24/7 sur plusieurs fuseaux horaires."
+      },
+      "measurableResults": {
+        "title": "Résultats mesurables",
+        "desc": "KPIs fondés sur les données et reporting transparent à chaque étape."
+      }
+    },
+    "cards": {
+      "industries": { "value": "40+", "label": "Secteurs", "sub": "secteurs servis" },
+      "projects": { "value": "250+", "label": "Projets", "sub": "livrés" },
+      "uptime": { "value": "99.9%", "label": "Disponibilité", "sub": "SLA garanti" },
+      "support": { "value": "24/7", "label": "Support", "sub": "toujours disponible" }
+    }
+  },
+  "testimonials": {
+    "label": "Témoignages",
+    "titleLine1": "La confiance des",
+    "titleLine2": "leaders du secteur.",
+    "items": [
+      {
+        "quote": "360CloudTech a complètement refondu notre portail patient. Il est plus rapide, incroyablement sécurisé, et leur support est toujours disponible.",
+        "name": "Dr. Sarah Jenkins",
+        "role": "CTO, MedCare Health",
+        "initials": "SJ"
+      },
+      {
+        "quote": "Avoir le développement et le marketing sous un même toit a tout changé. Notre e-commerce a connu une hausse de 40 % des conversions.",
+        "name": "Marcus Chen",
+        "role": "Founder, Peak Retail",
+        "initials": "MC"
+      },
+      {
+        "quote": "Leur configuration d'infrastructure cloud est impeccable. Nous n'avons pas eu une minute d'indisponibilité depuis la migration de notre moteur de réservation.",
+        "name": "Elena Rodriguez",
+        "role": "VP Engineering, Global Travel",
+        "initials": "ER"
+      }
+    ]
+  },
+  "cta": {
+    "label": "Prêt à commencer ?",
+    "titleLine1": "Construisons quelque chose",
+    "titleLine2": "d'extraordinaire ensemble.",
+    "subtitle": "Consultation gratuite, sans engagement. Juste une conversation amicale sur vos objectifs."
+  }
+}

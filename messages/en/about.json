@@ -1,0 +1,33 @@
+{
+  "page": {
+    "label": "About",
+    "title": "A team that designs and engineers what it ships.",
+    "subtitle": "360GrowthCloudTech is a digital engineering studio focused on building modern web products, cloud systems, and growth-ready platforms — from first wireframe through production deployment."
+  },
+  "sections": {
+    "howWeWork": {
+      "title": "How we work",
+      "paragraphs": [
+        "We eliminate the handoff between design and engineering. Product strategy, UX, and development sit on one team — so decisions stay connected from day one and nothing gets lost in translation.",
+        "We work systems-first: reusable components, clear architecture, and maintainable code your team can extend long after launch. Every build is structured for scale, not just for demo day.",
+        "Engagements run in focused 2–8 week sprints with weekly demos. You see real progress early, give feedback often, and ship with confidence — not surprises at the finish line."
+      ]
+    },
+    "whatWeShip": {
+      "title": "What we ship",
+      "paragraph": "End-to-end delivery across {disciplines}. One partner from roadmap to live product — without juggling agencies, freelancers, and internal handoffs."
+    },
+    "team": {
+      "title": "Team",
+      "paragraphs": [
+        "We're a distributed team of product strategists, designers, and engineers — building for founders and growing businesses across India and worldwide. Remote-first, async-friendly, and focused on outcomes over hours logged."
+      ],
+      "companyName": "360GrowthCloudTech",
+      "companyTagline": "Digital engineering & growth studio"
+    }
+  },
+  "cta": {
+    "title": "Working with us.",
+    "subtitle": "Start with a free 30-minute discovery call. We'll learn about your product, timeline, and goals — then outline a clear path forward. No pitch deck, no pressure."
+  }
+}

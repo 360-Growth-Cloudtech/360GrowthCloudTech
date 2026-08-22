@@ -1,0 +1,17 @@
+{
+  "page": {
+    "label": "Contact Us",
+    "title": "Let's talk.",
+    "subtitle": "Whether you have an RFP or just an idea on a napkin — we're ready to help."
+  },
+  "getInTouch": {
+    "title": "Get in touch.",
+    "subtitle": "We typically respond within 2 hours during business hours.",
+    "emailLabel": "Email Us",
+    "callLabel": "Call Us"
+  },
+  "scheduleCard": {
+    "title": "Prefer a call?",
+    "description": "Book a free 30-min strategy session with our team."
+  }
+}

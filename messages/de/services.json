@@ -1,0 +1,151 @@
+{
+  "page": {
+    "label": "Leistungen",
+    "titleLine1": "KI-Engineering und",
+    "titleLine2": "Design, End-to-End",
+    "subtitle": "Sieben Disziplinen, ein Team. Von der Produktstrategie über KI-Architektur bis zum Produktions-Deployment — ohne Übergabe in der Mitte.",
+    "processTitle": "Ein fokussierter, wiederholbarer Prozess",
+    "processSubtitle": "Jedes Projekt folgt denselben klaren Phasen — von Discovery und Build über Launch, Marketing bis zur Cloud-Skalierung.",
+    "inPracticeTitle": "Leistungen in der Praxis",
+    "viewCaseStudies": "Fallstudien ansehen",
+    "ctaTitle": "Sprechen Sie mit uns über Ihr Projekt",
+    "ctaSubtitle": "Kostenlose Beratung, unverbindlich. Erzählen Sie uns, was Sie bauen, und wir skizzieren den Weg nach vorn."
+  },
+  "disciplines": {
+    "01": {
+      "title": "Produktstrategie",
+      "summary": "Vision, Roadmap und Architektur, damit Ihr Produkt vom ersten Tag an die richtigen Probleme löst.",
+      "desc": "Wir richten die Produktvision an den Geschäftszielen aus, bevor eine Zeile Code geschrieben wird. Roadmaps, Scope und Architekturentscheidungen, die Ihr Produkt zum Erfolg führen.",
+      "bullets": [
+        "Produkt-Roadmaps",
+        "Marktanalyse",
+        "MVP-Scope & Validierung",
+        "Stakeholder-Alignment"
+      ]
+    },
+    "02": {
+      "title": "UX/UI-Design",
+      "summary": "Forschungsbasierte Interfaces, die intuitiv wirken, beeindruckend aussehen und auf jedem Gerät konvertieren.",
+      "desc": "Interfaces, die sich offensichtlich anfühlen und unmöglich zu ignorieren sind. Forschungsbasierte Design-Systeme für Conversion, Barrierefreiheit und jede Bildschirmgröße.",
+      "bullets": [
+        "Nutzerforschung",
+        "Wireframes & Prototypen",
+        "Design-Systeme",
+        "Usability-Tests"
+      ]
+    },
+    "03": {
+      "title": "Frontend-Engineering",
+      "summary": "Pixel-perfekte Umsetzung in React, Next.js und modernen Frameworks. Produktionsreif.",
+      "desc": "Pixel-perfekte Umsetzung in modernen Frameworks. Schnelle, responsive und wartbare Frontends, die Ihr Team lange nach dem Launch erweitern kann.",
+      "bullets": [
+        "React / Next.js",
+        "Responsive UI",
+        "Performance-Optimierung",
+        "Component Libraries"
+      ]
+    },
+    "04": {
+      "title": "Backend-Engineering",
+      "summary": "Produktions-APIs, normalisierte Schemas und Infrastruktur, die echter Last standhält.",
+      "desc": "APIs, Datenbanken und Services für reale Last. Sichere, beobachtbare Infrastruktur, die mit Ihrer Nutzerbasis skaliert.",
+      "bullets": [
+        "REST- & GraphQL-APIs",
+        "Datenbankdesign",
+        "Auth & Zugriffskontrolle",
+        "Microservices"
+      ]
+    },
+    "05": {
+      "title": "KI & Automatisierung",
+      "summary": "LLM-Integration, Retrieval und Workflow-Automatisierung im Produkt integriert, nicht nachträglich angeflanscht.",
+      "desc": "Intelligente Features im Produkt verankert — nicht nachträglich. Von LLM-Integrationen bis zu automatisierten Workflows, die jede Woche Stunden sparen.",
+      "bullets": [
+        "LLM-Integration",
+        "RAG-Pipelines",
+        "Workflow-Automatisierung",
+        "KI-gestützte Features"
+      ]
+    },
+    "06": {
+      "title": "Digitales Marketing",
+      "summary": "Datengetriebene Kampagnen, SEO und Wachstumsstrategien, die Traffic in messbare Umsätze verwandeln.",
+      "desc": "Wachstum ist kein Rätselraten. Wir bauen Marketing-Systeme — Paid, Organic und Analytics — abgestimmt auf Ihr Produkt und skalierbar mit Ihnen.",
+      "bullets": [
+        "SEO & Content-Strategie",
+        "Paid Ads (Google, Meta)",
+        "Analytics & Conversion-Tracking",
+        "Marken- & Wachstumskampagnen"
+      ]
+    },
+    "07": {
+      "title": "Cloud-Infrastruktur",
+      "summary": "Skalierbare Cloud-Einrichtung, CI/CD-Pipelines und resiliente Infrastruktur für die Produktion.",
+      "desc": "Von Migration bis Day-Two-Operations — Cloud-Umgebungen, die unter echtem Traffic schnell, sicher und kosteneffizient bleiben.",
+      "bullets": [
+        "Cloud-Migration",
+        "CI/CD-Pipelines",
+        "Infrastructure as Code",
+        "Monitoring & Auto-Scaling"
+      ]
+    }
+  },
+  "process": {
+    "01": {
+      "title": "Discovery",
+      "desc": "Wir lernen Ihre Ziele, Nutzer und Rahmenbedingungen kennen — und definieren Scope, Erfolgsmetriken und einen realistischen Zeitplan."
+    },
+    "02": {
+      "title": "Design",
+      "desc": "Wireframes, Prototypen und validierte UX, bevor die Entwicklung beginnt. Keine Überraschungen beim Launch."
+    },
+    "03": {
+      "title": "Build",
+      "desc": "Agile Sprints mit wöchentlichen Demos. Sie sehen früh und oft funktionierende Software — mit Raum zum Iterieren."
+    },
+    "04": {
+      "title": "Ship & Iterate",
+      "desc": "Produktions-Deployment, Monitoring und laufende Optimierung. Wir bleiben nach dem Go-Live an Ihrer Seite."
+    },
+    "05": {
+      "title": "Marketing",
+      "desc": "SEO, Paid-Kampagnen und Analytics verbunden mit Ihrem Launch — messbares Wachstum ab Tag eins."
+    },
+    "06": {
+      "title": "Cloud",
+      "desc": "Migration, CI/CD und Produktions-Ops — Infrastruktur, die mit Traffic skaliert und kosteneffizient bleibt."
+    }
+  },
+  "inPractice": {
+    "healthcare": {
+      "tag": "Gesundheitswesen",
+      "title": "Patientenportal",
+      "desc": "HIPAA-konformes Portal mit 40 % schnelleren Ladezeiten und 3x mehr aktiven Nutzern.",
+      "imageAlt": "Mockup Patientenportal Gesundheitswesen"
+    },
+    "travel": {
+      "tag": "Reise",
+      "title": "Buchungsengine",
+      "desc": "Auto-skalierende Infrastruktur mit 99,99 % Verfügbarkeit in der Hochsaison.",
+      "imageAlt": "Mockup Reise-Buchungsengine"
+    },
+    "retail": {
+      "tag": "Einzelhandel",
+      "title": "E-Commerce-Plattform",
+      "desc": "Mobile-first Storefront mit doppelten Conversion-Raten und Sub-Sekunden-Ladezeiten.",
+      "imageAlt": "Mockup E-Commerce-Retail-Website"
+    },
+    "marketing": {
+      "tag": "Marketing",
+      "title": "Wachstumskampagne",
+      "desc": "Integrierte SEO- und Paid-Media-Strategie, die qualifizierte Leads in 90 Tagen um 60 % steigerte.",
+      "imageAlt": "Mockup Digital-Marketing-Analytics-Dashboard"
+    },
+    "cloud": {
+      "tag": "Cloud",
+      "title": "Plattform-Migration",
+      "desc": "Zero-Downtime-Cloud-Migration mit CI/CD-Pipelines und 99,99 % Uptime-SLA.",
+      "imageAlt": "Mockup Cloud-Infrastruktur-Dashboard"
+    }
+  }
+}

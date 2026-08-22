@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "work": "Projekte",
+    "contact": "Kontakt",
+    "bookCall": "Gespräch buchen",
+    "getStarted": "Loslegen",
+    "bookFreeCall": "Kostenloses Gespräch buchen",
+    "sendMessage": "Nachricht senden",
+    "brandShort": "Cloud Tech"
+  },
+  "footer": {
+    "brandName": "360 cloud tech",
+    "tagline": "Digitale Technologien für zukünftiges Wachstum — Software, Cloud und Marketing.",
+    "company": "Unternehmen",
+    "services": "Leistungen",
+    "resources": "Ressourcen",
+    "links": {
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "consulting": "Beratung",
+      "technology": "Technologie",
+      "industries": "Branchen",
+      "work": "Projekte"
+    },
+    "scheduleTitle": "Bereit, Ihr Unternehmen zu transformieren?",
+    "scheduleDesc": "Lassen Sie uns über Ihr Projekt sprechen und herausfinden, wie wir Sie bei der Erreichung Ihrer Ziele unterstützen können.",
+    "scheduleMeeting": "Termin vereinbaren",
+    "sendMessage": "Nachricht senden",
+    "copyright": "© {year} 360CloudTech. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie"
+  },
+  "brand": {
+    "full": "360GrowthCloudTech",
+    "short": "360 cloud tech",
+    "logoAlt": "360 cloud tech",
+    "tagline": "Studio für digitale Entwicklung und Wachstum"
+  },
+  "ctas": {
+    "bookFreeStrategyCall": "Kostenloses Strategiegespräch buchen",
+    "viewServices": "Leistungen ansehen",
+    "explore": "Entdecken",
+    "getInTouch": "Kontakt aufnehmen",
+    "sendMessage": "Nachricht senden",
+    "startConversation": "Gespräch beginnen",
+    "contactUs": "Kontaktieren Sie uns",
+    "letsTalk": "Lassen Sie uns sprechen",
+    "bookFreeCall": "Kostenloses Gespräch buchen",
+    "requestConsultation": "Beratung anfragen",
+    "confirmMeeting": "Termin bestätigen",
+    "close": "Schließen",
+    "seeServicesDetail": "Leistungen im Detail",
+    "recentProjects": "Aktuelle Projekte",
+    "viewServicesLink": "Leistungen ansehen",
+    "viewCaseStudies": "Fallstudien ansehen"
+  },
+  "forms": {
+    "sendMessageTitle": "Senden Sie uns eine Nachricht",
+    "fullName": "Vollständiger Name",
+    "fullNameRequired": "Vollständiger Name *",
+    "emailAddress": "E-Mail-Adresse",
+    "emailAddressRequired": "E-Mail-Adresse *",
+    "phoneNumber": "Telefonnummer",
+    "companyName": "Firmenname",
+    "serviceOfInterest": "Gewünschte Leistung",
+    "serviceOfInterestRequired": "Gewünschte Leistung *",
+    "projectDetails": "Projektdetails",
+    "message": "Nachricht",
+    "preferredDate": "Bevorzugtes Datum",
+    "preferredTime": "Bevorzugte Uhrzeit",
+    "placeholders": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "company": "Acme Inc",
+      "selectService": "Leistung auswählen",
+      "selectTime": "Uhrzeit auswählen",
+      "projectDetails": "Erzählen Sie uns von Ihrem Projekt...",
+      "scheduleMessage": "Gibt es bestimmte Details, die Sie besprechen möchten?"
+    },
+    "services": {
+      "software": "Individuelle Software",
+      "crm": "CRM-Tools",
+      "marketing": "Digitales Marketing",
+      "cloud": "Cloud-Infrastruktur",
+      "ecommerce": "E-Commerce",
+      "other": "Sonstiges",
+      "otherFullSuite": "Sonstiges / Komplettpaket"
+    },
+    "timeSlots": {
+      "morning": "Vormittag (9–12 Uhr)",
+      "afternoon": "Nachmittag (12–16 Uhr)",
+      "evening": "Abend (16–19 Uhr)"
+    },
+    "validation": {
+      "nameRequired": "Name ist erforderlich",
+      "invalidEmail": "Ungültige E-Mail-Adresse",
+      "phoneRequired": "Telefonnummer ist erforderlich",
+      "selectService": "Bitte wählen Sie eine Leistung",
+      "messageMinLength": "Die Nachricht muss mindestens 10 Zeichen lang sein"
+    },
+    "sending": "Wird gesendet...",
+    "submitting": "Wird übermittelt..."
+  },
+  "scheduleMeeting": {
+    "title": "Termin vereinbaren",
+    "description": "Füllen Sie die Angaben unten aus, um einen Termin zur Besprechung Ihres Projekts zu vereinbaren.",
+    "successTitle": "Anfrage erhalten!",
+    "successDescription": "Vielen Dank für Ihre Nachricht. Wir haben Ihre Anfrage erhalten und melden uns in Kürze — in der Regel innerhalb von 2 Geschäftsstunden. Eine Bestätigungs-E-Mail wurde an Ihren Posteingang gesendet.",
+    "genericError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "toasts": {
+    "messageSentTitle": "Nachricht gesendet!",
+    "messageSentDescription": "Vielen Dank für Ihre Nachricht. Wir melden uns in Kürze — in der Regel innerhalb von 2 Geschäftsstunden.",
+    "messageFailedTitle": "Nachricht konnte nicht gesendet werden"
+  },
+  "languages": {
+    "switchLanguage": "Sprache wechseln",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ar": "العربية"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "followUs": "Folgen Sie uns"
+  },
+  "heroAnnotation": "Jetzt kostenloses Gespräch vereinbaren",
+  "whatsapp": {
+    "chatLabel": "Chatten Sie mit uns auf WhatsApp"
+  },
+  "notFound": {
+    "title": "404 — Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zur Startseite"
+  }
+}

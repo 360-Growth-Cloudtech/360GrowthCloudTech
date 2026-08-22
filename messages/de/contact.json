@@ -1,0 +1,17 @@
+{
+  "page": {
+    "label": "Kontakt",
+    "title": "Lassen Sie uns sprechen.",
+    "subtitle": "Ob Sie eine Ausschreibung haben oder nur eine Idee auf einer Serviette — wir sind bereit zu helfen."
+  },
+  "getInTouch": {
+    "title": "Kontakt aufnehmen.",
+    "subtitle": "Wir antworten in der Regel innerhalb von 2 Stunden während der Geschäftszeiten.",
+    "emailLabel": "E-Mail schreiben",
+    "callLabel": "Anrufen"
+  },
+  "scheduleCard": {
+    "title": "Lieber telefonieren?",
+    "description": "Buchen Sie eine kostenlose 30-minütige Strategiesitzung mit unserem Team."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "page": {
+    "label": "Contact",
+    "title": "Parlons-en.",
+    "subtitle": "Que vous ayez un appel d'offres ou juste une idée sur une serviette — nous sommes prêts à vous aider."
+  },
+  "getInTouch": {
+    "title": "Contactez-nous.",
+    "subtitle": "Nous répondons généralement sous 2 heures pendant les heures ouvrables.",
+    "emailLabel": "Écrivez-nous",
+    "callLabel": "Appelez-nous"
+  },
+  "scheduleCard": {
+    "title": "Vous préférez un appel ?",
+    "description": "Réservez une session stratégique gratuite de 30 min avec notre équipe."
+  }
+}

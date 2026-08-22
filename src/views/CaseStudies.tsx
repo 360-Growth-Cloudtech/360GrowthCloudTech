@@ -1,10 +1,15 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { CaseStudyPreviewImage } from "@/components/CaseStudyPreviewImage";
 import { ArrowRight } from "lucide-react";
-import { caseStudies } from "@/lib/case-studies-data";
+import {
+  caseStudyMeta,
+  mergeCaseStudy,
+  type CaseStudyContent,
+} from "@/lib/case-studies-meta";
 
 const fadeUp = {
   initial: { opacity: 0, y: 20 },
@@ -14,6 +19,12 @@ const fadeUp = {
 };
 
 export default function CaseStudies() {
+  const t = useTranslations("caseStudies");
+  const studies = caseStudyMeta.map((meta) => {
+    const item = t.raw(`items.${meta.slug}`) as CaseStudyContent;
+    return mergeCaseStudy(meta, { ...item, slug: meta.slug });
+  });
+
   return (
     <div data-testid="case-studies-page" className="bg-background min-h-screen">
       {/* Hero */}
@@ -24,7 +35,7 @@ export default function CaseStudies() {
             animate={{ opacity: 1, y: 0 }}
             className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-8"
           >
-            Work
+            {t("list.label")}
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
@@ -32,7 +43,7 @@ export default function CaseStudies() {
             transition={{ delay: 0.06 }}
             className="display-heading text-4xl md:text-5xl lg:text-[3.35rem] text-foreground leading-[1.1] max-w-4xl mb-8"
           >
-            Case studies from products that ship.
+            {t("list.title")}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -40,8 +51,7 @@ export default function CaseStudies() {
             transition={{ delay: 0.12 }}
             className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-3xl"
           >
-            Real builds from the 360GrowthCloudTech team — healthcare workflows, e-commerce,
-            education, architecture, and travel ops — and the engineering decisions behind them.
+            {t("list.subtitle")}
           </motion.p>
         </div>
       </section>
@@ -49,7 +59,7 @@ export default function CaseStudies() {
       {/* List */}
       <section className="py-4 md:py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          {caseStudies.map((study, index) => (
+          {studies.map((study, index) => (
             <motion.article
               key={study.slug}
               {...fadeUp}
@@ -80,7 +90,7 @@ export default function CaseStudies() {
                     href={`/case-studies/${study.slug}`}
                     className="inline-flex items-center gap-1.5 text-sm font-bold text-foreground hover:text-primary transition-colors group"
                   >
-                    Read the case study
+                    {t("list.readCaseStudy")}
                     <ArrowRight
                       size={15}
                       className="transition-transform group-hover:translate-x-0.5"

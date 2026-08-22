@@ -1,0 +1,17 @@
+{
+  "page": {
+    "label": "Contáctenos",
+    "title": "Hablemos.",
+    "subtitle": "Ya sea que tenga una RFP o solo una idea en una servilleta — estamos listos para ayudar."
+  },
+  "getInTouch": {
+    "title": "Póngase en contacto.",
+    "subtitle": "Normalmente respondemos en 2 horas durante el horario laboral.",
+    "emailLabel": "Envíenos un correo",
+    "callLabel": "Llámenos"
+  },
+  "scheduleCard": {
+    "title": "¿Prefiere una llamada?",
+    "description": "Reserve una sesión estratégica gratuita de 30 min con nuestro equipo."
+  }
+}

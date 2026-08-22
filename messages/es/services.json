@@ -1,0 +1,116 @@
+{
+  "page": {
+    "label": "Servicios",
+    "titleLine1": "Ingeniería de IA y",
+    "titleLine2": "diseño, de extremo a extremo",
+    "subtitle": "Siete disciplinas, un solo equipo. Desde la estrategia de producto hasta la arquitectura de IA y el despliegue en producción, sin traspasos intermedios.",
+    "processTitle": "Un proceso enfocado y repetible",
+    "processSubtitle": "Cada proyecto sigue las mismas fases claras — desde el descubrimiento y la construcción hasta el lanzamiento, el marketing y la escala cloud.",
+    "inPracticeTitle": "Servicios en la práctica",
+    "viewCaseStudies": "Ver casos de estudio",
+    "ctaTitle": "Hable con nosotros sobre su proyecto",
+    "ctaSubtitle": "Consulta gratuita, sin compromiso. Cuéntenos qué está construyendo y trazaremos el camino a seguir."
+  },
+  "disciplines": {
+    "01": {
+      "title": "Estrategia de producto",
+      "summary": "Visión, hoja de ruta y arquitectura para que su producto resuelva los problemas correctos desde el primer día.",
+      "desc": "Alineamos la visión del producto con los objetivos del negocio antes de escribir una sola línea de código. Hojas de ruta, alcance y decisiones de arquitectura que preparan su producto para triunfar.",
+      "bullets": ["Hojas de ruta de producto", "Análisis de mercado", "Alcance y validación del MVP", "Alineación con stakeholders"]
+    },
+    "02": {
+      "title": "Diseño UX/UI",
+      "summary": "Interfaces basadas en investigación que resultan intuitivas, lucen impecables y convierten en todos los dispositivos.",
+      "desc": "Interfaces que resultan obvias de usar e imposibles de ignorar. Sistemas de diseño respaldados por investigación, creados para la conversión, la accesibilidad y todos los tamaños de pantalla.",
+      "bullets": ["Investigación de usuarios", "Wireframes y prototipos", "Sistemas de diseño", "Pruebas de usabilidad"]
+    },
+    "03": {
+      "title": "Ingeniería frontend",
+      "summary": "Implementación pixel-perfect en React, Next.js y frameworks modernos. Listo para producción.",
+      "desc": "Implementación pixel-perfect en frameworks modernos. Frontends rápidos, responsivos y mantenibles que su equipo puede extender mucho después del lanzamiento.",
+      "bullets": ["React / Next.js", "UI responsiva", "Optimización de rendimiento", "Bibliotecas de componentes"]
+    },
+    "04": {
+      "title": "Ingeniería backend",
+      "summary": "APIs de producción, esquemas normalizados e infraestructura que resiste cargas reales.",
+      "desc": "APIs, bases de datos y servicios diseñados para cargas del mundo real. Infraestructura segura y observable que escala con su base de usuarios.",
+      "bullets": ["APIs REST y GraphQL", "Diseño de bases de datos", "Autenticación y control de acceso", "Microservicios"]
+    },
+    "05": {
+      "title": "IA y automatización",
+      "summary": "Integración de LLM, recuperación y automatización de flujos de trabajo diseñados en el producto, no añadidos después.",
+      "desc": "Funcionalidades inteligentes integradas en su producto — no añadidas a posteriori. Desde integraciones LLM hasta flujos automatizados que ahorran horas cada semana.",
+      "bullets": ["Integración LLM", "Pipelines RAG", "Automatización de flujos", "Funcionalidades con IA"]
+    },
+    "06": {
+      "title": "Marketing digital",
+      "summary": "Campañas basadas en datos, SEO y estrategias de crecimiento que convierten tráfico en ingresos medibles.",
+      "desc": "El crecimiento no es adivinanza. Construimos sistemas de marketing — pagados, orgánicos y analíticos — alineados con su producto y que escalan con usted.",
+      "bullets": ["SEO y estrategia de contenido", "Anuncios pagados (Google, Meta)", "Analítica y seguimiento de conversiones", "Campañas de marca y crecimiento"]
+    },
+    "07": {
+      "title": "Infraestructura cloud",
+      "summary": "Configuración cloud escalable, pipelines CI/CD e infraestructura resiliente diseñada para producción.",
+      "desc": "Desde la migración hasta las operaciones del día a día, diseñamos entornos cloud que permanecen rápidos, seguros y rentables bajo tráfico real.",
+      "bullets": ["Migración cloud", "Pipelines CI/CD", "Infraestructura como código", "Monitorización y autoescalado"]
+    }
+  },
+  "process": {
+    "01": {
+      "title": "Descubrimiento",
+      "desc": "Conocemos sus objetivos, usuarios y restricciones — luego definimos alcance, métricas de éxito y un cronograma realista."
+    },
+    "02": {
+      "title": "Diseño",
+      "desc": "Wireframes, prototipos y UX validada antes de que comience el desarrollo. Sin sorpresas en el lanzamiento."
+    },
+    "03": {
+      "title": "Construcción",
+      "desc": "Sprints ágiles con demos semanales. Ve software funcional pronto y con frecuencia, con margen para iterar."
+    },
+    "04": {
+      "title": "Lanzamiento e iteración",
+      "desc": "Despliegue en producción, monitorización y optimización continua. Permanecemos con usted después del go-live."
+    },
+    "05": {
+      "title": "Marketing",
+      "desc": "SEO, campañas pagadas y analítica conectados a su lanzamiento — para que el crecimiento sea medible desde el primer día."
+    },
+    "06": {
+      "title": "Cloud",
+      "desc": "Migración, CI/CD y operaciones de producción — infraestructura que escala con el tráfico y mantiene la eficiencia de costes."
+    }
+  },
+  "inPractice": {
+    "healthcare": {
+      "tag": "Salud",
+      "title": "Portal de pacientes",
+      "desc": "Portal compatible con HIPAA con tiempos de carga un 40% más rápidos y 3x más usuarios activos.",
+      "imageAlt": "Maqueta de sitio web de portal de pacientes de salud"
+    },
+    "travel": {
+      "tag": "Viajes",
+      "title": "Motor de reservas",
+      "desc": "Infraestructura autoescalable con 99,99% de disponibilidad en temporadas pico.",
+      "imageAlt": "Maqueta de sitio web de motor de reservas de viajes"
+    },
+    "retail": {
+      "tag": "Retail",
+      "title": "Plataforma e-commerce",
+      "desc": "Tienda mobile-first que duplicó las tasas de conversión con cargas de página en menos de un segundo.",
+      "imageAlt": "Maqueta de sitio web de retail e-commerce"
+    },
+    "marketing": {
+      "tag": "Marketing",
+      "title": "Campaña de crecimiento",
+      "desc": "Estrategia integrada de SEO y medios pagados que aumentó los leads cualificados un 60% en 90 días.",
+      "imageAlt": "Maqueta de panel de analítica de marketing digital"
+    },
+    "cloud": {
+      "tag": "Cloud",
+      "title": "Migración de plataforma",
+      "desc": "Migración cloud sin tiempo de inactividad con pipelines CI/CD y SLA de 99,99% de disponibilidad.",
+      "imageAlt": "Maqueta de panel de infraestructura cloud"
+    }
+  }
+}

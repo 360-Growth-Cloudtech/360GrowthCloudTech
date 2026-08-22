@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "services": "サービス",
+    "work": "実績",
+    "contact": "お問い合わせ",
+    "bookCall": "通話を予約",
+    "getStarted": "始める",
+    "bookFreeCall": "無料通話を予約",
+    "sendMessage": "メッセージを送る",
+    "brandShort": "Cloud Tech"
+  },
+  "footer": {
+    "brandName": "360 cloud tech",
+    "tagline": "ソフトウェア、クラウド、マーケティングを通じて、未来の成長のためのデジタルファースト技術を設計します。",
+    "company": "会社情報",
+    "services": "サービス",
+    "resources": "リソース",
+    "links": {
+      "about": "会社概要",
+      "contact": "お問い合わせ",
+      "consulting": "コンサルティング",
+      "technology": "テクノロジー",
+      "industries": "業界",
+      "work": "実績"
+    },
+    "scheduleTitle": "ビジネスの変革を始めませんか？",
+    "scheduleDesc": "プロジェクトについてお話しし、目標達成をどのようにお手伝いできるか一緒に検討しましょう。",
+    "scheduleMeeting": "ミーティングを予約",
+    "sendMessage": "メッセージを送る",
+    "copyright": "© {year} 360CloudTech. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "Cookieポリシー"
+  },
+  "brand": {
+    "full": "360GrowthCloudTech",
+    "short": "360 cloud tech",
+    "logoAlt": "360 cloud tech",
+    "tagline": "デジタルエンジニアリング＆グローススタジオ"
+  },
+  "ctas": {
+    "bookFreeStrategyCall": "無料戦略相談を予約",
+    "viewServices": "サービスを見る",
+    "explore": "探索する",
+    "getInTouch": "お問い合わせ",
+    "sendMessage": "メッセージを送る",
+    "startConversation": "会話を始める",
+    "contactUs": "お問い合わせ",
+    "letsTalk": "話しましょう",
+    "bookFreeCall": "無料通話を予約",
+    "requestConsultation": "相談を申し込む",
+    "confirmMeeting": "ミーティングを確定",
+    "close": "閉じる",
+    "seeServicesDetail": "サービスの詳細を見る",
+    "recentProjects": "最近のプロジェクト",
+    "viewServicesLink": "サービスを見る",
+    "viewCaseStudies": "事例を見る"
+  },
+  "forms": {
+    "sendMessageTitle": "メッセージをお送りください",
+    "fullName": "氏名",
+    "fullNameRequired": "氏名 *",
+    "emailAddress": "メールアドレス",
+    "emailAddressRequired": "メールアドレス *",
+    "phoneNumber": "電話番号",
+    "companyName": "会社名",
+    "serviceOfInterest": "ご興味のあるサービス",
+    "serviceOfInterestRequired": "ご興味のあるサービス *",
+    "projectDetails": "プロジェクトの詳細",
+    "message": "メッセージ",
+    "preferredDate": "希望日",
+    "preferredTime": "希望時間",
+    "placeholders": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "company": "Acme Inc",
+      "selectService": "サービスを選択",
+      "selectTime": "時間を選択",
+      "projectDetails": "プロジェクトについてお聞かせください...",
+      "scheduleMessage": "ご相談したい具体的な内容はありますか？"
+    },
+    "services": {
+      "software": "カスタムソフトウェア",
+      "crm": "CRMツール",
+      "marketing": "デジタルマーケティング",
+      "cloud": "クラウドインフラ",
+      "ecommerce": "Eコマース",
+      "other": "その他",
+      "otherFullSuite": "その他 / フルスイート"
+    },
+    "timeSlots": {
+      "morning": "午前（9時–12時）",
+      "afternoon": "午後（12時–16時）",
+      "evening": "夕方（16時–19時）"
+    },
+    "validation": {
+      "nameRequired": "氏名は必須です",
+      "invalidEmail": "無効なメールアドレスです",
+      "phoneRequired": "電話番号は必須です",
+      "selectService": "サービスを選択してください",
+      "messageMinLength": "メッセージは10文字以上で入力してください"
+    },
+    "sending": "送信中...",
+    "submitting": "送信中..."
+  },
+  "scheduleMeeting": {
+    "title": "ミーティングを予約",
+    "description": "以下の情報を入力して、プロジェクトについて話し合う時間を予約してください。",
+    "successTitle": "リクエストを受け付けました！",
+    "successDescription": "お問い合わせありがとうございます。リクエストを受け付けました。通常2営業時間以内にご連絡いたします。確認メールをお送りしました。",
+    "genericError": "問題が発生しました。もう一度お試しください。"
+  },
+  "toasts": {
+    "messageSentTitle": "メッセージを送信しました！",
+    "messageSentDescription": "お問い合わせありがとうございます。通常2営業時間以内にご連絡いたします。",
+    "messageFailedTitle": "メッセージを送信できませんでした"
+  },
+  "languages": {
+    "switchLanguage": "言語を切り替え",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ar": "العربية"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "followUs": "フォローする"
+  },
+  "heroAnnotation": "今すぐ無料通話を予約",
+  "whatsapp": {
+    "chatLabel": "WhatsAppでお問い合わせ"
+  },
+  "notFound": {
+    "title": "404 — ページが見つかりません",
+    "description": "お探しのページは存在しないか、移動しました。",
+    "backHome": "ホームに戻る"
+  }
+}

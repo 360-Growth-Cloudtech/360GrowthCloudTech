@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useTranslations } from "next-intl";
 import { CONTACT_PHONE } from "@/lib/contact";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,20 +15,43 @@ import { useToast } from "@/hooks/use-toast";
 import { submitLead } from "@/lib/submit-lead";
 import { Loader2 } from "lucide-react";
 
-const formSchema = z.object({
-  name: z.string().min(2, "Name is required"),
-  email: z.string().email("Invalid email address"),
-  phone: z.string().min(10, "Phone number is required"),
-  service: z.string().min(1, "Please select a service"),
-  message: z.string().min(10, "Message must be at least 10 characters"),
-  website: z.string().optional(),
-});
+const SERVICE_OPTIONS = [
+  { value: "software", labelKey: "software" },
+  { value: "crm", labelKey: "crm" },
+  { value: "marketing", labelKey: "marketing" },
+  { value: "cloud", labelKey: "cloud" },
+  { value: "ecommerce", labelKey: "ecommerce" },
+  { value: "other", labelKey: "otherFullSuite" },
+] as const;
 
-type FormValues = z.infer<typeof formSchema>;
+type FormValues = {
+  name: string;
+  email: string;
+  phone: string;
+  service: string;
+  message: string;
+  website?: string;
+};
 
 export function ContactForm() {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const t = useTranslations("common.forms");
+  const tCta = useTranslations("common.ctas");
+  const tToast = useTranslations("common.toasts");
+
+  const formSchema = useMemo(
+    () =>
+      z.object({
+        name: z.string().min(2, t("validation.nameRequired")),
+        email: z.string().email(t("validation.invalidEmail")),
+        phone: z.string().min(10, t("validation.phoneRequired")),
+        service: z.string().min(1, t("validation.selectService")),
+        message: z.string().min(10, t("validation.messageMinLength")),
+        website: z.string().optional(),
+      }),
+    [t],
+  );
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -48,7 +72,7 @@ export function ContactForm() {
 
       if (!result.success) {
         toast({
-          title: "Could not send message",
+          title: tToast("messageFailedTitle"),
           description: result.error,
           variant: "destructive",
         });
@@ -56,10 +80,8 @@ export function ContactForm() {
       }
 
       toast({
-        title: "Message sent!",
-        description:
-          result.warning ??
-          "Thank you for reaching out. We'll get back to you shortly — typically within 2 business hours.",
+        title: tToast("messageSentTitle"),
+        description: result.warning ?? tToast("messageSentDescription"),
       });
       form.reset();
     } finally {
@@ -69,7 +91,7 @@ export function ContactForm() {
 
   return (
     <div className="bg-white p-8 rounded-2xl shadow-xl border border-border/50" data-testid="contact-form-container">
-      <h3 className="text-2xl font-bold mb-6 text-foreground">Send us a message</h3>
+      <h3 className="text-2xl font-bold mb-6 text-foreground">{t("sendMessageTitle")}</h3>
 
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
@@ -89,9 +111,9 @@ export function ContactForm() {
               name="name"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Full Name</FormLabel>
+                  <FormLabel>{t("fullName")}</FormLabel>
                   <FormControl>
-                    <Input placeholder="John Doe" {...field} data-testid="input-name" />
+                    <Input placeholder={t("placeholders.name")} {...field} data-testid="input-name" />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -102,9 +124,9 @@ export function ContactForm() {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Email Address</FormLabel>
+                  <FormLabel>{t("emailAddress")}</FormLabel>
                   <FormControl>
-                    <Input type="email" placeholder="john@example.com" {...field} data-testid="input-email" />
+                    <Input type="email" placeholder={t("placeholders.email")} {...field} data-testid="input-email" />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -118,7 +140,7 @@ export function ContactForm() {
               name="phone"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Phone Number</FormLabel>
+                  <FormLabel>{t("phoneNumber")}</FormLabel>
                   <FormControl>
                     <Input placeholder={CONTACT_PHONE} {...field} data-testid="input-phone" />
                   </FormControl>
@@ -131,20 +153,19 @@ export function ContactForm() {
               name="service"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Service of Interest</FormLabel>
+                  <FormLabel>{t("serviceOfInterest")}</FormLabel>
                   <Select onValueChange={field.onChange} value={field.value}>
                     <FormControl>
                       <SelectTrigger data-testid="select-service">
-                        <SelectValue placeholder="Select a service" />
+                        <SelectValue placeholder={t("placeholders.selectService")} />
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="software">Custom Software</SelectItem>
-                      <SelectItem value="crm">CRM Tools</SelectItem>
-                      <SelectItem value="marketing">Digital Marketing</SelectItem>
-                      <SelectItem value="cloud">Cloud Infrastructure</SelectItem>
-                      <SelectItem value="ecommerce">E-commerce</SelectItem>
-                      <SelectItem value="other">Other / Full Suite</SelectItem>
+                      {SERVICE_OPTIONS.map(({ value, labelKey }) => (
+                        <SelectItem key={value} value={value}>
+                          {t(`services.${labelKey}`)}
+                        </SelectItem>
+                      ))}
                     </SelectContent>
                   </Select>
                   <FormMessage />
@@ -158,10 +179,10 @@ export function ContactForm() {
             name="message"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Project Details</FormLabel>
+                <FormLabel>{t("projectDetails")}</FormLabel>
                 <FormControl>
                   <Textarea
-                    placeholder="Tell us about your project..."
+                    placeholder={t("placeholders.projectDetails")}
                     className="min-h-[120px]"
                     {...field}
                     data-testid="input-message"
@@ -180,11 +201,11 @@ export function ContactForm() {
           >
             {isSubmitting ? (
               <>
-                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                Sending...
+                <Loader2 className="me-2 h-4 w-4 animate-spin" />
+                {t("sending")}
               </>
             ) : (
-              "Request Consultation"
+              tCta("requestConsultation")
             )}
           </Button>
         </form>

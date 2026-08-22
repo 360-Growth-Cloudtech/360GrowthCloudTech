@@ -2,14 +2,17 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/routing";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { Magnetic } from "@/components/motion";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 export function Navbar() {
+  const t = useTranslations("common.nav");
+  const tCta = useTranslations("common.ctas");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
@@ -31,6 +34,12 @@ export function Navbar() {
 
   const isActive = (path: string) => pathname === path;
 
+  const navLinks = [
+    { href: "/services", label: t("services"), testId: "nav-link-services" },
+    { href: "/case-studies", label: t("work"), testId: "nav-link-work" },
+    { href: "/contact", label: t("contact"), testId: "nav-link-contact-us" },
+  ] as const;
+
   return (
     <motion.nav
       className="fixed top-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-4xl -translate-x-1/2"
@@ -44,8 +53,7 @@ export function Navbar() {
           scrolled ? "is-scrolled px-4 py-2" : "px-4 py-2.5"
         }`}
       >
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 shrink-0 group" data-testid="nav-logo-link">
+        <Link href="/" className="group flex shrink-0 items-center gap-2" data-testid="nav-logo-link">
           <motion.span
             className="inline-flex shrink-0"
             whileHover={{ rotate: -8, scale: 1.08 }}
@@ -53,23 +61,18 @@ export function Navbar() {
           >
             <Image src="/logo.png" alt="" width={35} height={35} className="h-8 w-auto" priority />
           </motion.span>
-          <span className="hidden sm:block text-sm font-bold text-foreground leading-none tracking-tight group-hover:text-primary transition-colors">
-            Cloud Tech
+          <span className="hidden text-sm font-bold leading-none tracking-tight text-foreground transition-colors group-hover:text-primary sm:block">
+            {t("brandShort")}
           </span>
         </Link>
 
-        {/* Desktop nav links — center */}
-        <div className="hidden md:flex items-center gap-0.5">
-          {[
-            { href: "/services", label: "Services", testId: "nav-link-services" },
-            { href: "/case-studies", label: "Work", testId: "nav-link-work" },
-            { href: "/contact", label: "Contact", testId: "nav-link-contact-us" },
-          ].map(({ href, label, testId }) => (
+        <div className="hidden items-center gap-0.5 md:flex">
+          {navLinks.map(({ href, label, testId }) => (
             <Link
               key={href}
               href={href}
               data-testid={testId}
-              className={`nav-link px-3.5 py-2 rounded-full text-sm font-semibold transition-colors ${
+              className={`nav-link rounded-full px-3.5 py-2 text-sm font-semibold transition-colors ${
                 isActive(href) ? "text-primary is-active" : "text-foreground/70 hover:text-foreground"
               }`}
             >
@@ -78,29 +81,30 @@ export function Navbar() {
           ))}
         </div>
 
-        {/* Right side */}
         <div className="flex items-center gap-2">
+          <div className="hidden md:block">
+            <LanguageSwitcher />
+          </div>
           <button
             onClick={() => setOpen(true)}
             data-testid="nav-link-schedule-meeting"
-            className="nav-link hidden md:block text-sm font-semibold text-foreground/70 hover:text-foreground transition-colors px-3"
+            className="nav-link hidden px-3 text-sm font-semibold text-foreground/70 transition-colors hover:text-foreground md:block"
           >
-            Book a call
+            {t("bookCall")}
           </button>
           <Magnetic strength={8}>
             <Link
               href="/contact"
               data-testid="nav-cta-button"
-              className="btn-dark text-sm rounded-full"
+              className="btn-dark rounded-full text-sm"
               style={{ fontSize: "0.82rem", padding: "8px 18px" }}
             >
-              Get started
+              {t("getStarted")}
             </Link>
           </Magnetic>
-          {/* Mobile toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden w-9 h-9 flex items-center justify-center rounded-full text-foreground hover:bg-foreground/6 transition-colors"
+            className="flex h-9 w-9 items-center justify-center rounded-full text-foreground transition-colors hover:bg-foreground/6 md:hidden"
             data-testid="nav-mobile-toggle"
           >
             {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
@@ -108,41 +112,49 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* Mobile dropdown */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
-            className="md:hidden mt-2 rounded-3xl overflow-hidden bg-white/95 backdrop-blur-xl border border-border shadow-xl"
+            className="mt-2 overflow-hidden rounded-3xl border border-border bg-white/95 shadow-xl backdrop-blur-xl md:hidden"
             initial={{ opacity: 0, y: -12, height: 0 }}
             animate={{ opacity: 1, y: 0, height: "auto" }}
             exit={{ opacity: 0, y: -12, height: 0 }}
             transition={{ duration: 0.32, ease: [0.16, 1, 0.3, 1] }}
           >
-            <div className="px-4 py-5 flex flex-col gap-1">
-              {[
-                { href: "/services", label: "Services" },
-                { href: "/case-studies", label: "Work" },
-                { href: "/contact", label: "Contact" },
-              ].map(({ href, label }) => (
+            <div className="flex flex-col gap-1 px-4 py-5">
+              {navLinks.map(({ href, label }) => (
                 <Link
                   key={href}
                   href={href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`px-3 py-2.5 rounded-xl text-sm font-semibold transition-colors ${
+                  className={`rounded-xl px-3 py-2.5 text-sm font-semibold transition-colors ${
                     isActive(href)
                       ? "text-primary"
-                      : "text-foreground/80 hover:text-primary hover:bg-primary/5"
+                      : "text-foreground/80 hover:bg-primary/5 hover:text-primary"
                   }`}
                 >
                   {label}
                 </Link>
               ))}
+              <div className="px-3 py-2">
+                <LanguageSwitcher />
+              </div>
               <div className="mt-3 flex flex-col gap-2">
-                <button onClick={() => { setMobileMenuOpen(false); setOpen(true); }} className="btn-primary w-full rounded-full text-sm">
-                  Book a Free Call
+                <button
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    setOpen(true);
+                  }}
+                  className="btn-primary w-full rounded-full text-sm"
+                >
+                  {t("bookFreeCall")}
                 </button>
-                <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="btn-outline w-full rounded-full text-sm text-center">
-                  Send a Message
+                <Link
+                  href="/contact"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="btn-outline w-full rounded-full text-center text-sm"
+                >
+                  {tCta("sendMessage")}
                 </Link>
               </div>
             </div>

@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "label": "✦ クリーンコード。スケーラブルなアーキテクチャ。 ✦",
+    "titleLine1": "私たちがプロダクトを作る。",
+    "titleLine2a": "あなたが",
+    "titleLine2b": "会社を築く。",
+    "subtitle": "私たちは野心的な創業者の背後にあるエンジニアリングチームです — モダンで保守性の高い技術で、Webアプリ、SaaSツール、デジタルプロダクトを届けます。",
+    "trustItems": {
+      "noLockIn": "縛りのない契約",
+      "soc2": "SOC 2認証取得",
+      "globalDelivery": "グローバルデリバリー"
+    }
+  },
+  "trustedBy": {
+    "label": "業界リーダーからの信頼",
+    "companies": ["HealthTech Corp", "Peak Retail", "Global Travel", "FinServe Group", "MedCare Health", "CloudFirst"]
+  },
+  "whatWeDo": {
+    "label": "私たちの仕事",
+    "title": "デジタルエンジニアリングとデザインを一つの屋根の下に",
+    "subtitle": "7つの分野、1つのチーム。プロダクト戦略からクラウドアーキテクチャ、本番デプロイまで、引き継ぎなし。"
+  },
+  "expertise": {
+    "label": "私たちの専門性",
+    "titleLine1": "オンラインで成功するために",
+    "titleLine2": "必要なすべて。",
+    "subtitle": "アイデアから稼働中の成長するプロダクトまで — スタックのすべてのレイヤーを担当します。",
+    "services": {
+      "customSoftware": {
+        "title": "カスタムソフトウェア",
+        "desc": "スケールを見据えた高性能Web・モバイルアプリ。",
+        "tag": "エンジニアリング"
+      },
+      "customCrm": {
+        "title": "カスタムCRMツール",
+        "desc": "ワークフローにぴったり合うオーダーメイドCRMシステム。",
+        "tag": "プロダクト"
+      },
+      "digitalMarketing": {
+        "title": "デジタルマーケティング",
+        "desc": "データドリブンな広告と包括的なSEO成長。",
+        "tag": "グロース"
+      },
+      "cloudInfrastructure": {
+        "title": "クラウドインフラ",
+        "desc": "スケーラブルなクラウド構築と堅牢なCI/CDパイプライン。",
+        "tag": "DevOps"
+      },
+      "ecommerce": {
+        "title": "Eコマース",
+        "desc": "シームレスな決済フローを備えたエンドツーエンドストア。",
+        "tag": "コマース"
+      }
+    }
+  },
+  "stats": {
+    "projectsDelivered": { "value": "250+", "label": "納品プロジェクト" },
+    "uptime": { "value": "99.9%", "label": "達成稼働率" },
+    "enterpriseClients": { "value": "50+", "label": "エンタープライズクライアント" },
+    "yearsExperience": { "value": "10+", "label": "年の経験" }
+  },
+  "whyChooseUs": {
+    "label": "選ばれる理由",
+    "titleLine1": "あなたの旅全体を",
+    "titleLine2": "支えるパートナー。",
+    "subtitle": "長期的なテクノロジーパートナーとして — 成長、適応、業界でのリーダーシップを自信を持って支援します。",
+    "features": {
+      "fastDelivery": {
+        "title": "迅速なデリバリー",
+        "desc": "週次デモ付きアジャイルスプリント — 初日から進捗を確認。"
+      },
+      "enterpriseSecurity": {
+        "title": "エンタープライズセキュリティ",
+        "desc": "HIPAA、GDPR、ISO 27001基準に準拠したSOC 2。"
+      },
+      "globalSupport": {
+        "title": "グローバルサポート",
+        "desc": "複数タイムゾーンにまたがる24/7サポートチーム。"
+      },
+      "measurableResults": {
+        "title": "測定可能な成果",
+        "desc": "データに基づくKPIと各ステップでの透明なレポート。"
+      }
+    },
+    "cards": {
+      "industries": { "value": "40+", "label": "業界", "sub": "対応セクター" },
+      "projects": { "value": "250+", "label": "プロジェクト", "sub": "納品済み" },
+      "uptime": { "value": "99.9%", "label": "稼働率", "sub": "SLA保証" },
+      "support": { "value": "24/7", "label": "サポート", "sub": "常時対応" }
+    }
+  },
+  "testimonials": {
+    "label": "お客様の声",
+    "titleLine1": "業界リーダーから",
+    "titleLine2": "信頼されています。",
+    "items": [
+      {
+        "quote": "360CloudTechは患者ポータルを完全に刷新しました。より高速で、非常に安全、サポートも常に対応してくれます。",
+        "name": "Dr. Sarah Jenkins",
+        "role": "CTO, MedCare Health",
+        "initials": "SJ"
+      },
+      {
+        "quote": "開発とマーケティングが一つの屋根の下にあることですべてが変わりました。Eコマースのコンバージョンが40%増加しました。",
+        "name": "Marcus Chen",
+        "role": "Founder, Peak Retail",
+        "initials": "MC"
+      },
+      {
+        "quote": "クラウドインフラの構築は完璧です。予約エンジンの移行以降、1分たりともダウンタイムはありません。",
+        "name": "Elena Rodriguez",
+        "role": "VP Engineering, Global Travel",
+        "initials": "ER"
+      }
+    ]
+  },
+  "cta": {
+    "label": "始める準備はできましたか？",
+    "titleLine1": "一緒に素晴らしい",
+    "titleLine2": "ものを作りましょう。",
+    "subtitle": "無料相談、コミットメント不要。目標についての気軽な会話だけです。"
+  }
+}

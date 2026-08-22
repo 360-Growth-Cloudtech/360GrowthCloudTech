@@ -1,0 +1,33 @@
+{
+  "page": {
+    "label": "Über uns",
+    "title": "Ein Team, das entwirft und entwickelt, was es liefert.",
+    "subtitle": "360GrowthCloudTech ist ein Studio für digitale Entwicklung, das sich auf moderne Web-Produkte, Cloud-Systeme und wachstumsfähige Plattformen konzentriert — vom ersten Wireframe bis zum Produktions-Deployment."
+  },
+  "sections": {
+    "howWeWork": {
+      "title": "Wie wir arbeiten",
+      "paragraphs": [
+        "Wir eliminieren die Übergabe zwischen Design und Engineering. Produktstrategie, UX und Entwicklung sitzen in einem Team — Entscheidungen bleiben vom ersten Tag an verbunden und gehen nicht verloren.",
+        "Wir arbeiten systems-first: wiederverwendbare Komponenten, klare Architektur und wartbarer Code, den Ihr Team lange nach dem Launch erweitern kann. Jeder Build ist für Skalierung strukturiert, nicht nur für den Demo-Tag.",
+        "Engagements laufen in fokussierten 2–8-Wochen-Sprints mit wöchentlichen Demos. Sie sehen früh echten Fortschritt, geben oft Feedback und liefern mit Zuversicht — keine Überraschungen am Ziel."
+      ]
+    },
+    "whatWeShip": {
+      "title": "Was wir liefern",
+      "paragraph": "End-to-End-Lieferung über {disciplines}. Ein Partner von der Roadmap zum Live-Produkt — ohne Jonglieren mit Agenturen, Freelancern und internen Übergaben."
+    },
+    "team": {
+      "title": "Team",
+      "paragraphs": [
+        "Wir sind ein verteiltes Team aus Produktstrategen, Designern und Engineers — für Gründer und wachsende Unternehmen in Indien und weltweit. Remote-first, async-friendly, ergebnisorientiert statt Stunden zählen."
+      ],
+      "companyName": "360GrowthCloudTech",
+      "companyTagline": "Studio für digitale Entwicklung und Wachstum"
+    }
+  },
+  "cta": {
+    "title": "Mit uns arbeiten.",
+    "subtitle": "Starten Sie mit einem kostenlosen 30-minütigen Discovery-Call. Wir lernen Ihr Produkt, Timeline und Ziele kennen — und skizzieren einen klaren Weg. Kein Pitch Deck, kein Druck."
+  }
+}

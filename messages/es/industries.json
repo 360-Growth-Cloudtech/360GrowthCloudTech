@@ -1,0 +1,73 @@
+{
+  "page": {
+    "label": "Industrias",
+    "title": "A quién servimos.",
+    "subtitle": "Profunda experiencia en sectores complejos, regulados y de alto crecimiento."
+  },
+  "items": {
+    "healthcare": {
+      "name": "Salud",
+      "badge": "Compatible con HIPAA",
+      "desc": "Portales seguros y conformes y plataformas de telemedicina.",
+      "bullets": [
+        "Portales de pacientes",
+        "Apps de telemedicina",
+        "Integraciones EHR"
+      ]
+    },
+    "travel": {
+      "name": "Viajes y turismo",
+      "badge": "Alta disponibilidad",
+      "desc": "Motores de reservas robustos para picos de tráfico estacional.",
+      "bullets": [
+        "Motores de reservas",
+        "APIs de precios dinámicos",
+        "Planificadores de itinerarios"
+      ]
+    },
+    "retail": {
+      "name": "Retail",
+      "badge": "Escalable",
+      "desc": "Experiencias e-commerce omnicanal que impulsan conversiones.",
+      "bullets": [
+        "Plataformas e-commerce",
+        "Gestión de inventario",
+        "Integración POS"
+      ]
+    },
+    "finance": {
+      "name": "Finanzas",
+      "badge": "Seguridad bancaria",
+      "desc": "Aplicaciones fintech seguras, pasarelas de pago y plataformas de trading.",
+      "bullets": [
+        "Pasarelas de pago",
+        "Plataformas de trading",
+        "Detección de fraude"
+      ]
+    },
+    "education": {
+      "name": "Educación",
+      "badge": "Atractivo",
+      "desc": "LMS interactivos y plataformas EdTech para aprendizaje remoto.",
+      "bullets": [
+        "Gestión del aprendizaje",
+        "Aulas virtuales",
+        "Portales estudiantiles"
+      ]
+    },
+    "realEstate": {
+      "name": "Inmobiliaria",
+      "badge": "Basado en datos",
+      "desc": "Herramientas de gestión inmobiliaria para corretajes modernos.",
+      "bullets": [
+        "Listados de propiedades",
+        "Visitas virtuales",
+        "CRM para corredores"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Hable de las necesidades de su sector.",
+    "subtitle": "Cada industria es diferente. Encontremos la solución adecuada para la suya."
+  }
+}

@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useTranslations } from "next-intl";
 import { CONTACT_PHONE } from "@/lib/contact";
 import {
   Dialog,
@@ -20,19 +21,28 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { CheckCircle2, Loader2 } from "lucide-react";
 import { submitLead } from "@/lib/submit-lead";
 
-const formSchema = z.object({
-  name: z.string().min(2, "Name is required"),
-  email: z.string().email("Invalid email address"),
-  phone: z.string().optional(),
-  company: z.string().optional(),
-  service: z.string().min(1, "Please select a service"),
-  date: z.string().optional(),
-  time: z.string().optional(),
-  message: z.string().optional(),
-  website: z.string().optional(),
-});
+const SERVICE_OPTIONS = [
+  { value: "software", labelKey: "software" },
+  { value: "crm", labelKey: "crm" },
+  { value: "marketing", labelKey: "marketing" },
+  { value: "cloud", labelKey: "cloud" },
+  { value: "ecommerce", labelKey: "ecommerce" },
+  { value: "other", labelKey: "other" },
+] as const;
 
-type FormValues = z.infer<typeof formSchema>;
+const TIME_SLOT_KEYS = ["morning", "afternoon", "evening"] as const;
+
+type FormValues = {
+  name: string;
+  email: string;
+  phone?: string;
+  company?: string;
+  service: string;
+  date?: string;
+  time?: string;
+  message?: string;
+  website?: string;
+};
 
 interface ScheduleMeetingProps {
   open: boolean;
@@ -43,6 +53,25 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
   const [isSuccess, setIsSuccess] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const t = useTranslations("common.scheduleMeeting");
+  const tForm = useTranslations("common.forms");
+  const tCta = useTranslations("common.ctas");
+
+  const formSchema = useMemo(
+    () =>
+      z.object({
+        name: z.string().min(2, tForm("validation.nameRequired")),
+        email: z.string().email(tForm("validation.invalidEmail")),
+        phone: z.string().optional(),
+        company: z.string().optional(),
+        service: z.string().min(1, tForm("validation.selectService")),
+        date: z.string().optional(),
+        time: z.string().optional(),
+        message: z.string().optional(),
+        website: z.string().optional(),
+      }),
+    [tForm],
+  );
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -67,7 +96,7 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
       const result = await submitLead({ formType: "schedule-meeting", ...data });
 
       if (!result.success) {
-        setSubmitError(result.error ?? "Something went wrong. Please try again.");
+        setSubmitError(result.error ?? t("genericError"));
         return;
       }
 
@@ -89,22 +118,19 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
             <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mb-4">
               <CheckCircle2 className="w-8 h-8 text-accent" />
             </div>
-            <DialogTitle className="text-2xl font-bold">Request received!</DialogTitle>
+            <DialogTitle className="text-2xl font-bold">{t("successTitle")}</DialogTitle>
             <DialogDescription className="text-base text-muted-foreground">
-              Thank you for reaching out. We&apos;ve received your request and will get back to you shortly —
-              typically within 2 business hours. A confirmation email has been sent to your inbox.
+              {t("successDescription")}
             </DialogDescription>
             <Button onClick={() => onOpenChange(false)} className="mt-6 gradient-bg" data-testid="btn-close-success">
-              Close
+              {tCta("close")}
             </Button>
           </div>
         ) : (
           <div className="p-8">
             <DialogHeader className="mb-6">
-              <DialogTitle className="text-2xl font-bold">Schedule a Meeting</DialogTitle>
-              <DialogDescription>
-                Fill out the details below to schedule a time to discuss your project.
-              </DialogDescription>
+              <DialogTitle className="text-2xl font-bold">{t("title")}</DialogTitle>
+              <DialogDescription>{t("description")}</DialogDescription>
             </DialogHeader>
 
             <Form {...form}>
@@ -130,9 +156,9 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     name="name"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Full Name *</FormLabel>
+                        <FormLabel>{tForm("fullNameRequired")}</FormLabel>
                         <FormControl>
-                          <Input placeholder="John Doe" {...field} data-testid="schedule-name" />
+                          <Input placeholder={tForm("placeholders.name")} {...field} data-testid="schedule-name" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -143,9 +169,9 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     name="email"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Email Address *</FormLabel>
+                        <FormLabel>{tForm("emailAddressRequired")}</FormLabel>
                         <FormControl>
-                          <Input type="email" placeholder="john@example.com" {...field} data-testid="schedule-email" />
+                          <Input type="email" placeholder={tForm("placeholders.email")} {...field} data-testid="schedule-email" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -159,7 +185,7 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     name="phone"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Phone Number</FormLabel>
+                        <FormLabel>{tForm("phoneNumber")}</FormLabel>
                         <FormControl>
                           <Input placeholder={CONTACT_PHONE} {...field} data-testid="schedule-phone" />
                         </FormControl>
@@ -172,9 +198,9 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     name="company"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Company Name</FormLabel>
+                        <FormLabel>{tForm("companyName")}</FormLabel>
                         <FormControl>
-                          <Input placeholder="Acme Inc" {...field} data-testid="schedule-company" />
+                          <Input placeholder={tForm("placeholders.company")} {...field} data-testid="schedule-company" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -187,20 +213,19 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                   name="service"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Service of Interest *</FormLabel>
+                      <FormLabel>{tForm("serviceOfInterestRequired")}</FormLabel>
                       <Select onValueChange={field.onChange} value={field.value}>
                         <FormControl>
                           <SelectTrigger data-testid="schedule-service">
-                            <SelectValue placeholder="Select a service" />
+                            <SelectValue placeholder={tForm("placeholders.selectService")} />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="software">Custom Software</SelectItem>
-                          <SelectItem value="crm">CRM Tools</SelectItem>
-                          <SelectItem value="marketing">Digital Marketing</SelectItem>
-                          <SelectItem value="cloud">Cloud Infrastructure</SelectItem>
-                          <SelectItem value="ecommerce">E-commerce</SelectItem>
-                          <SelectItem value="other">Other</SelectItem>
+                          {SERVICE_OPTIONS.map(({ value, labelKey }) => (
+                            <SelectItem key={value} value={value}>
+                              {tForm(`services.${labelKey}`)}
+                            </SelectItem>
+                          ))}
                         </SelectContent>
                       </Select>
                       <FormMessage />
@@ -214,7 +239,7 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     name="date"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Preferred Date</FormLabel>
+                        <FormLabel>{tForm("preferredDate")}</FormLabel>
                         <FormControl>
                           <Input type="date" {...field} data-testid="schedule-date" />
                         </FormControl>
@@ -227,17 +252,19 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     name="time"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Preferred Time</FormLabel>
+                        <FormLabel>{tForm("preferredTime")}</FormLabel>
                         <Select onValueChange={field.onChange} value={field.value}>
                           <FormControl>
                             <SelectTrigger data-testid="schedule-time">
-                              <SelectValue placeholder="Select a time" />
+                              <SelectValue placeholder={tForm("placeholders.selectTime")} />
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="morning">Morning (9am-12pm)</SelectItem>
-                            <SelectItem value="afternoon">Afternoon (12pm-4pm)</SelectItem>
-                            <SelectItem value="evening">Evening (4pm-7pm)</SelectItem>
+                            {TIME_SLOT_KEYS.map((key) => (
+                              <SelectItem key={key} value={key}>
+                                {tForm(`timeSlots.${key}`)}
+                              </SelectItem>
+                            ))}
                           </SelectContent>
                         </Select>
                         <FormMessage />
@@ -251,10 +278,10 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                   name="message"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Message</FormLabel>
+                      <FormLabel>{tForm("message")}</FormLabel>
                       <FormControl>
                         <Textarea
-                          placeholder="Any specific details you want to discuss?"
+                          placeholder={tForm("placeholders.scheduleMessage")}
                           className="min-h-[80px]"
                           {...field}
                           data-testid="schedule-message"
@@ -273,11 +300,11 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                 >
                   {isSubmitting ? (
                     <>
-                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                      Submitting...
+                      <Loader2 className="me-2 h-4 w-4 animate-spin" />
+                      {tForm("submitting")}
                     </>
                   ) : (
-                    "Confirm Meeting"
+                    tCta("confirmMeeting")
                   )}
                 </Button>
               </form>

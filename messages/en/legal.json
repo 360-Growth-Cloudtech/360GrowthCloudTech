@@ -1,0 +1,316 @@
+{
+  "shared": {
+    "label": "Legal",
+    "lastUpdated": "Last updated:",
+    "questionsContact": "Questions about this document? Contact us at {email} or {phone}."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How {company} collects, uses, and protects your personal information.",
+    "lastUpdated": "2026-08-22",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduction",
+        "paragraphs": [
+          "{company} (\"we,\" \"us,\" or \"our\") operates {website} and provides software engineering, cloud, CRM, and digital marketing services. This Privacy Policy explains how we collect, use, disclose, and safeguard information when you visit our website, submit a contact or meeting request, or otherwise interact with us.",
+          "By using our website or submitting your information, you agree to the practices described in this policy. If you do not agree, please do not use our services or website."
+        ]
+      },
+      "informationWeCollect": {
+        "title": "2. Information We Collect",
+        "paragraphs": [
+          "We may collect the following categories of information:",
+          "We do not intentionally collect sensitive personal data (such as health, biometric, or financial account information) through our public website forms."
+        ],
+        "list": [
+          "Contact and identity information — name, email address, phone number, company name, and any message you provide through our forms.",
+          "Meeting preferences — preferred date, time, and service interests when you schedule a consultation.",
+          "Technical and usage data — IP address, browser type, device information, pages viewed, and approximate location derived from your IP address.",
+          "Communications — records of correspondence if you email us or we respond to your inquiry."
+        ]
+      },
+      "howWeUse": {
+        "title": "3. How We Use Your Information",
+        "paragraphs": [
+          "We use collected information to:",
+          "We do not sell your personal information to third parties for their marketing purposes."
+        ],
+        "list": [
+          "Respond to inquiries and provide requested information about our services",
+          "Schedule and manage consultations or project discussions",
+          "Send service-related communications, including confirmation emails",
+          "Improve our website, services, and client experience",
+          "Comply with legal obligations and protect our legal rights",
+          "Detect, prevent, and address fraud, abuse, or security issues"
+        ]
+      },
+      "legalBases": {
+        "title": "4. Legal Bases for Processing",
+        "paragraphs": [
+          "Where applicable under data protection laws (including GDPR), we process personal data based on:"
+        ],
+        "list": [
+          "Consent — when you submit a form or request that we contact you",
+          "Legitimate interests — to operate and improve our business, website, and client relationships, where those interests are not overridden by your rights",
+          "Contractual necessity — when processing is required to take steps before entering into a service agreement with you",
+          "Legal obligation — when we must comply with applicable law"
+        ]
+      },
+      "howWeShare": {
+        "title": "5. How We Share Information",
+        "paragraphs": [
+          "We may share information with:",
+          "We require service providers to handle personal data only for authorized purposes."
+        ],
+        "list": [
+          "Service providers — such as email hosting, cloud infrastructure, analytics, and form processing tools that help us operate our website and communicate with you",
+          "Professional advisors — lawyers, accountants, or insurers when reasonably necessary",
+          "Legal and safety purposes — when required by law, court order, or to protect the rights, property, or safety of {company}, our clients, or others",
+          "Business transfers — in connection with a merger, acquisition, or sale of assets, subject to appropriate confidentiality protections"
+        ]
+      },
+      "dataRetention": {
+        "title": "6. Data Retention",
+        "paragraphs": [
+          "We retain personal information for as long as necessary to fulfill the purposes described in this policy, including responding to inquiries, maintaining business records, and meeting legal or regulatory requirements. When data is no longer needed, we delete or anonymize it using reasonable measures."
+        ]
+      },
+      "security": {
+        "title": "7. Security",
+        "paragraphs": [
+          "We implement administrative, technical, and organizational measures designed to protect personal information against unauthorized access, loss, misuse, or alteration. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security."
+        ]
+      },
+      "yourRights": {
+        "title": "8. Your Rights",
+        "paragraphs": [
+          "Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing of your personal information, and to withdraw consent where processing is consent-based. You may also have the right to data portability and to lodge a complaint with a supervisory authority.",
+          "To exercise these rights, contact us at {email} or {phone}. We may need to verify your identity before responding."
+        ]
+      },
+      "internationalTransfers": {
+        "title": "9. International Transfers",
+        "paragraphs": [
+          "If you access our website from outside the country where we operate, your information may be transferred to and processed in jurisdictions that may have different data protection laws. Where required, we implement appropriate safeguards for such transfers."
+        ]
+      },
+      "thirdPartyLinks": {
+        "title": "10. Third-Party Links",
+        "paragraphs": [
+          "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those sites. We encourage you to review their privacy policies before providing personal information."
+        ]
+      },
+      "childrensPrivacy": {
+        "title": "11. Children's Privacy",
+        "paragraphs": [
+          "Our website and services are not directed to individuals under 16 years of age. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us so we can delete it."
+        ]
+      },
+      "changes": {
+        "title": "12. Changes to This Policy",
+        "paragraphs": [
+          "We may update this Privacy Policy from time to time. The \"Last updated\" date at the top of this page indicates when revisions were made. Material changes will be posted on this page. Continued use of our website after changes constitutes acceptance of the updated policy."
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Terms governing your use of {company}'s website and services.",
+    "lastUpdated": "2026-08-22",
+    "sections": {
+      "agreement": {
+        "title": "1. Agreement to Terms",
+        "paragraphs": [
+          "These Terms of Service (\"Terms\") govern your access to and use of the website located at {website} and related online services operated by {company} (\"Company,\" \"we,\" \"us,\" or \"our\"). By accessing or using our website, you agree to be bound by these Terms.",
+          "If you are using our website on behalf of an organization, you represent that you have authority to bind that organization to these Terms."
+        ]
+      },
+      "ourServices": {
+        "title": "2. Our Services",
+        "paragraphs": [
+          "{company} provides technology and digital services including, but not limited to, custom software development, cloud infrastructure, CRM solutions, digital marketing, and related consulting. Specific deliverables, timelines, fees, and obligations for paid engagements are defined in separate written agreements, statements of work, or proposals—not solely by information on this website."
+        ]
+      },
+      "useOfWebsite": {
+        "title": "3. Use of the Website",
+        "paragraphs": [
+          "You agree to use our website only for lawful purposes. You must not:",
+          "We may suspend or restrict access to the website if we reasonably believe you have violated these Terms."
+        ],
+        "list": [
+          "Violate any applicable law or regulation",
+          "Attempt to gain unauthorized access to our systems, accounts, or data",
+          "Interfere with or disrupt the website's operation or security",
+          "Submit false, misleading, or fraudulent information through our forms",
+          "Use automated means to scrape, harvest, or overload the website without permission",
+          "Transmit malware, spam, or harmful code"
+        ]
+      },
+      "intellectualProperty": {
+        "title": "4. Intellectual Property",
+        "paragraphs": [
+          "The website and its content—including text, graphics, logos, design, software, and branding—are owned by {company} or our licensors and are protected by intellectual property laws. You may not copy, modify, distribute, sell, or create derivative works from our content without prior written consent, except for limited personal, non-commercial viewing.",
+          "Client-owned materials and deliverables created under a signed project agreement are governed by that agreement's intellectual property terms."
+        ]
+      },
+      "clientEngagements": {
+        "title": "5. Client Engagements",
+        "paragraphs": [
+          "Submitting a contact form, scheduling a meeting, or requesting information does not create a binding contract for services. A formal engagement begins only when both parties execute a written agreement (such as a master services agreement, statement of work, or proposal acceptance).",
+          "Any estimates, timelines, or descriptions on this website are for general information only and are not guarantees unless expressly confirmed in writing."
+        ]
+      },
+      "feesAndPayment": {
+        "title": "6. Fees and Payment",
+        "paragraphs": [
+          "Pricing for professional services is provided in proposals or contracts. Unless otherwise stated in writing, fees are exclusive of taxes, third-party licenses, and reimbursable expenses. Payment terms, invoicing schedules, and late payment consequences are defined in the applicable client agreement."
+        ]
+      },
+      "confidentiality": {
+        "title": "7. Confidentiality",
+        "paragraphs": [
+          "We treat non-public business information shared during sales discussions or projects as confidential, subject to our mutual obligations in any signed non-disclosure or services agreement. You agree not to misuse confidential information we share with you in the course of evaluating or receiving our services."
+        ]
+      },
+      "disclaimer": {
+        "title": "8. Disclaimer of Warranties",
+        "paragraphs": [
+          "THE WEBSITE AND ANY INFORMATION PROVIDED THROUGH IT ARE OFFERED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS. TO THE FULLEST EXTENT PERMITTED BY LAW, {company} DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.",
+          "We do not warrant that the website will be uninterrupted, error-free, or free of harmful components, or that information on the website is complete or current."
+        ]
+      },
+      "limitationOfLiability": {
+        "title": "9. Limitation of Liability",
+        "paragraphs": [
+          "TO THE MAXIMUM EXTENT PERMITTED BY LAW, {company} AND ITS DIRECTORS, EMPLOYEES, AND AFFILIATES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, DATA, GOODWILL, OR BUSINESS OPPORTUNITIES, ARISING FROM YOUR USE OF THE WEBSITE.",
+          "OUR TOTAL LIABILITY FOR ANY CLAIM RELATING TO THE WEBSITE OR THESE TERMS SHALL NOT EXCEED ONE HUNDRED U.S. DOLLARS (USD $100), EXCEPT WHERE LIABILITY CANNOT BE LIMITED BY APPLICABLE LAW.",
+          "Nothing in these Terms limits liability for fraud, gross negligence, or willful misconduct where such limitation is prohibited by law."
+        ]
+      },
+      "indemnification": {
+        "title": "10. Indemnification",
+        "paragraphs": [
+          "You agree to indemnify and hold harmless {company} from claims, damages, losses, and expenses (including reasonable legal fees) arising from your misuse of the website, violation of these Terms, or infringement of third-party rights resulting from content or information you provide to us."
+        ]
+      },
+      "termination": {
+        "title": "11. Termination",
+        "paragraphs": [
+          "We may terminate or restrict your access to the website at any time, with or without notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties. Provisions that by their nature should survive termination will remain in effect."
+        ]
+      },
+      "governingLaw": {
+        "title": "12. Governing Law",
+        "paragraphs": [
+          "These Terms are governed by the laws of the State of California, United States, without regard to conflict-of-law principles. Any dispute arising from these Terms or the website shall be brought in the state or federal courts located in San Francisco County, California, and you consent to their jurisdiction, unless mandatory consumer protection laws in your jurisdiction provide otherwise."
+        ]
+      },
+      "changes": {
+        "title": "13. Changes to These Terms",
+        "paragraphs": [
+          "We may revise these Terms at any time by posting an updated version on this page. Your continued use of the website after changes become effective constitutes acceptance of the revised Terms."
+        ]
+      },
+      "contact": {
+        "title": "14. Contact",
+        "paragraphs": [
+          "For questions about these Terms, contact us at {email} or {phone}."
+        ]
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookies Policy",
+    "subtitle": "How {company} uses cookies and similar technologies on {website}.",
+    "lastUpdated": "2026-08-22",
+    "privacyPolicyLink": "Privacy Policy",
+    "sections": {
+      "whatAreCookies": {
+        "title": "1. What Are Cookies?",
+        "paragraphs": [
+          "Cookies are small text files placed on your device when you visit a website. They help websites function properly, remember preferences, and understand how visitors use the site. Similar technologies include local storage, session storage, and pixels."
+        ]
+      },
+      "howWeUse": {
+        "title": "2. How We Use Cookies",
+        "paragraphs": [
+          "We use cookies and similar technologies to:",
+          "For more information about how we handle personal data, see our Privacy Policy."
+        ],
+        "list": [
+          "Enable core website functionality and security",
+          "Remember preferences and improve user experience",
+          "Understand traffic patterns and measure website performance",
+          "Support forms and communication features"
+        ]
+      },
+      "types": {
+        "title": "3. Types of Cookies We Use",
+        "subsections": [
+          {
+            "heading": "Strictly necessary cookies",
+            "paragraphs": [
+              "Required for the website to operate. These may include cookies that support security, load balancing, or basic session management. Because the site needs them to function, they cannot be disabled through our site controls."
+            ]
+          },
+          {
+            "heading": "Functional cookies",
+            "paragraphs": [
+              "Allow the website to remember choices you make (such as region or display preferences) and provide enhanced features."
+            ]
+          },
+          {
+            "heading": "Analytics cookies",
+            "paragraphs": [
+              "Help us understand how visitors interact with our website—such as which pages are visited and how long users stay—so we can improve content and performance. These cookies collect aggregated or pseudonymous information where possible."
+            ]
+          },
+          {
+            "heading": "Marketing cookies (if used)",
+            "paragraphs": [
+              "May be used to measure the effectiveness of campaigns or deliver relevant content on other platforms. We use these only where permitted and, where required, with your consent."
+            ]
+          }
+        ]
+      },
+      "thirdParty": {
+        "title": "4. Third-Party Cookies",
+        "paragraphs": [
+          "Some cookies are placed by third-party services that appear on our pages, such as analytics providers, embedded content, or communication tools. These third parties may collect information about your online activity over time and across websites, subject to their own privacy policies.",
+          "We encourage you to review the privacy and cookie policies of any third-party services we use."
+        ]
+      },
+      "managing": {
+        "title": "5. Managing Cookies",
+        "paragraphs": [
+          "You can control cookies in several ways:",
+          "If you disable cookies, some parts of our website may not function correctly."
+        ],
+        "list": [
+          "Browser settings — Most browsers let you block or delete cookies. See your browser's help section for instructions.",
+          "Device settings — Mobile devices may offer additional privacy controls.",
+          "Opt-out tools — Some analytics providers offer industry opt-out mechanisms for interest-based advertising."
+        ]
+      },
+      "retention": {
+        "title": "6. Cookie Retention",
+        "paragraphs": [
+          "Session cookies expire when you close your browser. Persistent cookies remain on your device for a set period or until you delete them. Retention periods vary depending on the purpose of each cookie."
+        ]
+      },
+      "updates": {
+        "title": "7. Updates to This Policy",
+        "paragraphs": [
+          "We may update this Cookies Policy to reflect changes in technology, regulation, or our practices. The updated version will be posted on this page with a revised \"Last updated\" date."
+        ]
+      },
+      "contact": {
+        "title": "8. Contact",
+        "paragraphs": [
+          "If you have questions about our use of cookies, contact us at {email} or {phone}."
+        ]
+      }
+    }
+  }
+}

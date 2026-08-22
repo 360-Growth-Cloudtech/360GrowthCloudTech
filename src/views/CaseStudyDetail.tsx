@@ -1,17 +1,30 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 import { CaseStudyPreviewImage } from "@/components/CaseStudyPreviewImage";
 import { ArrowLeft, ArrowRight, Check } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
-import type { CaseStudy } from "@/lib/case-studies-data";
-import { caseStudies } from "@/lib/case-studies-data";
+import {
+  caseStudyMeta,
+  mergeCaseStudy,
+  type CaseStudy,
+  type CaseStudyContent,
+} from "@/lib/case-studies-meta";
 
 export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
+  const t = useTranslations("caseStudies");
+  const tDetail = useTranslations("caseStudies.detail");
+  const tCta = useTranslations("common.ctas");
   const { setOpen } = useScheduleMeeting();
 
-  const currentIndex = caseStudies.findIndex((s) => s.slug === study.slug);
-  const nextStudy = caseStudies[currentIndex + 1];
+  const studies = caseStudyMeta.map((meta) => {
+    const item = t.raw(`items.${meta.slug}`) as CaseStudyContent;
+    return mergeCaseStudy(meta, { ...item, slug: meta.slug });
+  });
+
+  const currentIndex = studies.findIndex((s) => s.slug === study.slug);
+  const nextStudy = studies[currentIndex + 1];
 
   return (
     <article data-testid="case-study-detail" className="bg-background min-h-screen">
@@ -20,8 +33,8 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
           href="/case-studies"
           className="inline-flex items-center gap-1.5 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors mb-10"
         >
-          <ArrowLeft size={15} />
-          All case studies
+          <ArrowLeft size={15} className="rtl:rotate-180" />
+          {tDetail("backLink")}
         </Link>
 
         <p className="text-xs font-bold uppercase tracking-[0.12em] mb-6">
@@ -48,7 +61,7 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
 
         {study.gallery && study.gallery.length > 0 && (
           <section className="mb-12 space-y-8">
-            <h2 className="display-heading text-xl md:text-2xl text-foreground">Product screens</h2>
+            <h2 className="display-heading text-xl md:text-2xl text-foreground">{tDetail("productScreens")}</h2>
             {study.gallery.map((item) => (
               <figure key={item.src}>
                 <CaseStudyPreviewImage
@@ -73,12 +86,12 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
           </section>
 
           <section>
-            <h2 className="display-heading text-xl md:text-2xl text-foreground mb-4">The challenge</h2>
+            <h2 className="display-heading text-xl md:text-2xl text-foreground mb-4">{tDetail("challenge")}</h2>
             <p className="text-base leading-relaxed">{study.challenge}</p>
           </section>
 
           <section>
-            <h2 className="display-heading text-xl md:text-2xl text-foreground mb-4">What we built</h2>
+            <h2 className="display-heading text-xl md:text-2xl text-foreground mb-4">{tDetail("whatWeBuilt")}</h2>
             <ul className="space-y-3">
               {study.solution.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-base">
@@ -90,7 +103,7 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
           </section>
 
           <section>
-            <h2 className="display-heading text-xl md:text-2xl text-foreground mb-4">Outcomes</h2>
+            <h2 className="display-heading text-xl md:text-2xl text-foreground mb-4">{tDetail("outcomes")}</h2>
             <ul className="space-y-3">
               {study.results.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-base text-foreground/85">
@@ -102,7 +115,7 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
           </section>
 
           <section>
-            <h2 className="display-heading text-xl md:text-2xl text-foreground mb-4">Stack</h2>
+            <h2 className="display-heading text-xl md:text-2xl text-foreground mb-4">{tDetail("stack")}</h2>
             <div className="flex flex-wrap gap-2">
               {study.stack.map((tech) => (
                 <span
@@ -121,11 +134,9 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
           className="mt-16 rounded-2xl px-6 py-8 md:px-8 md:py-10"
           style={{ backgroundColor: "#1a1512" }}
         >
-          <h2 className="display-heading text-xl md:text-2xl text-white mb-3">
-            Building something similar?
-          </h2>
+          <h2 className="display-heading text-xl md:text-2xl text-white mb-3">{tDetail("ctaTitle")}</h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.55)" }}>
-            Book a free discovery call — we&apos;ll discuss scope, timeline, and how to ship it.
+            {tDetail("ctaSubtitle")}
           </p>
           <div className="flex flex-wrap gap-3">
             <button
@@ -133,10 +144,10 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
               onClick={() => setOpen(true)}
               className="btn-primary rounded-full text-sm"
             >
-              Start a conversation
+              {tCta("startConversation")}
             </button>
             <Link href="/contact" className="btn-outline rounded-full text-sm text-white/80 border-white/20">
-              Contact us
+              {tCta("contactUs")}
             </Link>
           </div>
         </div>
@@ -144,14 +155,14 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
         {nextStudy && (
           <div className="mt-14 pt-10 border-t border-border/60">
             <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">
-              Next case study
+              {tDetail("nextCaseStudy")}
             </p>
             <Link
               href={`/case-studies/${nextStudy.slug}`}
               className="group inline-flex items-start gap-2 text-foreground hover:text-primary transition-colors"
             >
               <span className="display-heading text-lg md:text-xl leading-snug">{nextStudy.title}</span>
-              <ArrowRight size={18} className="shrink-0 mt-1 transition-transform group-hover:translate-x-0.5" />
+              <ArrowRight size={18} className="shrink-0 mt-1 transition-transform group-hover:translate-x-0.5 rtl:rotate-180 rtl:group-hover:-translate-x-0.5" />
             </Link>
           </div>
         )}

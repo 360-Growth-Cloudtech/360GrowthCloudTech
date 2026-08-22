@@ -1,0 +1,286 @@
+{
+  "list": {
+    "label": "الأعمال",
+    "title": "دراسات حالة لمنتجات تُطلَق.",
+    "subtitle": "بناءات حقيقية من فريق 360GrowthCloudTech — سير عمل الرعاية الصحية والتجارة الإلكترونية والتعليم والعمارة وعمليات السفر — وقرارات الهندسة وراءها.",
+    "readCaseStudy": "اقرأ دراسة الحالة"
+  },
+  "detail": {
+    "backLink": "جميع دراسات الحالة",
+    "productScreens": "شاشات المنتج",
+    "challenge": "التحدي",
+    "whatWeBuilt": "ما بنيناه",
+    "outcomes": "النتائج",
+    "stack": "Stack",
+    "ctaTitle": "تبني شيئاً مشابهاً؟",
+    "ctaSubtitle": "احجز مكالمة اكتشاف مجانية — سنناقش النطاق والجدول الزمني وكيفية الإطلاق.",
+    "nextCaseStudy": "دراسة الحالة التالية"
+  },
+  "items": {
+    "himachal-tourism-google-ads": {
+      "client": "Himachal Tourism Cab",
+      "category": "السفر والسياحة · Google Ads",
+      "date": "Aug 10, 2026",
+      "readTime": "7 min",
+      "title": "إدارة Google Ads وتحسين التحويل لعملاء محتملين ثابتين خارج الموسم",
+      "excerpt": "Himachal Tourism Cab كان ينفق على Google Ads بلا رؤية — تتبع تحويل معطل، لا attribution، ولا طريقة لمعرفة ما يولّد الحجوزات. أعدنا بناء التتبع، وأعدنا هيكلة الحملات، وحوّلنا البيانات إلى عملاء محتملين مؤهلين.",
+      "summary": "إدارة Google Ads وتحسين التحويل لمشغل تاكسي وجولات في Himachal Pradesh — إعادة بناء تتبع التحويل، وإعادة هيكلة الحملات بناءً على بيانات أداء حقيقية، وتحسين جودة العملاء المحتملين مع خفض تكلفة كل lead.",
+      "challenge": "Himachal Tourism Cab، خدمة تاكسي وجولات في Himachal Pradesh، كانت تستثمر في Google Ads دون رؤية حقيقية للأداء. لم يكن تتبع التحويل على موقعها مُعداً بشكل صحيح، مما يعني عدم وجود بيانات موثوقة عن تفاعل الزوار مع نماذج الاستفسار — مما يجعل معرفة الحملات أو الكلمات المفتاحية أو صفحات الهبوط التي تولّد حجوزات مقابل استهلاك الميزانية شبه مستحيل.",
+      "solution": [
+        "إعادة بناء تتبع التحويل من الصفر — كل إرسال نموذج مُلتقط ومُنسوب للمصدر",
+        "تدقيق وإعادة هيكلة حساب Google Ads بناءً على بيانات أداء فعلية",
+        "تحسين استهداف الجمهور لتقليل الإنفاق على حركة مرور منخفضة النية",
+        "إعادة تخصيص الميزانية نحو الحملات والكلمات المفتاحية التي تولّد حجوزات حقيقية",
+        "تحسين صفحات الهبوط لرفع معدلات التحويل من زائر إلى استفسار"
+      ],
+      "results": [
+        "تكلفة كل lead ↓ 20%",
+        "جودة العملاء المحتملين ↑ 30%",
+        "معدل التحويل ↑ 10%",
+        "عملاء محتملون مؤهلون ثابتون في موسم منخفض تقليدي — كان بطيئاً وغير متوقع سابقاً",
+        "attribution موثوق من النقرة إلى الاستفسار لقرارات الحملة المستمرة"
+      ],
+      "stack": [
+        "Google Ads",
+        "Google Tag Manager",
+        "GA4",
+        "Landing Page CRO",
+        "Search Campaigns"
+      ],
+      "imageAlt": "لوحة تتبع تحويل Google Ads وأداء الحملات للسياحة"
+    },
+    "geetha-studio": {
+      "client": "Geetha Studio",
+      "category": "فن · Portfolio",
+      "date": "Mar 15, 2026",
+      "readTime": "5 min",
+      "title": "Portfolio فنان شخصي ومعرض على الإنترنت",
+      "excerpt": "موقع استوديو فنون جميلة غامر لـ Geetha — أعمال أصلية وتصفح معرض ومسار تواصل يُبقي اللوحات في المركز.",
+      "summary": "Portfolio فنان شخصي ومعرض على الإنترنت لأعمال زيتية أصلية على قماش — طبيعة صامتة ومناظر سريالية وجمال الحياة اليومية الهادئ، مع UX يركز على المعرض.",
+      "challenge": "احتاجت Geetha أكثر من قالب portfolio عام. يجب أن يشعر الموقع بدخول استوديو — أعمال full-bleed وchrome minimal ومسارات واضحة إلى gallery وabout وcontact دون إلهاء من اللوحات.",
+      "solution": [
+        "Hero بviewport كامل يُبرز العمل الأصلي كعنصر بصري رئيسي",
+        "تنقل Gallery وAbout وContact مع header عائم شفاف",
+        "Typography تحريرية وبيان فنان في تجربة الصفحة الرئيسية",
+        "تخطيط responsive للموبايل يحافظ على جودة الصورة والتكوين",
+        "مسار تواصل للطلبات والاستفسارات وزيارات الاستوديو"
+      ],
+      "results": [
+        "عرض premium متوافق مع تموضع الفنون الجميلة",
+        "UX gallery-first يُبقي الأعمال في المركز",
+        "هوية استوديو واضحة: أعمال أصلية وزيت على قماش",
+        "أساس لتوسيع المجموعات وصفحات المعارض"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Cloudinary",
+        "Vercel"
+      ],
+      "imageAlt": "الصفحة الرئيسية portfolio فنان Geetha Studio مع عمل أصلي"
+    },
+    "atory-hub": {
+      "client": "Atory Hub",
+      "category": "PropTech · Marketplace",
+      "date": "Mar 1, 2026",
+      "readTime": "10 min",
+      "title": "تخطيط وتصميم وتنفيذ المساحات التجارية — في hub واحد",
+      "excerpt": "منصة اكتشاف تربط الشركات بالمهندسين المعماريين والمصممين والمقاولين — بالإضافة إلى معارض إلهام ودلائل مهنيين وأدوات تخطيط.",
+      "summary": "Atory Hub يساعد الشركات على تخطيط وتصميم وتنفيذ المساحات التجارية بربطها بالمحترفين المناسبين وتوفير إلهام المشروع والتصميم في منصة واحدة.",
+      "challenge": "المستأجرون التجاريون وأصحاب الأعمال يواجهون صعوبة في إيجاد محترفين موثوقين وفهم التكاليف وجمع إلهام التصميم قبل الالتزام بالبناء. Pinterest مبعثر وجداول بيانات وتواصل بارد أبطأ كل مشروع.",
+      "solution": [
+        "Homepage اكتشاف: inspirations vs professionals مع toggles فئة",
+        "معرض inspirations مع أنماط رائجة وlookbooks وديكورات تجارية قابلة للتصفية",
+        "دليل professionals مع فلاتر فئة ونطاق موقع وعروض list/grid",
+        "بطاقات profile مع تخصصات وtags مشروع وحجم شركة ومعاينات portfolio",
+        "أدوات LaunchBOX planning ومحتوى تحريري لتعليم التكلفة والنطاق",
+        "تدفقات Join-as-Pro وSign In للمحترفين وأصحاب الأعمال"
+      ],
+      "results": [
+        "Hub واحد يحل محل البحث المجزّأ عن الإلهام والموردين",
+        "رحلة browse-to-connect من mood board إلى shortlist محترفين",
+        "بنية directory قابلة للتوسع عبر healthcare وretail وhospitality والمزيد",
+        "منصة جاهزة لميزات lookbooks وdirectories وvendor outreach"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Algolia",
+        "AWS"
+      ],
+      "imageAlt": "Homepage اكتشاف عقارات تجارية Atory Hub",
+      "gallery": [
+        {
+          "alt": "معرض inspirations Atory Hub مع صور ديكور تجاري",
+          "caption": "Inspirations — معرض قابل للبحث بأنماط رائجة وlookbooks"
+        },
+        {
+          "alt": "دليل professionals Atory Hub مع فلاتر وقوائم",
+          "caption": "Professionals — دليل مع فلاتر فئة وبحث موقع وprofiles"
+        }
+      ]
+    },
+    "healthcare-ivr-platform": {
+      "client": "Healthcare Platform",
+      "category": "الرعاية الصحية",
+      "date": "Aug 18, 2026",
+      "readTime": "8 min",
+      "title": "IVR وال onboarding والتقييم وPGI — سير عمل intake واحد",
+      "excerpt": "كيف استبدلنا intake هاتفي مجزّأ وتقييمات ورقية بتوجيه IVR وonboarding رقمي وتقييمات سريرية منظمة وتتبع PGI لفرق الرعاية.",
+      "summary": "نظام intake مريض end-to-end مع توجيه IVR وonboarding رقمي وتقييمات منظمة وتسجيل PGI — مبني لفرق سريرية ومنسقي رعاية.",
+      "challenge": "احتاج العميل استبدال intake هاتفي مجزّأ وتقييمات ورقية بسير عمل رقمي موحّد. كانت volumes المكالمات عالية، وال onboarding غير متسق، والأطباء lacked a single view لتقدم المريض ونتائج PGI.",
+      "solution": [
+        "إعداد IVR متعدد المستويات مع توجيه قسم ومنطق ساعات عمل وqueues احتياطية",
+        "Onboarding مريض موجّه مع التحقق من الهوية والتقاط الموافقة",
+        "وحدات تقييم سريري قابلة للتكوين مع scoring ومراجعة طبيب",
+        "تتبع PGI (Patient Global Impression) مع views اتجاه وتقارير قابلة للتصدير",
+        "Dashboards based on roles للadmins وcoordinators والstaff السريري"
+      ],
+      "results": [
+        "تقليل وقت intake اليدوي مع handoff آلي IVR-to-digital",
+        "تدفقات onboarding وتقييم موحّدة عبر المواقع",
+        "Scores PGI visible in real time لمتابعة فريق الرعاية",
+        "Logs audit-ready للامتثال ومراجعة الجودة"
+      ],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Twilio IVR",
+        "AWS"
+      ],
+      "imageAlt": "Dashboard منصة IVR رعاية صحية وتقييم مريض"
+    },
+    "dermayoga": {
+      "client": "DermaYoga",
+      "category": "E-commerce",
+      "date": "Jul 12, 2026",
+      "readTime": "6 min",
+      "title": "عناية بالبشرة formulated by dermatologists، مبنية للتحويل",
+      "excerpt": "Storefront e-commerce premium للعناية بالبشرة والشعر — اكتشاف category-led وentry points consult live وcheckout flow للثقة وإعادة الشراء.",
+      "summary": "تجربة e-commerce كاملة لعلامة عناية بالبشرة والشعر — تسوق category-led وentry points consult live واكتشاف منتج يركز على التحويل.",
+      "challenge": "DermaYoga needed a premium online store that reflected clinical credibility while staying easy to shop. They required category navigation (skin, hair, supplements), search, wishlist, cart, and a path to live dermatology consultation.",
+      "solution": [
+        "Storefront مخصص مع تنقل Shop All وSkin وHair وProducts وBrands",
+        "Promotional top bar وsearch sitewide وproduct grids mobile-first",
+        "Wishlist وcart وprofile flows مع checkout UX نظيف",
+        "Entry point LIVE Consult مدمج في التنقل الرئيسي",
+        "Category pages SEO-ready وmessaging ثقة dermatologist في hero"
+      ],
+      "results": [
+        "Presence brand احترافي متوافق مع positioning سريري",
+        "مسارات shop-by-category واضحة للبشرة والشعر والsupplements",
+        "CTA consult مدمج يربط commerce بنصيحة خبراء",
+        "Catalog structure قابل للتوسع لbrands وSKUs جديدة"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Stripe",
+        "Headless CMS"
+      ],
+      "imageAlt": "Homepage e-commerce DermaYoga للعناية بالبشرة",
+      "gallery": [
+        {
+          "alt": "Product detail page DermaYoga مع pack size وdelivery check وbuy flow",
+          "caption": "Product detail — trust badges وpack size selector وpincode delivery check وbuy-now flow"
+        }
+      ]
+    },
+    "skinfinity-academy": {
+      "client": "Skinfinity Academy",
+      "category": "EdTech",
+      "date": "Jun 4, 2026",
+      "readTime": "7 min",
+      "title": "موقع أكademy يكسب الثقة قبل التسجيل",
+      "excerpt": "Positioning علامة تعليم dermatology للأطباء worldwide — courses وworkshops وcredibility faculty وenroll-now path واضح بدون feel LMS generic.",
+      "summary": "Education platform لprofessionals dermatology مع course catalog وworkshops وcalendar وtestimonials وenrollment funnel.",
+      "challenge": "Skinfinity needed a credible digital academy to attract doctors worldwide — showcasing courses, faculty credibility, live lectures, and a clear enroll-now journey without feeling like a generic LMS template.",
+      "solution": [
+        "Hero focused on career advancement مع trust metrics (students, courses, faculty, countries)",
+        "Information architecture Courses وCalendar وWorkshops وTestimonials وBlog",
+        "Institution trust strip وfaculty-led positioning",
+        "Login وEnroll Now CTAs مع admission announcement bar",
+        "Responsive layout للaudiences طبية international"
+      ],
+      "results": [
+        "Value proposition واضح لnarrative 5000+ doctors trained",
+        "مسارات structured إلى courses وworkshops وenrollment",
+        "Trust signals من leading medical institutions",
+        "Foundation لLMS integration وpaid course flows"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "CMS",
+        "Analytics"
+      ],
+      "imageAlt": "Website تعليم dermatology Skinfinity Academy"
+    },
+    "studio-atory": {
+      "client": "Studio Atory",
+      "category": "Architecture",
+      "date": "May 22, 2026",
+      "readTime": "5 min",
+      "title": "Architecture تجارية، positioned for brands — not brochures",
+      "excerpt": "Editorial studio site لarchitecture تجارية: services وmarkets وfounding-member credibility وcontact-first conversion مع restraint.",
+      "summary": "Website minimal editorial لpractice architecture تجارية — positioning built around commercial reality من toolkit إلى permit-ready design.",
+      "challenge": "Studio Atory required a refined portfolio presence that speaks to brands and developers — not residential homeowners. The site had to communicate services, markets, and credibility with restraint and clarity.",
+      "solution": [
+        "Editorial hero: commercial architecture وplanning built around commercial reality",
+        "Navigation structure Work وServices وMarkets وCalculator وAbout",
+        "Founding-member brand strip (retail, hospitality, corporate clients)",
+        "Contact-first conversion مع LinkedIn social proof",
+        "Light typography-led design system مع copper accent details"
+      ],
+      "results": [
+        "Premium positioning لcommercial architecture leads",
+        "Service وmarket discovery واضح بدون clutter",
+        "Brand credibility via founding-member client logos",
+        "Marketing site سريع maintainable لwork updates مستمرة"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "imageAlt": "Website architecture تجارية Studio Atory"
+    },
+    "mahasu-travels-crm": {
+      "client": "Mahasu Travels",
+      "category": "Travel · CRM",
+      "date": "Apr 9, 2026",
+      "readTime": "9 min",
+      "title": "CRM dispatch واحد للleads والbookings وmarketing ROI",
+      "excerpt": "Replacing spreadsheets بنظام ops unified — lead pipeline وquote-to-booking flow وdriver coordination وad spend analytics في dashboard واحد.",
+      "summary": "Operations CRM لtravel dispatch business — lead pipeline وquotes وbookings وdriver assignment وad spend tracking وrevenue dashboards.",
+      "challenge": "Mahasu Travels ran dispatch on spreadsheets and disconnected tools. They needed one system for leads from Google/Meta ads, quote-to-booking conversion, driver coordination, and marketing ROI visibility.",
+      "solution": [
+        "Unified dashboard: leads وquotes sent وbookings confirmed وrevenue on record",
+        "Lead management مع source split (Google Ads, Meta, website, manual)",
+        "Modules bookings وdrivers وvehicles وitineraries وhotels",
+        "Ad spend & marketing ROI مع CPL وROAS tracking",
+        "Role-based access وsearch وnew-lead quick actions"
+      ],
+      "results": [
+        "Single dispatch view replacing fragmented workflows",
+        "Revenue trend وlead-source analytics لmarketing decisions",
+        "Booking وdriver ops في CRM واحد بدلاً من multiple tools",
+        "Scalable foundation لmulti-website travel operations"
+      ],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Chart.js",
+        "AWS"
+      ],
+      "imageAlt": "Dashboard dispatch CRM Mahasu Travels"
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "list": {
+    "label": "Proyectos",
+    "title": "Casos de estudio de productos que se entregan.",
+    "subtitle": "Proyectos reales del equipo de 360GrowthCloudTech — flujos de salud, comercio electrónico, educación, arquitectura y operaciones de viajes — y las decisiones de ingeniería detrás de ellos.",
+    "readCaseStudy": "Leer el caso de estudio"
+  },
+  "detail": {
+    "backLink": "Todos los casos de estudio",
+    "productScreens": "Pantallas del producto",
+    "challenge": "El desafío",
+    "whatWeBuilt": "Lo que construimos",
+    "outcomes": "Resultados",
+    "stack": "Stack",
+    "ctaTitle": "¿Construyendo algo similar?",
+    "ctaSubtitle": "Reserve una llamada de descubrimiento gratuita — hablaremos de alcance, cronograma y cómo entregarlo.",
+    "nextCaseStudy": "Siguiente caso de estudio"
+  },
+  "items": {
+    "himachal-tourism-google-ads": {
+      "client": "Himachal Tourism Cab",
+      "category": "Viajes y turismo · Google Ads",
+      "date": "Aug 10, 2026",
+      "readTime": "7 min",
+      "title": "Gestión de Google Ads y optimización de conversiones para leads constantes en temporada baja",
+      "excerpt": "Himachal Tourism Cab invertía en Google Ads a ciegas — seguimiento de conversiones roto, sin atribución y sin forma de saber qué generaba reservas. Reconstruimos el seguimiento, reestructuramos campañas y convertimos datos en leads cualificados.",
+      "summary": "Gestión de Google Ads y optimización de conversiones para un operador de taxis y tours en Himachal Pradesh — reconstrucción del seguimiento de conversiones, reestructuración de campañas con datos reales y mejora de la calidad de leads reduciendo el coste por lead.",
+      "challenge": "Himachal Tourism Cab, un servicio de taxis y tours en Himachal Pradesh, invertía en Google Ads sin visibilidad real del rendimiento. El seguimiento de conversiones de su sitio web no estaba configurado correctamente, lo que significaba que no tenían datos fiables sobre cómo los visitantes interactuaban con sus formularios de consulta — haciendo casi imposible saber qué campañas, palabras clave o landing pages generaban reservas frente a simplemente consumir presupuesto.",
+      "solution": [
+        "Reconstrucción del seguimiento de conversiones desde cero — cada envío de formulario capturado y atribuido a la fuente",
+        "Auditoría y reestructuración de la cuenta de Google Ads basada en datos de rendimiento reales",
+        "Refinamiento de la segmentación de audiencias para reducir el gasto en tráfico de baja intención",
+        "Reasignación del presupuesto hacia campañas y palabras clave que generan reservas reales",
+        "Optimización de landing pages para mejorar las tasas de conversión de visitante a consulta"
+      ],
+      "results": [
+        "Coste por lead ↓ 20%",
+        "Calidad de leads ↑ 30%",
+        "Tasa de conversión ↑ 10%",
+        "Leads constantes y cualificados durante la temporada baja tradicional — antes lenta e impredecible",
+        "Atribución fiable de clic a consulta para decisiones continuas de campaña"
+      ],
+      "stack": [
+        "Google Ads",
+        "Google Tag Manager",
+        "GA4",
+        "Landing Page CRO",
+        "Search Campaigns"
+      ],
+      "imageAlt": "Panel de seguimiento de conversiones y rendimiento de campañas de Google Ads para turismo"
+    },
+    "geetha-studio": {
+      "client": "Geetha Studio",
+      "category": "Arte · Portafolio",
+      "date": "Mar 15, 2026",
+      "readTime": "5 min",
+      "title": "Portafolio personal de artista y galería en línea",
+      "excerpt": "Un sitio inmersivo de estudio de bellas artes para Geetha — obras originales, navegación por galería y un camino de contacto que mantiene las pinturas como protagonistas.",
+      "summary": "Portafolio personal de artista y galería en línea para obras originales en óleo y lienzo — naturaleza muerta, paisajes surrealistas y la belleza silenciosa de lo cotidiano, presentados con UX centrada en la galería.",
+      "challenge": "Geetha necesitaba más que una plantilla genérica de portafolio. El sitio debía sentirse como entrar en un estudio — obras a pantalla completa, interfaz mínima y rutas claras a galería, sobre nosotros y contacto sin distraer de las pinturas.",
+      "solution": [
+        "Hero a pantalla completa con obras originales como elemento visual principal",
+        "Navegación Galería, Sobre nosotros y Contacto con cabecera flotante translúcida",
+        "Tipografía editorial y declaración del artista en la experiencia de inicio",
+        "Diseño responsive móvil que preserva calidad y composición de imágenes",
+        "Flujo de contacto para encargos, consultas y visitas al estudio"
+      ],
+      "results": [
+        "Presentación premium alineada con posicionamiento de bellas artes",
+        "UX centrada en galería que mantiene la obra como protagonista",
+        "Identidad clara del estudio: obras originales, óleo y lienzo",
+        "Base para expandir colecciones y páginas de exposiciones"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Cloudinary",
+        "Vercel"
+      ],
+      "imageAlt": "Página de inicio del portafolio de artista Geetha Studio con obras originales"
+    },
+    "atory-hub": {
+      "client": "Atory Hub",
+      "category": "PropTech · Marketplace",
+      "date": "Mar 1, 2026",
+      "readTime": "10 min",
+      "title": "Planificar, diseñar y ejecutar espacios comerciales — en un solo hub",
+      "excerpt": "Una plataforma de descubrimiento que conecta empresas con arquitectos, diseñadores y contratistas — además de galerías de inspiración, directorios profesionales y herramientas de planificación.",
+      "summary": "Atory Hub ayuda a las empresas a planificar, diseñar y ejecutar espacios comerciales conectándolas con los profesionales adecuados y proporcionando inspiración de proyectos y diseño en una sola plataforma.",
+      "challenge": "Inquilinos comerciales y propietarios de negocios luchan por encontrar profesionales de confianza, entender costes y reunir inspiración de diseño antes de comprometerse con una reforma. Tableros de Pinterest dispersos, hojas de cálculo y contactos en frío ralentizaban cada proyecto.",
+      "solution": [
+        "Página de inicio de descubrimiento: búsqueda de inspiraciones vs profesionales con selectores de categoría",
+        "Galería de inspiraciones con estilos en tendencia, lookbooks e interiores comerciales filtrables",
+        "Directorio de profesionales con filtros de categoría de proyecto, radio de ubicación y vistas lista/cuadrícula",
+        "Tarjetas de perfil con especialidades, etiquetas de proyecto, tamaño de firma y vistas previas de portafolio",
+        "Herramientas de planificación LaunchBOX y contenido editorial para educación sobre costes y alcance",
+        "Flujos Unirse como Pro e Iniciar sesión para profesionales y propietarios de negocios"
+      ],
+      "results": [
+        "Hub único que reemplaza búsqueda fragmentada de inspiración y proveedores",
+        "Recorrido de exploración a conexión desde mood board hasta lista corta de profesionales",
+        "Arquitectura de directorio escalable en salud, retail, hostelería y más",
+        "Plataforma lista para lookbooks, directorios y funciones de contacto con proveedores"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Algolia",
+        "AWS"
+      ],
+      "imageAlt": "Página de inicio de descubrimiento inmobiliario comercial de Atory Hub",
+      "gallery": [
+        {
+          "alt": "Galería de inspiraciones de Atory Hub con fotos de interiores comerciales",
+          "caption": "Inspiraciones — galería buscable con estilos en tendencia y lookbooks"
+        },
+        {
+          "alt": "Directorio de profesionales de Atory Hub con filtros y listados",
+          "caption": "Profesionales — directorio con filtros de categoría, búsqueda por ubicación y perfiles"
+        }
+      ]
+    },
+    "healthcare-ivr-platform": {
+      "client": "Healthcare Platform",
+      "category": "Salud",
+      "date": "Aug 18, 2026",
+      "readTime": "8 min",
+      "title": "IVR, onboarding, evaluación y PGI — un flujo de admisión",
+      "excerpt": "Cómo reemplazamos la admisión telefónica fragmentada y las evaluaciones en papel con enrutamiento IVR, onboarding digital, evaluaciones clínicas estructuradas y seguimiento PGI para equipos de atención.",
+      "summary": "Sistema integral de admisión de pacientes con enrutamiento IVR, onboarding digital, evaluaciones estructuradas y puntuación PGI — construido para equipos clínicos y coordinadores de atención.",
+      "challenge": "El cliente necesitaba reemplazar la admisión telefónica fragmentada y las evaluaciones en papel con un flujo digital unificado. Los volúmenes de llamadas eran altos, el onboarding era inconsistente y los clínicos carecían de una vista única del progreso del paciente y los resultados PGI.",
+      "solution": [
+        "Configuración IVR multinivel con enrutamiento por departamento, lógica de horario comercial y colas de respaldo",
+        "Onboarding guiado del paciente con verificación de identidad y captura de consentimiento",
+        "Módulos de evaluación clínica configurables con puntuación y revisión clínica",
+        "Seguimiento PGI (Patient Global Impression) con vistas de tendencias e informes exportables",
+        "Paneles basados en roles para administradores, coordinadores y personal clínico"
+      ],
+      "results": [
+        "Reducción del tiempo de admisión manual con traspaso automatizado de IVR a digital",
+        "Flujos estandarizados de onboarding y evaluación en todos los centros",
+        "Puntuaciones PGI visibles en tiempo real para seguimiento del equipo de atención",
+        "Registros listos para auditoría de cumplimiento y revisión de calidad"
+      ],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Twilio IVR",
+        "AWS"
+      ],
+      "imageAlt": "Panel de plataforma IVR de salud y evaluación de pacientes"
+    },
+    "dermayoga": {
+      "client": "DermaYoga",
+      "category": "Comercio electrónico",
+      "date": "Jul 12, 2026",
+      "readTime": "6 min",
+      "title": "Cuidado de la piel formulado por dermatólogos, diseñado para convertir",
+      "excerpt": "Una tienda premium de comercio electrónico para cuidado de piel y cabello — descubrimiento por categorías, puntos de entrada a consultas en vivo y un flujo de checkout diseñado para confianza y recompra.",
+      "summary": "Experiencia de comercio electrónico completa para una marca de cuidado de piel y cabello — compras por categoría, puntos de entrada a consultas en vivo y descubrimiento de productos orientado a la conversión.",
+      "challenge": "DermaYoga necesitaba una tienda online premium que reflejara credibilidad clínica manteniendo facilidad de compra. Requerían navegación por categorías (piel, cabello, suplementos), búsqueda, lista de deseos, carrito y un camino a consulta dermatológica en vivo.",
+      "solution": [
+        "Tienda personalizada con navegación Comprar todo, Piel, Cabello, Productos y Marcas",
+        "Barra promocional superior, búsqueda en todo el sitio y cuadrículas de productos mobile-first",
+        "Flujos de lista de deseos, carrito y perfil con UX de checkout limpia",
+        "Punto de entrada LIVE Consult integrado en la navegación principal",
+        "Páginas de categoría optimizadas para SEO y mensajes de confianza dermatológica en el hero"
+      ],
+      "results": [
+        "Presencia de marca profesional alineada con posicionamiento clínico",
+        "Rutas claras de compra por categoría para piel, cabello y suplementos",
+        "CTA de consulta integrada para conectar comercio con asesoramiento experto",
+        "Estructura de catálogo escalable para nuevas marcas y SKUs"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Stripe",
+        "Headless CMS"
+      ],
+      "imageAlt": "Página de inicio del sitio de comercio electrónico de cuidado de la piel DermaYoga",
+      "gallery": [
+        {
+          "alt": "Página de detalle de producto DermaYoga con tamaño de pack, verificación de entrega y flujo de compra",
+          "caption": "Detalle de producto — insignias de confianza, selector de tamaño de pack, verificación de entrega por código postal y flujo de compra inmediata"
+        }
+      ]
+    },
+    "skinfinity-academy": {
+      "client": "Skinfinity Academy",
+      "category": "EdTech",
+      "date": "Jun 4, 2026",
+      "readTime": "7 min",
+      "title": "Un sitio de academia que genera confianza antes de la inscripción",
+      "excerpt": "Posicionamiento de una marca de educación dermatológica para médicos de todo el mundo — cursos, talleres, credibilidad del claustro y un camino claro de inscripción sin sensación de LMS genérico.",
+      "summary": "Plataforma educativa para profesionales de dermatología con catálogo de cursos, talleres, calendario, testimonios y embudo de inscripción.",
+      "challenge": "Skinfinity necesitaba una academia digital creíble para atraer médicos de todo el mundo — mostrando cursos, credibilidad del claustro, conferencias en vivo y un recorrido claro de inscripción sin parecer una plantilla genérica de LMS.",
+      "solution": [
+        "Hero centrado en avance profesional con métricas de confianza (estudiantes, cursos, claustro, países)",
+        "Arquitectura de información Cursos, Calendario, Talleres, Testimonios y Blog",
+        "Franja de confianza institucional y posicionamiento liderado por el claustro",
+        "CTAs de Iniciar sesión e Inscribirse ahora con barra de anuncio de admisiones",
+        "Diseño responsive para audiencias médicas internacionales"
+      ],
+      "results": [
+        "Propuesta de valor clara para la narrativa de más de 5000 médicos formados",
+        "Rutas estructuradas a cursos, talleres e inscripción",
+        "Señales de confianza de instituciones médicas líderes",
+        "Base para integración LMS y flujos de cursos de pago"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "CMS",
+        "Analytics"
+      ],
+      "imageAlt": "Sitio web de educación dermatológica Skinfinity Academy"
+    },
+    "studio-atory": {
+      "client": "Studio Atory",
+      "category": "Arquitectura",
+      "date": "May 22, 2026",
+      "readTime": "5 min",
+      "title": "Arquitectura comercial, posicionada para marcas — no folletos",
+      "excerpt": "Un sitio editorial de estudio para arquitectura comercial: servicios, mercados, credibilidad de miembros fundadores y conversión centrada en contacto con sobriedad.",
+      "summary": "Sitio web minimalista y editorial para un estudio de arquitectura comercial — posicionamiento construido en torno a la realidad comercial desde el toolkit hasta el diseño listo para permisos.",
+      "challenge": "Studio Atory requería una presencia de portafolio refinada que hablara a marcas y desarrolladores — no a propietarios residenciales. El sitio debía comunicar servicios, mercados y credibilidad con sobriedad y claridad.",
+      "solution": [
+        "Hero editorial: arquitectura y planificación comercial construida en torno a la realidad comercial",
+        "Estructura de navegación Trabajos, Servicios, Mercados, Calculadora y Sobre nosotros",
+        "Franja de marcas miembros fundadores (retail, hostelería, clientes corporativos)",
+        "Conversión centrada en contacto con prueba social de LinkedIn",
+        "Sistema de diseño claro, tipográfico, con detalles de acento cobre"
+      ],
+      "results": [
+        "Posicionamiento premium para leads de arquitectura comercial",
+        "Descubrimiento claro de servicios y mercados sin desorden",
+        "Credibilidad de marca mediante logos de clientes miembros fundadores",
+        "Sitio de marketing rápido y mantenible para actualizaciones continuas de trabajos"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "imageAlt": "Sitio web de arquitectura comercial Studio Atory"
+    },
+    "mahasu-travels-crm": {
+      "client": "Mahasu Travels",
+      "category": "Viajes · CRM",
+      "date": "Apr 9, 2026",
+      "readTime": "9 min",
+      "title": "Un CRM de despacho para leads, reservas y ROI de marketing",
+      "excerpt": "Reemplazo de hojas de cálculo con un sistema operativo unificado — pipeline de leads, flujo de cotización a reserva, coordinación de conductores y analítica de gasto publicitario en un panel.",
+      "summary": "CRM operativo para un negocio de despacho de viajes — pipeline de leads, cotizaciones, reservas, asignación de conductores, seguimiento de gasto publicitario y paneles de ingresos.",
+      "challenge": "Mahasu Travels gestionaba el despacho con hojas de cálculo y herramientas desconectadas. Necesitaban un sistema para leads de anuncios de Google/Meta, conversión de cotización a reserva, coordinación de conductores y visibilidad del ROI de marketing.",
+      "solution": [
+        "Panel unificado: leads, cotizaciones enviadas, reservas confirmadas, ingresos registrados",
+        "Gestión de leads con división por fuente (Google Ads, Meta, sitio web, manual)",
+        "Módulos de reservas, conductores, vehículos, itinerarios y hoteles",
+        "Gasto publicitario y ROI de marketing con seguimiento de CPL y ROAS",
+        "Acceso basado en roles, búsqueda y acciones rápidas de nuevo lead"
+      ],
+      "results": [
+        "Vista única de despacho reemplazando flujos de trabajo fragmentados",
+        "Tendencia de ingresos y analítica de fuentes de leads para decisiones de marketing",
+        "Operaciones de reservas y conductores en un CRM en lugar de múltiples herramientas",
+        "Base escalable para operaciones de viajes multi-sitio"
+      ],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Chart.js",
+        "AWS"
+      ],
+      "imageAlt": "Panel CRM de despacho de Mahasu Travels"
+    }
+  }
+}

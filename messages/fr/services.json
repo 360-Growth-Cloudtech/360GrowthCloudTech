@@ -1,0 +1,151 @@
+{
+  "page": {
+    "label": "Services",
+    "titleLine1": "Ingénierie IA et",
+    "titleLine2": "design, de bout en bout",
+    "subtitle": "Sept disciplines, une seule équipe. De la stratégie produit à l'architecture IA jusqu'au déploiement en production, sans relais intermédiaire.",
+    "processTitle": "Un processus ciblé et reproductible",
+    "processSubtitle": "Chaque mission suit les mêmes phases claires — de la découverte et la construction au lancement, au marketing et à la montée en charge cloud.",
+    "inPracticeTitle": "Services en pratique",
+    "viewCaseStudies": "Voir les études de cas",
+    "ctaTitle": "Parlez-nous de votre projet",
+    "ctaSubtitle": "Consultation gratuite, sans engagement. Dites-nous ce que vous construisez et nous tracerons la voie à suivre."
+  },
+  "disciplines": {
+    "01": {
+      "title": "Stratégie produit",
+      "summary": "Vision, feuille de route et architecture pour que votre produit résolve les bons problèmes dès le premier jour.",
+      "desc": "Nous alignons la vision produit sur les objectifs business avant d'écrire une seule ligne de code. Feuilles de route, périmètre et décisions d'architecture qui préparent votre produit à réussir.",
+      "bullets": [
+        "Feuilles de route produit",
+        "Analyse de marché",
+        "Périmètre et validation MVP",
+        "Alignement des parties prenantes"
+      ]
+    },
+    "02": {
+      "title": "Design UX/UI",
+      "summary": "Interfaces fondées sur la recherche, intuitives, élégantes et convertissantes sur tous les appareils.",
+      "desc": "Des interfaces évidentes à utiliser et impossibles à ignorer. Des design systems fondés sur la recherche, conçus pour la conversion, l'accessibilité et toutes les tailles d'écran.",
+      "bullets": [
+        "Recherche utilisateur",
+        "Wireframes et prototypes",
+        "Design systems",
+        "Tests d'utilisabilité"
+      ]
+    },
+    "03": {
+      "title": "Ingénierie frontend",
+      "summary": "Implémentation pixel-perfect en React, Next.js et frameworks modernes. Prêt pour la production.",
+      "desc": "Implémentation pixel-perfect dans des frameworks modernes. Frontends rapides, responsives et maintenables que votre équipe peut faire évoluer longtemps après le lancement.",
+      "bullets": [
+        "React / Next.js",
+        "UI responsive",
+        "Optimisation des performances",
+        "Bibliothèques de composants"
+      ]
+    },
+    "04": {
+      "title": "Ingénierie backend",
+      "summary": "APIs de production, schémas normalisés et infrastructure qui tient la charge réelle.",
+      "desc": "APIs, bases de données et services conçus pour la charge réelle. Infrastructure sécurisée et observable qui scale avec votre base utilisateurs.",
+      "bullets": [
+        "APIs REST et GraphQL",
+        "Conception de bases de données",
+        "Auth et contrôle d'accès",
+        "Microservices"
+      ]
+    },
+    "05": {
+      "title": "IA et automatisation",
+      "summary": "Intégration LLM, retrieval et automatisation de workflows conçus dans le produit, pas ajoutés après coup.",
+      "desc": "Des fonctionnalités intelligentes intégrées au produit — pas ajoutées après coup. Des intégrations LLM aux workflows automatisés qui font gagner des heures chaque semaine.",
+      "bullets": [
+        "Intégration LLM",
+        "Pipelines RAG",
+        "Automatisation de workflows",
+        "Fonctionnalités IA"
+      ]
+    },
+    "06": {
+      "title": "Marketing digital",
+      "summary": "Campagnes data-driven, SEO et stratégies de croissance qui transforment le trafic en revenus mesurables.",
+      "desc": "La croissance n'est pas une question de chance. Nous construisons des systèmes marketing — paid, organic et analytics — alignés sur votre produit et qui scale avec vous.",
+      "bullets": [
+        "SEO et stratégie de contenu",
+        "Publicités payantes (Google, Meta)",
+        "Analytics et suivi des conversions",
+        "Campagnes marque et croissance"
+      ]
+    },
+    "07": {
+      "title": "Infrastructure cloud",
+      "summary": "Configuration cloud scalable, pipelines CI/CD et infrastructure résiliente conçue pour la production.",
+      "desc": "De la migration aux opérations au quotidien, nous concevons des environnements cloud rapides, sécurisés et rentables sous trafic réel.",
+      "bullets": [
+        "Migration cloud",
+        "Pipelines CI/CD",
+        "Infrastructure as Code",
+        "Monitoring et auto-scaling"
+      ]
+    }
+  },
+  "process": {
+    "01": {
+      "title": "Découverte",
+      "desc": "Nous comprenons vos objectifs, utilisateurs et contraintes — puis définissons le périmètre, les métriques de succès et un calendrier réaliste."
+    },
+    "02": {
+      "title": "Design",
+      "desc": "Wireframes, prototypes et UX validée avant le développement. Pas de surprises au lancement."
+    },
+    "03": {
+      "title": "Construction",
+      "desc": "Sprints agiles avec démos hebdomadaires. Vous voyez du logiciel fonctionnel tôt et souvent, avec de la marge pour itérer."
+    },
+    "04": {
+      "title": "Lancement et itération",
+      "desc": "Déploiement en production, monitoring et optimisation continue. Nous restons avec vous après le go-live."
+    },
+    "05": {
+      "title": "Marketing",
+      "desc": "SEO, campagnes payantes et analytics connectés à votre lancement — pour une croissance mesurable dès le premier jour."
+    },
+    "06": {
+      "title": "Cloud",
+      "desc": "Migration, CI/CD et ops de production — une infrastructure qui scale avec le trafic et reste rentable."
+    }
+  },
+  "inPractice": {
+    "healthcare": {
+      "tag": "Santé",
+      "title": "Portail patient",
+      "desc": "Portail conforme HIPAA avec des temps de chargement 40 % plus rapides et 3x plus d'utilisateurs actifs.",
+      "imageAlt": "Maquette de site web portail patient santé"
+    },
+    "travel": {
+      "tag": "Voyage",
+      "title": "Moteur de réservation",
+      "desc": "Infrastructure auto-scalable avec 99,99 % de disponibilité en haute saison.",
+      "imageAlt": "Maquette de site web moteur de réservation voyage"
+    },
+    "retail": {
+      "tag": "Retail",
+      "title": "Plateforme e-commerce",
+      "desc": "Boutique mobile-first qui a doublé les taux de conversion avec des chargements de page en moins d'une seconde.",
+      "imageAlt": "Maquette de site web retail e-commerce"
+    },
+    "marketing": {
+      "tag": "Marketing",
+      "title": "Campagne de croissance",
+      "desc": "Stratégie SEO et médias payants intégrée qui a augmenté les leads qualifiés de 60 % en 90 jours.",
+      "imageAlt": "Maquette de tableau de bord analytics marketing digital"
+    },
+    "cloud": {
+      "tag": "Cloud",
+      "title": "Migration de plateforme",
+      "desc": "Migration cloud sans interruption avec pipelines CI/CD et SLA de 99,99 % de disponibilité.",
+      "imageAlt": "Maquette de tableau de bord infrastructure cloud"
+    }
+  }
+}

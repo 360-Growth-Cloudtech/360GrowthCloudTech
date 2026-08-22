@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "contact": "Contact",
+    "bookCall": "Book a call",
+    "getStarted": "Get started",
+    "bookFreeCall": "Book a Free Call",
+    "sendMessage": "Send a Message",
+    "brandShort": "Cloud Tech"
+  },
+  "footer": {
+    "brandName": "360 cloud tech",
+    "tagline": "Designing digital-first technologies for future growth — across software, cloud, and marketing.",
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "links": {
+      "about": "About",
+      "contact": "Contact",
+      "consulting": "Consulting",
+      "technology": "Technology",
+      "industries": "Industries",
+      "work": "Work"
+    },
+    "scheduleTitle": "Ready to transform your business?",
+    "scheduleDesc": "Let's discuss your project and explore how we can help you reach your goals.",
+    "scheduleMeeting": "Schedule a Meeting",
+    "sendMessage": "Send Message",
+    "copyright": "© {year} 360CloudTech. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies Policy"
+  },
+  "brand": {
+    "full": "360GrowthCloudTech",
+    "short": "360 cloud tech",
+    "logoAlt": "360 cloud tech",
+    "tagline": "Digital engineering & growth studio"
+  },
+  "ctas": {
+    "bookFreeStrategyCall": "Book a Free Strategy Call",
+    "viewServices": "View services",
+    "explore": "Explore",
+    "getInTouch": "Get in touch",
+    "sendMessage": "Send a message",
+    "startConversation": "Start a conversation",
+    "contactUs": "Contact us",
+    "letsTalk": "Let's Talk",
+    "bookFreeCall": "Book a Free Call",
+    "requestConsultation": "Request Consultation",
+    "confirmMeeting": "Confirm Meeting",
+    "close": "Close",
+    "seeServicesDetail": "See services in detail",
+    "recentProjects": "Recent projects",
+    "viewServicesLink": "View services",
+    "viewCaseStudies": "View case studies"
+  },
+  "forms": {
+    "sendMessageTitle": "Send us a message",
+    "fullName": "Full Name",
+    "fullNameRequired": "Full Name *",
+    "emailAddress": "Email Address",
+    "emailAddressRequired": "Email Address *",
+    "phoneNumber": "Phone Number",
+    "companyName": "Company Name",
+    "serviceOfInterest": "Service of Interest",
+    "serviceOfInterestRequired": "Service of Interest *",
+    "projectDetails": "Project Details",
+    "message": "Message",
+    "preferredDate": "Preferred Date",
+    "preferredTime": "Preferred Time",
+    "placeholders": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "company": "Acme Inc",
+      "selectService": "Select a service",
+      "selectTime": "Select a time",
+      "projectDetails": "Tell us about your project...",
+      "scheduleMessage": "Any specific details you want to discuss?"
+    },
+    "services": {
+      "software": "Custom Software",
+      "crm": "CRM Tools",
+      "marketing": "Digital Marketing",
+      "cloud": "Cloud Infrastructure",
+      "ecommerce": "E-commerce",
+      "other": "Other",
+      "otherFullSuite": "Other / Full Suite"
+    },
+    "timeSlots": {
+      "morning": "Morning (9am-12pm)",
+      "afternoon": "Afternoon (12pm-4pm)",
+      "evening": "Evening (4pm-7pm)"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "invalidEmail": "Invalid email address",
+      "phoneRequired": "Phone number is required",
+      "selectService": "Please select a service",
+      "messageMinLength": "Message must be at least 10 characters"
+    },
+    "sending": "Sending...",
+    "submitting": "Submitting..."
+  },
+  "scheduleMeeting": {
+    "title": "Schedule a Meeting",
+    "description": "Fill out the details below to schedule a time to discuss your project.",
+    "successTitle": "Request received!",
+    "successDescription": "Thank you for reaching out. We've received your request and will get back to you shortly — typically within 2 business hours. A confirmation email has been sent to your inbox.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "toasts": {
+    "messageSentTitle": "Message sent!",
+    "messageSentDescription": "Thank you for reaching out. We'll get back to you shortly — typically within 2 business hours.",
+    "messageFailedTitle": "Could not send message"
+  },
+  "languages": {
+    "switchLanguage": "Switch language",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ar": "العربية"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "followUs": "Follow Us"
+  },
+  "heroAnnotation": "Schedule a free call now",
+  "whatsapp": {
+    "chatLabel": "Chat with us on WhatsApp"
+  },
+  "notFound": {
+    "title": "404 Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to home"
+  }
+}

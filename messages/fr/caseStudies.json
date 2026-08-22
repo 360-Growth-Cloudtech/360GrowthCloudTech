@@ -1,0 +1,286 @@
+{
+  "list": {
+    "label": "Réalisations",
+    "title": "Études de cas de produits livrés.",
+    "subtitle": "Des réalisations concrètes de l'équipe 360GrowthCloudTech — workflows santé, e-commerce, éducation, architecture et opérations voyage — et les choix d'ingénierie qui les accompagnent.",
+    "readCaseStudy": "Lire l'étude de cas"
+  },
+  "detail": {
+    "backLink": "Toutes les études de cas",
+    "productScreens": "Écrans produit",
+    "challenge": "Le défi",
+    "whatWeBuilt": "Ce que nous avons construit",
+    "outcomes": "Résultats",
+    "stack": "Stack",
+    "ctaTitle": "Vous construisez quelque chose de similaire ?",
+    "ctaSubtitle": "Réservez un appel découverte gratuit — nous discuterons du périmètre, du calendrier et de la mise en production.",
+    "nextCaseStudy": "Étude de cas suivante"
+  },
+  "items": {
+    "himachal-tourism-google-ads": {
+      "client": "Himachal Tourism Cab",
+      "category": "Voyage et tourisme · Google Ads",
+      "date": "Aug 10, 2026",
+      "readTime": "7 min",
+      "title": "Gestion Google Ads et optimisation des conversions pour des leads réguliers hors saison",
+      "excerpt": "Himachal Tourism Cab dépensait sur Google Ads à l'aveugle — suivi des conversions défaillant, aucune attribution et aucun moyen de savoir ce qui générait des réservations. Nous avons reconstruit le suivi, restructuré les campagnes et transformé les données en leads qualifiés.",
+      "summary": "Gestion Google Ads et optimisation des conversions pour un opérateur de taxis et circuits au Himachal Pradesh — reconstruction du suivi des conversions, restructuration des campagnes sur données réelles et amélioration de la qualité des leads tout en réduisant le coût par lead.",
+      "challenge": "Himachal Tourism Cab, un service de taxis et circuits opérant dans tout le Himachal Pradesh, investissait dans Google Ads sans visibilité réelle sur les performances. Le suivi des conversions de leur site n'était pas correctement configuré, ce qui signifiait qu'ils n'avaient pas de données fiables sur l'engagement des visiteurs avec leurs formulaires de demande — rendant presque impossible de savoir quelles campagnes, mots-clés ou landing pages généraient réellement des réservations plutôt que de simplement consommer le budget.",
+      "solution": [
+        "Reconstruction du suivi des conversions from scratch — chaque soumission de formulaire capturée et attribuée à la source",
+        "Audit et restructuration du compte Google Ads basés sur les données de performance réelles",
+        "Affinement du ciblage d'audience pour réduire les dépenses sur le trafic à faible intention",
+        "Réallocation du budget vers les campagnes et mots-clés générant de vraies réservations",
+        "Optimisation des landing pages pour améliorer les taux de conversion visiteur-demande"
+      ],
+      "results": [
+        "Coût par lead ↓ 20 %",
+        "Qualité des leads ↑ 30 %",
+        "Taux de conversion ↑ 10 %",
+        "Leads réguliers et qualifiés pendant la basse saison traditionnelle — auparavant lente et imprévisible",
+        "Attribution fiable du clic à la demande pour les décisions de campagne continues"
+      ],
+      "stack": [
+        "Google Ads",
+        "Google Tag Manager",
+        "GA4",
+        "Landing Page CRO",
+        "Search Campaigns"
+      ],
+      "imageAlt": "Tableau de bord de suivi des conversions et performance des campagnes Google Ads pour le tourisme"
+    },
+    "geetha-studio": {
+      "client": "Geetha Studio",
+      "category": "Art · Portfolio",
+      "date": "Mar 15, 2026",
+      "readTime": "5 min",
+      "title": "Portfolio d'artiste personnel et galerie en ligne",
+      "excerpt": "Un site immersif de studio de beaux-arts pour Geetha — œuvres originales, navigation galerie et parcours contact qui laissent les tableaux au centre de l'attention.",
+      "summary": "Portfolio d'artiste personnel et galerie en ligne pour œuvres originales à l'huile et sur toile — nature morte, paysages surréalistes et la beauté discrète du quotidien, présentés avec une UX centrée galerie.",
+      "challenge": "Geetha avait besoin de plus qu'un modèle de portfolio générique. Le site devait donner l'impression d'entrer dans un atelier — œuvres plein écran, interface minimale et chemins clairs vers galerie, à propos et contact sans distraire des tableaux.",
+      "solution": [
+        "Hero plein viewport mettant l'œuvre originale en élément visuel principal",
+        "Navigation Galerie, À propos et Contact avec en-tête flottant translucide",
+        "Typographie éditoriale et déclaration de l'artiste sur la page d'accueil",
+        "Mise en page responsive mobile préservant qualité et composition des images",
+        "Parcours contact pour commandes, demandes et visites d'atelier"
+      ],
+      "results": [
+        "Présentation premium alignée sur le positionnement beaux-arts",
+        "UX centrée galerie gardant l'œuvre comme héros",
+        "Identité d'atelier claire : œuvres originales, huile et toile",
+        "Base pour étendre collections et pages d'exposition"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Cloudinary",
+        "Vercel"
+      ],
+      "imageAlt": "Page d'accueil du portfolio artiste Geetha Studio avec œuvres originales"
+    },
+    "atory-hub": {
+      "client": "Atory Hub",
+      "category": "PropTech · Marketplace",
+      "date": "Mar 1, 2026",
+      "readTime": "10 min",
+      "title": "Planifier, concevoir et exécuter des espaces commerciaux — en un seul hub",
+      "excerpt": "Une plateforme de découverte connectant entreprises, architectes, designers et entrepreneurs — plus galeries d'inspiration, annuaires professionnels et outils de planification.",
+      "summary": "Atory Hub aide les entreprises à planifier, concevoir et exécuter des espaces commerciaux en les connectant aux bons professionnels et en fournissant inspiration projet et design sur une seule plateforme.",
+      "challenge": "Locataires commerciaux et propriétaires d'entreprises peinent à trouver des professionnels de confiance, comprendre les coûts et rassembler l'inspiration design avant de s'engager dans un aménagement. Tableaux Pinterest dispersés, feuilles de calcul et démarches à froid ralentissaient chaque projet.",
+      "solution": [
+        "Page d'accueil découverte : recherche inspirations vs professionnels avec bascules de catégorie",
+        "Galerie d'inspirations avec styles tendance, lookbooks et intérieurs commerciaux filtrables",
+        "Annuaire professionnels avec filtres catégorie projet, rayon géographique et vues liste/grille",
+        "Cartes profil avec spécialités, tags projet, taille de cabinet et aperçus portfolio",
+        "Outils de planification LaunchBOX et contenu éditorial pour éducation coûts et périmètre",
+        "Parcours Rejoindre en tant que Pro et Connexion pour professionnels et propriétaires"
+      ],
+      "results": [
+        "Hub unique remplaçant recherche fragmentée d'inspiration et de prestataires",
+        "Parcours découverte-connexion du mood board à la shortlist professionnelle",
+        "Architecture d'annuaire scalable santé, retail, hôtellerie et plus",
+        "Plateforme prête pour lookbooks, annuaires et fonctionnalités de contact prestataires"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Algolia",
+        "AWS"
+      ],
+      "imageAlt": "Page d'accueil découverte immobilier commercial Atory Hub",
+      "gallery": [
+        {
+          "alt": "Galerie d'inspirations Atory Hub avec photos d'intérieurs commerciaux",
+          "caption": "Inspirations — galerie searchable avec styles tendance et lookbooks"
+        },
+        {
+          "alt": "Annuaire professionnels Atory Hub avec filtres et listings",
+          "caption": "Professionnels — annuaire avec filtres catégorie, recherche lieu et profils"
+        }
+      ]
+    },
+    "healthcare-ivr-platform": {
+      "client": "Healthcare Platform",
+      "category": "Santé",
+      "date": "Aug 18, 2026",
+      "readTime": "8 min",
+      "title": "IVR, onboarding, évaluation et PGI — un workflow d'admission",
+      "excerpt": "Comment nous avons remplacé l'admission téléphonique fragmentée et les évaluations papier par routage IVR, onboarding digital, évaluations cliniques structurées et suivi PGI pour les équipes soignantes.",
+      "summary": "Système d'admission patient de bout en bout avec routage IVR, onboarding digital, évaluations structurées et scoring PGI — conçu pour équipes cliniques et coordinateurs de soins.",
+      "challenge": "Le client devait remplacer l'admission téléphonique fragmentée et les évaluations papier par un workflow digital unifié. Les volumes d'appels étaient élevés, l'onboarding incohérent et les cliniciens manquaient d'une vue unique de la progression patient et des résultats PGI.",
+      "solution": [
+        "Configuration IVR multi-niveaux avec routage département, logique horaires ouvrables et files d'attente de secours",
+        "Onboarding patient guidé avec vérification d'identité et capture de consentement",
+        "Modules d'évaluation clinique configurables avec scoring et revue clinicien",
+        "Suivi PGI (Patient Global Impression) avec vues tendance et rapports exportables",
+        "Tableaux de bord par rôle pour admins, coordinateurs et personnel clinique"
+      ],
+      "results": [
+        "Réduction du temps d'admission manuelle avec transfert automatisé IVR vers digital",
+        "Flux onboarding et évaluation standardisés sur tous les sites",
+        "Scores PGI visibles en temps réel pour suivi équipe soignante",
+        "Journaux prêts pour audit conformité et revue qualité"
+      ],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Twilio IVR",
+        "AWS"
+      ],
+      "imageAlt": "Tableau de bord plateforme IVR santé et évaluation patient"
+    },
+    "dermayoga": {
+      "client": "DermaYoga",
+      "category": "E-commerce",
+      "date": "Jul 12, 2026",
+      "readTime": "6 min",
+      "title": "Soins dermatologiques formulés pour convertir",
+      "excerpt": "Une boutique e-commerce premium peau et cheveux — découverte par catégorie, points d'entrée consultation live et parcours checkout conçu pour confiance et achat répété.",
+      "summary": "Expérience e-commerce complète pour une marque soins peau et cheveux — shopping par catégorie, points d'entrée consultation live et découverte produit orientée conversion.",
+      "challenge": "DermaYoga avait besoin d'une boutique en ligne premium reflétant la crédibilité clinique tout en restant facile à parcourir. Ils requéraient navigation catégories (peau, cheveux, compléments), recherche, wishlist, panier et chemin vers consultation dermatologique live.",
+      "solution": [
+        "Vitrine custom avec navigation Tout acheter, Peau, Cheveux, Produits et Marques",
+        "Barre promo haute, recherche sitewide et grilles produits mobile-first",
+        "Parcours wishlist, panier et profil avec UX checkout épurée",
+        "Point d'entrée LIVE Consult intégré à la navigation principale",
+        "Pages catégorie SEO-ready et messages confiance dermatologue dans le hero"
+      ],
+      "results": [
+        "Présence de marque professionnelle alignée sur positionnement clinique",
+        "Chemins shop-by-category clairs peau, cheveux et compléments",
+        "CTA consultation intégré connectant commerce et conseil expert",
+        "Structure catalogue scalable pour nouvelles marques et SKUs"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Stripe",
+        "Headless CMS"
+      ],
+      "imageAlt": "Page d'accueil site e-commerce soins peau DermaYoga",
+      "gallery": [
+        {
+          "alt": "Page détail produit DermaYoga avec taille pack, vérif livraison et parcours achat",
+          "caption": "Détail produit — badges confiance, sélecteur taille pack, vérif livraison code postal et parcours achat immédiat"
+        }
+      ]
+    },
+    "skinfinity-academy": {
+      "client": "Skinfinity Academy",
+      "category": "EdTech",
+      "date": "Jun 4, 2026",
+      "readTime": "7 min",
+      "title": "Un site académie qui inspire confiance avant l'inscription",
+      "excerpt": "Positionner une marque éducation dermatologique pour médecins du monde entier — cours, ateliers, crédibilité corps professoral et parcours inscription clair sans feeling LMS générique.",
+      "summary": "Plateforme éducation pour professionnels dermatologie avec catalogue cours, ateliers, calendrier, témoignages et entonnoir inscription.",
+      "challenge": "Skinfinity avait besoin d'une académie digital crédible pour attirer médecins worldwide — montrer cours, crédibilité corps professoral, conférences live et parcours inscription clair sans ressembler à un template LMS générique.",
+      "solution": [
+        "Hero centré avancement carrière avec métriques confiance (étudiants, cours, corps professoral, pays)",
+        "Architecture info Cours, Calendrier, Ateliers, Témoignages et Blog",
+        "Bandeau confiance institutionnelle et positionnement piloté corps professoral",
+        "CTAs Connexion et S'inscrire maintenant avec barre annonce admissions",
+        "Mise en page responsive pour audiences médicales internationales"
+      ],
+      "results": [
+        "Proposition de valeur claire pour le récit 5000+ médecins formés",
+        "Chemins structurés vers cours, ateliers et inscription",
+        "Signaux confiance institutions médicales leaders",
+        "Base pour intégration LMS et flux cours payants"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "CMS",
+        "Analytics"
+      ],
+      "imageAlt": "Site web éducation dermatologique Skinfinity Academy"
+    },
+    "studio-atory": {
+      "client": "Studio Atory",
+      "category": "Architecture",
+      "date": "May 22, 2026",
+      "readTime": "5 min",
+      "title": "Architecture commerciale, positionnée pour les marques — pas les brochures",
+      "excerpt": "Un site éditorial studio pour architecture commerciale : services, marchés, crédibilité membres fondateurs et conversion contact-first avec retenue.",
+      "summary": "Site web minimal et éditorial pour cabinet architecture commerciale — positionnement construit autour de la réalité commerciale du toolkit au design prêt permis.",
+      "challenge": "Studio Atory requérait une présence portfolio raffinée parlant aux marques et promoteurs — pas aux propriétaires résidentiels. Le site devait communiquer services, marchés et crédibilité avec retenue et clarté.",
+      "solution": [
+        "Hero éditorial : architecture et planification commerciale construites autour de la réalité commerciale",
+        "Structure nav Travaux, Services, Marchés, Calculateur et À propos",
+        "Bandeau marques membres fondateurs (retail, hôtellerie, clients corporate)",
+        "Conversion contact-first avec preuve sociale LinkedIn",
+        "Design system clair, typographique, avec détails accent cuivre"
+      ],
+      "results": [
+        "Positionnement premium pour leads architecture commerciale",
+        "Découverte services et marchés claire sans encombrement",
+        "Crédibilité marque via logos clients membres fondateurs",
+        "Site marketing rapide et maintenable pour mises à jour travaux continues"
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "imageAlt": "Site web architecture commerciale Studio Atory"
+    },
+    "mahasu-travels-crm": {
+      "client": "Mahasu Travels",
+      "category": "Voyage · CRM",
+      "date": "Apr 9, 2026",
+      "readTime": "9 min",
+      "title": "Un CRM dispatch pour leads, réservations et ROI marketing",
+      "excerpt": "Remplacement des feuilles de calcul par un système ops unifié — pipeline leads, flux devis-réservation, coordination chauffeurs et analytics dépenses pub dans un tableau de bord.",
+      "summary": "CRM opérations pour activité dispatch voyage — pipeline leads, devis, réservations, affectation chauffeurs, suivi dépenses pub et tableaux de bord revenus.",
+      "challenge": "Mahasu Travels gérait le dispatch avec feuilles de calcul et outils déconnectés. Ils avaient besoin d'un système pour leads Google/Meta ads, conversion devis-réservation, coordination chauffeurs et visibilité ROI marketing.",
+      "solution": [
+        "Tableau de bord unifié : leads, devis envoyés, réservations confirmées, revenus enregistrés",
+        "Gestion leads avec répartition source (Google Ads, Meta, site web, manuel)",
+        "Modules réservations, chauffeurs, véhicules, itinéraires et hôtels",
+        "Dépenses pub et ROI marketing avec suivi CPL et ROAS",
+        "Accès par rôle, recherche et actions rapides nouveau lead"
+      ],
+      "results": [
+        "Vue dispatch unique remplaçant workflows fragmentés",
+        "Tendance revenus et analytics sources leads pour décisions marketing",
+        "Ops réservation et chauffeurs dans un CRM au lieu de multiples outils",
+        "Base scalable pour opérations voyage multi-sites"
+      ],
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Chart.js",
+        "AWS"
+      ],
+      "imageAlt": "Tableau de bord CRM dispatch Mahasu Travels"
+    }
+  }
+}

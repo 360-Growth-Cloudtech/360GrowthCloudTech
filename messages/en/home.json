@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "label": "✦ Clean Code. Scalable Architecture. ✦",
+    "titleLine1": "We build the product.",
+    "titleLine2a": "You build the",
+    "titleLine2b": "company.",
+    "subtitle": "We're the engineering team behind ambitious founders — shipping web apps, SaaS tools, and digital products on modern, maintainable technology.",
+    "trustItems": {
+      "noLockIn": "No lock-in contracts",
+      "soc2": "SOC 2 Certified",
+      "globalDelivery": "Global delivery"
+    }
+  },
+  "trustedBy": {
+    "label": "Trusted by industry leaders",
+    "companies": ["HealthTech Corp", "Peak Retail", "Global Travel", "FinServe Group", "MedCare Health", "CloudFirst"]
+  },
+  "whatWeDo": {
+    "label": "What We Do",
+    "title": "Digital engineering and design, under one roof",
+    "subtitle": "Seven disciplines, one team. From product strategy through cloud architecture to production deployment, without a handoff."
+  },
+  "expertise": {
+    "label": "Our Expertise",
+    "titleLine1": "Everything you need",
+    "titleLine2": "to succeed online.",
+    "subtitle": "From idea to a live, growing product — we handle every layer of the stack.",
+    "services": {
+      "customSoftware": {
+        "title": "Custom Software",
+        "desc": "High-performance web & mobile apps built for scale.",
+        "tag": "Engineering"
+      },
+      "customCrm": {
+        "title": "Custom CRM Tools",
+        "desc": "Bespoke CRM systems that fit your exact workflow.",
+        "tag": "Product"
+      },
+      "digitalMarketing": {
+        "title": "Digital Marketing",
+        "desc": "Data-driven ads and comprehensive SEO growth.",
+        "tag": "Growth"
+      },
+      "cloudInfrastructure": {
+        "title": "Cloud Infrastructure",
+        "desc": "Scalable cloud setup and robust CI/CD pipelines.",
+        "tag": "DevOps"
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "desc": "End-to-end stores with seamless payment flows.",
+        "tag": "Commerce"
+      }
+    }
+  },
+  "stats": {
+    "projectsDelivered": { "value": "250+", "label": "Projects Delivered" },
+    "uptime": { "value": "99.9%", "label": "Uptime Achieved" },
+    "enterpriseClients": { "value": "50+", "label": "Enterprise Clients" },
+    "yearsExperience": { "value": "10+", "label": "Years Experience" }
+  },
+  "whyChooseUs": {
+    "label": "Why Choose Us",
+    "titleLine1": "One partner for your",
+    "titleLine2": "entire journey.",
+    "subtitle": "We become your long-term technology partner — helping you grow, adapt, and lead in your industry with confidence.",
+    "features": {
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "desc": "Agile sprints with weekly demos — see progress from day one."
+      },
+      "enterpriseSecurity": {
+        "title": "Enterprise Security",
+        "desc": "SOC 2 compliant with HIPAA, GDPR and ISO 27001 standards."
+      },
+      "globalSupport": {
+        "title": "Global Support",
+        "desc": "24/7 support team across multiple time zones."
+      },
+      "measurableResults": {
+        "title": "Measurable Results",
+        "desc": "Data-backed KPIs and transparent reporting every step."
+      }
+    },
+    "cards": {
+      "industries": { "value": "40+", "label": "Industries", "sub": "sectors served" },
+      "projects": { "value": "250+", "label": "Projects", "sub": "delivered" },
+      "uptime": { "value": "99.9%", "label": "Uptime", "sub": "SLA guaranteed" },
+      "support": { "value": "24/7", "label": "Support", "sub": "always available" }
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "titleLine1": "Trusted by",
+    "titleLine2": "industry leaders.",
+    "items": [
+      {
+        "quote": "360CloudTech completely revamped our patient portal. It's faster, incredibly secure, and their support is always on.",
+        "name": "Dr. Sarah Jenkins",
+        "role": "CTO, MedCare Health",
+        "initials": "SJ"
+      },
+      {
+        "quote": "Having development and marketing under one roof changed everything. Our e-commerce saw a 40% increase in conversions.",
+        "name": "Marcus Chen",
+        "role": "Founder, Peak Retail",
+        "initials": "MC"
+      },
+      {
+        "quote": "Their cloud infrastructure setup is flawless. We haven't had a minute of downtime since migrating our booking engine.",
+        "name": "Elena Rodriguez",
+        "role": "VP Engineering, Global Travel",
+        "initials": "ER"
+      }
+    ]
+  },
+  "cta": {
+    "label": "Ready to start?",
+    "titleLine1": "Let's build something",
+    "titleLine2": "amazing together.",
+    "subtitle": "Free consultation, no commitment. Just a friendly conversation about your goals."
+  }
+}

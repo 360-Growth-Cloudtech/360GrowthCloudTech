@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "services": "Services",
+    "work": "Réalisations",
+    "contact": "Contact",
+    "bookCall": "Réserver un appel",
+    "getStarted": "Commencer",
+    "bookFreeCall": "Réserver un appel gratuit",
+    "sendMessage": "Envoyer un message",
+    "brandShort": "Cloud Tech"
+  },
+  "footer": {
+    "brandName": "360 cloud tech",
+    "tagline": "Concevoir des technologies numériques pour la croissance de demain — logiciels, cloud et marketing.",
+    "company": "Entreprise",
+    "services": "Services",
+    "resources": "Ressources",
+    "links": {
+      "about": "À propos",
+      "contact": "Contact",
+      "consulting": "Conseil",
+      "technology": "Technologie",
+      "industries": "Secteurs",
+      "work": "Réalisations"
+    },
+    "scheduleTitle": "Prêt à transformer votre entreprise ?",
+    "scheduleDesc": "Discutons de votre projet et voyons comment nous pouvons vous aider à atteindre vos objectifs.",
+    "scheduleMeeting": "Planifier une réunion",
+    "sendMessage": "Envoyer un message",
+    "copyright": "© {year} 360CloudTech. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique de cookies"
+  },
+  "brand": {
+    "full": "360GrowthCloudTech",
+    "short": "360 cloud tech",
+    "logoAlt": "360 cloud tech",
+    "tagline": "Studio d'ingénierie digitale et de croissance"
+  },
+  "ctas": {
+    "bookFreeStrategyCall": "Réserver un appel stratégique gratuit",
+    "viewServices": "Voir les services",
+    "explore": "Explorer",
+    "getInTouch": "Nous contacter",
+    "sendMessage": "Envoyer un message",
+    "startConversation": "Démarrer une conversation",
+    "contactUs": "Contactez-nous",
+    "letsTalk": "Parlons-en",
+    "bookFreeCall": "Réserver un appel gratuit",
+    "requestConsultation": "Demander une consultation",
+    "confirmMeeting": "Confirmer la réunion",
+    "close": "Fermer",
+    "seeServicesDetail": "Voir les services en détail",
+    "recentProjects": "Projets récents",
+    "viewServicesLink": "Voir les services",
+    "viewCaseStudies": "Voir les études de cas"
+  },
+  "forms": {
+    "sendMessageTitle": "Envoyez-nous un message",
+    "fullName": "Nom complet",
+    "fullNameRequired": "Nom complet *",
+    "emailAddress": "Adresse e-mail",
+    "emailAddressRequired": "Adresse e-mail *",
+    "phoneNumber": "Numéro de téléphone",
+    "companyName": "Nom de l'entreprise",
+    "serviceOfInterest": "Service souhaité",
+    "serviceOfInterestRequired": "Service souhaité *",
+    "projectDetails": "Détails du projet",
+    "message": "Message",
+    "preferredDate": "Date souhaitée",
+    "preferredTime": "Heure souhaitée",
+    "placeholders": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "company": "Acme Inc",
+      "selectService": "Sélectionnez un service",
+      "selectTime": "Sélectionnez une heure",
+      "projectDetails": "Parlez-nous de votre projet...",
+      "scheduleMessage": "Des détails spécifiques à aborder ?"
+    },
+    "services": {
+      "software": "Logiciel sur mesure",
+      "crm": "Outils CRM",
+      "marketing": "Marketing digital",
+      "cloud": "Infrastructure cloud",
+      "ecommerce": "E-commerce",
+      "other": "Autre",
+      "otherFullSuite": "Autre / Suite complète"
+    },
+    "timeSlots": {
+      "morning": "Matin (9h–12h)",
+      "afternoon": "Après-midi (12h–16h)",
+      "evening": "Soir (16h–19h)"
+    },
+    "validation": {
+      "nameRequired": "Le nom est requis",
+      "invalidEmail": "Adresse e-mail invalide",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "selectService": "Veuillez sélectionner un service",
+      "messageMinLength": "Le message doit comporter au moins 10 caractères"
+    },
+    "sending": "Envoi en cours...",
+    "submitting": "Envoi en cours..."
+  },
+  "scheduleMeeting": {
+    "title": "Planifier une réunion",
+    "description": "Remplissez les informations ci-dessous pour réserver un créneau et discuter de votre projet.",
+    "successTitle": "Demande reçue !",
+    "successDescription": "Merci de nous avoir contactés. Nous avons bien reçu votre demande et vous répondrons sous peu — généralement sous 2 heures ouvrées. Un e-mail de confirmation a été envoyé dans votre boîte de réception.",
+    "genericError": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "toasts": {
+    "messageSentTitle": "Message envoyé !",
+    "messageSentDescription": "Merci de nous avoir contactés. Nous vous répondrons sous peu — généralement sous 2 heures ouvrées.",
+    "messageFailedTitle": "Impossible d'envoyer le message"
+  },
+  "languages": {
+    "switchLanguage": "Changer de langue",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ar": "العربية"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "followUs": "Suivez-nous"
+  },
+  "heroAnnotation": "Planifiez un appel gratuit maintenant",
+  "whatsapp": {
+    "chatLabel": "Discutez avec nous sur WhatsApp"
+  },
+  "notFound": {
+    "title": "404 — Page introuvable",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'accueil"
+  }
+}

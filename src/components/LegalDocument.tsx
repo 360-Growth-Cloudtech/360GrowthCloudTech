@@ -1,3 +1,6 @@
+"use client";
+
+import { useFormatter, useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from "@/lib/contact";
 
@@ -7,6 +10,13 @@ const PHONE = CONTACT_PHONE;
 const WEBSITE = "360cloudtech.com";
 
 export { COMPANY, EMAIL, PHONE, CONTACT_PHONE_TEL, WEBSITE };
+
+export const legalVars = {
+  company: COMPANY,
+  website: WEBSITE,
+  email: EMAIL,
+  phone: PHONE,
+};
 
 export function LegalDocument({
   title,
@@ -19,26 +29,28 @@ export function LegalDocument({
   lastUpdated: string;
   children: React.ReactNode;
 }) {
+  const t = useTranslations("legal.shared");
+  const format = useFormatter();
+
+  const formattedDate = format.dateTime(new Date(lastUpdated), {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
   return (
     <>
-      <PageHero label="Legal" title={title} subtitle={subtitle} />
+      <PageHero label={t("label")} title={title} subtitle={subtitle} />
       <section className="py-16 md:py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <p className="text-sm text-muted-foreground mb-10">
-            Last updated: <time dateTime={lastUpdated}>{formatDate(lastUpdated)}</time>
+            {t("lastUpdated")}{" "}
+            <time dateTime={lastUpdated}>{formattedDate}</time>
           </p>
           <div className="space-y-10">{children}</div>
           <div className="mt-14 rounded-2xl border border-border/70 bg-white/60 p-6">
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Questions about this document? Contact us at{" "}
-              <a href={`mailto:${EMAIL}`} className="font-semibold text-primary hover:underline">
-                {EMAIL}
-              </a>{" "}
-              or{" "}
-              <a href={CONTACT_PHONE_TEL} className="font-semibold text-primary hover:underline">
-                {PHONE}
-              </a>
-              .
+              {t("questionsContact", { email: EMAIL, phone: PHONE })}
             </p>
           </div>
         </div>
@@ -64,10 +76,39 @@ export function LegalSection({
   );
 }
 
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
+type LegalSectionData = {
+  title: string;
+  paragraphs: string[];
+  list?: string[];
+  subsections?: { heading: string; paragraphs: string[] }[];
+};
+
+export function LegalSectionContent({ section }: { section: LegalSectionData }) {
+  const { title, paragraphs, list, subsections } = section;
+
+  return (
+    <LegalSection title={title}>
+      {paragraphs[0] && <p>{paragraphs[0]}</p>}
+      {list && list.length > 0 && (
+        <ul>
+          {list.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      )}
+      {paragraphs.slice(1).map((paragraph, i) => (
+        <p key={i}>{paragraph}</p>
+      ))}
+      {subsections?.map((subsection) => (
+        <div key={subsection.heading}>
+          <p>
+            <strong>{subsection.heading}</strong>
+          </p>
+          {subsection.paragraphs.map((paragraph, i) => (
+            <p key={i}>{paragraph}</p>
+          ))}
+        </div>
+      ))}
+    </LegalSection>
+  );
 }

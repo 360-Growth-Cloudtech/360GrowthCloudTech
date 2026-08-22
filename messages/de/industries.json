@@ -1,0 +1,73 @@
+{
+  "page": {
+    "label": "Branchen",
+    "title": "Wen wir bedienen.",
+    "subtitle": "Tiefe Branchenexpertise in komplexen, regulierten und wachstumsstarken Sektoren."
+  },
+  "items": {
+    "healthcare": {
+      "name": "Gesundheitswesen",
+      "badge": "HIPAA-konform",
+      "desc": "Sichere, konforme Portale und Telemedizin-Plattformen.",
+      "bullets": [
+        "Patientenportale",
+        "Telehealth-Apps",
+        "EHR-Integrationen"
+      ]
+    },
+    "travel": {
+      "name": "Reise & Tourismus",
+      "badge": "Hohe Verfügbarkeit",
+      "desc": "Robuste Buchungsengines für saisonale Traffic-Spitzen.",
+      "bullets": [
+        "Buchungsengines",
+        "Dynamic-Pricing-APIs",
+        "Reiseplaner"
+      ]
+    },
+    "retail": {
+      "name": "Einzelhandel",
+      "badge": "Skalierbar",
+      "desc": "Omnichannel-E-Commerce-Erlebnisse, die Conversions steigern.",
+      "bullets": [
+        "E-Commerce-Plattformen",
+        "Bestandsverwaltung",
+        "POS-Integration"
+      ]
+    },
+    "finance": {
+      "name": "Finanzen",
+      "badge": "Bank-Level-Sicherheit",
+      "desc": "Sichere Fintech-Apps, Payment Gateways und Trading-Plattformen.",
+      "bullets": [
+        "Payment Gateways",
+        "Trading-Plattformen",
+        "Betrugserkennung"
+      ]
+    },
+    "education": {
+      "name": "Bildung",
+      "badge": "Engagierend",
+      "desc": "Interaktive LMS und EdTech-Plattformen für Remote-Learning.",
+      "bullets": [
+        "Learning Management",
+        "Virtuelle Klassenzimmer",
+        "Studentenportale"
+      ]
+    },
+    "realEstate": {
+      "name": "Immobilien",
+      "badge": "Datengetrieben",
+      "desc": "Immobilienverwaltungstools für moderne Maklerbüros.",
+      "bullets": [
+        "Immobilienlistings",
+        "Virtuelle Touren",
+        "CRM für Makler"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Besprechen Sie Ihre Branchenanforderungen.",
+    "subtitle": "Jede Branche ist anders. Finden wir die richtige Lösung für Ihre."
+  }
+}

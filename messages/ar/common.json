@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "services": "الخدمات",
+    "work": "الأعمال",
+    "contact": "تواصل معنا",
+    "bookCall": "احجز مكالمة",
+    "getStarted": "ابدأ الآن",
+    "bookFreeCall": "احجز مكالمة مجانية",
+    "sendMessage": "أرسل رسالة",
+    "brandShort": "Cloud Tech"
+  },
+  "footer": {
+    "brandName": "360 cloud tech",
+    "tagline": "تصميم تقنيات رقمية أولاً للنمو المستقبلي — عبر البرمجيات والسحابة والتسويق.",
+    "company": "الشركة",
+    "services": "الخدمات",
+    "resources": "الموارد",
+    "links": {
+      "about": "من نحن",
+      "contact": "تواصل معنا",
+      "consulting": "الاستشارات",
+      "technology": "التكنولوجيا",
+      "industries": "القطاعات",
+      "work": "الأعمال"
+    },
+    "scheduleTitle": "هل أنت مستعد لتحويل عملك؟",
+    "scheduleDesc": "لنناقش مشروعك ونستكشف كيف يمكننا مساعدتك في تحقيق أهدافك.",
+    "scheduleMeeting": "جدولة اجتماع",
+    "sendMessage": "إرسال رسالة",
+    "copyright": "© {year} 360CloudTech. جميع الحقوق محفوظة.",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "cookies": "سياسة ملفات تعريف الارتباط"
+  },
+  "brand": {
+    "full": "360GrowthCloudTech",
+    "short": "360 cloud tech",
+    "logoAlt": "360 cloud tech",
+    "tagline": "استوديو الهندسة الرقمية والنمو"
+  },
+  "ctas": {
+    "bookFreeStrategyCall": "احجز مكالمة استراتيجية مجانية",
+    "viewServices": "عرض الخدمات",
+    "explore": "استكشف",
+    "getInTouch": "تواصل معنا",
+    "sendMessage": "أرسل رسالة",
+    "startConversation": "ابدأ محادثة",
+    "contactUs": "اتصل بنا",
+    "letsTalk": "لنتحدث",
+    "bookFreeCall": "احجز مكالمة مجانية",
+    "requestConsultation": "طلب استشارة",
+    "confirmMeeting": "تأكيد الاجتماع",
+    "close": "إغلاق",
+    "seeServicesDetail": "عرض الخدمات بالتفصيل",
+    "recentProjects": "المشاريع الأخيرة",
+    "viewServicesLink": "عرض الخدمات",
+    "viewCaseStudies": "عرض دراسات الحالة"
+  },
+  "forms": {
+    "sendMessageTitle": "أرسل لنا رسالة",
+    "fullName": "الاسم الكامل",
+    "fullNameRequired": "الاسم الكامل *",
+    "emailAddress": "عنوان البريد الإلكتروني",
+    "emailAddressRequired": "عنوان البريد الإلكتروني *",
+    "phoneNumber": "رقم الهاتف",
+    "companyName": "اسم الشركة",
+    "serviceOfInterest": "الخدمة المطلوبة",
+    "serviceOfInterestRequired": "الخدمة المطلوبة *",
+    "projectDetails": "تفاصيل المشروع",
+    "message": "الرسالة",
+    "preferredDate": "التاريخ المفضل",
+    "preferredTime": "الوقت المفضل",
+    "placeholders": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "company": "Acme Inc",
+      "selectService": "اختر خدمة",
+      "selectTime": "اختر وقتاً",
+      "projectDetails": "أخبرنا عن مشروعك...",
+      "scheduleMessage": "هل هناك تفاصيل محددة تريد مناقشتها؟"
+    },
+    "services": {
+      "software": "برمجيات مخصصة",
+      "crm": "أدوات CRM",
+      "marketing": "التسويق الرقمي",
+      "cloud": "البنية التحتية السحابية",
+      "ecommerce": "التجارة الإلكترونية",
+      "other": "أخرى",
+      "otherFullSuite": "أخرى / حزمة كاملة"
+    },
+    "timeSlots": {
+      "morning": "صباحاً (9 ص–12 م)",
+      "afternoon": "ظهراً (12–4 م)",
+      "evening": "مساءً (4–7 م)"
+    },
+    "validation": {
+      "nameRequired": "الاسم مطلوب",
+      "invalidEmail": "عنوان بريد إلكتروني غير صالح",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "selectService": "يرجى اختيار خدمة",
+      "messageMinLength": "يجب أن تتكون الرسالة من 10 أحرف على الأقل"
+    },
+    "sending": "جارٍ الإرسال...",
+    "submitting": "جارٍ الإرسال..."
+  },
+  "scheduleMeeting": {
+    "title": "جدولة اجتماع",
+    "description": "املأ التفاصيل أدناه لجدولة موعد لمناقشة مشروعك.",
+    "successTitle": "تم استلام الطلب!",
+    "successDescription": "شكراً لتواصلك معنا. لقد استلمنا طلبك وسنعود إليك قريباً — عادةً خلال ساعتين عمل. تم إرسال بريد تأكيد إلى صندوق الوارد الخاص بك.",
+    "genericError": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+  },
+  "toasts": {
+    "messageSentTitle": "تم إرسال الرسالة!",
+    "messageSentDescription": "شكراً لتواصلك معنا. سنعود إليك قريباً — عادةً خلال ساعتين عمل.",
+    "messageFailedTitle": "تعذّر إرسال الرسالة"
+  },
+  "languages": {
+    "switchLanguage": "تغيير اللغة",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ar": "العربية"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "followUs": "تابعنا"
+  },
+  "heroAnnotation": "احجز مكالمة مجانية الآن",
+  "whatsapp": {
+    "chatLabel": "تحدث معنا على واتساب"
+  },
+  "notFound": {
+    "title": "404 — الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "backHome": "العودة إلى الرئيسية"
+  }
+}

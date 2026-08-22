@@ -441,6 +441,43 @@ html.lenis body {
   backdrop-filter: blur(12px);
   aspect-ratio: 1;
   justify-content: center;
+  width: 44%;
+  max-width: 210px;
+  padding: 1.25rem 1rem;
+}
+
+@media (max-width: 639px) {
+  .service-ring-slot {
+    --ring-radius: min(26vw, 88px);
+  }
+  .service-ring-node {
+    width: 3rem;
+    margin-left: -1.5rem;
+    margin-top: -1rem;
+    gap: 0.2rem;
+  }
+  .service-ring-bubble {
+    width: 2rem;
+    height: 2rem;
+  }
+  .service-ring-bubble svg {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+  .service-ring-label {
+    max-width: 3.25rem;
+    font-size: 0.5rem;
+    line-height: 1.15;
+  }
+  .service-ring-hub {
+    width: 6.25rem;
+    height: 6.25rem;
+    max-width: 6.25rem;
+    min-width: 6.25rem;
+    min-height: 6.25rem;
+    padding: 0.45rem;
+    overflow: hidden;
+  }
 }
 
 .service-ring-spinner {
@@ -468,6 +505,12 @@ html.lenis body {
 @media (min-width: 1024px) {
   .service-ring-slot {
     --ring-radius: 225px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .service-ring-slot {
+    --ring-radius: min(34vw, 175px);
   }
 }
 

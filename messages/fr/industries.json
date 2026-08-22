@@ -1,0 +1,73 @@
+{
+  "page": {
+    "label": "Secteurs",
+    "title": "Qui nous servons.",
+    "subtitle": "Expertise approfondie dans des secteurs complexes, réglementés et à forte croissance."
+  },
+  "items": {
+    "healthcare": {
+      "name": "Santé",
+      "badge": "Conforme HIPAA",
+      "desc": "Portails sécurisés et conformes et plateformes de télémédecine.",
+      "bullets": [
+        "Portails patients",
+        "Apps télésanté",
+        "Intégrations DSE"
+      ]
+    },
+    "travel": {
+      "name": "Voyage et tourisme",
+      "badge": "Haute disponibilité",
+      "desc": "Moteurs de réservation robustes pour les pics de trafic saisonniers.",
+      "bullets": [
+        "Moteurs de réservation",
+        "APIs tarification dynamique",
+        "Planificateurs d'itinéraires"
+      ]
+    },
+    "retail": {
+      "name": "Retail",
+      "badge": "Scalable",
+      "desc": "Expériences e-commerce omnicanales qui stimulent les conversions.",
+      "bullets": [
+        "Plateformes e-commerce",
+        "Gestion des stocks",
+        "Intégration POS"
+      ]
+    },
+    "finance": {
+      "name": "Finance",
+      "badge": "Sécurité bancaire",
+      "desc": "Applications fintech sécurisées, passerelles de paiement et plateformes de trading.",
+      "bullets": [
+        "Passerelles de paiement",
+        "Plateformes de trading",
+        "Détection de fraude"
+      ]
+    },
+    "education": {
+      "name": "Éducation",
+      "badge": "Engageant",
+      "desc": "LMS interactifs et plateformes EdTech pour l'apprentissage à distance.",
+      "bullets": [
+        "Gestion de l'apprentissage",
+        "Salles de classe virtuelles",
+        "Portails étudiants"
+      ]
+    },
+    "realEstate": {
+      "name": "Immobilier",
+      "badge": "Data-driven",
+      "desc": "Outils de gestion immobilière pour les agences modernes.",
+      "bullets": [
+        "Annonces immobilières",
+        "Visites virtuelles",
+        "CRM pour courtiers"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Discutez de vos besoins sectoriels.",
+    "subtitle": "Chaque secteur est différent. Trouvons la bonne solution pour le vôtre."
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "shared": {
+    "label": "Legal",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "questionsContact": "Fragen zu diesem Dokument? Kontaktieren Sie uns unter {email} oder {phone}."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "subtitle": "Wie {company} Ihre personenbezogenen Daten erhebt, nutzt und schützt.",
+    "lastUpdated": "2026-08-22",
+    "sections": {
+      "introduction": {
+        "title": "1. Einleitung",
+        "paragraphs": [
+          "{company} („wir\") betreibt {website} und erbringt Dienstleistungen in den Bereichen Softwareentwicklung, Cloud, CRM und digitales Marketing. Diese Datenschutzerklärung erläutert, wie wir Informationen erheben, nutzen, offenlegen und schützen, wenn Sie unsere Website besuchen, eine Kontakt- oder Meeting-Anfrage senden oder anderweitig mit uns interagieren.",
+          "Durch die Nutzung unserer Website oder die Übermittlung Ihrer Informationen stimmen Sie den in dieser Richtlinie beschriebenen Praktiken zu. Wenn Sie nicht einverstanden sind, nutzen Sie bitte unsere Dienste oder Website nicht."
+        ]
+      },
+      "informationWeCollect": {
+        "title": "2. Welche Informationen wir erheben",
+        "paragraphs": [
+          "Wir können folgende Kategorien von Informationen erheben:",
+          "Wir erheben nicht absichtlich sensible personenbezogene Daten über die öffentlichen Formulare unserer Website."
+        ],
+        "list": [
+          "Kontakt- und Identitätsinformationen — Name, E-Mail-Adresse, Telefonnummer, Firmenname und jede Nachricht, die Sie über unsere Formulare übermitteln.",
+          "Meeting-Präferenzen — bevorzugtes Datum, Uhrzeit und Serviceinteressen bei der Terminplanung.",
+          "Technische und Nutzungsdaten — IP-Adresse, Browsertyp, Geräteinformationen, besuchte Seiten und ungefährer Standort aus Ihrer IP-Adresse.",
+          "Kommunikation — Aufzeichnungen der Korrespondenz, wenn Sie uns E-Mails senden oder wir auf Ihre Anfrage antworten."
+        ]
+      },
+      "howWeUse": {
+        "title": "3. Wie wir Ihre Informationen nutzen",
+        "paragraphs": [
+          "Wir nutzen erhobene Informationen, um:",
+          "Wir verkaufen Ihre personenbezogenen Daten nicht an Dritte für deren Marketingzwecke."
+        ],
+        "list": [
+          "Auf Anfragen zu antworten und angeforderte Informationen über unsere Dienste bereitzustellen",
+          "Beratungen oder Projektgespräche zu planen und zu verwalten",
+          "Servicebezogene Mitteilungen zu senden, einschließlich Bestätigungs-E-Mails",
+          "Unsere Website, Dienste und Kundenerfahrung zu verbessern",
+          "Gesetzliche Verpflichtungen zu erfüllen und unsere Rechte zu schützen",
+          "Betrug, Missbrauch oder Sicherheitsprobleme zu erkennen, zu verhindern und zu beheben"
+        ]
+      },
+      "legalBases": {
+        "title": "4. Rechtsgrundlagen der Verarbeitung",
+        "paragraphs": [
+          "Soweit nach Datenschutzgesetzen (einschließlich DSGVO) anwendbar, verarbeiten wir personenbezogene Daten auf Grundlage von:"
+        ],
+        "list": [
+          "Einwilligung — wenn Sie ein Formular absenden oder eine Kontaktaufnahme wünschen",
+          "Berechtigte Interessen — zum Betrieb und zur Verbesserung unseres Geschäfts, unserer Website und Kundenbeziehungen",
+          "Vertragliche Erforderlichkeit — wenn die Verarbeitung erforderlich ist, um Schritte vor Abschluss einer Dienstleistungsvereinbarung zu unternehmen",
+          "Rechtliche Verpflichtung — wenn wir geltendem Recht nachkommen müssen"
+        ]
+      },
+      "howWeShare": {
+        "title": "5. Wie wir Informationen weitergeben",
+        "paragraphs": [
+          "Wir können Informationen weitergeben an:",
+          "Wir verlangen von Dienstleistern, personenbezogene Daten nur für autorisierte Zwecke zu verarbeiten."
+        ],
+        "list": [
+          "Dienstleister — wie E-Mail-Hosting, Cloud-Infrastruktur, Analytics und Formularverarbeitungstools",
+          "Professionelle Berater — Anwälte, Buchhalter oder Versicherer, wenn dies angemessen erforderlich ist",
+          "Rechtliche und Sicherheitszwecke — wenn gesetzlich vorgeschrieben oder zum Schutz der Rechte, des Eigentums oder der Sicherheit von {company}, unseren Kunden oder anderen",
+          "Unternehmensübertragungen — im Zusammenhang mit Fusion, Übernahme oder Vermögensverkauf"
+        ]
+      },
+      "dataRetention": {
+        "title": "6. Datenspeicherung",
+        "paragraphs": [
+          "Wir speichern personenbezogene Informationen so lange, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke erforderlich ist. Wenn Daten nicht mehr benötigt werden, löschen oder anonymisieren wir sie mit angemessenen Maßnahmen."
+        ]
+      },
+      "security": {
+        "title": "7. Sicherheit",
+        "paragraphs": [
+          "Wir setzen administrative, technische und organisatorische Maßnahmen ein, die personenbezogene Informationen schützen sollen. Keine Übertragungsmethode über das Internet ist jedoch vollständig sicher."
+        ]
+      },
+      "yourRights": {
+        "title": "8. Ihre Rechte",
+        "paragraphs": [
+          "Je nach Ihrem Standort haben Sie möglicherweise Rechte auf Zugang, Berichtigung, Löschung, Einschränkung oder Widerspruch gegen bestimmte Verarbeitungen Ihrer personenbezogenen Informationen.",
+          "Um diese Rechte auszuüben, kontaktieren Sie uns unter {email} oder {phone}."
+        ]
+      },
+      "internationalTransfers": {
+        "title": "9. Internationale Übermittlungen",
+        "paragraphs": [
+          "Wenn Sie von außerhalb des Landes, in dem wir tätig sind, auf unsere Website zugreifen, können Ihre Informationen in Rechtsordnungen übermittelt und verarbeitet werden, die andere Datenschutzgesetze haben."
+        ]
+      },
+      "thirdPartyLinks": {
+        "title": "10. Links zu Drittanbietern",
+        "paragraphs": [
+          "Unsere Website kann Links zu Websites Dritter enthalten. Wir sind nicht verantwortlich für die Datenschutzpraktiken oder Inhalte dieser Websites."
+        ]
+      },
+      "childrensPrivacy": {
+        "title": "11. Datenschutz für Kinder",
+        "paragraphs": [
+          "Unsere Website und Dienste richten sich nicht an Personen unter 16 Jahren. Wir erheben wissentlich keine personenbezogenen Informationen von Kindern."
+        ]
+      },
+      "changes": {
+        "title": "12. Änderungen dieser Richtlinie",
+        "paragraphs": [
+          "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Die fortgesetzte Nutzung unserer Website nach Änderungen gilt als Annahme der aktualisierten Richtlinie."
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "subtitle": "Bedingungen für die Nutzung der Website und Dienste von {company}.",
+    "lastUpdated": "2026-08-22",
+    "sections": {
+      "agreement": {
+        "title": "1. Zustimmung zu den Bedingungen",
+        "paragraphs": [
+          "Diese Nutzungsbedingungen („Bedingungen\") regeln Ihren Zugang zu und Ihre Nutzung der Website unter {website} und der damit verbundenen Online-Dienste von {company} („Unternehmen\", „wir\"). Durch den Zugriff auf oder die Nutzung unserer Website erklären Sie sich mit diesen Bedingungen einverstanden.",
+          "Wenn Sie unsere Website im Namen einer Organisation nutzen, bestätigen Sie, dass Sie befugt sind, diese Organisation an diese Bedingungen zu binden."
+        ]
+      },
+      "ourServices": {
+        "title": "2. Unsere Dienste",
+        "paragraphs": [
+          "{company} erbringt Technologie- und Digitaldienstleistungen einschließlich, aber nicht beschränkt auf, individuelle Softwareentwicklung, Cloud-Infrastruktur, CRM-Lösungen, digitales Marketing und verwandte Beratung. Spezifische Liefergegenstände, Zeitpläne, Gebühren und Verpflichtungen werden in separaten schriftlichen Vereinbarungen festgelegt — nicht allein durch Informationen auf dieser Website."
+        ]
+      },
+      "useOfWebsite": {
+        "title": "3. Nutzung der Website",
+        "paragraphs": [
+          "Sie stimmen zu, unsere Website nur für rechtmäßige Zwecke zu nutzen. Sie dürfen nicht:",
+          "Wir können den Zugang zur Website aussetzen oder einschränken, wenn wir vernünftigerweise annehmen, dass Sie diese Bedingungen verletzt haben."
+        ],
+        "list": [
+          "Geltende Gesetze oder Vorschriften verletzen",
+          "Versuchen, unbefugten Zugang zu unseren Systemen, Konten oder Daten zu erlangen",
+          "Den Betrieb oder die Sicherheit der Website stören oder beeinträchtigen",
+          "Falsche, irreführende oder betrügerische Informationen über unsere Formulare übermitteln",
+          "Automatisierte Mittel zum Scrapen, Sammeln oder Überlasten der Website ohne Genehmigung nutzen",
+          "Malware, Spam oder schädlichen Code übertragen"
+        ]
+      },
+      "intellectualProperty": {
+        "title": "4. Geistiges Eigentum",
+        "paragraphs": [
+          "Die Website und ihre Inhalte gehören {company} oder unseren Lizenzgebern und sind durch Gesetze zum geistigen Eigentum geschützt. Sie dürfen unsere Inhalte ohne vorherige schriftliche Zustimmung nicht kopieren, ändern, verbreiten, verkaufen oder abgeleitete Werke erstellen, außer für begrenzte persönliche, nicht-kommerzielle Ansicht.",
+          "Kundeneigene Materialien und unter einer unterzeichneten Projektvereinbarung erstellte Liefergegenstände unterliegen den geistigen Eigentumsbedingungen dieser Vereinbarung."
+        ]
+      },
+      "clientEngagements": {
+        "title": "5. Kundenaufträge",
+        "paragraphs": [
+          "Das Absenden eines Kontaktformulars, die Terminplanung oder die Anfrage von Informationen begründet keinen verbindlichen Vertrag für Dienstleistungen. Ein formelles Engagement beginnt erst, wenn beide Parteien eine schriftliche Vereinbarung unterzeichnen.",
+          "Schätzungen, Zeitpläne oder Beschreibungen auf dieser Website dienen nur der allgemeinen Information und sind keine Garantien, sofern nicht ausdrücklich schriftlich bestätigt."
+        ]
+      },
+      "feesAndPayment": {
+        "title": "6. Gebühren und Zahlung",
+        "paragraphs": [
+          "Preise für professionelle Dienstleistungen werden in Angeboten oder Verträgen angegeben. Sofern nicht schriftlich anders angegeben, sind Gebühren ohne Steuern, Drittlizenzen und erstattungsfähige Ausgaben."
+        ]
+      },
+      "confidentiality": {
+        "title": "7. Vertraulichkeit",
+        "paragraphs": [
+          "Wir behandeln nicht-öffentliche Geschäftsinformationen, die während Vertriebsgesprächen oder Projekten geteilt werden, als vertraulich, vorbehaltlich unserer gegenseitigen Verpflichtungen in unterzeichneten Geheimhaltungs- oder Dienstleistungsvereinbarungen."
+        ]
+      },
+      "disclaimer": {
+        "title": "8. Haftungsausschluss",
+        "paragraphs": [
+          "DIE WEBSITE UND ALLE DURCH SIE BEREITGESTELLTEN INFORMATIONEN WERDEN „WIE BESEHEN\" UND „NACH VERFÜGBARKEIT\" ANGEBOTEN. SOWEIT GESETZLICH ZULÄSSIG, LEHNT {company} ALLE GARANTIEN AB, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIESSLICH MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG.",
+          "Wir garantieren nicht, dass die Website ununterbrochen, fehlerfrei oder frei von schädlichen Komponenten ist oder dass Informationen auf der Website vollständig oder aktuell sind."
+        ]
+      },
+      "limitationOfLiability": {
+        "title": "9. Haftungsbeschränkung",
+        "paragraphs": [
+          "SOWEIT GESETZLICH ZULÄSSIG, HAFTEN {company} UND SEINE DIREKTOREN, MITARBEITER UND VERBUNDENEN UNTERNEHMEN NICHT FÜR INDIREKTE, ZUFÄLLIGE, BESONDERE, FOLGE- ODER STRAFSCHÄDEN ODER FÜR ENTGANGENEN GEWINN, DATEN, GOODWILL ODER GESCHÄFTSCHANCEN, DIE AUS IHRER NUTZUNG DER WEBSITE ENTSTEHEN.",
+          "UNSERE GESAMTHAFTUNG FÜR ANSPRÜCHE IM ZUSAMMENHANG MIT DER WEBSITE ODER DIESEN BEDINGUNGEN ÜBERSTEIGT NICHT EINHUNDERT US-DOLLAR (100 USD), ES SEI DENN, DIE HAFTUNG KANN NACH GELTENDEM RECHT NICHT BESCHRÄNKT WERDEN.",
+          "Nichts in diesen Bedingungen beschränkt die Haftung für Betrug, grobe Fahrlässigkeit oder vorsätzliches Fehlverhalten, wo eine solche Beschränkung gesetzlich verboten ist."
+        ]
+      },
+      "indemnification": {
+        "title": "10. Freistellung",
+        "paragraphs": [
+          "Sie erklären sich einverstanden, {company} von Ansprüchen, Schäden, Verlusten und Kosten freizustellen, die aus Ihrem Missbrauch der Website, der Verletzung dieser Bedingungen oder der Verletzung von Rechten Dritter entstehen."
+        ]
+      },
+      "termination": {
+        "title": "11. Kündigung",
+        "paragraphs": [
+          "Wir können Ihren Zugang zur Website jederzeit mit oder ohne Vorankündigung beenden oder einschränken, wenn wir glauben, dass Ihr Verhalten diese Bedingungen verletzt oder anderen Nutzern, uns oder Dritten schadet."
+        ]
+      },
+      "governingLaw": {
+        "title": "12. Anwendbares Recht",
+        "paragraphs": [
+          "Diese Bedingungen unterliegen den Gesetzen des Bundesstaates Kalifornien, Vereinigte Staaten, ohne Berücksichtigung kollisionsrechtlicher Grundsätze. Streitigkeiten werden vor staatlichen oder bundesstaatlichen Gerichten im County San Francisco, Kalifornien, beigelegt."
+        ]
+      },
+      "changes": {
+        "title": "13. Änderungen dieser Bedingungen",
+        "paragraphs": [
+          "Wir können diese Bedingungen jederzeit durch Veröffentlichung einer aktualisierten Version auf dieser Seite überarbeiten. Ihre fortgesetzte Nutzung der Website nach Inkrafttreten der Änderungen gilt als Annahme der überarbeiteten Bedingungen."
+        ]
+      },
+      "contact": {
+        "title": "14. Kontakt",
+        "paragraphs": [
+          "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns unter {email} oder {phone}."
+        ]
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookie-Richtlinie",
+    "subtitle": "Wie {company} Cookies und ähnliche Technologien auf {website} verwendet.",
+    "lastUpdated": "2026-08-22",
+    "privacyPolicyLink": "Datenschutzerklärung",
+    "sections": {
+      "whatAreCookies": {
+        "title": "1. Was sind Cookies?",
+        "paragraphs": [
+          "Cookies sind kleine Textdateien, die auf Ihrem Gerät platziert werden, wenn Sie eine Website besuchen. Ähnliche Technologien umfassen Local Storage, Session Storage und Pixel."
+        ]
+      },
+      "howWeUse": {
+        "title": "2. Wie wir Cookies verwenden",
+        "paragraphs": [
+          "Wir verwenden Cookies und ähnliche Technologien, um:",
+          "Weitere Informationen zum Umgang mit personenbezogenen Daten finden Sie in unserer Datenschutzerklärung."
+        ],
+        "list": [
+          "Kernfunktionalität und Sicherheit der Website zu ermöglichen",
+          "Präferenzen zu speichern und die Benutzererfahrung zu verbessern",
+          "Traffic-Muster zu verstehen und die Website-Performance zu messen",
+          "Formulare und Kommunikationsfunktionen zu unterstützen"
+        ]
+      },
+      "types": {
+        "title": "3. Arten von Cookies, die wir verwenden",
+        "subsections": [
+          {
+            "heading": "Unbedingt erforderliche Cookies",
+            "paragraphs": [
+              "Erforderlich für den Betrieb der Website. Da die Website sie zum Funktionieren benötigt, können sie nicht über unsere Website-Steuerungen deaktiviert werden."
+            ]
+          },
+          {
+            "heading": "Funktionale Cookies",
+            "paragraphs": [
+              "Ermöglichen der Website, von Ihnen getroffene Entscheidungen zu speichern und erweiterte Funktionen bereitzustellen."
+            ]
+          },
+          {
+            "heading": "Analyse-Cookies",
+            "paragraphs": [
+              "Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, um Inhalte und Performance zu verbessern."
+            ]
+          },
+          {
+            "heading": "Marketing-Cookies (falls verwendet)",
+            "paragraphs": [
+              "Können zur Messung der Kampagneneffektivität oder zur Bereitstellung relevanter Inhalte auf anderen Plattformen verwendet werden."
+            ]
+          }
+        ]
+      },
+      "thirdParty": {
+        "title": "4. Cookies von Drittanbietern",
+        "paragraphs": [
+          "Einige Cookies werden von Drittanbieterdiensten platziert, die auf unseren Seiten erscheinen, wie Analytics-Anbieter, eingebettete Inhalte oder Kommunikationstools.",
+          "Wir empfehlen Ihnen, die Datenschutz- und Cookie-Richtlinien aller von uns genutzten Drittanbieterdienste zu prüfen."
+        ]
+      },
+      "managing": {
+        "title": "5. Cookies verwalten",
+        "paragraphs": [
+          "Sie können Cookies auf verschiedene Weise steuern:",
+          "Wenn Sie Cookies deaktivieren, funktionieren möglicherweise einige Teile unserer Website nicht korrekt."
+        ],
+        "list": [
+          "Browsereinstellungen — Die meisten Browser ermöglichen das Blockieren oder Löschen von Cookies.",
+          "Geräteeinstellungen — Mobile Geräte können zusätzliche Datenschutzeinstellungen bieten.",
+          "Opt-out-Tools — Einige Analytics-Anbieter bieten branchenweite Opt-out-Mechanismen für interessenbasierte Werbung."
+        ]
+      },
+      "retention": {
+        "title": "6. Cookie-Speicherung",
+        "paragraphs": [
+          "Session-Cookies laufen ab, wenn Sie Ihren Browser schließen. Persistente Cookies bleiben für einen festgelegten Zeitraum oder bis zur Löschung auf Ihrem Gerät."
+        ]
+      },
+      "updates": {
+        "title": "7. Aktualisierungen dieser Richtlinie",
+        "paragraphs": [
+          "Wir können diese Cookie-Richtlinie aktualisieren, um Änderungen in Technologie, Regulierung oder unseren Praktiken widerzuspiegeln."
+        ]
+      },
+      "contact": {
+        "title": "8. Kontakt",
+        "paragraphs": [
+          "Bei Fragen zu unserer Verwendung von Cookies kontaktieren Sie uns unter {email} oder {phone}."
+        ]
+      }
+    }
+  }
+}

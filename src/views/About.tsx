@@ -1,10 +1,11 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
-import { serviceDisciplines } from "@/lib/services-data";
+import { DISCIPLINE_KEYS } from "@/lib/services-data";
 
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
@@ -35,8 +36,12 @@ function AboutSection({
 }
 
 export default function About() {
+  const t = useTranslations("about");
+  const tCta = useTranslations("common.ctas");
+  const tDisciplines = useTranslations("services.disciplines");
   const { setOpen } = useScheduleMeeting();
-  const disciplines = serviceDisciplines.map((d) => d.title).join(", ");
+  const disciplines = DISCIPLINE_KEYS.map((key) => tDisciplines(`${key}.title`)).join(", ");
+  const howWeWorkParagraphs = t.raw("sections.howWeWork.paragraphs") as string[];
 
   return (
     <div data-testid="about-page" className="bg-background">
@@ -49,7 +54,7 @@ export default function About() {
             transition={{ duration: 0.45 }}
             className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-8"
           >
-            About
+            {t("page.label")}
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
@@ -57,7 +62,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.06, ease: [0.16, 1, 0.3, 1] }}
             className="display-heading text-4xl md:text-5xl lg:text-[3.25rem] text-foreground leading-[1.12] max-w-4xl mb-8"
           >
-            A team that designs and engineers what it ships.
+            {t("page.title")}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -65,9 +70,7 @@ export default function About() {
             transition={{ duration: 0.55, delay: 0.12 }}
             className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-3xl"
           >
-            360GrowthCloudTech is a digital engineering studio focused on building modern web
-            products, cloud systems, and growth-ready platforms — from first wireframe through
-            production deployment.
+            {t("page.subtitle")}
           </motion.p>
         </div>
       </section>
@@ -75,53 +78,37 @@ export default function About() {
       {/* Content sections */}
       <section className="pb-8 md:pb-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          <AboutSection title="How we work">
-            <p>
-              We eliminate the handoff between design and engineering. Product strategy, UX, and
-              development sit on one team — so decisions stay connected from day one and nothing
-              gets lost in translation.
-            </p>
-            <p>
-              We work systems-first: reusable components, clear architecture, and maintainable code
-              your team can extend long after launch. Every build is structured for scale, not just
-              for demo day.
-            </p>
-            <p>
-              Engagements run in focused 2–8 week sprints with weekly demos. You see real progress
-              early, give feedback often, and ship with confidence — not surprises at the finish line.
-            </p>
+          <AboutSection title={t("sections.howWeWork.title")}>
+            {howWeWorkParagraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
           </AboutSection>
 
-          <AboutSection title="What we ship">
-            <p>
-              End-to-end delivery across {disciplines}. One partner from roadmap to live product —
-              without juggling agencies, freelancers, and internal handoffs.
-            </p>
+          <AboutSection title={t("sections.whatWeShip.title")}>
+            <p>{t("sections.whatWeShip.paragraph", { disciplines })}</p>
             <div className="flex flex-wrap gap-3 pt-2">
               <Link
                 href="/services"
                 className="inline-flex items-center justify-center rounded-full bg-foreground px-5 py-2.5 text-sm font-bold text-white hover:bg-foreground/90 transition-colors"
               >
-                See services in detail
+                {tCta("seeServicesDetail")}
               </Link>
               <Link
                 href="/case-studies"
                 className="inline-flex items-center gap-1.5 rounded-full border border-border bg-white/80 px-5 py-2.5 text-sm font-bold text-foreground hover:border-primary/30 hover:text-primary transition-colors"
               >
-                Recent projects <ArrowRight size={15} />
+                {tCta("recentProjects")} <ArrowRight size={15} />
               </Link>
             </div>
           </AboutSection>
 
-          <AboutSection title="Team">
-            <p>
-              We&apos;re a distributed team of product strategists, designers, and engineers — building
-              for founders and growing businesses across India and worldwide. Remote-first, async-friendly,
-              and focused on outcomes over hours logged.
-            </p>
+          <AboutSection title={t("sections.team.title")}>
+            {(t.raw("sections.team.paragraphs") as string[]).map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
             <div className="pt-2">
-              <p className="font-bold text-foreground text-base mb-0.5">360GrowthCloudTech</p>
-              <p className="text-sm text-muted-foreground">Digital engineering &amp; growth studio</p>
+              <p className="font-bold text-foreground text-base mb-0.5">{t("sections.team.companyName")}</p>
+              <p className="text-sm text-muted-foreground">{t("sections.team.companyTagline")}</p>
             </div>
           </AboutSection>
         </div>
@@ -135,10 +122,9 @@ export default function About() {
             className="rounded-3xl px-8 py-12 md:px-12 md:py-14"
             style={{ backgroundColor: "#1a1512" }}
           >
-            <h2 className="display-heading text-3xl md:text-4xl text-white mb-4">Working with us.</h2>
+            <h2 className="display-heading text-3xl md:text-4xl text-white mb-4">{t("cta.title")}</h2>
             <p className="text-base leading-relaxed max-w-2xl mb-8" style={{ color: "rgba(255,255,255,0.55)" }}>
-              Start with a free 30-minute discovery call. We&apos;ll learn about your product, timeline,
-              and goals — then outline a clear path forward. No pitch deck, no pressure.
+              {t("cta.subtitle")}
             </p>
             <div className="flex flex-wrap gap-3">
               <button
@@ -147,13 +133,13 @@ export default function About() {
                 className="btn-primary rounded-full"
                 data-testid="about-cta-conversation"
               >
-                Start a conversation
+                {tCta("startConversation")}
               </button>
               <Link
                 href="/services"
                 className="inline-flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-bold text-white/80 hover:text-white transition-colors"
               >
-                View services <ArrowRight size={15} />
+                {tCta("viewServicesLink")} <ArrowRight size={15} />
               </Link>
             </div>
           </motion.div>

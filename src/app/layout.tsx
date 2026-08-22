@@ -1,9 +1,7 @@
+import { getLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Providers } from "./providers";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-import { WhatsAppFloat } from "@/components/WhatsAppFloat";
-import { ScrollProgress } from "@/components/motion";
+import { type Locale } from "@/i18n/routing";
 import "../index.css";
 
 export const metadata: Metadata = {
@@ -27,19 +25,14 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = (await getLocale()) as Locale;
+  const dir = locale === "ar" ? "rtl" : "ltr";
+
   return (
-    <html lang="en">
+    <html lang={locale} dir={dir} suppressHydrationWarning>
       <body className="grain-overlay">
-        <Providers>
-          <ScrollProgress />
-          <div className="flex flex-col min-h-[100dvh] relative bg-background">
-            <Navbar />
-            <main className="flex-1 relative z-10">{children}</main>
-            <Footer />
-            <WhatsAppFloat />
-          </div>
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

@@ -1,0 +1,33 @@
+{
+  "page": {
+    "label": "À propos",
+    "title": "Une équipe qui conçoit et développe ce qu'elle livre.",
+    "subtitle": "360GrowthCloudTech est un studio d'ingénierie digitale axé sur la construction de produits web modernes, de systèmes cloud et de plateformes prêtes pour la croissance — du premier wireframe au déploiement en production."
+  },
+  "sections": {
+    "howWeWork": {
+      "title": "Notre façon de travailler",
+      "paragraphs": [
+        "Nous éliminons le relais entre design et ingénierie. Stratégie produit, UX et développement sont sur une seule équipe — les décisions restent connectées dès le premier jour et rien ne se perd en traduction.",
+        "Nous travaillons systems-first : composants réutilisables, architecture claire et code maintenable que votre équipe peut faire évoluer longtemps après le lancement. Chaque build est structuré pour l'échelle, pas seulement pour le jour de la démo.",
+        "Les missions se déroulent en sprints ciblés de 2 à 8 semaines avec des démos hebdomadaires. Vous voyez des progrès réels tôt, donnez du feedback souvent et livrez en confiance — pas de surprises à l'arrivée."
+      ]
+    },
+    "whatWeShip": {
+      "title": "Ce que nous livrons",
+      "paragraph": "Livraison de bout en bout sur {disciplines}. Un partenaire de la feuille de route au produit live — sans jongler entre agences, freelances et relais internes."
+    },
+    "team": {
+      "title": "Équipe",
+      "paragraphs": [
+        "Nous sommes une équipe distribuée de stratèges produit, designers et ingénieurs — au service de fondateurs et d'entreprises en croissance en Inde et dans le monde. Remote-first, async-friendly, orientés résultats plutôt qu'heures comptabilisées."
+      ],
+      "companyName": "360GrowthCloudTech",
+      "companyTagline": "Studio d'ingénierie digitale et de croissance"
+    }
+  },
+  "cta": {
+    "title": "Travailler avec nous.",
+    "subtitle": "Commencez par un appel de découverte gratuit de 30 minutes. Nous apprendrons votre produit, calendrier et objectifs — puis tracerons une voie claire. Pas de pitch deck, pas de pression."
+  }
+}

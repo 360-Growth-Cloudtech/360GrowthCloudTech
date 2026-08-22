@@ -1,0 +1,33 @@
+{
+  "page": {
+    "label": "Nosotros",
+    "title": "Un equipo que diseña e ingenia lo que entrega.",
+    "subtitle": "360GrowthCloudTech es un estudio de ingeniería digital enfocado en construir productos web modernos, sistemas cloud y plataformas preparadas para el crecimiento — desde el primer wireframe hasta el despliegue en producción."
+  },
+  "sections": {
+    "howWeWork": {
+      "title": "Cómo trabajamos",
+      "paragraphs": [
+        "Eliminamos el traspaso entre diseño e ingeniería. Estrategia de producto, UX y desarrollo están en un solo equipo — para que las decisiones permanezcan conectadas desde el primer día y nada se pierda en la traducción.",
+        "Trabajamos con enfoque en sistemas: componentes reutilizables, arquitectura clara y código mantenible que su equipo puede extender mucho después del lanzamiento. Cada build está estructurado para escalar, no solo para el día de la demo.",
+        "Los proyectos se ejecutan en sprints enfocados de 2–8 semanas con demos semanales. Ve progreso real pronto, da feedback con frecuencia y entrega con confianza — no sorpresas en la meta."
+      ]
+    },
+    "whatWeShip": {
+      "title": "Qué entregamos",
+      "paragraph": "Entrega de extremo a extremo en {disciplines}. Un socio desde la hoja de ruta hasta el producto en vivo — sin hacer malabarismos con agencias, freelancers y traspasos internos."
+    },
+    "team": {
+      "title": "Equipo",
+      "paragraphs": [
+        "Somos un equipo distribuido de estrategas de producto, diseñadores e ingenieros — construyendo para fundadores y empresas en crecimiento en India y en todo el mundo. Remote-first, async-friendly y enfocados en resultados, no en horas registradas."
+      ],
+      "companyName": "360GrowthCloudTech",
+      "companyTagline": "Estudio de ingeniería digital y crecimiento"
+    }
+  },
+  "cta": {
+    "title": "Trabajar con nosotros.",
+    "subtitle": "Comience con una llamada de descubrimiento gratuita de 30 minutos. Conoceremos su producto, cronograma y objetivos — luego trazaremos un camino claro. Sin pitch deck, sin presión."
+  }
+}

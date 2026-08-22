@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "label": "✦ كود نظيف. بنية قابلة للتوسع. ✦",
+    "titleLine1": "نحن نبني المنتج.",
+    "titleLine2a": "وأنت تبني",
+    "titleLine2b": "الشركة.",
+    "subtitle": "نحن فريق الهندسة خلف المؤسسين الطموحين — نُسلّم تطبيقات الويب وأدوات SaaS والمنتجات الرقمية بتقنيات حديثة قابلة للصيانة.",
+    "trustItems": {
+      "noLockIn": "بدون عقود إلزام",
+      "soc2": "معتمد SOC 2",
+      "globalDelivery": "تسليم عالمي"
+    }
+  },
+  "trustedBy": {
+    "label": "موثوق من قادة الصناعة",
+    "companies": ["HealthTech Corp", "Peak Retail", "Global Travel", "FinServe Group", "MedCare Health", "CloudFirst"]
+  },
+  "whatWeDo": {
+    "label": "ما نفعله",
+    "title": "الهندسة الرقمية والتصميم تحت سقف واحد",
+    "subtitle": "سبع تخصصات، فريق واحد. من استراتيجية المنتج إلى بنية السحابة وصولاً إلى النشر في الإنتاج — بدون تسليم وسيط."
+  },
+  "expertise": {
+    "label": "خبرتنا",
+    "titleLine1": "كل ما تحتاجه",
+    "titleLine2": "للنجاح على الإنترنت.",
+    "subtitle": "من الفكرة إلى منتج حي ومتنامٍ — نغطي كل طبقة من المكدس التقني.",
+    "services": {
+      "customSoftware": {
+        "title": "برمجيات مخصصة",
+        "desc": "تطبيقات ويب وموبايل عالية الأداء مبنية للتوسع.",
+        "tag": "الهندسة"
+      },
+      "customCrm": {
+        "title": "أدوات CRM مخصصة",
+        "desc": "أنظمة CRM مصممة خصيصاً لتناسب سير عملك بالضبط.",
+        "tag": "المنتج"
+      },
+      "digitalMarketing": {
+        "title": "التسويق الرقمي",
+        "desc": "إعلانات مبنية على البيانات ونمو SEO شامل.",
+        "tag": "النمو"
+      },
+      "cloudInfrastructure": {
+        "title": "البنية التحتية السحابية",
+        "desc": "إعداد سحابي قابل للتوسع وخطوط CI/CD قوية.",
+        "tag": "DevOps"
+      },
+      "ecommerce": {
+        "title": "التجارة الإلكترونية",
+        "desc": "متاجر متكاملة مع تدفقات دفع سلسة.",
+        "tag": "التجارة"
+      }
+    }
+  },
+  "stats": {
+    "projectsDelivered": { "value": "250+", "label": "مشاريع مُسلّمة" },
+    "uptime": { "value": "99.9%", "label": "وقت التشغيل المحقق" },
+    "enterpriseClients": { "value": "50+", "label": "عملاء مؤسسيون" },
+    "yearsExperience": { "value": "10+", "label": "سنوات خبرة" }
+  },
+  "whyChooseUs": {
+    "label": "لماذا نحن",
+    "titleLine1": "شريك واحد لرحلتك",
+    "titleLine2": "بأكملها.",
+    "subtitle": "نصبح شريكك التقني على المدى الطويل — نساعدك على النمو والتكيف والريادة في مجالك بثقة.",
+    "features": {
+      "fastDelivery": {
+        "title": "تسليم سريع",
+        "desc": "سبرنتات أجايل مع عروض أسبوعية — شاهد التقدم من اليوم الأول."
+      },
+      "enterpriseSecurity": {
+        "title": "أمان مؤسسي",
+        "desc": "متوافق مع SOC 2 ومعايير HIPAA وGDPR وISO 27001."
+      },
+      "globalSupport": {
+        "title": "دعم عالمي",
+        "desc": "فريق دعم على مدار الساعة عبر مناطق زمنية متعددة."
+      },
+      "measurableResults": {
+        "title": "نتائج قابلة للقياس",
+        "desc": "مؤشرات أداء مبنية على البيانات وتقارير شفافة في كل خطوة."
+      }
+    },
+    "cards": {
+      "industries": { "value": "40+", "label": "قطاعات", "sub": "قطاعات نخدمها" },
+      "projects": { "value": "250+", "label": "مشاريع", "sub": "مُسلّمة" },
+      "uptime": { "value": "99.9%", "label": "وقت التشغيل", "sub": "SLA مضمون" },
+      "support": { "value": "24/7", "label": "الدعم", "sub": "متاح دائماً" }
+    }
+  },
+  "testimonials": {
+    "label": "شهادات العملاء",
+    "titleLine1": "موثوق من",
+    "titleLine2": "قادة الصناعة.",
+    "items": [
+      {
+        "quote": "360CloudTech أعادت بناء بوابة المرضى لدينا بالكامل. إنها أسرع وآمنة للغاية، ودعمهم متاح دائماً.",
+        "name": "Dr. Sarah Jenkins",
+        "role": "CTO, MedCare Health",
+        "initials": "SJ"
+      },
+      {
+        "quote": "وجود التطوير والتسويق تحت سقف واحد غيّر كل شيء. شهد متجرنا الإلكتروني زيادة بنسبة 40% في التحويلات.",
+        "name": "Marcus Chen",
+        "role": "Founder, Peak Retail",
+        "initials": "MC"
+      },
+      {
+        "quote": "إعداد البنية التحتية السحابية لديهم لا تشوبه شائبة. لم نواجه دقيقة واحدة من التوقف منذ ترحيل محرك الحجز.",
+        "name": "Elena Rodriguez",
+        "role": "VP Engineering, Global Travel",
+        "initials": "ER"
+      }
+    ]
+  },
+  "cta": {
+    "label": "هل أنت مستعد للبدء؟",
+    "titleLine1": "لنبني شيئاً",
+    "titleLine2": "رائعاً معاً.",
+    "subtitle": "استشارة مجانية، بدون التزام. مجرد محادثة ودية حول أهدافك."
+  }
+}

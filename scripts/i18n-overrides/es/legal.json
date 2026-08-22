@@ -1,0 +1,316 @@
+{
+  "shared": {
+    "label": "Legal",
+    "lastUpdated": "Última actualización:",
+    "questionsContact": "¿Preguntas sobre este documento? Contáctenos en {email} o {phone}."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "subtitle": "Cómo {company} recopila, utiliza y protege su información personal.",
+    "lastUpdated": "2026-08-22",
+    "sections": {
+      "introduction": {
+        "title": "1. Introducción",
+        "paragraphs": [
+          "{company} (\"nosotros\" o \"nuestro\") opera {website} y proporciona servicios de ingeniería de software, cloud, CRM y marketing digital. Esta Política de privacidad explica cómo recopilamos, utilizamos, divulgamos y protegemos la información cuando visita nuestro sitio web, envía una solicitud de contacto o reunión, o interactúa con nosotros de otro modo.",
+          "Al utilizar nuestro sitio web o enviar su información, acepta las prácticas descritas en esta política. Si no está de acuerdo, no utilice nuestros servicios ni nuestro sitio web."
+        ]
+      },
+      "informationWeCollect": {
+        "title": "2. Información que recopilamos",
+        "paragraphs": [
+          "Podemos recopilar las siguientes categorías de información:",
+          "No recopilamos intencionalmente datos personales sensibles (como información de salud, biométrica o de cuentas financieras) a través de los formularios públicos de nuestro sitio web."
+        ],
+        "list": [
+          "Información de contacto e identidad — nombre, dirección de correo electrónico, número de teléfono, nombre de la empresa y cualquier mensaje que proporcione a través de nuestros formularios.",
+          "Preferencias de reunión — fecha, hora e intereses de servicio preferidos cuando programa una consulta.",
+          "Datos técnicos y de uso — dirección IP, tipo de navegador, información del dispositivo, páginas visitadas y ubicación aproximada derivada de su dirección IP.",
+          "Comunicaciones — registros de correspondencia si nos envía un correo electrónico o respondemos a su consulta."
+        ]
+      },
+      "howWeUse": {
+        "title": "3. Cómo utilizamos su información",
+        "paragraphs": [
+          "Utilizamos la información recopilada para:",
+          "No vendemos su información personal a terceros para sus fines de marketing."
+        ],
+        "list": [
+          "Responder a consultas y proporcionar información solicitada sobre nuestros servicios",
+          "Programar y gestionar consultas o discusiones de proyectos",
+          "Enviar comunicaciones relacionadas con el servicio, incluidos correos de confirmación",
+          "Mejorar nuestro sitio web, servicios y experiencia del cliente",
+          "Cumplir con obligaciones legales y proteger nuestros derechos legales",
+          "Detectar, prevenir y abordar fraude, abuso o problemas de seguridad"
+        ]
+      },
+      "legalBases": {
+        "title": "4. Bases legales para el tratamiento",
+        "paragraphs": [
+          "Cuando corresponda según las leyes de protección de datos (incluido el RGPD), tratamos los datos personales con base en:"
+        ],
+        "list": [
+          "Consentimiento — cuando envía un formulario o solicita que nos pongamos en contacto con usted",
+          "Intereses legítimos — para operar y mejorar nuestro negocio, sitio web y relaciones con clientes, cuando esos intereses no prevalezcan sobre sus derechos",
+          "Necesidad contractual — cuando el tratamiento es necesario para dar pasos antes de celebrar un acuerdo de servicios con usted",
+          "Obligación legal — cuando debemos cumplir con la ley aplicable"
+        ]
+      },
+      "howWeShare": {
+        "title": "5. Cómo compartimos la información",
+        "paragraphs": [
+          "Podemos compartir información con:",
+          "Exigimos a los proveedores de servicios que traten los datos personales únicamente para fines autorizados."
+        ],
+        "list": [
+          "Proveedores de servicios — como alojamiento de correo, infraestructura cloud, analítica y herramientas de procesamiento de formularios que nos ayudan a operar nuestro sitio web y comunicarnos con usted",
+          "Asesores profesionales — abogados, contadores o aseguradores cuando sea razonablemente necesario",
+          "Fines legales y de seguridad — cuando lo exija la ley, una orden judicial, o para proteger los derechos, la propiedad o la seguridad de {company}, nuestros clientes u otros",
+          "Transferencias empresariales — en relación con una fusión, adquisición o venta de activos, sujetas a protecciones de confidencialidad apropiadas"
+        ]
+      },
+      "dataRetention": {
+        "title": "6. Conservación de datos",
+        "paragraphs": [
+          "Conservamos la información personal durante el tiempo necesario para cumplir los fines descritos en esta política, incluida la respuesta a consultas, el mantenimiento de registros comerciales y el cumplimiento de requisitos legales o regulatorios. Cuando los datos ya no son necesarios, los eliminamos o anonimizamos mediante medidas razonables."
+        ]
+      },
+      "security": {
+        "title": "7. Seguridad",
+        "paragraphs": [
+          "Implementamos medidas administrativas, técnicas y organizativas diseñadas para proteger la información personal contra acceso no autorizado, pérdida, uso indebido o alteración. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es completamente seguro, y no podemos garantizar una seguridad absoluta."
+        ]
+      },
+      "yourRights": {
+        "title": "8. Sus derechos",
+        "paragraphs": [
+          "Según su ubicación, puede tener derecho a acceder, corregir, eliminar, restringir u oponerse a ciertos tratamientos de su información personal, y a retirar el consentimiento cuando el tratamiento se base en el consentimiento. También puede tener derecho a la portabilidad de datos y a presentar una reclamación ante una autoridad de supervisión.",
+          "Para ejercer estos derechos, contáctenos en {email} o {phone}. Es posible que necesitemos verificar su identidad antes de responder."
+        ]
+      },
+      "internationalTransfers": {
+        "title": "9. Transferencias internacionales",
+        "paragraphs": [
+          "Si accede a nuestro sitio web desde fuera del país donde operamos, su información puede transferirse y tratarse en jurisdicciones que pueden tener leyes de protección de datos diferentes. Cuando sea necesario, implementamos salvaguardas apropiadas para dichas transferencias."
+        ]
+      },
+      "thirdPartyLinks": {
+        "title": "10. Enlaces de terceros",
+        "paragraphs": [
+          "Nuestro sitio web puede contener enlaces a sitios web de terceros. No somos responsables de las prácticas de privacidad ni del contenido de esos sitios. Le recomendamos revisar sus políticas de privacidad antes de proporcionar información personal."
+        ]
+      },
+      "childrensPrivacy": {
+        "title": "11. Privacidad de menores",
+        "paragraphs": [
+          "Nuestro sitio web y servicios no están dirigidos a personas menores de 16 años. No recopilamos conscientemente información personal de menores. Si cree que hemos recopilado información de un menor, contáctenos para que podamos eliminarla."
+        ]
+      },
+      "changes": {
+        "title": "12. Cambios en esta política",
+        "paragraphs": [
+          "Podemos actualizar esta Política de privacidad periódicamente. La fecha de \"Última actualización\" en la parte superior de esta página indica cuándo se realizaron revisiones. Los cambios materiales se publicarán en esta página. El uso continuado de nuestro sitio web después de los cambios constituye la aceptación de la política actualizada."
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Términos de servicio",
+    "subtitle": "Términos que rigen el uso del sitio web y los servicios de {company}.",
+    "lastUpdated": "2026-08-22",
+    "sections": {
+      "agreement": {
+        "title": "1. Aceptación de los términos",
+        "paragraphs": [
+          "Estos Términos de servicio (\"Términos\") rigen su acceso y uso del sitio web ubicado en {website} y los servicios en línea relacionados operados por {company} (\"Compañía,\" \"nosotros\" o \"nuestro\"). Al acceder o utilizar nuestro sitio web, acepta quedar vinculado por estos Términos.",
+          "Si utiliza nuestro sitio web en nombre de una organización, declara que tiene autoridad para vincular a esa organización a estos Términos."
+        ]
+      },
+      "ourServices": {
+        "title": "2. Nuestros servicios",
+        "paragraphs": [
+          "{company} proporciona servicios tecnológicos y digitales que incluyen, entre otros, desarrollo de software a medida, infraestructura cloud, soluciones CRM, marketing digital y consultoría relacionada. Los entregables específicos, plazos, honorarios y obligaciones de los compromisos de pago se definen en acuerdos escritos separados, declaraciones de trabajo o propuestas — no únicamente por la información de este sitio web."
+        ]
+      },
+      "useOfWebsite": {
+        "title": "3. Uso del sitio web",
+        "paragraphs": [
+          "Acepta utilizar nuestro sitio web únicamente con fines lícitos. No debe:",
+          "Podemos suspender o restringir el acceso al sitio web si creemos razonablemente que ha violado estos Términos."
+        ],
+        "list": [
+          "Violar cualquier ley o regulación aplicable",
+          "Intentar obtener acceso no autorizado a nuestros sistemas, cuentas o datos",
+          "Interferir o interrumpir el funcionamiento o la seguridad del sitio web",
+          "Enviar información falsa, engañosa o fraudulenta a través de nuestros formularios",
+          "Utilizar medios automatizados para extraer, recopilar o sobrecargar el sitio web sin permiso",
+          "Transmitir malware, spam o código dañino"
+        ]
+      },
+      "intellectualProperty": {
+        "title": "4. Propiedad intelectual",
+        "paragraphs": [
+          "El sitio web y su contenido — incluidos textos, gráficos, logotipos, diseño, software y marca — son propiedad de {company} o de nuestros licenciantes y están protegidos por las leyes de propiedad intelectual. No puede copiar, modificar, distribuir, vender ni crear obras derivadas de nuestro contenido sin consentimiento previo por escrito, excepto para visualización personal limitada y no comercial.",
+          "Los materiales y entregables propiedad del cliente creados bajo un acuerdo de proyecto firmado se rigen por los términos de propiedad intelectual de ese acuerdo."
+        ]
+      },
+      "clientEngagements": {
+        "title": "5. Compromisos con clientes",
+        "paragraphs": [
+          "Enviar un formulario de contacto, programar una reunión o solicitar información no crea un contrato vinculante de servicios. Un compromiso formal comienza solo cuando ambas partes ejecutan un acuerdo escrito (como un acuerdo marco de servicios, declaración de trabajo o aceptación de propuesta).",
+          "Cualquier estimación, plazo o descripción en este sitio web es solo para información general y no constituye garantías a menos que se confirmen expresamente por escrito."
+        ]
+      },
+      "feesAndPayment": {
+        "title": "6. Honorarios y pago",
+        "paragraphs": [
+          "Los precios de los servicios profesionales se proporcionan en propuestas o contratos. Salvo que se indique lo contrario por escrito, los honorarios no incluyen impuestos, licencias de terceros ni gastos reembolsables. Los términos de pago, calendarios de facturación y consecuencias del pago tardío se definen en el acuerdo de cliente aplicable."
+        ]
+      },
+      "confidentiality": {
+        "title": "7. Confidencialidad",
+        "paragraphs": [
+          "Tratamos la información comercial no pública compartida durante discusiones comerciales o proyectos como confidencial, sujeto a nuestras obligaciones mutuas en cualquier acuerdo de confidencialidad o servicios firmado. Acepta no hacer un uso indebido de la información confidencial que compartamos con usted en el curso de evaluar o recibir nuestros servicios."
+        ]
+      },
+      "disclaimer": {
+        "title": "8. Exclusión de garantías",
+        "paragraphs": [
+          "EL SITIO WEB Y CUALQUIER INFORMACIÓN PROPORCIONADA A TRAVÉS DEL MISMO SE OFRECEN \"TAL CUAL\" Y \"SEGÚN DISPONIBILIDAD\". EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, {company} RENUNCIA A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, INCLUIDAS COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR Y NO INFRACCIÓN.",
+          "No garantizamos que el sitio web sea ininterrumpido, libre de errores o de componentes dañinos, ni que la información del sitio web sea completa o esté actualizada."
+        ]
+      },
+      "limitationOfLiability": {
+        "title": "9. Limitación de responsabilidad",
+        "paragraphs": [
+          "EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, {company} Y SUS DIRECTORES, EMPLEADOS Y AFILIADOS NO SERÁN RESPONSABLES DE DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENCIALES O PUNITIVOS, NI DE PÉRDIDA DE BENEFICIOS, DATOS, FONDO DE COMERCIO U OPORTUNIDADES COMERCIALES, DERIVADOS DE SU USO DEL SITIO WEB.",
+          "NUESTRA RESPONSABILIDAD TOTAL POR CUALQUIER RECLAMACIÓN RELACIONADA CON EL SITIO WEB O ESTOS TÉRMINOS NO EXCEDERÁ CIEN DÓLARES ESTADOUNIDENSES (USD $100), EXCEPTO DONDE LA RESPONSABILIDAD NO PUEDA LIMITARSE POR LA LEY APLICABLE.",
+          "Nada en estos Términos limita la responsabilidad por fraude, negligencia grave o mala conducta intencional cuando dicha limitación esté prohibida por la ley."
+        ]
+      },
+      "indemnification": {
+        "title": "10. Indemnización",
+        "paragraphs": [
+          "Acepta indemnizar y eximir de responsabilidad a {company} de reclamaciones, daños, pérdidas y gastos (incluidos honorarios legales razonables) derivados de su uso indebido del sitio web, violación de estos Términos o infracción de derechos de terceros resultante del contenido o información que nos proporcione."
+        ]
+      },
+      "termination": {
+        "title": "11. Terminación",
+        "paragraphs": [
+          "Podemos terminar o restringir su acceso al sitio web en cualquier momento, con o sin previo aviso, por conducta que creamos que viola estos Términos o es perjudicial para otros usuarios, nosotros o terceros. Las disposiciones que por su naturaleza deban sobrevivir a la terminación permanecerán en vigor."
+        ]
+      },
+      "governingLaw": {
+        "title": "12. Ley aplicable",
+        "paragraphs": [
+          "Estos Términos se rigen por las leyes del Estado de California, Estados Unidos, sin tener en cuenta los principios de conflicto de leyes. Cualquier disputa derivada de estos Términos o del sitio web se presentará ante los tribunales estatales o federales ubicados en el condado de San Francisco, California, y usted consiente su jurisdicción, salvo que las leyes obligatorias de protección al consumidor de su jurisdicción dispongan lo contrario."
+        ]
+      },
+      "changes": {
+        "title": "13. Cambios en estos términos",
+        "paragraphs": [
+          "Podemos revisar estos Términos en cualquier momento publicando una versión actualizada en esta página. Su uso continuado del sitio web después de que los cambios entren en vigor constituye la aceptación de los Términos revisados."
+        ]
+      },
+      "contact": {
+        "title": "14. Contacto",
+        "paragraphs": [
+          "Para preguntas sobre estos Términos, contáctenos en {email} o {phone}."
+        ]
+      }
+    }
+  },
+  "cookies": {
+    "title": "Política de cookies",
+    "subtitle": "Cómo {company} utiliza cookies y tecnologías similares en {website}.",
+    "lastUpdated": "2026-08-22",
+    "privacyPolicyLink": "Política de privacidad",
+    "sections": {
+      "whatAreCookies": {
+        "title": "1. ¿Qué son las cookies?",
+        "paragraphs": [
+          "Las cookies son pequeños archivos de texto colocados en su dispositivo cuando visita un sitio web. Ayudan a que los sitios web funcionen correctamente, recuerden preferencias y comprendan cómo los visitantes utilizan el sitio. Las tecnologías similares incluyen almacenamiento local, almacenamiento de sesión y píxeles."
+        ]
+      },
+      "howWeUse": {
+        "title": "2. Cómo utilizamos las cookies",
+        "paragraphs": [
+          "Utilizamos cookies y tecnologías similares para:",
+          "Para más información sobre cómo tratamos los datos personales, consulte nuestra Política de privacidad."
+        ],
+        "list": [
+          "Habilitar la funcionalidad básica y la seguridad del sitio web",
+          "Recordar preferencias y mejorar la experiencia del usuario",
+          "Comprender patrones de tráfico y medir el rendimiento del sitio web",
+          "Apoyar formularios y funciones de comunicación"
+        ]
+      },
+      "types": {
+        "title": "3. Tipos de cookies que utilizamos",
+        "subsections": [
+          {
+            "heading": "Cookies estrictamente necesarias",
+            "paragraphs": [
+              "Necesarias para que el sitio web funcione. Pueden incluir cookies que soportan seguridad, equilibrio de carga o gestión básica de sesiones. Como el sitio las necesita para funcionar, no pueden desactivarse a través de nuestros controles del sitio."
+            ]
+          },
+          {
+            "heading": "Cookies funcionales",
+            "paragraphs": [
+              "Permiten que el sitio web recuerde las elecciones que usted hace (como región o preferencias de visualización) y proporcione funciones mejoradas."
+            ]
+          },
+          {
+            "heading": "Cookies analíticas",
+            "paragraphs": [
+              "Nos ayudan a comprender cómo los visitantes interactúan con nuestro sitio web — qué páginas se visitan y cuánto tiempo permanecen los usuarios — para mejorar contenido y rendimiento. Estas cookies recopilan información agregada o seudonimizada cuando es posible."
+            ]
+          },
+          {
+            "heading": "Cookies de marketing (si se utilizan)",
+            "paragraphs": [
+              "Pueden utilizarse para medir la efectividad de campañas o entregar contenido relevante en otras plataformas. Las utilizamos solo cuando está permitido y, cuando sea necesario, con su consentimiento."
+            ]
+          }
+        ]
+      },
+      "thirdParty": {
+        "title": "4. Cookies de terceros",
+        "paragraphs": [
+          "Algunas cookies son colocadas por servicios de terceros que aparecen en nuestras páginas, como proveedores de analítica, contenido incrustado o herramientas de comunicación. Estos terceros pueden recopilar información sobre su actividad en línea a lo largo del tiempo y en diferentes sitios web, sujeto a sus propias políticas de privacidad.",
+          "Le recomendamos revisar las políticas de privacidad y cookies de cualquier servicio de terceros que utilicemos."
+        ]
+      },
+      "managing": {
+        "title": "5. Gestión de cookies",
+        "paragraphs": [
+          "Puede controlar las cookies de varias formas:",
+          "Si desactiva las cookies, algunas partes de nuestro sitio web pueden no funcionar correctamente."
+        ],
+        "list": [
+          "Configuración del navegador — La mayoría de los navegadores permiten bloquear o eliminar cookies. Consulte la sección de ayuda de su navegador para instrucciones.",
+          "Configuración del dispositivo — Los dispositivos móviles pueden ofrecer controles de privacidad adicionales.",
+          "Herramientas de exclusión — Algunos proveedores de analítica ofrecen mecanismos de exclusión del sector para publicidad basada en intereses."
+        ]
+      },
+      "retention": {
+        "title": "6. Conservación de cookies",
+        "paragraphs": [
+          "Las cookies de sesión expiran cuando cierra su navegador. Las cookies persistentes permanecen en su dispositivo durante un período determinado o hasta que las elimine. Los períodos de conservación varían según el propósito de cada cookie."
+        ]
+      },
+      "updates": {
+        "title": "7. Actualizaciones de esta política",
+        "paragraphs": [
+          "Podemos actualizar esta Política de cookies para reflejar cambios en tecnología, regulación o nuestras prácticas. La versión actualizada se publicará en esta página con una fecha de \"Última actualización\" revisada."
+        ]
+      },
+      "contact": {
+        "title": "8. Contacto",
+        "paragraphs": [
+          "Si tiene preguntas sobre nuestro uso de cookies, contáctenos en {email} o {phone}."
+        ]
+      }
+    }
+  }
+}
