@@ -19,7 +19,7 @@ import {
   Spotlight,
 } from "@/components/motion";
 import {
-  Code2, Users, TrendingUp, Cloud, ShieldCheck, ShoppingCart,
+  Code2, Users, TrendingUp, Cloud, ShoppingCart,
   ArrowRight, Star, CheckCircle, Zap, Globe, Lock, Monitor, Palette, Tablet,
 } from "lucide-react";
 
@@ -109,12 +109,6 @@ export default function Home() {
       title: "Cloud Infrastructure",
       desc: "Scalable cloud setup and robust CI/CD pipelines.",
       tag: "DevOps",
-    },
-    {
-      icon: ShieldCheck,
-      title: "Cybersecurity",
-      desc: "Enterprise-grade protection and 24/7 monitoring.",
-      tag: "Security",
     },
     {
       icon: ShoppingCart,

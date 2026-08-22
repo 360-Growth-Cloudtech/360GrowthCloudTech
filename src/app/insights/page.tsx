@@ -3,7 +3,7 @@ import Insights from "@/views/Insights";
 
 export const metadata: Metadata = {
   title: "Insights",
-  description: "Articles and insights on cloud, cybersecurity, software, and digital growth.",
+  description: "Articles and insights on cloud, software, and digital growth.",
 };
 
 export default function InsightsPage() {

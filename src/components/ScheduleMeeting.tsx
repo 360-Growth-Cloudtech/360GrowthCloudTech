@@ -16,7 +16,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Loader2 } from "lucide-react";
+import { submitLead } from "@/lib/submit-lead";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name is required"),
@@ -27,6 +28,7 @@ const formSchema = z.object({
   date: z.string().optional(),
   time: z.string().optional(),
   message: z.string().optional(),
+  website: z.string().optional(),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -38,6 +40,8 @@ interface ScheduleMeetingProps {
 
 export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
   const [isSuccess, setIsSuccess] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -50,17 +54,30 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
       date: "",
       time: "",
       message: "",
+      website: "",
     },
   });
 
-  function onSubmit(data: FormValues) {
-    console.log("Schedule Meeting Data:", data);
-    setIsSuccess(true);
-    // Reset form after a delay when closed
-    setTimeout(() => {
-      form.reset();
-      setTimeout(() => setIsSuccess(false), 500); // Wait for animation
-    }, 2000);
+  async function onSubmit(data: FormValues) {
+    setIsSubmitting(true);
+    setSubmitError(null);
+
+    try {
+      const result = await submitLead({ formType: "schedule-meeting", ...data });
+
+      if (!result.success) {
+        setSubmitError(result.error ?? "Something went wrong. Please try again.");
+        return;
+      }
+
+      setIsSuccess(true);
+      setTimeout(() => {
+        form.reset();
+        setTimeout(() => setIsSuccess(false), 500);
+      }, 2000);
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -71,9 +88,10 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
             <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mb-4">
               <CheckCircle2 className="w-8 h-8 text-accent" />
             </div>
-            <DialogTitle className="text-2xl font-bold">Meeting Scheduled!</DialogTitle>
+            <DialogTitle className="text-2xl font-bold">Request received!</DialogTitle>
             <DialogDescription className="text-base text-muted-foreground">
-              Thank you for reaching out. We've received your request and will confirm the details with you shortly.
+              Thank you for reaching out. We&apos;ve received your request and will get back to you shortly —
+              typically within 2 business hours. A confirmation email has been sent to your inbox.
             </DialogDescription>
             <Button onClick={() => onOpenChange(false)} className="mt-6 gradient-bg" data-testid="btn-close-success">
               Close
@@ -90,6 +108,21 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
 
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+                <input
+                  type="text"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden
+                  className="absolute left-[-9999px] h-0 w-0 opacity-0"
+                  {...form.register("website")}
+                />
+
+                {submitError && (
+                  <p className="rounded-lg border border-destructive/30 bg-destructive/5 px-3 py-2 text-sm text-destructive">
+                    {submitError}
+                  </p>
+                )}
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <FormField
                     control={form.control}
@@ -154,7 +187,7 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel>Service of Interest *</FormLabel>
-                      <Select onValueChange={field.onChange} defaultValue={field.value}>
+                      <Select onValueChange={field.onChange} value={field.value}>
                         <FormControl>
                           <SelectTrigger data-testid="schedule-service">
                             <SelectValue placeholder="Select a service" />
@@ -165,7 +198,6 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                           <SelectItem value="crm">CRM Tools</SelectItem>
                           <SelectItem value="marketing">Digital Marketing</SelectItem>
                           <SelectItem value="cloud">Cloud Infrastructure</SelectItem>
-                          <SelectItem value="security">Cybersecurity</SelectItem>
                           <SelectItem value="ecommerce">E-commerce</SelectItem>
                           <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
@@ -195,7 +227,7 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel>Preferred Time</FormLabel>
-                        <Select onValueChange={field.onChange} defaultValue={field.value}>
+                        <Select onValueChange={field.onChange} value={field.value}>
                           <FormControl>
                             <SelectTrigger data-testid="schedule-time">
                               <SelectValue placeholder="Select a time" />
@@ -220,10 +252,10 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     <FormItem>
                       <FormLabel>Message</FormLabel>
                       <FormControl>
-                        <Textarea 
-                          placeholder="Any specific details you want to discuss?" 
-                          className="min-h-[80px]" 
-                          {...field} 
+                        <Textarea
+                          placeholder="Any specific details you want to discuss?"
+                          className="min-h-[80px]"
+                          {...field}
                           data-testid="schedule-message"
                         />
                       </FormControl>
@@ -232,8 +264,20 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                   )}
                 />
 
-                <Button type="submit" className="w-full gradient-bg mt-4" data-testid="schedule-submit">
-                  Confirm Meeting
+                <Button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full gradient-bg mt-4"
+                  data-testid="schedule-submit"
+                >
+                  {isSubmitting ? (
+                    <>
+                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                      Submitting...
+                    </>
+                  ) : (
+                    "Confirm Meeting"
+                  )}
                 </Button>
               </form>
             </Form>

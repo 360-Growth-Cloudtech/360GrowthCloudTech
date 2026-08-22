@@ -5,7 +5,7 @@ import { PageHero } from "@/components/PageHero";
 import { Eye, Heart, MessageCircle, Search, ChevronDown, ArrowRight, BookOpen } from "lucide-react";
 import { motion } from "framer-motion";
 
-const CATEGORIES = ["All", "Case Study", "Cloud Computing", "Cybersecurity", "Healthcare", "Software Development", "AI-Driven", "Smart Cities"];
+const CATEGORIES = ["All", "Case Study", "Cloud Computing", "Healthcare", "Software Development", "AI-Driven", "Smart Cities"];
 
 const articles = [
   {
@@ -49,20 +49,6 @@ const articles = [
     accent: "#2d2620",
     featured: true,
     featuredSize: "small",
-  },
-  {
-    id: 4,
-    category: "Cybersecurity",
-    title: "Cybersecurity in the Age of Remote Work",
-    excerpt: "How we challenged and comprehensive solutions for securing distributed workforces in the age of remote and hybrid environments.",
-    author: "James K.",
-    date: "Oct 3, 2025",
-    views: 4120,
-    likes: 24,
-    comments: 9,
-    accent: "#1a1512",
-    featured: false,
-    featuredSize: null,
   },
   {
     id: 5,

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { PageHero } from "@/components/PageHero";
 import { ContactForm } from "@/components/ContactForm";
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, CalendarDays } from "lucide-react";
+import { Mail, Phone, Linkedin, Twitter, Facebook, CalendarDays } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 
 const fadeUp = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 } };
@@ -12,9 +12,8 @@ export default function Contact() {
   const { setOpen } = useScheduleMeeting();
 
   const contactDetails = [
-    { icon: Mail, label: "Email Us", value: "hello@360cloudtech.com" },
-    { icon: Phone, label: "Call Us", value: "+1 (800) 123-4567" },
-    { icon: MapPin, label: "Visit Us", value: "123 Innovation Drive, Tech District\nSan Francisco, CA 94105" },
+    { icon: Mail, label: "Email Us", value: "contact@360cloudtech.com" },
+    // { icon: Phone, label: "Call Us", value: "+91 9643320521" },
   ];
 
   return (

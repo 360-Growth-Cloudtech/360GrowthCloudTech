@@ -15,7 +15,6 @@ export default function Services() {
     { icon: Users, title: "Custom CRM Tools", desc: "Bespoke customer relationship management.", tag: "Product" },
     { icon: TrendingUp, title: "Digital Marketing", desc: "Data-driven Ads and comprehensive SEO.", tag: "Growth" },
     { icon: Cloud, title: "Cloud Infrastructure", desc: "Scalable cloud setup and robust pipelines.", tag: "DevOps" },
-    { icon: ShieldCheck, title: "Cybersecurity", desc: "Enterprise-grade protection & compliance.", tag: "Security" },
     { icon: ShoppingCart, title: "E-commerce", desc: "End-to-end stores with seamless payments.", tag: "Commerce" },
   ];
 
@@ -28,7 +27,7 @@ export default function Services() {
   const techServices = [
     { icon: Code2, title: "Custom Software Dev", desc: "Tailored applications built for your specific needs.", bullets: ["Web applications", "Mobile apps (iOS & Android)", "API development"] },
     { icon: Cloud, title: "Cloud & DevOps", desc: "Scalable and resilient infrastructure solutions.", bullets: ["Cloud migration", "CI/CD pipelines", "Infrastructure as Code"] },
-    { icon: ShieldCheck, title: "Cybersecurity", desc: "Protecting your digital assets from emerging threats.", bullets: ["Penetration testing", "Compliance (HIPAA/SOC2)", "24/7 Monitoring"] },
+    { icon: ShoppingCart, title: "E-commerce", desc: "Online stores built for growth and conversion.", bullets: ["Store setup & customization", "Payment integration", "Inventory & order management"] },
   ];
 
   const processSteps = [

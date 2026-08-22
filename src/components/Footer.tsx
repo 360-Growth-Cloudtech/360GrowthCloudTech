@@ -29,11 +29,17 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs" style={{ color: "rgba(255,255,255,0.45)" }}>
-              Designing digital-first technologies for future growth — across software, cloud, security, and marketing.
+              Designing digital-first technologies for future growth — across software, cloud, and marketing.
             </p>
             <ul className="space-y-2.5">
-              <li className="flex items-center gap-2.5 text-sm" style={{ color: "rgba(255,255,255,0.45)" }}>
-                <Mail size={13} /> hello@360cloudtech.com
+              <li>
+                <a
+                  href="mailto:contact@360cloudtech.com"
+                  className="flex items-center gap-2.5 text-sm transition-colors hover:text-white"
+                  style={{ color: "rgba(255,255,255,0.45)" }}
+                >
+                  <Mail size={13} /> contact@360cloudtech.com
+                </a>
               </li>
             </ul>
             <div className="flex gap-2">
@@ -115,9 +121,9 @@ export function Footer() {
             © {new Date().getFullYear()} 360CloudTech. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs" style={{ color: "rgba(255,255,255,0.3)" }}>
-            <a href="#" className="hover:text-white transition-colors" data-testid="footer-privacy">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors" data-testid="footer-terms">Terms of Service</a>
-            <a href="#" className="hover:text-white transition-colors" data-testid="footer-cookies">Cookies Policy</a>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors" data-testid="footer-privacy">Privacy Policy</Link>
+            <Link href="/terms-of-service" className="hover:text-white transition-colors" data-testid="footer-terms">Terms of Service</Link>
+            <Link href="/cookies-policy" className="hover:text-white transition-colors" data-testid="footer-cookies">Cookies Policy</Link>
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | 360CloudTech",
   },
   description:
-    "360CloudTech — End-to-end digital transformation: custom software, cloud, cybersecurity, and digital marketing.",
+    "360CloudTech — End-to-end digital transformation: custom software, cloud, and digital marketing.",
   robots: { index: true, follow: true },
   icons: { icon: "/logo.png" },
   openGraph: {
