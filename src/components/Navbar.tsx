@@ -13,35 +13,19 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [hidden, setHidden] = useState(false);
-  const lastScrollY = useRef(0);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
   const { setOpen } = useScheduleMeeting();
 
   useEffect(() => {
     const onScroll = () => {
-      const current = window.scrollY;
-      const goingDown = current > lastScrollY.current;
-      setScrolled(current > 16);
-      // Hide while scrolling down; reveal on scroll up or near top
-      if (mobileMenuOpen) {
-        setHidden(false);
-      } else if (current < 48) {
-        setHidden(false);
-      } else if (goingDown && current - lastScrollY.current > 4) {
-        setHidden(true);
-        setServicesDropdownOpen(false);
-      } else if (!goingDown && lastScrollY.current - current > 4) {
-        setHidden(false);
-      }
-      lastScrollY.current = current;
+      setScrolled(window.scrollY > 16);
     };
 
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, [mobileMenuOpen]);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -55,22 +39,16 @@ export function Navbar() {
 
   useEffect(() => {
     setMobileMenuOpen(false);
-    setHidden(false);
   }, [pathname]);
 
   const isActive = (path: string) => pathname === path;
 
   return (
     <motion.nav
-      className="fixed top-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-3xl"
+      className="fixed top-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2"
       data-testid="navbar"
-      initial={{ y: -80, opacity: 0, x: "-50%" }}
-      animate={{
-        y: hidden ? -120 : 0,
-        opacity: hidden ? 0 : 1,
-        x: "-50%",
-        pointerEvents: hidden ? "none" : "auto",
-      }}
+      initial={{ y: -80, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
     >
       <div

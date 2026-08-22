@@ -157,7 +157,7 @@ export default function About() {
       </section>
 
       {/* TEAM */}
-      <section className="py-20 bg-white/40 border-t border-border/60">
+      {/* <section className="py-20 bg-white/40 border-t border-border/60">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <motion.div className="text-center mb-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
             <span className="section-label mb-5 inline-flex">Our Team</span>
@@ -182,7 +182,7 @@ export default function About() {
             ))}
           </motion.div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
