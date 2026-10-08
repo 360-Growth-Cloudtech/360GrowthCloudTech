@@ -16,7 +16,7 @@ export function PageHero({ label, title, subtitle }: PageHeroProps) {
     >
       <div
         className="absolute inset-0 opacity-60"
-        style={{ background: "radial-gradient(ellipse 60% 50% at 50% 0%, rgba(232,82,26,0.07) 0%, transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse 60% 50% at 50% 0%, rgba(37,99,235,0.07) 0%, transparent 70%)" }}
       />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl relative z-10">

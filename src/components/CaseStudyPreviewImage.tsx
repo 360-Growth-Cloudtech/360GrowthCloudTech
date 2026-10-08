@@ -22,7 +22,7 @@ export function CaseStudyPreviewImage({
 }: CaseStudyPreviewImageProps) {
   return (
     <div
-      className={`relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#f7f4f0] ring-1 ring-border/50 shadow-[0_12px_40px_rgba(26,21,18,0.08)] ${className}`}
+      className={`relative aspect-[4/3] overflow-hidden rounded-2xl bg-[#f8fafc] ring-1 ring-border/50 shadow-[0_12px_40px_rgba(15,23,42,0.08)] ${className}`}
     >
       {variant === "laptop" ? (
         <LaptopMockup src={src} alt={alt} priority={priority} sizes={sizes} />

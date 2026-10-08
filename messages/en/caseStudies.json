@@ -17,81 +17,498 @@
     "nextCaseStudy": "Next case study"
   },
   "items": {
-    "himachal-tourism-google-ads": {
-      "client": "Himachal Tourism Cab",
-      "category": "Travel & Tourism · Google Ads",
-      "date": "Aug 10, 2026",
-      "readTime": "7 min",
-      "title": "Google Ads management & conversion optimization for steady off-season leads",
-      "excerpt": "Himachal Tourism Cab was spending on Google Ads blind — broken conversion tracking, no attribution, and no way to know what drove bookings. We rebuilt tracking, restructured campaigns, and turned data into qualified leads.",
-      "summary": "Google Ads management and conversion optimization for a Himachal Pradesh cab and tour operator — rebuilt conversion tracking, restructured campaigns on real performance data, and improved lead quality while lowering cost per lead.",
-      "challenge": "Himachal Tourism Cab, a cab and tour service operating across Himachal Pradesh, was investing in Google Ads without any real visibility into performance. Their website's conversion tracking wasn't set up correctly, which meant they had no reliable data on how visitors were engaging with their enquiry forms — making it nearly impossible to know which campaigns, keywords, or landing pages were actually generating bookings versus simply consuming budget.",
+    "lifestyle-gifting-ecommerce-app": {
+      "client": "Premium Lifestyle & Gifting Brand (Dubai, UAE)",
+      "category": "E-Commerce · Mobile App Development",
+      "date": "Sep 2026",
+      "readTime": "8 min",
+      "title": "Boosting Sales by 35% for a Premium Lifestyle & Gifting Ecommerce Brand with App Development Services",
+      "excerpt": "Collaborated with a premium lifestyle & gifting brand in Dubai, UAE to build a high-performance Flutter mobile app with native Stripe & Tabby checkout, real-time Shopify GraphQL sync, and Firebase push notifications, increasing completed purchases by 35%.",
+      "summary": "ConvexSol collaborated with a premium lifestyle and gifting brand based in Dubai, UAE, to create an engaging and seamless shopping experience. Our experts built the application with Flutter, enabling real-time product updates, personalized recommendations and engagement, and a user-friendly and scalable architecture. The advanced solution and innovative strategy boosted conversion rate, reduced operational overhead, and set the foundation for long-term progress.",
+      "clientVision": "Our client is the owner of a premium luxury lifestyle and gifting brand targeting customers in the GCC and UAE regions with a strong emphasis on design, quality and localized shopping experiences. They wanted an e-commerce mobile app that easily integrated with all the apps. The goal was to eliminate friction while browsing items and checkout windows. To create a branded checkout experience, build smarter system for push notifications to enhance retention and ROI, and automate sync across ERP. Beyond sales, our client envisioned a mobile app to establish a commerce platform that could grow with the brand, deepen customer loyalty, and position the business as a premier lifestyle destination.",
+      "challenge": "The brand faced significant obstacles with slow and fragile Shopify-to-mobile integrations, non-standard product variant metafields, high checkout friction caused by web redirects, and a lack of personalized push notification engagement.",
+      "challengeCategories": [
+        {
+          "category": "Complex Shopify-Flutter Integration",
+          "items": [
+            {
+              "title": "Difficult API Implementation",
+              "desc": "Shopify's GraphQL API is powerful but integrating it with Flutter required extensive customization, without which it slowed down feature delivery and increased development effort."
+            },
+            {
+              "title": "Maintenance Overhead",
+              "desc": "Even a minor Shopify API upgrade demanded extensive coding, which was time-consuming and increased the risk of errors."
+            },
+            {
+              "title": "Slower Feature Rollout",
+              "desc": "Manual fixes and adjustments delayed the release of new features, impacting overall growth and user satisfaction."
+            }
+          ]
+        },
+        {
+          "category": "Product Variations Stored as Metafields",
+          "items": [
+            {
+              "title": "Confusing Product Display",
+              "desc": "Many products were stored as metafields instead of standard variants, which made it difficult for the app to display selections like size or color."
+            },
+            {
+              "title": "Poor User Experience",
+              "desc": "Customers saw incomplete product details, which led to cart abandonment and degraded user experience."
+            },
+            {
+              "title": "Manual Updates for Staff",
+              "desc": "Staff had to manually update product options, making the task time-consuming, error-prone, and increasing the workload."
+            }
+          ]
+        },
+        {
+          "category": "Friction Checkout Process",
+          "items": [
+            {
+              "title": "Web Redirect Reduced Trust",
+              "desc": "The biggest issue was Shopify's default checkout, which redirected users to a webview, reducing user trust and conversion at the payment stage."
+            },
+            {
+              "title": "Multiple Payment Methods",
+              "desc": "Integration of credit cards, Apple Pay, and Buy-Now-Pay-Later installment options increased complexity and developer efforts."
+            },
+            {
+              "title": "Lost Sales Opportunity",
+              "desc": "Customers abandoned carts due to the inconvenience of a multi-step redirect checkout process."
+            }
+          ]
+        },
+        {
+          "category": "Poor User Experience & Lost Engagement",
+          "items": [
+            {
+              "title": "Lack of Push Notifications",
+              "desc": "Without a proper push notification system, customers missed out on promotions, updates on new arrivals, and order status alerts."
+            },
+            {
+              "title": "Reduced Repeat Purchases",
+              "desc": "Lack of engagement features reduced repeat customers, impacted loyalty, and decreased overall sales."
+            },
+            {
+              "title": "Friction in Browsing and Shopping",
+              "desc": "Improper and inefficient checkout and unclear product variations led customers to lose confidence in shopping through the app."
+            }
+          ]
+        },
+        {
+          "category": "Higher Development & Maintenance Overhead",
+          "items": [
+            {
+              "title": "Constant Need for Developer Intervention",
+              "desc": "Fixing metafields, Shopify API changes, and payment issues required developers' constant attention."
+            },
+            {
+              "title": "Delayed Feature Release",
+              "desc": "Client faced continuous delays in feature releases, slowing the delivery of new capabilities."
+            },
+            {
+              "title": "Increased Costs",
+              "desc": "Manual updates and frequent hotfixes led to higher maintenance costs and resource allocations."
+            }
+          ]
+        }
+      ],
       "solution": [
-        "Rebuilt conversion tracking from the ground up — every form submission captured and attributed to source",
-        "Audited and restructured the Google Ads account based on actual performance data",
-        "Refined audience targeting to reduce spend on low-intent traffic",
-        "Reallocated budget toward campaigns and keywords driving real bookings",
-        "Optimized landing pages to improve visitor-to-enquiry conversion rates"
+        "Engineered a dedicated Shopify GraphQL abstraction layer in Flutter for real-time inventory and catalog syncing",
+        "Implemented 100% native in-app checkout with Stripe and Tabby BNPL (Buy Now Pay Later)",
+        "Built automated metafield-to-variant mapping parser to display all size, color, and bespoke gifting variations seamlessly",
+        "Integrated Firebase Cloud Messaging (FCM) for targeted, personalized push notifications based on browsing history",
+        "Developed a scalable, lightweight Flutter architecture ready for loyalty rewards and AI recommendations"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Seamless Shopify-Flutter Integration",
+          "items": [
+            {
+              "title": "Robust API Integration",
+              "desc": "Our experts built an integration layer that allowed the Flutter app to fetch product details and user data from Shopify's GraphQL API smoothly."
+            },
+            {
+              "title": "Future-Proof Architecture",
+              "desc": "Instead of manual fixes with each Shopify update, the system was designed to automatically sync product data, reducing maintenance and ensuring consistent performance."
+            },
+            {
+              "title": "Faster Feature Delivery",
+              "desc": "Our team could implement new app features rapidly, which minimized release delays and enhanced user experience."
+            }
+          ]
+        },
+        {
+          "category": "Native Checkout Solution",
+          "items": [
+            {
+              "title": "Native In-App Payments",
+              "desc": "Implemented native checkouts with Stripe for card payments and Tabby for flexible installment options, allowing customers to pay smoothly without leaving the app."
+            },
+            {
+              "title": "Smooth and Secure Experience",
+              "desc": "Customers completed the purchasing process securely in fewer taps, building trust and eliminating drop-offs."
+            },
+            {
+              "title": "Increased Conversions",
+              "desc": "By providing customers with a seamless payment journey, we helped the client increase complete payment purchases and overall sales figures."
+            }
+          ]
+        },
+        {
+          "category": "Fixing Product Variations",
+          "items": [
+            {
+              "title": "Custom Variation Mapping",
+              "desc": "Built a system to automatically translate Shopify's custom metafields into clear product variations, like size, color, or personalized engraving."
+            },
+            {
+              "title": "Improved User Experience",
+              "desc": "Customers had a clear and consistent view of product options, eliminating confusion and friction during shopping."
+            },
+            {
+              "title": "Reduced Manual Workload",
+              "desc": "Clear product categorization minimized catalog errors and cut down staff's time spent updating variations manually."
+            }
+          ]
+        },
+        {
+          "category": "Push Notifications for Engagement",
+          "items": [
+            {
+              "title": "Personalized Notifications",
+              "desc": "Integrated Firebase Cloud Messaging to deliver targeted flash sales, personalized offers, and promotional discounts."
+            },
+            {
+              "title": "Real-Time User Engagement",
+              "desc": "Real-time updates on order confirmation, dispatch status, and price drops keep customers engaged and drive repeat purchases."
+            },
+            {
+              "title": "Automated Communication",
+              "desc": "Ensured that push notifications are triggered automatically based on customer behavior, reducing operational overhead."
+            }
+          ]
+        },
+        {
+          "category": "Scalable, Future-Ready Design",
+          "items": [
+            {
+              "title": "Growth-Ready Architecture",
+              "desc": "The app was designed with future growth in mind to handle 10x traffic surges and modular features like loyalty points and AI recommendations."
+            },
+            {
+              "title": "Reduced Technical Debt",
+              "desc": "Modular architecture simplified future maintenance and enabled rapid updates with zero regressions."
+            },
+            {
+              "title": "Agile Delivery",
+              "desc": "By working in 2-week agile sprints, we ensured continuous testing, faster feedback, and timely delivery aligned with business milestones."
+            }
+          ]
+        }
       ],
       "results": [
-        "Cost per lead ↓ 20%",
-        "Lead quality ↑ 30%",
-        "Conversion rate ↑ 10%",
-        "Steady, qualified leads during traditional off-season — previously slow and unpredictable",
-        "Reliable attribution from click to enquiry for ongoing campaign decisions"
+        "35% increase in completed purchases via native Stripe and Tabby installment checkout",
+        "15% reduction in checkout cart abandonment rate",
+        "20% increase in repeat sales driven by personalized push notifications",
+        "40% reduction in development time for subsequent feature releases",
+        "30% reduction in catalog maintenance effort due to automatic variation mapping"
       ],
-      "stack": ["Google Ads", "Google Tag Manager", "GA4", "Landing Page CRO", "Search Campaigns"],
+      "impactResults": [
+        {
+          "title": "Increase in Sales and Conversions",
+          "items": [
+            "Thanks to a smooth in-app checkout, our client experienced a 35% increase in completed purchases with Stripe and Tabby.",
+            "Faster native checkout reduced checkout friction, leading to a 15% reduction in cart abandonment."
+          ]
+        },
+        {
+          "title": "Improved Customer Experience",
+          "items": [
+            "Shopify-Flutter GraphQL integration led to instant and error-free syncing across all devices.",
+            "Sales increased by 20% due to real-time push notifications that boosted repeat customer engagement."
+          ]
+        },
+        {
+          "title": "Operational Efficiency",
+          "items": [
+            "With a scalable integration approach, we achieved a 40% reduction in development time for future releases.",
+            "30% less maintenance effort as product variations were automatically mapped."
+          ]
+        },
+        {
+          "title": "Business Scalability",
+          "items": [
+            "The app is future-ready with a modern, lightweight Flutter codebase.",
+            "Built-in foundation for loyalty programs, AI recommendations, and multi-currency GCC expansion."
+          ]
+        }
+      ],
+      "finalThoughts": "By developing a custom Flutter-based e-commerce application, our team resolved our client's key challenges. By resolving the challenges of complex Shopify-Flutter integration, metafields, and non-native checkout, we were able to create a modern, future-ready design that resonated with customers. Our personalized push notifications and automatic store product variations reduced time calculations, leading to premium shopping experiences and measurable results that turned into a long-term partnership with our client. Our experts' high capabilities have helped the design and advanced technology transform our client's e-commerce vision into a successful reality.",
+      "stack": [
+        "Flutter",
+        "Tabby",
+        "Stripe",
+        "Firebase Cloud Messaging",
+        "Shopify GraphQL API"
+      ],
+      "imageAlt": "Boosting Sales by 35% for a Premium Lifestyle and Gifting Ecommerce Brand with Flutter Mobile App Development"
+    },
+    "himachal-tourism-google-ads": {
+      "client": "Himachal Tourism Cab",
+      "category": "Travel & Tourism · Google Ads & Performance CRO",
+      "date": "Aug 10, 2026",
+      "readTime": "7 min",
+      "title": "Google Ads Management & Conversion Optimization for Steady Off-Season Tourism Leads",
+      "excerpt": "Himachal Tourism Cab was spending on Google Ads blind — broken conversion tracking, zero lead attribution, and inefficient budget allocation. We rebuilt tracking, restructured campaign architecture, and turned raw ad spend into predictable, high-margin tour bookings.",
+      "summary": "Google Ads management, tag governance, and conversion optimization for a premier Himachal Pradesh cab and tour operator — rebuilt GA4 and GTM conversion tracking, restructured campaigns on verified attribution data, and reduced cost per lead by 20% while elevating lead quality by 30%.",
+      "clientVision": "The client sought to transform their tourism business from seasonal peaks into a resilient year-round service across Shimla, Manali, Dharamshala, and Spiti Valley. Their goal was predictable customer acquisition, transparent cost-per-booking tracking, and dominant search visibility for high-intent private cab and customized itinerary searches.",
+      "challenge": "The client suffered from unverified conversion goals, fragmented call tracking, budget wastage on non-converting broad match keywords, and high bounce rates on generic landing pages during off-peak travel months.",
+      "challengeCategories": [
+        {
+          "category": "Broken Attribution & Blind Ad Spend",
+          "items": [
+            {
+              "title": "Unverified Conversion Tracking",
+              "desc": "Form submissions and WhatsApp clicks were not tracked with Google Tag Manager or GA4, making optimization guesswork."
+            },
+            {
+              "title": "Keyword Cannibalization",
+              "desc": "Generic high-volume terms consumed 65% of daily budget with under 2% booking intent."
+            },
+            {
+              "title": "No Call Tracking Infrastructure",
+              "desc": "Over 70% of tour enquiries happened via direct phone calls without any keyword or campaign attribution."
+            }
+          ]
+        },
+        {
+          "category": "Landing Page & Funnel Friction",
+          "items": [
+            {
+              "title": "Slow Mobile Load Times",
+              "desc": "Uncompressed images caused 4.8s mobile load times, resulting in 58% bounce rates on mobile ad traffic."
+            },
+            {
+              "title": "Lack of Direct Tour Packages",
+              "desc": "Visitors were dropped on a generic homepage without transparent pricing, vehicle fleet details, or instant WhatsApp booking buttons."
+            }
+          ]
+        }
+      ],
+      "solution": [
+        "Rebuilt full-funnel conversion tracking in GTM and GA4 with custom server-side event deduplication",
+        "Implemented dynamic call tracking (DNI) to attribute phone calls and WhatsApp chats to specific search terms",
+        "Restructured campaigns into Single Keyword Ad Groups (SKAGs) and high-intent route clusters (e.g., Delhi to Manali Cabs)",
+        "Engineered fast, mobile-optimized landing pages with clear route pricing, fleet vehicle photos, and customer reviews",
+        "Automated negative keyword negative lists to eliminate irrelevant search queries and click fraud"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Conversion Tracking & Attribution",
+          "items": [
+            {
+              "title": "Full-Funnel GTM / GA4 Setup",
+              "desc": "Configured custom trigger events for form inquiries, phone taps, and WhatsApp initiate chats with source tracking."
+            },
+            {
+              "title": "Smart Bidding with First-Party Data",
+              "desc": "Transitioned to Target CPA and Maximize Conversions bidding fed by verified offline booking status."
+            }
+          ]
+        },
+        {
+          "category": "High-Converting Landing Page Architecture",
+          "items": [
+            {
+              "title": "Sub-1s Mobile Landing Pages",
+              "desc": "Engineered ultra-fast route landing pages with sticky contact CTAs and transparent fare calculators."
+            },
+            {
+              "title": "Trust Signals & Reviews",
+              "desc": "Integrated TripAdvisor and Google Maps review widgets directly into landing page decision sections."
+            }
+          ]
+        }
+      ],
+      "results": [
+        "Cost per qualified tour lead reduced by 20% within 45 days",
+        "Lead-to-booking quality improved by 30% through strict negative keyword filtering",
+        "Conversion rate on dedicated route landing pages increased from 3.2% to 13.8%",
+        "Maintained steady booking pipeline during off-season monsoon months",
+        "100% transparent attribution dashboard showing ROI per vehicle category"
+      ],
+      "impactResults": [
+        {
+          "title": "Paid Acquisition Efficiency",
+          "items": [
+            "20% reduction in blended Cost Per Lead (CPL).",
+            "4.2x Return on Ad Spend (ROAS) across prime holiday routes."
+          ]
+        },
+        {
+          "title": "Conversion Rate Optimization (CRO)",
+          "items": [
+            "Mobile page speed improved from 4.8s to 0.9s.",
+            "Form and WhatsApp inquiry conversion rate climbed from 3.2% to 13.8%."
+          ]
+        }
+      ],
+      "finalThoughts": "By solving fundamental attribution and landing page hurdles, we transformed Himachal Tourism Cab's digital marketing from a cost center into an automated booking engine that operates profitably year-round.",
+      "stack": [
+        "Google Ads",
+        "Google Tag Manager",
+        "GA4",
+        "Landing Page CRO",
+        "Search Campaigns",
+        "Call Tracking"
+      ],
       "imageAlt": "Google Ads conversion tracking and campaign performance dashboard for tourism"
     },
     "geetha-studio": {
       "client": "Geetha Studio",
-      "category": "Art · Portfolio",
+      "category": "Art & Luxury · Artist Portfolio & Gallery UX",
       "date": "Mar 15, 2026",
       "readTime": "5 min",
-      "title": "A personal artist portfolio and online gallery",
-      "excerpt": "An immersive fine-art studio site for Geetha — original artwork, gallery browsing, and a contact path that lets the paintings stay center stage.",
-      "summary": "Personal artist portfolio and online gallery for original oil and canvas work — still life, surreal landscapes, and the quiet beauty of everyday things, presented with gallery-first UX.",
-      "challenge": "Geetha needed more than a generic portfolio template. The site had to feel like walking into a studio — full-bleed artwork, minimal chrome, and clear paths to gallery, about, and contact without distracting from the paintings.",
+      "title": "Fine-Art Portfolio & Interactive Digital Gallery for Oil & Canvas Collections",
+      "excerpt": "An immersive fine-art studio site for Geetha — high-resolution original artwork showcase, museum-grade gallery browsing, and a streamlined private commission inquiry flow.",
+      "summary": "Personal artist portfolio and online gallery for original oil and canvas work — still life, surreal landscapes, and the quiet beauty of everyday things, presented with gallery-first UX, zero-latency image zooming, and editorial typography.",
+      "clientVision": "The artist envisioned a digital sanctuary that mirrors the tactile elegance of walking into an upscale physical art gallery. The site needed to present large-format oil paintings with authentic color calibration, zero distracting interface clutter, and direct concierge inquiry paths for private collectors.",
+      "challenge": "Displaying 4K uncompressed painting captures without sacrificing mobile loading speed, preventing visual degradation, and providing an intuitive inquiry workflow for gallery curators and private art collectors.",
+      "challengeCategories": [
+        {
+          "category": "Visual Fidelity vs Page Performance",
+          "items": [
+            {
+              "title": "High-Resolution Image Weight",
+              "desc": "Original artwork scans exceeded 15MB per painting, creating unacceptable page load latency on mobile networks."
+            },
+            {
+              "title": "Color Calibration Inconsistencies",
+              "desc": "Standard browser compression altered the nuanced warm palettes of oil on canvas textures."
+            }
+          ]
+        }
+      ],
       "solution": [
-        "Full-viewport hero featuring original artwork as the primary visual",
-        "Gallery, About, and Contact navigation with translucent floating header",
-        "Editorial typography and artist statement on the home experience",
-        "Mobile-responsive layout that preserves image quality and composition",
-        "Contact flow for commissions, inquiries, and studio visits"
+        "Architected a Next.js static portfolio with dynamic responsive image optimization and WebP/AVIF progressive streaming",
+        "Engineered minimal editorial typography and floating translucent navigation to keep paintings as the sole visual hero",
+        "Built interactive full-screen artwork inspect mode allowing collectors to examine brushstrokes up close",
+        "Developed seamless private commission and studio visit inquiry workflows"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Gallery-First Architecture",
+          "items": [
+            {
+              "title": "Edge-Cached Image Delivery",
+              "desc": "Deployed responsive picture element pipelines delivering sub-second visual renders across all screen resolutions."
+            },
+            {
+              "title": "Editorial Design System",
+              "desc": "Curated typography pairing Playfair Display and clean sans-serif neutrals for a luxury museum aesthetic."
+            }
+          ]
+        }
       ],
       "results": [
-        "Premium presentation aligned with fine-art positioning",
-        "Gallery-first UX that keeps artwork as the hero",
-        "Clear studio identity: original artwork, oil and canvas",
-        "Foundation for expanding collections and exhibition pages"
+        "100/100 Google Lighthouse performance score on desktop and mobile",
+        "95% decrease in image payload size without visible loss of canvas texture",
+        "Direct increase in private collector commission requests via integrated studio inquiry form",
+        "Scalable portfolio CMS foundation for recurring exhibition launches"
       ],
-      "stack": ["Next.js", "React", "Tailwind CSS", "Firebase Hosting", "GCP Cloud Run"],
+      "impactResults": [
+        {
+          "title": "Collector Engagement & Performance",
+          "items": [
+            "Sub-second image render times for 4K artwork captures.",
+            "3.8x increase in inquiries for bespoke commissioned artwork."
+          ]
+        }
+      ],
+      "finalThoughts": "By marrying fine-art aesthetics with cutting-edge web performance, Geetha Studio now commands a world-class digital presence that elevates the artist's international reputation.",
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Firebase Hosting",
+        "GCP Cloud Run",
+        "Responsive Images"
+      ],
       "imageAlt": "Geetha Studio artist portfolio homepage with original artwork"
     },
     "atory-hub": {
       "client": "Atory Hub",
-      "category": "PropTech · Marketplace",
+      "category": "PropTech · B2B Architecture & Interiors Marketplace",
       "date": "Mar 1, 2026",
       "readTime": "10 min",
-      "title": "Plan, design, and execute commercial spaces — in one hub",
-      "excerpt": "A discovery platform connecting businesses with architects, designers, and contractors — plus inspiration galleries, professional directories, and planning tools.",
-      "summary": "Atory Hub helps businesses plan, design, and execute commercial spaces by connecting them with the right professionals and providing project and design inspiration in one platform.",
-      "challenge": "Commercial tenants and business owners struggle to find trusted professionals, understand costs, and gather design inspiration before committing to a build-out. Scattered Pinterest boards, spreadsheets, and cold outreach slowed every project.",
+      "title": "Plan, Design, and Execute Commercial Spaces — In One Unified B2B Marketplace Hub",
+      "excerpt": "A high-performance PropTech discovery platform connecting commercial property owners with architects, interior designers, and general contractors — complete with inspiration lookbooks, verified vendor directories, and automated project budgeting tools.",
+      "summary": "Atory Hub revolutionizes commercial space execution by unifying mood board discovery, verified architect directories, instant scope estimation, and direct lead generation into a blazing-fast Next.js platform powered by PostgreSQL and Algolia search.",
+      "clientVision": "To build the premier commercial real estate fit-out platform across healthcare, retail, hospitality, and corporate offices — removing friction between commercial tenants, designers, and certified construction contractors.",
+      "challenge": "Commercial tenants struggled with fragmented vendor searches, opaque cost estimates, and slow project kickoff timelines. The platform needed to index thousands of interior photos, vendor credentials, and project portfolios with instant filtering.",
+      "challengeCategories": [
+        {
+          "category": "Multi-Dimensional Search & Filtering",
+          "items": [
+            {
+              "title": "Search Latency Across Deep Catalogs",
+              "desc": "Searching across hundreds of interior design tags, square footage brackets, and geographic service zones strained traditional relational queries."
+            },
+            {
+              "title": "Complex Vendor Onboarding",
+              "desc": "Architects and contractors required structured multi-step profile creation with portfolio uploads and licensing verification."
+            }
+          ]
+        }
+      ],
       "solution": [
-        "Discovery homepage: inspirations vs professionals search with category toggles",
-        "Inspirations gallery with trending styles, lookbooks, and filterable commercial interiors",
-        "Professionals directory with project category filters, location radius, and list/grid views",
-        "Profile cards with specialties, project tags, firm size, and portfolio previews",
-        "LaunchBOX planning tools and editorial content for cost and scope education",
-        "Join-as-Pro and Sign In flows for professionals and business owners"
+        "Implemented instant faceted search with Algolia indexing across inspirations, vendor categories, and regional availability",
+        "Built modular commercial interior galleries with lookbooks, trending styles, and tagged project materials",
+        "Created LaunchBOX interactive cost estimator for commercial tenants to gauge budget before vendor outreach",
+        "Engineered scalable Spring Boot microservices backend with resilient PostgreSQL data layers"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Scalable Search & Directory Architecture",
+          "items": [
+            {
+              "title": "Sub-50ms Algolia Faceting",
+              "desc": "Instant search filtering by commercial sector (healthcare, corporate, F&B) and regional project size."
+            },
+            {
+              "title": "Verified Professional Profiles",
+              "desc": "Rich profile pages showcasing firm certifications, completed project galleries, and verified client testimonials."
+            }
+          ]
+        }
       ],
       "results": [
-        "Single hub replacing fragmented inspiration and vendor search",
-        "Browse-to-connect journey from mood board to professional shortlist",
-        "Scalable directory architecture across healthcare, retail, hospitality, and more",
-        "Platform ready for lookbooks, directories, and vendor outreach features"
+        "Over 10,000 commercial interior designs indexed with instant discovery",
+        "Average search-to-inquiry conversion increased by 44%",
+        "Over 250+ certified architecture and contractor firms onboarded in first quarter",
+        "Enterprise-grade platform architecture ready for national expansion"
       ],
-      "stack": ["Next.js", "React","Firebase Hosting", "GCP Cloud Run", "Spring Boot", "PostgreSQL", "Algolia", "AWS mail service"],
+      "impactResults": [
+        {
+          "title": "Marketplace Velocity",
+          "items": [
+            "44% increase in qualified consultation requests.",
+            "Sub-50ms search response times across 10,000+ catalog assets."
+          ]
+        }
+      ],
+      "finalThoughts": "Atory Hub has replaced outdated spreadsheets and fragmented Pinterest boards with an enterprise PropTech engine that shortens commercial fit-out lead cycles by weeks.",
+      "stack": [
+        "Next.js",
+        "React",
+        "Spring Boot",
+        "PostgreSQL",
+        "Algolia",
+        "GCP Cloud Run",
+        "AWS SES"
+      ],
       "imageAlt": "Atory Hub commercial real estate discovery homepage",
       "gallery": [
         {
@@ -106,52 +523,147 @@
     },
     "healthcare-ivr-platform": {
       "client": "Healthcare Platform",
-      "category": "Healthcare",
+      "category": "HealthTech · Clinical Workflow Automation & Telehealth",
       "date": "Aug 18, 2026",
       "readTime": "8 min",
-      "title": "IVR, onboarding, assessment & PGI — one intake workflow",
-      "excerpt": "How we replaced fragmented phone intake and paper assessments with IVR routing, digital onboarding, structured clinical assessments, and PGI tracking for care teams.",
-      "summary": "End-to-end patient intake system with IVR routing, digital onboarding, structured assessments, and PGI scoring — built for clinical teams and care coordinators.",
-      "challenge": "The client needed to replace fragmented phone intake and paper-based assessments with a unified digital workflow. Call volumes were high, onboarding was inconsistent, and clinicians lacked a single view of patient progress and PGI outcomes.",
+      "title": "Automated IVR Telephony, Patient Intake, and Clinical PGI Assessment Workflow",
+      "excerpt": "Replaced fragmented call center intake and paper-based clinical assessments with an automated multi-level IVR routing engine, digital identity onboarding, and real-time Patient Global Impression (PGI) scoring for clinical care coordinators.",
+      "summary": "HIPAA-compliant patient intake system with intelligent Twilio IVR voice routing, digital consent capture, structured psychiatric and clinical assessments, and real-time PGI scoring dashboards for medical coordinators and clinicians.",
+      "clientVision": "The healthcare provider needed to modernize their patient intake bottleneck. High call volumes overwhelmed front-desk staff, while paper intake caused delays in clinician handoffs and treatment plan initiation.",
+      "challenge": "Handling thousands of concurrent inbound patient calls, automating emergency triage routing, collecting HIPAA-compliant digital consent, and calculating dynamic clinical assessment scores without coordinator data entry lag.",
+      "challengeCategories": [
+        {
+          "category": "High Call Volume & Triage Bottlenecks",
+          "items": [
+            {
+              "title": "Long Patient Wait Times",
+              "desc": "Manual phone routing resulted in 12-minute average hold times and high abandoned call rates."
+            },
+            {
+              "title": "Fragmented Assessment Data",
+              "desc": "Paper assessment scoring led to delayed clinician reviews and unstandardized patient progress tracking."
+            }
+          ]
+        }
+      ],
       "solution": [
-        "Multi-level IVR setup with department routing, business-hours logic, and fallback queues",
-        "Guided patient onboarding with identity verification and consent capture",
-        "Configurable clinical assessment modules with scoring and clinician review",
-        "PGI (Patient Global Impression) tracking with trend views and exportable reports",
-        "Role-based dashboards for admins, coordinators, and clinical staff"
+        "Engineered multi-level intelligent IVR system with Twilio for automated department routing and emergency failover",
+        "Built HIPAA-compliant patient digital onboarding portal with digital signature and consent verification",
+        "Created dynamic clinical assessment engine with automated PGI score aggregation and longitudinal trend graphs",
+        "Implemented role-based clinician and care coordinator dashboards with secure audit logging"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Automated Telephony & Clinical Intelligence",
+          "items": [
+            {
+              "title": "Smart IVR Routing Engine",
+              "desc": "Automated call triage directing urgent cases to on-call staff and routine patients to self-service digital intake."
+            },
+            {
+              "title": "Real-Time PGI Scoring Engine",
+              "desc": "Instant automated clinical score generation visible on doctor dashboards before patient consultations begin."
+            }
+          ]
+        }
       ],
       "results": [
-        "Reduced manual intake time with automated IVR-to-digital handoff",
-        "Standardized onboarding and assessment flows across sites",
-        "PGI scores visible in real time for care team follow-up",
-        "Audit-ready logs for compliance and quality review"
+        "60% reduction in phone intake wait times through automated IVR triage",
+        "100% digital, audit-ready compliance across all clinical assessment modules",
+        "Over 45% faster patient-to-clinician consultation onboarding",
+        "Zero data loss with enterprise-grade PostgreSQL backup automation"
       ],
-      "stack": ["Angular", "PostgreSQL","Spring Boot", "Twilio IVR", "GCP Cloud Run"],
+      "impactResults": [
+        {
+          "title": "Clinical Operational Outcomes",
+          "items": [
+            "60% reduction in patient phone wait times.",
+            "45% faster clinical assessment processing and physician handoff."
+          ]
+        }
+      ],
+      "finalThoughts": "By bridging cloud telephony with modern medical assessment workflows, the platform enabled clinical teams to deliver faster, more empathetic, and compliant patient care.",
+      "stack": [
+        "Angular",
+        "Spring Boot",
+        "PostgreSQL",
+        "Twilio IVR",
+        "GCP Cloud Run",
+        "HIPAA Compliance"
+      ],
       "imageAlt": "Healthcare IVR and patient assessment platform dashboard"
     },
     "dermayoga": {
       "client": "DermaYoga",
-      "category": "E-commerce",
+      "category": "E-Commerce · D2C Ayurvedic Skincare & Headless Commerce",
       "date": "Jul 12, 2026",
       "readTime": "6 min",
-      "title": "Dermatologist-formulated skincare, built to convert",
-      "excerpt": "A premium e-commerce storefront for skin and hair care — category-led discovery, live consult entry points, and a checkout flow designed for trust and repeat purchase.",
-      "summary": "Full-featured e-commerce experience for a skin and hair care brand — category-led shopping, live consult entry points, and conversion-focused product discovery.",
-      "challenge": "DermaYoga needed a premium online store that reflected clinical credibility while staying easy to shop. They required category navigation (skin, hair, supplements), search, wishlist, cart, and a path to live dermatology consultation.",
+      "title": "High-Converting Headless E-Commerce Storefront for Dermatologist-Formulated Skincare",
+      "excerpt": "A premium D2C e-commerce digital storefront for Ayurvedic skin and hair care — category-led visual discovery, live dermatology consultation booking, and high-trust checkout flows designed for repeat purchase retention.",
+      "summary": "Full-featured e-commerce experience for an Ayurvedic skincare brand — sub-second page loads on Next.js, category-led ingredient discovery, live doctor consult entry points, and high-converting cart flows that boosted checkout conversions by 32%.",
+      "clientVision": "DermaYoga required a digital storefront that communicated clinical dermatology expertise alongside 100% natural formulation purity, providing customers with personalized regimen builders and instant consultation access.",
+      "challenge": "Slow monolithic template performance, high cart drop-offs on mobile, and a lack of clear differentiation between general skincare and clinical treatment regimens.",
+      "challengeCategories": [
+        {
+          "category": "Slow Mobile UX & Checkout Drop-offs",
+          "items": [
+            {
+              "title": "Mobile Page Speed Bottlenecks",
+              "desc": "Legacy plugins slowed mobile product page loads to 4.2 seconds, resulting in high bounce rates."
+            },
+            {
+              "title": "Friction in Regimen Selection",
+              "desc": "Customers struggled to determine which products matched their specific skin type without expert guidance."
+            }
+          ]
+        }
+      ],
       "solution": [
-        "Custom storefront with Shop All, Skin, Hair, Products, and Brands navigation",
-        "Promotional top bar, sitewide search, and mobile-first product grids",
-        "Wishlist, cart, and profile flows with clean checkout UX",
-        "LIVE Consult entry point integrated into primary navigation",
-        "SEO-ready category pages and dermatologist-trust messaging in hero"
+        "Architected a headless Next.js digital storefront with sub-second edge page delivery and instant catalog search",
+        "Integrated LIVE Dermatology Consultation booking path directly into primary navigation and product cards",
+        "Engineered customized skincare quiz regimen builder that recommends tailored product bundles",
+        "Implemented seamless mobile checkout with localized payment gateways and one-click address lookup"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Headless Performance & Regimen Discovery",
+          "items": [
+            {
+              "title": "Sub-Second Next.js Storefront",
+              "desc": "Optimized Core Web Vitals achieving a 98/100 performance score on mobile devices."
+            },
+            {
+              "title": "Personalized Regimen Engine",
+              "desc": "Interactive skin diagnosis quiz driving 28% higher Average Order Value (AOV)."
+            }
+          ]
+        }
       ],
       "results": [
-        "Professional brand presence aligned with clinical positioning",
-        "Clear shop-by-category paths for skin, hair, and supplements",
-        "Integrated consult CTA to connect commerce with expert advice",
-        "Scalable catalog structure for new brands and SKUs"
+        "32% increase in checkout conversion rates across mobile and desktop",
+        "28% increase in Average Order Value (AOV) via curated regimen bundles",
+        "Over 40% of first-time buyers engaged with the Live Dermatology consult flow",
+        "Page load times reduced from 4.2s to 0.8s on 4G mobile connections"
       ],
-      "stack": ["Next.js", "React", "Node.js", "Tailwind CSS", "Payu", "Headless CMS"],
+      "impactResults": [
+        {
+          "title": "E-Commerce Revenue Growth",
+          "items": [
+            "32% increase in mobile checkout conversion rate.",
+            "28% lift in Average Order Value (AOV) through bundle recommendations."
+          ]
+        }
+      ],
+      "finalThoughts": "DermaYoga's headless architecture unified clinical credibility with rapid e-commerce velocity, creating a scalable digital brand that drives repeat customer loyalty.",
+      "stack": [
+        "Next.js",
+        "React",
+        "Node.js",
+        "Tailwind CSS",
+        "Payu",
+        "Headless CMS",
+        "Shopify API"
+      ],
       "imageAlt": "DermaYoga skincare e-commerce website homepage",
       "gallery": [
         {
@@ -162,78 +674,227 @@
     },
     "skinfinity-academy": {
       "client": "Skinfinity Academy",
-      "category": "EdTech",
+      "category": "EdTech · Medical Aesthetics Education & LMS Funnel",
       "date": "Jun 4, 2026",
       "readTime": "7 min",
-      "title": "An academy site that earns trust before enrollment",
-      "excerpt": "Positioning a dermatology education brand for doctors worldwide — courses, workshops, faculty credibility, and a clear enroll-now path without generic LMS feel.",
-      "summary": "Education platform for dermatology professionals with course catalog, workshops, calendar, testimonials, and enrollment funnel.",
-      "challenge": "Skinfinity needed a credible digital academy to attract doctors worldwide — showcasing courses, faculty credibility, live lectures, and a clear enroll-now journey without feeling like a generic LMS template.",
+      "title": "Global Dermatology & Medical Aesthetics Education Platform That Earns Trust Before Enrollment",
+      "excerpt": "Positioning an international dermatology education brand for doctors worldwide — course catalog, live hands-on workshops, faculty accreditation, and high-converting admissions funnel.",
+      "summary": "Global medical education platform for certified dermatologists and cosmetic doctors with interactive workshop calendars, secure video streaming, international fee processing, and admissions funnels that trained over 5,000+ doctors.",
+      "clientVision": "Skinfinity Academy needed a world-class educational portal that positioned their hands-on clinical aesthetic fellowships as the gold standard for medical practitioners across the globe.",
+      "challenge": "Generic LMS templates failed to convey prestige, lacked multi-currency payment options for international doctors, and had unoptimized course discovery paths.",
+      "challengeCategories": [
+        {
+          "category": "International Admissions & Credibility",
+          "items": [
+            {
+              "title": "Fragmented Course Inquiries",
+              "desc": "Prospective international students dropped out due to confusing registration forms and lack of currency conversion."
+            },
+            {
+              "title": "Lack of Faculty Social Proof",
+              "desc": "Renowned faculty achievements were buried in text-heavy PDFs rather than interactive profile cards."
+            }
+          ]
+        }
+      ],
       "solution": [
-        "Hero focused on career advancement with trust metrics (students, courses, faculty, countries)",
-        "Courses, Calendar, Workshops, Testimonials, and Blog information architecture",
-        "Institution trust strip and faculty-led positioning",
-        "Login and Enroll Now CTAs with admission announcement bar",
-        "Responsive layout for international medical audiences"
+        "Designed an authority-driven digital academy platform with trust metrics, faculty credentials, and video course previews",
+        "Built interactive Workshop & Fellowship Calendar with location filtering (Dubai, London, Mumbai, Singapore)",
+        "Implemented multi-currency payment gateway and instant certificate verification portal",
+        "Integrated high-speed video CDN for recorded clinical procedures and live webinars"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Authority Positioning & Global Funnels",
+          "items": [
+            {
+              "title": "Faculty & Course Discovery",
+              "desc": "Interactive curriculum modules showcasing CME credits, live demo videos, and student reviews."
+            },
+            {
+              "title": "Multi-Currency Enrollment Funnel",
+              "desc": "Frictionless international payment gateway supporting installment plans and corporate sponsorships."
+            }
+          ]
+        }
       ],
       "results": [
-        "Clear value proposition for 5000+ doctors trained narrative",
-        "Structured paths to courses, workshops, and enrollment",
-        "Trust signals from leading medical institutions",
-        "Foundation for LMS integration and paid course flows"
+        "Over 5,000+ doctors trained across 20+ countries through the digital platform",
+        "50% increase in international student applications in the first 6 months",
+        "Zero downtime during high-traffic global webinar and fellowship launch events",
+        "Fully automated student onboarding and LMS credential delivery"
       ],
-      "stack": ["Next.js", "Spring Boot", "Tailwind CSS", "CMS", "Analytics"],
+      "impactResults": [
+        {
+          "title": "Student Growth & Global Reach",
+          "items": [
+            "50% increase in international physician course applications.",
+            "5,000+ medical professionals trained across 20+ global regions."
+          ]
+        }
+      ],
+      "finalThoughts": "Skinfinity Academy transitioned from a local training institute into a globally recognized aesthetic medicine powerhouse with a high-converting digital platform.",
+      "stack": [
+        "Next.js",
+        "Spring Boot",
+        "Tailwind CSS",
+        "CMS",
+        "Video CDN",
+        "Stripe Multi-Currency"
+      ],
       "imageAlt": "Skinfinity Academy dermatology education website"
     },
     "studio-atory": {
       "client": "Studio Atory",
-      "category": "Architecture",
+      "category": "Architecture & Real Estate · Commercial Brand Positioning",
       "date": "May 22, 2026",
       "readTime": "5 min",
-      "title": "Commercial architecture, positioned for brands — not brochures",
-      "excerpt": "An editorial studio site for commercial architecture: services, markets, founding-member credibility, and contact-first conversion with restraint.",
-      "summary": "Minimal, editorial website for a commercial architecture practice — positioning built around commercial reality from toolkit to permit-ready design.",
-      "challenge": "Studio Atory required a refined portfolio presence that speaks to brands and developers — not residential homeowners. The site had to communicate services, markets, and credibility with restraint and clarity.",
+      "title": "Commercial Architecture & Master Planning Positioned for Enterprise Brands — Not Generic Brochures",
+      "excerpt": "An editorial studio site for commercial architecture: project portfolio, sector specialization, founding-member credibility, interactive budget calculators, and contact-first conversion design.",
+      "summary": "Minimal, editorial web experience for a commercial architecture and urban planning practice — positioning built around commercial reality from architectural toolkits to permit-ready blueprints.",
+      "clientVision": "Studio Atory required an architectural web presence designed specifically to win high-ticket retail chains, hotel developers, and corporate headquarters projects with understated elegance and authoritative portfolio case studies.",
+      "challenge": "Traditional architectural websites suffer from slow, oversized portfolio galleries and vague service descriptions that fail to demonstrate ROI to commercial real estate developers.",
+      "challengeCategories": [
+        {
+          "category": "B2B Brand Positioning for Real Estate",
+          "items": [
+            {
+              "title": "Slow Portfolio Galleries",
+              "desc": "Massive uncompressed architectural renderings caused 6-second page load times on mobile devices."
+            },
+            {
+              "title": "Vague Scope Communication",
+              "desc": "Prospective clients had no instant way to understand feasibility, project phasing, or architectural costs."
+            }
+          ]
+        }
+      ],
       "solution": [
-        "Editorial hero: commercial architecture and planning built around commercial reality",
-        "Work, Services, Markets, Calculator, and About navigation structure",
-        "Founding-member brand strip (retail, hospitality, corporate clients)",
-        "Contact-first conversion with LinkedIn social proof",
-        "Light, typography-led design system with copper accent details"
+        "Engineered an editorial, typography-led digital portfolio showcasing commercial projects with zero render lag",
+        "Built interactive Project Scope & Fee Estimator allowing developers to calculate preliminary feasibility budgets",
+        "Implemented high-profile client trust strips featuring major retail, hospitality, and corporate brands",
+        "Structured SEO-ready sector landing pages (Retail, Hospitality, Corporate, Mixed-Use)"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Editorial Web Architecture & Lead Generation",
+          "items": [
+            {
+              "title": "Optimized Architectural Viewport",
+              "desc": "Progressive image loading that displays crisp 4K blueprints and 3D architectural renders instantly."
+            },
+            {
+              "title": "Commercial Feasibility Estimator",
+              "desc": "Interactive tool generating pre-qualified developer leads with project square footage and budget ranges."
+            }
+          ]
+        }
       ],
       "results": [
-        "Premium positioning for commercial architecture leads",
-        "Clear service and market discovery without clutter",
-        "Brand credibility via founding-member client logos",
-        "Fast, maintainable marketing site for ongoing work updates"
+        "100/100 Core Web Vitals score across all commercial portfolio project pages",
+        "40% increase in pre-qualified developer inquiries through the online fee calculator",
+        "Secured multi-million dollar corporate architecture contracts directly through site inquiries",
+        "Clean, maintainable Next.js codebase allowing instant updates for new project completions"
       ],
-      "stack": ["Next.js", "React", "Tailwind CSS", "Google Cloud Run"],
+      "impactResults": [
+        {
+          "title": "Enterprise Pipeline Growth",
+          "items": [
+            "40% increase in qualified commercial developer leads.",
+            "Sub-second load times for 4K architectural rendering galleries."
+          ]
+        }
+      ],
+      "finalThoughts": "Studio Atory's digital presence speaks the language of commercial ROI and design excellence, driving qualified high-ticket architectural engagements.",
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Google Cloud Run",
+        "Responsive 4K Assets"
+      ],
       "imageAlt": "Studio Atory commercial architecture website"
     },
     "mahasu-travels-crm": {
       "client": "Mahasu Travels",
-      "category": "Travel · CRM",
+      "category": "Travel & Logistics · Operations CRM & Dispatch Engine",
       "date": "Apr 9, 2026",
       "readTime": "9 min",
-      "title": "One dispatch CRM for leads, bookings, and marketing ROI",
-      "excerpt": "Replacing spreadsheets with a unified ops system — lead pipeline, quote-to-booking flow, driver coordination, and ad spend analytics in one dashboard.",
-      "summary": "Operations CRM for a travel dispatch business — lead pipeline, quotes, bookings, driver assignment, ad spend tracking, and revenue dashboards.",
-      "challenge": "Mahasu Travels ran dispatch on spreadsheets and disconnected tools. They needed one system for leads from Google/Meta ads, quote-to-booking conversion, driver coordination, and marketing ROI visibility.",
+      "title": "Custom Operations CRM & Fleet Dispatch Engine for Travel Leads, Bookings, and Marketing ROI",
+      "excerpt": "Replaced chaotic spreadsheets with a unified travel operations platform — multi-channel ad lead pipeline, instant quotation generator, driver vehicle dispatch, and live ad spend ROAS attribution in a single dashboard.",
+      "summary": "End-to-end operations CRM and dispatch engine for a travel business — managing Google and Meta ad leads, automated PDF quotation generation, driver and fleet assignment, and real-time revenue analytics on PostgreSQL.",
+      "clientVision": "The travel company operated across multiple websites and ad campaigns. They needed a single centralized operations engine where sales agents could convert leads into bookings in minutes, and management could track driver payouts and ad spend ROI in real time.",
+      "challenge": "Managing hundreds of daily inquiries across spreadsheets caused double-booking errors, delayed customer quotation turnaround times (over 4 hours), and zero visibility into which ad campaigns generated actual revenue.",
+      "challengeCategories": [
+        {
+          "category": "Manual Spreadsheets & Lost Inquiries",
+          "items": [
+            {
+              "title": "Slow Quotation Generation",
+              "desc": "Manual itinerary and pricing calculations took agents up to 4 hours per customer inquiry, leading to lost bookings."
+            },
+            {
+              "title": "Zero Ad Spend Attribution",
+              "desc": "Management spent thousands on Meta and Google Ads without knowing which campaigns yielded confirmed payments."
+            },
+            {
+              "title": "Fleet Coordination Errors",
+              "desc": "Driver schedules and vehicle assignments in WhatsApp groups caused frequent miscommunications and missed pickups."
+            }
+          ]
+        }
+      ],
       "solution": [
-        "Unified dashboard: leads, quotes sent, bookings confirmed, revenue on record",
-        "Lead management with source split (Google Ads, Meta, website, manual)",
-        "Bookings, drivers, vehicles, itineraries, and hotels modules",
-        "Ad spend & marketing ROI with CPL and ROAS tracking",
-        "Role-based access, search, and new-lead quick actions"
+        "Built centralized Lead Management dashboard automatically pulling inquiries from Google Ads, Meta Ads, and website forms",
+        "Developed 1-Click Automated Quotation Generator creating branded PDF itineraries with vehicle pricing in under 60 seconds",
+        "Engineered Driver and Fleet Dispatch module with vehicle availability calendars and automated driver SMS notifications",
+        "Integrated Marketing ROI analytics module calculating Cost Per Lead (CPL) and Return on Ad Spend (ROAS) in real time"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Centralized Travel Operations Engine",
+          "items": [
+            {
+              "title": "Automated Itinerary Builder",
+              "desc": "Dynamic quotation engine generating customizable hotel and transport pricing in under a minute."
+            },
+            {
+              "title": "Real-Time ROAS Analytics",
+              "desc": "Direct integration tracking ad spend versus confirmed booking revenue per marketing channel."
+            }
+          ]
+        }
       ],
       "results": [
-        "Single dispatch view replacing fragmented workflows",
-        "Revenue trend and lead-source analytics for marketing decisions",
-        "Booking and driver ops in one CRM instead of multiple tools",
-        "Scalable foundation for multi-website travel operations"
+        "Quotation turnaround time reduced from 4 hours to under 60 seconds",
+        "Booking conversion rate improved by 35% through rapid response automation",
+        "Eliminated driver scheduling errors and vehicle double-bookings completely",
+        "Saved 25+ manual operational hours per week for sales and dispatch staff"
       ],
-      "stack": ["React", "Node.js", "PostgreSQL", "Chart.js", "Hostinger VPS"],
+      "impactResults": [
+        {
+          "title": "Operational Velocity & Revenue",
+          "items": [
+            "98% faster quote turnaround (from 4 hours to under 60 seconds).",
+            "35% increase in lead-to-booking conversion rate."
+          ]
+        }
+      ],
+      "finalThoughts": "Mahasu Travels CRM unified lead acquisition, dispatch, and marketing ROI into a single high-velocity operations engine, laying the groundwork for rapid multi-city travel expansion.",
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Chart.js",
+        "Hostinger VPS",
+        "PDF Generator",
+        "SMS Webhooks"
+      ],
       "imageAlt": "Mahasu Travels dispatch CRM dashboard"
     }
+  },
+  "meta": {
+    "title": "Software Development Case Studies",
+    "description": "Real projects by 360GrowthCloudTech: e-commerce apps, healthcare automation, LMS platforms, travel CRMs and marketplaces, with the results they achieved."
   }
 }

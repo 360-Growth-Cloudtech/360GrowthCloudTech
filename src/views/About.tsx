@@ -120,7 +120,7 @@ export default function About() {
           <motion.div
             {...fadeUp}
             className="rounded-3xl px-8 py-12 md:px-12 md:py-14"
-            style={{ backgroundColor: "#1a1512" }}
+            style={{ backgroundColor: "#0f172a" }}
           >
             <h2 className="display-heading text-3xl md:text-4xl text-white mb-4">{t("cta.title")}</h2>
             <p className="text-base leading-relaxed max-w-2xl mb-8" style={{ color: "rgba(255,255,255,0.55)" }}>

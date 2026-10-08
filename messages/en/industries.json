@@ -9,41 +9,69 @@
       "name": "Healthcare",
       "badge": "HIPAA Compliant",
       "desc": "Secure, compliant portals and telemedicine platforms.",
-      "bullets": ["Patient Portals", "Telehealth Apps", "EHR Integrations"]
+      "bullets": [
+        "Patient Portals",
+        "Telehealth Apps",
+        "EHR Integrations"
+      ]
     },
     "travel": {
       "name": "Travel & Tourism",
       "badge": "High Availability",
       "desc": "Robust booking engines built for seasonal traffic spikes.",
-      "bullets": ["Booking Engines", "Dynamic Pricing APIs", "Itinerary Planners"]
+      "bullets": [
+        "Booking Engines",
+        "Dynamic Pricing APIs",
+        "Itinerary Planners"
+      ]
     },
     "retail": {
       "name": "Retail",
       "badge": "Scalable",
       "desc": "Omnichannel e-commerce experiences that drive conversions.",
-      "bullets": ["E-commerce Platforms", "Inventory Management", "POS Integration"]
+      "bullets": [
+        "E-commerce Platforms",
+        "Inventory Management",
+        "POS Integration"
+      ]
     },
     "finance": {
       "name": "Finance",
       "badge": "Bank-Grade Security",
       "desc": "Secure fintech applications, payment gateways, and trading platforms.",
-      "bullets": ["Payment Gateways", "Trading Platforms", "Fraud Detection"]
+      "bullets": [
+        "Payment Gateways",
+        "Trading Platforms",
+        "Fraud Detection"
+      ]
     },
     "education": {
       "name": "Education",
       "badge": "Engaging",
       "desc": "Interactive LMS and EdTech platforms enabling remote learning.",
-      "bullets": ["Learning Management", "Virtual Classrooms", "Student Portals"]
+      "bullets": [
+        "Learning Management",
+        "Virtual Classrooms",
+        "Student Portals"
+      ]
     },
     "realEstate": {
       "name": "Real Estate",
       "badge": "Data-Driven",
       "desc": "Property management tools for modern brokerages.",
-      "bullets": ["Property Listings", "Virtual Tours", "CRM for Brokers"]
+      "bullets": [
+        "Property Listings",
+        "Virtual Tours",
+        "CRM for Brokers"
+      ]
     }
   },
   "cta": {
     "title": "Discuss your industry needs.",
     "subtitle": "Every industry is different. Let's find the right solution for yours."
+  },
+  "meta": {
+    "title": "Software for Healthcare, Finance & More",
+    "description": "Custom software for healthcare, finance, retail, travel, education and real estate, built for compliance, scale and measurable business results."
   }
 }

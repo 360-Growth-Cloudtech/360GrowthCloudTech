@@ -12,7 +12,7 @@ export function Aurora({ className }: { className?: string }) {
   const orbs = [
     {
       size: 520,
-      color: "rgba(232,82,26,0.16)",
+      color: "rgba(37,99,235,0.16)",
       left: "-8%",
       top: "-12%",
       duration: 22,
@@ -20,7 +20,7 @@ export function Aurora({ className }: { className?: string }) {
     },
     {
       size: 420,
-      color: "rgba(240,122,58,0.13)",
+      color: "rgba(59,130,246,0.13)",
       right: "-6%",
       top: "4%",
       duration: 26,
@@ -28,7 +28,7 @@ export function Aurora({ className }: { className?: string }) {
     },
     {
       size: 460,
-      color: "rgba(26,21,18,0.06)",
+      color: "rgba(15,23,42,0.06)",
       left: "35%",
       bottom: "-18%",
       duration: 30,

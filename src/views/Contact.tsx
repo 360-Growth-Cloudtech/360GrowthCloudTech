@@ -72,8 +72,8 @@ export default function Contact() {
               </div>
 
               {/* Schedule card */}
-              <div className="rounded-2xl p-5 relative overflow-hidden" style={{ backgroundColor: "#1a1512" }}>
-                <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 70% 60% at 50% 100%, rgba(232,82,26,0.22) 0%, transparent 70%)" }} />
+              <div className="rounded-2xl p-5 relative overflow-hidden" style={{ backgroundColor: "#0f172a" }}>
+                <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 70% 60% at 50% 100%, rgba(37,99,235,0.22) 0%, transparent 70%)" }} />
                 <div className="relative z-10">
                   <CalendarDays size={20} className="text-primary mb-2.5" />
                   <h4 className="font-bold text-white text-sm mb-1">{t("scheduleCard.title")}</h4>

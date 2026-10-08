@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Contact from "@/views/Contact";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
+import { BreadcrumbJsonLd } from "@/lib/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -14,8 +15,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "contact" });
 
   return buildPageMetadata({
-    title: t("page.label"),
-    description: t("page.subtitle"),
+    title: t("meta.title"),
+    description: t("meta.description"),
     path: "/contact",
     locale: locale as Locale,
   });
@@ -29,5 +30,16 @@ export default async function ContactPage({ params }: Props) {
   }
 
   setRequestLocale(locale);
-  return <Contact />;
+  const tCrumbs = await getTranslations({ locale, namespace: "common.breadcrumbs" });
+
+  return (
+    <>
+      <BreadcrumbJsonLd
+        locale={locale as Locale}
+        homeLabel={tCrumbs("home")}
+        items={[{ name: tCrumbs("contact"), path: "/contact" }]}
+      />
+      <Contact />
+    </>
+  );
 }

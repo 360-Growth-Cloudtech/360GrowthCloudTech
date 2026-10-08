@@ -11,30 +11,30 @@ function buildAutoReplyHtml(name: string): string {
   return `<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="margin:0;padding:0;background:#f0ebe0;font-family:'Segoe UI',Arial,sans-serif;">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f0ebe0;padding:32px 16px;">
+<body style="margin:0;padding:0;background:#f8fafc;font-family:'Segoe UI',Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f8fafc;padding:32px 16px;">
     <tr><td align="center">
-      <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:16px;overflow:hidden;border:1px solid rgba(26,21,18,0.08);">
-        <tr><td style="background:#e8521a;height:4px;font-size:0;line-height:0;">&nbsp;</td></tr>
+      <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:16px;overflow:hidden;border:1px solid rgba(15,23,42,0.08);">
+        <tr><td style="background:#2563eb;height:4px;font-size:0;line-height:0;">&nbsp;</td></tr>
         <tr><td style="padding:32px 28px;">
-          <p style="margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#e8521a;">360GrowthCloudTech</p>
-          <h1 style="margin:0 0 20px;font-size:22px;font-weight:800;color:#1a1512;line-height:1.3;">Thank you for reaching out</h1>
+          <p style="margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#2563eb;">360GrowthCloudTech</p>
+          <h1 style="margin:0 0 20px;font-size:22px;font-weight:800;color:#0f172a;line-height:1.3;">Thank you for reaching out</h1>
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#4a4038;">Hi ${greeting},</p>
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#4a4038;">
-            Thank you for contacting <strong style="color:#1a1512;">360GrowthCloudTech</strong>.
+            Thank you for contacting <strong style="color:#0f172a;">360GrowthCloudTech</strong>.
             We have received your message and a member of our team will get back to you shortly —
-            typically within <strong style="color:#1a1512;">2 business hours</strong> during weekdays.
+            typically within <strong style="color:#0f172a;">2 business hours</strong> during weekdays.
           </p>
           <p style="margin:0 0 24px;font-size:15px;line-height:1.65;color:#4a4038;">
             If your request is urgent, call us at
-            <a href="${CONTACT_PHONE_TEL}" style="color:#e8521a;text-decoration:none;"> ${CONTACT_PHONE}</a>
+            <a href="${CONTACT_PHONE_TEL}" style="color:#2563eb;text-decoration:none;"> ${CONTACT_PHONE}</a>
             or reply directly to this email.
           </p>
           <p style="margin:0;font-size:15px;line-height:1.65;color:#4a4038;">
             Best regards,<br>
-            <strong style="color:#1a1512;">360GrowthCloudTech Team</strong><br>
-            <a href="mailto:${CONTACT_EMAIL}" style="color:#e8521a;text-decoration:none;">${CONTACT_EMAIL}</a><br>
-            <a href="${CONTACT_PHONE_TEL}" style="color:#e8521a;text-decoration:none;">${CONTACT_PHONE}</a>
+            <strong style="color:#0f172a;">360GrowthCloudTech Team</strong><br>
+            <a href="mailto:${CONTACT_EMAIL}" style="color:#2563eb;text-decoration:none;">${CONTACT_EMAIL}</a><br>
+            <a href="${CONTACT_PHONE_TEL}" style="color:#2563eb;text-decoration:none;">${CONTACT_PHONE}</a>
           </p>
         </td></tr>
       </table>

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import CookiesPolicy from "@/views/CookiesPolicy";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
+import { BreadcrumbJsonLd } from "@/lib/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -29,5 +30,17 @@ export default async function CookiesPolicyPage({ params }: Props) {
   }
 
   setRequestLocale(locale);
-  return <CookiesPolicy />;
+  const t = await getTranslations({ locale, namespace: "legal" });
+  const tCrumbs = await getTranslations({ locale, namespace: "common.breadcrumbs" });
+
+  return (
+    <>
+      <BreadcrumbJsonLd
+        locale={locale as Locale}
+        homeLabel={tCrumbs("home")}
+        items={[{ name: t("cookies.title"), path: "/cookies-policy" }]}
+      />
+      <CookiesPolicy />
+    </>
+  );
 }

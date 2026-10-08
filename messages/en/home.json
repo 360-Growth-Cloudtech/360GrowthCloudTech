@@ -1,127 +1,1071 @@
 {
   "meta": {
-    "title": "360CloudTech — Custom Software, Cloud & Digital Marketing",
-    "description": "End-to-end digital transformation for ambitious businesses — custom software, cloud infrastructure, CRM tools, and growth marketing."
+    "title": "Custom Software Development Company | 360GrowthCloudTech",
+    "description": "AI-first custom software development company. We build enterprise web, mobile, SaaS and cloud platforms with fixed scope, weekly demos and full IP ownership."
   },
   "hero": {
-    "label": "✦ Clean Code. Scalable Architecture. ✦",
-    "titleLine1": "We build the product.",
-    "titleLine2a": "You build the",
-    "titleLine2b": "company.",
-    "subtitle": "We're the engineering team behind ambitious founders — shipping web apps, SaaS tools, and digital products on modern, maintainable technology.",
-    "trustItems": {
-      "noLockIn": "No lock-in contracts",
-      "soc2": "SOC 2 Certified",
-      "globalDelivery": "Global delivery"
-    }
-  },
-  "trustedBy": {
-    "label": "Trusted by industry leaders",
-    "companies": ["HealthTech Corp", "Peak Retail", "Global Travel", "FinServe Group", "MedCare Health", "CloudFirst"]
-  },
-  "whatWeDo": {
-    "label": "What We Do",
-    "title": "Digital engineering and design, under one roof",
-    "subtitle": "Seven disciplines, one team. From product strategy through cloud architecture to production deployment, without a handoff."
-  },
-  "expertise": {
-    "label": "Our Expertise",
-    "titleLine1": "Everything you need",
-    "titleLine2": "to succeed online.",
-    "subtitle": "From idea to a live, growing product — we handle every layer of the stack.",
-    "services": {
-      "customSoftware": {
-        "title": "Custom Software",
-        "desc": "High-performance web & mobile apps built for scale.",
-        "tag": "Engineering"
+    "badge": "Next-Gen Tech: GenAI, Upgrade, Codebase, or Modernize Legacy Apps",
+    "titlePrefix": "Our AI Custom Enterprise",
+    "titleHighlight": "Software Development",
+    "titleSuffix": "Company Building Systems Behind Your Business Evolution",
+    "subtitle": "Transform ideas into intelligent, custom enterprise systems, our modern software development services engineer software built to scale.",
+    "checkpoints": [
+      "Direct ROI Focus",
+      "High Scalability",
+      "98.4% Code Ownership",
+      "Scalable Architecture",
+      "Transparent Project Delivery"
+    ],
+    "ratings": {
+      "clutch": {
+        "score": "4.9",
+        "label": "Clutch Review",
+        "stars": 5
       },
-      "customCrm": {
-        "title": "Custom CRM Tools",
-        "desc": "Bespoke CRM systems that fit your exact workflow.",
-        "tag": "Product"
-      },
-      "digitalMarketing": {
-        "title": "Digital Marketing",
-        "desc": "Data-driven ads and comprehensive SEO growth.",
-        "tag": "Growth"
-      },
-      "cloudInfrastructure": {
-        "title": "Cloud Infrastructure",
-        "desc": "Scalable cloud setup and robust CI/CD pipelines.",
-        "tag": "DevOps"
-      },
-      "ecommerce": {
-        "title": "E-commerce",
-        "desc": "End-to-end stores with seamless payment flows.",
-        "tag": "Commerce"
-      }
-    }
-  },
-  "stats": {
-    "projectsDelivered": { "value": "250+", "label": "Projects Delivered" },
-    "uptime": { "value": "99.9%", "label": "Uptime Achieved" },
-    "enterpriseClients": { "value": "50+", "label": "Enterprise Clients" },
-    "yearsExperience": { "value": "10+", "label": "Years Experience" }
-  },
-  "whyChooseUs": {
-    "label": "Why Choose Us",
-    "titleLine1": "One partner for your",
-    "titleLine2": "entire journey.",
-    "subtitle": "We become your long-term technology partner — helping you grow, adapt, and lead in your industry with confidence.",
-    "features": {
-      "fastDelivery": {
-        "title": "Fast Delivery",
-        "desc": "Agile sprints with weekly demos — see progress from day one."
-      },
-      "enterpriseSecurity": {
-        "title": "Enterprise Security",
-        "desc": "SOC 2 compliant with HIPAA, GDPR and ISO 27001 standards."
-      },
-      "globalSupport": {
-        "title": "Global Support",
-        "desc": "24/7 support team across multiple time zones."
-      },
-      "measurableResults": {
-        "title": "Measurable Results",
-        "desc": "Data-backed KPIs and transparent reporting every step."
+      "google": {
+        "score": "5.0",
+        "label": "Google Rating",
+        "stars": 5
       }
     },
-    "cards": {
-      "industries": { "value": "40+", "label": "Industries", "sub": "sectors served" },
-      "projects": { "value": "250+", "label": "Projects", "sub": "delivered" },
-      "uptime": { "value": "99.9%", "label": "Uptime", "sub": "SLA guaranteed" },
-      "support": { "value": "24/7", "label": "Support", "sub": "always available" }
+    "form": {
+      "title": "Get a Conversion Focused Application!",
+      "subtitle": "Book a strategic consultation with our lead software architects.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Work Email",
+      "emailPlaceholder": "john@company.com",
+      "companyLabel": "Company Name",
+      "companyPlaceholder": "Acme Inc.",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "requirementLabel": "Requirement / Message",
+      "requirementPlaceholder": "Briefly describe your project or legacy system...",
+      "captchaLabel": "I'm not a robot",
+      "submitButton": "Book $500 AI Free Consultation ➔",
+      "submittingButton": "Booking your consultation...",
+      "successMessage": "Thank you! Our enterprise solution architects will reach out within 2 business hours.",
+      "trustLine": "NDA on request · Reply within 2 business hours · No obligation"
     }
   },
-  "testimonials": {
-    "label": "Testimonials",
-    "titleLine1": "Trusted by",
-    "titleLine2": "industry leaders.",
-    "items": [
+  "trustedClients": {
+    "title": "From Healthcare to BFSI, Here's a Look at Our Valued Clients",
+    "cta": "Start Your Next Project Today ➔",
+    "clients": [
       {
-        "quote": "360CloudTech completely revamped our patient portal. It's faster, incredibly secure, and their support is always on.",
-        "name": "Dr. Sarah Jenkins",
-        "role": "CTO, MedCare Health",
-        "initials": "SJ"
+        "name": "ecco",
+        "category": "Retail & Fashion"
       },
       {
-        "quote": "Having development and marketing under one roof changed everything. Our e-commerce saw a 40% increase in conversions.",
-        "name": "Marcus Chen",
-        "role": "Founder, Peak Retail",
-        "initials": "MC"
+        "name": "JUBILANT FOODWORKS",
+        "category": "Food & Beverage"
       },
       {
-        "quote": "Their cloud infrastructure setup is flawless. We haven't had a minute of downtime since migrating our booking engine.",
-        "name": "Elena Rodriguez",
-        "role": "VP Engineering, Global Travel",
-        "initials": "ER"
+        "name": "BioPharm",
+        "category": "Healthcare & Biotech"
+      },
+      {
+        "name": "MASAFI",
+        "category": "FMCG & Consumer Goods"
+      },
+      {
+        "name": "SRMB",
+        "category": "Industrial & Steel"
+      },
+      {
+        "name": "QMI",
+        "category": "Enterprise Systems"
+      },
+      {
+        "name": "hextradata",
+        "category": "Big Data & AI"
+      },
+      {
+        "name": "EM Group",
+        "category": "Global Logistics"
       }
     ]
   },
-  "cta": {
-    "label": "Ready to start?",
-    "titleLine1": "Let's build something",
-    "titleLine2": "amazing together.",
-    "subtitle": "Free consultation, no commitment. Just a friendly conversation about your goals."
+  "valueProposition": {
+    "badge": "100% Focus on Your Systems. 0% Disruption to Your Business.",
+    "circleText": "TOUCH • GET IN • TOUCH • GET IN • ",
+    "hubText": "We're Technology",
+    "heading": "100% Focus on Your Systems. 0% Disruption to Your Business.",
+    "subheading": "Engineered for zero downtime, rapid iteration, and immediate operational leverage.",
+    "metrics": [
+      {
+        "id": "time-to-market",
+        "value": "2-3X Faster",
+        "title": "Time-to-Market",
+        "desc": "Launch your product faster and start realizing business value sooner."
+      },
+      {
+        "id": "lower-cost",
+        "value": "30-50%",
+        "title": "Lower Technology Cost",
+        "desc": "Reduce long-term development and maintenance costs with scalable architectures."
+      },
+      {
+        "id": "team-productivity",
+        "value": "40%+",
+        "title": "Higher Team Productivity",
+        "desc": "Automate repetitive tasks and help teams accomplish more with less effort."
+      },
+      {
+        "id": "operational-costs",
+        "value": "35%",
+        "title": "Lower Operational Costs",
+        "desc": "Reduce human workflow bottlenecks with designed-around-your-business solutions."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Built, Delivered, Trusted.",
+    "title": "Custom Enterprise Software Development That Turned into Long-Term Partnerships",
+    "subtitle": "Discover how our high-velocity engineering teams helped leaders eliminate tech debt, scale securely, and accelerate product revenue.",
+    "cta": "Talk with Our Team ➔",
+    "items": [
+      {
+        "quote": "360GrowthCloudTech completely revamped our core banking transaction engine with zero downtime. Their velocity and transparent reporting gave us immense confidence.",
+        "name": "Ahmed Mukerji",
+        "role": "Chief Executive Officer",
+        "company": "FinEdge Global",
+        "initials": "AM",
+        "rating": 5
+      },
+      {
+        "quote": "The AI-driven patient scheduling and EHR integration they engineered reduced clinical admin workload by 45%. True masters of enterprise software.",
+        "name": "Michael Davies",
+        "role": "VP of Product Engineering",
+        "company": "HealthHub Solutions",
+        "initials": "MD",
+        "rating": 5
+      },
+      {
+        "quote": "We transitioned from a fragile legacy monolith to an ultra-resilient microservices cloud infrastructure in under 4 months. Exceptional engineering prowess.",
+        "name": "Salman Hafiz",
+        "role": "Head of Technology",
+        "company": "Logix Freight",
+        "initials": "SH",
+        "rating": 5
+      },
+      {
+        "quote": "Their dedicated engineering pod integrated directly with our in-house team within 48 hours. Delivered our entire multi-tenant SaaS MVP weeks ahead of schedule.",
+        "name": "Sergio Delatorre",
+        "role": "Founder & CEO",
+        "company": "HyperScale AI",
+        "initials": "SD",
+        "rating": 5
+      },
+      {
+        "quote": "Having frontend, backend, and DevOps handled by a single high-caliber team eliminated the finger-pointing typical with standard agencies.",
+        "name": "Jane Wright",
+        "role": "Director of Operations",
+        "company": "Apex Industrial",
+        "initials": "JW",
+        "rating": 5
+      },
+      {
+        "quote": "The direct communication with their lead architects and weekly demo cadence made managing our complex supply chain overhaul remarkably smooth.",
+        "name": "Swapnil Joshi",
+        "role": "CTO",
+        "company": "OmniRetail Global",
+        "initials": "SJ",
+        "rating": 5
+      },
+      {
+        "quote": "Their 98.4% code ownership policy, rigorous automated test pipelines, and SOC2 compliance standards made them an obvious choice for our enterprise.",
+        "name": "Jean-Christophe",
+        "role": "Chief Information Officer",
+        "company": "Veritas Financial",
+        "initials": "JC",
+        "rating": 5
+      }
+    ]
+  },
+  "painPoints": {
+    "badge": "Pain Points",
+    "title": "Every Growing Business Run Into At Least One of These",
+    "subtitle": "Unaddressed technical friction silently compounds into slower release cycles, higher attrition, and lost revenue.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Fast-Track Legacy Tech Overhaul",
+        "tagline": "When existing systems stifle new innovation",
+        "bullets": [
+          "System performance drops significantly under peak customer demand",
+          "High technical debt makes simple feature additions risky and delayed",
+          "Fragile, outdated codebases cause frequent and unexpected outages",
+          "Inefficient manual workarounds drain senior engineering resources"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Custom Maintenance & Modernizing Existing Software",
+        "tagline": "When software upkeep exceeds productive output",
+        "bullets": [
+          "Architecture bottlenecks prevent multi-region and multi-tenant scaling",
+          "Legacy database schemas break compatibility with modern cloud APIs",
+          "Escalating maintenance and infrastructure costs eat into operating margin",
+          "Lack of automated CI/CD and regression testing leads to production bugs"
+        ]
+      }
+    ],
+    "callout": {
+      "title": "One Of These Is Already Costing You More Than You Think. Let's Talk It Through.",
+      "cta": "Start Your Next Project Today ➔"
+    }
+  },
+  "caseStudySpotlight": {
+    "badge": "Case Studies",
+    "title": "Here's How Our Enterprise Software Development Company Turned It Around",
+    "subtitle": "Real-world engineering transformations delivering measurable business outcomes across global verticals.",
+    "studies": [
+      {
+        "id": "lifestyle-gifting-app",
+        "tabName": "Lifestyle & Gifting App",
+        "title": "Boosting Sales by 35% for a Premium Lifestyle & Gifting Ecommerce Brand with Flutter App",
+        "subtitle": "Built a high-performance Flutter mobile application with native Stripe & Tabby checkout, real-time Shopify GraphQL sync, and automated push notifications.",
+        "challenge": "Client struggled with webview checkout redirects causing 68% cart abandonment, non-standard product metafields, and lack of real-time push engagement.",
+        "solution": "Developed a custom Shopify GraphQL layer, 100% native in-app payments with Stripe and Tabby BNPL, and Firebase push messaging.",
+        "metrics": [
+          {
+            "value": "35%",
+            "label": "Sales Increase"
+          },
+          {
+            "value": "-15%",
+            "label": "Cart Drop-off"
+          },
+          {
+            "value": "40%",
+            "label": "Dev Velocity"
+          }
+        ],
+        "tags": [
+          "Flutter",
+          "Shopify GraphQL",
+          "Stripe",
+          "Tabby BNPL",
+          "Firebase"
+        ]
+      },
+      {
+        "id": "fitness-ai",
+        "tabName": "AI-Powered Fitness Platform",
+        "title": "AI-Powered Fitness Platform",
+        "subtitle": "Engineered a real-time computer vision and machine learning fitness platform with automated workout tracking and dynamic biomechanical feedback.",
+        "challenge": "Client struggled with high customer churn and excessive compute costs running heavy computer vision models on mobile clients.",
+        "solution": "Built an edge-optimized AI inference pipeline, web socket streaming architecture, and scalable Node/Python microservices backend.",
+        "metrics": [
+          {
+            "value": "10K+",
+            "label": "Active Daily Users"
+          },
+          {
+            "value": "25%",
+            "label": "Retention Boost"
+          },
+          {
+            "value": "99.98%",
+            "label": "Cloud Uptime"
+          }
+        ],
+        "tags": [
+          "AI / Computer Vision",
+          "Mobile App",
+          "WebSockets",
+          "Cloud Scale"
+        ]
+      },
+      {
+        "id": "order-mgmt",
+        "tabName": "Order Management System",
+        "title": "Enterprise Omnichannel Order Management",
+        "subtitle": "Unified order capture, warehouse dispatch, and real-time inventory synchronization across 150+ regional retail fulfillment hubs.",
+        "challenge": "Legacy ERP was dropping orders during flash sale peaks with over 45 seconds of checkout latency.",
+        "solution": "Implemented distributed event-driven messaging using Apache Kafka and resilient PostgreSQL read replicas.",
+        "metrics": [
+          {
+            "value": "3.5M+",
+            "label": "Monthly Orders"
+          },
+          {
+            "value": "80ms",
+            "label": "Order Latency"
+          },
+          {
+            "value": "0%",
+            "label": "Peak Data Loss"
+          }
+        ],
+        "tags": [
+          "Event-Driven",
+          "Kafka",
+          "PostgreSQL",
+          "Enterprise ERP"
+        ]
+      },
+      {
+        "id": "saas-evolution",
+        "tabName": "SaaS Platform Evolution",
+        "title": "Multi-Tenant B2B Workflow SaaS",
+        "subtitle": "Refactored a single-tenant monolith into a SOC 2-compliant multi-tenant SaaS platform supporting custom tenant subdomains and role-based ACL.",
+        "challenge": "High hosting overhead per tenant and inability to ship new features without manual per-customer deployments.",
+        "solution": "Built isolated tenant schema architecture, automated tenant provisioning pipelines, and automated Stripe billing.",
+        "metrics": [
+          {
+            "value": "120+",
+            "label": "Enterprise Tenants"
+          },
+          {
+            "value": "65%",
+            "label": "Infrastructure Cost Cut"
+          },
+          {
+            "value": "4x",
+            "label": "Release Velocity"
+          }
+        ],
+        "tags": [
+          "Multi-Tenant",
+          "Next.js",
+          "Stripe Billing",
+          "SOC 2"
+        ]
+      },
+      {
+        "id": "dating-app",
+        "tabName": "Mobile Dating App Dev",
+        "title": "High-Concurrency Social & Dating App",
+        "subtitle": "Built a scalable iOS and Android social discovery application with real-time geolocation matching and encrypted messaging.",
+        "challenge": "Frequent server timeouts and memory leaks during geo-proximity searches in dense metropolitan zones.",
+        "solution": "Implemented Redis geospatial indexing, WebRTC voice/video calling, and native React Native architecture.",
+        "metrics": [
+          {
+            "value": "500K+",
+            "label": "Downloads"
+          },
+          {
+            "value": "<50ms",
+            "label": "Geo Query Speed"
+          },
+          {
+            "value": "4.8 ★",
+            "label": "App Store Rating"
+          }
+        ],
+        "tags": [
+          "React Native",
+          "Redis Geo",
+          "WebRTC",
+          "Encrypted Chat"
+        ]
+      },
+      {
+        "id": "ecommerce-dev",
+        "tabName": "E-Commerce App Dev",
+        "title": "Next-Gen Headless E-Commerce Experience",
+        "subtitle": "Developed ultra-fast headless digital storefronts integrated with headless Shopify, Algolia search, and one-click localized checkout.",
+        "challenge": "Slow mobile page load times (5.2s) resulting in an abandoned checkout rate of over 68%.",
+        "solution": "Modernized to Next.js static site generation with edge caching and instant instant-search filtering.",
+        "metrics": [
+          {
+            "value": "0.9s",
+            "label": "Page Load Speed"
+          },
+          {
+            "value": "+42%",
+            "label": "Checkout Conversion"
+          },
+          {
+            "value": "$18M+",
+            "label": "Annual GMV"
+          }
+        ],
+        "tags": [
+          "Next.js",
+          "Headless Commerce",
+          "Edge Caching",
+          "Algolia"
+        ]
+      },
+      {
+        "id": "drone-monitoring",
+        "tabName": "Drone Monitoring System",
+        "title": "Autonomous Drone Fleet Telemetry Dashboard",
+        "subtitle": "Created a real-time command-and-control telemetry hub for autonomous agricultural and surveillance drone fleets.",
+        "challenge": "Handling millions of high-frequency GPS telemetry data points per second with live video stream overlays.",
+        "solution": "Engineered time-series telemetry pipelines with TimescaleDB, WebGL map layers, and HLS low-latency video streaming.",
+        "metrics": [
+          {
+            "value": "1,200+",
+            "label": "Active Drones"
+          },
+          {
+            "value": "20ms",
+            "label": "Telemetry Ingestion"
+          },
+          {
+            "value": "100%",
+            "label": "Flight Accuracy"
+          }
+        ],
+        "tags": [
+          "IoT Telemetry",
+          "TimescaleDB",
+          "WebGL",
+          "Real-Time Streaming"
+        ]
+      },
+      {
+        "id": "retail-app",
+        "tabName": "Apparel/Retail App Dev",
+        "title": "Smart Retail & In-Store Experience App",
+        "subtitle": "Delivered an omnichannel mobile client featuring AR virtual fitting room, barcode scanner inventory lookup, and loyalty rewards.",
+        "challenge": "Disconnected in-store physical shopping experiences and low repeat customer engagement.",
+        "solution": "Engineered cross-platform mobile app with ARKit/ARCore support and real-time POS inventory synchronization.",
+        "metrics": [
+          {
+            "value": "350+",
+            "label": "Retail Stores"
+          },
+          {
+            "value": "3.2x",
+            "label": "Repeat Purchase Rate"
+          },
+          {
+            "value": "+28%",
+            "label": "Average Order Value"
+          }
+        ],
+        "tags": [
+          "Augmented Reality",
+          "POS Sync",
+          "Loyalty Engine",
+          "Mobile"
+        ]
+      }
+    ]
+  },
+  "enterpriseServices": {
+    "badge": "Custom Software Services",
+    "title": "Custom Enterprise Software Development Service, Handled End-to-End",
+    "subtitle": "The enterprise software market is expected to grow by $1,811.83B, and our bespoke software development services help decouple legacy pain. We don't just build; we engineer software that fits your exact needs.",
+    "cta": "Schedule a Free Consultation Today ➔",
+    "services": [
+      {
+        "number": "01",
+        "title": "Custom Enterprise Software",
+        "desc": "Bespoke internal tools, core business systems, and automated ERP workflows tailored to eliminate operational bottlenecks."
+      },
+      {
+        "number": "02",
+        "title": "Enterprise Application Development",
+        "desc": "Mission-critical, secure, and compliance-ready software architectures designed to handle millions of transactions."
+      },
+      {
+        "number": "03",
+        "title": "Web Application Development",
+        "desc": "Modern, high-performance web applications built on Next.js, React, and TypeScript with fluid interactive UX."
+      },
+      {
+        "number": "04",
+        "title": "Mobile Application Development",
+        "desc": "Native iOS, Android, and cross-platform Flutter/React Native apps delivering intuitive experiences."
+      },
+      {
+        "number": "05",
+        "title": "SaaS Development",
+        "desc": "End-to-end multi-tenant SaaS engineering including subscription billing, tenant isolation, and automated onboarding."
+      },
+      {
+        "number": "06",
+        "title": "API & System Integration",
+        "desc": "Seamless REST, GraphQL, and webhook integrations connecting your legacy databases and third-party enterprise tools."
+      },
+      {
+        "number": "07",
+        "title": "Cloud & DevOps",
+        "desc": "Infrastructure as Code, Docker/Kubernetes container orchestration, automated CI/CD, and AWS/Azure/GCP scaling."
+      },
+      {
+        "number": "08",
+        "title": "AI & Automation",
+        "desc": "Custom LLM integrations, predictive analytics, intelligent OCR, and automated algorithmic decision workflows."
+      },
+      {
+        "number": "09",
+        "title": "QA & Testing",
+        "desc": "Comprehensive automated testing suites, security vulnerability assessments, load testing, and code quality audits."
+      },
+      {
+        "number": "10",
+        "title": "Maintenance & Support",
+        "desc": "24/7 SLA-backed monitoring, rapid bug remediation, security patches, and continuous system optimization."
+      }
+    ]
+  },
+  "engagementModels": {
+    "badge": "Flexible Engagement Models",
+    "title": "Flexible Engagement Models Built Around Your Capacity, Capability, and Delivery Goals",
+    "subtitle": "Choose the collaboration structure that best matches your roadmap, timeline, and internal engineering structure.",
+    "models": [
+      {
+        "id": "staff-aug",
+        "tabName": "Staff Augmentation / Team Extension",
+        "title": "Staff Augmentation / Team Extension",
+        "description": "Seamlessly embed senior developers, architects, and QA engineers directly into your existing sprints, reporting directly to your engineering leads.",
+        "bullets": [
+          "Senior vetted engineers onboarded in under 48 hours",
+          "Seamless integration into Slack, Jira, GitHub, and daily standups",
+          "Transparent hourly & monthly billing with zero hidden markups",
+          "100% intellectual property ownership and strict NDA protection",
+          "Zero lock-in contracts with complete flexibility to ramp up or down"
+        ],
+        "cta": "Request Profiles ➔"
+      },
+      {
+        "id": "dedicated-teams",
+        "tabName": "Dedicated Teams / Delivery Pods",
+        "title": "Dedicated Teams / Delivery Pods",
+        "description": "Autonomous, fully managed product development squads comprising Tech Leads, Senior Engineers, UI/UX Designers, and QA specialists.",
+        "bullets": [
+          "Complete cross-functional delivery pod assembled within 1 to 2 weeks",
+          "Managed by experienced technical product managers and Scrum masters",
+          "Milestone-based sprint delivery with bi-weekly live software demonstrations",
+          "Automated CI/CD deployment pipelines and comprehensive test coverage",
+          "Ideal for building new products from scratch or executing major refactors"
+        ],
+        "cta": "Build Your Pod ➔"
+      },
+      {
+        "id": "dev-centers",
+        "tabName": "Development Centers (BOT)",
+        "title": "Development Centers / Build-Operate-Transfer",
+        "description": "Set up a turnkey offshore or nearshore engineering center tailored precisely to your enterprise security, compliance, and growth needs.",
+        "bullets": [
+          "Dedicated physical/virtual infrastructure with enterprise-grade network security",
+          "Custom talent acquisition aligned with your corporate culture and tech stack",
+          "Complete administrative, payroll, legal, and operational management handled",
+          "Seamless legal and operational IP transfer to your entity upon maturity",
+          "Achieve 40% to 60% engineering cost optimization at enterprise scale"
+        ],
+        "cta": "Explore BOT Center ➔"
+      }
+    ]
+  },
+  "roiBanner": {
+    "heading": "95% Return Rate. 40% Operational Efficiency. Built Around The Realities Of Every Industry We Serve.",
+    "cta": "Start Your Next Project Today ➔"
+  },
+  "industrySolutions": {
+    "badge": "Industry Solutions",
+    "title": "Every Industry Runs On Different Constraints. We Build For Yours, Specifically.",
+    "subtitle": "From HIPAA-compliant healthcare data systems to high-throughput financial networks, we engineer for domain-specific security and operational realities.",
+    "industries": [
+      {
+        "id": "healthcare",
+        "name": "Healthcare",
+        "title": "Healthcare & Life Sciences",
+        "desc": "HIPAA and HITECH compliant telemedicine platforms, EHR/EMR integrations, patient engagement portals, and AI-assisted clinical workflow automation.",
+        "points": [
+          "Patient Portals & Telehealth",
+          "Electronic Health Records (EHR/EMR)",
+          "HIPAA-Compliant Cloud Infrastructure",
+          "Healthcare Workflow Automation"
+        ],
+        "cta": "Get Started Now ➔"
+      },
+      {
+        "id": "bfsi",
+        "name": "BFSI",
+        "title": "Banking, Financial Services & Insurance",
+        "desc": "PCI-DSS compliant fintech engines, algorithmic trading dashboards, instant settlement gateways, and automated loan underwriting pipelines.",
+        "points": [
+          "Fintech Portals & Digital Wallets",
+          "Payment Gateway & Ledger Systems",
+          "Fraud Detection & Risk Analysis",
+          "Regulatory Compliance (KYC / AML)"
+        ],
+        "cta": "Get Started Now ➔"
+      },
+      {
+        "id": "manufacturing",
+        "name": "Manufacturing",
+        "title": "Smart Manufacturing & Industry 4.0",
+        "desc": "Predictive maintenance dashboards, custom MES/ERP software, supply chain tracking, and real-time IoT floor monitoring systems.",
+        "points": [
+          "IoT Asset Tracking & Telemetry",
+          "MES & Factory Floor Automation",
+          "Real-Time Inventory Management",
+          "End-to-End Supply Chain Visibility"
+        ],
+        "cta": "Get Started Now ➔"
+      },
+      {
+        "id": "logistics",
+        "name": "Logistics",
+        "title": "Logistics & Supply Chain",
+        "desc": "Fleet management portals, dynamic dispatch routing, warehouse management systems (WMS), and last-mile shipment tracking apps.",
+        "points": [
+          "Real-Time Fleet & Asset Tracking",
+          "Automated Route & Load Optimization",
+          "Warehouse Management Systems (WMS)",
+          "Freight Brokerage & Dispatch Portals"
+        ],
+        "cta": "Get Started Now ➔"
+      },
+      {
+        "id": "retail",
+        "name": "Retail",
+        "title": "Retail & Digital Commerce",
+        "desc": "Omnichannel e-commerce platforms, POS integrations, custom loyalty engines, and AI-powered personalized product recommendation systems.",
+        "points": [
+          "Headless E-Commerce Architecture",
+          "Multi-Store Inventory Synchronization",
+          "Custom Customer Loyalty Programs",
+          "AI Personalized Recommendations"
+        ],
+        "cta": "Get Started Now ➔"
+      },
+      {
+        "id": "real-estate",
+        "name": "Real Estate",
+        "title": "Real Estate & PropTech",
+        "desc": "MLS/IDX property portals, tenant and lease management platforms, smart contract automation, and virtual 3D tour applications.",
+        "points": [
+          "Property Listing & MLS Portals",
+          "Tenant, Landlord & Lease Management",
+          "Smart Contract & Payment Automation",
+          "Virtual Tour & Interactive 3D Maps"
+        ],
+        "cta": "Get Started Now ➔"
+      }
+    ]
+  },
+  "techStack": {
+    "badge": "Technology Stack",
+    "title": "Worried Your Tech Stack Won't Keep Up? Here's The Technology Behind Every Solution We Build",
+    "subtitle": "From modern frontend frameworks to robust cloud backends, we pick the right tools for speed, security, and scalability.",
+    "categories": [
+      {
+        "id": "frontend",
+        "name": "Frontend",
+        "items": [
+          {
+            "name": "React",
+            "icon": "react",
+            "category": "UI Library"
+          },
+          {
+            "name": "Next.js",
+            "icon": "nextjs",
+            "category": "React Framework"
+          },
+          {
+            "name": "Vue.js",
+            "icon": "vue",
+            "category": "UI Framework"
+          },
+          {
+            "name": "Angular",
+            "icon": "angular",
+            "category": "Enterprise UI"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "ts",
+            "category": "Type Safety"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "tailwind",
+            "category": "Styling"
+          },
+          {
+            "name": "Flutter",
+            "icon": "flutter",
+            "category": "Cross-Platform"
+          },
+          {
+            "name": "React Native",
+            "icon": "reactnative",
+            "category": "Mobile Apps"
+          }
+        ]
+      },
+      {
+        "id": "backend",
+        "name": "Backend",
+        "items": [
+          {
+            "name": "Node.js",
+            "icon": "nodejs",
+            "category": "Runtime"
+          },
+          {
+            "name": "Python",
+            "icon": "python",
+            "category": "AI & Backend"
+          },
+          {
+            "name": "Go (Golang)",
+            "icon": "go",
+            "category": "High Concurrency"
+          },
+          {
+            "name": "Java",
+            "icon": "java",
+            "category": "Enterprise Systems"
+          },
+          {
+            "name": ".NET Core",
+            "icon": "dotnet",
+            "category": "Enterprise Framework"
+          },
+          {
+            "name": "Django",
+            "icon": "django",
+            "category": "Python Web"
+          },
+          {
+            "name": "FastAPI",
+            "icon": "fastapi",
+            "category": "Microservices"
+          },
+          {
+            "name": "GraphQL",
+            "icon": "graphql",
+            "category": "API Protocol"
+          }
+        ]
+      },
+      {
+        "id": "database",
+        "name": "Database",
+        "items": [
+          {
+            "name": "PostgreSQL",
+            "icon": "postgresql",
+            "category": "Relational DB"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "mongodb",
+            "category": "Document DB"
+          },
+          {
+            "name": "Redis",
+            "icon": "redis",
+            "category": "In-Memory Cache"
+          },
+          {
+            "name": "MySQL",
+            "icon": "mysql",
+            "category": "Relational DB"
+          },
+          {
+            "name": "DynamoDB",
+            "icon": "dynamodb",
+            "category": "NoSQL Cloud"
+          },
+          {
+            "name": "Elasticsearch",
+            "icon": "elastic",
+            "category": "Search Engine"
+          },
+          {
+            "name": "Supabase",
+            "icon": "supabase",
+            "category": "Backend as a Service"
+          },
+          {
+            "name": "Firebase",
+            "icon": "firebase",
+            "category": "Realtime DB"
+          }
+        ]
+      },
+      {
+        "id": "cloud",
+        "name": "Cloud & DevOps",
+        "items": [
+          {
+            "name": "Amazon Web Services",
+            "icon": "aws",
+            "category": "Cloud Provider"
+          },
+          {
+            "name": "Google Cloud",
+            "icon": "gcp",
+            "category": "Cloud Provider"
+          },
+          {
+            "name": "Microsoft Azure",
+            "icon": "azure",
+            "category": "Enterprise Cloud"
+          },
+          {
+            "name": "Docker",
+            "icon": "docker",
+            "category": "Containerization"
+          },
+          {
+            "name": "Kubernetes",
+            "icon": "k8s",
+            "category": "Orchestration"
+          },
+          {
+            "name": "Terraform",
+            "icon": "terraform",
+            "category": "Infrastructure as Code"
+          },
+          {
+            "name": "GitHub Actions",
+            "icon": "github",
+            "category": "CI/CD Pipelines"
+          },
+          {
+            "name": "Cloudflare",
+            "icon": "cloudflare",
+            "category": "Edge & Security"
+          }
+        ]
+      }
+    ]
+  },
+  "process": {
+    "badge": "Our Collaborative Process",
+    "title": "Our Collaborative Process Built Around How Your Enterprise Actually Works",
+    "subtitle": "A structured, transparent delivery framework engineered to minimize technical risk and maximize development momentum.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discover & Define",
+        "desc": "In-depth discovery workshops, business workflow mapping, stakeholder interviews, and enterprise architecture blueprinting."
+      },
+      {
+        "number": "02",
+        "title": "Plan & Architect",
+        "desc": "Technical stack selection, data schemas, API contracts, security compliance protocols, and sprint milestone scheduling."
+      },
+      {
+        "number": "03",
+        "title": "Design & Prototype",
+        "desc": "UX user journey validation, responsive design systems, and clickable high-fidelity interactive Figma prototypes."
+      },
+      {
+        "number": "04",
+        "title": "Develop & Integrate",
+        "desc": "Agile 2-week sprint development with clean modular code, automated CI/CD builds, and bi-weekly demo check-ins."
+      },
+      {
+        "number": "05",
+        "title": "Test & Refine",
+        "desc": "Automated unit, integration, stress, and penetration testing ensuring zero regression and bulletproof reliability."
+      },
+      {
+        "number": "06",
+        "title": "Deploy & Scale",
+        "desc": "Zero-downtime production deployment, cloud monitoring setup, SLA guarantees, and ongoing team handoff."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose 360GrowthCloudTech as Your Custom Enterprise Software Development Company",
+    "subtitle": "We become your long-term technology ally, helping you innovate faster, mitigate risk, and lead your industry.",
+    "cards": [
+      {
+        "id": "flexible-models",
+        "title": "Flexible Engagement Models",
+        "desc": "Adapt capacity on demand—scale up for aggressive sprints or down during maintenance without rigid contracts."
+      },
+      {
+        "id": "transparent-pricing",
+        "title": "Transparent Pricing",
+        "desc": "Clear milestones and predictable billing without hidden surprise invoices or scope creep markups."
+      },
+      {
+        "id": "direct-communication",
+        "title": "Direct Communication",
+        "desc": "Work directly with senior developers and tech leads on your preferred communication channels (Slack, Teams, Zoom)."
+      },
+      {
+        "id": "scalable-growth",
+        "title": "Scalable for Business Growth",
+        "desc": "Architectures built from day one to handle exponential traffic, multi-tenancy, and data volume seamlessly."
+      },
+      {
+        "id": "post-launch-support",
+        "title": "Dedicated Post-Launch Support",
+        "desc": "24/7 SLA monitoring, emergency security patching, proactive health checks, and continuous feature evolution."
+      },
+      {
+        "id": "cost-effective",
+        "title": "Cost-Effective Engineering",
+        "desc": "High-speed agile cycles and reusable modular components maximize your ROI and minimize time to value."
+      }
+    ]
+  },
+  "bottomCta": {
+    "title": "Build Your Next Enterprise Software Solution With The Engineering Team That Can Take It End to End",
+    "subtitle": "Let's schedule a 30-minute discovery session to assess your current architecture and outline a rapid implementation roadmap.",
+    "cta": "Start Your Next Project Today ➔"
+  },
+  "faqs": {
+    "badge": "Frequently Asked Questions",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our enterprise software engineering process, pricing, and support.",
+    "items": [
+      {
+        "q": "Can you help if we are building software for the first time?",
+        "a": "Yes, absolutely! We guide first-time founders and non-technical stakeholders from initial scoping and wireframing through architecture selection, MVP launch, and scaling."
+      },
+      {
+        "q": "How would you know what software solution our business requires?",
+        "a": "Our discovery process begins with an in-depth audit of your current business workflows, bottlenecks, and user goals. We conduct stakeholder interviews and technical feasibility assessments to propose the optimal architecture."
+      },
+      {
+        "q": "How long does it take to develop custom software?",
+        "a": "Typical MVPs take between 6 to 12 weeks. Large-scale enterprise systems with extensive integrations generally range from 3 to 6 months. We work in 2-week agile sprints so you see functional progress every sprint."
+      },
+      {
+        "q": "Is it possible to build software tailored to our specific business processes?",
+        "a": "Yes. Every line of code, database schema, and interface is custom-engineered around your unique operational rules, permissions, and business logic."
+      },
+      {
+        "q": "What technologies do you use for software development?",
+        "a": "We use modern, enterprise-grade stacks including Next.js, React, Node.js, Python, Go, TypeScript, PostgreSQL, MongoDB, AWS, Google Cloud, Docker, and Kubernetes."
+      },
+      {
+        "q": "Can you integrate the software with our current ERP, CRM, or other systems?",
+        "a": "Yes, we have deep experience integrating with Salesforce, SAP, Oracle, HubSpot, Stripe, QuickBooks, custom legacy databases, and REST/GraphQL APIs."
+      },
+      {
+        "q": "Do you develop software for startups, SMEs, and enterprises?",
+        "a": "Yes, we tailor our delivery approach for early-stage startups needing rapid time-to-market as well as high-growth SMEs and enterprises requiring strict compliance and high throughput."
+      },
+      {
+        "q": "What software development engagement models do you offer?",
+        "a": "We provide Staff Augmentation, Dedicated Engineering Pods, Fixed-Scope Project Delivery, and Build-Operate-Transfer (BOT) models."
+      },
+      {
+        "q": "Can you modernize our existing legacy software?",
+        "a": "Yes, we specialize in legacy migration, cloud refactoring, monolithic-to-microservices modernization, and frontend revamps with zero downtime."
+      },
+      {
+        "q": "How do you ensure software quality, security, and performance?",
+        "a": "We employ automated CI/CD testing, static code analysis, OWASP security audits, end-to-end automated testing, and comprehensive load testing."
+      },
+      {
+        "q": "Do you offer maintenance and support after software launch?",
+        "a": "Yes, we provide 24/7 SLA-backed support, security patching, infrastructure monitoring, and continuous feature enhancements."
+      },
+      {
+        "q": "Will we own the source code and intellectual property?",
+        "a": "Yes, 100%. All source code, assets, and intellectual property are transferred completely to you upon project milestone completion."
+      }
+    ]
+  },
+  "finalConversion": {
+    "title": "No More Guesswork. Build Your App Confidently.",
+    "subtitle": "Get a free 30-minute system architecture review and transparent pricing estimate from our senior technical leads.",
+    "placeholder": "Enter your work email...",
+    "cta": "Schedule a Call ➔",
+    "guarantee": "No commitment required • 100% Free architecture consultation • NDA protected",
+    "checklist": [
+      "Free 30-minute architecture review",
+      "Transparent, fixed-scope estimate",
+      "NDA signed before any details are shared",
+      "Reply from a senior lead within 2 business hours"
+    ]
+  },
+  "guarantees": {
+    "items": [
+      {
+        "value": "48 hrs",
+        "label": "Team profiles shared"
+      },
+      {
+        "value": "2 weeks",
+        "label": "Kick-off to first release"
+      },
+      {
+        "value": "100%",
+        "label": "IP & source code ownership"
+      },
+      {
+        "value": "Day 1",
+        "label": "NDA signed before we start"
+      },
+      {
+        "value": "Weekly",
+        "label": "Demos & progress reports"
+      },
+      {
+        "value": "Zero",
+        "label": "Long-term lock-in"
+      }
+    ]
+  },
+  "quickStart": {
+    "badge": "Fast Start",
+    "title": "From First Call to First Delivery in Under Two Weeks",
+    "subtitle": "No long discovery cycles. A clear, time-boxed path from your first conversation to working software.",
+    "steps": [
+      {
+        "when": "Day 1",
+        "title": "Requirements Call",
+        "desc": "We map your goals, constraints and success metrics with a senior architect."
+      },
+      {
+        "when": "48 Hours",
+        "title": "Proposal & Profiles",
+        "desc": "You receive a scoped plan, estimate and hand-picked engineer profiles."
+      },
+      {
+        "when": "Week 1",
+        "title": "Interview & Kick-off",
+        "desc": "Meet the team, finalise scope and set up tooling, access and sprint cadence."
+      },
+      {
+        "when": "Week 2",
+        "title": "First Delivery",
+        "desc": "Your first working increment ships, with a demo and a clear roadmap ahead."
+      }
+    ]
+  },
+  "outcomes": {
+    "badge": "What You Get",
+    "title": "Accountability Built Into Every Engagement",
+    "subtitle": "Most projects fail because nobody owns the outcome. Here is what we commit to in writing.",
+    "items": [
+      {
+        "title": "Scope Agreed Upfront",
+        "desc": "Deliverables, milestones and acceptance criteria are signed off before a line of code is written."
+      },
+      {
+        "title": "Weekly Visibility",
+        "desc": "Demos, burn-down and a written status every week. No surprises at month end."
+      },
+      {
+        "title": "Senior Engineers Only",
+        "desc": "Every engineer is individually assessed. No bait-and-switch after the contract is signed."
+      },
+      {
+        "title": "Documented Architecture",
+        "desc": "Decision records, diagrams and runbooks your in-house team can actually use."
+      },
+      {
+        "title": "Full IP Transfer",
+        "desc": "You own the code, designs and infrastructure from day one. Always."
+      },
+      {
+        "title": "Scale Up or Down Fast",
+        "desc": "Add or release engineers with short notice as your roadmap changes."
+      }
+    ]
   }
 }

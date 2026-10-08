@@ -38,7 +38,7 @@ function interpolateText(text: string): string {
 function interpolateSection(section: LegalSectionData): LegalSectionData {
   return {
     title: interpolateText(section.title),
-    paragraphs: section.paragraphs.map(interpolateText),
+    paragraphs: (section.paragraphs ?? []).map(interpolateText),
     list: section.list?.map(interpolateText),
     subsections: section.subsections?.map((subsection) => ({
       heading: interpolateText(subsection.heading),

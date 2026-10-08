@@ -1,18 +1,23 @@
-import { getLocale } from "next-intl/server";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import { Providers } from "./providers";
-import { type Locale } from "@/i18n/routing";
-import { buildRootMetadata } from "@/lib/seo/metadata";
+import { buildRootMetadata, rootViewport } from "@/lib/seo/metadata";
 import "../index.css";
 
+// Self-hosted via next/font: no render-blocking request to Google Fonts.
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  display: "swap",
+  variable: "--font-jakarta",
+});
+
 export const metadata: Metadata = buildRootMetadata();
+export const viewport: Viewport = rootViewport;
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const locale = (await getLocale()) as Locale;
-  const dir = locale === "ar" ? "rtl" : "ltr";
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={locale} dir={dir} suppressHydrationWarning>
+    <html lang="en" className={jakarta.variable} suppressHydrationWarning>
       <body className="grain-overlay">
         <Providers>{children}</Providers>
       </body>

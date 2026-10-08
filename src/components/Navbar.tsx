@@ -8,7 +8,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { Magnetic } from "@/components/motion";
-import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 export function Navbar() {
   const t = useTranslations("common.nav");
@@ -82,9 +81,6 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-2">
-          <div className="hidden md:block">
-            <LanguageSwitcher />
-          </div>
           <button
             onClick={() => setOpen(true)}
             data-testid="nav-link-schedule-meeting"
@@ -136,9 +132,6 @@ export function Navbar() {
                   {label}
                 </Link>
               ))}
-              <div className="px-3 py-2">
-                <LanguageSwitcher />
-              </div>
               <div className="mt-3 flex flex-col gap-2">
                 <button
                   onClick={() => {

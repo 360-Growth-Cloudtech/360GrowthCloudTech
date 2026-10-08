@@ -56,7 +56,7 @@ export default function Services() {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(26,21,18,0.55) 0%, rgba(26,21,18,0.88) 45%, #1a1512 100%), radial-gradient(ellipse 70% 55% at 50% 35%, rgba(232,82,26,0.12) 0%, transparent 65%)",
+              "linear-gradient(180deg, rgba(15,23,42,0.55) 0%, rgba(15,23,42,0.88) 45%, #0f172a 100%), radial-gradient(ellipse 70% 55% at 50% 35%, rgba(37,99,235,0.12) 0%, transparent 65%)",
           }}
         />
         <div
@@ -136,7 +136,7 @@ export default function Services() {
       </section>
 
       {/* Process */}
-      <section className="py-20 md:py-28 bg-[#f5f0e8]">
+      <section className="py-20 md:py-28 bg-[#f8fafc]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
           <motion.div {...fadeUp} className="mb-14 md:mb-16 max-w-3xl">
             <h2 className="display-heading text-3xl md:text-[2.35rem] text-foreground mb-4 leading-tight">
@@ -193,7 +193,7 @@ export default function Services() {
                 <CaseStudyPreviewImage
                   src={inPracticeImages[key].image}
                   alt={t(`inPractice.${key}.imageAlt`)}
-                  className="mb-5 group-hover:shadow-[0_16px_48px_rgba(26,21,18,0.12)] transition-shadow"
+                  className="mb-5 group-hover:shadow-[0_16px_48px_rgba(15,23,42,0.12)] transition-shadow"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <span className="text-xs font-bold uppercase tracking-widest text-primary mb-2 block">
@@ -227,7 +227,7 @@ export default function Services() {
             {...fadeUp}
             className="relative overflow-hidden rounded-3xl px-8 py-14 md:px-14 md:py-16"
             style={{
-              background: "linear-gradient(135deg, #e8521a 0%, #c43d0f 55%, #a83208 100%)",
+              background: "linear-gradient(135deg, #2563eb 0%, #1d4ed8 55%, #1e40af 100%)",
             }}
           >
             <div

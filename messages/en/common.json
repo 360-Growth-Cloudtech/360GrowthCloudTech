@@ -27,7 +27,7 @@
     "scheduleDesc": "Let's discuss your project and explore how we can help you reach your goals.",
     "scheduleMeeting": "Schedule a Meeting",
     "sendMessage": "Send Message",
-    "copyright": "© {year} 360CloudTech. All rights reserved.",
+    "copyright": "© {year} 360GrowthCloudTech. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookies Policy"
@@ -115,15 +115,6 @@
     "messageSentDescription": "Thank you for reaching out. We'll get back to you shortly — typically within 2 business hours.",
     "messageFailedTitle": "Could not send message"
   },
-  "languages": {
-    "switchLanguage": "Switch language",
-    "en": "English",
-    "es": "Español",
-    "fr": "Français",
-    "de": "Deutsch",
-    "ja": "日本語",
-    "ar": "العربية"
-  },
   "social": {
     "linkedin": "LinkedIn",
     "twitter": "Twitter",
@@ -138,5 +129,13 @@
     "title": "404 Page Not Found",
     "description": "The page you're looking for doesn't exist or has been moved.",
     "backHome": "Back to home"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "industries": "Industries",
+    "caseStudies": "Case Studies"
   }
 }

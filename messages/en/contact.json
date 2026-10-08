@@ -13,5 +13,9 @@
   "scheduleCard": {
     "title": "Prefer a call?",
     "description": "Book a free 30-min strategy session with our team."
+  },
+  "meta": {
+    "title": "Contact Us – Free Software Consultation",
+    "description": "Talk to a senior software architect. Get a free 30-minute consultation, a transparent estimate and an NDA-protected discussion. Reply within 2 business hours."
   }
 }

@@ -29,5 +29,9 @@
   "cta": {
     "title": "Working with us.",
     "subtitle": "Start with a free 30-minute discovery call. We'll learn about your product, timeline, and goals — then outline a clear path forward. No pitch deck, no pressure."
+  },
+  "meta": {
+    "title": "About Us – AI Software Engineering Team",
+    "description": "Meet 360GrowthCloudTech: a senior engineering team building custom software, AI solutions and cloud platforms for startups and enterprises worldwide."
   }
 }
