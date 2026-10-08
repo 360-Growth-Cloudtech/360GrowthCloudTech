@@ -8,10 +8,20 @@ const nextConfig = {
   // so only emit it for production builds, which is where Docker needs it.
   output: process.env.NODE_ENV === "production" ? "standalone" : undefined,
   reactStrictMode: true,
+  // Always render <title>/meta/canonical inside <head> (no streamed metadata),
+  // so every crawler and link-preview bot sees them in the raw HTML.
+  htmlLimitedBots: /.*/,
   // The dev-only Segment Explorer panel fails to register in the React Client
   // Manifest here and takes the whole client bundle down with it.
   experimental: {
     devtoolSegmentExplorer: false,
+  },
+  // English is served unprefixed; old /en and es/fr/de/ja/ar URLs go to the bare path.
+  async redirects() {
+    return [
+      { source: "/:lang(en|es|fr|de|ja|ar)", destination: "/", permanent: true },
+      { source: "/:lang(en|es|fr|de|ja|ar)/:path*", destination: "/:path*", permanent: true },
+    ];
   },
 };
 
