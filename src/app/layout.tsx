@@ -6,8 +6,7 @@ import "../index.css";
 
 // Self-hosted via next/font: no render-blocking request to Google Fonts.
 const jakarta = Plus_Jakarta_Sans({
-  subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
   display: "swap",
   variable: "--font-jakarta",
 });
