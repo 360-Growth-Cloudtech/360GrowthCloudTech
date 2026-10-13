@@ -15,9 +15,9 @@ function buildAutoReplyHtml(name: string): string {
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#f8fafc;padding:32px 16px;">
     <tr><td align="center">
       <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:16px;overflow:hidden;border:1px solid rgba(15,23,42,0.08);">
-        <tr><td style="background:#2563eb;height:4px;font-size:0;line-height:0;">&nbsp;</td></tr>
+        <tr><td style="background:#ea430c;height:4px;font-size:0;line-height:0;">&nbsp;</td></tr>
         <tr><td style="padding:32px 28px;">
-          <p style="margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#2563eb;">360GrowthCloudTech</p>
+          <p style="margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#ea430c;">360GrowthCloudTech</p>
           <h1 style="margin:0 0 20px;font-size:22px;font-weight:800;color:#0f172a;line-height:1.3;">Thank you for reaching out</h1>
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#4a4038;">Hi ${greeting},</p>
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#4a4038;">
@@ -27,14 +27,14 @@ function buildAutoReplyHtml(name: string): string {
           </p>
           <p style="margin:0 0 24px;font-size:15px;line-height:1.65;color:#4a4038;">
             If your request is urgent, call us at
-            <a href="${CONTACT_PHONE_TEL}" style="color:#2563eb;text-decoration:none;"> ${CONTACT_PHONE}</a>
+            <a href="${CONTACT_PHONE_TEL}" style="color:#ea430c;text-decoration:none;"> ${CONTACT_PHONE}</a>
             or reply directly to this email.
           </p>
           <p style="margin:0;font-size:15px;line-height:1.65;color:#4a4038;">
             Best regards,<br>
             <strong style="color:#0f172a;">360GrowthCloudTech Team</strong><br>
-            <a href="mailto:${CONTACT_EMAIL}" style="color:#2563eb;text-decoration:none;">${CONTACT_EMAIL}</a><br>
-            <a href="${CONTACT_PHONE_TEL}" style="color:#2563eb;text-decoration:none;">${CONTACT_PHONE}</a>
+            <a href="mailto:${CONTACT_EMAIL}" style="color:#ea430c;text-decoration:none;">${CONTACT_EMAIL}</a><br>
+            <a href="${CONTACT_PHONE_TEL}" style="color:#ea430c;text-decoration:none;">${CONTACT_PHONE}</a>
           </p>
         </td></tr>
       </table>

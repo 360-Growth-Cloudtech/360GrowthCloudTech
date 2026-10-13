@@ -3,80 +3,93 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { ArrowRight, ShieldCheck } from "lucide-react";
+import { IndustryShowcase } from "@/components/IndustryShowcase";
 import { PageHero } from "@/components/PageHero";
-import { HeartPulse, Plane, Building2, Landmark, GraduationCap, Building, ArrowRight, CheckCircle } from "lucide-react";
+import { INDUSTRY_SLUGS, announceHashNav, industryAnchor, industryMeta } from "@/lib/industry-catalog";
+import { caseStudyMeta } from "@/lib/case-studies-meta";
 
 const fadeUp = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 } };
-const stagger = { animate: { transition: { staggerChildren: 0.09 } } };
-
-const industryKeys = ["healthcare", "travel", "retail", "finance", "education", "realEstate"] as const;
-
-const industryIcons = {
-  healthcare: HeartPulse,
-  travel: Plane,
-  retail: Building2,
-  finance: Landmark,
-  education: GraduationCap,
-  realEstate: Building,
-} as const;
 
 export default function Industries() {
   const t = useTranslations("industries");
   const tCta = useTranslations("common.ctas");
 
-  const industries = industryKeys.map((key) => ({
-    icon: industryIcons[key],
-    name: t(`items.${key}.name`),
-    badge: t(`items.${key}.badge`),
-    desc: t(`items.${key}.desc`),
-    bullets: t.raw(`items.${key}.bullets`) as string[],
-  }));
+  const stats = [
+    { value: String(INDUSTRY_SLUGS.length), label: t("page.statIndustries") },
+    { value: String(caseStudyMeta.length), label: t("page.statProjects") },
+    { value: t("page.statComplianceValue"), label: t("page.statCompliance") },
+  ];
 
   return (
     <>
-      <PageHero label={t("page.label")} title={t("page.title")} subtitle={t("page.subtitle")} />
-
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-3" variants={stagger} initial="initial" whileInView="animate" viewport={{ once: true }}>
-            {industries.map((industry, i) => (
-              <motion.div key={industryKeys[i]} variants={fadeUp} transition={{ duration: 0.45 }} className="premium-card rounded-2xl p-6 flex flex-col h-full">
-                <div className="flex justify-between items-start mb-5">
-                  <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
-                    <industry.icon className="w-5 h-5 text-primary" />
-                  </div>
-                  <span className="px-3 py-1 text-xs font-bold rounded-full" style={{ background: "rgba(15,23,42,0.06)", color: "#64748b" }}>
-                    {industry.badge}
-                  </span>
-                </div>
-                <h3 className="font-extrabold text-base mb-2 text-foreground">{industry.name}</h3>
-                <p className="text-sm text-muted-foreground mb-5 flex-1 leading-relaxed">{industry.desc}</p>
-                <div className="pt-4 border-t border-border/50">
-                  <ul className="space-y-2">
-                    {industry.bullets.map((bullet, j) => (
-                      <li key={j} className="flex items-center gap-2 text-sm font-medium text-foreground/75">
-                        <CheckCircle size={13} className="text-primary shrink-0" />{bullet}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </motion.div>
-            ))}
+      <PageHero
+        label={t("page.label")}
+        title={t("page.title")}
+        highlight={t("page.titleHighlight")}
+        subtitle={t("page.subtitle")}
+      >
+          {/* Industry chips jump straight to that tab */}
+          <motion.div {...fadeUp} transition={{ duration: 0.6, delay: 0.18 }} className="mb-12 flex flex-wrap justify-center gap-2.5">
+            {INDUSTRY_SLUGS.map((slug) => {
+              const Icon = industryMeta[slug].icon;
+              return (
+                <a
+                  key={slug}
+                  href={`#${industryAnchor(slug)}`}
+                  onClick={() => {
+                    // Lenis handles the scroll but doesn't touch the URL; tell the showcase directly.
+                    window.history.replaceState(null, "", `#${industryAnchor(slug)}`);
+                    announceHashNav(`#${industryAnchor(slug)}`);
+                  }}
+                  className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition-colors hover:border-brand-300 hover:text-brand-700"
+                >
+                  <Icon size={15} className="text-brand-500" />
+                  {t(`catalog.${slug}.name`)}
+                </a>
+              );
+            })}
           </motion.div>
-        </div>
-      </section>
 
-      <section className="py-16 bg-white/40 border-t border-border/60">
+          <motion.dl
+            {...fadeUp}
+            transition={{ duration: 0.6, delay: 0.24 }}
+            className="mx-auto grid max-w-3xl grid-cols-1 divide-y divide-slate-200 rounded-2xl border border-slate-200 bg-white/80 shadow-sm backdrop-blur sm:grid-cols-3 sm:divide-x sm:divide-y-0"
+          >
+            {stats.map((stat) => (
+              <div key={stat.label} className="px-6 py-5">
+                <dt className="sr-only">{stat.label}</dt>
+                <dd className="text-2xl font-extrabold tracking-tight text-slate-900">{stat.value}</dd>
+                <dd className="mt-1 text-xs font-medium uppercase tracking-wider text-slate-500">{stat.label}</dd>
+              </div>
+            ))}
+          </motion.dl>
+      </PageHero>
+
+      <IndustryShowcase
+        badge={t("page.showcaseBadge")}
+        title={t("page.showcaseTitle")}
+        subtitle={t("page.showcaseSubtitle")}
+        syncHash
+      />
+
+      {/* CTA */}
+      <section className="bg-white pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div className="rounded-3xl overflow-hidden text-center px-8 py-14 relative" style={{ backgroundColor: "#0f172a" }} variants={fadeUp} initial="initial" whileInView="animate" viewport={{ once: true }} transition={{ duration: 0.6 }}>
-            <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 50% 60% at 50% 100%, rgba(37,99,235,0.2) 0%, transparent 70%)" }} />
-            <div className="relative z-10">
-              <h2 className="display-heading text-2xl md:text-4xl text-white mb-4">{t("cta.title")}</h2>
-              <p className="text-sm mb-8 max-w-sm mx-auto" style={{ color: "rgba(255,255,255,0.45)" }}>{t("cta.subtitle")}</p>
-              <Link href="/contact" className="btn-primary inline-flex">
-                {tCta("letsTalk")} <ArrowRight size={16} />
-              </Link>
-            </div>
+          <motion.div
+            className="relative mx-auto max-w-7xl overflow-hidden rounded-3xl px-8 py-14 text-center"
+            style={{ background: "linear-gradient(135deg, #f95d16 0%, #ea430c 50%, #7c2412 100%)" }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <ShieldCheck className="mx-auto mb-4 text-white/80" size={32} />
+            <h2 className="display-heading mb-4 text-2xl text-white md:text-4xl">{t("cta.title")}</h2>
+            <p className="mx-auto mb-8 max-w-md text-sm text-white/75">{t("cta.subtitle")}</p>
+            <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-foreground hover:bg-white/90">
+              {tCta("letsTalk")} <ArrowRight size={16} />
+            </Link>
           </motion.div>
         </div>
       </section>

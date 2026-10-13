@@ -27,7 +27,7 @@ export const SITE_KEYWORDS = [
 /** Generated 1200×630 share image (see src/app/og.png/route.tsx). */
 export const DEFAULT_OG_IMAGE = "/og.png";
 
-export const THEME_COLOR = "#2563eb";
+export const THEME_COLOR = "#ea430c";
 
 /**
  * Public profiles for Organization `sameAs`. Empty entries are skipped, so

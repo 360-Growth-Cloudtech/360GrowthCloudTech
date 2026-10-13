@@ -23,56 +23,17 @@ import {
   Zap, Globe, Lock, ShieldCheck, Cpu, Smartphone, Database, Server,
   Layers, Bot, Wrench, Activity, ChevronRight, ChevronDown, Check,
   Building2, Briefcase, Landmark, Factory, Truck, ShoppingBag, Home as HomeIcon,
-  Sparkles, Laptop, CheckCircle
+  Sparkles, Laptop, CheckCircle, Phone, Mail, Send
 } from "lucide-react";
+import { SERVICE_SLUGS } from "@/lib/service-catalog";
+import { TECH_ICONS } from "@/lib/tech-icons";
 import { submitLead } from "@/lib/submit-lead";
+import { ServiceCardGrid } from "@/components/ServiceCardGrid";
+import { HeroBackdrop } from "@/components/HeroBackdrop";
+import { IndustryShowcase } from "@/components/IndustryShowcase";
+import { ProcessTimeline } from "@/components/ProcessTimeline";
 import { toast } from "sonner";
 
-// Tech icon mapping helper
-const TECH_ICONS: Record<string, string> = {
-  react: "⚛️",
-  nextjs: "▲",
-  vue: "💚",
-  angular: "🅰️",
-  ts: "🔷",
-  tailwind: "🌊",
-  flutter: "💙",
-  reactnative: "📱",
-  nodejs: "🟢",
-  python: "🐍",
-  go: "🦫",
-  java: "☕",
-  dotnet: "🟣",
-  django: "🟩",
-  fastapi: "⚡",
-  graphql: "🔮",
-  postgresql: "🐘",
-  mongodb: "🍃",
-  redis: "🟥",
-  mysql: "🐬",
-  dynamodb: "⚡",
-  elastic: "🔍",
-  supabase: "⚡",
-  firebase: "🔥",
-  aws: "☁️",
-  gcp: "🌐",
-  azure: "🔷",
-  docker: "🐳",
-  k8s: "☸️",
-  terraform: "🏗️",
-  github: "🐙",
-  cloudflare: "🛡️",
-};
-
-// Industry icon mapping helper
-const INDUSTRY_ICONS = [
-  Activity,
-  Landmark,
-  Factory,
-  Truck,
-  ShoppingBag,
-  HomeIcon,
-];
 
 // Outcome icon mapping helper
 const OUTCOME_ICONS = [
@@ -84,63 +45,34 @@ const OUTCOME_ICONS = [
   TrendingUp,
 ];
 
-// Service icon mapping helper
-const SERVICE_ICONS = [
-  Code2,
-  Building2,
-  Globe,
-  Smartphone,
-  Layers,
-  Zap,
-  Cloud,
-  Bot,
-  ShieldCheck,
-  Wrench,
-];
-
 export default function Home() {
   const { setOpen } = useScheduleMeeting();
   const reduced = useReducedMotion();
   const t = useTranslations("home");
+  const tServices = useTranslations("services.catalog");
   const tCommon = useTranslations("common");
 
   // State hooks for interactive sections
   const [activeCaseStudy, setActiveCaseStudy] = useState(0);
-  const [activeEngagementModel, setActiveEngagementModel] = useState(0);
-  const [activeIndustry, setActiveIndustry] = useState(0);
   const [activeTechCategory, setActiveTechCategory] = useState(0);
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
 
   // Hero Form State
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    phone: "",
-    requirement: "",
-    isNotRobot: true,
-  });
+  const emptyQuote = { name: "", phone: "", email: "", service: "" };
+  const [formData, setFormData] = useState(emptyQuote);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Quick newsletter / footer lead capture
   const [quickEmail, setQuickEmail] = useState("");
+  const [quickName, setQuickName] = useState("");
   const [isSubmittingQuick, setIsSubmittingQuick] = useState(false);
 
-  // Scroll animations
-  const heroRef = useRef<HTMLElement>(null);
-  const { scrollYProgress: heroProgress } = useScroll({
-    target: heroRef,
-    offset: ["start start", "end start"],
-  });
 
-  const contentY = useTransform(heroProgress, [0, 1], [0, reduced ? 0 : -80]);
-  const contentOpacity = useTransform(heroProgress, [0, 0.8], [1, reduced ? 1 : 0]);
-
-  // Handle Hero Form Submission
+  // Handle Hero Quote Submission (API requires name, email, phone ≥10, service, message ≥10)
   const handleHeroFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.email || !formData.phone) {
-      toast.error("Please fill in all required fields.");
+    if (!formData.name || !formData.email || formData.phone.length < 10 || !formData.service) {
+      toast.error(t("hero.form.missingFields"));
       return;
     }
 
@@ -150,22 +82,15 @@ export default function Home() {
         formType: "contact",
         name: formData.name,
         email: formData.email,
-        company: formData.company,
         phone: formData.phone,
-        message: formData.requirement,
-        source: "Homepage Hero Lead Form",
+        service: formData.service,
+        message: t("hero.form.serviceMessage", { service: formData.service }),
+        source: "Homepage Hero Quote Bar",
       });
 
       if (res.success) {
         toast.success(t("hero.form.successMessage"));
-        setFormData({
-          name: "",
-          email: "",
-          company: "",
-          phone: "",
-          requirement: "",
-          isNotRobot: true,
-        });
+        setFormData(emptyQuote);
       } else {
         toast.error(res.error || "Submission failed. Please try again.");
       }
@@ -179,23 +104,26 @@ export default function Home() {
   // Handle Quick Email Submission
   const handleQuickEmailSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!quickEmail || !quickEmail.includes("@")) {
-      toast.error("Please enter a valid business email.");
+    if (quickName.trim().length < 2 || !quickEmail.includes("@")) {
+      toast.error(t("finalConversion.missingFields"));
       return;
     }
 
     setIsSubmittingQuick(true);
     try {
       const res = await submitLead({
-        formType: "contact",
+        formType: "schedule-meeting",
+        name: quickName.trim(),
         email: quickEmail,
-        message: "Requested 30-min strategy call from Homepage bottom banner",
+        service: t("finalConversion.service"),
+        message: t("finalConversion.message"),
         source: "Homepage Bottom Quick CTA",
       });
 
       if (res.success) {
         toast.success("Thank you! We will reach out shortly to schedule your call.");
         setQuickEmail("");
+        setQuickName("");
       } else {
         toast.error(res.error || "Submission failed.");
       }
@@ -289,54 +217,6 @@ export default function Home() {
     }
   }, [t]);
 
-  const enterpriseServices = useMemo(() => {
-    try {
-      return (
-        (t.raw("enterpriseServices.services") as {
-          number: string;
-          title: string;
-          desc: string;
-        }[]) || []
-      );
-    } catch {
-      return [];
-    }
-  }, [t]);
-
-  const engagementModels = useMemo(() => {
-    try {
-      return (
-        (t.raw("engagementModels.models") as {
-          id: string;
-          tabName: string;
-          title: string;
-          description: string;
-          bullets: string[];
-          cta: string;
-        }[]) || []
-      );
-    } catch {
-      return [];
-    }
-  }, [t]);
-
-  const industrySolutions = useMemo(() => {
-    try {
-      return (
-        (t.raw("industrySolutions.industries") as {
-          id: string;
-          name: string;
-          title: string;
-          desc: string;
-          points: string[];
-          cta: string;
-        }[]) || []
-      );
-    } catch {
-      return [];
-    }
-  }, [t]);
-
   const techCategories = useMemo(() => {
     try {
       return (
@@ -344,20 +224,6 @@ export default function Home() {
           id: string;
           name: string;
           items: { name: string; icon: string; category: string }[];
-        }[]) || []
-      );
-    } catch {
-      return [];
-    }
-  }, [t]);
-
-  const processSteps = useMemo(() => {
-    try {
-      return (
-        (t.raw("process.steps") as {
-          number: string;
-          title: string;
-          desc: string;
         }[]) || []
       );
     } catch {
@@ -431,238 +297,128 @@ export default function Home() {
   }, [t]);
 
   const activeStudy = caseStudies[activeCaseStudy] || caseStudies[0];
-  const activeModel = engagementModels[activeEngagementModel] || engagementModels[0];
-  const activeInd = industrySolutions[activeIndustry] || industrySolutions[0];
   const activeTech = techCategories[activeTechCategory] || techCategories[0];
 
   return (
     <div data-testid="home-page" className="overflow-x-hidden">
 
       {/* ══════════════════════════════════════════════════════════
-          1. HERO SECTION WITH EMBEDDED CONVERSION FORM
+          1. HERO: FULL-BLEED VISUAL, CENTRED HEADLINE, INLINE QUOTE BAR
       ══════════════════════════════════════════════════════════ */}
-      <section
-        ref={heroRef}
-        className="relative min-h-screen flex items-center justify-center pt-28 pb-16 overflow-hidden hero-grid-bg"
-      >
-        {/* Soft top wash */}
-        <div
-          className="absolute inset-x-0 top-0 h-96 pointer-events-none"
-          style={{
-            background:
-              "radial-gradient(ellipse 70% 60% at 50% -10%, rgba(37,99,235,0.08) 0%, transparent 75%)",
-          }}
-        />
+      <section className="relative flex min-h-[92vh] items-center overflow-hidden pb-28 pt-28 md:pt-48">
+        <HeroBackdrop />
 
-        <motion.div
-          className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-6"
-          style={{ y: contentY, opacity: contentOpacity }}
-        >
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center max-w-7xl mx-auto">
-            
-            {/* Left Content Column (7 Cols) */}
-            <div className="lg:col-span-7 text-left space-y-6">
-              
-              {/* Badge */}
-              <Reveal delay={0} duration={0.5}>
-                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-primary/25 bg-primary/10 text-primary text-xs font-semibold tracking-wide backdrop-blur-sm shadow-sm">
-                  <Sparkles size={13} className="text-primary" />
-                  <span>{t("hero.badge")}</span>
-                </div>
-              </Reveal>
+        <div className="container relative z-10 mx-auto px-4 text-center sm:px-6 lg:px-8">
+          <Reveal delay={0} duration={0.5}>
+            <span className="mb-7 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/80 px-4 py-1.5 text-[0.68rem] font-bold uppercase tracking-[0.08em] text-brand-700 shadow-sm backdrop-blur sm:text-xs sm:tracking-[0.14em]">
+              <Sparkles size={14} />
+              {t("hero.badge")}
+            </span>
+          </Reveal>
 
-              {/* Main Headline */}
-              <Reveal delay={0.1} duration={0.6}>
-                <h1 className="display-heading text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] text-foreground leading-[1.12] tracking-tight">
-                  {t("hero.titlePrefix")}{" "}
-                  <span className="text-primary">{t("hero.titleHighlight")}</span>{" "}
-                  {t("hero.titleSuffix")}
-                </h1>
-              </Reveal>
+          <Reveal delay={0.08} duration={0.6}>
+            <h1 className="display-heading mx-auto max-w-5xl text-4xl leading-[1.04] text-slate-900 sm:text-5xl md:text-6xl lg:text-7xl">
+              {t("hero.titlePrefix")}{" "}
+              <span className="bg-gradient-to-r from-amber-500 via-brand-500 to-brand-600 bg-clip-text text-transparent">
+                {t("hero.titleHighlight")}
+              </span>
+            </h1>
+          </Reveal>
 
-              {/* Subtitle */}
-              <Reveal delay={0.2} duration={0.6}>
-                <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-                  {t("hero.subtitle")}
-                </p>
-              </Reveal>
+          <Reveal delay={0.16} duration={0.6}>
+            <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
+              {t("hero.subtitle")}
+            </p>
+          </Reveal>
 
-              {/* Checkpoints Pills */}
-              <Reveal delay={0.3} duration={0.5}>
-                <div className="flex flex-wrap gap-2.5 pt-1">
-                  {checkpoints.map((point, i) => (
-                    <span
-                      key={i}
-                      className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-white/80 border border-border/80 text-xs font-medium text-foreground/80 shadow-2xs backdrop-blur-xs"
-                    >
-                      <CheckCircle2 size={13} className="text-primary shrink-0" />
-                      {point}
-                    </span>
+          {/* Inline quote bar */}
+          <Reveal delay={0.24} duration={0.6}>
+            <form
+              onSubmit={handleHeroFormSubmit}
+              className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-2.5 rounded-3xl bg-white p-3 text-left shadow-2xl shadow-brand-900/10 ring-1 ring-slate-200/80 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr_1.15fr_auto]"
+            >
+              {[
+                { key: "name", type: "text", icon: Users, auto: "name" },
+                { key: "phone", type: "tel", icon: Phone, auto: "tel" },
+                { key: "email", type: "email", icon: Mail, auto: "email" },
+              ].map(({ key, type, icon: Icon, auto }) => (
+                <label key={key} className="flex items-center gap-3 rounded-2xl border border-slate-200 px-4 py-3.5 transition-colors focus-within:border-brand-400 focus-within:ring-2 focus-within:ring-brand-100">
+                  <Icon size={18} className="shrink-0 text-brand-600" />
+                  <span className="sr-only">{t(`hero.form.${key}Placeholder`)}</span>
+                  <input
+                    type={type}
+                    required
+                    autoComplete={auto}
+                    value={formData[key as "name" | "phone" | "email"]}
+                    onChange={(e) => setFormData({ ...formData, [key]: e.target.value })}
+                    placeholder={t(`hero.form.${key}Placeholder`)}
+                    className="w-full bg-transparent text-[0.95rem] text-slate-900 placeholder:text-slate-400 focus:outline-none"
+                  />
+                </label>
+              ))}
+              <label className="flex items-center gap-3 rounded-2xl border border-slate-200 px-4 py-3.5 transition-colors focus-within:border-brand-400 focus-within:ring-2 focus-within:ring-brand-100">
+                <Layers size={18} className="shrink-0 text-brand-600" />
+                <span className="sr-only">{t("hero.form.servicePlaceholder")}</span>
+                <select
+                  required
+                  value={formData.service}
+                  onChange={(e) => setFormData({ ...formData, service: e.target.value })}
+                  className={`w-full bg-transparent text-[0.95rem] focus:outline-none ${formData.service ? "text-slate-900" : "text-slate-400"}`}
+                >
+                  <option value="">{t("hero.form.servicePlaceholder")}</option>
+                  {SERVICE_SLUGS.map((slug) => (
+                    <option key={slug} value={tServices(`items.${slug}.title`)}>
+                      {tServices(`items.${slug}.title`)}
+                    </option>
                   ))}
-                </div>
-              </Reveal>
+                </select>
+              </label>
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-500 to-brand-600 px-7 py-3.5 text-[0.95rem] font-bold text-white shadow-lg shadow-brand-600/30 transition-all hover:-translate-y-0.5 hover:shadow-xl disabled:opacity-70 sm:col-span-2 lg:col-span-1"
+              >
+                <Send size={17} />
+                {isSubmitting ? t("hero.form.submittingButton") : t("hero.form.submitButton")}
+              </button>
+            </form>
+            <p className="mt-4 flex items-center justify-center gap-1.5 text-xs text-slate-500">
+              <Lock size={12} />
+              {t("hero.form.trustLine")}
+            </p>
+          </Reveal>
 
-              {/* Social Proof & Ratings */}
-              <Reveal delay={0.4} duration={0.5}>
-                <div className="flex flex-wrap items-center gap-6 pt-3 border-t border-border/60">
-                  {/* Clutch Rating */}
-                  <div className="flex items-center gap-3">
-                    <div className="flex flex-col">
-                      <div className="flex items-center gap-1">
-                        <span className="font-extrabold text-foreground text-sm">Clutch</span>
-                        <div className="flex gap-0.5 text-amber-500">
-                          {[1, 2, 3, 4, 5].map((s) => (
-                            <Star key={s} size={13} className="fill-amber-500 text-amber-500" />
-                          ))}
-                        </div>
-                      </div>
-                      <span className="text-xs text-muted-foreground font-semibold">
-                        {t("hero.ratings.clutch.score")} / 5.0 Rating
-                      </span>
-                    </div>
-                  </div>
+          {/* Proof row */}
+          <Reveal delay={0.32} duration={0.6}>
+            <ul className="mx-auto mt-10 flex max-w-4xl flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-slate-600">
+              <li className="flex items-center gap-2">
+                <span className="flex text-amber-500">
+                  {[1, 2, 3, 4, 5].map((s) => (
+                    <Star key={s} size={14} className="fill-amber-500" />
+                  ))}
+                </span>
+                <strong className="text-slate-900">{t("hero.ratings.clutch.score")}</strong> {t("hero.proof.clutch")}
+              </li>
+              <li className="flex items-center gap-2">
+                <Star size={14} className="fill-amber-500 text-amber-500" />
+                <strong className="text-slate-900">{t("hero.ratings.google.score")}</strong> {t("hero.proof.google")}
+              </li>
+              <li className="flex items-center gap-2">
+                <ShieldCheck size={15} className="text-brand-500" />
+                {t("hero.proof.nda")}
+              </li>
+              <li className="flex items-center gap-2">
+                <Zap size={15} className="text-brand-500" />
+                {t("hero.proof.reply")}
+              </li>
+            </ul>
+          </Reveal>
+        </div>
 
-                  <div className="h-7 w-px bg-border/60 hidden sm:block" />
-
-                  {/* Google Rating */}
-                  <div className="flex items-center gap-3">
-                    <div className="flex flex-col">
-                      <div className="flex items-center gap-1">
-                        <span className="font-extrabold text-foreground text-sm">Google</span>
-                        <div className="flex gap-0.5 text-amber-500">
-                          {[1, 2, 3, 4, 5].map((s) => (
-                            <Star key={s} size={13} className="fill-amber-500 text-amber-500" />
-                          ))}
-                        </div>
-                      </div>
-                      <span className="text-xs text-muted-foreground font-semibold">
-                        {t("hero.ratings.google.score")} / 5.0 Rating
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </Reveal>
-
-            </div>
-
-            {/* Right Column: High-Converting Lead Form (5 Cols) */}
-            <div className="lg:col-span-5">
-              <Reveal delay={0.2} duration={0.6}>
-                <div className="bg-white/95 rounded-2xl p-6 sm:p-8 border border-border/80 shadow-xl backdrop-blur-md relative overflow-hidden">
-                  
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-2xl pointer-events-none" />
-
-                  <div className="mb-5">
-                    <h3 className="font-bold text-lg sm:text-xl text-foreground mb-1">
-                      {t("hero.form.title")}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-muted-foreground">
-                      {t("hero.form.subtitle")}
-                    </p>
-                  </div>
-
-                  <form onSubmit={handleHeroFormSubmit} className="space-y-3.5 text-left">
-                    <div>
-                      <label className="block text-xs font-semibold text-foreground/80 mb-1">
-                        {t("hero.form.nameLabel")} <span className="text-primary">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        required
-                        value={formData.name}
-                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        placeholder={t("hero.form.namePlaceholder")}
-                        className="w-full px-3.5 py-2.5 rounded-lg border border-border/80 bg-background/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all placeholder:text-muted-foreground/60"
-                      />
-                    </div>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      <div>
-                        <label className="block text-xs font-semibold text-foreground/80 mb-1">
-                          {t("hero.form.emailLabel")} <span className="text-primary">*</span>
-                        </label>
-                        <input
-                          type="email"
-                          required
-                          value={formData.email}
-                          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                          placeholder={t("hero.form.emailPlaceholder")}
-                          className="w-full px-3.5 py-2.5 rounded-lg border border-border/80 bg-background/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all placeholder:text-muted-foreground/60"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-xs font-semibold text-foreground/80 mb-1">
-                          {t("hero.form.phoneLabel")} <span className="text-primary">*</span>
-                        </label>
-                        <input
-                          type="tel"
-                          required
-                          value={formData.phone}
-                          onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                          placeholder={t("hero.form.phonePlaceholder")}
-                          className="w-full px-3.5 py-2.5 rounded-lg border border-border/80 bg-background/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all placeholder:text-muted-foreground/60"
-                        />
-                      </div>
-                    </div>
-
-                    <div>
-                      <label className="block text-xs font-semibold text-foreground/80 mb-1">
-                        {t("hero.form.companyLabel")}
-                      </label>
-                      <input
-                        type="text"
-                        value={formData.company}
-                        onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                        placeholder={t("hero.form.companyPlaceholder")}
-                        className="w-full px-3.5 py-2.5 rounded-lg border border-border/80 bg-background/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all placeholder:text-muted-foreground/60"
-                      />
-                    </div>
-
-                    <div>
-                      <label className="block text-xs font-semibold text-foreground/80 mb-1">
-                        {t("hero.form.requirementLabel")}
-                      </label>
-                      <textarea
-                        rows={2}
-                        value={formData.requirement}
-                        onChange={(e) => setFormData({ ...formData, requirement: e.target.value })}
-                        placeholder={t("hero.form.requirementPlaceholder")}
-                        className="w-full px-3.5 py-2 rounded-lg border border-border/80 bg-background/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all resize-none placeholder:text-muted-foreground/60"
-                      />
-                    </div>
-
-                    <div className="flex items-center gap-2 pt-0.5">
-                      <input
-                        type="checkbox"
-                        id="captchaCheck"
-                        checked={formData.isNotRobot}
-                        onChange={(e) => setFormData({ ...formData, isNotRobot: e.target.checked })}
-                        className="rounded border-border text-primary focus:ring-primary/40 h-4 w-4"
-                      />
-                      <label htmlFor="captchaCheck" className="text-xs text-muted-foreground select-none cursor-pointer">
-                        {t("hero.form.captchaLabel")}
-                      </label>
-                    </div>
-
-                    <button
-                      type="submit"
-                      disabled={isSubmitting}
-                      className="w-full btn-primary py-3 text-sm font-bold shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer mt-2"
-                    >
-                      {isSubmitting ? t("hero.form.submittingButton") : t("hero.form.submitButton")}
-                    </button>
-
-                    <p className="flex items-center justify-center gap-1.5 text-[0.7rem] text-center text-muted-foreground pt-1">
-                      <Lock size={11} className="shrink-0" />
-                      {t("hero.form.trustLine")}
-                    </p>
-                  </form>
-                </div>
-              </Reveal>
-            </div>
-
-          </div>
-        </motion.div>
+        {/* Wave into the next section */}
+        <svg className="absolute inset-x-0 bottom-[-1px] h-16 w-full text-slate-50 md:h-24" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden>
+          <path fill="currentColor" d="M0,64 C240,120 480,8 720,40 C960,72 1200,112 1440,48 L1440,120 L0,120 Z" />
+        </svg>
       </section>
 
       {/* ══════════════════════════════════════════════════════════
@@ -1065,160 +821,24 @@ export default function Home() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════
-          7. END-TO-END ENTERPRISE SERVICES GRID (10 CAPABILITIES)
+          7. END-TO-END SERVICES GRID (10 CAPABILITIES)
       ══════════════════════════════════════════════════════════ */}
-      <section className="py-24 bg-slate-50 border-t border-border/60">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <Reveal className="text-center max-w-3xl mx-auto mb-16">
-            <span className="section-label mb-4 inline-flex">
-              {t("enterpriseServices.badge")}
-            </span>
-            <h2 className="display-heading text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">
-              {t("enterpriseServices.title")}
-            </h2>
-            <p className="text-muted-foreground text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-              {t("enterpriseServices.subtitle")}
-            </p>
-          </Reveal>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {enterpriseServices.map((service, idx) => {
-              const Icon = SERVICE_ICONS[idx % SERVICE_ICONS.length];
-              return (
-                <Reveal key={idx} delay={idx * 0.05} duration={0.5}>
-                  <div className="p-7 rounded-2xl bg-white border border-border/80 shadow-sm hover:border-primary/40 hover:shadow-md transition-all flex flex-col justify-between h-full group">
-                    <div>
-                      <div className="flex items-center justify-between mb-4">
-                        <span className="text-xs font-mono font-bold text-muted-foreground/60 group-hover:text-primary transition-colors">
-                          {service.number}
-                        </span>
-                        <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
-                          <Icon size={18} />
-                        </div>
-                      </div>
-                      <h3 className="font-bold text-base sm:text-lg text-foreground mb-2">
-                        {service.title}
-                      </h3>
-                      <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                        {service.desc}
-                      </p>
-                    </div>
-
-                    <div className="pt-4 mt-4 border-t border-border/40">
-                      <Link
-                        href="/services"
-                        className="inline-flex items-center gap-1 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform"
-                      >
-                        Learn more <ChevronRight size={12} />
-                      </Link>
-                    </div>
-                  </div>
-                </Reveal>
-              );
-            })}
-          </div>
-
-          <div className="text-center mt-12">
-            <Magnetic strength={10}>
-              <button
-                onClick={() => setOpen(true)}
-                className="btn-primary"
-              >
-                {t("enterpriseServices.cta")}
-              </button>
-            </Magnetic>
-          </div>
-
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════════════════════════
-          8. FLEXIBLE ENGAGEMENT MODELS
-      ══════════════════════════════════════════════════════════ */}
-      <section className="py-24 bg-background border-t border-border/60">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <Reveal className="text-center max-w-3xl mx-auto mb-16">
-            <span className="section-label mb-4 inline-flex">
-              {t("engagementModels.badge")}
-            </span>
-            <h2 className="display-heading text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">
-              {t("engagementModels.title")}
-            </h2>
-            <p className="text-muted-foreground text-sm sm:text-base max-w-xl mx-auto">
-              {t("engagementModels.subtitle")}
-            </p>
-          </Reveal>
-
-          {/* Model Selector Tabs */}
-          <div className="flex flex-wrap justify-center gap-3 mb-12 max-w-3xl mx-auto">
-            {engagementModels.map((model, idx) => (
-              <button
-                key={model.id || idx}
-                onClick={() => setActiveEngagementModel(idx)}
-                className={`px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all cursor-pointer border ${
-                  activeEngagementModel === idx
-                    ? "bg-foreground text-white border-foreground shadow-md"
-                    : "bg-white text-muted-foreground border-border hover:bg-white/80"
-                }`}
-              >
-                {model.tabName}
-              </button>
-            ))}
-          </div>
-
-          {/* Active Model Content Card */}
-          <Reveal className="max-w-4xl mx-auto">
-            {activeModel && (
-              <div className="p-8 sm:p-10 rounded-3xl bg-white border border-border shadow-xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
-                <div className="md:col-span-8 text-left">
-                  <h3 className="display-heading text-2xl sm:text-3xl text-foreground mb-3">
-                    {activeModel.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-                    {activeModel.description}
-                  </p>
-
-                  <div className="space-y-2.5 mb-8">
-                    {activeModel.bullets?.map((bullet, i) => (
-                      <div key={i} className="flex items-center gap-2.5 text-xs sm:text-sm text-foreground/85">
-                        <Check size={16} className="text-emerald-600 shrink-0 font-bold" />
-                        <span>{bullet}</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  <Magnetic strength={8}>
-                    <button
-                      onClick={() => setOpen(true)}
-                      className="btn-primary text-xs sm:text-sm"
-                    >
-                      {activeModel.cta}
-                    </button>
-                  </Magnetic>
-                </div>
-
-                <div className="md:col-span-4 flex flex-col items-center justify-center p-6 rounded-2xl bg-background/80 border border-border/80 text-center">
-                  <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                    <Users size={28} />
-                  </div>
-                  <h4 className="font-bold text-base text-foreground mb-1">
-                    Rapid Onboarding
-                  </h4>
-                  <p className="text-xs text-muted-foreground mb-4">
-                    Zero lock-in contracts & instant IP rights transfer.
-                  </p>
-                  <span className="text-[0.65rem] font-bold uppercase tracking-widest text-primary bg-primary/10 px-2.5 py-1 rounded-full">
-                    SLA Guaranteed
-                  </span>
-                </div>
-              </div>
-            )}
-          </Reveal>
-
-        </div>
-      </section>
+      <ServiceCardGrid
+        badge={t("enterpriseServices.badge")}
+        title={t("enterpriseServices.title")}
+        subtitle={t("enterpriseServices.subtitle")}
+        linkToDetails
+        footer={
+          <Magnetic strength={10}>
+            <button
+              onClick={() => setOpen(true)}
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-foreground shadow-lg transition-colors hover:bg-white/90"
+            >
+              {t("enterpriseServices.cta")}
+            </button>
+          </Magnetic>
+        }
+      />
 
       {/* ══════════════════════════════════════════════════════════
           8b. FAST START TIMELINE (FIRST CALL → FIRST DELIVERY)
@@ -1297,95 +917,13 @@ export default function Home() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════
-          10. INDUSTRY SOLUTIONS SECTION (HEALTHCARE, BFSI, ETC.)
+          10. INDUSTRY SOLUTIONS SHOWCASE (shared with /industries)
       ══════════════════════════════════════════════════════════ */}
-      <section className="py-24 bg-background border-t border-border/60">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <Reveal className="text-center max-w-3xl mx-auto mb-16">
-            <span className="section-label mb-4 inline-flex">
-              {t("industrySolutions.badge")}
-            </span>
-            <h2 className="display-heading text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">
-              {t("industrySolutions.title")}
-            </h2>
-            <p className="text-muted-foreground text-sm sm:text-base max-w-xl mx-auto">
-              {t("industrySolutions.subtitle")}
-            </p>
-          </Reveal>
-
-          {/* Industry Tabs */}
-          <div className="flex flex-wrap justify-center gap-2.5 mb-12 max-w-4xl mx-auto">
-            {industrySolutions.map((ind, idx) => {
-              const Icon = INDUSTRY_ICONS[idx % INDUSTRY_ICONS.length];
-              return (
-                <button
-                  key={ind.id || idx}
-                  onClick={() => setActiveIndustry(idx)}
-                  className={`px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all flex items-center gap-2 cursor-pointer border ${
-                    activeIndustry === idx
-                      ? "bg-white text-primary border-primary/40 shadow-sm"
-                      : "bg-background/80 text-foreground/70 border-border hover:bg-white/60"
-                  }`}
-                >
-                  <Icon size={15} />
-                  <span>{ind.name}</span>
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Active Industry Showcase Card */}
-          <Reveal className="max-w-5xl mx-auto">
-            {activeInd && (
-              <div className="p-8 sm:p-12 rounded-3xl bg-white border border-border shadow-lg grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                <div className="lg:col-span-7 text-left">
-                  <span className="text-xs font-extrabold uppercase tracking-widest text-primary mb-2 block">
-                    Domain Expertise
-                  </span>
-                  <h3 className="display-heading text-2xl sm:text-3xl text-foreground mb-3">
-                    {activeInd.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-                    {activeInd.desc}
-                  </p>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
-                    {activeInd.points?.map((pt, i) => (
-                      <div key={i} className="flex items-center gap-2 text-xs font-semibold text-foreground/80 bg-background/80 p-2.5 rounded-lg border border-border/60">
-                        <CheckCircle size={14} className="text-primary shrink-0" />
-                        <span>{pt}</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  <Magnetic strength={8}>
-                    <button
-                      onClick={() => setOpen(true)}
-                      className="btn-primary text-xs sm:text-sm"
-                    >
-                      {activeInd.cta}
-                    </button>
-                  </Magnetic>
-                </div>
-
-                <div className="lg:col-span-5 p-6 rounded-2xl bg-background border border-border flex flex-col items-center justify-center text-center">
-                  <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                    <ShieldCheck size={32} />
-                  </div>
-                  <h4 className="font-bold text-base text-foreground mb-1">
-                    Compliance & Security First
-                  </h4>
-                  <p className="text-xs text-muted-foreground">
-                    Engineered to meet HIPAA, GDPR, PCI-DSS, and ISO 27001 standards.
-                  </p>
-                </div>
-              </div>
-            )}
-          </Reveal>
-
-        </div>
-      </section>
+      <IndustryShowcase
+        badge={t("industrySolutions.badge")}
+        title={t("industrySolutions.title")}
+        subtitle={t("industrySolutions.subtitle")}
+      />
 
       {/* ══════════════════════════════════════════════════════════
           11. TECHNOLOGY STACK MATRIX
@@ -1426,8 +964,21 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {activeTech?.items?.map((item, i) => (
               <Reveal key={i} delay={i * 0.04} duration={0.4}>
-                <div className="p-4 rounded-xl bg-white border border-border/80 shadow-2xs hover:border-primary/40 hover:shadow-sm transition-all flex items-center gap-3">
-                  <span className="text-2xl">{TECH_ICONS[item.icon] || "⚙️"}</span>
+                <div className="group p-4 rounded-xl bg-white border border-border/80 shadow-2xs hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-md transition-all flex items-center gap-3">
+                  {(() => {
+                    const brand = TECH_ICONS[item.icon];
+                    const Logo = brand?.icon ?? Code2;
+                    const color = brand?.color ?? "#64748b";
+                    return (
+                      <span
+                        className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl transition-transform group-hover:scale-110"
+                        style={{ backgroundColor: `${color}14`, color }}
+                        aria-hidden
+                      >
+                        <Logo size={24} />
+                      </span>
+                    );
+                  })()}
                   <div className="min-w-0 text-left">
                     <h4 className="font-bold text-sm text-foreground truncate">{item.name}</h4>
                     <p className="text-[0.65rem] text-muted-foreground truncate">{item.category}</p>
@@ -1441,43 +992,9 @@ export default function Home() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════
-          12. COLLABORATIVE 6-STEP AGILE PROCESS
+          12. HOW WE WORK — INTERACTIVE PROCESS TIMELINE (shared with /services)
       ══════════════════════════════════════════════════════════ */}
-      <section className="py-24 bg-background border-t border-border/60">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <Reveal className="text-center max-w-3xl mx-auto mb-16">
-            <span className="section-label mb-4 inline-flex">
-              {t("process.badge")}
-            </span>
-            <h2 className="display-heading text-3xl sm:text-4xl md:text-5xl text-foreground mb-4">
-              {t("process.title")}
-            </h2>
-            <p className="text-muted-foreground text-sm sm:text-base max-w-xl mx-auto">
-              {t("process.subtitle")}
-            </p>
-          </Reveal>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {processSteps.map((step, idx) => (
-              <Reveal key={idx} delay={idx * 0.08} duration={0.5}>
-                <div className="p-7 rounded-2xl bg-white border border-border/80 shadow-sm hover:shadow-md transition-all h-full text-left">
-                  <span className="text-xs font-mono font-black text-primary bg-primary/10 px-2.5 py-1 rounded-md mb-4 inline-block">
-                    STEP {step.number}
-                  </span>
-                  <h3 className="font-bold text-lg text-foreground mb-2">
-                    {step.title}
-                  </h3>
-                  <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                    {step.desc}
-                  </p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-
-        </div>
-      </section>
+      <ProcessTimeline />
 
       {/* ══════════════════════════════════════════════════════════
           13. WHY CHOOSE US (6 CORE DIFFERENTIATORS)
@@ -1587,7 +1104,7 @@ export default function Home() {
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Reveal className="max-w-3xl mx-auto">
-            <span className="text-xs font-bold uppercase tracking-widest text-blue-400 mb-4 inline-block">
+            <span className="text-xs font-bold uppercase tracking-widest text-brand-400 mb-4 inline-block">
               Free Architecture Assessment
             </span>
             <h2 className="display-heading text-3xl sm:text-5xl text-white mb-4 leading-tight">
@@ -1600,13 +1117,22 @@ export default function Home() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5 max-w-xl mx-auto mb-8 text-left">
               {finalChecklist.map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm text-white/85">
-                  <Check size={16} className="text-blue-400 shrink-0 mt-0.5" />
+                  <Check size={16} className="text-brand-400 shrink-0 mt-0.5" />
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
 
-            <form onSubmit={handleQuickEmailSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto mb-6">
+            <form onSubmit={handleQuickEmailSubmit} className="flex flex-col sm:flex-row gap-3 max-w-xl mx-auto mb-6">
+              <input
+                type="text"
+                required
+                value={quickName}
+                onChange={(e) => setQuickName(e.target.value)}
+                placeholder={t("finalConversion.namePlaceholder")}
+                autoComplete="name"
+                className="px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder:text-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary sm:w-40 backdrop-blur-sm"
+              />
               <input
                 type="email"
                 required

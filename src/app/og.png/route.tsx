@@ -19,7 +19,7 @@ export function GET() {
           padding: "72px 80px",
           background: "#0f172a",
           backgroundImage:
-            "radial-gradient(ellipse 60% 70% at 100% 0%, rgba(37,99,235,0.45) 0%, transparent 70%)",
+            "radial-gradient(ellipse 60% 70% at 100% 0%, rgba(234,67,12,0.45) 0%, transparent 70%)",
           color: "#ffffff",
           fontFamily: "sans-serif",
         }}
@@ -30,7 +30,7 @@ export function GET() {
               width: 64,
               height: 64,
               borderRadius: 16,
-              background: "#2563eb",
+              background: "#ea430c",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",

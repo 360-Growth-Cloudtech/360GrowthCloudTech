@@ -7,10 +7,12 @@ import { ArrowRight, Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { CaseStudyPreviewImage } from "@/components/CaseStudyPreviewImage";
+import { ServiceCardGrid } from "@/components/ServiceCardGrid";
+import { PageHero } from "@/components/PageHero";
+import { ProcessTimeline } from "@/components/ProcessTimeline";
 import {
   DISCIPLINE_KEYS,
   IN_PRACTICE_KEYS,
-  PROCESS_STEP_KEYS,
   inPracticeImages,
 } from "@/lib/services-data";
 
@@ -41,66 +43,34 @@ export default function Services() {
 
   return (
     <div data-testid="services-page">
-      {/* Hero */}
-      <section className="relative min-h-[72vh] flex items-center justify-center py-32 overflow-hidden">
-        <Image
-          src="/services/cloud-platform.png"
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          aria-hidden
-          className="object-cover object-center scale-105"
-        />
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(180deg, rgba(15,23,42,0.55) 0%, rgba(15,23,42,0.88) 45%, #0f172a 100%), radial-gradient(ellipse 70% 55% at 50% 35%, rgba(37,99,235,0.12) 0%, transparent 65%)",
-          }}
-        />
-        <div
-          className="absolute inset-0 opacity-25"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)",
-            backgroundSize: "48px 48px",
-          }}
-        />
+      <PageHero
+        label={t("page.label")}
+        title={t("page.titleLine1")}
+        highlight={t("page.titleLine2")}
+        subtitle={t("page.subtitle")}
+        waveClassName="text-ink-900"
+      />
 
-        <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-6"
-          >
-            {t("page.label")}
-          </motion.p>
-          <motion.h1
-            initial={{ opacity: 0, y: 28 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.65, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
-            className="display-heading text-4xl md:text-5xl lg:text-[3.4rem] text-white leading-[1.1] mb-6"
-          >
-            {t("page.titleLine1")}
-            <br />
-            {t("page.titleLine2")}
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.16, ease: [0.16, 1, 0.3, 1] }}
-            className="text-base md:text-lg leading-relaxed max-w-2xl mx-auto"
-            style={{ color: "rgba(255,255,255,0.55)" }}
-          >
-            {t("page.subtitle")}
-          </motion.p>
-        </div>
-      </section>
+      {/* The ten services; header dropdown links to each card by slug */}
+      <ServiceCardGrid
+        badge={t("catalog.badge")}
+        title={t("catalog.title")}
+        subtitle={t("catalog.subtitle")}
+        anchorIds
+      />
 
       {/* Numbered disciplines */}
       <section className="bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl pt-20 md:pt-24">
+          <motion.div {...fadeUp} className="max-w-3xl">
+            <h2 className="display-heading text-3xl md:text-[2.35rem] text-foreground mb-4 leading-tight">
+              {t("page.disciplinesTitle")}
+            </h2>
+            <p className="text-muted-foreground leading-relaxed text-base md:text-[1.05rem]">
+              {t("page.disciplinesSubtitle")}
+            </p>
+          </motion.div>
+        </div>
         {DISCIPLINE_KEYS.map((key, index) => {
           const reversed = index % 2 === 1;
           const bullets = t.raw(`disciplines.${key}.bullets`) as string[];
@@ -135,43 +105,8 @@ export default function Services() {
         })}
       </section>
 
-      {/* Process */}
-      <section className="py-20 md:py-28 bg-[#f8fafc]">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
-          <motion.div {...fadeUp} className="mb-14 md:mb-16 max-w-3xl">
-            <h2 className="display-heading text-3xl md:text-[2.35rem] text-foreground mb-4 leading-tight">
-              {t("page.processTitle")}
-            </h2>
-            <p className="text-muted-foreground leading-relaxed text-base md:text-[1.05rem]">
-              {t("page.processSubtitle")}
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12 lg:gap-y-14">
-            {PROCESS_STEP_KEYS.map((key, i) => (
-              <motion.div
-                key={key}
-                {...fadeUp}
-                transition={{ delay: i * 0.05 }}
-                className="flex flex-col"
-              >
-                <div className="flex items-center gap-2.5 mb-5">
-                  <span className="h-2 w-2 shrink-0 rounded-[2px] bg-primary" aria-hidden />
-                  <span className="text-sm font-bold tabular-nums tracking-wide text-primary">
-                    {key}
-                  </span>
-                </div>
-                <h3 className="font-bold text-xl text-foreground mb-3 leading-snug">
-                  {t(`process.${key}.title`)}
-                </h3>
-                <p className="text-sm md:text-[0.9375rem] text-muted-foreground leading-relaxed">
-                  {t(`process.${key}.desc`)}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* How we work */}
+      <ProcessTimeline />
 
       {/* Services in practice */}
       <section className="py-20 md:py-24 bg-background">
@@ -227,7 +162,7 @@ export default function Services() {
             {...fadeUp}
             className="relative overflow-hidden rounded-3xl px-8 py-14 md:px-14 md:py-16"
             style={{
-              background: "linear-gradient(135deg, #2563eb 0%, #1d4ed8 55%, #1e40af 100%)",
+              background: "linear-gradient(135deg, #ea430c 0%, #c2310c 55%, #9a2812 100%)",
             }}
           >
             <div

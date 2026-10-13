@@ -14,9 +14,113 @@
     "stack": "Stack",
     "ctaTitle": "Building something similar?",
     "ctaSubtitle": "Book a free discovery call — we'll discuss scope, timeline, and how to ship it.",
-    "nextCaseStudy": "Next case study"
+    "nextCaseStudy": "Next case study",
+    "visitLive": "Visit live website"
   },
   "items": {
+    "mahasu-travels-website": {
+      "client": "Mahasu Travels",
+      "category": "Travel & Tourism · Tour Booking Website & SEO",
+      "date": "Oct 13, 2026",
+      "readTime": "6 min",
+      "title": "SEO-First Tour Booking Website for a Himachal Travel Company That Turns Visitors into Quote Requests",
+      "seoTitle": "Tour Booking Website for Mahasu Travels",
+      "seoDescription": "How we built an SEO-first travel website for Mahasu Travels: Himachal tour packages, destination guides, taxi services and a one-step quote form.",
+      "excerpt": "A fast, search-friendly public website for Mahasu Travels: 21 Himachal tour packages, 11 destination guides, taxi services and a one-step quote form on the first screen that feeds enquiries straight into their operations CRM.",
+      "summary": "Public travel website for Mahasu Travels, a Himachal tour specialist: tour package catalogue, destination guides, taxi services and articles, with technical SEO foundations and a quote-first conversion flow on every page.",
+      "clientVision": "With operations already running on the custom CRM we built for them, Mahasu Travels wanted a public website that wins search traffic for Himachal tour and taxi queries, presents every package clearly, and turns visitors into quote requests their team can answer within minutes.",
+      "challenge": "Himachal travel is a crowded, price-sensitive search market. Travellers compare many operators and decide within a few pages, so the site had to rank for package and destination searches, stay fast on mobile connections in the hills, and make asking for a quote effortless.",
+      "challengeCategories": [
+        {
+          "category": "Winning a Crowded Travel Search Market",
+          "items": [
+            {
+              "title": "Search Visibility",
+              "desc": "Every package and destination needed its own crawlable page, unique title and description, and structured data to compete for Himachal tour searches."
+            },
+            {
+              "title": "Mobile Speed",
+              "desc": "Most travellers browse on phones, often on patchy mountain networks, so image-rich pages had to load quickly without losing visual appeal."
+            },
+            {
+              "title": "Enquiry Friction",
+              "desc": "Long booking forms lose travellers who only want a price. The first step had to be a simple quote request, reachable from the first screen."
+            }
+          ]
+        }
+      ],
+      "solution": [
+        "Home page hero with a one-step quote form capturing name, phone, email and travel date",
+        "Tour package catalogue with 21 Himachal itineraries showing duration, route and current offers",
+        "11 destination guides with seasonal tags such as Must Visit, Monsoon Ready and Best in Summer",
+        "Dedicated taxi services, articles and contact pages, with 24×7 call and WhatsApp buttons on every screen",
+        "SEO foundations: unique titles and meta descriptions, clean URLs, an XML sitemap and structured data"
+      ],
+      "solutionCategories": [
+        {
+          "category": "Content Built to Rank",
+          "items": [
+            {
+              "title": "Tour Package Pages",
+              "desc": "Each itinerary gets its own page with duration, route, inclusions and offer badges, giving search engines specific content to rank."
+            },
+            {
+              "title": "Destination Guides",
+              "desc": "Destination pages grouped by season and sightseeing count answer the questions travellers search for before they book."
+            }
+          ]
+        },
+        {
+          "category": "Conversion on Every Page",
+          "items": [
+            {
+              "title": "Quote-First Hero",
+              "desc": "A four-field quote form sits on the first screen, so a traveller can ask for a price in seconds without leaving the page."
+            },
+            {
+              "title": "Always-On Contact",
+              "desc": "Sticky call, WhatsApp and chat buttons plus a 24×7 helpline keep the next step one tap away on mobile."
+            }
+          ]
+        }
+      ],
+      "results": [
+        "21 tour packages and 11 destinations published as individual, search-friendly pages",
+        "Quote form, call and WhatsApp reachable from the first screen on every device",
+        "Website enquiries flow into the Mahasu operations CRM for fast quotation turnaround",
+        "One consistent brand experience across packages, destinations, taxi and article pages"
+      ],
+      "impactResults": [
+        {
+          "title": "A Complete Travel Sales Funnel",
+          "items": [
+            "Search-friendly package and destination pages bring travellers in.",
+            "A one-step quote form and 24×7 contact options capture them.",
+            "The operations CRM turns enquiries into confirmed trips."
+          ]
+        }
+      ],
+      "finalThoughts": "Together with the operations CRM we built earlier, the new website gives Mahasu Travels an end-to-end funnel: search visibility brings travellers in, the quote form captures them, and the CRM converts them into confirmed Himachal trips.",
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Google Cloud Run",
+        "Schema.org JSON-LD",
+        "WhatsApp Business"
+      ],
+      "imageAlt": "Mahasu Travels home page with a Himachal mountain hero and one-step tour quote form",
+      "gallery": [
+        {
+          "alt": "Mahasu Travels tour packages page listing Himachal tour itineraries with duration and discount badges",
+          "caption": "Tour packages: 21 Himachal itineraries with duration, route and offer badges."
+        },
+        {
+          "alt": "Mahasu Travels destinations page with Amritsar, Dalhousie and Dharamshala destination cards",
+          "caption": "Destinations: 11 places tagged by season with sightseeing counts."
+        }
+      ]
+    },
     "lifestyle-gifting-ecommerce-app": {
       "client": "Premium Lifestyle & Gifting Brand (Dubai, UAE)",
       "category": "E-Commerce · Mobile App Development",
@@ -253,7 +357,9 @@
         "Firebase Cloud Messaging",
         "Shopify GraphQL API"
       ],
-      "imageAlt": "Boosting Sales by 35% for a Premium Lifestyle and Gifting Ecommerce Brand with Flutter Mobile App Development"
+      "imageAlt": "Illustration of a Flutter shopping app showing a product grid and checkout screen",
+      "seoTitle": "Flutter Shopping App for a Dubai Gift Brand",
+      "seoDescription": "Case study: a Flutter e-commerce app for a Dubai lifestyle and gifting brand with Stripe and Tabby checkout, Shopify sync and push notifications."
     },
     "himachal-tourism-google-ads": {
       "client": "Himachal Tourism Cab",
@@ -364,7 +470,9 @@
         "Search Campaigns",
         "Call Tracking"
       ],
-      "imageAlt": "Google Ads conversion tracking and campaign performance dashboard for tourism"
+      "imageAlt": "Google Ads conversion tracking and campaign performance dashboard for tourism",
+      "seoTitle": "Google Ads & CRO for a Himachal Cab Company",
+      "seoDescription": "Case study: how we fixed conversion tracking, restructured Google Ads campaigns and optimised landing pages for a Himachal tourism cab company."
     },
     "geetha-studio": {
       "client": "Geetha Studio",
@@ -436,7 +544,9 @@
         "GCP Cloud Run",
         "Responsive Images"
       ],
-      "imageAlt": "Geetha Studio artist portfolio homepage with original artwork"
+      "imageAlt": "Geetha Studio artist portfolio homepage with original artwork",
+      "seoTitle": "Artist Portfolio & Online Gallery Website",
+      "seoDescription": "Case study: an immersive fine-art portfolio website for Geetha Studio with gallery browsing and a private commission enquiry flow, built on Next.js."
     },
     "atory-hub": {
       "client": "Atory Hub",
@@ -519,7 +629,9 @@
           "alt": "Atory Hub professionals directory with filters and listings",
           "caption": "Professionals — directory with category filters, location search, and profiles"
         }
-      ]
+      ],
+      "seoTitle": "B2B Architecture & Interiors Marketplace",
+      "seoDescription": "Case study: a PropTech marketplace connecting property owners with architects, interior designers and contractors, built with Next.js and Spring Boot."
     },
     "healthcare-ivr-platform": {
       "client": "Healthcare Platform",
@@ -591,7 +703,27 @@
         "GCP Cloud Run",
         "HIPAA Compliance"
       ],
-      "imageAlt": "Healthcare IVR and patient assessment platform dashboard"
+      "imageAlt": "Healthcare IVR and patient assessment platform dashboard",
+      "seoTitle": "Healthcare IVR & Patient Intake Automation",
+      "seoDescription": "Case study: automated IVR call routing, digital patient onboarding and clinical PGI assessments for a healthcare provider, built on Spring Boot and Twilio.",
+      "gallery": [
+        {
+          "alt": "Clinic group dashboard with appointments, collections, pending dues, new patients and no-show rate, plus a 30-day collections chart by payment mode",
+          "caption": "Group dashboard: today's appointments, collections, dues and no-show rate across every branch, with 30-day revenue by payment mode and sales by category."
+        },
+        {
+          "alt": "Live status board showing patients as expected, arrived, waiting, in session and finished, with doctor, room and waiting time",
+          "caption": "Live status: a real-time board of who is expected, arrived, waiting, in session or finished, with wait times and remaining session time."
+        },
+        {
+          "alt": "Appointments calendar with columns per doctor, a current-time line and booked, cancelled and no-show slots",
+          "caption": "Appointments: a calendar by doctor, therapist or room that blocks double-booking automatically."
+        },
+        {
+          "alt": "Rooms and OT utilisation view with booking timelines for consultation rooms, procedure rooms, laser suite and minor OT",
+          "caption": "Rooms & OT: live utilisation of consultation rooms, procedure rooms, laser suites and OT, with overlapping bookings rejected."
+        }
+      ]
     },
     "dermayoga": {
       "client": "DermaYoga",
@@ -670,7 +802,9 @@
           "alt": "DermaYoga product detail page with pack size, delivery check, and buy flow",
           "caption": "Product detail — trust badges, pack size selector, pincode delivery check, and buy-now flow"
         }
-      ]
+      ],
+      "seoTitle": "D2C Skincare E-Commerce Website",
+      "seoDescription": "Case study: a headless D2C e-commerce store for Ayurvedic skincare with category-led discovery, consultation booking and a high-trust checkout."
     },
     "skinfinity-academy": {
       "client": "Skinfinity Academy",
@@ -742,7 +876,9 @@
         "Video CDN",
         "Stripe Multi-Currency"
       ],
-      "imageAlt": "Skinfinity Academy dermatology education website"
+      "imageAlt": "Skinfinity Academy dermatology education website",
+      "seoTitle": "Medical Aesthetics LMS & Course Website",
+      "seoDescription": "Case study: a global medical aesthetics education platform with course catalogue, live workshops, faculty profiles and an admissions funnel."
     },
     "studio-atory": {
       "client": "Studio Atory",
@@ -813,7 +949,9 @@
         "Google Cloud Run",
         "Responsive 4K Assets"
       ],
-      "imageAlt": "Studio Atory commercial architecture website"
+      "imageAlt": "Studio Atory commercial architecture website",
+      "seoTitle": "Architecture Firm Website Design",
+      "seoDescription": "Case study: an editorial website for a commercial architecture studio with project portfolio, sector pages, budget calculators and contact-first design."
     },
     "mahasu-travels-crm": {
       "client": "Mahasu Travels",
@@ -890,7 +1028,9 @@
         "PDF Generator",
         "SMS Webhooks"
       ],
-      "imageAlt": "Mahasu Travels dispatch CRM dashboard"
+      "imageAlt": "Mahasu Travels dispatch CRM dashboard",
+      "seoTitle": "Travel CRM & Fleet Dispatch Software",
+      "seoDescription": "Case study: a custom travel CRM for Mahasu Travels with ad lead capture, one-click PDF quotations, driver dispatch and real-time ROAS tracking."
     }
   },
   "meta": {

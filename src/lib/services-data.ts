@@ -14,9 +14,6 @@ export const disciplineIcons: Record<DisciplineKey, LucideIcon> = {
   "07": Cloud,
 };
 
-export const PROCESS_STEP_KEYS = ["01", "02", "03", "04", "05", "06"] as const;
-export type ProcessStepKey = (typeof PROCESS_STEP_KEYS)[number];
-
 export const IN_PRACTICE_KEYS = ["healthcare", "travel", "retail", "marketing", "cloud"] as const;
 export type InPracticeKey = (typeof IN_PRACTICE_KEYS)[number];
 

@@ -5,6 +5,7 @@ import Home from "@/views/Home";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
 import { FaqJsonLd, ServiceListJsonLd } from "@/lib/seo/json-ld";
+import { SERVICE_SLUGS, serviceHref } from "@/lib/service-catalog";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -33,7 +34,7 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "home" });
   const faqs = t.raw("faqs.items") as { q: string; a: string }[];
-  const services = t.raw("enterpriseServices.services") as { title: string; desc: string }[];
+  const tServices = await getTranslations({ locale, namespace: "services" });
 
   return (
     <>
@@ -42,7 +43,11 @@ export default async function HomePage({ params }: Props) {
         locale={locale as Locale}
         path=""
         name={t("enterpriseServices.title")}
-        services={services.map((s) => ({ name: s.title, description: s.desc }))}
+        services={SERVICE_SLUGS.map((slug) => ({
+          name: tServices(`catalog.items.${slug}.title`),
+          description: tServices(`catalog.items.${slug}.desc`),
+          path: serviceHref(slug),
+        }))}
       />
       <Home />
     </>

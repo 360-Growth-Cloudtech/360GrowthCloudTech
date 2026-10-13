@@ -150,7 +150,7 @@ export function ServiceListJsonLd({
   locale: Locale;
   path: string;
   name: string;
-  services: { name: string; description: string }[];
+  services: { name: string; description: string; path?: string }[];
 }) {
   if (!services.length) return null;
   const url = localePath(locale, path);
@@ -172,7 +172,7 @@ export function ServiceListJsonLd({
             serviceType: service.name,
             provider: { "@id": ORGANIZATION_ID },
             areaServed: "Worldwide",
-            url,
+            url: service.path ? localePath(locale, service.path) : url,
           },
         })),
       }}
@@ -215,6 +215,8 @@ type CaseStudyArticleJsonLdProps = {
   datePublished: string;
   category?: string;
   keywords?: string[];
+  client?: string;
+  liveUrl?: string;
 };
 
 export function CaseStudyArticleJsonLd({
@@ -226,6 +228,8 @@ export function CaseStudyArticleJsonLd({
   datePublished,
   category,
   keywords,
+  client,
+  liveUrl,
 }: CaseStudyArticleJsonLdProps) {
   const url = localePath(locale, `/case-studies/${slug}`);
 
@@ -247,6 +251,15 @@ export function CaseStudyArticleJsonLd({
         inLanguage: locale,
         ...(category ? { articleSection: category } : {}),
         ...(keywords?.length ? { keywords: keywords.join(", ") } : {}),
+        ...(client
+          ? {
+              about: {
+                "@type": "Organization",
+                name: client,
+                ...(liveUrl ? { url: liveUrl } : {}),
+              },
+            }
+          : {}),
       }}
     />
   );

@@ -7,35 +7,56 @@
     "getStarted": "Get started",
     "bookFreeCall": "Book a Free Call",
     "sendMessage": "Send a Message",
-    "brandShort": "Cloud Tech"
+    "brandShort": "Cloud Tech",
+    "allServices": "View all services",
+    "servicesMenu": "Services menu",
+    "industries": "Industries",
+    "allIndustries": "View all industries",
+    "industriesMenu": "Industries menu",
+    "about": "About",
+    "brandName": "360GrowthCloudTech",
+    "tagline": "Software · Cloud · Growth",
+    "callLabel": "Call or WhatsApp",
+    "getQuote": "Get a Free Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "footer": {
-    "brandName": "360 cloud tech",
-    "tagline": "Designing digital-first technologies for future growth — across software, cloud, and marketing.",
+    "brandName": "360GrowthCloudTech",
+    "tagline": "AI-first software studio building custom web, mobile, SaaS and cloud platforms for businesses that want to grow, with fixed scope and full IP ownership.",
     "company": "Company",
     "services": "Services",
     "resources": "Resources",
     "links": {
       "about": "About",
       "contact": "Contact",
-      "consulting": "Consulting",
-      "technology": "Technology",
-      "industries": "Industries",
-      "work": "Work"
+      "work": "Case Studies",
+      "services": "All Services",
+      "industries": "All Industries"
     },
-    "scheduleTitle": "Ready to transform your business?",
-    "scheduleDesc": "Let's discuss your project and explore how we can help you reach your goals.",
-    "scheduleMeeting": "Schedule a Meeting",
-    "sendMessage": "Send Message",
+    "scheduleTitle": "Have a project in mind? Let's build it together.",
+    "scheduleDesc": "Tell us what you're building. A senior engineer replies within 2 business hours with next steps and a transparent estimate.",
+    "scheduleMeeting": "Book a Free Call",
+    "sendMessage": "WhatsApp Us",
     "copyright": "© {year} 360GrowthCloudTech. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "cookies": "Cookies Policy"
+    "cookies": "Cookies Policy",
+    "industries": "Industries",
+    "contactTitle": "Get in touch",
+    "ctaEyebrow": "Free 30-minute consultation",
+    "emailLabel": "Email",
+    "phoneLabel": "Call",
+    "whatsappLabel": "WhatsApp",
+    "hoursLabel": "Response time",
+    "hours": "Within 2 business hours",
+    "followUs": "Follow us",
+    "backToTop": "Back to top"
   },
   "brand": {
     "full": "360GrowthCloudTech",
-    "short": "360 cloud tech",
-    "logoAlt": "360 cloud tech",
+    "short": "360GrowthCloudTech",
+    "logoAlt": "360GrowthCloudTech logo",
     "tagline": "Digital engineering & growth studio"
   },
   "ctas": {
@@ -117,8 +138,8 @@
   },
   "social": {
     "linkedin": "LinkedIn",
-    "twitter": "Twitter",
-    "facebook": "Facebook",
+    "clutch": "Clutch",
+    "google": "Google Business",
     "followUs": "Follow Us"
   },
   "heroAnnotation": "Schedule a free call now",
@@ -137,5 +158,10 @@
     "contact": "Contact",
     "industries": "Industries",
     "caseStudies": "Case Studies"
+  },
+  "topbar": {
+    "studio": "AI-First Software Studio",
+    "reply": "Reply within 2 business hours",
+    "whatsapp": "WhatsApp us"
   }
 }

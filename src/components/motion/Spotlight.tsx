@@ -17,7 +17,7 @@ interface SpotlightProps {
 export function Spotlight({
   children,
   className,
-  color = "rgba(37,99,235,0.14)",
+  color = "rgba(234,67,12,0.14)",
   size = 280,
 }: SpotlightProps) {
   const ref = useRef<HTMLDivElement>(null);

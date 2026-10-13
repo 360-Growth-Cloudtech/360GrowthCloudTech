@@ -10,7 +10,8 @@ import {
   type CaseStudyMeta,
 } from "./case-studies-meta";
 
-export type CaseStudyImageVariant = "default" | "laptop";
+/** "screen": browser frame at the image's natural aspect ratio (no cropping; needs width/height). */
+export type CaseStudyImageVariant = "default" | "laptop" | "screen";
 
 export {
   caseStudyMeta,

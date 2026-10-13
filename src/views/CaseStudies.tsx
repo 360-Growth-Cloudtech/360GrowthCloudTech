@@ -2,6 +2,7 @@
 
 import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
+import { PageHero } from "@/components/PageHero";
 import { useTranslations } from "next-intl";
 import { CaseStudyPreviewImage } from "@/components/CaseStudyPreviewImage";
 import { ArrowRight } from "lucide-react";
@@ -27,34 +28,11 @@ export default function CaseStudies() {
 
   return (
     <div data-testid="case-studies-page" className="bg-background min-h-screen">
-      {/* Hero */}
-      <section className="pt-36 pb-14 md:pt-40 md:pb-20 border-b border-border/50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          <motion.p
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-8"
-          >
-            {t("list.label")}
-          </motion.p>
-          <motion.h1
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.06 }}
-            className="display-heading text-4xl md:text-5xl lg:text-[3.35rem] text-foreground leading-[1.1] max-w-4xl mb-8"
-          >
-            {t("list.title")}
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.12 }}
-            className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-3xl"
-          >
-            {t("list.subtitle")}
-          </motion.p>
-        </div>
-      </section>
+      <PageHero
+        label={t("list.label")}
+        title={t("list.title")}
+        subtitle={t("list.subtitle")}
+      />
 
       {/* List */}
       <section className="py-4 md:py-8">

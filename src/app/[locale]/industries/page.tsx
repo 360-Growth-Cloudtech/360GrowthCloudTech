@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import Industries from "@/views/Industries";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
-import { BreadcrumbJsonLd } from "@/lib/seo/json-ld";
+import { BreadcrumbJsonLd, ServiceListJsonLd } from "@/lib/seo/json-ld";
+import { INDUSTRY_SLUGS, industryHref } from "@/lib/industry-catalog";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -30,6 +31,7 @@ export default async function IndustriesPage({ params }: Props) {
   }
 
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "industries" });
   const tCrumbs = await getTranslations({ locale, namespace: "common.breadcrumbs" });
 
   return (
@@ -38,6 +40,16 @@ export default async function IndustriesPage({ params }: Props) {
         locale={locale as Locale}
         homeLabel={tCrumbs("home")}
         items={[{ name: tCrumbs("industries"), path: "/industries" }]}
+      />
+      <ServiceListJsonLd
+        locale={locale as Locale}
+        path="/industries"
+        name={t("meta.title")}
+        services={INDUSTRY_SLUGS.map((slug) => ({
+          name: t(`catalog.${slug}.title`),
+          description: t(`catalog.${slug}.desc`),
+          path: industryHref(slug),
+        }))}
       />
       <Industries />
     </>

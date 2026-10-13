@@ -5,6 +5,7 @@ import Services from "@/views/Services";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
 import { BreadcrumbJsonLd, ServiceListJsonLd } from "@/lib/seo/json-ld";
+import { SERVICE_SLUGS, serviceHref } from "@/lib/service-catalog";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -30,7 +31,7 @@ export default async function ServicesPage({ params }: Props) {
   }
 
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: "services" });
+  const tServices = await getTranslations({ locale, namespace: "services" });
   const tCrumbs = await getTranslations({ locale, namespace: "common.breadcrumbs" });
 
   return (
@@ -43,10 +44,12 @@ export default async function ServicesPage({ params }: Props) {
       <ServiceListJsonLd
         locale={locale as Locale}
         path="/services"
-        name={t("meta.title")}
-        services={Object.values(
-          t.raw("disciplines") as Record<string, { title: string; summary: string }>,
-        ).map((d) => ({ name: d.title, description: d.summary }))}
+        name={tServices("catalog.title")}
+        services={SERVICE_SLUGS.map((slug) => ({
+          name: tServices(`catalog.items.${slug}.title`),
+          description: tServices(`catalog.items.${slug}.desc`),
+          path: serviceHref(slug),
+        }))}
       />
       <Services />
     </>

@@ -6,7 +6,8 @@ import { useTranslations } from "next-intl";
 import { CaseStudyPreviewImage } from "@/components/CaseStudyPreviewImage";
 import {
   ArrowLeft, ArrowRight, Check, Sparkles, User, AlertCircle,
-  CheckCircle2, TrendingUp, Cpu, ShieldCheck, Zap, Layers, MessageSquare
+  CheckCircle2, TrendingUp, Cpu, ShieldCheck, Zap, Layers, MessageSquare,
+  ExternalLink
 } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import {
@@ -68,7 +69,20 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
         <h1 className="display-heading text-3xl sm:text-4xl lg:text-[2.75rem] text-foreground leading-[1.14] mb-4">
           {study.title}
         </h1>
-        <p className="text-base font-semibold text-primary mb-10">{study.client}</p>
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-3 mb-10">
+          <p className="text-base font-semibold text-primary">{study.client}</p>
+          {study.liveUrl && (
+            <a
+              href={study.liveUrl}
+              target="_blank"
+              rel={study.liveUrlNofollow ? "nofollow noopener noreferrer" : "noopener"}
+              className="inline-flex items-center gap-1.5 rounded-full border border-border px-4 py-1.5 text-sm font-semibold text-foreground hover:border-primary/50 hover:text-primary transition-colors"
+            >
+              {tDetail("visitLive")}
+              <ExternalLink size={14} />
+            </a>
+          )}
+        </div>
 
         {/* Hero Preview Image */}
         <CaseStudyPreviewImage
@@ -135,6 +149,8 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
                   src={item.src}
                   alt={item.alt}
                   variant={item.variant}
+                  width={item.width}
+                  height={item.height}
                   sizes="(max-width: 1024px) 100vw, 1024px"
                 />
                 {item.caption && (

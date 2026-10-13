@@ -29,13 +29,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Case Study Not Found" };
   }
 
+  const title = study.seoTitle ?? study.title;
   // Long headlines would push the brand suffix past the ~60-char SERP cut-off.
-  const withBrand = `${study.title} | ${SITE_NAME}`;
+  const withBrand = `${title} | ${SITE_NAME}`;
 
   return buildPageMetadata({
-    title: study.title,
+    title,
     absoluteTitle: withBrand.length > 65,
-    description: study.excerpt,
+    description: study.seoDescription ?? study.excerpt,
     path: `/case-studies/${slug}`,
     locale: locale as Locale,
     image: study.image,
@@ -68,7 +69,7 @@ export default async function CaseStudyDetailPage({ params }: Props) {
         homeLabel={tCrumbs("home")}
         items={[
           { name: tCrumbs("caseStudies"), path: "/case-studies" },
-          { name: study.title, path: `/case-studies/${slug}` },
+          { name: study.seoTitle ?? study.title, path: `/case-studies/${slug}` },
         ]}
       />
       <CaseStudyArticleJsonLd
@@ -80,6 +81,8 @@ export default async function CaseStudyDetailPage({ params }: Props) {
         datePublished={study.publishedAt}
         category={study.category}
         keywords={study.stack}
+        client={study.client}
+        liveUrl={study.liveUrlNofollow ? undefined : study.liveUrl}
       />
       <CaseStudyDetail study={study} />
     </>

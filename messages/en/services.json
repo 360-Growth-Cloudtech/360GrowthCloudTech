@@ -4,12 +4,12 @@
     "titleLine1": "AI engineering and",
     "titleLine2": "design, end to end",
     "subtitle": "Seven disciplines, one team. From product strategy through AI architecture to production deployment, without a handoff in the middle.",
-    "processTitle": "A focused, repeatable process",
-    "processSubtitle": "Every engagement follows the same clear phases — from discovery and build through launch, marketing, and cloud scale.",
     "inPracticeTitle": "Services in practice",
     "viewCaseStudies": "View case studies",
     "ctaTitle": "Talk to us about your project",
-    "ctaSubtitle": "Free consultation, no commitment. Tell us what you're building and we'll map the path forward."
+    "ctaSubtitle": "Free consultation, no commitment. Tell us what you're building and we'll map the path forward.",
+    "disciplinesTitle": "How we deliver: seven disciplines, one team",
+    "disciplinesSubtitle": "Every service above draws on the same in-house disciplines, so strategy, design, engineering and growth never get lost in a handoff."
   },
   "disciplines": {
     "01": {
@@ -90,32 +90,6 @@
       ]
     }
   },
-  "process": {
-    "01": {
-      "title": "Discovery",
-      "desc": "We learn your goals, users, and constraints — then define scope, success metrics, and a realistic timeline."
-    },
-    "02": {
-      "title": "Design",
-      "desc": "Wireframes, prototypes, and a validated UX before development begins. No surprises at launch."
-    },
-    "03": {
-      "title": "Build",
-      "desc": "Agile sprints with weekly demos. You see working software early and often, with room to iterate."
-    },
-    "04": {
-      "title": "Ship & Iterate",
-      "desc": "Production deployment, monitoring, and ongoing optimization. We stay with you after go-live."
-    },
-    "05": {
-      "title": "Marketing",
-      "desc": "SEO, paid campaigns, and analytics wired to your launch — so growth is measurable from day one."
-    },
-    "06": {
-      "title": "Cloud",
-      "desc": "Migration, CI/CD, and production ops — infrastructure that scales with traffic and stays cost-efficient."
-    }
-  },
   "inPractice": {
     "healthcare": {
       "tag": "Healthcare",
@@ -151,5 +125,123 @@
   "meta": {
     "title": "Custom Software Development Services",
     "description": "End-to-end software development services: product strategy, UX/UI design, web and mobile engineering, AI automation, cloud infrastructure and growth marketing."
+  },
+  "catalog": {
+    "badge": "What We Build",
+    "title": "Custom Software Development Services",
+    "subtitle": "Ten core services from one senior team. Pick a single capability or hand us the whole build, from first workflow map to long-term support.",
+    "learnMore": "Learn more",
+    "items": {
+      "custom-enterprise-software": {
+        "title": "Custom Enterprise Software",
+        "desc": "Software shaped around how your business actually runs. We map your workflows, then build internal platforms, ERP modules and admin tools that remove manual steps, centralise data and scale as you grow."
+      },
+      "enterprise-application-development": {
+        "title": "Enterprise Application Development",
+        "desc": "Secure, compliance-ready applications that connect teams instead of siloing them, with role-based access, audit trails and integrations into the systems you already run."
+      },
+      "web-application-development": {
+        "title": "Web Application Development",
+        "desc": "Fast, accessible web apps built with Next.js, React, TypeScript and Node.js. Clean architecture, SEO-ready rendering and interfaces users understand on their first visit."
+      },
+      "mobile-app-development": {
+        "title": "Mobile App Development",
+        "desc": "iOS and Android apps in Flutter, React Native or native code, with offline support, push notifications, payments and analytics, published and maintained on both stores."
+      },
+      "saas-development": {
+        "title": "SaaS Development",
+        "desc": "From MVP to subscription-ready platform: multi-tenant architecture, billing and plans, onboarding flows, admin dashboards and public APIs, built to serve real customers from day one."
+      },
+      "api-system-integration": {
+        "title": "API & System Integration",
+        "desc": "Connect your ERP, CRM, payment gateways and third-party tools through secure REST, GraphQL and webhook integrations, so data flows once and stays consistent everywhere."
+      },
+      "cloud-devops": {
+        "title": "Cloud & DevOps",
+        "desc": "Production infrastructure on AWS, Azure or Google Cloud with Docker, Kubernetes, Terraform and CI/CD pipelines, for faster releases, automatic scaling and lower hosting bills."
+      },
+      "ai-automation": {
+        "title": "AI & Automation",
+        "desc": "Put AI to work on real processes: LLM assistants, document extraction, predictive analytics and workflow automation that cut repetitive work and speed up decisions."
+      },
+      "qa-testing": {
+        "title": "QA & Testing",
+        "desc": "Automated, functional, performance and security testing built into every sprint, so issues are caught before release and every deployment ships with confidence."
+      },
+      "maintenance-support": {
+        "title": "Maintenance & Support",
+        "desc": "Keep software healthy after launch with monitoring, bug fixes, security patches, performance tuning and SLA-backed support from engineers who know your codebase."
+      }
+    }
+  },
+  "workflow": {
+    "badge": "How We Work",
+    "eyebrow": "Step-by-step work process",
+    "title": "A Collaborative Process Built Around How Your Business Works",
+    "subtitle": "Whether it's your first product or a complex enterprise upgrade, every project follows the same clear steps, so you always know what's happening, what's next and when it ships.",
+    "stepLabel": "Step {n}",
+    "deliverablesLabel": "You get",
+    "steps": [
+      {
+        "id": "discover",
+        "title": "Discover & Define",
+        "desc": "Before any code, we learn your business: users, goals, workflows and pain points. Workshops and stakeholder interviews turn ideas into a clear scope with measurable success criteria.",
+        "deliverables": [
+          "Scope & success metrics",
+          "User journeys",
+          "Effort estimate"
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Plan & Architect",
+        "desc": "We choose the stack, design data models and APIs, plan security and compliance, and break the work into milestones so you know exactly what ships when.",
+        "deliverables": [
+          "Architecture blueprint",
+          "API contracts",
+          "Sprint roadmap"
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Design & Prototype",
+        "desc": "Wireframes become a clickable prototype tested with real users, backed by a design system so every screen looks and behaves consistently.",
+        "deliverables": [
+          "Clickable prototype",
+          "Design system",
+          "Usability feedback"
+        ]
+      },
+      {
+        "id": "build",
+        "title": "Develop & Integrate",
+        "desc": "Two-week sprints with a demo at the end of each. Clean, reviewed code, integrations with the tools you already use, and CI/CD from day one.",
+        "deliverables": [
+          "Working increments",
+          "Code reviews",
+          "Sprint demos"
+        ]
+      },
+      {
+        "id": "test",
+        "title": "Test & Refine",
+        "desc": "Automated unit, integration and end-to-end tests, plus performance and security checks, catch issues long before your users would.",
+        "deliverables": [
+          "Automated test suite",
+          "Performance report",
+          "Security checks"
+        ]
+      },
+      {
+        "id": "launch",
+        "title": "Launch & Scale",
+        "desc": "A zero-downtime release with monitoring and alerts in place, followed by ongoing support and improvements as your usage grows.",
+        "deliverables": [
+          "Production launch",
+          "Monitoring & alerts",
+          "Ongoing support"
+        ]
+      }
+    ]
   }
 }

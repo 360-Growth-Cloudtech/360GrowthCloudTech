@@ -39,9 +39,26 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  /* Brand orange, sampled from the logo gradient */
+  --color-brand-50: #fff6ed;
+  --color-brand-100: #ffead5;
+  --color-brand-200: #fed1aa;
+  --color-brand-300: #fdae74;
+  --color-brand-400: #fb7f3c;
+  --color-brand-500: #f95d16;
+  --color-brand-600: #ea430c;
+  --color-brand-700: #c2310c;
+  --color-brand-800: #9a2812;
+  --color-brand-900: #7c2412;
+  --color-brand-950: #430f07;
+  /* Deep ink for dark sections */
+  --color-ink-800: #1a1f2e;
+  --color-ink-900: #111521;
+  --color-ink-950: #0a0d16;
 }
 
-/* ── Clean Slate Palette: white surfaces, slate text, one blue accent ── */
+/* ── Brand palette: white surfaces, ink text, logo orange accent ── */
 :root {
   --background: 0 0% 100%;        /* #ffffff */
   --foreground: 222 47% 11%;      /* #0f172a slate-900 */
@@ -53,17 +70,17 @@
   --sidebar: 210 40% 98%;
   --sidebar-foreground: 222 47% 11%;
   --sidebar-border: 214 32% 91%;
-  --sidebar-primary: 221 83% 53%;
+  --sidebar-primary: 16 90% 48%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 221 83% 53%;
+  --sidebar-accent: 16 90% 48%;
   --sidebar-accent-foreground: 0 0% 100%;
-  --sidebar-ring: 221 83% 53%;
+  --sidebar-ring: 16 90% 48%;
 
   --popover: 0 0% 100%;
   --popover-foreground: 222 47% 11%;
 
-  /* Primary: blue-600  #2563eb */
-  --primary: 221 83% 53%;
+  /* Primary: brand-600 #ea430c (logo orange) */
+  --primary: 16 90% 48%;
   --primary-foreground: 0 0% 100%;
 
   /* Secondary: slate-900 (dark buttons, footer) */
@@ -80,7 +97,7 @@
   --destructive-foreground: 0 0% 100%;
 
   --input: 214 32% 91%;
-  --ring: 221 83% 53%;
+  --ring: 16 90% 48%;
 
   --app-font-sans: var(--font-jakarta), system-ui, sans-serif;
   --app-font-serif: Georgia, serif;
@@ -105,7 +122,7 @@
   --border: 214 32% 91%;
   --card: 0 0% 100%;
   --card-foreground: 222 47% 11%;
-  --primary: 221 83% 53%;
+  --primary: 16 90% 48%;
   --primary-foreground: 0 0% 100%;
   --secondary: 222 47% 11%;
   --secondary-foreground: 0 0% 100%;
@@ -116,7 +133,7 @@
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
   --input: 214 32% 91%;
-  --ring: 221 83% 53%;
+  --ring: 16 90% 48%;
 }
 
 @layer base {
@@ -213,7 +230,7 @@ html.lenis body {
   inset: 0;
   border-radius: inherit;
   padding: 1px;
-  background: linear-gradient(135deg, rgba(37,99,235,0.5), rgba(59,130,246,0.1) 45%, transparent 70%);
+  background: linear-gradient(135deg, rgba(234,67,12,0.5), rgba(249,93,22,0.1) 45%, transparent 70%);
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -236,13 +253,13 @@ html.lenis body {
   background:
     radial-gradient(
       ellipse 95% 135% at 78% 40%,
-      #60a5fa 0%,
-      #3b82f6 16%,
-      #2563eb 32%,
-      #1e3a8a 50%,
-      #172554 70%,
-      #0b1222 88%,
-      #080d1a 100%
+      #fb923c 0%,
+      #f95d16 16%,
+      #ea430c 32%,
+      #1a1f2e 50%,
+      #2a1206 70%,
+      #140904 88%,
+      #0d0603 100%
     );
 }
 
@@ -258,9 +275,9 @@ html.lenis body {
   border-radius: 50%;
   background: radial-gradient(
     ellipse at 62% 10%,
-    rgba(8, 13, 26, 0.55) 0%,
-    #0a1020 38%,
-    #060a14 100%
+    rgba(24,13,7, 0.55) 0%,
+    #120804 38%,
+    #0a0502 100%
   );
   filter: blur(8px);
 }
@@ -285,7 +302,7 @@ html.lenis body {
   inset: 0;
   background: radial-gradient(
     ellipse 55% 60% at 76% 38%,
-    rgba(96, 165, 250, 0.42) 0%,
+    rgba(251,146,60, 0.42) 0%,
     transparent 62%
   );
   animation: cta-breathe 9s ease-in-out infinite;
@@ -347,17 +364,17 @@ html.lenis body {
   font-family: var(--app-font-sans);
   font-style: italic;
   font-weight: 700;
-  color: #2563eb;
+  color: #ea430c;
 }
 
 /* ── Brand gradient (orange-warm) ─────────────────────────────── */
 .gradient-text {
   @apply bg-clip-text text-transparent;
-  background-image: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
+  background-image: linear-gradient(135deg, #ea430c 0%, #fb923c 100%);
 }
 
 .gradient-bg {
-  background: #2563eb;
+  background: #ea430c;
   @apply text-white;
 }
 
@@ -372,7 +389,7 @@ html.lenis body {
 .premium-card:hover {
   background: rgba(255,255,255,0.85);
   box-shadow: 0 4px 20px rgba(15,23,42,.08), 0 1px 4px rgba(15,23,42,.04);
-  border-color: rgba(37,99,235,0.12);
+  border-color: rgba(234,67,12,0.12);
   transform: translateY(-2px);
 }
 
@@ -393,9 +410,9 @@ html.lenis body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: #2563eb;
-  background: rgba(37,99,235,0.08);
-  border: 1px solid rgba(37,99,235,0.18);
+  color: #ea430c;
+  background: rgba(234,67,12,0.08);
+  border: 1px solid rgba(234,67,12,0.18);
   padding: 4px 12px;
   border-radius: 100px;
 }
@@ -418,14 +435,14 @@ html.lenis body {
   border: 1px solid rgba(15, 23, 42, 0.1);
   background: radial-gradient(
     circle at 50% 50%,
-    rgba(37, 99, 235, 0.04) 0%,
+    rgba(234,67,12, 0.04) 0%,
     transparent 68%
   );
   pointer-events: none;
 }
 .service-ring-orbit--mid {
   border-style: dashed;
-  border-color: rgba(37, 99, 235, 0.22);
+  border-color: rgba(234,67,12, 0.22);
   background: transparent;
   animation: service-ring-spin 36s linear infinite;
 }
@@ -531,7 +548,7 @@ html.lenis body {
   border-radius: 9999px;
   background: rgba(255, 255, 255, 0.95);
   border: 1.5px solid rgba(15, 23, 42, 0.1);
-  color: #2563eb;
+  color: #ea430c;
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
   transition:
     background 0.25s ease,
@@ -555,10 +572,10 @@ html.lenis body {
 }
 .service-ring-node:hover .service-ring-bubble,
 .service-ring-node.is-active .service-ring-bubble {
-  background: #2563eb;
-  border-color: #2563eb;
+  background: #ea430c;
+  border-color: #ea430c;
   color: #ffffff;
-  box-shadow: 0 8px 22px rgba(37, 99, 235, 0.35);
+  box-shadow: 0 8px 22px rgba(234,67,12, 0.35);
   transform: scale(1.08);
 }
 .service-ring-node:hover .service-ring-label,
@@ -591,14 +608,14 @@ html.lenis body {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: #2563eb;
+  background: #ea430c;
   color: white;
   font-weight: 700;
   font-size: 0.9rem;
   padding: 13px 26px;
   border-radius: 9999px;
   transition: transform .3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow .3s ease, background .2s ease;
-  box-shadow: 0 1px 2px rgba(15,23,42,0.08), 0 4px 12px rgba(37,99,235,0.18);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.08), 0 4px 12px rgba(234,67,12,0.18);
 }
 .btn-primary::after {
   content: "";
@@ -620,9 +637,9 @@ html.lenis body {
   left: 130%;
 }
 .btn-primary:hover {
-  background: #1d4ed8;
+  background: #c2310c;
   transform: translateY(-1px);
-  box-shadow: 0 8px 20px rgba(37,99,235,0.25);
+  box-shadow: 0 8px 20px rgba(234,67,12,0.25);
 }
 .btn-primary:active {
   transform: translateY(0);
@@ -713,7 +730,7 @@ html.lenis body {
   right: 14px;
   bottom: 4px;
   height: 1.5px;
-  background: #2563eb;
+  background: #ea430c;
   border-radius: 2px;
   transform: scaleX(0);
   transform-origin: left;
@@ -749,13 +766,13 @@ html.lenis body {
   .tech-card-glow {
     position: relative;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.8) 100%);
-    border: 1px solid rgba(37, 99, 235, 0.14);
-    box-shadow: 0 10px 30px -10px rgba(37, 99, 235, 0.08);
+    border: 1px solid rgba(234,67,12, 0.14);
+    box-shadow: 0 10px 30px -10px rgba(234,67,12, 0.08);
   }
 
   .tech-card-dark {
     background: radial-gradient(circle at 50% 0%, #1c2438 0%, #0d121f 100%);
-    border: 1px solid rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(249,93,22, 0.2);
   }
 }
 

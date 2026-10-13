@@ -4,11 +4,11 @@
     "description": "AI-first custom software development company. We build enterprise web, mobile, SaaS and cloud platforms with fixed scope, weekly demos and full IP ownership."
   },
   "hero": {
-    "badge": "Next-Gen Tech: GenAI, Upgrade, Codebase, or Modernize Legacy Apps",
-    "titlePrefix": "Our AI Custom Enterprise",
-    "titleHighlight": "Software Development",
-    "titleSuffix": "Company Building Systems Behind Your Business Evolution",
-    "subtitle": "Transform ideas into intelligent, custom enterprise systems, our modern software development services engineer software built to scale.",
+    "badge": "AI-First Custom Software Development Company",
+    "titlePrefix": "Custom Software Development That",
+    "titleHighlight": "Grows Your Business",
+    "titleSuffix": "",
+    "subtitle": "Web, mobile, SaaS and cloud platforms built by a senior team, with fixed scope, weekly demos and full IP ownership. Planned by engineers who stay with you after launch.",
     "checkpoints": [
       "Direct ROI Focus",
       "High Scalability",
@@ -32,20 +32,29 @@
       "title": "Get a Conversion Focused Application!",
       "subtitle": "Book a strategic consultation with our lead software architects.",
       "nameLabel": "Full Name",
-      "namePlaceholder": "John Doe",
+      "namePlaceholder": "Your name",
       "emailLabel": "Work Email",
-      "emailPlaceholder": "john@company.com",
+      "emailPlaceholder": "Work email",
       "companyLabel": "Company Name",
       "companyPlaceholder": "Acme Inc.",
       "phoneLabel": "Phone Number",
-      "phonePlaceholder": "+1 (555) 000-0000",
+      "phonePlaceholder": "Phone number",
       "requirementLabel": "Requirement / Message",
       "requirementPlaceholder": "Briefly describe your project or legacy system...",
       "captchaLabel": "I'm not a robot",
-      "submitButton": "Book $500 AI Free Consultation ➔",
-      "submittingButton": "Booking your consultation...",
+      "submitButton": "Get Free Quote",
+      "submittingButton": "Sending…",
       "successMessage": "Thank you! Our enterprise solution architects will reach out within 2 business hours.",
-      "trustLine": "NDA on request · Reply within 2 business hours · No obligation"
+      "trustLine": "NDA on request · Reply within 2 business hours · No obligation",
+      "servicePlaceholder": "What do you need?",
+      "missingFields": "Please add your name, phone, email and the service you need.",
+      "serviceMessage": "Quote request from the home page for: {service}"
+    },
+    "proof": {
+      "clutch": "Clutch rating",
+      "google": "Google rating",
+      "nda": "NDA from day one",
+      "reply": "Reply in 2 business hours"
     }
   },
   "trustedClients": {
@@ -451,109 +460,8 @@
   "enterpriseServices": {
     "badge": "Custom Software Services",
     "title": "Custom Enterprise Software Development Service, Handled End-to-End",
-    "subtitle": "The enterprise software market is expected to grow by $1,811.83B, and our bespoke software development services help decouple legacy pain. We don't just build; we engineer software that fits your exact needs.",
-    "cta": "Schedule a Free Consultation Today ➔",
-    "services": [
-      {
-        "number": "01",
-        "title": "Custom Enterprise Software",
-        "desc": "Bespoke internal tools, core business systems, and automated ERP workflows tailored to eliminate operational bottlenecks."
-      },
-      {
-        "number": "02",
-        "title": "Enterprise Application Development",
-        "desc": "Mission-critical, secure, and compliance-ready software architectures designed to handle millions of transactions."
-      },
-      {
-        "number": "03",
-        "title": "Web Application Development",
-        "desc": "Modern, high-performance web applications built on Next.js, React, and TypeScript with fluid interactive UX."
-      },
-      {
-        "number": "04",
-        "title": "Mobile Application Development",
-        "desc": "Native iOS, Android, and cross-platform Flutter/React Native apps delivering intuitive experiences."
-      },
-      {
-        "number": "05",
-        "title": "SaaS Development",
-        "desc": "End-to-end multi-tenant SaaS engineering including subscription billing, tenant isolation, and automated onboarding."
-      },
-      {
-        "number": "06",
-        "title": "API & System Integration",
-        "desc": "Seamless REST, GraphQL, and webhook integrations connecting your legacy databases and third-party enterprise tools."
-      },
-      {
-        "number": "07",
-        "title": "Cloud & DevOps",
-        "desc": "Infrastructure as Code, Docker/Kubernetes container orchestration, automated CI/CD, and AWS/Azure/GCP scaling."
-      },
-      {
-        "number": "08",
-        "title": "AI & Automation",
-        "desc": "Custom LLM integrations, predictive analytics, intelligent OCR, and automated algorithmic decision workflows."
-      },
-      {
-        "number": "09",
-        "title": "QA & Testing",
-        "desc": "Comprehensive automated testing suites, security vulnerability assessments, load testing, and code quality audits."
-      },
-      {
-        "number": "10",
-        "title": "Maintenance & Support",
-        "desc": "24/7 SLA-backed monitoring, rapid bug remediation, security patches, and continuous system optimization."
-      }
-    ]
-  },
-  "engagementModels": {
-    "badge": "Flexible Engagement Models",
-    "title": "Flexible Engagement Models Built Around Your Capacity, Capability, and Delivery Goals",
-    "subtitle": "Choose the collaboration structure that best matches your roadmap, timeline, and internal engineering structure.",
-    "models": [
-      {
-        "id": "staff-aug",
-        "tabName": "Staff Augmentation / Team Extension",
-        "title": "Staff Augmentation / Team Extension",
-        "description": "Seamlessly embed senior developers, architects, and QA engineers directly into your existing sprints, reporting directly to your engineering leads.",
-        "bullets": [
-          "Senior vetted engineers onboarded in under 48 hours",
-          "Seamless integration into Slack, Jira, GitHub, and daily standups",
-          "Transparent hourly & monthly billing with zero hidden markups",
-          "100% intellectual property ownership and strict NDA protection",
-          "Zero lock-in contracts with complete flexibility to ramp up or down"
-        ],
-        "cta": "Request Profiles ➔"
-      },
-      {
-        "id": "dedicated-teams",
-        "tabName": "Dedicated Teams / Delivery Pods",
-        "title": "Dedicated Teams / Delivery Pods",
-        "description": "Autonomous, fully managed product development squads comprising Tech Leads, Senior Engineers, UI/UX Designers, and QA specialists.",
-        "bullets": [
-          "Complete cross-functional delivery pod assembled within 1 to 2 weeks",
-          "Managed by experienced technical product managers and Scrum masters",
-          "Milestone-based sprint delivery with bi-weekly live software demonstrations",
-          "Automated CI/CD deployment pipelines and comprehensive test coverage",
-          "Ideal for building new products from scratch or executing major refactors"
-        ],
-        "cta": "Build Your Pod ➔"
-      },
-      {
-        "id": "dev-centers",
-        "tabName": "Development Centers (BOT)",
-        "title": "Development Centers / Build-Operate-Transfer",
-        "description": "Set up a turnkey offshore or nearshore engineering center tailored precisely to your enterprise security, compliance, and growth needs.",
-        "bullets": [
-          "Dedicated physical/virtual infrastructure with enterprise-grade network security",
-          "Custom talent acquisition aligned with your corporate culture and tech stack",
-          "Complete administrative, payroll, legal, and operational management handled",
-          "Seamless legal and operational IP transfer to your entity upon maturity",
-          "Achieve 40% to 60% engineering cost optimization at enterprise scale"
-        ],
-        "cta": "Explore BOT Center ➔"
-      }
-    ]
+    "subtitle": "Ten services, one accountable team. Pick a single capability or hand us the whole build, from first workflow map to long-term support.",
+    "cta": "Schedule a Free Consultation Today ➔"
   },
   "roiBanner": {
     "heading": "95% Return Rate. 40% Operational Efficiency. Built Around The Realities Of Every Industry We Serve.",
@@ -561,88 +469,8 @@
   },
   "industrySolutions": {
     "badge": "Industry Solutions",
-    "title": "Every Industry Runs On Different Constraints. We Build For Yours, Specifically.",
-    "subtitle": "From HIPAA-compliant healthcare data systems to high-throughput financial networks, we engineer for domain-specific security and operational realities.",
-    "industries": [
-      {
-        "id": "healthcare",
-        "name": "Healthcare",
-        "title": "Healthcare & Life Sciences",
-        "desc": "HIPAA and HITECH compliant telemedicine platforms, EHR/EMR integrations, patient engagement portals, and AI-assisted clinical workflow automation.",
-        "points": [
-          "Patient Portals & Telehealth",
-          "Electronic Health Records (EHR/EMR)",
-          "HIPAA-Compliant Cloud Infrastructure",
-          "Healthcare Workflow Automation"
-        ],
-        "cta": "Get Started Now ➔"
-      },
-      {
-        "id": "bfsi",
-        "name": "BFSI",
-        "title": "Banking, Financial Services & Insurance",
-        "desc": "PCI-DSS compliant fintech engines, algorithmic trading dashboards, instant settlement gateways, and automated loan underwriting pipelines.",
-        "points": [
-          "Fintech Portals & Digital Wallets",
-          "Payment Gateway & Ledger Systems",
-          "Fraud Detection & Risk Analysis",
-          "Regulatory Compliance (KYC / AML)"
-        ],
-        "cta": "Get Started Now ➔"
-      },
-      {
-        "id": "manufacturing",
-        "name": "Manufacturing",
-        "title": "Smart Manufacturing & Industry 4.0",
-        "desc": "Predictive maintenance dashboards, custom MES/ERP software, supply chain tracking, and real-time IoT floor monitoring systems.",
-        "points": [
-          "IoT Asset Tracking & Telemetry",
-          "MES & Factory Floor Automation",
-          "Real-Time Inventory Management",
-          "End-to-End Supply Chain Visibility"
-        ],
-        "cta": "Get Started Now ➔"
-      },
-      {
-        "id": "logistics",
-        "name": "Logistics",
-        "title": "Logistics & Supply Chain",
-        "desc": "Fleet management portals, dynamic dispatch routing, warehouse management systems (WMS), and last-mile shipment tracking apps.",
-        "points": [
-          "Real-Time Fleet & Asset Tracking",
-          "Automated Route & Load Optimization",
-          "Warehouse Management Systems (WMS)",
-          "Freight Brokerage & Dispatch Portals"
-        ],
-        "cta": "Get Started Now ➔"
-      },
-      {
-        "id": "retail",
-        "name": "Retail",
-        "title": "Retail & Digital Commerce",
-        "desc": "Omnichannel e-commerce platforms, POS integrations, custom loyalty engines, and AI-powered personalized product recommendation systems.",
-        "points": [
-          "Headless E-Commerce Architecture",
-          "Multi-Store Inventory Synchronization",
-          "Custom Customer Loyalty Programs",
-          "AI Personalized Recommendations"
-        ],
-        "cta": "Get Started Now ➔"
-      },
-      {
-        "id": "real-estate",
-        "name": "Real Estate",
-        "title": "Real Estate & PropTech",
-        "desc": "MLS/IDX property portals, tenant and lease management platforms, smart contract automation, and virtual 3D tour applications.",
-        "points": [
-          "Property Listing & MLS Portals",
-          "Tenant, Landlord & Lease Management",
-          "Smart Contract & Payment Automation",
-          "Virtual Tour & Interactive 3D Maps"
-        ],
-        "cta": "Get Started Now ➔"
-      }
-    ]
+    "title": "Every Industry Runs on Different Rules. We Build for Yours.",
+    "subtitle": "Compliance, workflows and customers differ from sector to sector. Pick yours to see what we build and the projects behind it."
   },
   "techStack": {
     "badge": "Technology Stack",
@@ -792,7 +620,7 @@
         "name": "Cloud & DevOps",
         "items": [
           {
-            "name": "Amazon Web Services",
+            "name": "AWS",
             "icon": "aws",
             "category": "Cloud Provider"
           },
@@ -832,43 +660,6 @@
             "category": "Edge & Security"
           }
         ]
-      }
-    ]
-  },
-  "process": {
-    "badge": "Our Collaborative Process",
-    "title": "Our Collaborative Process Built Around How Your Enterprise Actually Works",
-    "subtitle": "A structured, transparent delivery framework engineered to minimize technical risk and maximize development momentum.",
-    "steps": [
-      {
-        "number": "01",
-        "title": "Discover & Define",
-        "desc": "In-depth discovery workshops, business workflow mapping, stakeholder interviews, and enterprise architecture blueprinting."
-      },
-      {
-        "number": "02",
-        "title": "Plan & Architect",
-        "desc": "Technical stack selection, data schemas, API contracts, security compliance protocols, and sprint milestone scheduling."
-      },
-      {
-        "number": "03",
-        "title": "Design & Prototype",
-        "desc": "UX user journey validation, responsive design systems, and clickable high-fidelity interactive Figma prototypes."
-      },
-      {
-        "number": "04",
-        "title": "Develop & Integrate",
-        "desc": "Agile 2-week sprint development with clean modular code, automated CI/CD builds, and bi-weekly demo check-ins."
-      },
-      {
-        "number": "05",
-        "title": "Test & Refine",
-        "desc": "Automated unit, integration, stress, and penetration testing ensuring zero regression and bulletproof reliability."
-      },
-      {
-        "number": "06",
-        "title": "Deploy & Scale",
-        "desc": "Zero-downtime production deployment, cloud monitoring setup, SLA guarantees, and ongoing team handoff."
       }
     ]
   },
@@ -980,7 +771,11 @@
       "Transparent, fixed-scope estimate",
       "NDA signed before any details are shared",
       "Reply from a senior lead within 2 business hours"
-    ]
+    ],
+    "namePlaceholder": "Your name",
+    "missingFields": "Please add your name and a valid work email.",
+    "service": "Free 30-minute strategy call",
+    "message": "Requested a free 30-minute strategy call from the home page."
   },
   "guarantees": {
     "items": [

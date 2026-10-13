@@ -3,6 +3,9 @@ import type { CaseStudyImageVariant } from "@/lib/case-studies-data";
 export type CaseStudyGalleryMeta = {
   src: string;
   variant?: CaseStudyImageVariant;
+  /** Intrinsic pixel size, required for the "screen" variant. */
+  width?: number;
+  height?: number;
 };
 
 export type CaseStudyMeta = {
@@ -12,14 +15,31 @@ export type CaseStudyMeta = {
   image: string;
   imageVariant?: CaseStudyImageVariant;
   gallery?: CaseStudyGalleryMeta[];
+  /** Public URL of the shipped product, shown as "Visit live website". */
+  liveUrl?: string;
+  /** Mark the live link nofollow (e.g. a staging host before the domain launch). */
+  liveUrlNofollow?: boolean;
 };
 
 export const caseStudyMeta: CaseStudyMeta[] = [
   {
+    slug: "mahasu-travels-website",
+    publishedAt: "2026-10-13",
+    image: "/case-studies/mahasu-travels-website-home.jpg",
+    imageVariant: "laptop",
+    // Staging host until the new site replaces the old one on mahasutravels.com.
+    liveUrl: "https://mahasu-travels-public-web-94435777749.asia-south2.run.app/",
+    liveUrlNofollow: true,
+    gallery: [
+      { src: "/case-studies/mahasu-travels-website-tour-packages.jpg", variant: "laptop" },
+      { src: "/case-studies/mahasu-travels-website-destinations.jpg", variant: "laptop" },
+    ],
+  },
+  {
     slug: "lifestyle-gifting-ecommerce-app",
     publishedAt: "2026-09-01",
-    image: "/case-studies/lifestyle-gifting-app.png",
-    imageVariant: "laptop",
+    // Illustration (mobile app, no public screenshots): product grid + checkout.
+    image: "/case-studies/lifestyle-gifting-app.jpg",
   },
   {
     slug: "himachal-tourism-google-ads",
@@ -48,22 +68,31 @@ export const caseStudyMeta: CaseStudyMeta[] = [
     publishedAt: "2026-08-18",
     image: "/case-studies/healthcare-ivr-platform.png",
     imageVariant: "laptop",
+    gallery: [
+      { src: "/case-studies/healthcare-ivr-dashboard.jpg", variant: "screen", width: 1600, height: 866 },
+      { src: "/case-studies/healthcare-ivr-live-status.jpg", variant: "screen", width: 1600, height: 868 },
+      { src: "/case-studies/healthcare-ivr-appointments.jpg", variant: "screen", width: 1600, height: 867 },
+      { src: "/case-studies/healthcare-ivr-rooms.jpg", variant: "screen", width: 1600, height: 868 },
+    ],
   },
   {
     slug: "dermayoga",
     publishedAt: "2026-07-12",
+    liveUrl: "https://dermayoga.com/",
     image: "/case-studies/dermayoga.jpg",
     gallery: [{ src: "/case-studies/dermayoga-product.jpg", variant: "laptop" }],
   },
   {
     slug: "skinfinity-academy",
     publishedAt: "2026-06-04",
+    liveUrl: "https://skinfinityacademy.com/",
     image: "/case-studies/skinfinity-academy.jpg",
     imageVariant: "laptop",
   },
   {
     slug: "studio-atory",
     publishedAt: "2026-05-22",
+    liveUrl: "https://atory.co/",
     image: "/case-studies/studio-atory.png",
     imageVariant: "laptop",
   },
@@ -109,6 +138,10 @@ export type CaseStudyContent = {
   date: string;
   readTime: string;
   title: string;
+  /** Short title for <title>/search results; falls back to `title`. */
+  seoTitle?: string;
+  /** Search-result description (≤160 chars); falls back to `excerpt`. */
+  seoDescription?: string;
   excerpt: string;
   summary: string;
   challenge: string;
@@ -131,6 +164,8 @@ export type CaseStudy = Omit<CaseStudyMeta, "gallery"> &
       alt: string;
       caption?: string;
       variant?: CaseStudyImageVariant;
+      width?: number;
+      height?: number;
     }>;
   };
 
@@ -144,6 +179,8 @@ export function mergeCaseStudy(
     gallery: meta.gallery?.map((item, index) => ({
       src: item.src,
       variant: item.variant,
+      width: item.width,
+      height: item.height,
       alt: content.gallery?.[index]?.alt ?? "",
       caption: content.gallery?.[index]?.caption,
     })),

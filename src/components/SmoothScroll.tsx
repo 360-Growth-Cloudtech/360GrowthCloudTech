@@ -28,6 +28,7 @@ export function SmoothScroll({ children }: { children: ReactNode }) {
         wheelMultiplier: 1,
         touchMultiplier: 1.5,
         syncTouch: false,
+        anchors: { offset: -120 },
       }}
     >
       {children}

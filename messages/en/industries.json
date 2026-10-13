@@ -1,77 +1,195 @@
 {
   "page": {
     "label": "Industries",
-    "title": "Who we serve.",
-    "subtitle": "Deep domain expertise across complex, regulated, and high-growth sectors."
-  },
-  "items": {
-    "healthcare": {
-      "name": "Healthcare",
-      "badge": "HIPAA Compliant",
-      "desc": "Secure, compliant portals and telemedicine platforms.",
-      "bullets": [
-        "Patient Portals",
-        "Telehealth Apps",
-        "EHR Integrations"
-      ]
-    },
-    "travel": {
-      "name": "Travel & Tourism",
-      "badge": "High Availability",
-      "desc": "Robust booking engines built for seasonal traffic spikes.",
-      "bullets": [
-        "Booking Engines",
-        "Dynamic Pricing APIs",
-        "Itinerary Planners"
-      ]
-    },
-    "retail": {
-      "name": "Retail",
-      "badge": "Scalable",
-      "desc": "Omnichannel e-commerce experiences that drive conversions.",
-      "bullets": [
-        "E-commerce Platforms",
-        "Inventory Management",
-        "POS Integration"
-      ]
-    },
-    "finance": {
-      "name": "Finance",
-      "badge": "Bank-Grade Security",
-      "desc": "Secure fintech applications, payment gateways, and trading platforms.",
-      "bullets": [
-        "Payment Gateways",
-        "Trading Platforms",
-        "Fraud Detection"
-      ]
-    },
-    "education": {
-      "name": "Education",
-      "badge": "Engaging",
-      "desc": "Interactive LMS and EdTech platforms enabling remote learning.",
-      "bullets": [
-        "Learning Management",
-        "Virtual Classrooms",
-        "Student Portals"
-      ]
-    },
-    "realEstate": {
-      "name": "Real Estate",
-      "badge": "Data-Driven",
-      "desc": "Property management tools for modern brokerages.",
-      "bullets": [
-        "Property Listings",
-        "Virtual Tours",
-        "CRM for Brokers"
-      ]
-    }
+    "title": "Software Built for the Way Your",
+    "subtitle": "Eight industries, one senior team. We start from your sector's rules, workflows and customers, then build the platform around them.",
+    "showcaseBadge": "Industry Solutions",
+    "showcaseTitle": "Pick your industry",
+    "showcaseSubtitle": "See what we build for your sector and the projects behind it.",
+    "statIndustries": "industries served",
+    "statProjects": "case studies published",
+    "statCompliance": "HIPAA · PCI-DSS · GDPR",
+    "statComplianceValue": "Compliance-first",
+    "titleHighlight": "Industry Works"
   },
   "cta": {
     "title": "Discuss your industry needs.",
     "subtitle": "Every industry is different. Let's find the right solution for yours."
   },
   "meta": {
-    "title": "Software for Healthcare, Finance & More",
-    "description": "Custom software for healthcare, finance, retail, travel, education and real estate, built for compliance, scale and measurable business results."
+    "title": "Industry Software: Healthcare, BFSI & More",
+    "description": "Custom software for healthcare, BFSI, manufacturing, logistics, travel, retail, education and real estate, built around each sector's rules and workflows."
+  },
+  "showcase": {
+    "getStarted": "Get started",
+    "seeCaseStudy": "See the case study",
+    "whatWeBuild": "What we build",
+    "sampleDashboard": "Sample dashboard",
+    "tablistLabel": "Industries",
+    "realProject": "Live project"
+  },
+  "catalog": {
+    "healthcare": {
+      "name": "Healthcare",
+      "title": "Healthcare Software Development",
+      "desc": "Software that gives clinicians time back and keeps patients connected: secure portals, telehealth, records integrations and automated intake, built with privacy and compliance from the first sprint.",
+      "solutions": [
+        "Hospital & clinic management systems",
+        "Patient portals & telehealth",
+        "EHR / EMR integrations",
+        "IVR & patient intake automation",
+        "Clinical workflow automation"
+      ],
+      "badges": [
+        "HIPAA-ready",
+        "HL7 / FHIR"
+      ]
+    },
+    "finance": {
+      "name": "BFSI",
+      "title": "Banking, Financial Services & Insurance",
+      "desc": "Secure financial platforms that automate heavy back-office work and give customers a fast, trustworthy digital experience, without cutting corners on audit trails or regulation.",
+      "solutions": [
+        "Digital banking & wallets",
+        "Loan origination & lending",
+        "Payment gateways & ledgers",
+        "Insurance policy & claims platforms",
+        "Risk, fraud & compliance tooling"
+      ],
+      "badges": [
+        "PCI-DSS",
+        "KYC / AML"
+      ],
+      "mock": {
+        "title": "Lending overview",
+        "kpis": [
+          {
+            "label": "Applications",
+            "value": "1,284"
+          },
+          {
+            "label": "Approval rate",
+            "value": "68%"
+          },
+          {
+            "label": "Avg. decision",
+            "value": "4 min"
+          }
+        ]
+      }
+    },
+    "manufacturing": {
+      "name": "Manufacturing",
+      "title": "Manufacturing Software Development",
+      "desc": "Connect the shop floor to the rest of the business: live production data, quality checks, stock levels and maintenance schedules in one place instead of scattered spreadsheets.",
+      "solutions": [
+        "Production planning & MES",
+        "Quality management systems",
+        "Inventory & warehouse management",
+        "Supply chain visibility",
+        "Predictive maintenance dashboards"
+      ],
+      "badges": [
+        "IoT telemetry",
+        "ERP sync"
+      ],
+      "mock": {
+        "title": "Plant performance",
+        "kpis": [
+          {
+            "label": "OEE",
+            "value": "86%"
+          },
+          {
+            "label": "Units today",
+            "value": "12,450"
+          },
+          {
+            "label": "Open defects",
+            "value": "7"
+          }
+        ]
+      }
+    },
+    "logistics": {
+      "name": "Logistics",
+      "title": "Logistics & Fleet Software",
+      "desc": "From the first enquiry to the final drop-off: dispatch, fleet scheduling, shipment tracking and driver coordination in a single system your operations team can run from anywhere.",
+      "solutions": [
+        "Fleet management & dispatch",
+        "Transport management systems",
+        "Warehouse management systems",
+        "Shipment & delivery tracking",
+        "Route optimisation"
+      ],
+      "badges": [
+        "Live dispatch",
+        "Route planning"
+      ]
+    },
+    "travel": {
+      "name": "Travel & Tourism",
+      "title": "Travel & Tourism Software",
+      "desc": "Booking websites and operations tools for tour operators and cab companies, built to rank in search, quote in minutes and handle seasonal traffic spikes.",
+      "solutions": [
+        "Tour & package booking websites",
+        "Cab and taxi booking",
+        "Itinerary & quotation builders",
+        "Travel CRM & lead management",
+        "Google Ads & conversion tracking"
+      ],
+      "badges": [
+        "SEO-first",
+        "Instant quotes"
+      ]
+    },
+    "retail": {
+      "name": "Retail & E-commerce",
+      "title": "Retail & E-commerce Development",
+      "desc": "Storefronts and apps that sell across web, mobile and marketplaces, with inventory, orders, payments and loyalty working together behind the scenes.",
+      "solutions": [
+        "Headless e-commerce storefronts",
+        "Mobile shopping apps",
+        "Inventory & order management",
+        "POS & payment integrations",
+        "Loyalty & customer engagement"
+      ],
+      "badges": [
+        "Headless commerce",
+        "Payments"
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "title": "Education & EdTech Platforms",
+      "desc": "Learning platforms that earn trust before enrolment and keep students engaged after: course catalogues, live classes, assessments and admissions funnels in one experience.",
+      "solutions": [
+        "LMS & course platforms",
+        "Live & hybrid classrooms",
+        "Student & enrolment portals",
+        "Certification & assessments",
+        "Admissions & lead funnels"
+      ],
+      "badges": [
+        "LMS",
+        "Admissions funnel"
+      ]
+    },
+    "realEstate": {
+      "name": "Real Estate",
+      "title": "Real Estate & PropTech Software",
+      "desc": "Property platforms that replace spreadsheets and phone tag: listings, tenant and owner portals, leasing and vendor marketplaces for residential and commercial portfolios.",
+      "solutions": [
+        "Property management systems",
+        "Tenant & owner portals",
+        "Property listing platforms",
+        "Lease & rental management",
+        "Vendor & contractor marketplaces"
+      ],
+      "badges": [
+        "Marketplace",
+        "Lead routing"
+      ]
+    }
   }
 }

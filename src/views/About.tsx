@@ -2,6 +2,7 @@
 
 import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
+import { PageHero } from "@/components/PageHero";
 import { useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
@@ -45,38 +46,14 @@ export default function About() {
 
   return (
     <div data-testid="about-page" className="bg-background">
-      {/* Hero */}
-      <section className="pt-36 pb-16 md:pt-40 md:pb-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-          <motion.p
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45 }}
-            className="text-xs font-bold uppercase tracking-[0.18em] text-primary mb-8"
-          >
-            {t("page.label")}
-          </motion.p>
-          <motion.h1
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.06, ease: [0.16, 1, 0.3, 1] }}
-            className="display-heading text-4xl md:text-5xl lg:text-[3.25rem] text-foreground leading-[1.12] max-w-4xl mb-8"
-          >
-            {t("page.title")}
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.55, delay: 0.12 }}
-            className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-3xl"
-          >
-            {t("page.subtitle")}
-          </motion.p>
-        </div>
-      </section>
+      <PageHero
+        label={t("page.label")}
+        title={t("page.title")}
+        subtitle={t("page.subtitle")}
+      />
 
       {/* Content sections */}
-      <section className="pb-8 md:pb-12">
+      <section className="pb-8 pt-12 md:pb-12 md:pt-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
           <AboutSection title={t("sections.howWeWork.title")}>
             {howWeWorkParagraphs.map((paragraph) => (
