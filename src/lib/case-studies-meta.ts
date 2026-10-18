@@ -50,6 +50,7 @@ export const caseStudyMeta: CaseStudyMeta[] = [
   {
     slug: "geetha-studio",
     publishedAt: "2026-03-15",
+    liveUrl: "https://studio-geetha.com/",
     image: "/case-studies/geetha-studio.jpg",
     imageVariant: "laptop",
   },
