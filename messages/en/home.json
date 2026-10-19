@@ -1,14 +1,28 @@
 {
   "meta": {
-    "title": "Custom Software Development Company | 360GrowthCloudTech",
-    "description": "AI-first custom software development company. We build enterprise web, mobile, SaaS and cloud platforms with fixed scope, weekly demos and full IP ownership."
+    "title": "Custom Software Development Services | 360GrowthCloudTech",
+    "description": "Custom software development company building custom web, mobile, SaaS and enterprise apps. Fixed scope, weekly demos and full IP ownership. Get a free quote.",
+    "keywords": [
+      "custom software development services",
+      "custom software development company",
+      "tailored software development",
+      "custom application development services",
+      "custom enterprise software development",
+      "custom healthcare software development",
+      "custom fintech software development",
+      "custom software development cost",
+      "outsource custom software development",
+      "custom mobile application development",
+      "custom saas development",
+      "software development company"
+    ]
   },
   "hero": {
-    "badge": "AI-First Custom Software Development Company",
-    "titlePrefix": "Custom Software Development That",
-    "titleHighlight": "Grows Your Business",
+    "badge": "Custom Software Development Company",
+    "titlePrefix": "Custom Software Development Services That",
+    "titleHighlight": "Grow Your Business",
     "titleSuffix": "",
-    "subtitle": "Web, mobile, SaaS and cloud platforms built by a senior team, with fixed scope, weekly demos and full IP ownership. Planned by engineers who stay with you after launch.",
+    "subtitle": "We design, build and support custom web, mobile, SaaS and enterprise software for startups and growing businesses. Senior engineers, fixed scope, weekly demos and full IP ownership, from first idea to long after launch.",
     "checkpoints": [
       "Direct ROI Focus",
       "High Scalability",
@@ -58,7 +72,7 @@
     }
   },
   "trustedClients": {
-    "title": "From Healthcare to BFSI, Here's a Look at Our Valued Clients",
+    "title": "From Healthcare to BFSI, Businesses Trust Us With Their Software",
     "cta": "Start Your Next Project Today ➔",
     "clients": [
       {
@@ -100,7 +114,7 @@
     "circleText": "TOUCH • GET IN • TOUCH • GET IN • ",
     "hubText": "We're Technology",
     "heading": "100% Focus on Your Systems. 0% Disruption to Your Business.",
-    "subheading": "Engineered for zero downtime, rapid iteration, and immediate operational leverage.",
+    "subheading": "Engineered for zero downtime, rapid iteration and immediate operational leverage.",
     "metrics": [
       {
         "id": "time-to-market",
@@ -131,7 +145,7 @@
   "testimonials": {
     "badge": "Built, Delivered, Trusted.",
     "title": "Custom Enterprise Software Development That Turned into Long-Term Partnerships",
-    "subtitle": "Discover how our high-velocity engineering teams helped leaders eliminate tech debt, scale securely, and accelerate product revenue.",
+    "subtitle": "Discover how our engineering teams helped leaders eliminate tech debt, scale securely and grow revenue.",
     "cta": "Talk with Our Team ➔",
     "items": [
       {
@@ -194,8 +208,8 @@
   },
   "painPoints": {
     "badge": "Pain Points",
-    "title": "Every Growing Business Run Into At Least One of These",
-    "subtitle": "Unaddressed technical friction silently compounds into slower release cycles, higher attrition, and lost revenue.",
+    "title": "Every Growing Business Runs Into at Least One of These",
+    "subtitle": "Unaddressed technical friction quietly compounds into slower releases, higher attrition and lost revenue.",
     "cards": [
       {
         "number": "01",
@@ -227,8 +241,8 @@
   },
   "caseStudySpotlight": {
     "badge": "Case Studies",
-    "title": "Here's How Our Enterprise Software Development Company Turned It Around",
-    "subtitle": "Real-world engineering transformations delivering measurable business outcomes across global verticals.",
+    "title": "How Our Custom Software Development Turned Things Around",
+    "subtitle": "Real engineering projects delivering measurable business outcomes across industries.",
     "studies": [
       {
         "id": "lifestyle-gifting-app",
@@ -455,12 +469,13 @@
           "Mobile"
         ]
       }
-    ]
+    ],
+    "viewAll": "View all case studies"
   },
   "enterpriseServices": {
-    "badge": "Custom Software Services",
-    "title": "Custom Enterprise Software Development Service, Handled End-to-End",
-    "subtitle": "Ten services, one accountable team. Pick a single capability or hand us the whole build, from first workflow map to long-term support.",
+    "badge": "Software Development Services",
+    "title": "Custom Software Development Services, Handled End-to-End",
+    "subtitle": "Ten services, one accountable team. Pick a single capability, from web and mobile apps to cloud, AI and QA, or hand us the whole build.",
     "cta": "Schedule a Free Consultation Today ➔"
   },
   "roiBanner": {
@@ -468,14 +483,14 @@
     "cta": "Start Your Next Project Today ➔"
   },
   "industrySolutions": {
-    "badge": "Industry Solutions",
-    "title": "Every Industry Runs on Different Rules. We Build for Yours.",
-    "subtitle": "Compliance, workflows and customers differ from sector to sector. Pick yours to see what we build and the projects behind it."
+    "badge": "Our Work by Industry",
+    "title": "See What We Have Built for Your Industry",
+    "subtitle": "Pick a sector to see the custom software solutions we build there and the real projects behind them."
   },
   "techStack": {
     "badge": "Technology Stack",
     "title": "Worried Your Tech Stack Won't Keep Up? Here's The Technology Behind Every Solution We Build",
-    "subtitle": "From modern frontend frameworks to robust cloud backends, we pick the right tools for speed, security, and scalability.",
+    "subtitle": "From .NET, PHP, Node.js and Python to AWS, Azure and Google Cloud, we pick the right tools for speed, security and scalability, not just the trendiest ones.",
     "categories": [
       {
         "id": "frontend",
@@ -553,9 +568,9 @@
             "category": "Enterprise Framework"
           },
           {
-            "name": "Django",
-            "icon": "django",
-            "category": "Python Web"
+            "name": "PHP / Laravel",
+            "icon": "laravel",
+            "category": "Web Backend"
           },
           {
             "name": "FastAPI",
@@ -666,37 +681,37 @@
   "whyChooseUs": {
     "badge": "Why Choose Us",
     "title": "Why Choose 360GrowthCloudTech as Your Custom Enterprise Software Development Company",
-    "subtitle": "We become your long-term technology ally, helping you innovate faster, mitigate risk, and lead your industry.",
+    "subtitle": "There are plenty of software development companies to choose from. Here is why growing businesses pick us as their long-term partner, and stay.",
     "cards": [
       {
         "id": "flexible-models",
         "title": "Flexible Engagement Models",
-        "desc": "Adapt capacity on demand—scale up for aggressive sprints or down during maintenance without rigid contracts."
+        "desc": "Adapt capacity on demand. Scale up for aggressive sprints or down during maintenance, without rigid contracts."
       },
       {
         "id": "transparent-pricing",
         "title": "Transparent Pricing",
-        "desc": "Clear milestones and predictable billing without hidden surprise invoices or scope creep markups."
+        "desc": "Clear milestones and predictable billing, with no surprise invoices or scope-creep markups."
       },
       {
         "id": "direct-communication",
         "title": "Direct Communication",
-        "desc": "Work directly with senior developers and tech leads on your preferred communication channels (Slack, Teams, Zoom)."
+        "desc": "Work directly with senior developers and tech leads on Slack, Teams or Zoom, never through layers of account managers."
       },
       {
         "id": "scalable-growth",
         "title": "Scalable for Business Growth",
-        "desc": "Architectures built from day one to handle exponential traffic, multi-tenancy, and data volume seamlessly."
+        "desc": "Architectures built from day one for growing traffic, multi-tenancy and data volume."
       },
       {
         "id": "post-launch-support",
         "title": "Dedicated Post-Launch Support",
-        "desc": "24/7 SLA monitoring, emergency security patching, proactive health checks, and continuous feature evolution."
+        "desc": "SLA monitoring, security patching, proactive health checks and continuous improvement after launch."
       },
       {
         "id": "cost-effective",
         "title": "Cost-Effective Engineering",
-        "desc": "High-speed agile cycles and reusable modular components maximize your ROI and minimize time to value."
+        "desc": "Reusable components and fast agile cycles give you enterprise-grade quality at a price that works for growing businesses."
       }
     ]
   },
@@ -708,61 +723,85 @@
   "faqs": {
     "badge": "Frequently Asked Questions",
     "title": "Frequently Asked Questions",
-    "subtitle": "Everything you need to know about our enterprise software engineering process, pricing, and support.",
+    "subtitle": "Straight answers about custom software development: cost, timelines, outsourcing, ownership and support.",
     "items": [
       {
-        "q": "Can you help if we are building software for the first time?",
-        "a": "Yes, absolutely! We guide first-time founders and non-technical stakeholders from initial scoping and wireframing through architecture selection, MVP launch, and scaling."
+        "q": "What is custom software development?",
+        "a": "Custom software development is designing, building and maintaining software made for one organisation's needs, instead of buying a ready-made product. Tailor-made software fits your exact workflows, integrates with your existing tools and evolves as your business changes."
       },
       {
-        "q": "How would you know what software solution our business requires?",
-        "a": "Our discovery process begins with an in-depth audit of your current business workflows, bottlenecks, and user goals. We conduct stakeholder interviews and technical feasibility assessments to propose the optimal architecture."
+        "q": "How much does custom software development cost?",
+        "a": "Most projects we deliver fall between $8,000 and $25,000 for an MVP, $25,000 to $75,000 for a business application, and $75,000 or more for enterprise platforms. The final cost depends on features, integrations, platforms and compliance needs. We provide a free, fixed-scope estimate after a short discovery call."
       },
       {
         "q": "How long does it take to develop custom software?",
-        "a": "Typical MVPs take between 6 to 12 weeks. Large-scale enterprise systems with extensive integrations generally range from 3 to 6 months. We work in 2-week agile sprints so you see functional progress every sprint."
+        "a": "Typical MVPs take 6 to 12 weeks. Large enterprise systems with many integrations usually take 3 to 6 months. We work in two-week sprints, so you see working software at the end of every sprint."
       },
       {
-        "q": "Is it possible to build software tailored to our specific business processes?",
-        "a": "Yes. Every line of code, database schema, and interface is custom-engineered around your unique operational rules, permissions, and business logic."
+        "q": "Why choose custom software over off-the-shelf products?",
+        "a": "Off-the-shelf software is quick to start but forces your team into someone else's process, charges per seat and rarely integrates cleanly. Custom software is built around your workflows, you own it outright, and it scales without licence fees. If an existing product plus customisation is the better option, we will recommend that instead."
       },
       {
-        "q": "What technologies do you use for software development?",
-        "a": "We use modern, enterprise-grade stacks including Next.js, React, Node.js, Python, Go, TypeScript, PostgreSQL, MongoDB, AWS, Google Cloud, Docker, and Kubernetes."
+        "q": "What does a custom software development company actually do?",
+        "a": "It plans, designs, builds and supports software for one client's needs. Our designers map your workflows, engineers build the product, and code reviews and automated tests keep it reliable. You end up with software you own outright."
       },
       {
-        "q": "Can you integrate the software with our current ERP, CRM, or other systems?",
-        "a": "Yes, we have deep experience integrating with Salesforce, SAP, Oracle, HubSpot, Stripe, QuickBooks, custom legacy databases, and REST/GraphQL APIs."
+        "q": "Do you offer consulting before development starts?",
+        "a": "Yes. Every project starts with a consulting phase: we audit your workflows, systems and goals, then recommend whether to build, customise or integrate before any development budget is spent."
       },
       {
-        "q": "Do you develop software for startups, SMEs, and enterprises?",
-        "a": "Yes, we tailor our delivery approach for early-stage startups needing rapid time-to-market as well as high-growth SMEs and enterprises requiring strict compliance and high throughput."
+        "q": "Can you help if we are building software for the first time?",
+        "a": "Yes. We guide first-time founders and non-technical teams from scoping and wireframes through architecture, MVP launch and scaling, explaining every decision in plain language."
+      },
+      {
+        "q": "Do you work with startups, SMEs and enterprises?",
+        "a": "Yes. We adapt delivery for startups that need speed to market as well as SMEs and enterprises that need strict compliance and high throughput."
+      },
+      {
+        "q": "Do you build custom software for healthcare and fintech?",
+        "a": "Yes. We deliver custom healthcare software such as patient portals, EHR integrations and IVR systems with HIPAA-aware security, and custom fintech software such as lending, payments and reporting platforms with secure transactions and audit trails."
+      },
+      {
+        "q": "Can we outsource custom software development to you?",
+        "a": "Yes. Many clients in the US, UK, Europe and the Middle East outsource custom software development to our team in India. You get senior engineers, overlapping working hours, weekly demos and direct access to the developers, at a lower cost than hiring locally."
+      },
+      {
+        "q": "Do you work with clients in my city or country?",
+        "a": "Yes. We are a remote-first team based in India working with clients worldwide, including the US, UK, Europe and the Middle East. Calls are scheduled in your time zone, so you get the responsiveness of a local partner with the cost advantage of offshore delivery."
       },
       {
         "q": "What software development engagement models do you offer?",
-        "a": "We provide Staff Augmentation, Dedicated Engineering Pods, Fixed-Scope Project Delivery, and Build-Operate-Transfer (BOT) models."
+        "a": "We offer fixed-scope projects, dedicated development teams, staff augmentation and build-operate-transfer (BOT) models. We will recommend the right one based on your budget, timeline and in-house capacity."
       },
       {
-        "q": "Can you modernize our existing legacy software?",
-        "a": "Yes, we specialize in legacy migration, cloud refactoring, monolithic-to-microservices modernization, and frontend revamps with zero downtime."
+        "q": "What technologies do you use for custom software development?",
+        "a": "We use proven stacks including React, Next.js, Node.js, Python, .NET, PHP, Go, TypeScript, Flutter, React Native, PostgreSQL, MongoDB, AWS, Google Cloud, Azure, Docker and Kubernetes, chosen to suit your project rather than our preferences."
       },
       {
-        "q": "How do you ensure software quality, security, and performance?",
-        "a": "We employ automated CI/CD testing, static code analysis, OWASP security audits, end-to-end automated testing, and comprehensive load testing."
+        "q": "Can you integrate the software with our current ERP, CRM or other systems?",
+        "a": "Yes. We regularly integrate with Salesforce, SAP, Oracle, HubSpot, Stripe, QuickBooks, legacy databases and any REST or GraphQL API, so data stays consistent across your business."
       },
       {
-        "q": "Do you offer maintenance and support after software launch?",
-        "a": "Yes, we provide 24/7 SLA-backed support, security patching, infrastructure monitoring, and continuous feature enhancements."
+        "q": "Can you modernise our existing legacy software?",
+        "a": "Yes. We handle legacy migration, cloud refactoring, monolith-to-microservices modernisation and frontend rebuilds, planned to avoid downtime for your users."
+      },
+      {
+        "q": "How do you ensure software quality, security and performance?",
+        "a": "Every project includes code reviews, automated unit and end-to-end tests, CI/CD pipelines, OWASP-based security checks and load testing before release."
+      },
+      {
+        "q": "Do you offer maintenance and support after launch?",
+        "a": "Yes. We provide SLA-backed support, security patching, infrastructure monitoring and continuous feature improvements from engineers who already know your codebase."
       },
       {
         "q": "Will we own the source code and intellectual property?",
-        "a": "Yes, 100%. All source code, assets, and intellectual property are transferred completely to you upon project milestone completion."
+        "a": "Yes, 100%. All source code, designs and intellectual property are transferred to you, and an NDA is signed before any project details are shared."
       }
     ]
   },
   "finalConversion": {
-    "title": "No More Guesswork. Build Your App Confidently.",
-    "subtitle": "Get a free 30-minute system architecture review and transparent pricing estimate from our senior technical leads.",
+    "title": "Ready to Build Custom Software That Fits Your Business?",
+    "subtitle": "Get a free 30-minute architecture review and a transparent estimate from a senior technical lead.",
     "placeholder": "Enter your work email...",
     "cta": "Schedule a Call ➔",
     "guarantee": "No commitment required • 100% Free architecture consultation • NDA protected",
@@ -862,5 +901,281 @@
         "desc": "Add or release engineers with short notice as your roadmap changes."
       }
     ]
+  },
+  "softwareIntro": {
+    "badge": "Tailored Software Development",
+    "title": "Custom Software Built Around the Way Your Business Works",
+    "paragraphs": [
+      "Off-the-shelf tools make your team work around the software. Custom software works the other way round. As a <services>custom software development company</services>, we build tailor-made applications that follow your workflows, connect to the systems you already use and grow with your business, from internal tools to customer-facing portals and apps.",
+      "One team covers the whole lifecycle: discovery, UX/UI design, engineering, testing, cloud deployment and long-term support. You work directly with senior developers, not account managers, in two-week agile sprints with a live demo at the end of each. See <work>software we have already shipped</work> or <about>meet the team behind it</about>.",
+      "Not sure you need fully custom software? That is the first question we answer. Sometimes customising an existing product or integrating the tools you already have is faster and cheaper than a new build, and we will tell you so. <contact>Share your project</contact> and get an honest recommendation within two business hours."
+    ],
+    "asideTitle": "Who we build for",
+    "audience": [
+      {
+        "title": "Startups",
+        "desc": "MVPs launched in 6 to 12 weeks, built to scale once users arrive."
+      },
+      {
+        "title": "Growing businesses",
+        "desc": "Business software that replaces spreadsheets, manual hand-offs and disconnected tools."
+      },
+      {
+        "title": "Enterprises",
+        "desc": "Enterprise applications, legacy modernisation and integrations with SSO and audit trails."
+      },
+      {
+        "title": "B2B companies",
+        "desc": "Partner portals, quoting tools and order-to-cash automation built for your buyers."
+      },
+      {
+        "title": "Product and IT teams",
+        "desc": "Senior engineers who join your sprints and follow your code standards from week one."
+      }
+    ],
+    "asideCta": "Explore all services"
+  },
+  "solutions": {
+    "badge": "Custom Software Solutions",
+    "title": "Custom Software Solutions We Design and Develop",
+    "subtitle": "From a single application to a complete platform, these are the solutions businesses ask us to build most often.",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "web",
+        "title": "Custom Web Applications",
+        "desc": "Portals, dashboards and internal tools built with React, Next.js, Node.js or PHP and Laravel. Fast, secure web apps your users understand on the first visit.",
+        "href": "/services#web-application-development"
+      },
+      {
+        "id": "mobile",
+        "title": "Custom Mobile Apps",
+        "desc": "iOS and Android apps in Flutter, React Native or native code, with offline mode, payments, push notifications and analytics, published and maintained on both stores.",
+        "href": "/services#mobile-app-development"
+      },
+      {
+        "id": "enterprise",
+        "title": "Custom Enterprise Software",
+        "desc": "Enterprise applications with role-based access, audit trails, SSO and integrations with your ERP, CRM and data warehouse.",
+        "href": "/services#custom-enterprise-software"
+      },
+      {
+        "id": "saas",
+        "title": "SaaS Product Development",
+        "desc": "Multi-tenant platforms with subscriptions, onboarding and admin consoles, taken from MVP to paying customers, with ongoing product engineering when you need it.",
+        "href": "/services#saas-development"
+      },
+      {
+        "id": "crm",
+        "title": "Custom CRM Development",
+        "desc": "A CRM shaped around your sales process, on web and mobile, with pipelines, automations and reports your team will actually use.",
+        "href": "/services#custom-enterprise-software"
+      },
+      {
+        "id": "erp",
+        "title": "ERP & Business Software",
+        "desc": "Inventory, procurement, HR and finance in one reliable system, instead of generic packages stitched together.",
+        "href": "/services#enterprise-application-development"
+      },
+      {
+        "id": "data",
+        "title": "Database & BI Software",
+        "desc": "Well-designed databases and BI dashboards that turn scattered data into clear, real-time reporting.",
+        "href": "/services#api-system-integration"
+      },
+      {
+        "id": "desktop",
+        "title": "Custom Desktop Applications",
+        "desc": "Windows, macOS and Linux apps, including .NET software and offline-first tools for field and shop-floor teams.",
+        "href": "/services#custom-enterprise-software"
+      },
+      {
+        "id": "ecommerce",
+        "title": "Custom E-commerce Software",
+        "desc": "Headless storefronts, POS integrations and order and inventory systems for D2C and B2B brands.",
+        "href": "/industries#retail"
+      },
+      {
+        "id": "iot",
+        "title": "IoT & Industrial Software",
+        "desc": "Telemetry pipelines, device dashboards and industrial software for plants, fleets and connected equipment.",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "id": "mvp",
+        "title": "MVP & Product Development",
+        "desc": "We scope the smallest product worth launching, ship it fast and scale it once users arrive.",
+        "href": "/services#saas-development"
+      },
+      {
+        "id": "integration",
+        "title": "Integration & Customisation",
+        "desc": "Connect your ERP, CRM, payment gateways and third-party APIs, or extend the software you already own instead of replacing it.",
+        "href": "/services#api-system-integration"
+      }
+    ]
+  },
+  "industryFocus": {
+    "badge": "Industries We Serve",
+    "title": "Custom Software Development for Healthcare, Fintech, Logistics and More",
+    "subtitle": "Every sector has its own regulations, workflows and customers. Our teams bring that domain knowledge, so your custom software is compliant and useful from the first release.",
+    "explore": "Explore",
+    "items": [
+      {
+        "id": "healthcare",
+        "title": "Healthcare Software Development",
+        "desc": "Patient portals, EHR integrations, telemedicine and IVR systems for clinics, hospitals and health-tech startups, with HIPAA-aware security reviewed every sprint.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "fintech",
+        "title": "Fintech & Financial Software",
+        "desc": "Lending, payments and insurance platforms with secure transactions, KYC flows and audit-ready reporting.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics Software",
+        "desc": "Fleet tracking, dispatch, warehouse management and route planning, connected to your existing ERP.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "manufacturing",
+        "title": "Manufacturing Software",
+        "desc": "Production planning, quality control, maintenance (CMMS) systems and live plant dashboards.",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "id": "retail",
+        "title": "Retail & E-commerce",
+        "desc": "Online stores, POS integrations, loyalty programmes and omnichannel inventory in one place.",
+        "href": "/industries#retail"
+      },
+      {
+        "id": "education",
+        "title": "Education & EdTech",
+        "desc": "Learning platforms, student portals, online assessments and course marketplaces.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate & PropTech",
+        "desc": "Property portals, broker CRMs, tenant apps and lease management tools tailored to the way your portfolio runs.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "agriculture",
+        "title": "Agriculture & AgriTech",
+        "desc": "Farm management, supply-chain traceability and dashboards for drone and sensor data.",
+        "href": "/contact"
+      }
+    ]
+  },
+  "engagement": {
+    "badge": "Engagement Models",
+    "title": "Outsource Custom Software Development, Your Way",
+    "subtitle": "Need a whole product team or just a few extra engineers? Choose the model that fits your budget, timeline and how much control you want to keep.",
+    "bestForLabel": "Best for",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Fixed-Scope Project",
+        "desc": "Scope, milestones and price agreed before work starts. A good fit for MVPs and well-defined projects.",
+        "bestFor": "MVPs and defined projects"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated Development Team",
+        "desc": "A team that works only on your product: developers, QA, a designer and a project lead, managed by us and directed by you.",
+        "bestFor": "Long-term products"
+      },
+      {
+        "id": "augmentation",
+        "title": "Staff Augmentation",
+        "desc": "Add vetted senior engineers to your in-house team, with profiles shared in 48 hours. Scale up for a release and down after it.",
+        "bestFor": "Short-term capacity"
+      },
+      {
+        "id": "offshore",
+        "title": "Offshore & Nearshore Delivery",
+        "desc": "Delivery from India with working-hour overlap for the US, UK, Europe and the Middle East. Senior talent at a lower cost, without the communication gap.",
+        "bestFor": "Cost-efficient scaling"
+      }
+    ],
+    "note": "Outsourcing only works when the partner is transparent. Every engagement includes weekly demos, a shared task board and direct Slack or Teams access to the engineers writing your code. We are remote-first and schedule calls in your time zone, so working with us feels like working with a local team. Compare options on our <services>services page</services> or <contact>ask us which model fits</contact>."
+  },
+  "costGuide": {
+    "badge": "Pricing",
+    "title": "How Much Does Custom Software Development Cost?",
+    "subtitle": "It depends on scope, integrations and compliance needs. These are typical ranges for the projects we deliver, so you can plan a budget before we talk.",
+    "fromLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "id": "mvp",
+        "name": "MVP or Simple App",
+        "price": "$8,000 – $25,000",
+        "timeline": "6–10 weeks",
+        "desc": "A focused product with core features, user accounts, a clean interface and an admin panel. Ideal for validating an idea quickly."
+      },
+      {
+        "id": "business",
+        "name": "Business Application",
+        "price": "$25,000 – $75,000",
+        "timeline": "3–5 months",
+        "desc": "A web or mobile application with integrations, role-based access, dashboards, payments and automated workflows."
+      },
+      {
+        "id": "enterprise",
+        "name": "Enterprise Platform",
+        "price": "$75,000+",
+        "timeline": "5+ months",
+        "desc": "Multi-module enterprise software with complex integrations, compliance requirements, high availability and a dedicated team."
+      }
+    ],
+    "factorsTitle": "What drives the cost of custom software",
+    "factors": [
+      "Number of features, screens and user roles",
+      "Integrations with ERP, CRM, payment or legacy systems",
+      "Platforms: web, iOS, Android or desktop",
+      "Security and compliance such as HIPAA, PCI DSS or GDPR",
+      "Design complexity and custom UI/UX",
+      "Hosting, maintenance and support after launch"
+    ],
+    "note": "Every estimate is fixed-scope and itemised, so you know exactly what you are paying for. Costs drop when scope is clear, which is why discovery always comes first.",
+    "cta": "Get My Free Estimate",
+    "secondaryCta": "Talk to an engineer"
+  },
+  "choosePartner": {
+    "badge": "Buyer's Guide",
+    "title": "How to Choose the Right Custom Software Development Company",
+    "subtitle": "Ranked lists of top software companies are a starting point, not an answer. Use these six checks to compare agencies, firms and consultancies before you sign.",
+    "items": [
+      {
+        "title": "Check real, recent work",
+        "desc": "The best partners show live products and case studies similar to yours, not just logos. Ask to speak to a past client."
+      },
+      {
+        "title": "Meet the engineers, not just sales",
+        "desc": "Strong teams let you interview the developers who will write your code, and those developers explain trade-offs in plain language."
+      },
+      {
+        "title": "Ask how scope and cost are fixed",
+        "desc": "A reliable partner gives an itemised estimate and explains what changes the price, instead of one number on a sales call."
+      },
+      {
+        "title": "Confirm code and IP ownership",
+        "desc": "Agency, firm or freelancer, the contract should transfer 100% of the source code and IP to you."
+      },
+      {
+        "title": "Look at process and communication",
+        "desc": "Agile delivery, weekly demos and a shared board are signs of a mature team. Silence between milestones is a warning sign."
+      },
+      {
+        "title": "Plan for life after launch",
+        "desc": "Software needs updates, monitoring and security patches. Choose a partner that offers support, not one that disappears after go-live."
+      }
+    ],
+    "note": "We are happy to be measured against all six. <contact>Put us to the test</contact>."
   }
 }

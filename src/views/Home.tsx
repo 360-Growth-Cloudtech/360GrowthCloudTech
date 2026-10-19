@@ -32,6 +32,14 @@ import { ServiceCardGrid } from "@/components/ServiceCardGrid";
 import { HeroBackdrop } from "@/components/HeroBackdrop";
 import { IndustryShowcase } from "@/components/IndustryShowcase";
 import { ProcessTimeline } from "@/components/ProcessTimeline";
+import {
+  SoftwareIntro,
+  SolutionsGrid,
+  IndustryFocus,
+  EngagementModels,
+  CostGuide,
+  ChoosePartner,
+} from "@/components/HomeSeoSections";
 import { toast } from "sonner";
 
 
@@ -452,9 +460,9 @@ export default function Home() {
               <span className="text-xs font-bold uppercase tracking-wider text-primary mb-1 block">
                 Valued Partnerships
               </span>
-              <h3 className="font-bold text-lg sm:text-xl text-foreground mb-3">
+              <h2 className="font-bold text-lg sm:text-xl text-foreground mb-3">
                 {t("trustedClients.title")}
-              </h3>
+              </h2>
               <button
                 onClick={() => setOpen(true)}
                 className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-primary hover:text-primary/80 transition-colors cursor-pointer"
@@ -484,6 +492,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ══════════════════════════════════════════════════════════
+          2b. WHAT CUSTOM SOFTWARE IS & WHO IT'S FOR
+      ══════════════════════════════════════════════════════════ */}
+      <SoftwareIntro />
 
       {/* ══════════════════════════════════════════════════════════
           3. VALUE PROPOSITION: 100% FOCUS, 0% DISRUPTION + METRICS
@@ -517,9 +530,9 @@ export default function Home() {
                         <Zap size={15} />
                       </div>
                     </div>
-                    <h4 className="font-bold text-foreground text-base mb-2">
+                    <h3 className="font-bold text-foreground text-base mb-2">
                       {metric.title}
-                    </h4>
+                    </h3>
                     <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                       {metric.desc}
                     </p>
@@ -570,7 +583,7 @@ export default function Home() {
                       {item.initials}
                     </div>
                     <div className="min-w-0">
-                      <h4 className="font-bold text-sm text-foreground truncate">{item.name}</h4>
+                      <p className="font-bold text-sm text-foreground truncate">{item.name}</p>
                       <p className="text-xs text-muted-foreground truncate">{item.role} • {item.company}</p>
                     </div>
                   </div>
@@ -644,9 +657,9 @@ export default function Home() {
           <Reveal className="max-w-4xl mx-auto">
             <div className="p-8 sm:p-10 rounded-2xl bg-foreground text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
               <div className="max-w-xl text-left">
-                <h4 className="font-bold text-lg sm:text-xl text-white mb-2 leading-snug">
+                <p className="font-bold text-lg sm:text-xl text-white mb-2 leading-snug">
                   {t("painPoints.callout.title")}
-                </h4>
+                </p>
                 <p className="text-xs sm:text-sm text-white/70">
                   Book a free technical feasibility audit to uncover quick optimization wins.
                 </p>
@@ -817,6 +830,15 @@ export default function Home() {
 
           </div>
 
+          <div className="text-center mt-10">
+            <Link
+              href="/case-studies"
+              className="inline-flex items-center gap-1.5 text-sm font-bold text-primary hover:gap-2.5 transition-all"
+            >
+              {t("caseStudySpotlight.viewAll")} <ArrowRight size={15} />
+            </Link>
+          </div>
+
         </div>
       </section>
 
@@ -839,6 +861,11 @@ export default function Home() {
           </Magnetic>
         }
       />
+
+      {/* ══════════════════════════════════════════════════════════
+          7b. CUSTOM SOFTWARE SOLUTIONS WE BUILD
+      ══════════════════════════════════════════════════════════ */}
+      <SolutionsGrid />
 
       {/* ══════════════════════════════════════════════════════════
           8b. FAST START TIMELINE (FIRST CALL → FIRST DELIVERY)
@@ -917,6 +944,11 @@ export default function Home() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════
+          9b. CUSTOM SOFTWARE BY INDUSTRY
+      ══════════════════════════════════════════════════════════ */}
+      <IndustryFocus />
+
+      {/* ══════════════════════════════════════════════════════════
           10. INDUSTRY SOLUTIONS SHOWCASE (shared with /industries)
       ══════════════════════════════════════════════════════════ */}
       <IndustryShowcase
@@ -980,7 +1012,7 @@ export default function Home() {
                     );
                   })()}
                   <div className="min-w-0 text-left">
-                    <h4 className="font-bold text-sm text-foreground truncate">{item.name}</h4>
+                    <p className="font-bold text-sm text-foreground truncate">{item.name}</p>
                     <p className="text-[0.65rem] text-muted-foreground truncate">{item.category}</p>
                   </div>
                 </div>
@@ -995,6 +1027,11 @@ export default function Home() {
           12. HOW WE WORK — INTERACTIVE PROCESS TIMELINE (shared with /services)
       ══════════════════════════════════════════════════════════ */}
       <ProcessTimeline />
+
+      {/* ══════════════════════════════════════════════════════════
+          12b. ENGAGEMENT & OUTSOURCING MODELS
+      ══════════════════════════════════════════════════════════ */}
+      <EngagementModels />
 
       {/* ══════════════════════════════════════════════════════════
           13. WHY CHOOSE US (6 CORE DIFFERENTIATORS)
@@ -1036,7 +1073,17 @@ export default function Home() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════
-          15. FAQ ACCORDION SECTION (12 QUESTIONS)
+          13b. BUYER'S GUIDE: CHOOSING A DEVELOPMENT PARTNER
+      ══════════════════════════════════════════════════════════ */}
+      <ChoosePartner />
+
+      {/* ══════════════════════════════════════════════════════════
+          14. COST OF CUSTOM SOFTWARE DEVELOPMENT
+      ══════════════════════════════════════════════════════════ */}
+      <CostGuide />
+
+      {/* ══════════════════════════════════════════════════════════
+          15. FAQ ACCORDION SECTION
       ══════════════════════════════════════════════════════════ */}
       <section className="py-24 bg-background border-t border-border/60">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -1059,34 +1106,36 @@ export default function Home() {
               return (
                 <Reveal key={idx} delay={idx * 0.03} duration={0.4}>
                   <div className="rounded-2xl bg-white border border-border/80 shadow-2xs overflow-hidden transition-all text-left">
-                    <button
-                      onClick={() => setOpenFaqIndex(isOpen ? null : idx)}
-                      className="w-full p-5 sm:p-6 text-left font-bold text-sm sm:text-base text-foreground flex items-center justify-between gap-4 cursor-pointer hover:bg-background/40 transition-colors"
-                    >
-                      <span>{faq.q}</span>
-                      <ChevronDown
-                        size={18}
-                        className={`text-primary shrink-0 transition-transform duration-300 ${
-                          isOpen ? "rotate-180" : ""
-                        }`}
-                      />
-                    </button>
+                    <h3>
+                      <button
+                        onClick={() => setOpenFaqIndex(isOpen ? null : idx)}
+                        aria-expanded={isOpen}
+                        aria-controls={`faq-answer-${idx}`}
+                        className="w-full p-5 sm:p-6 text-left font-bold text-sm sm:text-base text-foreground flex items-center justify-between gap-4 cursor-pointer hover:bg-background/40 transition-colors"
+                      >
+                        <span>{faq.q}</span>
+                        <ChevronDown
+                          size={18}
+                          className={`text-primary shrink-0 transition-transform duration-300 ${
+                            isOpen ? "rotate-180" : ""
+                          }`}
+                        />
+                      </button>
+                    </h3>
 
-                    <AnimatePresence>
-                      {isOpen && (
-                        <motion.div
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: "auto", opacity: 1 }}
-                          exit={{ height: 0, opacity: 0 }}
-                          transition={{ duration: 0.25 }}
-                          className="overflow-hidden"
-                        >
-                          <div className="px-5 sm:px-6 pb-5 pt-0 text-xs sm:text-sm text-muted-foreground leading-relaxed border-t border-border/40">
-                            {faq.a}
-                          </div>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
+                    {/* Answers stay in the DOM (collapsed via grid rows) so crawlers read every FAQ. */}
+                    <div
+                      id={`faq-answer-${idx}`}
+                      className={`grid transition-all duration-300 ${
+                        isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                      }`}
+                    >
+                      <div className="overflow-hidden">
+                        <p className="px-5 sm:px-6 pb-5 pt-0 text-xs sm:text-sm text-muted-foreground leading-relaxed border-t border-border/40">
+                          {faq.a}
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </Reveal>
               );

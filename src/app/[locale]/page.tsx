@@ -18,6 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildPageMetadata({
     title: t("meta.title"),
     description: t("meta.description"),
+    keywords: t.raw("meta.keywords") as string[],
     path: "",
     locale: locale as Locale,
     absoluteTitle: true,

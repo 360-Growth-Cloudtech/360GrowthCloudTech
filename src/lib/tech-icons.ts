@@ -3,7 +3,7 @@ import {
   SiAngular, SiCloudflare, SiDjango, SiDocker, SiDotnet, SiElasticsearch, SiFastapi, SiFirebase,
   SiFlutter, SiGithubactions, SiGo, SiGooglecloud, SiGraphql, SiKubernetes, SiMongodb, SiMysql,
   SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiRedis, SiSupabase, SiTailwindcss,
-  SiTerraform, SiTypescript, SiVuedotjs,
+  SiTerraform, SiTypescript, SiVuedotjs, SiLaravel,
 } from "react-icons/si";
 import { FaAws, FaJava } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
@@ -25,6 +25,7 @@ export const TECH_ICONS: Record<string, { icon: IconType; color: string }> = {
   java: { icon: FaJava, color: "#E76F00" },
   dotnet: { icon: SiDotnet, color: "#512BD4" },
   django: { icon: SiDjango, color: "#092E20" },
+  laravel: { icon: SiLaravel, color: "#FF2D20" },
   fastapi: { icon: SiFastapi, color: "#009688" },
   graphql: { icon: SiGraphql, color: "#E10098" },
   postgresql: { icon: SiPostgresql, color: "#4169E1" },
