@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "title": "Ecommerce Software Development Company",
+    "description": "Custom ecommerce software development: online stores, mobile shopping apps, B2B and multi-vendor marketplaces with payments, inventory and ERP integration. Free quote."
+  },
+  "breadcrumb": "Ecommerce Software Development",
+  "form": {
+    "topic": "ecommerce software development"
+  },
+  "hero": {
+    "label": "Ecommerce Software Development",
+    "title": "Ecommerce Software Development Company Building",
+    "highlight": "Stores That Sell More",
+    "subtitle": "Custom ecommerce websites, shopping apps, B2B portals and multi-vendor marketplaces, built for fast checkout, easy management and growth without platform limits."
+  },
+  "intro": {
+    "badge": "Ecommerce Development Services",
+    "title": "Ecommerce Software Built Around How You Sell",
+    "paragraphs": [
+      "Selling online is about more than a nice storefront. Orders, stock, payments, shipping, returns and marketing all have to work together, every day, at any traffic level. As an ecommerce software development company, we build stores and commerce systems that handle the whole journey, from the first product view to the delivered parcel.",
+      "Some businesses outgrow ready-made store builders: per-order fees add up, plugins conflict, and custom pricing, B2B rules or marketplace features simply are not possible. That is where custom ecommerce software pays off. We design your platform around your catalogue, customers and operations, and connect it to the ERP, POS, accounting and delivery partners you already use.",
+      "The same team handles UX design, web and mobile app development, integrations, testing and long-term support, with full source-code ownership. See <work>ecommerce projects we have delivered</work>, explore our wider <sd>software development services</sd> or <contact>tell us about your store</contact>."
+    ],
+    "highlightsTitle": "Every store we build includes",
+    "highlights": [
+      "Mobile-first design that converts",
+      "Fast pages and SEO-ready structure",
+      "Secure checkout with popular payment gateways",
+      "Inventory, orders and returns in one dashboard",
+      "GST-ready invoices and tax rules",
+      "Shipping and courier integrations",
+      "Analytics and conversion tracking",
+      "You own the code, data and design"
+    ]
+  },
+  "offerings": {
+    "badge": "What We Build",
+    "title": "Ecommerce Development Services We Offer",
+    "subtitle": "Whether you are launching your first online store or rebuilding a high-volume platform, pick the service you need or let us handle the whole build.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "platform",
+        "title": "Custom Ecommerce Platform Development",
+        "desc": "A commerce platform built for your business model, with no per-order fees or plugin limits. Ideal when your pricing, catalogue or workflows do not fit a ready-made store builder.",
+        "bullets": [
+          "Custom pricing and catalogue rules",
+          "Scalable architecture for sale days",
+          "No transaction or plugin fees"
+        ]
+      },
+      {
+        "id": "website",
+        "title": "Ecommerce Website Development",
+        "desc": "Fast, mobile-first online stores with clear product pages, smart search and a short checkout, built to rank on Google and turn visitors into buyers.",
+        "bullets": [
+          "Conversion-focused product pages",
+          "Search, filters and wishlists",
+          "SEO-ready URLs and speed"
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Ecommerce Mobile App Development",
+        "desc": "Android and iOS shopping apps with native checkout, push notifications, loyalty rewards and real-time sync with your website stock and orders.",
+        "bullets": [
+          "Android and iPhone apps",
+          "In-app payments and wallets",
+          "Push offers and abandoned-cart reminders"
+        ],
+        "href": "/case-studies/lifestyle-gifting-ecommerce-app"
+      },
+      {
+        "id": "b2b",
+        "title": "B2B Ecommerce Platform Development",
+        "desc": "Wholesale and distributor portals with customer-specific price lists, bulk and repeat ordering, credit limits, quotes and invoice payments.",
+        "bullets": [
+          "Customer-specific pricing",
+          "Bulk orders and quotations",
+          "Credit terms and approvals"
+        ]
+      },
+      {
+        "id": "marketplace",
+        "title": "Multi-Vendor Marketplace Development",
+        "desc": "Marketplaces where many sellers list products, with seller onboarding, commission rules, split payments, payouts and a dashboard for each vendor.",
+        "bullets": [
+          "Seller onboarding and KYC",
+          "Commissions and split payouts",
+          "Vendor and admin dashboards"
+        ]
+      },
+      {
+        "id": "headless",
+        "title": "Headless & PWA Commerce",
+        "desc": "A decoupled storefront that loads in under a second and works like an app, while your catalogue and orders run on a flexible backend.",
+        "bullets": [
+          "Sub-second page loads",
+          "Installable progressive web app",
+          "One backend for web, app and kiosks"
+        ]
+      },
+      {
+        "id": "orders",
+        "title": "Order, Inventory & POS Systems",
+        "desc": "A custom ecommerce system for the back office: order management, multi-warehouse stock, returns and point-of-sale sync for stores that also sell offline.",
+        "bullets": [
+          "Multi-warehouse inventory",
+          "Order routing and returns",
+          "Online and in-store stock sync"
+        ]
+      },
+      {
+        "id": "integrations",
+        "title": "Payment, Shipping & ERP Integration",
+        "desc": "Connect your store to payment gateways, courier partners, ERP, CRM, accounting and marketplaces so data flows once and nothing is typed twice.",
+        "bullets": [
+          "Payment gateways and UPI",
+          "Courier and tracking APIs",
+          "ERP, CRM and accounting sync"
+        ]
+      },
+      {
+        "id": "migration",
+        "title": "Ecommerce Platform Migration",
+        "desc": "Move from an outdated or limiting cart to a modern platform without losing products, customers, order history or Google rankings.",
+        "bullets": [
+          "Product, customer and order migration",
+          "URL redirects to protect SEO",
+          "Zero-downtime switchover"
+        ]
+      },
+      {
+        "id": "design",
+        "title": "Ecommerce UI/UX Design",
+        "desc": "Ecommerce software design based on how shoppers really behave: clear navigation, persuasive product pages and a checkout with fewer drop-offs.",
+        "bullets": [
+          "UX research and prototypes",
+          "Product and checkout design",
+          "Design systems for growing catalogues"
+        ]
+      },
+      {
+        "id": "personalisation",
+        "title": "AI Search & Personalisation",
+        "desc": "Smarter search, product recommendations and personalised offers that increase average order value and repeat purchases.",
+        "bullets": [
+          "Typo-tolerant smart search",
+          "Recommended products",
+          "Personalised offers and emails"
+        ],
+        "href": "/services#ai-automation"
+      },
+      {
+        "id": "optimisation",
+        "title": "Support, Speed & Conversion Optimisation",
+        "desc": "Ongoing maintenance, security updates, speed improvements and A/B tests that keep your store fast, safe and selling more every month.",
+        "bullets": [
+          "Monitoring and security patches",
+          "Core Web Vitals improvements",
+          "A/B testing and CRO"
+        ],
+        "href": "/services#maintenance-support"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Build For",
+    "title": "Retail & Ecommerce Software for Every Business Model",
+    "subtitle": "Different business models need different commerce features. We have built for all of these.",
+    "items": [
+      {
+        "id": "d2c",
+        "title": "D2C Brands",
+        "desc": "Brand stores with rich storytelling, subscriptions, loyalty and app-based repeat purchases.",
+        "href": "/case-studies/dermayoga"
+      },
+      {
+        "id": "wholesale",
+        "title": "Wholesalers & Distributors",
+        "desc": "B2B ordering portals with tiered pricing, credit limits and integration with your ERP.",
+        "href": "/contact"
+      },
+      {
+        "id": "multivendor",
+        "title": "Marketplaces",
+        "desc": "Multi-vendor platforms with seller tools, commissions, payouts and dispute handling.",
+        "href": "/contact"
+      },
+      {
+        "id": "omnichannel",
+        "title": "Retail Chains",
+        "desc": "Omnichannel retail software linking online orders, store POS and warehouse stock.",
+        "href": "/industries#retail"
+      },
+      {
+        "id": "grocery",
+        "title": "Grocery & Food",
+        "desc": "Slot-based delivery, substitutions, weight-based pricing and rider apps for quick commerce.",
+        "href": "/contact"
+      },
+      {
+        "id": "fashion",
+        "title": "Fashion & Lifestyle",
+        "desc": "Size and colour variants, lookbooks, easy returns and gifting options that lift basket size.",
+        "href": "/case-studies/lifestyle-gifting-ecommerce-app"
+      },
+      {
+        "id": "electronics",
+        "title": "Electronics & Appliances",
+        "desc": "Spec comparison, EMI options, warranty registration and serial-number tracking.",
+        "href": "/contact"
+      },
+      {
+        "id": "beauty",
+        "title": "Health & Beauty",
+        "desc": "Subscriptions, bundles, consultations and repeat-order reminders for consumable products.",
+        "href": "/case-studies/dermayoga"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Choosing a Platform",
+    "title": "Ready-Made Platform or Custom Ecommerce Software?",
+    "subtitle": "There is no single best platform for ecommerce website development. The right choice depends on your size, model and growth plans. Here is an honest comparison.",
+    "columns": [
+      {
+        "title": "Ready-made store builder",
+        "bestFor": "Best for: new and small stores",
+        "pros": [
+          "Quick to launch",
+          "Low upfront cost",
+          "Large theme and plugin choice"
+        ],
+        "cons": [
+          "Monthly and per-transaction fees",
+          "Plugins slow the site and conflict",
+          "Hard limits on B2B, marketplace and custom rules",
+          "Your store depends on the vendor's roadmap"
+        ]
+      },
+      {
+        "title": "Custom ecommerce platform",
+        "bestFor": "Best for: growing, B2B and marketplace businesses",
+        "pros": [
+          "Built around your exact business model",
+          "No per-order fees, you own the code",
+          "Fast, because only what you need is built",
+          "Integrates deeply with ERP, POS and logistics",
+          "Scales for sale days without surprise bills"
+        ],
+        "cons": [
+          "Higher upfront investment"
+        ]
+      }
+    ],
+    "note": "Not sure which fits? We also extend and customise existing stores when that is the smarter option. <contact>Ask for an honest recommendation</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Build Your Ecommerce Platform",
+    "subtitle": "A clear, step-by-step process so you know what is happening, what is next and when your store goes live.",
+    "steps": [
+      {
+        "title": "Discovery & Planning",
+        "desc": "We study your products, customers, competitors and operations, then define features, integrations and a launch plan."
+      },
+      {
+        "title": "UX & Store Design",
+        "desc": "Wireframes and designs for the home, category, product, cart and checkout pages, tested for speed and clarity on mobile."
+      },
+      {
+        "title": "Development & Integrations",
+        "desc": "Agile sprints build the storefront, admin, payments, shipping and ERP connections, with a demo every two weeks."
+      },
+      {
+        "title": "Data Migration & Content",
+        "desc": "Products, customers and order history are imported and checked, with redirects in place to protect your search rankings."
+      },
+      {
+        "title": "Testing & Launch",
+        "desc": "Checkout, payment, load and security testing before a smooth go-live, timed to avoid disrupting your sales."
+      },
+      {
+        "title": "Growth & Support",
+        "desc": "Monitoring, updates, speed improvements and new features as your catalogue and traffic grow."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Features & Integrations",
+    "title": "Features Your Ecommerce Store Can Have",
+    "subtitle": "Pick what you need now and add more as you grow. Everything is built to work together.",
+    "groups": [
+      {
+        "title": "Storefront",
+        "items": [
+          "Smart search",
+          "Filters",
+          "Wishlists",
+          "Reviews",
+          "Multi-language",
+          "Multi-currency"
+        ]
+      },
+      {
+        "title": "Checkout",
+        "items": [
+          "Guest checkout",
+          "UPI and cards",
+          "Wallets",
+          "Buy now pay later",
+          "Cash on delivery",
+          "Coupons"
+        ]
+      },
+      {
+        "title": "Operations",
+        "items": [
+          "Order management",
+          "Multi-warehouse stock",
+          "Returns",
+          "GST invoices",
+          "POS sync"
+        ]
+      },
+      {
+        "title": "Growth",
+        "items": [
+          "Loyalty points",
+          "Referrals",
+          "Abandoned cart",
+          "Push and WhatsApp alerts",
+          "SEO tools"
+        ]
+      },
+      {
+        "title": "Integrations",
+        "items": [
+          "Payment gateways",
+          "Courier APIs",
+          "ERP and CRM",
+          "Accounting",
+          "Marketplaces"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Brands Choose Us as Their Ecommerce Development Partner",
+    "subtitle": "We think like retailers, not just developers. Every decision is measured against one question: will it help you sell more?",
+    "items": [
+      {
+        "title": "Conversion-first engineering",
+        "desc": "Fast pages, short checkouts and clear product pages, because speed and simplicity directly affect revenue."
+      },
+      {
+        "title": "Built for sale days",
+        "desc": "Architecture and load testing that keep your store up when traffic spikes during festivals and campaigns."
+      },
+      {
+        "title": "Deep integrations",
+        "desc": "Experience connecting stores to payment gateways, couriers, ERP, POS and accounting software."
+      },
+      {
+        "title": "Web and app, one team",
+        "desc": "Your website, mobile app and admin share one backend, so stock, prices and orders always match."
+      },
+      {
+        "title": "Full ownership",
+        "desc": "No lock-in. The code, data, designs and hosting accounts belong to you."
+      },
+      {
+        "title": "Support after launch",
+        "desc": "SLA-backed maintenance, security updates and continuous optimisation as your store grows."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Ecommerce Software Development Cost?",
+    "subtitle": "Ecommerce app and website development cost depends on features, integrations and catalogue size. Typical ranges for projects we deliver:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Ecommerce Website",
+        "price": "$5,000 – $15,000",
+        "timeline": "4–8 weeks",
+        "desc": "A custom, mobile-first store with catalogue, cart, payments, shipping and an admin dashboard."
+      },
+      {
+        "name": "Store + Mobile Apps",
+        "price": "$15,000 – $50,000",
+        "timeline": "2–4 months",
+        "desc": "Website plus Android and iOS apps on one backend, with loyalty, push offers and ERP integration."
+      },
+      {
+        "name": "B2B or Marketplace Platform",
+        "price": "$40,000+",
+        "timeline": "4+ months",
+        "desc": "Multi-vendor or B2B commerce with custom pricing, seller tools, payouts and complex integrations."
+      }
+    ],
+    "note": "You get a fixed, itemised estimate after a free discovery call, with no per-order fees and no hidden costs later.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers for businesses planning an online store or commerce platform.",
+    "items": [
+      {
+        "q": "What is ecommerce software development?",
+        "a": "Ecommerce software development is designing and building the systems that let a business sell online: the storefront, mobile app, checkout, payments, order and inventory management, and integrations with shipping, ERP and accounting tools."
+      },
+      {
+        "q": "What is the best platform for ecommerce website development?",
+        "a": "It depends on your business. Ready-made store builders suit new and small stores that need to launch quickly. Growing brands, B2B sellers and marketplaces usually get better speed, flexibility and lower long-term costs from a custom ecommerce platform they fully own."
+      },
+      {
+        "q": "How much does ecommerce app development cost?",
+        "a": "A custom ecommerce website typically costs $5,000 to $15,000. A website with Android and iOS apps costs $15,000 to $50,000, and B2B or multi-vendor platforms start around $40,000. We share a fixed, itemised estimate after a free discovery call."
+      },
+      {
+        "q": "How long does it take to build an ecommerce store?",
+        "a": "A custom ecommerce website usually takes 4 to 8 weeks. Adding mobile apps takes 2 to 4 months in total, and B2B or marketplace platforms take 4 months or more, depending on features and integrations."
+      },
+      {
+        "q": "Can you migrate my existing online store to a new platform?",
+        "a": "Yes. We move products, customers and order history from your current platform, set up redirects to protect your Google rankings and switch over with no downtime for shoppers."
+      },
+      {
+        "q": "Do you build B2B and multi-vendor marketplace platforms?",
+        "a": "Yes. We build B2B portals with customer-specific pricing, bulk ordering and credit terms, and multi-vendor marketplaces with seller onboarding, commissions, split payments and vendor dashboards."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "Retail industry solutions",
+        "href": "/industries#retail"
+      },
+      {
+        "label": "Ecommerce case study",
+        "href": "/case-studies/lifestyle-gifting-ecommerce-app"
+      },
+      {
+        "label": "All services",
+        "href": "/services"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Grow Your Online Sales?",
+    "subtitle": "Book a free 30-minute consultation. Get a clear plan, an honest platform recommendation and a transparent estimate for your store.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

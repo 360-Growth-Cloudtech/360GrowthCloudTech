@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "title": "Stock & Inventory Management Software",
+    "description": "Cloud-based stock and inventory management software with barcode scanning, low stock alerts, purchase and sales orders, and multi-warehouse tracking. Get a quote."
+  },
+  "breadcrumb": "Stock Management Software",
+  "form": {
+    "topic": "stock management software",
+    "options": [
+      "Inventory software for my shop or small business",
+      "Warehouse stock management system",
+      "Manufacturing inventory software",
+      "Restaurant inventory software",
+      "Medical, pharmacy or lab inventory",
+      "Retail or ecommerce inventory with POS",
+      "IT asset inventory system",
+      "Customise or replace my current software"
+    ]
+  },
+  "hero": {
+    "label": "Stock Management Software",
+    "title": "Stock Management Software That",
+    "highlight": "Keeps Your Inventory in Control",
+    "subtitle": "Track stock in real time, get low stock alerts, manage purchase and sales orders, and see every warehouse from one simple, cloud-based dashboard on your phone or computer."
+  },
+  "intro": {
+    "badge": "Inventory Management System",
+    "title": "Know What You Have, Where It Is and When to Reorder",
+    "paragraphs": [
+      "Keeping stock records on paper or in spreadsheets works until it does not. Numbers fall out of date, items run out without warning, money gets tied up in slow-moving products and nobody is sure which count is correct. A stock management system fixes this by recording every item that comes in, moves or goes out, automatically and in real time.",
+      "Our inventory management software organises your products, customers, suppliers, purchase orders and sales orders in one place. It sends low stock alerts, suggests reorders, tracks batches and expiry dates, and gives you clear reports on stock value and movement. It runs in the cloud, so you can check stock from the shop floor, the warehouse or home, on any device, with nothing to install.",
+      "Every business counts stock differently, so we set up and customise the system around your products, units, locations and approval rules, and connect it to your billing, accounting, POS or online store. Need something larger? Explore our <csd>custom software development</csd> or <contact>talk to us about your inventory</contact>."
+    ],
+    "highlightsTitle": "Benefits at a glance",
+    "highlights": [
+      "Easy to use, with minimal training",
+      "Quick stock entry with barcode scanning",
+      "Simple, clean interface for every role",
+      "Saves hours of manual counting and reports",
+      "Cloud-based: access anywhere, any device",
+      "Low stock alerts before you run out",
+      "Fewer errors, losses and dead stock",
+      "Grows from one shop to many warehouses"
+    ]
+  },
+  "offerings": {
+    "badge": "Features",
+    "title": "Features of Our Inventory Management Software",
+    "subtitle": "Everything you need to control stock, orders and suppliers, from a single store to a multi-warehouse operation.",
+    "discuss": "Ask about this feature",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "inventory",
+        "title": "Inventory Management",
+        "desc": "See stock levels for every product in real time. Get low inventory notifications and create purchase orders to replenish stock in one click.",
+        "bullets": ["Real-time stock levels", "Low stock and reorder alerts", "Units, variants and categories"]
+      },
+      {
+        "id": "salesTracking",
+        "title": "Sales Order Tracking",
+        "desc": "Manage sales orders from booking to delivery, including partial or full dispatch, back orders and pending orders, with alerts on your dashboard.",
+        "bullets": ["Partial and full dispatch", "Pending and back-order alerts", "Delivery challans and invoices"]
+      },
+      {
+        "id": "stockLedger",
+        "title": "Stock Control & Ledger",
+        "desc": "Follow the full stock flow of every item with a stock ledger showing inward, outward, adjustments and closing balance. Bundle items into kits and sets.",
+        "bullets": ["Item-wise stock ledger", "Bundles, kits and sets", "Opening and closing balance"]
+      },
+      {
+        "id": "customers",
+        "title": "Customer Accounts",
+        "desc": "Keep customer details, order history, outstanding balances and price lists together, so every conversation is informed and personal.",
+        "bullets": ["Customer profiles and history", "Customer-wise pricing", "Outstanding and payment tracking"]
+      },
+      {
+        "id": "purchaseOrders",
+        "title": "Purchase Orders & Suppliers",
+        "desc": "Raise purchase orders, track what is due to arrive, record goods received and compare supplier prices and delivery times.",
+        "bullets": ["Purchase orders and GRN", "Supplier and vendor records", "Expected arrival tracking"]
+      },
+      {
+        "id": "permissions",
+        "title": "User Roles & Permissions",
+        "desc": "Decide what each team member can see and do: make data read-only, hide costs, or limit staff to their own store or warehouse.",
+        "bullets": ["Role-based access", "Location-wise permissions", "Activity and audit log"]
+      },
+      {
+        "id": "barcode",
+        "title": "Barcode, QR & RFID Scanning",
+        "desc": "Scan items in and out with a barcode scanner, a mobile phone camera or RFID tags. Print your own barcode labels for products without one.",
+        "bullets": ["Scanner and mobile camera support", "Barcode label printing", "RFID for high-volume stock"]
+      },
+      {
+        "id": "multiWarehouse",
+        "title": "Multi-Warehouse Management",
+        "desc": "Manage stock across shops, godowns and warehouses, with bin locations, stock transfers between locations and a combined view of everything.",
+        "bullets": ["Multiple locations and bins", "Inter-warehouse transfers", "Location-wise reports"]
+      },
+      {
+        "id": "batch",
+        "title": "Batch, Expiry & Serial Tracking",
+        "desc": "Track batch numbers, manufacturing and expiry dates, and serial numbers, with FIFO and FEFO picking so older stock moves first.",
+        "bullets": ["Batch and lot numbers", "Expiry alerts", "Serial number history"]
+      },
+      {
+        "id": "invoicing",
+        "title": "Invoicing & Accounting",
+        "desc": "Create GST-ready invoices from sales orders and keep inventory and accounts in sync, or connect to the accounting software you already use.",
+        "bullets": ["GST invoices and e-invoicing", "Payments and receivables", "Accounting software sync"]
+      },
+      {
+        "id": "bi",
+        "title": "Reports & Inventory Planning",
+        "desc": "Stock valuation, ageing, fast and slow movers, dead stock and reorder reports, plus demand-based planning to support just-in-time (JIT) inventory.",
+        "bullets": ["Stock valuation and ageing", "Fast, slow and dead stock", "Demand forecasting and JIT"]
+      },
+      {
+        "id": "integrations",
+        "title": "POS, Ecommerce & App Integration",
+        "desc": "Sync stock automatically with your POS, online store and marketplaces, and give staff a mobile app for counting, receiving and dispatch.",
+        "bullets": ["POS with inventory sync", "Online store stock sync", "Android and iOS staff app"],
+        "href": "/ecommerce-software-development"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who It Is For",
+    "title": "Inventory Software for Every Type of Business",
+    "subtitle": "The basics of stock control are the same everywhere, but every industry has its own details. We set the system up for yours.",
+    "items": [
+      { "id": "shops", "title": "Small Businesses & Shops", "desc": "Simple inventory software for small business owners: stock, sales, purchases and billing without the complexity.", "href": "/contact" },
+      { "id": "warehouse", "title": "Warehouses & Distributors", "desc": "Warehouse inventory management with bins, picking, packing, transfers and dispatch tracking.", "href": "/industries#logistics" },
+      { "id": "manufacturing", "title": "Manufacturing", "desc": "Raw materials, bill of materials, work in progress and finished goods inventory in one manufacturing system.", "href": "/industries#manufacturing" },
+      { "id": "retail", "title": "Retail & Ecommerce", "desc": "Retail inventory systems with POS, multi-store stock and live sync with your online store.", "href": "/ecommerce-software-development" },
+      { "id": "restaurant", "title": "Restaurants & Cafés", "desc": "Restaurant inventory software for ingredients, recipes, wastage and supplier orders across outlets.", "href": "/contact" },
+      { "id": "healthcare", "title": "Medical, Pharmacy & Labs", "desc": "Medical and laboratory inventory management with batch, expiry and temperature-sensitive stock tracking.", "href": "/industries#healthcare" },
+      { "id": "jewellery", "title": "Jewellery", "desc": "Jewellery inventory software that tracks weight, purity, making charges and individual pieces with tags.", "href": "/contact" },
+      { "id": "itAssets", "title": "IT Asset Inventory", "desc": "IT inventory management for laptops, licences and devices: who has what, warranties and maintenance.", "href": "/contact" }
+    ]
+  },
+  "comparison": {
+    "badge": "Why Switch",
+    "title": "Spreadsheets vs Stock Management Software",
+    "subtitle": "Many businesses start with paper registers or spreadsheets. Here is why most switch once they grow.",
+    "columns": [
+      {
+        "title": "Paper registers and spreadsheets",
+        "bestFor": "Works for: a handful of products",
+        "pros": ["Free to start", "Familiar to everyone"],
+        "cons": ["Out of date the moment stock moves", "Easy to overwrite or lose data", "No low stock alerts", "Hours spent on manual reports", "Hard to share safely with a team"]
+      },
+      {
+        "title": "Stock management software",
+        "bestFor": "Best for: growing shops, warehouses and factories",
+        "pros": ["Real-time stock across all locations", "Automatic alerts and reorder suggestions", "Barcode scanning cuts errors", "Reports in seconds, not hours", "Secure access for every team member"],
+        "cons": ["Small setup and training time"]
+      }
+    ],
+    "note": "Already using spreadsheets? We import your existing product and stock data, so you start with clean, accurate numbers on day one. <contact>Ask about migration</contact>."
+  },
+  "process": {
+    "badge": "How It Works",
+    "title": "How Does an Inventory Management System Work?",
+    "subtitle": "The system tracks every product from the moment it arrives from a supplier until it reaches your customer.",
+    "steps": [
+      { "title": "Set up products and locations", "desc": "Add products with units, variants, prices, barcodes and reorder levels, and define your shops, warehouses and bins. Existing data can be imported." },
+      { "title": "Receive stock", "desc": "Create purchase orders, then record goods received by scanning items, which updates stock levels and supplier records instantly." },
+      { "title": "Track every movement", "desc": "Sales, dispatches, returns, transfers between locations and adjustments are recorded as they happen, so stock is always accurate." },
+      { "title": "Get alerts and reorder on time", "desc": "When an item reaches its reorder level you are alerted, with suggested quantities based on sales, so you avoid both stockouts and overstock." },
+      { "title": "Review reports and plan", "desc": "Check stock value, ageing, fast and slow movers and profit, then plan purchases and targets with confidence." }
+    ]
+  },
+  "tech": {
+    "badge": "Methods & Reports",
+    "title": "Inventory Methods, Tracking and Reports Supported",
+    "subtitle": "Built on proven inventory control practices, configured for the way your business works.",
+    "groups": [
+      { "title": "Methods", "items": ["Perpetual inventory", "FIFO", "FEFO", "Just in time (JIT)", "ABC analysis", "Cycle counting"] },
+      { "title": "Tracking", "items": ["Barcode", "QR code", "RFID", "Batch and lot", "Serial number", "Expiry date"] },
+      { "title": "Reports", "items": ["Stock valuation", "Stock ageing", "Dead stock", "Reorder", "Sales vs purchase", "Profit"] },
+      { "title": "Access", "items": ["Cloud web app", "Android app", "iOS app", "Offline counting", "Role-based login"] },
+      { "title": "Connects to", "items": ["POS", "Online store", "Accounting", "GST e-invoice", "Courier partners"] }
+    ]
+  },
+  "why": {
+    "badge": "Why It Matters",
+    "title": "Why Is an Inventory Management System Useful?",
+    "subtitle": "Good stock control protects your cash, your customers and your time. Here is what changes when you have the right system.",
+    "items": [
+      { "title": "Never run out of best sellers", "desc": "Low stock alerts and reorder suggestions keep popular items on the shelf, so you do not lose sales." },
+      { "title": "Free up cash", "desc": "Spot slow-moving and dead stock early and buy only what sells, instead of tying money up in excess inventory." },
+      { "title": "Fewer mistakes and losses", "desc": "Barcode scanning and automatic records remove manual errors, and missing or damaged items are easy to trace." },
+      { "title": "Save hours every week", "desc": "Stock reports, purchase orders and invoices are generated in seconds instead of being written up by hand." },
+      { "title": "Keep delivery promises", "desc": "Know exactly what is available before you commit, and let customers track order status confidently." },
+      { "title": "Plan and grow with data", "desc": "See demand trends and seasonal spikes, set realistic targets and expand to new locations without losing control." }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Stock Management Software Cost?",
+    "subtitle": "Pricing depends on the number of locations, users, features and integrations. Typical ranges for systems we set up:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      { "name": "Small Business", "price": "$3,000 – $8,000", "timeline": "3–6 weeks", "desc": "Single location with products, stock, purchases, sales, billing, barcode scanning and core reports." },
+      { "name": "Multi-Location", "price": "$8,000 – $25,000", "timeline": "1–3 months", "desc": "Multiple shops or warehouses, transfers, batch and expiry, mobile app and POS or online store sync." },
+      { "name": "Enterprise & Manufacturing", "price": "$25,000+", "timeline": "3+ months", "desc": "Manufacturing inventory, RFID, advanced planning and integration with ERP and accounting systems." }
+    ],
+    "note": "You get a fixed, itemised quote after a free consultation, and you own the software: no per-user monthly fees.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers about stock and inventory management software.",
+    "items": [
+      {
+        "q": "What is stock management software?",
+        "a": "Stock management software, also called an inventory management system, records every product you buy, store and sell. It shows real-time stock levels, alerts you when items run low, manages purchase and sales orders, and produces reports on stock value and movement."
+      },
+      {
+        "q": "How does an inventory management system work?",
+        "a": "You add your products and locations, then every purchase, sale, transfer and return updates stock automatically, often by scanning a barcode. The system alerts you at reorder levels and turns all movements into reports for planning and accounting."
+      },
+      {
+        "q": "Is this inventory software suitable for a small business?",
+        "a": "Yes. We set up a simple version for small businesses and shops with just the features you need, such as stock, sales, purchases and billing, and you can add more locations and features as you grow."
+      },
+      {
+        "q": "Can I use a barcode scanner with the software?",
+        "a": "Yes. It works with standard USB and Bluetooth barcode scanners and with mobile phone cameras. You can also print barcode labels, and use RFID tags for high-volume or high-value stock."
+      },
+      {
+        "q": "Is it cloud-based? Can I check stock on my phone?",
+        "a": "Yes. The software is cloud-based, so you can access it securely from any browser, and staff can use the Android or iOS app for counting, receiving and dispatch, even with limited connectivity."
+      },
+      {
+        "q": "Can I move my stock data from spreadsheets?",
+        "a": "Yes. We import your products, opening stock, customers and suppliers from your existing spreadsheets or software, check the data and train your team, so you start with accurate numbers."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      { "label": "Custom software development", "href": "/custom-software-development" },
+      { "label": "Ecommerce software development", "href": "/ecommerce-software-development" },
+      { "label": "Software development services", "href": "/software-development" },
+      { "label": "Manufacturing solutions", "href": "/industries#manufacturing" },
+      { "label": "Case studies", "href": "/case-studies" }
+    ]
+  },
+  "cta": {
+    "title": "Take Control of Your Stock Today",
+    "subtitle": "Book a free 30-minute consultation. We will understand how you manage stock today and show you exactly how the software would work for your business.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

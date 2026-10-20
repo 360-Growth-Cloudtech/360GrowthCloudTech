@@ -163,5 +163,18 @@
     "studio": "AI-First Software Studio",
     "reply": "Reply within 2 business hours",
     "whatsapp": "WhatsApp us"
+  },
+  "serviceForm": {
+    "title": "Get a free project estimate",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "Phone number",
+    "emailPlaceholder": "Work email",
+    "requirementPlaceholder": "What do you need?",
+    "otherOption": "Something else",
+    "submit": "Send on WhatsApp",
+    "trustLine": "Opens WhatsApp with your details · Reply within 2 business hours · No obligation",
+    "missingFields": "Please add your name, phone, email and requirement.",
+    "success": "WhatsApp opened with your details. Just press send!",
+    "whatsappMessage": "Hi 360GrowthCloudTech, I would like a free quote for {topic}.\n\nName: {name}\nPhone: {phone}\nEmail: {email}\nRequirement: {service}"
   }
 }

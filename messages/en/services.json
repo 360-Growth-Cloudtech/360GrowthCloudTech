@@ -243,5 +243,30 @@
         ]
       }
     ]
+  },
+  "menu": {
+    "groups": {
+      "softwareDevelopment": "Software Development",
+      "webDesign": "Web Design",
+      "more": "More Services"
+    },
+    "items": {
+      "software-development": "Software Development",
+      "ecommerce-software-development": "Ecommerce Software Development",
+      "custom-software-development": "Custom Software Development",
+      "stock-management-software": "Stock Management Software",
+      "crm-software-development": "CRM Software Development",
+      "online-complaint-management-system": "Online Complaint Management System",
+      "it-asset-management-software": "IT Asset Management Software",
+      "qri-dashboard": "QRI Dashboard",
+      "web-design": "Web Design",
+      "website-redesigning": "Website Redesigning",
+      "static-web-designing": "Static Web Designing",
+      "dynamic-website-designing": "Dynamic Website Designing",
+      "mobile-website-designing": "Mobile Website Designing",
+      "custom-web-designing": "Custom Web Designing",
+      "landing-page-designing": "Landing Page Designing",
+      "design-identity-branding": "Design Identity Branding"
+    }
   }
 }

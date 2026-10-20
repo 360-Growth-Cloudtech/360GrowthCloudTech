@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   ArrowRight,
   ChevronDown,
+  ChevronRight,
   Clock3,
   Mail,
   Menu,
@@ -18,11 +19,13 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
-import { SERVICE_SLUGS, serviceHref, serviceIcons } from "@/lib/service-catalog";
+import { SERVICE_MENU_GROUPS, isCatalogService, serviceHref } from "@/lib/service-catalog";
 import { INDUSTRY_SLUGS, announceHashNav, industryHref, industryMeta } from "@/lib/industry-catalog";
 import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP_URL } from "@/lib/contact";
 
 type MenuItem = { href: string; label: string; icon: LucideIcon };
+
+type MenuGroup = { id: string; title: string; items: { href: string; label: string }[] };
 
 type NavMenu = {
   label: string;
@@ -31,6 +34,8 @@ type NavMenu = {
   menuLabel: string;
   allLabel: string;
   items: MenuItem[];
+  /** When set, the menu renders as a multi-column mega menu instead of `items`. */
+  groups?: MenuGroup[];
 };
 
 const pillClass = (active: boolean) =>
@@ -57,9 +62,12 @@ function NavDropdown({ menu, active }: { menu: NavMenu; active: boolean }) {
     announceHashNav(href);
   };
 
+  const mega = Boolean(menu.groups?.length);
+
   return (
     <div
-      className="relative"
+      // A mega menu is positioned against the whole <nav> so it can be wider than the pill.
+      className={mega ? undefined : "relative"}
       onMouseEnter={show}
       onMouseLeave={hide}
       onFocus={show}
@@ -84,13 +92,40 @@ function NavDropdown({ menu, active }: { menu: NavMenu; active: boolean }) {
       <AnimatePresence>
         {open && (
           <motion.div
-            className="absolute left-1/2 top-full z-50 w-[min(640px,calc(100vw-2rem))] -translate-x-1/2 pt-4"
+            className={`absolute left-1/2 top-full z-50 -translate-x-1/2 pt-4 ${
+              mega ? "w-[min(960px,calc(100vw-2rem))]" : "w-[min(640px,calc(100vw-2rem))]"
+            }`}
             initial={{ opacity: 0, y: -6 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.18, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-2xl shadow-slate-900/10">
+              {mega ? (
+                <div className="grid grid-cols-3 gap-8 p-6" aria-label={menu.menuLabel}>
+                  {menu.groups!.map((group) => (
+                    <div key={group.id}>
+                      <p className="mb-3 border-b border-border pb-2.5 text-base font-bold text-brand-600">
+                        {group.title}
+                      </p>
+                      <ul className="space-y-0.5">
+                        {group.items.map(({ href, label }) => (
+                          <li key={href}>
+                            <Link
+                              href={href}
+                              onClick={() => choose(href)}
+                              className="group flex items-center gap-2 rounded-lg px-2 py-1.5 text-sm text-slate-700 transition-colors hover:bg-brand-50 hover:text-brand-700 focus-visible:bg-brand-50 focus-visible:outline-none"
+                            >
+                              <ChevronRight size={14} className="shrink-0 text-slate-400 group-hover:text-brand-600" />
+                              {label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              ) : (
               <ul className="grid grid-cols-2 gap-1 p-3" aria-label={menu.menuLabel}>
                 {menu.items.map(({ href, label, icon: Icon }) => (
                   <li key={href}>
@@ -109,6 +144,7 @@ function NavDropdown({ menu, active }: { menu: NavMenu; active: boolean }) {
                   </li>
                 ))}
               </ul>
+              )}
               <Link
                 href={menu.href}
                 onClick={() => setOpen(false)}
@@ -151,7 +187,28 @@ function MobileNavGroup({
       </button>
       {open && (
         <ul className="mb-1 ml-3 border-l-2 border-brand-100 pl-2" aria-label={menu.menuLabel}>
-          {menu.items.map(({ href, label }) => (
+          {menu.groups?.map((group) => (
+            <li key={group.id} className="mt-1">
+              <p className="px-3 pb-1 pt-2 text-xs font-bold uppercase tracking-wider text-brand-600">{group.title}</p>
+              <ul>
+                {group.items.map(({ href, label }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      onClick={() => {
+                        onNavigate();
+                        announceHashNav(href);
+                      }}
+                      className="block rounded-lg px-3 py-2 text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ))}
+          {!menu.groups && menu.items.map(({ href, label }) => (
             <li key={href}>
               <Link
                 href={href}
@@ -180,7 +237,7 @@ export function Navbar() {
   const t = useTranslations("common.nav");
   const tTop = useTranslations("common.topbar");
   const tCta = useTranslations("common.ctas");
-  const tServices = useTranslations("services.catalog");
+  const tServices = useTranslations("services");
   const tIndustries = useTranslations("industries.catalog");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -207,10 +264,16 @@ export function Navbar() {
       testId: "nav-link-services",
       menuLabel: t("servicesMenu"),
       allLabel: t("allServices"),
-      items: SERVICE_SLUGS.map((slug) => ({
-        href: serviceHref(slug),
-        label: tServices(`items.${slug}.title`),
-        icon: serviceIcons[slug],
+      items: [],
+      groups: SERVICE_MENU_GROUPS.map((group) => ({
+        id: group.id,
+        title: tServices(`menu.groups.${group.id}`),
+        items: group.items.map((slug) => ({
+          href: serviceHref(slug),
+          label: isCatalogService(slug)
+            ? tServices(`catalog.items.${slug}.title`)
+            : tServices(`menu.items.${slug}`),
+        })),
       })),
     },
     {
@@ -291,7 +354,7 @@ export function Navbar() {
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-0.5 rounded-full border border-slate-200 bg-slate-100/70 p-1 lg:flex" aria-label="Main">
+          <nav className="relative hidden items-center gap-0.5 rounded-full border border-slate-200 bg-slate-100/70 p-1 lg:flex" aria-label="Main">
             {menus.map((menu) => (
               <NavDropdown key={menu.href} menu={menu} active={isActive(menu.href)} />
             ))}

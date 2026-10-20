@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "title": "CRM Software Development Company",
+    "description": "Custom CRM software development for sales, service and real estate teams: lead management, pipelines, complaint tracking, mobile CRM apps and ERP integration."
+  },
+  "breadcrumb": "CRM Software Development",
+  "form": {
+    "topic": "CRM software development",
+    "options": [
+      "New custom CRM for my business",
+      "Real estate CRM",
+      "Sales and lead management CRM",
+      "Customer support and complaint CRM",
+      "CRM mobile app",
+      "CRM with ERP or inventory integration",
+      "Customise or migrate my existing CRM",
+      "Pharma or healthcare CRM"
+    ]
+  },
+  "hero": {
+    "label": "CRM Software Development",
+    "title": "CRM Software Development Company Building",
+    "highlight": "CRMs Your Team Will Actually Use",
+    "subtitle": "Custom CRM software for leads, sales, customer service and complaints, built around your process, on web and mobile, and connected to the tools you already use."
+  },
+  "intro": {
+    "badge": "Custom CRM Development",
+    "title": "A CRM That Fits Your Business, Not the Other Way Round",
+    "paragraphs": [
+      "A CRM (Customer Relationship Management) system helps your business capture every enquiry, follow up on time, close more deals and resolve customer issues before they become complaints. When it works, everyone from sales to support sees the same customer story. When it does not fit, teams fall back to spreadsheets and WhatsApp, and leads slip through the cracks.",
+      "That is why many businesses choose custom CRM development. Instead of paying per user for features you never use, you get a CRM system built around your own sales stages, approval rules, products and reports. We design and develop CRMs for sales teams, service centres, real estate developers, pharma companies, agencies and growing businesses of every kind.",
+      "Our CRM software development services cover consulting, CRM software design, web and mobile development, data migration, integrations and long-term support. Your CRM can run on your own servers or as a cloud SaaS option, and you own the code. Explore our <csd>custom software development</csd> or <contact>tell us how your team sells today</contact>."
+    ],
+    "highlightsTitle": "What a custom CRM gives you",
+    "highlights": [
+      "Every lead captured from every channel",
+      "Follow-up reminders so no lead goes cold",
+      "Your own sales stages and approval rules",
+      "Complaints tracked with escalation matrix",
+      "Real-time MIS reports and dashboards",
+      "Web-based, with mobile app and SaaS option",
+      "No per-user licence fees",
+      "Short implementation time"
+    ]
+  },
+  "offerings": {
+    "badge": "Features & Services",
+    "title": "CRM Development Services and Features",
+    "subtitle": "Start with the modules you need today and add more as your team grows. Every feature is customised to your process.",
+    "discuss": "Ask about this feature",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "custom",
+        "title": "Custom CRM Development",
+        "desc": "A CRM system designed from scratch around your sales cycle, customer types, products and teams, with only the features you will actually use.",
+        "bullets": [
+          "Your stages, fields and rules",
+          "Role-based dashboards",
+          "Built to scale with your team"
+        ],
+        "href": "/case-studies/mahasu-travels-crm"
+      },
+      {
+        "id": "web",
+        "title": "Web-Based CRM Portal",
+        "desc": "A completely web-based CRM portal your team can open from any browser, available on your own server or as a hosted SaaS option.",
+        "bullets": [
+          "Works on any device",
+          "Self-hosted or SaaS",
+          "Customer and partner portals"
+        ]
+      },
+      {
+        "id": "mobile",
+        "title": "CRM Mobile App Development",
+        "desc": "Android and iOS CRM apps for field sales and site teams: update leads, log visits, check stock and share quotes on the go, even with weak internet.",
+        "bullets": [
+          "Field visit and check-in tracking",
+          "Offline mode with sync",
+          "Click-to-call and WhatsApp"
+        ]
+      },
+      {
+        "id": "leads",
+        "title": "Lead Management",
+        "desc": "Capture leads automatically from your website, ads, portals, calls and WhatsApp, assign them by rules and track every follow-up until they convert.",
+        "bullets": [
+          "Auto lead capture from all sources",
+          "Rule-based lead assignment",
+          "Lead scoring and follow-up reminders"
+        ]
+      },
+      {
+        "id": "pipeline",
+        "title": "Sales & Business Development",
+        "desc": "Visual pipelines, quotations, targets and forecasts that help sales and business development teams focus on the deals most likely to close.",
+        "bullets": [
+          "Drag-and-drop pipelines",
+          "Quotes, proposals and orders",
+          "Targets and sales forecasts"
+        ]
+      },
+      {
+        "id": "communication",
+        "title": "Call, SMS, Email & WhatsApp",
+        "desc": "Talk to customers from inside the CRM with click-to-call, call logging, SMS, email templates and WhatsApp messages, all saved on the customer timeline.",
+        "bullets": [
+          "Telephony and call recording",
+          "Bulk SMS and email campaigns",
+          "WhatsApp messaging"
+        ]
+      },
+      {
+        "id": "complaint",
+        "title": "Complaint & Feedback Management",
+        "desc": "Log customer complaints and feedback, separate positive comments from issues, and resolve every ticket on time with SLAs and an escalation matrix.",
+        "bullets": [
+          "Ticketing and SLA timers",
+          "Escalation matrix",
+          "Feedback and satisfaction scores"
+        ]
+      },
+      {
+        "id": "projects",
+        "title": "Project & Task Management",
+        "desc": "Turn won deals into projects with tasks, owners, deadlines and status updates, so delivery teams and customers stay aligned.",
+        "bullets": [
+          "Tasks and milestones",
+          "Team calendars",
+          "Customer status updates"
+        ]
+      },
+      {
+        "id": "bi",
+        "title": "MIS Reports & Dashboards",
+        "desc": "Comprehensive reporting on performance against the parameters that matter to you, so managers can take timely corrective action.",
+        "bullets": [
+          "Sales and team performance",
+          "Source and campaign ROI",
+          "Scheduled MIS reports"
+        ]
+      },
+      {
+        "id": "erp",
+        "title": "CRM + ERP Integration",
+        "desc": "Connect your CRM with ERP, inventory, billing and accounting, so sales can see stock and pricing and finance sees orders instantly.",
+        "bullets": [
+          "Inventory and pricing sync",
+          "Invoices and payments",
+          "One customer record everywhere"
+        ],
+        "href": "/stock-management-software"
+      },
+      {
+        "id": "migration",
+        "title": "CRM Customisation & Migration",
+        "desc": "Already using a ready-made CRM? We customise it, connect it to your other tools, or migrate your contacts, deals and history into a custom CRM without data loss.",
+        "bullets": [
+          "Customisation of existing CRMs",
+          "Contact and deal migration",
+          "Duplicate cleanup"
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "Automation & AI",
+        "desc": "Automate repetitive work with workflows, auto-replies and reminders, and use AI to score leads, summarise calls and suggest the next best action.",
+        "bullets": [
+          "Workflow automation",
+          "AI lead scoring",
+          "Call and email summaries"
+        ],
+        "href": "/services#ai-automation"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "CRM Software for Your Industry",
+    "subtitle": "Every industry sells differently. We build CRMs that speak your industry's language from day one.",
+    "items": [
+      {
+        "id": "realEstate",
+        "title": "Real Estate Developers",
+        "desc": "Real estate CRM for property developers and brokers: enquiries, site visits, unit inventory, bookings, payment schedules and channel partners.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "pharma",
+        "title": "Pharma & Healthcare",
+        "desc": "Pharma CRM for medical representatives: doctor visits, samples, territories and secondary sales, plus patient CRMs for clinics.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "itAgencies",
+        "title": "IT & Software Companies",
+        "desc": "CRM for software and web development agencies: leads, proposals, projects, timesheets and recurring billing in one place.",
+        "href": "/software-development"
+      },
+      {
+        "id": "fintech",
+        "title": "Finance & Insurance",
+        "desc": "Loan, insurance and investment CRMs with document collection, KYC, renewals and compliance-friendly records.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Admission CRMs for schools, colleges and coaching institutes: enquiries, counselling, follow-ups and fee collection.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "manufacturing",
+        "title": "Manufacturing & Distribution",
+        "desc": "Dealer and distributor CRMs with orders, schemes, territories and stock visibility.",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "id": "government",
+        "title": "Economic Development Agencies",
+        "desc": "CRM for economic development organisations to track investors, businesses, projects and incentives.",
+        "href": "/contact"
+      },
+      {
+        "id": "retail",
+        "title": "Retail & Ecommerce",
+        "desc": "Customer profiles, loyalty, purchase history and personalised campaigns across store and online.",
+        "href": "/ecommerce-software-development"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Custom vs Ready-Made",
+    "title": "Ready-Made CRM or Custom CRM Development?",
+    "subtitle": "Both have their place. Here is an honest comparison to help you choose.",
+    "columns": [
+      {
+        "title": "Ready-made CRM",
+        "bestFor": "Best for: small teams with standard sales",
+        "pros": [
+          "Quick to start",
+          "Low cost for a few users"
+        ],
+        "cons": [
+          "Per-user fees grow with your team",
+          "Your process bends to fit the tool",
+          "Key features locked in higher plans",
+          "Integrations are limited or extra",
+          "Your data sits on someone else's platform"
+        ]
+      },
+      {
+        "title": "Custom CRM",
+        "bestFor": "Best for: growing teams and unique processes",
+        "pros": [
+          "Built exactly around your sales process",
+          "No per-user licence fees",
+          "Deep integration with ERP, telephony and WhatsApp",
+          "Your data, your servers, your rules",
+          "Industry-specific modules like unit booking or MR visits"
+        ],
+        "cons": [
+          "Higher upfront investment"
+        ]
+      }
+    ],
+    "note": "Happy with your current CRM but need it to do more? We also customise and integrate existing CRMs. <contact>Get an honest recommendation</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Develop Your CRM",
+    "subtitle": "A short, clear implementation process so your team starts using the CRM quickly.",
+    "steps": [
+      {
+        "title": "Understand your sales and service process",
+        "desc": "We map how leads come in, how your team follows up, how deals close and how complaints are handled today."
+      },
+      {
+        "title": "Design the CRM",
+        "desc": "Stages, fields, roles, automations and dashboards are designed with your team and shown as a clickable prototype."
+      },
+      {
+        "title": "Develop in sprints",
+        "desc": "Core modules are built first so you can start using the CRM early, with new features added every two weeks."
+      },
+      {
+        "title": "Migrate data and integrate",
+        "desc": "Contacts, leads and history are imported, and the CRM is connected to your website, telephony, WhatsApp and ERP."
+      },
+      {
+        "title": "Train and go live",
+        "desc": "Short, role-based training for sales, support and managers so adoption is high from the first week."
+      },
+      {
+        "title": "Support and improve",
+        "desc": "Ongoing support, new reports and features as your team and process evolve."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Modules & Integrations",
+    "title": "CRM Modules and Integrations",
+    "subtitle": "Mix and match the modules your business needs, all connected to one customer record.",
+    "groups": [
+      {
+        "title": "Sales",
+        "items": [
+          "Leads",
+          "Pipelines",
+          "Quotations",
+          "Orders",
+          "Targets",
+          "Forecasts"
+        ]
+      },
+      {
+        "title": "Marketing",
+        "items": [
+          "Campaigns",
+          "Segments",
+          "Email",
+          "SMS",
+          "WhatsApp",
+          "Landing page forms"
+        ]
+      },
+      {
+        "title": "Service",
+        "items": [
+          "Tickets",
+          "Complaints",
+          "SLAs",
+          "Escalations",
+          "Feedback",
+          "Knowledge base"
+        ]
+      },
+      {
+        "title": "Operations",
+        "items": [
+          "Projects",
+          "Tasks",
+          "Field visits",
+          "Inventory",
+          "Invoices",
+          "Payments"
+        ]
+      },
+      {
+        "title": "Integrations",
+        "items": [
+          "Website",
+          "Ad lead forms",
+          "Telephony / IVR",
+          "ERP",
+          "Accounting",
+          "Payment gateways"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Businesses Choose Us as Their CRM Development Company",
+    "subtitle": "We build CRMs that people actually use, because adoption is what turns software into revenue.",
+    "items": [
+      {
+        "title": "Process first, software second",
+        "desc": "We start with how your team sells and serves customers, then build the CRM to match."
+      },
+      {
+        "title": "Simple for every user",
+        "desc": "Clean screens, fewer clicks and mobile access mean your team updates the CRM instead of avoiding it."
+      },
+      {
+        "title": "Short implementation time",
+        "desc": "Core modules go live in weeks, not months, so you see value quickly."
+      },
+      {
+        "title": "Integrations that work",
+        "desc": "Experience with telephony, WhatsApp, email, ERP, accounting and website integrations."
+      },
+      {
+        "title": "You own your CRM",
+        "desc": "Source code and data are yours, with no per-user fees or vendor lock-in."
+      },
+      {
+        "title": "Support as you grow",
+        "desc": "New reports, modules and users added whenever your business needs them."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Custom CRM Development Cost?",
+    "subtitle": "CRM development cost depends on modules, users, integrations and mobile apps. Typical ranges for CRMs we build:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Starter CRM",
+        "price": "$5,000 – $15,000",
+        "timeline": "4–8 weeks",
+        "desc": "Leads, contacts, follow-ups, pipeline, basic reports and website lead capture."
+      },
+      {
+        "name": "Business CRM",
+        "price": "$15,000 – $40,000",
+        "timeline": "2–4 months",
+        "desc": "Sales, service and complaint modules, mobile app, telephony and WhatsApp integration, MIS dashboards."
+      },
+      {
+        "name": "Enterprise CRM + ERP",
+        "price": "$40,000+",
+        "timeline": "4+ months",
+        "desc": "Multi-branch CRM with ERP, inventory and accounting integration, advanced automation and AI."
+      }
+    ],
+    "note": "You pay once and own the CRM, instead of paying per user every month. Fixed, itemised quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers about CRM software development.",
+    "items": [
+      {
+        "q": "What is CRM software development?",
+        "a": "CRM software development is designing and building a Customer Relationship Management system that helps a business capture leads, manage sales, communicate with customers and resolve service requests. A custom CRM is built around your own process instead of a generic template."
+      },
+      {
+        "q": "Is a custom CRM better than a ready-made CRM?",
+        "a": "A ready-made CRM is fine for small teams with a simple sales process. A custom CRM is better when your process is unique, you need industry features or deep integrations, or per-user fees are getting expensive as your team grows."
+      },
+      {
+        "q": "How much does custom CRM development cost?",
+        "a": "A starter CRM typically costs $5,000 to $15,000, a business CRM with mobile app and integrations $15,000 to $40,000, and an enterprise CRM with ERP integration $40,000 or more. We give a fixed, itemised quote after a free consultation."
+      },
+      {
+        "q": "How long does it take to develop a CRM?",
+        "a": "A starter CRM usually goes live in 4 to 8 weeks. Business CRMs take 2 to 4 months and enterprise CRMs 4 months or more. Core modules are released early so your team can start using them sooner."
+      },
+      {
+        "q": "Do you build CRM software for real estate developers?",
+        "a": "Yes. Our real estate CRM handles enquiries from property portals and ads, site visits, unit availability, bookings, payment schedules, channel partners and post-sales service in one system."
+      },
+      {
+        "q": "Can you integrate the CRM with WhatsApp, telephony and ERP, or migrate my existing CRM?",
+        "a": "Yes. We integrate with WhatsApp, IVR and telephony, email, website forms, ERP and accounting software, and we migrate contacts, deals and history from your current CRM or spreadsheets without data loss."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "CRM case study",
+        "href": "/case-studies/mahasu-travels-crm"
+      },
+      {
+        "label": "Stock management software",
+        "href": "/stock-management-software"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "Real estate solutions",
+        "href": "/industries#real-estate"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for a CRM That Grows Your Sales?",
+    "subtitle": "Book a free 30-minute consultation. Tell us how your team sells today and we will show you how a custom CRM can help.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

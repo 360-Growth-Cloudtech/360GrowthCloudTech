@@ -906,8 +906,8 @@
     "badge": "Tailored Software Development",
     "title": "Custom Software Built Around the Way Your Business Works",
     "paragraphs": [
-      "Off-the-shelf tools make your team work around the software. Custom software works the other way round. As a <services>custom software development company</services>, we build tailor-made applications that follow your workflows, connect to the systems you already use and grow with your business, from internal tools to customer-facing portals and apps.",
-      "One team covers the whole lifecycle: discovery, UX/UI design, engineering, testing, cloud deployment and long-term support. You work directly with senior developers, not account managers, in two-week agile sprints with a live demo at the end of each. See <work>software we have already shipped</work> or <about>meet the team behind it</about>.",
+      "Off-the-shelf tools make your team work around the software. Custom software works the other way round. As a <csd>custom software development company</csd>, we build tailor-made applications that follow your workflows, connect to the systems you already use and grow with your business, from internal tools to customer-facing portals and apps.",
+      "Our <sd>software development services</sd> cover the whole lifecycle: discovery, UX/UI design, engineering, testing, cloud deployment and long-term support. You work directly with senior developers, not account managers, in two-week agile sprints with a live demo at the end of each. See <work>software we have already shipped</work> or <about>meet the team behind it</about>.",
       "Not sure you need fully custom software? That is the first question we answer. Sometimes customising an existing product or integrating the tools you already have is faster and cheaper than a new build, and we will tell you so. <contact>Share your project</contact> and get an honest recommendation within two business hours."
     ],
     "asideTitle": "Who we build for",
@@ -957,7 +957,7 @@
         "id": "enterprise",
         "title": "Custom Enterprise Software",
         "desc": "Enterprise applications with role-based access, audit trails, SSO and integrations with your ERP, CRM and data warehouse.",
-        "href": "/services#custom-enterprise-software"
+        "href": "/custom-software-development"
       },
       {
         "id": "saas",
@@ -969,7 +969,7 @@
         "id": "crm",
         "title": "Custom CRM Development",
         "desc": "A CRM shaped around your sales process, on web and mobile, with pipelines, automations and reports your team will actually use.",
-        "href": "/services#custom-enterprise-software"
+        "href": "/crm-software-development"
       },
       {
         "id": "erp",
@@ -993,7 +993,7 @@
         "id": "ecommerce",
         "title": "Custom E-commerce Software",
         "desc": "Headless storefronts, POS integrations and order and inventory systems for D2C and B2B brands.",
-        "href": "/industries#retail"
+        "href": "/ecommerce-software-development"
       },
       {
         "id": "iot",

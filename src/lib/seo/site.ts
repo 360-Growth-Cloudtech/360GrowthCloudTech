@@ -1,5 +1,6 @@
 import { getAllCaseStudySlugs, getCaseStudyPublishedAt } from "@/lib/case-studies-meta";
 import type { Locale } from "@/i18n/routing";
+import { SERVICE_PAGE_PATHS } from "@/lib/service-catalog";
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://360cloudtech.com";
@@ -83,7 +84,7 @@ export function absoluteUrl(path: string): string {
 }
 
 export function getSitemapPaths(): string[] {
-  return [...STATIC_PATHS, ...getCaseStudyPaths()];
+  return [...STATIC_PATHS, ...SERVICE_PAGE_PATHS, ...getCaseStudyPaths()];
 }
 
 /** Last meaningful content change per path, for sitemap `lastmod`. */
@@ -97,7 +98,13 @@ export function getPathLastModified(path: string): Date {
 
 export function getPathPriority(path: string): number {
   if (path === "") return 1;
-  if (path === "/services" || path === "/contact") return 0.9;
+  if (
+    path === "/services" ||
+    path === "/contact" ||
+    SERVICE_PAGE_PATHS.includes(path)
+  ) {
+    return 0.9;
+  }
   if (path.startsWith("/case-studies/")) return 0.7;
   if (
     path === "/privacy-policy" ||

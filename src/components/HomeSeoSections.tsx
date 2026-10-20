@@ -52,6 +52,12 @@ const inlineLinks = {
   services: (chunks: ReactNode) => (
     <Link href="/services" className="font-semibold text-primary underline-offset-4 hover:underline">{chunks}</Link>
   ),
+  csd: (chunks: ReactNode) => (
+    <Link href="/custom-software-development" className="font-semibold text-primary underline-offset-4 hover:underline">{chunks}</Link>
+  ),
+  sd: (chunks: ReactNode) => (
+    <Link href="/software-development" className="font-semibold text-primary underline-offset-4 hover:underline">{chunks}</Link>
+  ),
   work: (chunks: ReactNode) => (
     <Link href="/case-studies" className="font-semibold text-primary underline-offset-4 hover:underline">{chunks}</Link>
   ),

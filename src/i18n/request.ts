@@ -8,7 +8,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
-  const [common, home, services, about, contact, industries, caseStudies, legal] =
+  const [common, home, services, about, contact, industries, caseStudies, legal, softwareDevelopment, ecommerceSoftwareDevelopment, customSoftwareDevelopment, stockManagementSoftware, crmSoftwareDevelopment] =
     await Promise.all([
       import(`../../messages/${locale}/common.json`),
       import(`../../messages/${locale}/home.json`),
@@ -18,6 +18,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
       import(`../../messages/${locale}/industries.json`),
       import(`../../messages/${locale}/caseStudies.json`),
       import(`../../messages/${locale}/legal.json`),
+      import(`../../messages/${locale}/softwareDevelopment.json`),
+      import(`../../messages/${locale}/ecommerceSoftwareDevelopment.json`),
+      import(`../../messages/${locale}/customSoftwareDevelopment.json`),
+      import(`../../messages/${locale}/stockManagementSoftware.json`),
+      import(`../../messages/${locale}/crmSoftwareDevelopment.json`),
     ]);
 
   return {
@@ -31,6 +36,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
       industries: industries.default,
       caseStudies: caseStudies.default,
       legal: legal.default,
+      softwareDevelopment: softwareDevelopment.default,
+      ecommerceSoftwareDevelopment: ecommerceSoftwareDevelopment.default,
+      customSoftwareDevelopment: customSoftwareDevelopment.default,
+      stockManagementSoftware: stockManagementSoftware.default,
+      crmSoftwareDevelopment: crmSoftwareDevelopment.default,
     },
   };
 });

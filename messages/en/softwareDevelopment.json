@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "title": "Software Development Company & Services",
+    "description": "Software development company building custom, enterprise, SaaS, AI and mobile software. Offshore teams, agile delivery, fixed-scope pricing. Get a free quote."
+  },
+  "breadcrumb": "Software Development",
+  "hero": {
+    "label": "Software Development Services",
+    "title": "Software Development Company That Builds",
+    "highlight": "What Your Business Needs",
+    "subtitle": "Custom, enterprise, SaaS, AI and mobile software built by senior engineers in agile sprints. One team from feasibility study to launch and support, with fixed-scope pricing and full source-code ownership."
+  },
+  "form": {
+    "topic": "software development"
+  },
+  "intro": {
+    "badge": "Software Development Services",
+    "title": "Software That Fits the Way Your Business Works",
+    "paragraphs": [
+      "Every business eventually outgrows spreadsheets and off-the-shelf tools. That is when you need software made for the way you actually work. As a full-service <csd>custom software development company</csd>, we plan, design, build and support software that automates your processes, connects your systems and gives your customers a better experience.",
+      "We work with startups launching their first product, growing companies replacing manual work, and enterprises modernising legacy systems. Whether you need a web application, a mobile app, a SaaS platform, an ERP or an AI-powered tool, one accountable team handles everything: consulting, UI/UX design, engineering, testing, deployment and long-term maintenance.",
+      "You work directly with the developers writing your code, see working software every two weeks, and own 100% of the source code. Browse <work>projects we have delivered</work> or <contact>tell us about yours</contact>."
+    ],
+    "highlightsTitle": "What you get with every project",
+    "highlights": [
+      "Free consultation and feasibility analysis",
+      "Fixed-scope estimate before work starts",
+      "Senior engineers, no junior bait-and-switch",
+      "Two-week agile sprints with live demos",
+      "Automated testing and CI/CD from day one",
+      "Full source code and IP ownership",
+      "NDA signed before you share details",
+      "Post-launch support and maintenance"
+    ]
+  },
+  "offerings": {
+    "badge": "What We Build",
+    "title": "Software Development Services We Offer",
+    "subtitle": "From a single business application to a complete product platform, these are the software development services clients hire us for most.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "custom",
+        "title": "Custom Software Development",
+        "desc": "Software designed around your workflows instead of forcing your team to adapt to a generic tool. Ideal when off-the-shelf products are too rigid, too expensive per seat, or do not integrate with your systems.",
+        "bullets": [
+          "Business process automation",
+          "Internal tools and admin portals",
+          "Integrations with existing systems"
+        ],
+        "href": "/custom-software-development"
+      },
+      {
+        "id": "enterprise",
+        "title": "Enterprise Software Development",
+        "desc": "Secure, scalable enterprise applications for large teams, with role-based access, audit trails, single sign-on and integrations with ERP, CRM and data warehouses.",
+        "bullets": [
+          "Enterprise application development",
+          "Legacy system modernisation",
+          "High-availability architecture"
+        ],
+        "href": "/services#enterprise-application-development"
+      },
+      {
+        "id": "saas",
+        "title": "SaaS Product Development",
+        "desc": "End-to-end SaaS application development, from MVP to a subscription platform serving thousands of customers. We build the product, billing, onboarding and admin, then keep improving it with you.",
+        "bullets": [
+          "Multi-tenant architecture",
+          "Subscriptions and billing",
+          "Product engineering after launch"
+        ],
+        "href": "/services#saas-development"
+      },
+      {
+        "id": "web",
+        "title": "Web Application Development",
+        "desc": "Fast, secure web applications, portals and dashboards built with modern frameworks, designed to be easy to use on every screen and easy to extend later.",
+        "bullets": [
+          "Customer and partner portals",
+          "Dashboards and reporting",
+          "Progressive web apps"
+        ],
+        "href": "/services#web-application-development"
+      },
+      {
+        "id": "mobile",
+        "title": "Mobile App Development",
+        "desc": "Android and iOS apps, built natively or with cross-platform frameworks so one codebase serves both stores. We handle design, development, store publishing and updates.",
+        "bullets": [
+          "Android and iPhone apps",
+          "Cross-platform apps",
+          "Store publishing and updates"
+        ],
+        "href": "/services#mobile-app-development"
+      },
+      {
+        "id": "ai",
+        "title": "AI Software Development",
+        "desc": "Practical AI that saves time: assistants, document processing, predictions and recommendations built into your software, using your data securely.",
+        "bullets": [
+          "AI assistants and chatbots",
+          "Document and data extraction",
+          "Predictive analytics"
+        ],
+        "href": "/services#ai-automation"
+      },
+      {
+        "id": "erp",
+        "title": "ERP Software Development",
+        "desc": "Custom ERP software that brings inventory, procurement, production, HR and finance into one system, built around how your company operates rather than a vendor's template.",
+        "bullets": [
+          "Modules built to your process",
+          "Multi-branch and multi-warehouse",
+          "Accounting and tax integrations"
+        ],
+        "href": "/services#custom-enterprise-software"
+      },
+      {
+        "id": "crm",
+        "title": "CRM Software Development",
+        "desc": "A CRM that matches your sales and service process, on web and mobile, with lead tracking, follow-up automation, quotations and reports your team will actually use.",
+        "bullets": [
+          "Lead and pipeline management",
+          "Automated follow-ups",
+          "Sales and service reports"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "ecommerce",
+        "title": "E-commerce Software Development",
+        "desc": "Online stores and marketplaces built for growth, with fast storefronts, secure payments, order management and integrations with your inventory and delivery partners.",
+        "bullets": [
+          "B2C and B2B stores",
+          "Marketplaces and multi-vendor",
+          "POS and inventory sync"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "inventory",
+        "title": "Stock & Inventory Management Software",
+        "desc": "Know exactly what you have, where it is and when to reorder. Barcode scanning, multi-location stock, purchase orders and low-stock alerts in one simple system.",
+        "bullets": [
+          "Barcode and batch tracking",
+          "Multi-warehouse stock",
+          "Reorder alerts and reports"
+        ],
+        "href": "/stock-management-software"
+      },
+      {
+        "id": "complaint",
+        "title": "Complaint Management Software",
+        "desc": "An online portal where customers log complaints and your team tracks each one to resolution, with automatic assignment, SLA timers and status updates by email or SMS.",
+        "bullets": [
+          "Customer self-service portal",
+          "Auto-assignment and escalation",
+          "SLA tracking and reports"
+        ]
+      },
+      {
+        "id": "embedded",
+        "title": "Embedded, IoT & Firmware Development",
+        "desc": "Software for connected devices: firmware, device communication, cloud dashboards and mobile control apps for IoT, industrial and automotive products.",
+        "bullets": [
+          "Firmware and embedded systems",
+          "IoT device dashboards",
+          "Device-to-cloud integration"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "Industries We Build Software For",
+    "subtitle": "Industry experience means fewer surprises. We already know the regulations, workflows and integrations your sector depends on.",
+    "items": [
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Healthcare software development services for clinics, hospitals and health-tech companies: patient portals, telemedicine, EHR integrations and HIPAA-compliant software, plus medical device software support.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "fintech",
+        "title": "Fintech & Banking",
+        "desc": "Fintech software development for lenders, payment providers and banks: secure transactions, KYC, loan management and financial app development with audit-ready reporting.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics & Transportation",
+        "desc": "Logistics software development for fleet tracking, dispatch, warehouse management and transportation apps for drivers and customers.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Real estate software development for developers and brokers: project management, sales and booking, property portals and development accounting software.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "manufacturing",
+        "title": "Manufacturing & Automotive",
+        "desc": "Production planning, quality inspection, maintenance and automotive software that connects machines, people and data on the shop floor.",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "id": "education",
+        "title": "Education & E-learning",
+        "desc": "E-learning app development, student portals, online assessments and course platforms for schools, coaching institutes and edtech startups.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "travel",
+        "title": "Travel & Tourism",
+        "desc": "Travel software development for booking engines, tour operator CRMs and itinerary apps that handle peak-season traffic.",
+        "href": "/industries#travel"
+      },
+      {
+        "id": "retail",
+        "title": "Retail & Direct Selling",
+        "desc": "POS software development, loyalty programmes and MLM software development for direct-selling businesses, with commission plans and distributor apps.",
+        "href": "/industries#retail"
+      }
+    ]
+  },
+  "outsourcing": {
+    "badge": "Offshore Software Development",
+    "title": "Outsource Your Project Without the Usual Risks",
+    "subtitle": "Software development outsourcing should cut costs, not create headaches. Choose the engagement model that fits your budget and the level of control you want.",
+    "items": [
+      {
+        "id": "dedicated",
+        "title": "Dedicated Development Team",
+        "desc": "An offshore development team that works only on your product: developers, QA, designer and a project lead, managed by us and directed by you.",
+        "bestFor": "Long-term products"
+      },
+      {
+        "id": "augmentation",
+        "title": "Software Staff Augmentation",
+        "desc": "Add experienced offshore software developers to your in-house team in days, not months. Scale up for a release and scale down after it.",
+        "bestFor": "Extra capacity"
+      },
+      {
+        "id": "fixed",
+        "title": "Fixed-Price Projects",
+        "desc": "Scope, milestones and price agreed upfront. The safest way to outsource app development or a well-defined software project.",
+        "bestFor": "MVPs and defined scope"
+      },
+      {
+        "id": "subscription",
+        "title": "Software Development as a Service",
+        "desc": "A monthly plan for continuous product engineering: new features, improvements and maintenance without hiring a full in-house team.",
+        "bestFor": "Ongoing development"
+      }
+    ],
+    "pointsTitle": "Why outsourcing to us works",
+    "points": [
+      "Offshore rates with senior, vetted engineers",
+      "Working-hour overlap for the US, UK, Europe, Middle East and Australia",
+      "Direct Slack or Teams access to your developers",
+      "Weekly demos, shared task board and written reports",
+      "NDA, secure access controls and 100% IP transfer",
+      "Nearshore-style communication from an offshore team"
+    ],
+    "note": "Searching for software developers near you? We are remote-first and schedule every call in your time zone, so you get the responsiveness of a local partner at offshore cost. <contact>Talk to us</contact> about which model fits."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Development Process, Step by Step",
+    "subtitle": "A proven agile process that keeps you in control, from the first feasibility check to continuous deployment and support.",
+    "steps": [
+      {
+        "title": "Consulting & Feasibility Analysis",
+        "desc": "We study your goals, users and existing systems, check technical and budget feasibility, and recommend whether to build, buy or integrate."
+      },
+      {
+        "title": "Planning & Architecture",
+        "desc": "We define scope, pick the right technology stack, design the architecture and data model, and break the work into milestones."
+      },
+      {
+        "title": "UI/UX Design",
+        "desc": "Wireframes and clickable prototypes tested with real users, so the product is easy to use before development starts."
+      },
+      {
+        "title": "Agile Development",
+        "desc": "Two-week sprints with a live demo at the end of each. For urgent needs we use rapid application development to get a working version in front of users fast."
+      },
+      {
+        "title": "Testing & Quality Assurance",
+        "desc": "Automated unit, integration and end-to-end tests, plus performance and security checks, run on every change."
+      },
+      {
+        "title": "CI/CD & Deployment",
+        "desc": "Continuous integration and continuous deployment pipelines push tested code to production safely, with monitoring and instant rollback."
+      },
+      {
+        "title": "Support & Evolution",
+        "desc": "Bug fixes, security patches, performance tuning and new features, from the same team that built your software."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technologies",
+    "title": "Technologies We Work With",
+    "subtitle": "We choose proven technology that fits your project, team and budget, not whatever is trending.",
+    "groups": [
+      {
+        "title": "Backend",
+        "items": [
+          "Java",
+          "Python",
+          ".NET",
+          "PHP & Laravel",
+          "Node.js",
+          "Go"
+        ]
+      },
+      {
+        "title": "Frontend",
+        "items": [
+          "React",
+          "Next.js",
+          "Angular",
+          "Vue.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "title": "Mobile",
+        "items": [
+          "Android (Kotlin)",
+          "iOS (Swift)",
+          "Flutter",
+          "React Native"
+        ]
+      },
+      {
+        "title": "Cloud & DevOps",
+        "items": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes",
+          "CI/CD pipelines"
+        ]
+      },
+      {
+        "title": "Data & AI",
+        "items": [
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Redis",
+          "LLMs",
+          "Machine learning"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "What Makes Us Different From Other Software Development Companies",
+    "subtitle": "There are thousands of software development firms. Here is why businesses choose us and stay for years.",
+    "items": [
+      {
+        "title": "Senior engineers only",
+        "desc": "Every developer is individually assessed. You meet the people who will build your software before you sign."
+      },
+      {
+        "title": "Transparent pricing",
+        "desc": "Itemised, fixed-scope estimates with no hidden charges, whether you are a startup or an enterprise."
+      },
+      {
+        "title": "Small-team speed, big-company process",
+        "desc": "The attention of a small software development company with the security, testing and documentation of a large one."
+      },
+      {
+        "title": "Industry experience",
+        "desc": "Healthcare, fintech, logistics, real estate, retail and manufacturing projects delivered and running in production."
+      },
+      {
+        "title": "You own everything",
+        "desc": "Source code, designs, documentation and cloud accounts are yours from day one."
+      },
+      {
+        "title": "Long-term support",
+        "desc": "SLA-backed maintenance and continuous improvement after launch, not a hand-off and goodbye."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Software Development Cost?",
+    "subtitle": "The cost of software development depends on features, integrations, platforms and compliance. Typical ranges for projects we deliver:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "MVP or Simple App",
+        "price": "$8,000 – $25,000",
+        "timeline": "6–10 weeks",
+        "desc": "Core features, user accounts and an admin panel. Ideal for startups validating an idea."
+      },
+      {
+        "name": "Business Application",
+        "price": "$25,000 – $75,000",
+        "timeline": "3–5 months",
+        "desc": "Web or mobile software with integrations, role-based access, dashboards and payments."
+      },
+      {
+        "name": "Enterprise Platform",
+        "price": "$75,000+",
+        "timeline": "5+ months",
+        "desc": "Multi-module enterprise software with complex integrations, compliance and high availability."
+      }
+    ],
+    "note": "Outsourcing to our offshore team typically costs 40–60% less than hiring an equivalent in-house team in the US or UK, without compromising on quality.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers for businesses planning a software project.",
+    "items": [
+      {
+        "q": "What is software development?",
+        "a": "Software development is the process of planning, designing, building, testing and maintaining applications that solve a business problem. It covers web and mobile apps, enterprise systems, SaaS products and the software inside connected devices."
+      },
+      {
+        "q": "Why does my business need software development services?",
+        "a": "Custom software automates repetitive work, connects tools that do not talk to each other and gives customers a faster experience. Businesses usually need it once spreadsheets, manual processes or off-the-shelf tools start slowing growth or costing too much per user."
+      },
+      {
+        "q": "What services does a software development company provide?",
+        "a": "A full-service software development company handles consulting and feasibility analysis, UI/UX design, custom, web, mobile, SaaS and enterprise development, integrations, testing, cloud deployment and maintenance. We provide all of these under one accountable team."
+      },
+      {
+        "q": "How does the software development process work?",
+        "a": "We start with consulting and a feasibility check, then plan the architecture and design the interface. Development runs in two-week agile sprints with a demo after each, followed by automated testing, CI/CD deployment and ongoing support."
+      },
+      {
+        "q": "How long does it take to develop software?",
+        "a": "A simple app or MVP usually takes 6 to 10 weeks, a business application 3 to 5 months, and an enterprise platform 5 months or more. You see working software at the end of every sprint, not just at launch."
+      },
+      {
+        "q": "How much does software development cost, and is outsourcing cheaper?",
+        "a": "Projects we deliver typically cost $8,000 to $25,000 for an MVP, $25,000 to $75,000 for a business application and $75,000 or more for enterprise platforms. Outsourcing to our offshore team usually costs 40 to 60% less than hiring in the US or UK, with an NDA, weekly demos and full IP ownership included."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "All services",
+        "href": "/services"
+      },
+      {
+        "label": "Industries we serve",
+        "href": "/industries"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      },
+      {
+        "label": "About our team",
+        "href": "/about"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Start Your Software Project?",
+    "subtitle": "Book a free 30-minute consultation. Get honest advice, a clear plan and a transparent estimate from a senior engineer.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

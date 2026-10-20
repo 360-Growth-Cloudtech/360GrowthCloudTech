@@ -1,0 +1,517 @@
+{
+  "meta": {
+    "title": "Custom Software Development Company",
+    "description": "Custom software development for startups, SMEs and enterprises: tailor-made web, mobile, ERP, CRM and healthcare software. Fixed pricing, full code ownership."
+  },
+  "breadcrumb": "Custom Software Development",
+  "form": {
+    "topic": "custom software development"
+  },
+  "hero": {
+    "label": "Custom Software Development",
+    "title": "Custom Software Development Company for",
+    "highlight": "Software Built Around You",
+    "subtitle": "Tailor-made web, mobile, enterprise and industry software that fits your workflows exactly. Built by senior engineers with fixed-scope pricing, weekly demos and 100% code ownership."
+  },
+  "intro": {
+    "badge": "What Is Custom Software?",
+    "title": "Custom-Built Software That Works the Way You Do",
+    "paragraphs": [
+      "Custom software development means designing and building an application for one business and its exact needs, instead of buying ready-made software and changing how your team works to fit it. The result is custom-made software that automates your processes, connects your existing tools and grows with you, without per-user licence fees or features you never use.",
+      "We are a custom software company that works with startups, small businesses and enterprises. Some clients need a single custom application, such as a customer portal or an internal tool. Others need complete custom business software: ERP, CRM, inventory, billing or industry platforms for healthcare, fintech, logistics and real estate. One team handles consulting, design, programming, testing, deployment and support.",
+      "You work directly with the developers writing your code, see working software every two weeks and own all of it. See <work>custom software we have delivered</work>, explore our broader <sd>software development services</sd> or <contact>share your idea</contact> for a free consultation."
+    ],
+    "highlightsTitle": "Why businesses choose custom software",
+    "highlights": [
+      "Fits your exact workflows and rules",
+      "No per-user licence fees",
+      "Integrates with the tools you already use",
+      "Scales as your business grows",
+      "Stronger security and data control",
+      "A competitive edge competitors cannot buy",
+      "You own the code and the IP",
+      "Long-term support from the same team"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Custom Software Development Services We Offer",
+    "subtitle": "From one custom application to a full business platform, these are the custom software solutions clients hire us for most often.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "enterprise",
+        "title": "Custom Enterprise Software",
+        "desc": "Custom enterprise application development for large teams, with role-based access, audit trails, single sign-on and integrations with your ERP, CRM and data warehouse.",
+        "bullets": [
+          "Enterprise portals and workflows",
+          "SSO and role-based access",
+          "High availability and compliance"
+        ],
+        "href": "/services#enterprise-application-development"
+      },
+      {
+        "id": "custom",
+        "title": "Custom Business Software for SMEs",
+        "desc": "Affordable custom software development for small businesses: replace spreadsheets, paperwork and disconnected apps with one simple system your team enjoys using.",
+        "bullets": [
+          "Billing, booking and operations tools",
+          "Automated reports and reminders",
+          "Start small, extend as you grow"
+        ]
+      },
+      {
+        "id": "web",
+        "title": "Custom Web Application Development",
+        "desc": "Custom web apps, portals and dashboards that load fast, work on every screen and are easy for your team to extend later.",
+        "bullets": [
+          "Customer and partner portals",
+          "Admin dashboards",
+          "PHP, .NET, Node.js and Python"
+        ],
+        "href": "/services#web-application-development"
+      },
+      {
+        "id": "mobile",
+        "title": "Custom Mobile App Development",
+        "desc": "Custom iOS and Android apps for customers, staff and field teams, built natively or cross-platform, from startup MVPs to enterprise mobility.",
+        "bullets": [
+          "iOS and Android apps",
+          "Offline mode and push notifications",
+          "App store publishing and updates"
+        ],
+        "href": "/services#mobile-app-development"
+      },
+      {
+        "id": "erp",
+        "title": "Custom ERP Software",
+        "desc": "Custom-made ERP software that brings inventory, purchasing, production, HR and accounts into one system, built around your process rather than a vendor template.",
+        "bullets": [
+          "Modules built to your process",
+          "Multi-branch and multi-warehouse",
+          "Accounting and GST integration"
+        ]
+      },
+      {
+        "id": "crm",
+        "title": "Custom CRM Development",
+        "desc": "A CRM shaped around your sales cycle, including CRMs for real estate developers and brokers, with lead tracking, site visits, bookings and automated follow-ups.",
+        "bullets": [
+          "Lead and pipeline management",
+          "WhatsApp and email follow-ups",
+          "Sales and collection reports"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "saas",
+        "title": "Custom Software Product Development",
+        "desc": "Turn an idea into a market-ready software product or SaaS application, from MVP and design for startups to scaling, billing and ongoing product engineering.",
+        "bullets": [
+          "MVPs for startups",
+          "Multi-tenant SaaS platforms",
+          "Subscriptions and billing"
+        ],
+        "href": "/services#saas-development"
+      },
+      {
+        "id": "bi",
+        "title": "Custom Database & BI Software",
+        "desc": "Well-designed databases and custom BI dashboards that bring scattered data together and give managers real-time answers instead of manual reports.",
+        "bullets": [
+          "Database design and migration",
+          "KPI dashboards",
+          "Automated scheduled reports"
+        ]
+      },
+      {
+        "id": "desktop",
+        "title": "Custom Desktop & .NET Applications",
+        "desc": "Custom desktop software for Windows, macOS and Linux, including .NET applications and offline-first tools for factories, counters and field teams.",
+        "bullets": [
+          ".NET and cross-platform desktop apps",
+          "Hardware and printer integration",
+          "Offline-first with cloud sync"
+        ]
+      },
+      {
+        "id": "embedded",
+        "title": "Custom IoT & Industrial Software",
+        "desc": "Custom IoT development and industrial software: device dashboards, machine monitoring and CMMS maintenance systems for plants and facilities.",
+        "bullets": [
+          "IoT device dashboards",
+          "CMMS and maintenance tracking",
+          "Machine and sensor data"
+        ]
+      },
+      {
+        "id": "integrations",
+        "title": "Software Customisation & Integration",
+        "desc": "Customise the software you already own or connect it to new tools through APIs, so data flows automatically between your ERP, CRM, payments and apps.",
+        "bullets": [
+          "API and third-party integrations",
+          "Extending existing software",
+          "Data sync and automation"
+        ],
+        "href": "/services#api-system-integration"
+      },
+      {
+        "id": "migration",
+        "title": "Legacy Software Modernisation",
+        "desc": "Rebuild outdated or fragile software on modern technology and the cloud, keeping your data and business rules while removing the risk and slowness.",
+        "bullets": [
+          "Legacy to cloud migration",
+          "Monolith to modern architecture",
+          "Zero-downtime switchover"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "Custom Software Solutions by Industry",
+    "subtitle": "Industry knowledge shortens projects and avoids costly mistakes. We already understand the rules and workflows of these sectors.",
+    "items": [
+      {
+        "id": "healthcare",
+        "title": "Healthcare & MedTech",
+        "desc": "Custom healthcare software: EHR systems, telemedicine apps, patient portals and medical software built with HIPAA-aware security.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "fintech",
+        "title": "Fintech & Finance",
+        "desc": "Custom fintech solutions for lending, payments, wallets and financial reporting, with secure transactions and audit trails.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics",
+        "desc": "Custom logistics software for dispatch, fleet tracking, warehousing and proof of delivery.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Real estate CRM, booking and inventory management, and project tracking software for developers and brokers.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "retail",
+        "title": "Retail & Direct Selling",
+        "desc": "Custom retail software for POS, loyalty and omnichannel stock, plus MLM software for direct-selling networks.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "manufacturing",
+        "title": "Manufacturing",
+        "desc": "Custom industrial software for production planning, quality control and CMMS maintenance.",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "id": "telecom",
+        "title": "Telecommunications",
+        "desc": "Custom telecom software for subscriber management, billing, field service and network monitoring dashboards.",
+        "href": "/contact"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Learning platforms, student and fee management, online exams and institute ERPs.",
+        "href": "/industries#education"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Custom vs Ready-Made",
+    "title": "Ready-Made Software or Custom-Built Software?",
+    "subtitle": "Ready-made software is not always the wrong choice. Here is an honest comparison to help you decide.",
+    "columns": [
+      {
+        "title": "Ready-made software",
+        "bestFor": "Best for: standard needs and tight timelines",
+        "pros": [
+          "Available immediately",
+          "Lower upfront cost"
+        ],
+        "cons": [
+          "Monthly per-user fees that keep rising",
+          "You change your process to fit the tool",
+          "Limited or costly integrations",
+          "Paying for features you never use",
+          "No control over the product roadmap"
+        ]
+      },
+      {
+        "title": "Custom software",
+        "bestFor": "Best for: unique processes and growing businesses",
+        "pros": [
+          "Built exactly for your workflows",
+          "No licence fees, you own it outright",
+          "Integrates with all your systems",
+          "Scales with your business",
+          "Stronger security and data control"
+        ],
+        "cons": [
+          "Higher upfront investment and build time"
+        ]
+      }
+    ],
+    "note": "Sometimes the best answer is customising a ready-made product. We will tell you honestly which option saves you more. <contact>Get a free recommendation</contact>."
+  },
+  "outsourcing": {
+    "badge": "Engagement Models",
+    "title": "Outsource Custom Software Development With Confidence",
+    "subtitle": "Choose how you want to work with us. Every model includes senior engineers, weekly demos and full IP ownership.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Fixed-Price Project",
+        "desc": "Scope, timeline and price agreed upfront. Ideal for MVPs and clearly defined custom applications.",
+        "bestFor": "Startups and defined scope"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated Development Team",
+        "desc": "A custom development team working only on your product, directed by you and managed by us.",
+        "bestFor": "Long-term products"
+      },
+      {
+        "id": "augmentation",
+        "title": "Staff Augmentation",
+        "desc": "Add experienced custom software developers to your in-house team within days.",
+        "bestFor": "Extra capacity"
+      },
+      {
+        "id": "subscription",
+        "title": "Software Development as a Service",
+        "desc": "A monthly plan for continuous improvements, new features and maintenance.",
+        "bestFor": "Ongoing development"
+      }
+    ],
+    "pointsTitle": "Offshore and nearshore, done right",
+    "points": [
+      "Offshore rates with senior engineers",
+      "Working-hour overlap with your time zone",
+      "Direct access to developers on Slack or Teams",
+      "Weekly demos and written progress reports",
+      "NDA before you share any details",
+      "100% source code and IP transfer"
+    ],
+    "note": "Looking for a custom software developer near you? We are remote-first, meet in your time zone and respond within two business hours. <contact>Start a conversation</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Build Your Custom Software",
+    "subtitle": "A transparent, step-by-step process that keeps you in control from the first idea to long after launch.",
+    "steps": [
+      {
+        "title": "Consultation & Discovery",
+        "desc": "We understand your business, users and goals, map current workflows and check whether custom software is the right investment."
+      },
+      {
+        "title": "Scope & Estimate",
+        "desc": "A clear feature list, architecture plan, timeline and fixed, itemised price, so you know exactly what you are getting."
+      },
+      {
+        "title": "Custom Software Design",
+        "desc": "Wireframes and clickable prototypes reviewed with your team before any code is written."
+      },
+      {
+        "title": "Agile Development",
+        "desc": "Two-week sprints with a working demo at the end of each, so you can give feedback early and often."
+      },
+      {
+        "title": "Testing & Quality Assurance",
+        "desc": "Automated and manual testing for functionality, security and performance on every release."
+      },
+      {
+        "title": "Launch & Training",
+        "desc": "Smooth deployment, data migration and training so your team is productive from day one."
+      },
+      {
+        "title": "Support & Growth",
+        "desc": "Maintenance, monitoring, security updates and new features as your business evolves."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technologies",
+    "title": "Technologies Behind Our Custom Software",
+    "subtitle": "We choose proven, well-supported technology that suits your project and is easy to maintain for years.",
+    "groups": [
+      {
+        "title": "Backend",
+        "items": [
+          ".NET",
+          "PHP & Laravel",
+          "Node.js",
+          "Python",
+          "Java"
+        ]
+      },
+      {
+        "title": "Frontend",
+        "items": [
+          "React",
+          "Next.js",
+          "Angular",
+          "Vue.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "title": "Mobile",
+        "items": [
+          "iOS (Swift)",
+          "Android (Kotlin)",
+          "Flutter",
+          "React Native"
+        ]
+      },
+      {
+        "title": "Cloud",
+        "items": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes"
+        ]
+      },
+      {
+        "title": "Data",
+        "items": [
+          "PostgreSQL",
+          "MySQL",
+          "SQL Server",
+          "MongoDB",
+          "BI dashboards"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Custom Software Development Partner",
+    "subtitle": "Plenty of firms write code. Here is what makes clients stay with us for years.",
+    "items": [
+      {
+        "title": "Business-first thinking",
+        "desc": "We start with your goals and processes, not technology, so the software solves the right problem."
+      },
+      {
+        "title": "Senior engineers only",
+        "desc": "Experienced developers who have built complex custom software across many industries."
+      },
+      {
+        "title": "Fixed, transparent pricing",
+        "desc": "Itemised estimates and agreed milestones, with no surprise invoices."
+      },
+      {
+        "title": "Built for startups and enterprises",
+        "desc": "Lean MVPs for founders and robust, compliant systems for large organisations."
+      },
+      {
+        "title": "100% ownership",
+        "desc": "Source code, designs, documentation and accounts are yours from day one."
+      },
+      {
+        "title": "Support that stays",
+        "desc": "SLA-backed maintenance and improvements from the team that built your software."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Custom Software Development Cost?",
+    "subtitle": "Custom software development pricing depends on features, integrations, platforms and compliance. Typical ranges for projects we deliver:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "MVP or Small Business Tool",
+        "price": "$8,000 – $25,000",
+        "timeline": "6–10 weeks",
+        "desc": "Core features, user accounts, reports and an admin panel. Ideal for startups and small businesses."
+      },
+      {
+        "name": "Business Application",
+        "price": "$25,000 – $75,000",
+        "timeline": "3–5 months",
+        "desc": "Web or mobile software with integrations, role-based access, dashboards and automation."
+      },
+      {
+        "name": "Enterprise Software",
+        "price": "$75,000+",
+        "timeline": "5+ months",
+        "desc": "Multi-module enterprise systems with complex integrations, compliance and high availability."
+      }
+    ],
+    "note": "Custom software usually pays for itself by removing licence fees and manual work. You get a fixed, itemised estimate after a free consultation.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers for businesses considering custom software.",
+    "items": [
+      {
+        "q": "What is custom software development?",
+        "a": "Custom software development is the process of designing, building and maintaining software made specifically for one organisation's needs. Unlike ready-made software, custom-built software matches your workflows, integrates with your systems and is fully owned by you."
+      },
+      {
+        "q": "Is custom software better than ready-made software?",
+        "a": "Ready-made software is faster to start for standard needs. Custom software is better when your processes are unique, you need deep integrations, or per-user fees keep rising. Over a few years it is often cheaper because you pay once and own it."
+      },
+      {
+        "q": "How much does custom software development cost?",
+        "a": "Most projects we deliver cost $8,000 to $25,000 for an MVP or small business tool, $25,000 to $75,000 for a business application and $75,000 or more for enterprise software. We provide a free, fixed-scope estimate after a short consultation."
+      },
+      {
+        "q": "How long does it take to build custom software?",
+        "a": "An MVP or small tool usually takes 6 to 10 weeks, a business application 3 to 5 months and enterprise software 5 months or more. You see working software at the end of every two-week sprint."
+      },
+      {
+        "q": "Do you develop custom software for startups and small businesses?",
+        "a": "Yes. We help startups launch a focused MVP quickly and help small businesses replace manual work with affordable custom software that can be extended as they grow."
+      },
+      {
+        "q": "Can I outsource custom software development to you safely?",
+        "a": "Yes. We sign an NDA before you share details, give you direct access to developers and the code repository, demo progress every week and transfer 100% of the source code and IP to you."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Healthcare software",
+        "href": "/industries#healthcare"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      },
+      {
+        "label": "All services",
+        "href": "/services"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Have an Idea for Custom Software?",
+    "subtitle": "Book a free 30-minute consultation. Get honest advice, a clear plan and a fixed estimate from a senior engineer.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP_URL } from "@/lib/contact";
-import { SERVICE_SLUGS, serviceHref } from "@/lib/service-catalog";
+import { SERVICE_PAGE_SLUGS, SERVICE_SLUGS, serviceHref } from "@/lib/service-catalog";
 import { INDUSTRY_SLUGS, announceHashNav, industryHref } from "@/lib/industry-catalog";
 
 /** Profiles appear only once their URL is configured, so the footer never shows dead links. */
@@ -33,6 +33,7 @@ export function Footer() {
   const tBrand = useTranslations("common.brand");
   const tSocial = useTranslations("common.social");
   const tServices = useTranslations("services.catalog");
+  const tMenu = useTranslations("services.menu.items");
   const tIndustries = useTranslations("industries.catalog");
   const { setOpen } = useScheduleMeeting();
 
@@ -160,7 +161,13 @@ export function Footer() {
           <div className="lg:col-span-3">
             <h4 className="mb-5 text-sm font-bold uppercase tracking-[0.14em] text-white">{t("services")}</h4>
             <ul className="space-y-3">
-              {SERVICE_SLUGS.slice(0, 7).map((slug) => (
+              {/* Pages with their own URL first, then catalog services to fill seven slots */}
+              {SERVICE_PAGE_SLUGS.map((slug) => (
+                <li key={slug}>
+                  <FooterLink href={serviceHref(slug)}>{tMenu(slug)}</FooterLink>
+                </li>
+              ))}
+              {SERVICE_SLUGS.slice(0, Math.max(0, 7 - SERVICE_PAGE_SLUGS.length)).map((slug) => (
                 <li key={slug}>
                   <FooterLink href={serviceHref(slug)}>{tServices(`items.${slug}.title`)}</FooterLink>
                 </li>
