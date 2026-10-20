@@ -119,7 +119,8 @@
           "Ticketing and SLA timers",
           "Escalation matrix",
           "Feedback and satisfaction scores"
-        ]
+        ],
+        "href": "/online-complaint-management-system"
       },
       {
         "id": "projects",
@@ -171,7 +172,7 @@
           "AI lead scoring",
           "Call and email summaries"
         ],
-        "href": "/services#ai-automation"
+        "href": "/ai-automation"
       }
     ]
   },
@@ -477,6 +478,14 @@
       {
         "label": "Case studies",
         "href": "/case-studies"
+      },
+      {
+        "label": "Complaint management system",
+        "href": "/online-complaint-management-system"
+      },
+      {
+        "label": "API integration services",
+        "href": "/api-integration"
       }
     ]
   },

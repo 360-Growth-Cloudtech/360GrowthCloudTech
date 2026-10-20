@@ -945,25 +945,25 @@
         "id": "web",
         "title": "Custom Web Applications",
         "desc": "Portals, dashboards and internal tools built with React, Next.js, Node.js or PHP and Laravel. Fast, secure web apps your users understand on the first visit.",
-        "href": "/services#web-application-development"
+        "href": "/web-application-development"
       },
       {
         "id": "mobile",
         "title": "Custom Mobile Apps",
         "desc": "iOS and Android apps in Flutter, React Native or native code, with offline mode, payments, push notifications and analytics, published and maintained on both stores.",
-        "href": "/services#mobile-app-development"
+        "href": "/mobile-app-development"
       },
       {
         "id": "enterprise",
         "title": "Custom Enterprise Software",
         "desc": "Enterprise applications with role-based access, audit trails, SSO and integrations with your ERP, CRM and data warehouse.",
-        "href": "/custom-software-development"
+        "href": "/custom-enterprise-software"
       },
       {
         "id": "saas",
         "title": "SaaS Product Development",
         "desc": "Multi-tenant platforms with subscriptions, onboarding and admin consoles, taken from MVP to paying customers, with ongoing product engineering when you need it.",
-        "href": "/services#saas-development"
+        "href": "/saas-development"
       },
       {
         "id": "crm",
@@ -975,19 +975,19 @@
         "id": "erp",
         "title": "ERP & Business Software",
         "desc": "Inventory, procurement, HR and finance in one reliable system, instead of generic packages stitched together.",
-        "href": "/services#enterprise-application-development"
+        "href": "/enterprise-application-development"
       },
       {
         "id": "data",
         "title": "Database & BI Software",
         "desc": "Well-designed databases and BI dashboards that turn scattered data into clear, real-time reporting.",
-        "href": "/services#api-system-integration"
+        "href": "/api-integration"
       },
       {
         "id": "desktop",
         "title": "Custom Desktop Applications",
         "desc": "Windows, macOS and Linux apps, including .NET software and offline-first tools for field and shop-floor teams.",
-        "href": "/services#custom-enterprise-software"
+        "href": "/custom-enterprise-software"
       },
       {
         "id": "ecommerce",
@@ -1005,13 +1005,13 @@
         "id": "mvp",
         "title": "MVP & Product Development",
         "desc": "We scope the smallest product worth launching, ship it fast and scale it once users arrive.",
-        "href": "/services#saas-development"
+        "href": "/saas-development"
       },
       {
         "id": "integration",
         "title": "Integration & Customisation",
         "desc": "Connect your ERP, CRM, payment gateways and third-party APIs, or extend the software you already own instead of replacing it.",
-        "href": "/services#api-system-integration"
+        "href": "/api-integration"
       }
     ]
   },

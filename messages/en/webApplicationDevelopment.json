@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "title": "Web Application Development Company",
+    "description": "Custom web application development: frontend, backend, PWAs and web + mobile apps in React, Python, Java, .NET and PHP. Fast, secure, scalable. Get a free quote."
+  },
+  "breadcrumb": "Web Application Development",
+  "form": {
+    "topic": "web application development",
+    "options": [
+      "New custom web application",
+      "Web app + mobile app",
+      "Progressive web app (PWA)",
+      "Customer or partner portal",
+      "Dashboard or admin panel",
+      "SaaS web product",
+      "Ecommerce web app",
+      "Improve or rebuild my existing web app"
+    ]
+  },
+  "hero": {
+    "label": "Web Application Development",
+    "title": "Web Application Development Company Building",
+    "highlight": "Fast, Secure Web Apps",
+    "subtitle": "Custom web apps, portals, dashboards and progressive web apps with clean frontends and solid backends, built by senior developers and ready to scale from day one."
+  },
+  "intro": {
+    "badge": "What Is a Web App?",
+    "title": "Web Applications That Work as Hard as You Do",
+    "paragraphs": [
+      "A web application is software that runs in the browser: a customer portal, a booking system, an admin dashboard, an online marketplace or a full SaaS product. Unlike a simple <wd>business website</wd> that mostly shows information, a web app lets people log in, enter data, make transactions and get work done, on any device, with nothing to install.",
+      "Every web app has two halves. The frontend is everything users see and click, and it needs to be fast, clear and accessible. The backend is the engine behind it: business logic, databases, security, integrations and APIs. We handle both, plus UI/UX design, testing, deployment and maintenance, so you have one accountable team from first sketch to live product.",
+      "We build with proven technology such as React, Angular and Next.js on the front end, and Python (Django, Flask), Java, .NET and PHP (Laravel) on the back end, choosing what suits your project rather than what is fashionable. See <work>web apps we have built</work>, explore our <csd>custom software development</csd> or <contact>tell us about your idea</contact>."
+    ],
+    "highlightsTitle": "Every web app we build is",
+    "highlights": [
+      "Fast, with sub-second page loads",
+      "Responsive on mobile, tablet and desktop",
+      "Secure by design (OWASP practices)",
+      "SEO-friendly where it needs to be found",
+      "Accessible and easy to use",
+      "Built on a clean, documented codebase",
+      "Automatically tested and deployed",
+      "Ready to scale as users grow"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Web Application Development Services",
+    "subtitle": "From a focused MVP to an enterprise platform, these are the web development services clients hire us for most.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "custom",
+        "title": "Custom Web Application Development",
+        "desc": "Web apps designed around your workflows and users, from internal tools to customer-facing platforms, with only the features you need.",
+        "bullets": [
+          "Requirement mapping and MVP scope",
+          "Role-based access",
+          "Built to extend later"
+        ],
+        "href": "/custom-software-development"
+      },
+      {
+        "id": "frontend",
+        "title": "Frontend Development",
+        "desc": "Fast, pixel-perfect user interfaces in React, Angular, Vue and Next.js, with reusable components and smooth performance on every device.",
+        "bullets": [
+          "React, Angular, Vue, Next.js",
+          "Responsive, accessible UI",
+          "Core Web Vitals optimisation"
+        ]
+      },
+      {
+        "id": "backend",
+        "title": "Backend Development & APIs",
+        "desc": "Secure, scalable backends and REST or GraphQL APIs in Python, Java, .NET, PHP and Node.js, with well-designed databases behind them.",
+        "bullets": [
+          "Django, Flask, Spring, ASP.NET, Laravel",
+          "REST and GraphQL APIs",
+          "Database design and optimisation"
+        ]
+      },
+      {
+        "id": "pwa",
+        "title": "Progressive Web App Development",
+        "desc": "Progressive web apps that install on phones, work offline and send push notifications, giving users an app-like experience from one codebase.",
+        "bullets": [
+          "Installable and offline-ready",
+          "Push notifications",
+          "One codebase for web and mobile"
+        ]
+      },
+      {
+        "id": "mobile",
+        "title": "Web & Mobile App Development",
+        "desc": "Pair your web app with native or hybrid mobile apps that share the same backend, so data, users and features stay in sync everywhere.",
+        "bullets": [
+          "Native iOS and Android",
+          "Hybrid and cross-platform apps",
+          "Shared backend and APIs"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "enterprise",
+        "title": "Enterprise Web Development",
+        "desc": "Large web platforms with single sign-on, audit trails, complex permissions and integrations with ERP, CRM and legacy systems.",
+        "bullets": [
+          "SSO and fine-grained roles",
+          "Legacy system integration",
+          "High availability"
+        ],
+        "href": "/enterprise-application-development"
+      },
+      {
+        "id": "saas",
+        "title": "SaaS Web Applications",
+        "desc": "Subscription web products with multi-tenant architecture, billing, onboarding and admin consoles, built to serve customers at scale.",
+        "bullets": [
+          "Multi-tenant architecture",
+          "Plans and billing",
+          "Usage analytics"
+        ],
+        "href": "/saas-development"
+      },
+      {
+        "id": "ecommerce",
+        "title": "Ecommerce Web Apps",
+        "desc": "Online stores, B2B ordering portals and marketplaces with fast storefronts, secure checkout and back-office tools.",
+        "bullets": [
+          "Storefront and checkout",
+          "B2B portals",
+          "Inventory and order sync"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "portal",
+        "title": "Portals, Dashboards & Database Front Ends",
+        "desc": "Customer, partner and employee portals, admin panels and clean web front ends for your databases, replacing spreadsheets and old desktop tools.",
+        "bullets": [
+          "Customer and partner portals",
+          "Admin dashboards",
+          "Web front ends for databases"
+        ]
+      },
+      {
+        "id": "cms",
+        "title": "CMS & Headless Websites",
+        "desc": "Content-managed websites and headless CMS setups with Next.js frontends, so your team can update content without a developer.",
+        "bullets": [
+          "Headless CMS with Next.js",
+          "Editor-friendly content",
+          "SEO and speed built in"
+        ]
+      },
+      {
+        "id": "design",
+        "title": "UI/UX Design for Web Apps",
+        "desc": "Research-based UX, wireframes and interactive prototypes, so your web app is easy to use before a single line of code is written.",
+        "bullets": [
+          "User research and flows",
+          "Clickable prototypes",
+          "Design systems"
+        ]
+      },
+      {
+        "id": "deployment",
+        "title": "Deployment, Hosting & Maintenance",
+        "desc": "Cloud deployment with CI/CD, monitoring, backups and security updates, plus ongoing improvements after launch.",
+        "bullets": [
+          "AWS, Azure and Google Cloud",
+          "CI/CD and monitoring",
+          "SLA-backed maintenance"
+        ],
+        "href": "/maintenance-support"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Build For",
+    "title": "Web Apps for Startups, Enterprises and Every Industry",
+    "subtitle": "We adapt our approach to your stage and sector, whether you need a lean MVP or a compliant enterprise platform.",
+    "items": [
+      {
+        "id": "startups",
+        "title": "Startups",
+        "desc": "Rapid web application development: launch an MVP in weeks, test with real users and scale what works.",
+        "href": "/software-development"
+      },
+      {
+        "id": "enterprise",
+        "title": "Enterprises",
+        "desc": "Secure enterprise web apps that modernise legacy systems and connect departments.",
+        "href": "/enterprise-application-development"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Patient portals, appointment booking and clinical dashboards with HIPAA-aware security.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "fintech",
+        "title": "Fintech",
+        "desc": "Lending, payments and investment web apps with secure transactions and audit trails.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "retail",
+        "title": "Retail & Ecommerce",
+        "desc": "Storefronts, B2B portals and marketplaces that load fast and convert.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Learning platforms, student portals and online exam systems.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics",
+        "desc": "Shipment tracking, dispatch dashboards and customer portals.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Property portals, booking systems and broker dashboards.",
+        "href": "/industries#real-estate"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Builder vs Custom",
+    "title": "Website Builder or Custom Web Application?",
+    "subtitle": "Website-building apps are great for simple sites. Here is when a custom web application makes more sense.",
+    "columns": [
+      {
+        "title": "Website builder apps",
+        "bestFor": "Best for: brochure sites and simple stores",
+        "pros": [
+          "Quick drag-and-drop setup",
+          "Low upfront cost"
+        ],
+        "cons": [
+          "Limited logins, workflows and data handling",
+          "Slow pages from heavy templates and plugins",
+          "Monthly fees that grow with usage",
+          "Hard to integrate with your other systems",
+          "You do not own the platform"
+        ]
+      },
+      {
+        "title": "Custom web application",
+        "bestFor": "Best for: portals, SaaS, dashboards and business tools",
+        "pros": [
+          "Any workflow, logic or user role you need",
+          "Fast, because only what you need is built",
+          "Integrates with ERP, CRM, payments and APIs",
+          "Scales with your users and data",
+          "You own the code"
+        ],
+        "cons": [
+          "Higher upfront investment"
+        ]
+      }
+    ],
+    "note": "Not sure which you need? We will give you an honest answer, even if it is a simple website. <contact>Ask us</contact>."
+  },
+  "outsourcing": {
+    "badge": "Hire Web App Developers",
+    "title": "Work With Our Web Development Team Your Way",
+    "subtitle": "Whether you need a full project delivered or extra developers for your team, choose the model that fits.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Fixed-Price Project",
+        "desc": "Scope, timeline and price agreed upfront. Ideal for MVPs and well-defined web apps.",
+        "bestFor": "Startups and clear scope"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated Web Team",
+        "desc": "Frontend, backend and QA developers working only on your product, directed by you.",
+        "bestFor": "Ongoing products"
+      },
+      {
+        "id": "augmentation",
+        "title": "Hire Web App Developers",
+        "desc": "Add experienced frontend or backend developers to your in-house team within days.",
+        "bestFor": "Extra capacity"
+      },
+      {
+        "id": "offshore",
+        "title": "Offshore Web Development",
+        "desc": "Senior offshore web developers with working-hour overlap for the US, UK, Europe and Middle East.",
+        "bestFor": "Cost-efficient scaling"
+      }
+    ],
+    "pointsTitle": "What you can expect",
+    "points": [
+      "Senior frontend and backend developers",
+      "Weekly demos on a live staging site",
+      "Code reviews and automated tests",
+      "Direct Slack or Teams access",
+      "NDA and 100% IP ownership",
+      "Offshore rates without quality trade-offs"
+    ],
+    "note": "Searching for web app developers near you? We are remote-first, work in your time zone and reply within two business hours. <contact>Start a conversation</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Web Application Development Process",
+    "subtitle": "A clear, agile process that turns your idea into a live web app, with no surprises along the way.",
+    "steps": [
+      {
+        "title": "Discovery & Planning",
+        "desc": "We define users, features, integrations and success metrics, then agree scope, timeline and a fixed estimate."
+      },
+      {
+        "title": "UX & UI Design",
+        "desc": "User flows, wireframes and a clickable prototype that you can test before development starts."
+      },
+      {
+        "title": "Architecture",
+        "desc": "We choose the right frontend and backend stack, design the database and APIs, and plan security and hosting."
+      },
+      {
+        "title": "Frontend & Backend Development",
+        "desc": "Two-week sprints build the interface and the engine together, with a live demo at the end of each sprint."
+      },
+      {
+        "title": "Testing & QA",
+        "desc": "Automated and manual testing for features, performance, security and browsers before every release."
+      },
+      {
+        "title": "Deployment & Support",
+        "desc": "Website deployment to the cloud with CI/CD, monitoring and backups, followed by maintenance and new features."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technologies",
+    "title": "Frontend and Backend Technologies We Use",
+    "subtitle": "Proven, well-supported technology chosen for your project, team and long-term maintenance.",
+    "groups": [
+      {
+        "title": "Frontend",
+        "items": [
+          "React",
+          "Next.js",
+          "Angular",
+          "Vue.js",
+          "TypeScript",
+          "HTML5 & CSS3"
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": [
+          "Python (Django, Flask)",
+          "Java (Spring)",
+          "ASP.NET / .NET",
+          "PHP (Laravel)",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Databases",
+        "items": [
+          "PostgreSQL",
+          "MySQL",
+          "SQL Server",
+          "MongoDB",
+          "Redis"
+        ]
+      },
+      {
+        "title": "Mobile & PWA",
+        "items": [
+          "Progressive web apps",
+          "Flutter",
+          "React Native",
+          "Native iOS",
+          "Native Android"
+        ]
+      },
+      {
+        "title": "Cloud & DevOps",
+        "items": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "CI/CD"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Web App Development Company",
+    "subtitle": "We build web apps that are fast, secure and easy to grow, and we stay with you after launch.",
+    "items": [
+      {
+        "title": "Full-stack expertise",
+        "desc": "Frontend, backend, database and DevOps skills in one team, so nothing gets lost between handoffs."
+      },
+      {
+        "title": "Performance obsessed",
+        "desc": "Fast load times and smooth interactions, because speed affects conversions and search rankings."
+      },
+      {
+        "title": "Security built in",
+        "desc": "OWASP practices, encryption, secure authentication and regular dependency updates."
+      },
+      {
+        "title": "Transparent delivery",
+        "desc": "Fixed-scope estimates, weekly demos on a staging site and direct access to developers."
+      },
+      {
+        "title": "Startup to enterprise",
+        "desc": "Lean MVPs for founders and robust, compliant platforms for large organisations."
+      },
+      {
+        "title": "You own everything",
+        "desc": "Source code, designs, documentation and cloud accounts belong to you."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Web Application Development Cost?",
+    "subtitle": "The cost of web application development depends on features, integrations, design and scale. Typical ranges for web apps we build:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Simple Web App or MVP",
+        "price": "$5,000 – $15,000",
+        "timeline": "4–8 weeks",
+        "desc": "Core features, user accounts, admin panel and responsive design. Ideal for startups and internal tools."
+      },
+      {
+        "name": "Business Web App",
+        "price": "$15,000 – $50,000",
+        "timeline": "2–4 months",
+        "desc": "Portals, dashboards and integrations with payments, CRM or ERP, plus an optional PWA or mobile app."
+      },
+      {
+        "name": "Enterprise or SaaS Platform",
+        "price": "$50,000+",
+        "timeline": "4+ months",
+        "desc": "Multi-tenant SaaS or enterprise platforms with complex roles, integrations and high availability."
+      }
+    ],
+    "note": "Web and mobile app together usually costs less than building them separately, because they share one backend. Fixed, itemised quote after a free consultation.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers about web application development.",
+    "items": [
+      {
+        "q": "What is web application development?",
+        "a": "Web application development is the process of designing, building, testing and deploying software that runs in a web browser. It includes the frontend users interact with, the backend that handles data and logic, and the hosting that keeps it online."
+      },
+      {
+        "q": "What is the difference between a website and a web application?",
+        "a": "A website mainly presents information, such as company pages or a blog. A web application lets users log in, enter data and complete tasks, such as booking, ordering, managing records or using a SaaS product."
+      },
+      {
+        "q": "What is frontend and backend development?",
+        "a": "Frontend development builds the part users see and interact with, using HTML, CSS, JavaScript and frameworks like React or Angular. Backend development builds the server, database and business logic behind it, using languages like Python, Java, .NET or PHP."
+      },
+      {
+        "q": "Which technology is best for web application development?",
+        "a": "It depends on your project. React or Angular are strong frontend choices; Python with Django suits data-heavy apps and fast MVPs, Java and .NET suit large enterprise systems, and PHP with Laravel is cost-effective for many business apps. We recommend the stack after understanding your needs."
+      },
+      {
+        "q": "How much does web app development cost and how long does it take?",
+        "a": "A simple web app or MVP typically costs $5,000 to $15,000 and takes 4 to 8 weeks. Business web apps cost $15,000 to $50,000 over 2 to 4 months, and enterprise or SaaS platforms start around $50,000."
+      },
+      {
+        "q": "Can you build a web app and a mobile app together?",
+        "a": "Yes. We can build a progressive web app that works like a mobile app, or native and hybrid iOS and Android apps that share the same backend as your web app, saving time and cost."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "Web design & website development",
+        "href": "/web-design"
+      },
+      {
+        "label": "SaaS development",
+        "href": "/saas-development"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "CRM software development",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's Build Your Web App",
+    "subtitle": "Book a free 30-minute consultation. Share your idea and get a clear plan, the right tech stack and a transparent estimate.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

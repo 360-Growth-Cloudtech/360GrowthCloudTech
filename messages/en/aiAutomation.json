@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "title": "AI Automation Services",
+    "description": "AI automation services: AI chatbots, intelligent document and invoice processing, AI test automation, claims automation and custom LLM solutions for business."
+  },
+  "breadcrumb": "AI & Automation",
+  "form": {
+    "topic": "AI automation",
+    "options": [
+      "AI chatbot for customer service",
+      "Document or invoice processing",
+      "Claims or underwriting automation",
+      "AI voice agent / contact centre",
+      "AI software testing",
+      "Custom LLM / generative AI app",
+      "Automate a business process",
+      "Not sure yet: find AI use cases"
+    ]
+  },
+  "hero": {
+    "label": "AI & Automation Services",
+    "title": "AI Automation Services That",
+    "highlight": "Take Repetitive Work Off Your Team",
+    "subtitle": "AI chatbots, intelligent document processing, process automation and custom AI solutions that cut manual work, speed up decisions and keep humans in control."
+  },
+  "intro": {
+    "badge": "Intelligent Automation",
+    "title": "Put AI to Work on Real Business Processes",
+    "paragraphs": [
+      "Every business has work that is repetitive but too messy for simple rules: reading invoices and claim forms, answering the same customer questions, checking documents, writing routine content, testing software after every change. AI automation combines machine learning, natural language processing and process automation to handle this work quickly and consistently.",
+      "We build practical AI automation that plugs into your existing systems. Conversational AI answers customers on your website, chat and phone. Intelligent document processing reads invoices, claims and forms, extracts the data and sends it to your ERP or CRM. AI-powered testing finds bugs faster. Custom large language model (LLM) applications search your knowledge, draft responses and summarise information, with human review wherever accuracy matters.",
+      "We start with a short discovery to find the use cases with the clearest return, prove them with a pilot, then scale. Your data stays secure and private throughout. Pair AI with our <api>API integration</api> services, or <contact>tell us which process you want to automate</contact>."
+    ],
+    "highlightsTitle": "What AI automation delivers",
+    "highlights": [
+      "Hours of manual work removed every week",
+      "Faster responses to customers, 24/7",
+      "Fewer data entry errors",
+      "Faster claims, invoices and approvals",
+      "Consistent quality at any volume",
+      "Human-in-the-loop for sensitive decisions",
+      "Works with your existing systems",
+      "Secure handling of your data"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "AI Automation Services We Offer",
+    "subtitle": "Practical AI and intelligent automation solutions built around your processes and data.",
+    "discuss": "Discuss this use case",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "chatbot",
+        "title": "AI Chatbots & Conversational AI",
+        "desc": "AI chatbots for customer service that understand natural language, answer from your knowledge base, take actions and hand over to humans when needed.",
+        "bullets": [
+          "Website and messaging chatbots",
+          "Trained on your knowledge",
+          "Smooth human handover"
+        ]
+      },
+      {
+        "id": "voice",
+        "title": "AI Voice Agents & Contact Centre Automation",
+        "desc": "Automated AI voice assistants that answer calls, book appointments, qualify leads and support contact centre agents in real time.",
+        "bullets": [
+          "Inbound and outbound voice AI",
+          "Call summaries and notes",
+          "Agent assist"
+        ]
+      },
+      {
+        "id": "idp",
+        "title": "Intelligent Document Processing",
+        "desc": "AI document processing that reads PDFs, scans and forms, extracts data with OCR and machine learning and validates it before it reaches your systems.",
+        "bullets": [
+          "OCR and data extraction",
+          "Classification and validation",
+          "Automated data capture at scale"
+        ]
+      },
+      {
+        "id": "invoicing",
+        "title": "AI Invoice Processing",
+        "desc": "Automate accounts payable: capture invoice data, match it with purchase orders and post it to your ERP or accounting software.",
+        "bullets": [
+          "Invoice OCR and extraction",
+          "PO and GRN matching",
+          "Exception handling"
+        ],
+        "href": "/api-integration"
+      },
+      {
+        "id": "insurance",
+        "title": "Claims & Underwriting Automation",
+        "desc": "AI for insurance claims processing and mortgage or loan underwriting: document checks, risk signals and faster decisions with human approval.",
+        "bullets": [
+          "Claims intake and triage",
+          "Underwriting document review",
+          "Fraud and risk flags"
+        ]
+      },
+      {
+        "id": "custom",
+        "title": "RPA & Intelligent Process Automation",
+        "desc": "Combine robotic process automation with AI so bots can handle unstructured data, emails and decisions, not just fixed clicks.",
+        "bullets": [
+          "Workflow and RPA bots",
+          "Email and form automation",
+          "AI decision steps"
+        ]
+      },
+      {
+        "id": "qa",
+        "title": "AI in Software Testing",
+        "desc": "AI-based software testing that generates test cases, maintains automated tests, spots visual regressions and supports security testing.",
+        "bullets": [
+          "AI-generated test cases",
+          "Self-healing test automation",
+          "AI-assisted security testing"
+        ],
+        "href": "/qa-testing"
+      },
+      {
+        "id": "content",
+        "title": "AI Content, Translation & Moderation",
+        "desc": "Content writing automation, machine translation and automated content moderation for marketing, support and user-generated content.",
+        "bullets": [
+          "Drafts and product descriptions",
+          "Machine translation",
+          "Content moderation"
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "Custom LLM & Generative AI Apps",
+        "desc": "Custom generative AI applications on large language models: knowledge assistants, document Q&A, summarisation and AI copilots for your team.",
+        "bullets": [
+          "Retrieval-augmented generation (RAG)",
+          "Private knowledge assistants",
+          "Prompt and model tuning"
+        ]
+      },
+      {
+        "id": "bi",
+        "title": "Predictive Analytics & Machine Learning",
+        "desc": "Machine learning models for demand forecasting, churn prediction, lead scoring and anomaly detection, with automated data labeling and pipelines.",
+        "bullets": [
+          "Forecasting and scoring",
+          "Anomaly detection",
+          "Data labeling and pipelines"
+        ]
+      },
+      {
+        "id": "tickets",
+        "title": "AI Email & Ticket Triage",
+        "desc": "AI reads incoming emails, support tickets and requests, understands the intent, routes them to the right team and drafts replies for quick approval.",
+        "bullets": [
+          "Intent detection and routing",
+          "Priority and sentiment tagging",
+          "Suggested replies"
+        ],
+        "href": "/online-complaint-management-system"
+      },
+      {
+        "id": "employee",
+        "title": "AI for HR, Payroll & Project Management",
+        "desc": "Automate payroll checks, HR queries, resume screening and project reporting with AI assistants that save managers hours each week.",
+        "bullets": [
+          "Payroll and HR automation",
+          "Resume screening",
+          "Project status summaries"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "AI Automation by Industry",
+    "subtitle": "Proven AI use cases in sectors with high volumes of documents, conversations and decisions.",
+    "items": [
+      {
+        "id": "fintech",
+        "title": "Banking & Financial Services",
+        "desc": "Intelligent automation for KYC, loan processing, underwriting and customer service.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "insurance",
+        "title": "Insurance",
+        "desc": "Claims intake, document review, fraud signals and faster settlements.",
+        "href": "/contact"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Patient queries, appointment automation and medical document processing.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "retail",
+        "title": "Ecommerce & Retail",
+        "desc": "Shopping assistants, product content, support automation and demand forecasting.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics",
+        "desc": "Shipment documents, customs paperwork and delivery query automation.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "AI tutors, automated grading and online proctoring.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "government",
+        "title": "Government",
+        "desc": "Automating e-government services, citizen queries and application processing.",
+        "href": "/contact"
+      },
+      {
+        "id": "bpo",
+        "title": "Contact Centres & BPOs",
+        "desc": "Voice AI, agent assist, call summaries and quality monitoring.",
+        "href": "/contact"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "RPA vs AI",
+    "title": "Rule-Based Automation or AI-Powered Intelligent Automation?",
+    "subtitle": "Traditional automation follows fixed rules. AI automation can read, understand and decide. Here is the difference.",
+    "columns": [
+      {
+        "title": "Rule-based automation (RPA)",
+        "bestFor": "Best for: stable, structured, repetitive tasks",
+        "pros": [
+          "Reliable for fixed steps",
+          "Quick for simple workflows"
+        ],
+        "cons": [
+          "Breaks when formats or screens change",
+          "Cannot read unstructured documents or emails",
+          "No understanding of language or intent",
+          "Needs constant rule maintenance"
+        ]
+      },
+      {
+        "title": "AI-powered intelligent automation",
+        "bestFor": "Best for: documents, conversations and judgement calls",
+        "pros": [
+          "Understands text, documents and speech",
+          "Handles varied formats and exceptions",
+          "Learns and improves with feedback",
+          "Human review where accuracy matters",
+          "Combines with RPA for end-to-end automation"
+        ],
+        "cons": [
+          "Needs good data and careful testing"
+        ]
+      }
+    ],
+    "note": "Most successful projects combine both: AI to understand, automation to act. <contact>Find your best AI use case</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Deliver AI Automation",
+    "subtitle": "A low-risk path from idea to measurable results.",
+    "steps": [
+      {
+        "title": "Discover use cases",
+        "desc": "We map your processes and pick the use cases with the clearest time and cost savings."
+      },
+      {
+        "title": "Assess your data",
+        "desc": "We review the documents, conversations and data available, and check quality, privacy and access."
+      },
+      {
+        "title": "Build a pilot",
+        "desc": "A proof of concept on real samples shows accuracy and value before larger investment."
+      },
+      {
+        "title": "Integrate",
+        "desc": "The AI solution is connected to your CRM, ERP, help desk or workflows through APIs."
+      },
+      {
+        "title": "Test with humans in the loop",
+        "desc": "Staff review outputs, edge cases are fixed and confidence thresholds are tuned."
+      },
+      {
+        "title": "Deploy & monitor",
+        "desc": "We launch, track accuracy and savings, and keep improving the models and prompts."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Capabilities",
+    "title": "AI and Automation Technologies We Use",
+    "subtitle": "Proven AI building blocks combined into solutions that fit your business.",
+    "groups": [
+      {
+        "title": "AI Capabilities",
+        "items": [
+          "Natural language processing",
+          "Computer vision",
+          "OCR",
+          "Speech recognition",
+          "Machine translation"
+        ]
+      },
+      {
+        "title": "Models",
+        "items": [
+          "Large language models",
+          "Custom ML models",
+          "RAG",
+          "Fine-tuning",
+          "Embeddings"
+        ]
+      },
+      {
+        "title": "Automation",
+        "items": [
+          "RPA",
+          "Workflow automation",
+          "APIs",
+          "Webhooks",
+          "Schedulers"
+        ]
+      },
+      {
+        "title": "Data",
+        "items": [
+          "Training data",
+          "Data labeling",
+          "Vector databases",
+          "Data pipelines",
+          "Knowledge bases"
+        ]
+      },
+      {
+        "title": "Governance",
+        "items": [
+          "Human in the loop",
+          "Accuracy monitoring",
+          "Data privacy",
+          "Audit trails",
+          "Access control"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your AI Automation Partner",
+    "subtitle": "We focus on AI that works reliably in production, not just impressive demos.",
+    "items": [
+      {
+        "title": "ROI-first approach",
+        "desc": "We start with the processes where AI saves the most time and money, and measure results."
+      },
+      {
+        "title": "Pilot before you commit",
+        "desc": "Short proofs of concept on your real data show accuracy and value early."
+      },
+      {
+        "title": "Integrated, not isolated",
+        "desc": "AI connects to the systems your team already uses, so value appears in daily work."
+      },
+      {
+        "title": "Human in control",
+        "desc": "Review steps and confidence thresholds keep people in charge of important decisions."
+      },
+      {
+        "title": "Data security",
+        "desc": "Private deployments, access control and careful handling of sensitive information."
+      },
+      {
+        "title": "Full-stack team",
+        "desc": "AI engineers, software developers and DevOps under one roof, from model to production."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does AI Automation Cost?",
+    "subtitle": "Cost depends on the use case, data, integrations and accuracy required. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "AI Pilot / Proof of Concept",
+        "price": "$5,000 – $15,000",
+        "timeline": "3–6 weeks",
+        "desc": "One use case, such as a chatbot or document extraction, tested on your real data."
+      },
+      {
+        "name": "AI Automation Solution",
+        "price": "$15,000 – $50,000",
+        "timeline": "2–4 months",
+        "desc": "A production solution integrated with your systems, with monitoring and human review."
+      },
+      {
+        "name": "Enterprise AI Programme",
+        "price": "$50,000+",
+        "timeline": "4+ months",
+        "desc": "Multiple AI use cases, custom models and organisation-wide automation."
+      }
+    ],
+    "note": "Most AI automation projects aim to pay for themselves through time saved. Fixed quote after a free use-case session.",
+    "cta": "Book a Free AI Consultation"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "AI Automation FAQs",
+    "subtitle": "Quick answers about using AI to automate work.",
+    "items": [
+      {
+        "q": "What is AI automation?",
+        "a": "AI automation uses artificial intelligence, such as natural language processing, machine learning and computer vision, to perform tasks that normally need human judgement, like reading documents, answering customer questions or classifying requests, and then triggers actions in your systems."
+      },
+      {
+        "q": "What is the difference between AI automation and RPA?",
+        "a": "RPA follows fixed rules on structured data and screens. AI automation can understand unstructured content like emails, documents and speech and handle variations. Many solutions combine both: AI to understand, RPA or APIs to act."
+      },
+      {
+        "q": "How can AI chatbots improve customer service?",
+        "a": "AI chatbots answer common questions instantly, 24/7, using your own knowledge base, collect details, update orders or bookings and hand complex cases to human agents with full context, reducing wait times and support costs."
+      },
+      {
+        "q": "Can AI accurately process invoices and documents?",
+        "a": "Yes. Intelligent document processing combines OCR and machine learning to extract data from invoices, claims and forms with high accuracy, and sends low-confidence items to a person for review, so errors do not slip through."
+      },
+      {
+        "q": "How is AI used in software testing?",
+        "a": "AI helps generate test cases from requirements, keep automated tests working when the interface changes, detect visual differences and prioritise risky areas, making test automation faster and more reliable."
+      },
+      {
+        "q": "Is our data safe when using AI?",
+        "a": "Yes. We use private, enterprise-grade AI deployments, encryption, access control and data minimisation, and can keep sensitive data entirely in-house when required."
+      },
+      {
+        "q": "How much does AI automation cost?",
+        "a": "An AI pilot typically costs $5,000 to $15,000, a production AI automation solution $15,000 to $50,000, and enterprise AI programmes $50,000 or more, depending on use case and integrations."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "API integration",
+        "href": "/api-integration"
+      },
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "CRM software development",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "Custom enterprise software",
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "QA & software testing",
+        "href": "/qa-testing"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Find Your Best AI Automation Opportunity",
+    "subtitle": "Book a free AI consultation. We will review your processes and show where AI can save the most time and money.",
+    "primary": "Book a Free AI Consultation",
+    "secondary": "Send a Message"
+  }
+}

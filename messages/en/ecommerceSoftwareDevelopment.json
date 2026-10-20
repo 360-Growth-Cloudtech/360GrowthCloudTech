@@ -150,7 +150,7 @@
           "Recommended products",
           "Personalised offers and emails"
         ],
-        "href": "/services#ai-automation"
+        "href": "/ai-automation"
       },
       {
         "id": "optimisation",
@@ -161,7 +161,7 @@
           "Core Web Vitals improvements",
           "A/B testing and CRO"
         ],
-        "href": "/services#maintenance-support"
+        "href": "/maintenance-support"
       }
     ]
   },

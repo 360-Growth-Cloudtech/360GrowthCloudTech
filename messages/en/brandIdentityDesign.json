@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "title": "Brand Identity Design Services",
+    "description": "Brand identity design services: logo, visual identity, corporate identity, brand guidelines and complete branding packages for startups and businesses."
+  },
+  "breadcrumb": "Brand Identity Design",
+  "form": {
+    "topic": "brand identity design",
+    "options": [
+      "Logo design",
+      "Complete brand identity package",
+      "Corporate identity design",
+      "Brand style guide",
+      "Rebranding / brand refresh",
+      "Packaging and label design",
+      "Social media branding kit",
+      "Branding for my startup"
+    ]
+  },
+  "hero": {
+    "label": "Brand Identity Design",
+    "title": "Brand Identity Design Services That",
+    "highlight": "Make Your Business Unforgettable",
+    "subtitle": "Logo, colours, typography, voice and guidelines designed as one consistent visual identity, so customers recognise, remember and trust your brand everywhere they see it."
+  },
+  "intro": {
+    "badge": "What Is Brand Identity?",
+    "title": "More Than a Logo: A Complete Brand Identity",
+    "paragraphs": [
+      "Your brand identity is everything people see, read and feel when they come across your business: your logo, colours, fonts, imagery, tone of voice and the way they all work together. A strong, consistent identity makes a small business look established, helps a startup stand out in a crowded market and makes every marketing rupee work harder.",
+      "Our brand identity design services start with strategy, not software. We learn about your business, audience and competitors, define what makes you different, then design a visual identity system that expresses it: logo and logo variations, colour palette, typography, graphic elements and a clear brand style guide so your team, printers and agencies apply it correctly.",
+      "From logo design and corporate identity to packaging, stationery, social media kits and your website, we keep everything consistent. Once your identity is ready, we can bring it online with a <customweb>custom website design</customweb>, or you can <contact>tell us about your brand</contact> for a free consultation."
+    ],
+    "highlightsTitle": "What a brand identity includes",
+    "highlights": [
+      "Logo and logo variations",
+      "Colour palette",
+      "Typography system",
+      "Icons, patterns and graphic elements",
+      "Brand style guide",
+      "Business stationery",
+      "Social media kit",
+      "Tone of voice and tagline"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Brand Identity Design Services We Offer",
+    "subtitle": "Choose a single service or a complete branding package. Everything is designed to work together.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "logo",
+        "title": "Logo Design",
+        "desc": "A distinctive, memorable logo with primary, secondary and icon versions that work everywhere, from a mobile screen to a shop sign.",
+        "bullets": ["Multiple concepts", "Logo variations and icons", "Animated and 3D logo options"]
+      },
+      {
+        "id": "identity",
+        "title": "Visual Identity Design",
+        "desc": "A complete visual identity system: colours, typography, imagery style, patterns and graphic elements that make your brand instantly recognisable.",
+        "bullets": ["Colour and type system", "Graphic elements and patterns", "Photography and illustration style"]
+      },
+      {
+        "id": "corporate",
+        "title": "Corporate Identity Design",
+        "desc": "Professional corporate identity design for companies, covering logo, stationery, signage, presentations and documents for a consistent corporate image.",
+        "bullets": ["Corporate stationery", "Presentation templates", "Office and event branding"]
+      },
+      {
+        "id": "strategy",
+        "title": "Brand Strategy & Positioning",
+        "desc": "Research into your market, audience and competitors to define your positioning, personality, values and the story your brand tells.",
+        "bullets": ["Audience and competitor research", "Brand positioning", "Brand personality and values"]
+      },
+      {
+        "id": "guidelines",
+        "title": "Brand Style Guide",
+        "desc": "Clear brand guidelines showing how to use your logo, colours, fonts and imagery, so everyone applies your identity correctly.",
+        "bullets": ["Logo usage rules", "Colour and font specs", "Do's and don'ts"]
+      },
+      {
+        "id": "stationery",
+        "title": "Business Stationery",
+        "desc": "Business cards, letterheads, envelopes, ID cards, invoices and email signatures designed to match your identity.",
+        "bullets": ["Business cards", "Letterheads and envelopes", "Email signatures"]
+      },
+      {
+        "id": "packaging",
+        "title": "Packaging & Label Design",
+        "desc": "Product packaging and labels that stand out on the shelf and online, consistent with your brand across every product and variant.",
+        "bullets": ["Labels and boxes", "Product range systems", "Print-ready files"]
+      },
+      {
+        "id": "social",
+        "title": "Social Media Branding Kit",
+        "desc": "Profile images, cover designs, post and story templates so your social media looks professional and on-brand every day.",
+        "bullets": ["Profile and cover designs", "Post and story templates", "Highlight icons"]
+      },
+      {
+        "id": "verbal",
+        "title": "Verbal Identity & Tagline",
+        "desc": "Brand name support, tagline, key messages and tone of voice, so the way you speak is as distinctive as the way you look.",
+        "bullets": ["Tagline and key messages", "Tone of voice guide", "Brand story"]
+      },
+      {
+        "id": "rebrand",
+        "title": "Rebranding & Brand Refresh",
+        "desc": "Modernise an outdated brand, from a light refresh of your logo and colours to a full rebrand with a smooth rollout plan.",
+        "bullets": ["Brand audit", "Logo and identity refresh", "Rollout plan"],
+        "href": "/website-redesign"
+      },
+      {
+        "id": "startups",
+        "title": "Branding for Startups & Small Businesses",
+        "desc": "Affordable brand identity packages that give startups and small businesses a professional look from day one.",
+        "bullets": ["Starter brand packages", "Fast turnaround", "Ready-to-use files"]
+      },
+      {
+        "id": "website",
+        "title": "Website & Digital Branding",
+        "desc": "Bring your new identity online with a website, landing pages and digital assets designed in the same style.",
+        "bullets": ["Branded website design", "Favicons and app icons", "Digital ad templates"],
+        "href": "/custom-web-design"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Help",
+    "title": "Brand Identity Design for Every Business",
+    "subtitle": "We design identities that fit the personality and customers of your industry.",
+    "items": [
+      { "id": "startups", "title": "Startups", "desc": "A confident, investor-ready brand identity from the very first pitch.", "href": "/software-development" },
+      { "id": "shops", "title": "Small Businesses", "desc": "Professional branding that helps local businesses look established and trusted.", "href": "/web-design" },
+      { "id": "corporate", "title": "Corporates", "desc": "Corporate identity systems that stay consistent across teams, offices and markets.", "href": "/contact" },
+      { "id": "restaurant", "title": "Restaurants & Cafés", "desc": "Restaurant brand identity design for menus, signage, packaging and social media.", "href": "/contact" },
+      { "id": "beauty", "title": "Skincare & Beauty", "desc": "Elegant identities and packaging for skincare, cosmetics and beauty brands.", "href": "/case-studies/dermayoga" },
+      { "id": "spa", "title": "Spas & Wellness", "desc": "Calm, premium brand identities for spas, salons and wellness centres.", "href": "/contact" },
+      { "id": "events", "title": "Events", "desc": "Event identity design for conferences, festivals and launches.", "href": "/contact" },
+      { "id": "personal", "title": "Personal Brands", "desc": "Personal brand identity design for consultants, coaches and creators.", "href": "/contact" }
+    ]
+  },
+  "comparison": {
+    "badge": "Logo vs Identity",
+    "title": "Just a Logo or a Complete Brand Identity?",
+    "subtitle": "A logo is where branding starts, not where it ends. Here is the difference.",
+    "columns": [
+      {
+        "title": "Logo only",
+        "bestFor": "Enough for: a very early idea or side project",
+        "pros": ["Lowest cost", "Quick to deliver"],
+        "cons": ["Inconsistent colours and fonts everywhere", "Every new design starts from scratch", "Harder for customers to recognise you", "Brand looks different on each platform"]
+      },
+      {
+        "title": "Complete brand identity",
+        "bestFor": "Best for: businesses ready to grow",
+        "pros": ["One consistent look across every touchpoint", "Style guide that saves time on every design", "Instant recognition and stronger trust", "Professional image that justifies better prices", "Ready-to-use templates for marketing"],
+        "cons": ["Higher upfront investment"]
+      }
+    ],
+    "note": "Starting small? Our mini brand identity package includes the essentials and can grow into a full identity later. <contact>Ask about packages</contact>."
+  },
+  "process": {
+    "badge": "Our Process",
+    "title": "Our Brand Identity Design Process",
+    "subtitle": "A clear, collaborative process, from first conversation to a brand you can use with confidence.",
+    "steps": [
+      { "title": "Get in touch", "desc": "A free consultation to understand your business, goals, timeline and budget." },
+      { "title": "Proposal & agreement", "desc": "A clear proposal with deliverables, timeline and price, agreed before we begin." },
+      { "title": "Research & brief", "desc": "We study your audience, competitors and market, and agree a creative brief and positioning." },
+      { "title": "Design & refinement", "desc": "We present logo and identity concepts, then refine the chosen direction with your feedback." },
+      { "title": "Style guide & files", "desc": "You receive the brand style guide and all files in every format you need for print and digital." },
+      { "title": "Rollout & support", "desc": "We help apply the brand to your website, social media and stationery, and support you as you grow." }
+    ]
+  },
+  "tech": {
+    "badge": "Deliverables",
+    "title": "What Our Brand Identity Packages Include",
+    "subtitle": "Pick the items you need. Every package comes with editable source files and full ownership.",
+    "groups": [
+      { "title": "Core Identity", "items": ["Logo suite", "Colour palette", "Typography", "Icons and patterns"] },
+      { "title": "Guidelines", "items": ["Brand style guide", "Logo usage rules", "Tone of voice"] },
+      { "title": "Print", "items": ["Business cards", "Letterheads", "ID cards", "Brochures", "Signage"] },
+      { "title": "Digital", "items": ["Social media kit", "Email signature", "Presentation template", "Favicon"] },
+      { "title": "Packaging & More", "items": ["Labels", "Packaging", "Merchandise", "Event identity"] }
+    ]
+  },
+  "why": {
+    "badge": "Why It Matters",
+    "title": "Why Does a Business Need Brand Identity Design?",
+    "subtitle": "Every business, from a new startup to a large enterprise, benefits from a clear, consistent brand identity.",
+    "items": [
+      { "title": "Identification", "desc": "A unique logo, colours and style make your business instantly recognisable and memorable, leading to referrals." },
+      { "title": "Trust & credibility", "desc": "A professional, consistent identity signals reliability and makes customers more confident to buy." },
+      { "title": "Stronger marketing", "desc": "Consistent branding makes every ad, post and brochure work harder and reach customers more effectively." },
+      { "title": "Customer loyalty", "desc": "A brand people connect with builds emotional attachment and long-term relationships." },
+      { "title": "Better hiring", "desc": "A strong brand reputation attracts talented people who want to be part of your story." },
+      { "title": "Individuality", "desc": "Your identity sets you apart from competitors and gives your business its own personality." }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Brand Identity Design Cost?",
+    "subtitle": "Brand identity package prices depend on what is included and how many applications you need. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      { "name": "Mini Brand Identity", "price": "$300 – $800", "timeline": "1–2 weeks", "desc": "Logo with variations, colour palette, typography and business card design." },
+      { "name": "Complete Brand Identity", "price": "$800 – $2,500", "timeline": "2–4 weeks", "desc": "Strategy, logo suite, visual identity, brand style guide, stationery and social media kit." },
+      { "name": "Corporate Identity System", "price": "$2,500+", "timeline": "4+ weeks", "desc": "Full corporate identity with packaging, signage, templates, verbal identity and rollout support." }
+    ],
+    "note": "Every package includes source files and full ownership of your brand assets. Fixed quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Brand Identity Design FAQs",
+    "subtitle": "Quick answers about branding and identity design.",
+    "items": [
+      {
+        "q": "Is brand identity design important for startups?",
+        "a": "Yes. A clear brand identity helps startups look credible to customers and investors, stand out from competitors and stay consistent as the team grows. It is much easier to start consistent than to fix a messy brand later."
+      },
+      {
+        "q": "What does a brand identity package include?",
+        "a": "A typical brand identity package includes a logo and its variations, colour palette, typography, graphic elements and a brand style guide. Larger packages add stationery, social media kits, packaging, templates and tone of voice."
+      },
+      {
+        "q": "How much does brand identity design cost?",
+        "a": "A mini brand identity typically costs $300 to $800, a complete brand identity $800 to $2,500, and a corporate identity system from $2,500, depending on the deliverables you need."
+      },
+      {
+        "q": "How do you do branding for a company?",
+        "a": "We start with a consultation and research into your business, audience and competitors, agree a creative brief, design and refine logo and identity concepts, then deliver a brand style guide and all files, and help roll the brand out."
+      },
+      {
+        "q": "What is the difference between a logo, brand identity and branding?",
+        "a": "A logo is a single mark. Brand identity is the full visual and verbal system around it: colours, fonts, imagery and voice. Branding is the ongoing process of shaping how people perceive your business using that identity."
+      },
+      {
+        "q": "How long does brand identity design take?",
+        "a": "A mini identity usually takes 1 to 2 weeks, a complete brand identity 2 to 4 weeks, and a corporate identity system 4 weeks or more, depending on feedback rounds."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      { "label": "Custom web design", "href": "/custom-web-design" },
+      { "label": "Web design & development", "href": "/web-design" },
+      { "label": "Landing page design", "href": "/landing-page-design" },
+      { "label": "Website redesign", "href": "/website-redesign" },
+      { "label": "Case studies", "href": "/case-studies" }
+    ]
+  },
+  "cta": {
+    "title": "Let's Build a Brand People Remember",
+    "subtitle": "Book a free consultation. Tell us about your business and get a clear branding plan and a fixed package price.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

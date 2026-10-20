@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "title": "API Integration Services",
+    "description": "API integration services: connect payment, shipping, ERP, CRM, healthcare, travel and messaging systems with secure REST and third-party API integrations."
+  },
+  "breadcrumb": "API Integration",
+  "form": {
+    "topic": "API integration",
+    "options": [
+      "Payment gateway integration",
+      "Shipping / courier API integration",
+      "ERP or accounting integration",
+      "CRM integration",
+      "Messaging, SMS or chat API",
+      "Healthcare (EHR/EMR) integration",
+      "Travel or booking API",
+      "Build a custom API"
+    ]
+  },
+  "hero": {
+    "label": "API & System Integration",
+    "title": "API Integration Services That",
+    "highlight": "Connect All Your Systems",
+    "subtitle": "We connect your website, apps, ERP, CRM, payments, shipping and third-party platforms through secure APIs, so data flows automatically and your team stops copying it by hand."
+  },
+  "intro": {
+    "badge": "What Is API Integration?",
+    "title": "One Connected Business Instead of Disconnected Tools",
+    "paragraphs": [
+      "Most businesses run on many separate systems: a website or online store, an accounting or ERP system, a CRM, payment gateways, courier partners, messaging tools and industry software. When they do not talk to each other, staff re-enter orders, invoices and customer details again and again, and mistakes and delays creep in.",
+      "API integration connects these systems so data moves between them automatically and in real time. An order on your website can create an invoice in accounting, book a courier pickup, update stock and send the customer a message, all without anyone touching it. We design, build and maintain these integrations, using REST, SOAP, GraphQL and webhooks, with proper security, error handling and monitoring.",
+      "We also build custom APIs for your own software, so partners, mobile apps and other systems can connect to it safely. Whether you need one third-party API integration or an integration layer across your whole business, see our <ces>enterprise software</ces> work or <contact>tell us which systems you want to connect</contact>."
+    ],
+    "highlightsTitle": "What API integration gives you",
+    "highlights": [
+      "No more manual data entry",
+      "Real-time sync between systems",
+      "Fewer errors and missed orders",
+      "Faster order-to-cash process",
+      "One view of customers and stock",
+      "Automated workflows across tools",
+      "Secure, monitored connections",
+      "Easy to add new tools later"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "API Integration Services We Offer",
+    "subtitle": "We integrate the systems businesses rely on most, and build custom APIs when an off-the-shelf connector does not exist.",
+    "discuss": "Discuss this integration",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "integrations",
+        "title": "Third-Party API Integration",
+        "desc": "Connect your website, app or software with external platforms and services using their APIs, reliably and securely.",
+        "bullets": [
+          "REST, SOAP and GraphQL",
+          "Webhooks and callbacks",
+          "Authentication and rate limits"
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Payment Gateway Integration",
+        "desc": "Accept cards, UPI, wallets and bank transfers in your website or app, with refunds, subscriptions and reconciliation.",
+        "bullets": [
+          "Cards, UPI and wallets",
+          "Subscriptions and refunds",
+          "Payment reconciliation"
+        ]
+      },
+      {
+        "id": "logistics",
+        "title": "Shipping & Courier API Integration",
+        "desc": "Automate shipping with courier and logistics APIs: rates, labels, pickups, tracking and delivery updates for every order.",
+        "bullets": [
+          "Rate comparison and labels",
+          "Pickup booking",
+          "Live tracking updates"
+        ]
+      },
+      {
+        "id": "erp",
+        "title": "ERP & Accounting Integration",
+        "desc": "Sync orders, invoices, payments, stock and customers between your website, apps and ERP or accounting software.",
+        "bullets": [
+          "Invoices and payments",
+          "Stock and price sync",
+          "GST and tax data"
+        ],
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "id": "crm",
+        "title": "CRM Integration",
+        "desc": "Send website and app leads straight into your CRM, keep customer records in sync and trigger follow-ups automatically.",
+        "bullets": [
+          "Lead capture to CRM",
+          "Two-way contact sync",
+          "Automated follow-ups"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "ecommerce",
+        "title": "Ecommerce & Marketplace Integration",
+        "desc": "Connect your online store with marketplaces, POS, inventory, dropshipping and fulfilment partners from one place.",
+        "bullets": [
+          "Marketplace order sync",
+          "POS and inventory sync",
+          "Dropshipping and 3PL"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "communication",
+        "title": "Messaging, SMS & Telephony APIs",
+        "desc": "Send order updates, OTPs, reminders and campaigns by SMS, email and chat apps, and connect cloud telephony and IVR to your systems.",
+        "bullets": [
+          "SMS, email and chat messaging",
+          "OTP and notifications",
+          "Cloud telephony and IVR"
+        ]
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare API Integration",
+        "desc": "EHR and EMR integration, lab and pharmacy systems and telehealth connections, built with patient data security in mind.",
+        "bullets": [
+          "EHR / EMR integration",
+          "Lab and pharmacy systems",
+          "Secure patient data exchange"
+        ],
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "travel",
+        "title": "Travel & Booking API Integration",
+        "desc": "Flight, hotel, tour and channel manager API integrations for travel agencies, OTAs and hospitality businesses.",
+        "bullets": [
+          "Flight and hotel APIs",
+          "Channel manager sync",
+          "Booking and payments"
+        ],
+        "href": "/industries#travel"
+      },
+      {
+        "id": "ai",
+        "title": "AI & Chatbot API Integration",
+        "desc": "Add AI capabilities to your products and workflows by integrating large language model, chatbot and AI service APIs.",
+        "bullets": [
+          "AI chat assistants",
+          "Document and text processing",
+          "Smart automation"
+        ],
+        "href": "/ai-automation"
+      },
+      {
+        "id": "backend",
+        "title": "Custom API Development",
+        "desc": "Design and build secure, well-documented APIs for your software, so mobile apps, partners and other systems can connect to it.",
+        "bullets": [
+          "REST and GraphQL APIs",
+          "API documentation",
+          "Versioning and security"
+        ]
+      },
+      {
+        "id": "custom",
+        "title": "Integration Automation & Middleware",
+        "desc": "An integration layer that orchestrates data between many systems, with queues, retries, monitoring and alerts.",
+        "bullets": [
+          "Middleware and API gateway",
+          "Queues and retries",
+          "Monitoring and alerts"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "API Integrations for Every Industry",
+    "subtitle": "Every industry has its own core systems. We connect them.",
+    "items": [
+      {
+        "id": "retail",
+        "title": "Ecommerce & Retail",
+        "desc": "Store, marketplace, POS, payment, shipping and inventory integrations.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics & 3PL",
+        "desc": "Courier, warehouse, fleet and tracking integrations for shippers and 3PLs.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "EHR, EMR, lab, pharmacy and telehealth integrations.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "travel",
+        "title": "Travel & Hospitality",
+        "desc": "Flight, hotel, tour, OTA and channel manager integrations.",
+        "href": "/industries#travel"
+      },
+      {
+        "id": "fintech",
+        "title": "Finance & Fintech",
+        "desc": "Payments, banking, credit check and accounting integrations.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "restaurant",
+        "title": "Restaurants & Food",
+        "desc": "POS, online ordering and food delivery platform integrations.",
+        "href": "/contact"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Property portal, CRM, payment and property management integrations.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "employee",
+        "title": "HR & Payroll",
+        "desc": "HRMS, payroll, attendance and e-signature integrations.",
+        "href": "/custom-enterprise-software"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Manual vs Integrated",
+    "title": "Manual Data Entry vs API Integration",
+    "subtitle": "Here is what changes when your systems are connected properly.",
+    "columns": [
+      {
+        "title": "Manual processes and exports",
+        "bestFor": "Common when: tools were added one at a time",
+        "pros": [
+          "No setup needed"
+        ],
+        "cons": [
+          "Hours spent re-typing orders and invoices",
+          "Errors, duplicates and missed updates",
+          "Data is always out of date somewhere",
+          "Hard to scale as volumes grow"
+        ]
+      },
+      {
+        "title": "API integration",
+        "bestFor": "Best for: growing businesses with many systems",
+        "pros": [
+          "Data flows automatically in real time",
+          "Fewer errors and faster processes",
+          "Staff focus on customers, not copying data",
+          "Scales with orders and new tools",
+          "Monitored, with alerts if anything fails"
+        ],
+        "cons": [
+          "One-time integration development"
+        ]
+      }
+    ],
+    "note": "Using a no-code automation tool that keeps breaking or hitting limits? We can replace it with robust custom integrations. <contact>Ask us</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our API Integration Process",
+    "subtitle": "A careful, tested process so integrations work reliably from day one.",
+    "steps": [
+      {
+        "title": "Discovery & mapping",
+        "desc": "We list the systems, data and workflows involved and map exactly which data should move where and when."
+      },
+      {
+        "title": "API review & design",
+        "desc": "We review each system's API, authentication and limits, then design the integration flow and error handling."
+      },
+      {
+        "title": "Development",
+        "desc": "We build the integration or custom API with secure credentials, retries, logging and clear documentation."
+      },
+      {
+        "title": "Testing",
+        "desc": "End-to-end testing in sandbox environments with real scenarios, edge cases and failures."
+      },
+      {
+        "title": "Go-live",
+        "desc": "A controlled launch with data checks, so nothing is lost or duplicated during the switch."
+      },
+      {
+        "title": "Monitoring & support",
+        "desc": "Monitoring, alerts and updates when third-party APIs change, so integrations keep working."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Integration Toolkit",
+    "title": "Integration Technologies and Standards",
+    "subtitle": "Proven protocols and practices for reliable, secure integrations.",
+    "groups": [
+      {
+        "title": "Protocols",
+        "items": [
+          "REST",
+          "SOAP",
+          "GraphQL",
+          "Webhooks",
+          "gRPC"
+        ]
+      },
+      {
+        "title": "Data Formats",
+        "items": [
+          "JSON",
+          "XML",
+          "CSV and EDI",
+          "HL7 / FHIR"
+        ]
+      },
+      {
+        "title": "Security",
+        "items": [
+          "OAuth 2.0",
+          "API keys",
+          "JWT",
+          "Encryption",
+          "IP allow-listing"
+        ]
+      },
+      {
+        "title": "Reliability",
+        "items": [
+          "Queues",
+          "Retries",
+          "Idempotency",
+          "Rate limiting",
+          "Logging"
+        ]
+      },
+      {
+        "title": "Platforms",
+        "items": [
+          "Node.js",
+          "Python",
+          "Java",
+          ".NET",
+          "PHP",
+          "Cloud functions"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your API Integration Company",
+    "subtitle": "Integrations are only valuable if they keep working. That is where we focus.",
+    "items": [
+      {
+        "title": "Broad integration experience",
+        "desc": "Payments, shipping, ERP, CRM, healthcare, travel, messaging and more."
+      },
+      {
+        "title": "Built for reliability",
+        "desc": "Retries, queues, idempotency and monitoring so failures do not lose data."
+      },
+      {
+        "title": "Security first",
+        "desc": "Secure credential storage, encryption and least-privilege access on every integration."
+      },
+      {
+        "title": "Clear documentation",
+        "desc": "Every integration and custom API is documented for your team."
+      },
+      {
+        "title": "Fixed, transparent pricing",
+        "desc": "Clear quotes per integration, with no surprise charges."
+      },
+      {
+        "title": "Ongoing maintenance",
+        "desc": "We update integrations when third-party APIs change, so your business keeps running."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does API Integration Cost?",
+    "subtitle": "Cost depends on the number of systems, data volume, complexity and documentation quality of each API. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Single Integration",
+        "price": "$800 – $3,000",
+        "timeline": "1–3 weeks",
+        "desc": "One third-party API, such as a payment gateway, courier or messaging service."
+      },
+      {
+        "name": "Multi-System Integration",
+        "price": "$3,000 – $12,000",
+        "timeline": "3–8 weeks",
+        "desc": "Several systems connected, such as store, ERP, CRM and shipping, with two-way sync."
+      },
+      {
+        "name": "Integration Platform / Custom API",
+        "price": "$12,000+",
+        "timeline": "2+ months",
+        "desc": "Middleware, custom APIs and enterprise-scale integrations with monitoring."
+      }
+    ],
+    "note": "Maintenance plans keep your integrations updated as third-party APIs change. Fixed quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "API Integration FAQs",
+    "subtitle": "Quick answers about connecting your systems.",
+    "items": [
+      {
+        "q": "What is API integration?",
+        "a": "API integration connects two or more software systems through their APIs so they can share data and trigger actions automatically, for example sending website orders to accounting and courier systems without manual entry."
+      },
+      {
+        "q": "What types of API integrations do you build?",
+        "a": "We build payment gateway, shipping and courier, ERP and accounting, CRM, ecommerce and marketplace, messaging and SMS, telephony, healthcare EHR/EMR, travel and booking, HR and payroll, and AI API integrations, plus custom APIs."
+      },
+      {
+        "q": "How much does API integration cost?",
+        "a": "A single third-party integration typically costs $800 to $3,000, multi-system integrations $3,000 to $12,000, and integration platforms or custom APIs from $12,000, depending on complexity."
+      },
+      {
+        "q": "How long does an API integration take?",
+        "a": "A single integration usually takes 1 to 3 weeks. Connecting several systems with two-way sync takes 3 to 8 weeks, and larger integration platforms 2 months or more."
+      },
+      {
+        "q": "What happens when a third-party API changes?",
+        "a": "We monitor integrations and offer maintenance plans that update them when providers change their APIs, so your workflows keep running without interruption."
+      },
+      {
+        "q": "Can you build an API for our own software?",
+        "a": "Yes. We design and build secure, documented REST or GraphQL APIs for your software, so your mobile apps, partners and other systems can integrate with it."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Custom enterprise software",
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "label": "CRM software development",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "SaaS development",
+        "href": "/saas-development"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Cloud & DevOps services",
+        "href": "/cloud-devops"
+      },
+      {
+        "label": "AI & automation",
+        "href": "/ai-automation"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Connect Your Systems?",
+    "subtitle": "Book a free consultation. Tell us which tools you use and get a clear integration plan and a fixed quote.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

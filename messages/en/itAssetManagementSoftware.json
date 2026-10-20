@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "title": "IT Asset Management Software",
+    "description": "IT asset management software to track hardware, software licenses and IT inventory, with auto discovery, barcode tagging, help desk and full asset lifecycle."
+  },
+  "breadcrumb": "IT Asset Management Software",
+  "form": {
+    "topic": "IT asset management software",
+    "options": [
+      "IT asset and inventory tracking for my company",
+      "Hardware and software license management",
+      "IT asset management with help desk / ticketing",
+      "Barcode or QR asset tagging and audits",
+      "IT assets for schools, hospitals or banks",
+      "IT and non-IT (office) asset management",
+      "Replace or customise my current IT asset tool"
+    ]
+  },
+  "hero": {
+    "label": "IT Asset Management Software",
+    "title": "IT Asset Management Software to",
+    "highlight": "Track Every Device and License",
+    "subtitle": "Know what IT assets you own, who has them, where they are and when they need attention, from purchase to disposal, in one simple web-based system."
+  },
+  "intro": {
+    "badge": "What Is ITAM?",
+    "title": "Complete Visibility of Your IT Inventory",
+    "paragraphs": [
+      "Laptops get handed over without records, software licenses expire or sit unused, warranties lapse unnoticed, and nobody is sure how many devices the company actually owns. IT asset management (ITAM) software solves this by keeping one accurate, always up-to-date register of your hardware, software, licenses and contracts.",
+      "Our IT asset management system discovers devices on your network, tags them with barcodes or QR codes, assigns them to employees and locations, and tracks every change through the full asset lifecycle: procurement, deployment, maintenance, upgrades, retirement and secure disposal. IT teams get alerts for expiring warranties and licenses, and managers get reports for audits, budgets and planning.",
+      "Every organisation manages IT differently, so we tailor the software to your asset types, approval workflows and reports, and connect it to your help desk, HR and finance tools. It runs in the cloud or on your own server, and you own the code. Need ticketing too? See our <complaint>complaint and ticket management system</complaint> or <contact>talk to us about your IT inventory</contact>."
+    ],
+    "highlightsTitle": "What IT teams get",
+    "highlights": [
+      "One register for all hardware and software",
+      "Automatic network discovery of devices",
+      "Barcode and QR tagging for quick audits",
+      "Who has what, always up to date",
+      "License compliance and renewal alerts",
+      "Warranty, AMC and contract tracking",
+      "Full lifecycle from purchase to disposal",
+      "Web-based, cloud or on-premise"
+    ]
+  },
+  "offerings": {
+    "badge": "Features",
+    "title": "Features of Our IT Asset Management Software",
+    "subtitle": "Everything your IT department needs to track, manage and optimise IT assets, configured to the way you work.",
+    "discuss": "Ask about this feature",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "register",
+        "title": "Central IT Asset Register",
+        "desc": "A single, searchable IT asset register with specifications, purchase details, location, owner and status for every device.",
+        "bullets": ["Custom asset types and fields", "Bulk import from spreadsheets", "Search and filters"]
+      },
+      {
+        "id": "discovery",
+        "title": "Automatic Asset Discovery",
+        "desc": "Scan your network and use lightweight agents to discover computers, servers and devices automatically, with hardware and installed software details.",
+        "bullets": ["Network scanning", "Agents for Windows, macOS and Linux", "Detect unknown devices"]
+      },
+      {
+        "id": "hardware",
+        "title": "Hardware Inventory Management",
+        "desc": "Track laptops, desktops, servers, network equipment, printers, phones and peripherals, including configuration and upgrade history.",
+        "bullets": ["Specs and configurations", "Upgrade and repair history", "Spare and stock levels"]
+      },
+      {
+        "id": "licenses",
+        "title": "Software License Management",
+        "desc": "Know what software is installed, how many licenses you own and use, and when subscriptions renew, so you stay compliant and stop paying for unused seats.",
+        "bullets": ["Installed vs owned licenses", "Renewal reminders", "Compliance reports"]
+      },
+      {
+        "id": "assignment",
+        "title": "Check-In, Check-Out & Assignment",
+        "desc": "Assign assets to employees, departments and locations with digital acknowledgement, and recover everything during offboarding.",
+        "bullets": ["Employee asset handover", "Digital acknowledgement", "Offboarding checklist"]
+      },
+      {
+        "id": "barcode",
+        "title": "Barcode & QR Asset Tagging",
+        "desc": "Print asset tags and scan them with a phone or barcode scanner to identify assets, update locations and complete physical audits in minutes.",
+        "bullets": ["Asset tag printing", "Mobile scanning app", "Fast physical audits"]
+      },
+      {
+        "id": "lifecycle",
+        "title": "Asset Lifecycle Management",
+        "desc": "Track each asset from request and procurement through deployment, maintenance, upgrades and retirement, with approvals at each stage.",
+        "bullets": ["Request and purchase approvals", "Maintenance schedules", "Retirement planning"]
+      },
+      {
+        "id": "helpdesk",
+        "title": "Help Desk & Ticketing Integration",
+        "desc": "Link IT tickets to assets, so support staff see device history instantly and recurring issues are easy to spot.",
+        "bullets": ["Tickets linked to assets", "Repair and incident history", "Built-in or connected help desk"],
+        "href": "/online-complaint-management-system"
+      },
+      {
+        "id": "contracts",
+        "title": "Warranty, AMC & Vendor Contracts",
+        "desc": "Store warranties, AMCs, leases and vendor contracts with each asset and get alerts before they expire.",
+        "bullets": ["Warranty and AMC tracking", "Lease and rental assets", "Vendor records"]
+      },
+      {
+        "id": "depreciation",
+        "title": "Depreciation & Disposal",
+        "desc": "Calculate asset value and depreciation for finance, and record secure data wiping and IT asset disposition when devices are retired.",
+        "bullets": ["Depreciation methods", "Disposal and e-waste records", "Data-wipe certificates"]
+      },
+      {
+        "id": "bi",
+        "title": "Reports, Alerts & Audits",
+        "desc": "Dashboards and reports on asset counts, value, utilisation, ageing and compliance, with alerts for anything that needs attention.",
+        "bullets": ["Asset and cost dashboards", "Ageing and refresh planning", "Audit-ready reports"]
+      },
+      {
+        "id": "nonIt",
+        "title": "Non-IT & Office Assets",
+        "desc": "Manage office assets like furniture, AV equipment and appliances in the same system, with the same tagging and audits.",
+        "bullets": ["Furniture and fixtures", "AV and office equipment", "One system for all assets"]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who It Is For",
+    "title": "IT Asset Management for Every Organisation",
+    "subtitle": "From a 50-person office to a multi-site enterprise, the system scales to the number of assets and locations you manage.",
+    "items": [
+      { "id": "smes", "title": "SMEs & Growing Companies", "desc": "Simple IT asset tracking that replaces spreadsheets as your team and device count grow.", "href": "/contact" },
+      { "id": "enterprise", "title": "Enterprises", "desc": "Multi-location IT asset management with approvals, integrations and compliance reporting.", "href": "/enterprise-application-development" },
+      { "id": "msp", "title": "IT Service Providers & MSPs", "desc": "Track client assets, contracts and support history across many customers.", "href": "/contact" },
+      { "id": "education", "title": "Schools & Universities", "desc": "Labs, classrooms and staff devices, with student and staff assignment.", "href": "/industries#education" },
+      { "id": "healthcare", "title": "Hospitals & Clinics", "desc": "Track IT and medical-adjacent equipment across departments with maintenance history.", "href": "/industries#healthcare" },
+      { "id": "fintech", "title": "Banks & Financial Services", "desc": "Strict asset control, license compliance and audit trails across branches.", "href": "/industries#finance" },
+      { "id": "government", "title": "Government Offices", "desc": "Asset registers, transfers between departments and audit-ready records.", "href": "/contact" },
+      { "id": "bpo", "title": "BPOs & Call Centres", "desc": "Hundreds of desktops, headsets and seats tracked by floor, shift and team.", "href": "/contact" }
+    ]
+  },
+  "comparison": {
+    "badge": "Free vs Custom",
+    "title": "Free IT Asset Tools or Custom IT Asset Management Software?",
+    "subtitle": "Free and open-source IT asset tools can be a good starting point. Here is how they compare as you grow.",
+    "columns": [
+      {
+        "title": "Free or open-source tools",
+        "bestFor": "Works for: small IT teams with technical skills",
+        "pros": ["No license cost", "Many features out of the box"],
+        "cons": ["Installation, hosting and updates are on you", "Complex screens your team may avoid", "Hard to customise workflows and reports", "No guaranteed support", "Integrations need extra development"]
+      },
+      {
+        "title": "Custom IT asset management software",
+        "bestFor": "Best for: growing IT teams and multi-site organisations",
+        "pros": ["Your asset types, approvals and reports", "Simple screens your team will use", "Connected to help desk, HR and finance", "Hosted, secured and supported for you", "You own the code, no per-asset fees"],
+        "cons": ["Upfront development cost"]
+      }
+    ],
+    "note": "Already using spreadsheets or another tool? We import your existing asset data so you start with a complete register. <contact>Ask about migration</contact>."
+  },
+  "process": {
+    "badge": "How It Works",
+    "title": "How IT Asset Management Works",
+    "subtitle": "The software follows every asset through its lifecycle, so your register is always accurate.",
+    "steps": [
+      { "title": "Discover and import", "desc": "Network discovery and agents find your devices and installed software, and existing spreadsheets are imported." },
+      { "title": "Tag and register", "desc": "Each asset gets a barcode or QR tag and a record with specifications, cost, warranty and location." },
+      { "title": "Assign to people and places", "desc": "Assets are checked out to employees, departments or locations with digital acknowledgement." },
+      { "title": "Track, maintain and support", "desc": "Changes, repairs, upgrades and tickets are logged, and alerts warn of expiring warranties and licenses." },
+      { "title": "Audit and report", "desc": "Scan tags for quick physical audits and use reports for compliance, budgets and refresh planning." },
+      { "title": "Retire and dispose", "desc": "Retired assets are wiped, disposed of or resold, with records kept for finance and compliance." }
+    ]
+  },
+  "tech": {
+    "badge": "What You Can Track",
+    "title": "Assets You Can Track in One Place",
+    "subtitle": "Hardware, software, contracts and people are all linked, so you always see the full picture.",
+    "groups": [
+      { "title": "Hardware", "items": ["Laptops", "Desktops", "Servers", "Network devices", "Printers", "Mobile phones"] },
+      { "title": "Software", "items": ["Installed software", "Licenses", "Subscriptions", "SaaS apps", "License keys"] },
+      { "title": "Contracts", "items": ["Warranties", "AMCs", "Leases", "Vendors", "Purchase orders"] },
+      { "title": "People & Places", "items": ["Employees", "Departments", "Branches", "Floors", "Cost centres"] },
+      { "title": "Non-IT Assets", "items": ["Furniture", "AV equipment", "Appliances", "Tools"] }
+    ]
+  },
+  "why": {
+    "badge": "Benefits",
+    "title": "Why Your IT Department Needs Asset Management Software",
+    "subtitle": "Good IT asset management saves money, reduces risk and makes the IT team's life easier.",
+    "items": [
+      { "title": "Know exactly what you own", "desc": "An accurate, real-time IT inventory replaces outdated spreadsheets and guesswork." },
+      { "title": "Cut IT costs", "desc": "Find unused devices and software licenses, avoid duplicate purchases and extend asset life." },
+      { "title": "Stay license compliant", "desc": "Match installed software to licenses owned and be ready for vendor audits." },
+      { "title": "Improve security", "desc": "Spot unknown devices, recover assets from leavers and keep track of where data lives." },
+      { "title": "Faster IT support", "desc": "Support staff see asset details and history the moment a ticket comes in." },
+      { "title": "Plan budgets with data", "desc": "Ageing and warranty reports show what needs replacing and when." }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does IT Asset Management Software Cost?",
+    "subtitle": "Cost depends on the number of assets and locations, discovery, integrations and mobile apps. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      { "name": "Essential", "price": "$3,000 – $8,000", "timeline": "3–6 weeks", "desc": "Asset register, assignment, barcode tagging, warranty alerts and core reports." },
+      { "name": "Advanced", "price": "$8,000 – $20,000", "timeline": "1–3 months", "desc": "Network discovery, software license management, help desk integration and mobile audit app." },
+      { "name": "Enterprise", "price": "$20,000+", "timeline": "3+ months", "desc": "Multi-site, approvals, depreciation, HR and finance integration and advanced compliance reporting." }
+    ],
+    "note": "One-time development with full code ownership, so there are no per-asset or per-user monthly fees. Fixed quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "IT Asset Management Software FAQs",
+    "subtitle": "Quick answers about IT asset and inventory management.",
+    "items": [
+      {
+        "q": "What is IT asset management software?",
+        "a": "IT asset management (ITAM) software keeps a central record of an organisation's hardware, software, licenses and contracts. It tracks who uses each asset, where it is, its cost and warranty, and its status from purchase to disposal."
+      },
+      {
+        "q": "How does IT asset management work?",
+        "a": "Assets are discovered or imported, tagged and registered, then assigned to people and locations. Every change, repair and ticket is logged, alerts flag expiring warranties and licenses, and retired assets are recorded when they are disposed of."
+      },
+      {
+        "q": "Is there free or open-source IT asset management software?",
+        "a": "Yes, free and open-source IT asset tools exist and suit small, technical IT teams. Growing organisations often need simpler screens, custom workflows, integrations and dependable support, which a custom system provides without per-asset fees."
+      },
+      {
+        "q": "Can I track IT assets with a barcode scanner or mobile phone?",
+        "a": "Yes. You can print barcode or QR asset tags and scan them with a handheld scanner or the mobile app to identify assets, update their location and complete physical audits quickly."
+      },
+      {
+        "q": "Does it include asset discovery and help desk integration?",
+        "a": "Yes. Network scanning and agents for Windows, macOS and Linux discover devices and installed software automatically, and IT tickets can be linked to assets through a built-in or connected help desk."
+      },
+      {
+        "q": "How much does IT asset management software cost?",
+        "a": "Typical costs are $3,000 to $8,000 for an essential system, $8,000 to $20,000 for advanced features like discovery and license management, and $20,000 or more for enterprise needs. We give a fixed quote after a free consultation."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      { "label": "Stock management software", "href": "/stock-management-software" },
+      { "label": "Complaint management system", "href": "/online-complaint-management-system" },
+      { "label": "Custom software development", "href": "/custom-software-development" },
+      { "label": "Software development services", "href": "/software-development" },
+      { "label": "Case studies", "href": "/case-studies" }
+    ]
+  },
+  "cta": {
+    "title": "Get Full Control of Your IT Assets",
+    "subtitle": "Book a free 30-minute consultation. Tell us how you track IT assets today and we will show you how the system would work for your team.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

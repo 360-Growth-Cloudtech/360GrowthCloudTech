@@ -4,12 +4,13 @@ import { notFound } from "next/navigation";
 import Services from "@/views/Services";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
-import { BreadcrumbJsonLd, ServiceListJsonLd } from "@/lib/seo/json-ld";
-import { SERVICE_SLUGS, serviceHref } from "@/lib/service-catalog";
+import { BreadcrumbJsonLd, FaqJsonLd, ServiceListJsonLd } from "@/lib/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+type HubGroup = { items: { slug: string; title: string; desc: string }[] };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
@@ -31,8 +32,9 @@ export default async function ServicesPage({ params }: Props) {
   }
 
   setRequestLocale(locale);
-  const tServices = await getTranslations({ locale, namespace: "services" });
+  const tHub = await getTranslations({ locale, namespace: "services.hub" });
   const tCrumbs = await getTranslations({ locale, namespace: "common.breadcrumbs" });
+  const groups = tHub.raw("directory.groups") as HubGroup[];
 
   return (
     <>
@@ -44,13 +46,12 @@ export default async function ServicesPage({ params }: Props) {
       <ServiceListJsonLd
         locale={locale as Locale}
         path="/services"
-        name={tServices("catalog.title")}
-        services={SERVICE_SLUGS.map((slug) => ({
-          name: tServices(`catalog.items.${slug}.title`),
-          description: tServices(`catalog.items.${slug}.desc`),
-          path: serviceHref(slug),
-        }))}
+        name={tHub("directory.title")}
+        services={groups.flatMap((group) =>
+          group.items.map((item) => ({ name: item.title, description: item.desc, path: `/${item.slug}` })),
+        )}
       />
+      <FaqJsonLd items={tHub.raw("faqs.items") as { q: string; a: string }[]} />
       <Services />
     </>
   );

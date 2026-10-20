@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "title": "Web Design & Development Company",
+    "description": "Professional web design and website development company: custom, responsive, SEO-ready business, ecommerce and CMS websites at affordable prices. Free quote."
+  },
+  "breadcrumb": "Web Design",
+  "form": {
+    "topic": "web design and website development",
+    "options": [
+      "New business website",
+      "Small business website",
+      "Corporate website",
+      "Ecommerce website",
+      "Website redesign",
+      "Landing page",
+      "CMS website I can update myself",
+      "Website maintenance and SEO"
+    ]
+  },
+  "hero": {
+    "label": "Web Design & Development",
+    "title": "Web Design and Website Development Company Building",
+    "highlight": "Websites That Win Customers",
+    "subtitle": "Custom, responsive and SEO-ready websites for small businesses, startups and enterprises, designed to look great, load fast and turn visitors into enquiries and sales."
+  },
+  "intro": {
+    "badge": "Professional Web Design",
+    "title": "Websites Designed to Grow Your Business",
+    "paragraphs": [
+      "Your website is often the first impression a customer has of your business. In a few seconds it has to explain what you do, build trust and make it easy to get in touch or buy. A slow, outdated or hard-to-use website quietly loses customers to competitors every day.",
+      "As a full-service web design and development company, we plan, design, build and look after websites that do their job: clear messaging, a modern look that reflects your brand, fast loading on every phone, and contact forms, WhatsApp buttons and calls to action in the right places. Every site is responsive, secure and built with search engine optimisation in mind, so customers can find you on Google.",
+      "We are an India-based team of web designers and developers working with clients across India and worldwide. You get one team for design, development, content, SEO, hosting and maintenance, with transparent pricing. Need more than a website, such as a portal or online platform? See our <webapp>web application development</webapp> or <contact>tell us about your project</contact>."
+    ],
+    "highlightsTitle": "Every website we build is",
+    "highlights": [
+      "Custom designed for your brand",
+      "Responsive on mobile, tablet and desktop",
+      "Fast-loading and Core Web Vitals friendly",
+      "SEO-ready from the first day",
+      "Easy for you to update",
+      "Secure, with SSL and backups",
+      "Built to generate enquiries",
+      "Supported after launch"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Web Design and Development Services",
+    "subtitle": "Whether you need your first website or a complete redesign, we handle design, development, content and launch.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "design",
+        "title": "Custom Website Design",
+        "desc": "Unique, creative website designs built around your brand and customers, never a recycled template, with clear layouts that guide visitors to act.",
+        "bullets": [
+          "Brand-led visual design",
+          "Wireframes and design mockups",
+          "Unlimited feedback rounds in design"
+        ],
+        "href": "/custom-web-design"
+      },
+      {
+        "id": "corporate",
+        "title": "Business & Corporate Websites",
+        "desc": "Professional corporate websites that present your services, team, credentials and case studies with confidence, and make enquiries easy.",
+        "bullets": [
+          "Service and about pages",
+          "Case studies and testimonials",
+          "Careers and investor sections"
+        ]
+      },
+      {
+        "id": "smallBusiness",
+        "title": "Small Business Websites",
+        "desc": "Affordable website design for small businesses, shops, clinics and consultants: a polished site that builds trust and brings in calls and WhatsApp enquiries.",
+        "bullets": [
+          "Affordable fixed packages",
+          "Google Maps and WhatsApp",
+          "Quick turnaround"
+        ]
+      },
+      {
+        "id": "ecommerce",
+        "title": "Ecommerce Website Development",
+        "desc": "Online stores with attractive product pages, easy checkout, secure payments and simple order management, built to sell from day one.",
+        "bullets": [
+          "Product catalogue and cart",
+          "Payment gateways and COD",
+          "Order and stock management"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "cms",
+        "title": "CMS Website Development",
+        "desc": "Content-managed websites you can update yourself: add pages, blog posts, products and images without calling a developer.",
+        "bullets": [
+          "Easy content editing",
+          "Blog and news sections",
+          "Training for your team"
+        ]
+      },
+      {
+        "id": "responsive",
+        "title": "Responsive Web Design",
+        "desc": "Mobile-first, responsive websites that look and work perfectly on every phone, tablet and desktop screen.",
+        "bullets": [
+          "Mobile-first layouts",
+          "Touch-friendly navigation",
+          "Tested on real devices"
+        ],
+        "href": "/mobile-website-design"
+      },
+      {
+        "id": "redesign",
+        "title": "Website Redesign",
+        "desc": "Give an outdated or slow website a modern look, faster performance and better conversions, without losing your Google rankings.",
+        "bullets": [
+          "Modern design refresh",
+          "Speed and UX improvements",
+          "SEO-safe redirects"
+        ],
+        "href": "/website-redesign"
+      },
+      {
+        "id": "landing",
+        "title": "Landing Page Design",
+        "desc": "High-converting landing pages for ads, launches and campaigns, with focused messaging, strong calls to action and lead capture forms.",
+        "bullets": [
+          "Conversion-focused layouts",
+          "Lead forms and WhatsApp",
+          "A/B testing ready"
+        ],
+        "href": "/landing-page-design"
+      },
+      {
+        "id": "portal",
+        "title": "Web Portals & Web Apps",
+        "desc": "Customer portals, booking systems, directories and dashboards when your website needs logins, data and custom features.",
+        "bullets": [
+          "Logins and user accounts",
+          "Booking and enquiry systems",
+          "Custom features"
+        ],
+        "href": "/web-application-development"
+      },
+      {
+        "id": "seo",
+        "title": "SEO-Ready Development & SEO Services",
+        "desc": "Clean code, fast pages, schema markup and on-page SEO built in, plus ongoing SEO services to grow your Google rankings and traffic.",
+        "bullets": [
+          "On-page and technical SEO",
+          "Schema and sitemaps",
+          "Search Console and analytics"
+        ]
+      },
+      {
+        "id": "hosting",
+        "title": "Hosting, Security & Maintenance",
+        "desc": "Reliable web hosting, SSL, daily backups, security updates and content changes, so your website stays fast, safe and up to date.",
+        "bullets": [
+          "Managed hosting and SSL",
+          "Backups and security",
+          "Monthly updates and support"
+        ],
+        "href": "/maintenance-support"
+      },
+      {
+        "id": "ai",
+        "title": "AI Chatbots & Smart Features",
+        "desc": "Add AI chat assistants that answer customer questions, capture leads around the clock and book appointments directly from your website.",
+        "bullets": [
+          "AI website chatbot",
+          "24/7 lead capture",
+          "Appointment booking"
+        ],
+        "href": "/ai-automation"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "Website Design for Every Industry",
+    "subtitle": "We understand what customers in your industry look for, and design websites that answer it.",
+    "items": [
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Property listings, project pages, virtual tours and enquiry forms for developers and brokers.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "travel",
+        "title": "Travel & Tourism",
+        "desc": "Tour packages, itineraries, booking enquiries and galleries for travel companies.",
+        "href": "/case-studies/mahasu-travels-website"
+      },
+      {
+        "id": "construction",
+        "title": "Construction",
+        "desc": "Project portfolios, services and quote requests for construction and interior companies.",
+        "href": "/contact"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare & Clinics",
+        "desc": "Doctor profiles, appointment booking and patient information for clinics and hospitals.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Course listings, admissions enquiries and student resources for schools and institutes.",
+        "href": "/case-studies/skinfinity-academy"
+      },
+      {
+        "id": "restaurant",
+        "title": "Restaurants & Hospitality",
+        "desc": "Menus, table reservations, online ordering and photo galleries.",
+        "href": "/contact"
+      },
+      {
+        "id": "professional",
+        "title": "Professional Services",
+        "desc": "Credible websites for consultants, law firms, accountants and agencies.",
+        "href": "/contact"
+      },
+      {
+        "id": "startups",
+        "title": "Startups",
+        "desc": "Launch-ready websites and landing pages that explain your product and collect sign-ups.",
+        "href": "/software-development"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "DIY vs Professional",
+    "title": "Website Builder or a Professional Web Design Company?",
+    "subtitle": "Website-building apps are fine for a quick personal page. Here is why most businesses choose professional web design.",
+    "columns": [
+      {
+        "title": "DIY website builder",
+        "bestFor": "Works for: personal pages and quick tests",
+        "pros": [
+          "Low monthly cost",
+          "Drag-and-drop editing"
+        ],
+        "cons": [
+          "Template look shared by thousands of sites",
+          "Often slow, which hurts SEO and sales",
+          "Your time spent designing instead of selling",
+          "Limited features and integrations",
+          "Hard to move away from the platform"
+        ]
+      },
+      {
+        "title": "Professional web design",
+        "bestFor": "Best for: businesses that want customers online",
+        "pros": [
+          "Unique design that builds trust",
+          "Fast, SEO-ready and mobile-first",
+          "Content and calls to action that convert",
+          "Any feature or integration you need",
+          "You own the website and domain"
+        ],
+        "cons": [
+          "Higher upfront cost"
+        ]
+      }
+    ],
+    "note": "We also offer affordable small business packages, so a professional website is within reach. <contact>Ask for a quote</contact>."
+  },
+  "outsourcing": {
+    "badge": "Work With Us",
+    "title": "Outsource Website Development With Confidence",
+    "subtitle": "Whether you are a business owner or an agency, choose the way that suits you best.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Fixed-Price Website",
+        "desc": "A clear package with pages, features, timeline and price agreed upfront. No surprises.",
+        "bestFor": "Businesses and startups"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated Web Designer & Developer",
+        "desc": "A designer and developer working on your websites month after month.",
+        "bestFor": "Ongoing website work"
+      },
+      {
+        "id": "whiteLabel",
+        "title": "White-Label for Agencies",
+        "desc": "We design and develop websites under your agency's brand, so you can take on more clients.",
+        "bestFor": "Marketing and design agencies"
+      },
+      {
+        "id": "offshore",
+        "title": "Offshore Web Development",
+        "desc": "Skilled offshore web developers from India with time-zone overlap for clients worldwide.",
+        "bestFor": "Cost-efficient scaling"
+      }
+    ],
+    "pointsTitle": "What you can expect",
+    "points": [
+      "A dedicated project manager",
+      "Design approval before development",
+      "Weekly progress updates",
+      "Launch checklist and SEO setup",
+      "You own the website and content",
+      "Support after launch"
+    ],
+    "note": "Looking for website developers near you? We work remotely with clients everywhere, schedule calls in your time zone and reply within two business hours. <contact>Start a conversation</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Website Design and Development Process",
+    "subtitle": "A simple, proven process that keeps you involved and gets your website live on time.",
+    "steps": [
+      {
+        "title": "Discovery",
+        "desc": "We learn about your business, customers, competitors and goals, and agree on the pages and features you need."
+      },
+      {
+        "title": "Sitemap & Wireframes",
+        "desc": "We plan the structure and layout of every page, so content and navigation make sense before design starts."
+      },
+      {
+        "title": "Visual Design",
+        "desc": "Custom design mockups in your brand style for desktop and mobile, refined with your feedback."
+      },
+      {
+        "title": "Development",
+        "desc": "We build a fast, responsive, secure website with a CMS so you can manage content easily."
+      },
+      {
+        "title": "Content & SEO Setup",
+        "desc": "Content is added and optimised, with meta tags, schema, sitemap, analytics and Search Console configured."
+      },
+      {
+        "title": "Testing & Launch",
+        "desc": "Cross-browser and device testing, speed checks and a smooth launch on your domain."
+      },
+      {
+        "title": "Support & Growth",
+        "desc": "Hosting, maintenance, updates and ongoing SEO to keep your website performing."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Included",
+    "title": "What Every Website Includes",
+    "subtitle": "No hidden extras. These essentials come with every website we design and develop.",
+    "groups": [
+      {
+        "title": "Design",
+        "items": [
+          "Custom UI",
+          "Responsive layouts",
+          "Brand colours and fonts",
+          "Accessibility basics"
+        ]
+      },
+      {
+        "title": "Performance",
+        "items": [
+          "Fast loading",
+          "Core Web Vitals",
+          "Image optimisation",
+          "CDN"
+        ]
+      },
+      {
+        "title": "SEO",
+        "items": [
+          "Meta tags",
+          "Schema markup",
+          "XML sitemap",
+          "Clean URLs",
+          "Search Console"
+        ]
+      },
+      {
+        "title": "Features",
+        "items": [
+          "Contact forms",
+          "WhatsApp chat",
+          "Blog",
+          "Galleries",
+          "Booking",
+          "Payments"
+        ]
+      },
+      {
+        "title": "Care",
+        "items": [
+          "SSL",
+          "Hosting",
+          "Backups",
+          "Security updates",
+          "Analytics"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Businesses Choose Us as Their Website Development Company",
+    "subtitle": "Good-looking websites are easy to find. Websites that bring in business are not. That is our focus.",
+    "items": [
+      {
+        "title": "Designed to convert",
+        "desc": "Every page is planned around what visitors need to see before they call, enquire or buy."
+      },
+      {
+        "title": "Fast and SEO-ready",
+        "desc": "Clean code and optimised performance help you rank on Google and keep visitors engaged."
+      },
+      {
+        "title": "Affordable, transparent pricing",
+        "desc": "Clear packages for small businesses and fixed quotes for larger websites, with no hidden costs."
+      },
+      {
+        "title": "Design and development in one team",
+        "desc": "Designers, developers and SEO specialists work together, so nothing gets lost in handoffs."
+      },
+      {
+        "title": "You own your website",
+        "desc": "Your domain, content, design and code belong to you. No lock-in."
+      },
+      {
+        "title": "Support that continues",
+        "desc": "Hosting, updates, fixes and improvements long after your website goes live."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does a Website Cost?",
+    "subtitle": "Website development cost depends on the number of pages, design, features and content. Typical ranges for websites we build:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Starter Website",
+        "price": "$800 – $2,500",
+        "timeline": "2–3 weeks",
+        "desc": "Up to 8 pages, responsive design, contact and WhatsApp, basic SEO. Ideal for small businesses."
+      },
+      {
+        "name": "Business Website",
+        "price": "$2,500 – $8,000",
+        "timeline": "3–6 weeks",
+        "desc": "Custom design, CMS, blog, integrations, advanced SEO and performance optimisation."
+      },
+      {
+        "name": "Ecommerce or Portal",
+        "price": "$8,000+",
+        "timeline": "6+ weeks",
+        "desc": "Online store or web portal with payments, user accounts and custom features."
+      }
+    ],
+    "note": "Hosting and maintenance plans are available after launch. You get a fixed, itemised quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Web Design FAQs",
+    "subtitle": "Quick answers about website design and development.",
+    "items": [
+      {
+        "q": "How much does it cost to design and develop a website?",
+        "a": "A starter website for a small business typically costs $800 to $2,500, a custom business website $2,500 to $8,000, and ecommerce sites or portals from $8,000. The price depends on pages, design, features and content."
+      },
+      {
+        "q": "How long does it take to build a website?",
+        "a": "A starter website usually takes 2 to 3 weeks, a business website 3 to 6 weeks, and ecommerce or portal projects 6 weeks or more, depending on content readiness and feedback."
+      },
+      {
+        "q": "Will my website be mobile-friendly and SEO-friendly?",
+        "a": "Yes. Every website is responsive and mobile-first, optimised for speed, and built with on-page SEO, schema markup, a sitemap and Search Console setup so it is ready to rank on Google."
+      },
+      {
+        "q": "Can I update the website content myself?",
+        "a": "Yes. We build websites on an easy content management system, so you can edit text, images, blog posts and products yourself, and we provide training."
+      },
+      {
+        "q": "Do you provide hosting and website maintenance?",
+        "a": "Yes. We offer managed hosting, SSL, daily backups, security updates and monthly maintenance plans, plus ongoing SEO services if you want to grow traffic."
+      },
+      {
+        "q": "Do you work with clients outside your city?",
+        "a": "Yes. We are an India-based web design and development company working with clients across India and worldwide. Everything is handled online with calls in your time zone, so location is never a barrier."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Custom web design",
+        "href": "/custom-web-design"
+      },
+      {
+        "label": "Landing page design",
+        "href": "/landing-page-design"
+      },
+      {
+        "label": "Website redesign services",
+        "href": "/website-redesign"
+      },
+      {
+        "label": "Static website design",
+        "href": "/static-website-design"
+      },
+      {
+        "label": "Dynamic website design",
+        "href": "/dynamic-website-design"
+      },
+      {
+        "label": "Mobile website design",
+        "href": "/mobile-website-design"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Travel website case study",
+        "href": "/case-studies/mahasu-travels-website"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "All case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for a Website That Brings in Customers?",
+    "subtitle": "Book a free 30-minute consultation. Tell us about your business and get a clear plan and an affordable, fixed quote for your website.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

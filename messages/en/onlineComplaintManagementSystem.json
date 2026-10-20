@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "title": "Online Complaint Management System",
+    "description": "Web-based complaint management software to log, assign, track and resolve customer complaints with SLAs, escalations, a mobile app for engineers and reports."
+  },
+  "breadcrumb": "Online Complaint Management System",
+  "form": {
+    "topic": "an online complaint management system",
+    "options": [
+      "Customer complaint management system",
+      "Complaint system with service engineer app",
+      "Bank or financial complaint management",
+      "Patient complaint management for hospitals",
+      "Quality complaints for manufacturing or medical devices",
+      "Employee grievance system",
+      "Public grievance portal",
+      "Add complaint management to my CRM"
+    ]
+  },
+  "hero": {
+    "label": "Complaint Management Software",
+    "title": "Online Complaint Management System That",
+    "highlight": "Turns Complaints Into Loyalty",
+    "subtitle": "Let customers log complaints online, assign them to the right engineer automatically, track every update and resolve issues on time, with a complete history and clear reports."
+  },
+  "intro": {
+    "badge": "What Is It?",
+    "title": "What Is an Online Complaint Management System?",
+    "paragraphs": [
+      "An online complaint management system is a web-based portal where customers register complaints and your team tracks each one until it is resolved. Instead of complaints getting lost in email inboxes, phone notes and spreadsheets, every issue gets a complaint number, an owner, a deadline and a full history that customers and managers can check at any time.",
+      "Our complaint management software gives each person exactly what they need. Customers log a complaint and check its status. Admins see every complaint on a dashboard, add service engineers and agents, and assign work. Service engineers log in, view the complaints assigned to them, resolve them and update the status, often from a mobile app in the field. Automatic emails, SMS and escalations keep everything moving.",
+      "Handling complaints well saves time and money, builds customer loyalty and shows you exactly which products or processes need fixing. We customise the system around your categories, teams and service levels, and connect it to your <crm>CRM</crm> and other tools. <contact>Tell us how you handle complaints today</contact>."
+    ],
+    "highlightsTitle": "Advantages at a glance",
+    "highlights": [
+      "Every complaint logged and numbered",
+      "Customers track status and history online",
+      "Admin reviews and assigns in one click",
+      "Engineers update status from their phone",
+      "SLA timers and automatic escalations",
+      "Email, SMS and WhatsApp updates",
+      "Reports that reveal root causes",
+      "Fully web-based, nothing to install"
+    ]
+  },
+  "offerings": {
+    "badge": "Features",
+    "title": "Features of Our Complaint Management Software",
+    "subtitle": "Everything you need to capture, route, resolve and learn from customer complaints, customised to your business.",
+    "discuss": "Ask about this feature",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "portal",
+        "title": "Online Complaint Portal",
+        "desc": "A branded online complaint box where customers register complaints with details, photos and documents, then log in to track progress.",
+        "bullets": [
+          "Customer login and registration",
+          "Attachments and photos",
+          "Status and history view"
+        ]
+      },
+      {
+        "id": "communication",
+        "title": "Multi-Channel Complaint Capture",
+        "desc": "Accept complaints from your website, email, phone calls, WhatsApp, mobile app or a QR code on your product, all landing in one complaint register.",
+        "bullets": [
+          "Web, email and phone",
+          "WhatsApp and mobile app",
+          "QR code complaint forms"
+        ]
+      },
+      {
+        "id": "tickets",
+        "title": "Auto Complaint Number & Confirmation",
+        "desc": "Each complaint gets a unique number, and the customer receives an automatic email or SMS confirming it has been logged in the central database.",
+        "bullets": [
+          "Unique complaint IDs",
+          "Automatic email and SMS",
+          "Duplicate detection"
+        ]
+      },
+      {
+        "id": "adminDashboard",
+        "title": "Admin Dashboard",
+        "desc": "Admins see open, overdue and closed complaints at a glance, create and edit service engineers and agents, and control categories and rules.",
+        "bullets": [
+          "Live complaint overview",
+          "Manage engineers and agents",
+          "Categories and priorities"
+        ]
+      },
+      {
+        "id": "assignment",
+        "title": "Smart Complaint Assignment",
+        "desc": "Assign complaints manually or automatically by category, location, product or workload, so each issue reaches the right engineer immediately.",
+        "bullets": [
+          "Rule-based auto-assignment",
+          "Location and skill routing",
+          "Reassign in one click"
+        ]
+      },
+      {
+        "id": "mobile",
+        "title": "Service Engineer Mobile App",
+        "desc": "Engineers log in, see assigned complaints, navigate to the site, upload photos, capture signatures and close complaints with customer OTP.",
+        "bullets": [
+          "Assigned complaint list",
+          "Photos and signatures",
+          "OTP-verified closure"
+        ]
+      },
+      {
+        "id": "sla",
+        "title": "SLA & Escalation Matrix",
+        "desc": "Set resolution time limits for each category and priority. If a complaint is not resolved in time, it escalates automatically to the next level.",
+        "bullets": [
+          "Time-bound resolution",
+          "Multi-level escalation",
+          "Overdue alerts"
+        ]
+      },
+      {
+        "id": "history",
+        "title": "Complaint Tracking & History",
+        "desc": "Every action, comment and status change is recorded, so anyone can see how a complaint progressed and what was done to resolve it.",
+        "bullets": [
+          "Complete audit trail",
+          "Internal notes and comments",
+          "Customer communication log"
+        ]
+      },
+      {
+        "id": "categories",
+        "title": "Feedback & Quality Complaints",
+        "desc": "Separate complaints, suggestions and positive feedback, and handle quality complaints with root-cause analysis and corrective actions.",
+        "bullets": [
+          "Complaint vs feedback segregation",
+          "Root cause and CAPA",
+          "Customer satisfaction ratings"
+        ]
+      },
+      {
+        "id": "bi",
+        "title": "Reports & Analytics",
+        "desc": "Reports on complaint volume, resolution time, engineer performance and repeat issues, so you can fix problems at the source.",
+        "bullets": [
+          "Resolution time and SLA reports",
+          "Engineer performance",
+          "Trends by product and region"
+        ]
+      },
+      {
+        "id": "crm",
+        "title": "CRM & ERP Integration",
+        "desc": "Complaint management inside your CRM: link complaints to customer records, orders, warranties and AMC contracts in your CRM or ERP.",
+        "bullets": [
+          "Customer and order lookup",
+          "Warranty and AMC checks",
+          "Two-way CRM sync"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "custom",
+        "title": "Customisation & Your Own Server",
+        "desc": "Your workflow, fields, branding and languages, hosted on your own server or in the cloud, with the source code owned by you.",
+        "bullets": [
+          "Custom workflows and fields",
+          "Cloud or on-premise",
+          "Your branding and domain"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who Uses It",
+    "title": "Complaint Management Systems for Every Sector",
+    "subtitle": "Any organisation that serves customers, patients, citizens or employees needs a reliable way to handle complaints.",
+    "items": [
+      {
+        "id": "serviceCo",
+        "title": "Service & AMC Companies",
+        "desc": "Consumer complaints and service requests for appliances, equipment and installations, with field engineers.",
+        "href": "/contact"
+      },
+      {
+        "id": "fintech",
+        "title": "Banks & Financial Services",
+        "desc": "Bank complaint management with turnaround times, escalations and audit-ready records for regulators.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "healthcare",
+        "title": "Hospitals & Clinics",
+        "desc": "Patient complaint management software for feedback, grievances and service quality across departments.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "manufacturing",
+        "title": "Manufacturing & Medical Devices",
+        "desc": "Quality complaint handling with batch tracing, investigation, CAPA and documentation for audits.",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "id": "telecom",
+        "title": "Utilities & Telecom",
+        "desc": "High-volume consumer complaints for connections, billing and outages, routed by area.",
+        "href": "/contact"
+      },
+      {
+        "id": "government",
+        "title": "Government & Municipal",
+        "desc": "Public grievance portals where citizens lodge and track complaints with departments.",
+        "href": "/contact"
+      },
+      {
+        "id": "employee",
+        "title": "Employee Grievances",
+        "desc": "Employee complaint management system with confidential reporting and HR case tracking.",
+        "href": "/contact"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate & Builders",
+        "desc": "Post-possession snag and maintenance complaints from homeowners, tracked to closure.",
+        "href": "/industries#real-estate"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Free vs Custom",
+    "title": "Free Complaint Software or a Custom Complaint Management System?",
+    "subtitle": "Free and open-source complaint tools exist, and they suit some situations. Here is how they compare.",
+    "columns": [
+      {
+        "title": "Free or open-source tools",
+        "bestFor": "Works for: very low complaint volumes",
+        "pros": [
+          "No licence cost",
+          "Quick to try"
+        ],
+        "cons": [
+          "Generic workflow that rarely fits",
+          "Setup, hosting and security are on you",
+          "Limited mobile app and integrations",
+          "No support when something breaks",
+          "Hard to add SLAs and escalation rules"
+        ]
+      },
+      {
+        "title": "Custom complaint management system",
+        "bestFor": "Best for: growing service teams and regulated sectors",
+        "pros": [
+          "Your categories, roles and SLAs",
+          "Engineer mobile app and customer portal",
+          "Integrated with CRM, ERP and WhatsApp",
+          "Secure hosting with backups and support",
+          "You own the code, no per-user fees"
+        ],
+        "cons": [
+          "Upfront development cost"
+        ]
+      }
+    ],
+    "note": "Already have a basic complaint register? We can import your existing complaints and history. <contact>Ask about migration</contact>."
+  },
+  "process": {
+    "badge": "How It Works",
+    "title": "How the Complaint Management Workflow Works",
+    "subtitle": "From the moment a customer reports a problem to the moment they confirm it is fixed, every step is tracked.",
+    "steps": [
+      {
+        "title": "Customer logs a complaint",
+        "desc": "Through the web portal, app, phone, email or WhatsApp, with details and photos."
+      },
+      {
+        "title": "Automatic confirmation",
+        "desc": "The complaint is saved in the central database and the customer receives a complaint number by email or SMS."
+      },
+      {
+        "title": "Admin reviews and assigns",
+        "desc": "The administrator reviews the complaint, or rules assign it automatically, to the right service engineer or agent."
+      },
+      {
+        "title": "Engineer resolves the issue",
+        "desc": "The service engineer acts on the complaint, updates the status and records what was done."
+      },
+      {
+        "title": "Escalation if needed",
+        "desc": "If the SLA is at risk, the complaint escalates automatically to supervisors so nothing is ignored."
+      },
+      {
+        "title": "Customer updated and closed",
+        "desc": "The customer is informed of the resolution, confirms closure and can rate the service. The full history is kept."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "User Roles",
+    "title": "What Each User Can Do",
+    "subtitle": "Separate logins and permissions for every role keep the process clear and secure.",
+    "groups": [
+      {
+        "title": "Customer",
+        "items": [
+          "Log a complaint",
+          "Upload photos",
+          "Track status",
+          "View history",
+          "Rate resolution"
+        ]
+      },
+      {
+        "title": "Admin",
+        "items": [
+          "Dashboard",
+          "Add engineers",
+          "Add agents",
+          "Assign complaints",
+          "Set SLAs",
+          "Reports"
+        ]
+      },
+      {
+        "title": "Service Engineer",
+        "items": [
+          "Log in",
+          "View assigned",
+          "Update status",
+          "Upload proof",
+          "Close with OTP"
+        ]
+      },
+      {
+        "title": "Agent / Call Centre",
+        "items": [
+          "Log on behalf",
+          "Follow up",
+          "Call notes",
+          "Customer lookup"
+        ]
+      },
+      {
+        "title": "Integrations",
+        "items": [
+          "Email",
+          "SMS",
+          "WhatsApp",
+          "CRM",
+          "ERP",
+          "Website"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why It Matters",
+    "title": "Why Is a Complaint Management System Important?",
+    "subtitle": "A complaint handled well can win a customer for life. A complaint lost can cost you many more.",
+    "items": [
+      {
+        "title": "Faster resolution",
+        "desc": "Complaints reach the right person instantly and deadlines keep everyone on track."
+      },
+      {
+        "title": "Happier, loyal customers",
+        "desc": "Customers feel heard when they get a complaint number, updates and a quick fix."
+      },
+      {
+        "title": "Clear accountability",
+        "desc": "Every complaint has an owner and a history, so nothing falls through the cracks."
+      },
+      {
+        "title": "Fix problems at the root",
+        "desc": "Reports show repeat issues by product, location or team, so you can prevent them."
+      },
+      {
+        "title": "Compliance-ready records",
+        "desc": "Banks, hospitals and manufacturers get the audit trail regulators expect."
+      },
+      {
+        "title": "Save time and money",
+        "desc": "Less chasing, fewer calls asking for updates and fewer repeat visits."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does a Complaint Management System Cost?",
+    "subtitle": "Cost depends on users, channels, mobile apps and integrations. Typical ranges for systems we build:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Essential",
+        "price": "$3,000 – $8,000",
+        "timeline": "3–6 weeks",
+        "desc": "Customer portal, admin dashboard, engineer login, assignment, email and SMS updates, basic reports."
+      },
+      {
+        "name": "Advanced",
+        "price": "$8,000 – $20,000",
+        "timeline": "1–3 months",
+        "desc": "Engineer mobile app, SLAs and escalations, WhatsApp, multi-channel capture and detailed analytics."
+      },
+      {
+        "name": "Enterprise",
+        "price": "$20,000+",
+        "timeline": "3+ months",
+        "desc": "Multi-branch, compliance workflows, CRM and ERP integration and high-volume operations."
+      }
+    ],
+    "note": "One-time development with full code ownership, so you are not paying per user every month. Fixed, itemised quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Online Complaint Management System FAQs",
+    "subtitle": "Quick answers about complaint management software.",
+    "items": [
+      {
+        "q": "What is an online complaint management system?",
+        "a": "An online complaint management system is a web-based portal that helps businesses record, assign, track and resolve customer complaints. Customers log complaints and check their status, admins assign them, and service engineers resolve them and update progress."
+      },
+      {
+        "q": "Why is a complaint management system important?",
+        "a": "It makes sure no complaint is lost, every issue has an owner and a deadline, and customers are kept informed. That leads to faster resolutions, more loyal customers and data that shows which problems to fix at the root."
+      },
+      {
+        "q": "Is there a free complaint management system?",
+        "a": "Free and open-source complaint tools exist and can work for very small volumes. Most growing businesses outgrow them because of limited workflows, mobile apps, integrations and support. A custom system fits your process and you own it, with no monthly per-user fees."
+      },
+      {
+        "q": "How much time does it take to develop a complaint management system?",
+        "a": "An essential complaint management system usually takes 3 to 6 weeks. Adding an engineer mobile app, SLAs and WhatsApp takes 1 to 3 months, and enterprise systems take 3 months or more."
+      },
+      {
+        "q": "How much does it cost to develop a complaint management system?",
+        "a": "Typical costs are $3,000 to $8,000 for an essential system, $8,000 to $20,000 for an advanced system with a mobile app, and $20,000 or more for enterprise needs. We give a fixed quote after a free consultation."
+      },
+      {
+        "q": "Is there a mobile app, and can it connect to our CRM?",
+        "a": "Yes. Service engineers get an Android and iOS app, customers can use a mobile-friendly portal or app, and the system can integrate with your CRM, ERP, email, SMS and WhatsApp."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "CRM software development",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "IT asset management software",
+        "href": "/it-asset-management-software"
+      },
+      {
+        "label": "Stock management software",
+        "href": "/stock-management-software"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Resolve Every Complaint, On Time",
+    "subtitle": "Book a free 30-minute consultation. We will understand your complaint process and show you how the system would work for your team.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

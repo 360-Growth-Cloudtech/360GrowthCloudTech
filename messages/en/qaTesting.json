@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "title": "QA & Software Testing Services",
+    "description": "Software testing and QA services: manual and automated testing, regression, API, performance, security and mobile app testing. QA outsourcing that ships quality."
+  },
+  "breadcrumb": "QA & Testing",
+  "form": {
+    "topic": "QA and software testing",
+    "options": [
+      "Manual testing",
+      "Test automation setup",
+      "Regression testing",
+      "API testing",
+      "Performance / load testing",
+      "Security / penetration testing",
+      "Mobile app testing",
+      "QA outsourcing (ongoing)"
+    ]
+  },
+  "hero": {
+    "label": "QA & Software Testing",
+    "title": "QA & Software Testing Services That",
+    "highlight": "Catch Bugs Before Your Users Do",
+    "subtitle": "Manual and automated testing, regression, API, performance, security and mobile testing by experienced QA engineers, so every release ships with confidence."
+  },
+  "intro": {
+    "badge": "Software Quality Assurance",
+    "title": "Quality Assurance That Protects Every Release",
+    "paragraphs": [
+      "Bugs that reach production cost far more than bugs caught early: lost customers, support tickets, emergency fixes and damage to your reputation. Software quality assurance builds checks into the whole development process, so problems are found and fixed long before users see them.",
+      "Our QA testing services cover the full range of software testing. Manual testers explore your product like real users. Automation engineers build test suites that run on every change, so regression testing takes minutes instead of days. Specialists test APIs, databases, performance under load, security vulnerabilities, accessibility, compatibility and localisation. Everything is documented in clear test plans, test cases and reports.",
+      "You can hire us for a single testing project, set up test automation for your team, or outsource QA completely as QA as a service. We test web apps, mobile apps, SaaS products, ecommerce stores, ERP and CRM systems and more. Building software with us? Testing is included in every <sd>software development</sd> project. Otherwise, <contact>tell us what you need tested</contact>."
+    ],
+    "highlightsTitle": "What our QA services give you",
+    "highlights": [
+      "Fewer bugs reaching production",
+      "Faster, safer releases",
+      "Automated regression on every change",
+      "Clear test plans and reports",
+      "Apps that perform under load",
+      "Security vulnerabilities found early",
+      "Accessible, compatible user experience",
+      "Independent, unbiased quality checks"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Software Testing Services We Offer",
+    "subtitle": "Functional and non-functional testing, manual and automated, for web, mobile and enterprise software.",
+    "discuss": "Discuss your testing needs",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "manual",
+        "title": "Manual Testing",
+        "desc": "Experienced testers explore your software like real users, run detailed test cases and find the issues automation misses.",
+        "bullets": [
+          "Exploratory testing",
+          "Test case execution",
+          "Usability feedback"
+        ]
+      },
+      {
+        "id": "testAutomation",
+        "title": "Test Automation Services",
+        "desc": "Automated web, mobile and API test suites built with proven open-source frameworks and run automatically in your pipelines.",
+        "bullets": [
+          "Web UI automation",
+          "Mobile and API automation",
+          "Runs on every code change"
+        ]
+      },
+      {
+        "id": "regression",
+        "title": "Regression Testing",
+        "desc": "Make sure new features do not break existing ones, with automated regression testing that runs in minutes, not days.",
+        "bullets": [
+          "Automated regression suites",
+          "Visual regression checks",
+          "Release sign-off"
+        ]
+      },
+      {
+        "id": "functional",
+        "title": "Functional Testing",
+        "desc": "Verify every feature works as specified, from unit and integration tests to system, end-to-end and acceptance testing.",
+        "bullets": [
+          "System and end-to-end testing",
+          "User acceptance testing support",
+          "Positive and negative scenarios"
+        ]
+      },
+      {
+        "id": "apiTest",
+        "title": "API Testing",
+        "desc": "Validate REST and GraphQL APIs for correct responses, error handling, security and performance, manually and automatically.",
+        "bullets": [
+          "Contract and response checks",
+          "API security testing",
+          "Automated API suites"
+        ],
+        "href": "/api-integration"
+      },
+      {
+        "id": "performance",
+        "title": "Performance & Load Testing",
+        "desc": "Find out how your software behaves under real and peak traffic with load, stress, spike and endurance testing.",
+        "bullets": [
+          "Load and stress testing",
+          "Response time analysis",
+          "Bottleneck identification"
+        ]
+      },
+      {
+        "id": "pentest",
+        "title": "Security & Penetration Testing",
+        "desc": "Vulnerability scanning and penetration testing based on OWASP guidelines to find security weaknesses before attackers do.",
+        "bullets": [
+          "Vulnerability scanning",
+          "Penetration testing",
+          "OWASP Top 10 checks"
+        ]
+      },
+      {
+        "id": "mobile",
+        "title": "Mobile App Testing",
+        "desc": "Checks on real Android and iOS devices for functionality, performance, battery use, interruptions and app store readiness.",
+        "bullets": [
+          "Real device testing",
+          "OS and screen coverage",
+          "App store readiness"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "e2e",
+        "title": "Integration & System Integration Testing",
+        "desc": "Check that modules, databases and third-party systems work together correctly across complete business workflows.",
+        "bullets": [
+          "System integration testing",
+          "Database and data integrity testing",
+          "Migration testing"
+        ]
+      },
+      {
+        "id": "accessibility",
+        "title": "Accessibility & Usability Testing",
+        "desc": "Make sure everyone can use your software, with WCAG accessibility audits and real usability studies.",
+        "bullets": [
+          "WCAG accessibility audits",
+          "Screen reader testing",
+          "Usability studies"
+        ]
+      },
+      {
+        "id": "languages",
+        "title": "Compatibility & Localization Testing",
+        "desc": "Verify across browsers, devices and operating systems, and check translations, formats and layouts for every language you support.",
+        "bullets": [
+          "Cross-browser and device testing",
+          "Localization testing",
+          "Installation and recovery testing"
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "AI-Powered Software Testing",
+        "desc": "AI-based software testing that generates test cases, keeps automated tests stable and highlights the riskiest areas to test.",
+        "bullets": [
+          "AI-generated test cases",
+          "Self-healing automation",
+          "Risk-based prioritisation"
+        ],
+        "href": "/ai-automation"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "What We Test",
+    "title": "QA Testing for Every Type of Software",
+    "subtitle": "We adapt our test strategy to your product, industry and compliance needs.",
+    "items": [
+      {
+        "id": "retail",
+        "title": "Ecommerce",
+        "desc": "Checkout, payments, promotions and peak-load checks for online stores.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "saas",
+        "title": "SaaS Products",
+        "desc": "Continuous QA for frequent releases, multi-tenancy and integrations.",
+        "href": "/saas-development"
+      },
+      {
+        "id": "erp",
+        "title": "ERP & CRM Systems",
+        "desc": "Business workflow, data migration and integration checks for ERP and CRM software.",
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Accurate, secure and compliant QA for patient and clinical software.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "fintech",
+        "title": "Banking & Fintech",
+        "desc": "Transaction accuracy, security and compliance checks.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "embedded",
+        "title": "IoT & Automotive",
+        "desc": "Device, firmware and connected-system QA.",
+        "href": "/contact"
+      },
+      {
+        "id": "voice",
+        "title": "IVR & Contact Centres",
+        "desc": "Automated IVR call-flow and voice system testing.",
+        "href": "/contact"
+      },
+      {
+        "id": "education",
+        "title": "EdTech & LMS",
+        "desc": "Learning platforms, exams and content delivery checks.",
+        "href": "/industries#education"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "In-House vs Outsourced",
+    "title": "In-House QA Team or QA Outsourcing?",
+    "subtitle": "Building a full QA team takes time. Here is how QA as a service compares.",
+    "columns": [
+      {
+        "title": "In-house QA team only",
+        "bestFor": "Fits: large teams with steady testing needs",
+        "pros": [
+          "Deep product knowledge",
+          "Always available on site"
+        ],
+        "cons": [
+          "Slow and costly to hire specialists",
+          "Hard to cover automation, performance and security",
+          "Testing becomes a release bottleneck",
+          "Developers testing their own work miss bugs"
+        ]
+      },
+      {
+        "title": "QA outsourcing / QA as a service",
+        "bestFor": "Best for: growing products and fast release cycles",
+        "pros": [
+          "Experienced testers available immediately",
+          "Specialists for automation, API, performance and security",
+          "Scale testing up or down each sprint",
+          "Independent, unbiased quality checks",
+          "Lower cost than hiring a full team"
+        ],
+        "cons": [
+          "Needs good communication and access to builds"
+        ]
+      }
+    ],
+    "note": "Many clients keep a small internal QA team and use us for automation and specialist testing. <contact>Find the right mix</contact>."
+  },
+  "outsourcing": {
+    "badge": "Engagement Models",
+    "title": "Flexible QA Outsourcing Models",
+    "subtitle": "From a one-off test cycle to a fully managed QA function.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Project-Based Testing",
+        "desc": "A defined project, such as a pre-launch QA cycle, security review or performance check.",
+        "bestFor": "Launches and audits"
+      },
+      {
+        "id": "subscription",
+        "title": "QA as a Service",
+        "desc": "Ongoing manual and automated QA for every sprint and release, for a monthly fee.",
+        "bestFor": "Continuous releases"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated QA Team",
+        "desc": "QA engineers and automation specialists working only on your product.",
+        "bestFor": "Large or complex products"
+      },
+      {
+        "id": "offshore",
+        "title": "Offshore QA Testing",
+        "desc": "Offshore QA with time-zone overlap, so checks run while your team sleeps.",
+        "bestFor": "Cost-efficient scale"
+      }
+    ],
+    "pointsTitle": "What you can expect",
+    "points": [
+      "Experienced manual and automation testers",
+      "Test plans, cases and data documented",
+      "Daily or sprint-level test reports",
+      "Defects logged with clear steps to reproduce",
+      "NDA and secure access to your builds",
+      "QA integrated with your CI/CD"
+    ],
+    "note": "Looking for a software testing company near you? We test remotely for clients everywhere and work in your time zone. <contact>Start a conversation</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Software Testing Process",
+    "subtitle": "A structured QA process that fits agile teams and shifts testing left, so bugs are found early.",
+    "steps": [
+      {
+        "title": "Requirement analysis & test strategy",
+        "desc": "We understand the product, risks and goals, and agree what to test, how and with which tools."
+      },
+      {
+        "title": "Test plan & test cases",
+        "desc": "A test plan, detailed test cases and the test data needed for realistic scenarios."
+      },
+      {
+        "title": "Test environment setup",
+        "desc": "Environments, devices, browsers and test data management set up to match production."
+      },
+      {
+        "title": "Test execution",
+        "desc": "Manual and automated checks run for functional and non-functional requirements."
+      },
+      {
+        "title": "Defect reporting & tracking",
+        "desc": "Bugs are logged with clear steps, screenshots and severity, then retested once fixed."
+      },
+      {
+        "title": "Regression & sign-off",
+        "desc": "Regression runs and acceptance support before each release."
+      },
+      {
+        "title": "Continuous testing",
+        "desc": "Automated tests run in your CI/CD pipeline on every change, with clear test reporting."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Testing Types",
+    "title": "Types of Software Testing We Perform",
+    "subtitle": "Complete coverage across functional, non-functional and specialised testing.",
+    "groups": [
+      {
+        "title": "Functional",
+        "items": [
+          "Unit",
+          "Integration",
+          "System",
+          "Regression",
+          "Smoke & sanity",
+          "Acceptance (UAT)",
+          "End-to-end",
+          "Negative"
+        ]
+      },
+      {
+        "title": "Non-Functional",
+        "items": [
+          "Performance",
+          "Load & stress",
+          "Security",
+          "Usability",
+          "Accessibility",
+          "Compatibility",
+          "Recovery"
+        ]
+      },
+      {
+        "title": "Specialised",
+        "items": [
+          "API",
+          "Database",
+          "Data integrity",
+          "Migration",
+          "Localization",
+          "Installation",
+          "IVR"
+        ]
+      },
+      {
+        "title": "Automation",
+        "items": [
+          "Web UI",
+          "API",
+          "Mobile",
+          "Visual regression",
+          "CI/CD pipelines"
+        ]
+      },
+      {
+        "title": "Test Management",
+        "items": [
+          "Test plans",
+          "Test case management",
+          "Test data management",
+          "Defect tracking",
+          "Test reports"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Software Testing Company",
+    "subtitle": "We test like your customers will use the software, and report like your developers need.",
+    "items": [
+      {
+        "title": "Experienced QA engineers",
+        "desc": "Manual testers, automation engineers and security specialists in one team."
+      },
+      {
+        "title": "Manual and automation together",
+        "desc": "The right balance of human insight and automated speed for each project."
+      },
+      {
+        "title": "Developer-friendly bug reports",
+        "desc": "Clear steps, evidence and severity so issues are fixed quickly."
+      },
+      {
+        "title": "Agile and CI/CD ready",
+        "desc": "QA fits your sprints and runs automatically in your pipelines."
+      },
+      {
+        "title": "Independent quality view",
+        "desc": "An unbiased team focused only on finding problems before users do."
+      },
+      {
+        "title": "Flexible and affordable",
+        "desc": "Project, monthly or dedicated models with transparent pricing."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Do QA Testing Services Cost?",
+    "subtitle": "Cost depends on the size of your application, types of testing and how often you release. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Testing Project",
+        "price": "$1,500 – $5,000",
+        "timeline": "1–3 weeks",
+        "desc": "A full test cycle, security test or performance test for one application."
+      },
+      {
+        "name": "Test Automation Setup",
+        "price": "$5,000 – $20,000",
+        "timeline": "3–8 weeks",
+        "desc": "Automated regression suites for web, mobile or APIs, integrated into CI/CD."
+      },
+      {
+        "name": "QA as a Service",
+        "price": "From $1,500 / month",
+        "timeline": "Ongoing",
+        "desc": "Continuous manual and automated testing for every sprint and release."
+      }
+    ],
+    "note": "Finding a bug before release costs a fraction of fixing it in production. Fixed quote after a free QA consultation.",
+    "cta": "Get My Free QA Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "QA & Software Testing FAQs",
+    "subtitle": "Quick answers about software testing and quality assurance.",
+    "items": [
+      {
+        "q": "What is the difference between QA and software testing?",
+        "a": "Quality assurance is the overall process of preventing defects, including standards, reviews and test strategy. Software testing is the part of QA that checks the software to find defects. We provide both."
+      },
+      {
+        "q": "Should we use manual testing or automation testing?",
+        "a": "Both. Manual testing is best for exploratory, usability and new features. Automation testing is best for repetitive checks like regression, API and smoke tests that run on every release. Most products need a mix."
+      },
+      {
+        "q": "What is the difference between functional and non-functional testing?",
+        "a": "Functional testing checks what the software does, such as features and business rules. Non-functional testing checks how well it does it, such as performance, security, usability, accessibility and compatibility."
+      },
+      {
+        "q": "What is regression testing and why automate it?",
+        "a": "Regression testing makes sure new changes have not broken existing features. Because it must be repeated for every release, automating it saves time, reduces human error and lets teams release faster."
+      },
+      {
+        "q": "Do you provide security and penetration testing?",
+        "a": "Yes. We run vulnerability scanning and penetration testing based on OWASP guidelines for web apps, mobile apps and APIs, and provide a report with risks and recommended fixes."
+      },
+      {
+        "q": "How do you fit testing into agile and CI/CD?",
+        "a": "We verify work within each sprint, write test cases alongside development and run automated tests in your CI/CD pipeline on every change, so defects are found early. This is often called shift-left testing."
+      },
+      {
+        "q": "How much does QA outsourcing cost?",
+        "a": "A one-off testing project typically costs $1,500 to $5,000, test automation setup $5,000 to $20,000, and ongoing QA as a service starts from around $1,500 per month, depending on scope."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "AI & automation",
+        "href": "/ai-automation"
+      },
+      {
+        "label": "Mobile app development",
+        "href": "/mobile-app-development"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Cloud & DevOps",
+        "href": "/cloud-devops"
+      },
+      {
+        "label": "Maintenance & support",
+        "href": "/maintenance-support"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ship Your Next Release With Confidence",
+    "subtitle": "Book a free QA consultation. We will review your product and testing process and recommend the fastest way to improve quality.",
+    "primary": "Book a Free QA Consultation",
+    "secondary": "Send a Message"
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "title": "Landing Page Design Services",
+    "description": "High-converting landing page design for lead generation, sales, PPC, SaaS and product launches. Mobile-first, fast, A/B tested and tracking-ready. Free quote."
+  },
+  "breadcrumb": "Landing Page Design",
+  "form": {
+    "topic": "landing page design",
+    "options": [
+      "Lead generation landing page",
+      "Sales page",
+      "Google or social ads landing page",
+      "Product or SaaS landing page",
+      "App landing page",
+      "Webinar or event page",
+      "Coming soon or launch page",
+      "Improve my existing landing page"
+    ]
+  },
+  "hero": {
+    "label": "Landing Page Designing",
+    "title": "Landing Page Design Services That",
+    "highlight": "Turn Clicks Into Customers",
+    "subtitle": "Focused, fast, mobile-first landing pages for ads, launches and lead generation, designed around one goal and built to convert more of the traffic you already pay for."
+  },
+  "intro": {
+    "badge": "What Is a Landing Page?",
+    "title": "One Page, One Goal, More Conversions",
+    "paragraphs": [
+      "A landing page is a standalone web page built for a single purpose: getting a visitor to fill a form, book a call, sign up, download or buy. Unlike your homepage, which has many links and messages, a landing page removes distractions and speaks directly to the people who clicked your ad, email or post.",
+      "Sending paid traffic to a generic homepage wastes budget. A well-designed landing page matches the promise of the ad, explains the offer clearly, answers objections, shows proof and makes the next step easy, which can multiply conversion rates. Our landing page designers combine persuasive copy, conversion-focused UI and fast, responsive development to make that happen.",
+      "We design landing pages for lead generation, sales, PPC and social ad campaigns, SaaS products, mobile apps, ecommerce offers, webinars and launches, with analytics, ad tracking and CRM integration set up properly. Need a full website instead? See our <wd>web design services</wd> or <contact>tell us about your campaign</contact>."
+    ],
+    "highlightsTitle": "Every landing page we design has",
+    "highlights": [
+      "One clear goal and call to action",
+      "Message matched to your ad or email",
+      "Persuasive, benefit-led copy",
+      "Mobile-first, responsive layout",
+      "Loads in under two seconds",
+      "Trust signals and social proof",
+      "Analytics and conversion tracking",
+      "Ready for A/B testing"
+    ]
+  },
+  "offerings": {
+    "badge": "Landing Page Types",
+    "title": "Landing Page Design Services We Offer",
+    "subtitle": "Whatever your campaign, we design the right kind of landing page for it.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "leads",
+        "title": "Lead Generation Landing Pages",
+        "desc": "Pages built to capture qualified leads with a clear offer, short form and strong reasons to act now.",
+        "bullets": [
+          "Short, smart forms",
+          "Lead magnets and offers",
+          "Leads sent to your CRM or WhatsApp"
+        ]
+      },
+      {
+        "id": "sales",
+        "title": "Sales Pages",
+        "desc": "Long-form sales page design that tells a story, handles objections and leads confidently to purchase.",
+        "bullets": [
+          "Persuasive structure",
+          "Pricing and guarantees",
+          "Checkout integration"
+        ]
+      },
+      {
+        "id": "ppc",
+        "title": "PPC & Social Ad Landing Pages",
+        "desc": "Campaign pages for search and social ads, with message match and fast loading to improve quality scores and lower cost per lead.",
+        "bullets": [
+          "Ad message match",
+          "Fast loading",
+          "Pixel and conversion tracking"
+        ]
+      },
+      {
+        "id": "product",
+        "title": "Product Landing Pages",
+        "desc": "Single product pages that show features, benefits and proof, perfect for launches and hero products.",
+        "bullets": [
+          "Feature and benefit sections",
+          "Video and image showcases",
+          "Buy or enquire buttons"
+        ]
+      },
+      {
+        "id": "saas",
+        "title": "SaaS & Web App Landing Pages",
+        "desc": "SaaS page design that explains your product quickly and drives free trials, demos and sign-ups.",
+        "bullets": [
+          "Clear value proposition",
+          "Product screenshots",
+          "Trial and demo sign-ups"
+        ],
+        "href": "/web-application-development"
+      },
+      {
+        "id": "app",
+        "title": "Mobile App Landing Pages",
+        "desc": "App pages and welcome pages that showcase your app and send visitors straight to the app stores.",
+        "bullets": [
+          "App store buttons",
+          "Screenshots and previews",
+          "Deep links and QR codes"
+        ]
+      },
+      {
+        "id": "ecommerce",
+        "title": "Ecommerce Landing Pages",
+        "desc": "High-converting ecommerce pages for sales, collections, bundles and seasonal offers.",
+        "bullets": [
+          "Offer and collection pages",
+          "Urgency and countdowns",
+          "Add to cart in one tap"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "webinar",
+        "title": "Webinar & Event Pages",
+        "desc": "Registration pages for webinars, workshops and events with agenda, speakers and reminders.",
+        "bullets": [
+          "Agenda and speakers",
+          "Registration forms",
+          "Calendar and email reminders"
+        ]
+      },
+      {
+        "id": "ebook",
+        "title": "Squeeze Pages & Lead Magnets",
+        "desc": "Simple squeeze pages for ebooks, guides and checklists that grow your email and WhatsApp lists.",
+        "bullets": [
+          "Ebook and guide downloads",
+          "Email list growth",
+          "Thank-you pages"
+        ]
+      },
+      {
+        "id": "launch",
+        "title": "Coming Soon & Launch Pages",
+        "desc": "Coming soon, splash and holding pages that build anticipation and collect early sign-ups before launch.",
+        "bullets": [
+          "Countdown timers",
+          "Early access sign-ups",
+          "Social sharing"
+        ]
+      },
+      {
+        "id": "responsive",
+        "title": "Mobile & Responsive Landing Pages",
+        "desc": "Most ad clicks happen on phones, so every page is designed mobile-first with tap-friendly forms and buttons.",
+        "bullets": [
+          "Mobile-first layouts",
+          "Sticky call to action",
+          "Click-to-call and WhatsApp"
+        ],
+        "href": "/mobile-website-design"
+      },
+      {
+        "id": "abtest",
+        "title": "A/B Testing & Conversion Optimisation",
+        "desc": "Test headlines, offers, layouts and forms, then keep improving with conversion rate optimisation based on real data.",
+        "bullets": [
+          "A/B and split testing",
+          "Heatmaps and analytics",
+          "Ongoing CRO"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "Landing Pages for Every Industry",
+    "subtitle": "We design pages that speak to the concerns and motivations of your specific customers.",
+    "items": [
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Project launch pages with floor plans, price lists, site visit booking and lead capture.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "insurance",
+        "title": "Insurance & Finance",
+        "desc": "Quote request and comparison pages that build trust and capture qualified leads.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "healthcare",
+        "title": "Medical & Clinics",
+        "desc": "Treatment and consultation pages with doctor profiles and appointment booking.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Admission and course pages that drive enquiries and counselling bookings.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "professional",
+        "title": "Lawyers & Consultants",
+        "desc": "Service pages that explain expertise and drive consultation requests.",
+        "href": "/contact"
+      },
+      {
+        "id": "interior",
+        "title": "Interior Design",
+        "desc": "Portfolio-led pages that turn inspiration into consultation bookings.",
+        "href": "/contact"
+      },
+      {
+        "id": "automotive",
+        "title": "Automotive",
+        "desc": "Car launch, offer and test-drive booking pages for dealers and brands.",
+        "href": "/contact"
+      },
+      {
+        "id": "restaurant",
+        "title": "Restaurants & Hospitality",
+        "desc": "Offer, event and booking pages that fill tables and rooms.",
+        "href": "/contact"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Why a Landing Page",
+    "title": "Homepage or Dedicated Landing Page for Your Ads?",
+    "subtitle": "Where you send your traffic has a big effect on how many visitors become leads.",
+    "columns": [
+      {
+        "title": "Sending traffic to your homepage",
+        "bestFor": "Fine for: general brand visitors",
+        "pros": [
+          "No extra page to build"
+        ],
+        "cons": [
+          "Many links and messages distract visitors",
+          "Does not match the ad they clicked",
+          "Harder to track campaign results",
+          "Lower conversion rates and higher cost per lead"
+        ]
+      },
+      {
+        "title": "Dedicated landing page",
+        "bestFor": "Best for: ads, campaigns and launches",
+        "pros": [
+          "One focused message and call to action",
+          "Matches the ad, keyword or email",
+          "Easy to test and improve",
+          "Clear tracking of every conversion",
+          "More leads from the same ad budget"
+        ],
+        "cons": [
+          "A page to design for each campaign or offer"
+        ]
+      }
+    ],
+    "note": "Running ads already? We can review your current page for free and show you where conversions are being lost. <contact>Request a free review</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Design High-Converting Landing Pages",
+    "subtitle": "A fast, focused process from brief to live page, usually within a week.",
+    "steps": [
+      {
+        "title": "Brief & goal",
+        "desc": "We agree on the audience, traffic source, offer and the single action the page must drive."
+      },
+      {
+        "title": "Offer & copy",
+        "desc": "We write a clear headline, benefits, proof and calls to action that match your ad or campaign."
+      },
+      {
+        "title": "Wireframe & design",
+        "desc": "A conversion-focused layout and visual design for mobile and desktop, refined with your feedback."
+      },
+      {
+        "title": "Build & tracking",
+        "desc": "We build a fast, responsive page and set up forms, analytics, ad pixels and CRM integration."
+      },
+      {
+        "title": "Launch",
+        "desc": "We test every form and device, then go live on your domain or subdomain."
+      },
+      {
+        "title": "Test & optimise",
+        "desc": "We run A/B tests and use the data to keep improving your conversion rate."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Best Practices",
+    "title": "Anatomy of a High-Converting Landing Page",
+    "subtitle": "The proven page layout we follow, adapted to your audience and offer.",
+    "groups": [
+      {
+        "title": "Above the Fold",
+        "items": [
+          "Clear headline",
+          "Supporting subheadline",
+          "Hero image or video",
+          "Primary call to action"
+        ]
+      },
+      {
+        "title": "Trust",
+        "items": [
+          "Testimonials",
+          "Client logos",
+          "Reviews and ratings",
+          "Guarantees"
+        ]
+      },
+      {
+        "title": "Content",
+        "items": [
+          "Key benefits",
+          "Features",
+          "How it works",
+          "FAQs"
+        ]
+      },
+      {
+        "title": "Form & CTA",
+        "items": [
+          "Short form",
+          "Sticky CTA",
+          "WhatsApp button",
+          "Thank-you page"
+        ]
+      },
+      {
+        "title": "Tracking",
+        "items": [
+          "Analytics",
+          "Ad pixels",
+          "Conversion events",
+          "CRM sync"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Landing Page Design Company",
+    "subtitle": "We design landing pages to be judged on one number: conversions.",
+    "items": [
+      {
+        "title": "Conversion-first design",
+        "desc": "Every layout decision is made to increase sign-ups, enquiries or sales."
+      },
+      {
+        "title": "Copy that sells",
+        "desc": "Clear, benefit-led copy written for your audience, not generic filler."
+      },
+      {
+        "title": "Fast and mobile-first",
+        "desc": "Lightweight pages that load quickly on phones, where most ad clicks happen."
+      },
+      {
+        "title": "Tracking done right",
+        "desc": "Analytics, ad pixels and CRM integration set up so you know exactly what works."
+      },
+      {
+        "title": "Quick turnaround",
+        "desc": "Most single pages are live within a week."
+      },
+      {
+        "title": "Continuous improvement",
+        "desc": "A/B testing and optimisation to keep lowering your cost per lead."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Landing Page Design Cost?",
+    "subtitle": "Landing page design price depends on page length, copywriting, integrations and testing. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Single Landing Page",
+        "price": "$250 – $800",
+        "timeline": "3–7 days",
+        "desc": "One focused page with design, development, form, WhatsApp and analytics."
+      },
+      {
+        "name": "Campaign Landing Page",
+        "price": "$800 – $2,000",
+        "timeline": "1–2 weeks",
+        "desc": "Copywriting, A/B variants, ad pixels, CRM integration and thank-you page."
+      },
+      {
+        "name": "Landing Page Program",
+        "price": "$2,000+",
+        "timeline": "Ongoing",
+        "desc": "Multiple campaign pages with continuous A/B testing and conversion optimisation."
+      }
+    ],
+    "note": "You get a fixed quote after a free consultation, and the page is yours to use for any campaign.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Landing Page Design FAQs",
+    "subtitle": "Quick answers about designing landing pages that convert.",
+    "items": [
+      {
+        "q": "What is a landing page?",
+        "a": "A landing page is a standalone web page designed for one specific goal, such as collecting leads, selling a product or getting sign-ups. Visitors usually arrive on it from an ad, email or social post."
+      },
+      {
+        "q": "What is the difference between a landing page and a website homepage?",
+        "a": "A homepage introduces your whole business and links to many pages. A landing page focuses on one offer and one call to action, with few distractions, so it converts campaign traffic much better."
+      },
+      {
+        "q": "How much does landing page design cost?",
+        "a": "A single landing page typically costs $250 to $800, a campaign page with copywriting, A/B variants and integrations $800 to $2,000, and ongoing page programs from $2,000."
+      },
+      {
+        "q": "How long does it take to design a landing page?",
+        "a": "Most single pages are designed and launched in 3 to 7 days. Campaign pages with copywriting and testing usually take 1 to 2 weeks."
+      },
+      {
+        "q": "What makes a landing page convert?",
+        "a": "A clear headline that matches the ad, a strong offer, benefit-led copy, social proof, a short form, one obvious call to action, fast loading and a mobile-first layout, all improved through A/B testing."
+      },
+      {
+        "q": "Do you set up tracking, CRM integration and A/B testing?",
+        "a": "Yes. We set up analytics, ad pixels and conversion events, send leads to your CRM, email or WhatsApp, and run A/B tests to improve results over time."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Web design & development",
+        "href": "/web-design"
+      },
+      {
+        "label": "Mobile website design",
+        "href": "/mobile-website-design"
+      },
+      {
+        "label": "Custom web design",
+        "href": "/custom-web-design"
+      },
+      {
+        "label": "CRM software development",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "Website redesign",
+        "href": "/website-redesign"
+      },
+      {
+        "label": "Brand identity design",
+        "href": "/brand-identity-design"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Get More Leads From Every Click",
+    "subtitle": "Book a free consultation. Tell us about your campaign and get a landing page plan and a fixed quote.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

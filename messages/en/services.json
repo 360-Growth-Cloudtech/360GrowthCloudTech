@@ -123,8 +123,8 @@
     }
   },
   "meta": {
-    "title": "Custom Software Development Services",
-    "description": "End-to-end software development services: product strategy, UX/UI design, web and mobile engineering, AI automation, cloud infrastructure and growth marketing."
+    "title": "Software, Web Design & IT Services",
+    "description": "Explore our software development, web design, mobile app, SaaS, CRM, ERP, cloud, AI, QA and support services. One team from idea to launch. Get a free quote."
   },
   "catalog": {
     "badge": "What We Build",
@@ -152,7 +152,7 @@
         "title": "SaaS Development",
         "desc": "From MVP to subscription-ready platform: multi-tenant architecture, billing and plans, onboarding flows, admin dashboards and public APIs, built to serve real customers from day one."
       },
-      "api-system-integration": {
+      "api-integration": {
         "title": "API & System Integration",
         "desc": "Connect your ERP, CRM, payment gateways and third-party tools through secure REST, GraphQL and webhook integrations, so data flows once and stays consistent everywhere."
       },
@@ -260,13 +260,390 @@
       "it-asset-management-software": "IT Asset Management Software",
       "qri-dashboard": "QRI Dashboard",
       "web-design": "Web Design",
-      "website-redesigning": "Website Redesigning",
-      "static-web-designing": "Static Web Designing",
-      "dynamic-website-designing": "Dynamic Website Designing",
-      "mobile-website-designing": "Mobile Website Designing",
-      "custom-web-designing": "Custom Web Designing",
-      "landing-page-designing": "Landing Page Designing",
-      "design-identity-branding": "Design Identity Branding"
+      "website-redesign": "Website Redesigning",
+      "static-website-design": "Static Web Designing",
+      "dynamic-website-design": "Dynamic Website Designing",
+      "mobile-website-design": "Mobile Website Designing",
+      "custom-web-design": "Custom Web Designing",
+      "landing-page-design": "Landing Page Designing",
+      "brand-identity-design": "Design Identity Branding"
+    }
+  },
+  "hub": {
+    "hero": {
+      "label": "Our Services",
+      "title": "Software Development, Web Design & IT Services",
+      "highlight": "From One Accountable Team",
+      "subtitle": "Custom software, websites, mobile apps, SaaS, business systems, cloud, AI and ongoing support. Pick one service or let us handle your whole digital product, end to end."
+    },
+    "form": {
+      "topic": "your project",
+      "leadSource": "Services Page Hero (WhatsApp)"
+    },
+    "intro": {
+      "badge": "What We Do",
+      "title": "Every Service You Need to Build, Launch and Grow Online",
+      "paragraphs": [
+        "Most businesses end up juggling a web designer, an app agency, a freelancer for integrations and someone else for hosting. Every handoff adds delay, cost and finger-pointing. We bring all of it under one roof: strategy, UI/UX design, software development, testing, cloud and long-term support, delivered by one senior team that stays accountable from start to finish.",
+        "Our IT services cover four areas. Software development for custom, enterprise, SaaS, web and mobile applications. Ready-to-customise business software such as CRM, inventory, complaint management and IT asset tracking. Web design and branding for websites, landing pages and brand identity. And cloud, AI, integration, QA and maintenance services that keep everything running smoothly.",
+        "Not sure where to start? Use the guide below to find the right service, browse <work>our case studies</work>, or <contact>talk to a senior engineer</contact> for a free consultation and honest advice."
+      ],
+      "highlightsTitle": "Why one team for everything",
+      "highlights": [
+        "No handoffs between agencies",
+        "Design, build, test and support together",
+        "Senior engineers on every project",
+        "Fixed-scope, transparent pricing",
+        "Weekly demos and clear reporting",
+        "100% code and IP ownership"
+      ]
+    },
+    "directory": {
+      "badge": "All Services",
+      "title": "Explore Our Services",
+      "subtitle": "Choose a category to jump to it, or browse every service below. Each service has its own page with features, process, pricing and FAQs.",
+      "explore": "Explore",
+      "groups": [
+        {
+          "id": "software-development-services",
+          "title": "Software Development",
+          "subtitle": "Custom software and applications built around how your business works.",
+          "items": [
+            {
+              "slug": "software-development",
+              "title": "Software Development Services",
+              "desc": "Full-cycle software development for startups, SMEs and enterprises."
+            },
+            {
+              "slug": "custom-software-development",
+              "title": "Custom Software Development",
+              "desc": "Tailor-made software that fits your exact workflows."
+            },
+            {
+              "slug": "custom-enterprise-software",
+              "title": "Custom Enterprise Software",
+              "desc": "Custom ERP, enterprise CRM, workflow automation and portals."
+            },
+            {
+              "slug": "enterprise-application-development",
+              "title": "Enterprise Application Development",
+              "desc": "Secure, scalable enterprise web and mobile apps."
+            },
+            {
+              "slug": "web-application-development",
+              "title": "Web Application Development",
+              "desc": "Fast, secure web apps, portals and dashboards."
+            },
+            {
+              "slug": "mobile-app-development",
+              "title": "Mobile App Development",
+              "desc": "Android, iOS, Flutter and React Native apps."
+            },
+            {
+              "slug": "saas-development",
+              "title": "SaaS Development",
+              "desc": "SaaS MVPs and scalable multi-tenant platforms."
+            }
+          ]
+        },
+        {
+          "id": "business-software",
+          "title": "Business Software Solutions",
+          "subtitle": "Software for the everyday operations of growing businesses.",
+          "items": [
+            {
+              "slug": "crm-software-development",
+              "title": "CRM Software Development",
+              "desc": "Custom CRMs for sales, service and real estate teams."
+            },
+            {
+              "slug": "ecommerce-software-development",
+              "title": "Ecommerce Software Development",
+              "desc": "Online stores, shopping apps, B2B and marketplaces."
+            },
+            {
+              "slug": "stock-management-software",
+              "title": "Stock Management Software",
+              "desc": "Cloud inventory with barcode scanning and alerts."
+            },
+            {
+              "slug": "online-complaint-management-system",
+              "title": "Online Complaint Management System",
+              "desc": "Log, assign and resolve complaints with SLAs."
+            },
+            {
+              "slug": "it-asset-management-software",
+              "title": "IT Asset Management Software",
+              "desc": "Track hardware, software licenses and IT inventory."
+            },
+            {
+              "slug": "qri-dashboard",
+              "title": "QRI Dashboard",
+              "desc": "Digital quality inspection for manufacturers."
+            }
+          ]
+        },
+        {
+          "id": "web-design-services",
+          "title": "Web Design & Branding",
+          "subtitle": "Websites and brand identities that build trust and bring in enquiries.",
+          "items": [
+            {
+              "slug": "web-design",
+              "title": "Web Design & Development",
+              "desc": "Professional, responsive, SEO-ready websites."
+            },
+            {
+              "slug": "custom-web-design",
+              "title": "Custom Web Design",
+              "desc": "Unique websites designed only for your brand."
+            },
+            {
+              "slug": "website-redesign",
+              "title": "Website Redesign",
+              "desc": "Modernise an old website without losing rankings."
+            },
+            {
+              "slug": "static-website-design",
+              "title": "Static Website Design",
+              "desc": "Fast, secure and affordable static websites."
+            },
+            {
+              "slug": "dynamic-website-design",
+              "title": "Dynamic Website Design",
+              "desc": "CMS websites you can update yourself."
+            },
+            {
+              "slug": "mobile-website-design",
+              "title": "Mobile Website Design",
+              "desc": "Mobile-first, responsive website design."
+            },
+            {
+              "slug": "landing-page-design",
+              "title": "Landing Page Design",
+              "desc": "High-converting pages for ads and campaigns."
+            },
+            {
+              "slug": "brand-identity-design",
+              "title": "Brand Identity Design",
+              "desc": "Logo, visual identity and brand guidelines."
+            }
+          ]
+        },
+        {
+          "id": "cloud-ai-support",
+          "title": "Cloud, AI, QA & Support",
+          "subtitle": "Services that connect, automate, test and look after your software.",
+          "items": [
+            {
+              "slug": "cloud-devops",
+              "title": "Cloud & DevOps",
+              "desc": "CI/CD, cloud migration, Kubernetes and managed DevOps."
+            },
+            {
+              "slug": "ai-automation",
+              "title": "AI & Automation",
+              "desc": "AI chatbots, document processing and process automation."
+            },
+            {
+              "slug": "api-integration",
+              "title": "API Integration",
+              "desc": "Connect payments, shipping, ERP, CRM and more."
+            },
+            {
+              "slug": "qa-testing",
+              "title": "QA & Software Testing",
+              "desc": "Manual, automated, performance and security testing."
+            },
+            {
+              "slug": "maintenance-support",
+              "title": "Maintenance & Support",
+              "desc": "Bug fixes, updates, monitoring and SLA support."
+            }
+          ]
+        }
+      ]
+    },
+    "guide": {
+      "badge": "Find the Right Service",
+      "title": "Which Service Do You Need?",
+      "subtitle": "Tell us your goal and we will point you to the right place.",
+      "items": [
+        {
+          "goal": "I have a new software or app idea",
+          "slug": "custom-software-development",
+          "service": "Custom Software Development"
+        },
+        {
+          "goal": "I need a website for my business",
+          "slug": "web-design",
+          "service": "Web Design & Development"
+        },
+        {
+          "goal": "My website looks old or does not bring enquiries",
+          "slug": "website-redesign",
+          "service": "Website Redesign"
+        },
+        {
+          "goal": "I want customers to order or book on their phone",
+          "slug": "mobile-app-development",
+          "service": "Mobile App Development"
+        },
+        {
+          "goal": "I want to sell online",
+          "slug": "ecommerce-software-development",
+          "service": "Ecommerce Software Development"
+        },
+        {
+          "goal": "My sales team loses track of leads",
+          "slug": "crm-software-development",
+          "service": "CRM Software Development"
+        },
+        {
+          "goal": "I want to launch a subscription software product",
+          "slug": "saas-development",
+          "service": "SaaS Development"
+        },
+        {
+          "goal": "My tools do not talk to each other",
+          "slug": "api-integration",
+          "service": "API Integration"
+        },
+        {
+          "goal": "My team does too much repetitive work",
+          "slug": "ai-automation",
+          "service": "AI & Automation"
+        },
+        {
+          "goal": "I need someone to look after my existing software",
+          "slug": "maintenance-support",
+          "service": "Maintenance & Support"
+        }
+      ]
+    },
+    "industries": {
+      "badge": "Industries",
+      "title": "Services Tailored to Your Industry",
+      "subtitle": "We combine these services into solutions built around the rules and customers of your sector.",
+      "items": [
+        {
+          "id": "healthcare",
+          "title": "Healthcare",
+          "href": "/industries#healthcare"
+        },
+        {
+          "id": "fintech",
+          "title": "Banking & Fintech",
+          "href": "/industries#finance"
+        },
+        {
+          "id": "manufacturing",
+          "title": "Manufacturing",
+          "href": "/industries#manufacturing"
+        },
+        {
+          "id": "logistics",
+          "title": "Logistics",
+          "href": "/industries#logistics"
+        },
+        {
+          "id": "travel",
+          "title": "Travel & Tourism",
+          "href": "/industries#travel"
+        },
+        {
+          "id": "retail",
+          "title": "Retail & Ecommerce",
+          "href": "/industries#retail"
+        },
+        {
+          "id": "education",
+          "title": "Education",
+          "href": "/industries#education"
+        },
+        {
+          "id": "realEstate",
+          "title": "Real Estate",
+          "href": "/industries#real-estate"
+        }
+      ]
+    },
+    "why": {
+      "badge": "Why Choose Us",
+      "title": "Why Businesses Choose Us as Their IT Services Partner",
+      "subtitle": "A senior, accountable team with clear processes and honest advice.",
+      "items": [
+        {
+          "title": "One team, end to end",
+          "desc": "Strategy, design, development, testing, cloud and support without agency handoffs."
+        },
+        {
+          "title": "Senior engineers",
+          "desc": "Experienced specialists on every project, not juniors learning on your budget."
+        },
+        {
+          "title": "Transparent pricing",
+          "desc": "Fixed-scope, itemised quotes with no hidden costs."
+        },
+        {
+          "title": "Weekly progress",
+          "desc": "Demos every week and direct access to the people building your product."
+        },
+        {
+          "title": "You own everything",
+          "desc": "Source code, designs and accounts belong to you from day one."
+        },
+        {
+          "title": "Long-term support",
+          "desc": "Maintenance, improvements and SLAs long after launch."
+        }
+      ]
+    },
+    "faqs": {
+      "badge": "FAQs",
+      "title": "Frequently Asked Questions About Our Services",
+      "subtitle": "Quick answers before you get in touch.",
+      "items": [
+        {
+          "q": "What services does 360GrowthCloudTech offer?",
+          "a": "We offer software development (custom, enterprise, web, mobile and SaaS), business software such as CRM, ecommerce, inventory, complaint and IT asset management, web design and branding, and cloud, DevOps, AI automation, API integration, QA testing and maintenance services."
+        },
+        {
+          "q": "How do I know which service I need?",
+          "a": "Start with your goal, such as getting more enquiries, selling online or automating work. Use the guide on this page, or book a free consultation and a senior engineer will recommend the right approach, even if it is simpler than you expected."
+        },
+        {
+          "q": "Can one team handle design, development and support?",
+          "a": "Yes. Our team covers UI/UX design, frontend and backend development, mobile apps, testing, cloud and ongoing maintenance, so you work with one accountable partner from idea to long after launch."
+        },
+        {
+          "q": "How much do your services cost?",
+          "a": "It depends on the service and scope. Websites start from a few hundred dollars, business software and apps from a few thousand, and larger platforms are quoted after discovery. Every service page shows typical price ranges, and you get a fixed, itemised quote after a free consultation."
+        },
+        {
+          "q": "Do you work with startups and small businesses?",
+          "a": "Yes. We help startups launch MVPs quickly and offer affordable packages for small businesses, as well as delivering larger projects for enterprises."
+        },
+        {
+          "q": "What engagement models do you offer?",
+          "a": "Fixed-price projects, dedicated teams, staff augmentation and monthly managed services such as maintenance, DevOps and QA as a service."
+        },
+        {
+          "q": "Do you work with clients outside India?",
+          "a": "Yes. We are a remote-first team working with clients across India and worldwide, with calls scheduled in your time zone."
+        },
+        {
+          "q": "Will I own the code and designs?",
+          "a": "Yes. You own 100% of the source code, designs and intellectual property, and we sign an NDA before you share project details."
+        }
+      ]
+    },
+    "inPracticeTitle": "Our Services in Practice",
+    "cta": {
+      "title": "Tell Us What You Want to Build",
+      "subtitle": "Book a free 30-minute consultation. Get honest advice, the right service mix and a transparent estimate.",
+      "primary": "Book a Free Consultation",
+      "secondary": "Send a Message"
     }
   }
 }

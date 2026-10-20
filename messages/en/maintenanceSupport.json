@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "title": "Software Maintenance & Support Services",
+    "description": "Application maintenance and support services: bug fixes, security updates, monitoring, enhancements and SLA-backed 24/7 support for websites, apps and software."
+  },
+  "breadcrumb": "Maintenance & Support",
+  "form": {
+    "topic": "software maintenance and support",
+    "options": [
+      "Monthly maintenance plan",
+      "Bug fixing for my software",
+      "Website maintenance",
+      "Mobile app maintenance",
+      "Take over software built by another company",
+      "24/7 support with SLA",
+      "Security updates and monitoring"
+    ]
+  },
+  "hero": {
+    "label": "Maintenance & Support",
+    "title": "Software Maintenance & Support Services That",
+    "highlight": "Keep Your Systems Running Smoothly",
+    "subtitle": "Bug fixes, security updates, performance monitoring and continuous improvements for your websites, apps and business software, with clear SLAs and a team that knows your code."
+  },
+  "intro": {
+    "badge": "Application Maintenance & Support",
+    "title": "Launch Is Just the Beginning",
+    "paragraphs": [
+      "Software is never really finished. Operating systems and browsers update, third-party APIs change, security vulnerabilities are discovered, users report bugs and your business needs new features. Without regular maintenance, even well-built software slowly becomes slow, insecure and expensive to fix.",
+      "Our application maintenance and support services keep your software healthy after launch. We monitor uptime and performance, fix bugs quickly, apply security patches and dependency updates, adapt the software to new platforms and keep improving it with small enhancements. Every request is logged in a support ticketing system with agreed response times, so nothing falls through the cracks.",
+      "We maintain software we built and software built by other teams. After a short code audit and knowledge transfer, we take responsibility for your websites, web apps, mobile apps, ERP, CRM or SaaS platforms. Need bigger changes? See our <sd>software development services</sd> or <contact>tell us about your system</contact>."
+    ],
+    "highlightsTitle": "What our maintenance plans cover",
+    "highlights": [
+      "Bug fixes with agreed response times",
+      "Security patches and updates",
+      "Uptime and performance monitoring",
+      "Backups and disaster recovery",
+      "OS, browser and API compatibility",
+      "Small enhancements every month",
+      "Monthly health reports",
+      "Engineers who know your codebase"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Software Maintenance & Support Services We Offer",
+    "subtitle": "Everything needed to keep your software secure, stable and improving, under one support plan.",
+    "discuss": "Discuss your support needs",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "support",
+        "title": "Application Maintenance & Support",
+        "desc": "Ongoing application management for your web, mobile and business software, with a dedicated team responsible for keeping it running.",
+        "bullets": ["Dedicated support engineers", "Agreed SLAs", "Monthly maintenance hours"]
+      },
+      {
+        "id": "bugfix",
+        "title": "Bug Fixing & Corrective Maintenance",
+        "desc": "Fast diagnosis and fixing of bugs, crashes and data issues, prioritised by business impact and tested before release.",
+        "bullets": ["Priority-based fixes", "Root cause analysis", "Tested releases"]
+      },
+      {
+        "id": "security",
+        "title": "Security Patches & Updates",
+        "desc": "Regular security updates, dependency upgrades and vulnerability fixes to keep your software and data protected.",
+        "bullets": ["Security patching", "Dependency upgrades", "Vulnerability fixes"]
+      },
+      {
+        "id": "monitoring",
+        "title": "Monitoring & Performance Optimisation",
+        "desc": "Uptime, error and performance monitoring with alerts, plus tuning to keep pages and apps fast as usage grows.",
+        "bullets": ["Uptime and error alerts", "Performance tuning", "Database optimisation"]
+      },
+      {
+        "id": "adaptive",
+        "title": "Adaptive Maintenance",
+        "desc": "Keep your software compatible with new operating systems, browsers, devices, third-party API changes and regulations.",
+        "bullets": ["OS and browser updates", "Third-party API changes", "Compliance updates"]
+      },
+      {
+        "id": "features",
+        "title": "Enhancements & New Features",
+        "desc": "Small improvements and new features every month, based on user feedback and business priorities.",
+        "bullets": ["Feature enhancements", "UX improvements", "Report and workflow changes"]
+      },
+      {
+        "id": "refactor",
+        "title": "Preventive Maintenance & Refactoring",
+        "desc": "Reduce technical debt and prevent future problems with code refactoring, cleanup and improved documentation.",
+        "bullets": ["Code refactoring", "Technical debt reduction", "Documentation updates"]
+      },
+      {
+        "id": "website",
+        "title": "Website Maintenance",
+        "desc": "Content updates, plugin and framework updates, backups, security scans and speed checks for business and ecommerce websites.",
+        "bullets": ["Content and page updates", "Backups and security scans", "Speed and SEO checks"],
+        "href": "/web-design"
+      },
+      {
+        "id": "mobile",
+        "title": "Mobile App Maintenance",
+        "desc": "Updates for new Android and iOS versions, crash fixes, store compliance and new features for your mobile apps.",
+        "bullets": ["OS version updates", "Crash monitoring and fixes", "App store compliance"],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "migration",
+        "title": "Legacy Software Support",
+        "desc": "Keep older systems running safely while planning a gradual modernisation, without disrupting your operations.",
+        "bullets": ["Legacy system stabilisation", "Knowledge recovery", "Modernisation roadmap"],
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "id": "managed",
+        "title": "Server, Hosting & Backup Management",
+        "desc": "Managed hosting, server updates, SSL renewals, backups and disaster recovery so your infrastructure stays reliable.",
+        "bullets": ["Server and hosting management", "Automated backups", "SSL and domain renewals"],
+        "href": "/cloud-devops"
+      },
+      {
+        "id": "helpdesk",
+        "title": "Help Desk & Ticketing Support",
+        "desc": "L1, L2 and L3 support through a ticketing system, with request tracking, response times and resolution reports.",
+        "bullets": ["L1, L2 and L3 support", "Ticket tracking", "Resolution reports"]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "What We Support",
+    "title": "Software We Maintain and Support",
+    "subtitle": "We support software built with modern and legacy technologies, whoever originally built it.",
+    "items": [
+      { "id": "website", "title": "Business Websites", "desc": "Corporate, small business and content websites kept secure and up to date.", "href": "/web-design" },
+      { "id": "portal", "title": "Web Applications", "desc": "Portals, dashboards and business web apps with regular updates and fixes.", "href": "/web-application-development" },
+      { "id": "mobile", "title": "Mobile Apps", "desc": "Android and iOS apps kept compatible, stable and improving.", "href": "/mobile-app-development" },
+      { "id": "retail", "title": "Ecommerce Stores", "desc": "Online stores that stay fast and available, especially during sales.", "href": "/ecommerce-software-development" },
+      { "id": "erp", "title": "ERP & CRM Systems", "desc": "Business-critical ERP and CRM software supported with SLAs.", "href": "/crm-software-development" },
+      { "id": "saas", "title": "SaaS Products", "desc": "Continuous maintenance and feature releases for SaaS platforms.", "href": "/saas-development" },
+      { "id": "enterprise", "title": "Enterprise Applications", "desc": "Large, multi-user systems with strict uptime and security needs.", "href": "/enterprise-application-development" },
+      { "id": "migration", "title": "Legacy Software", "desc": "Older systems stabilised and supported while modernisation is planned.", "href": "/custom-enterprise-software" }
+    ]
+  },
+  "comparison": {
+    "badge": "Ad-Hoc vs Planned",
+    "title": "Ad-Hoc Fixes or a Maintenance & Support Plan?",
+    "subtitle": "Calling a developer only when something breaks feels cheaper, until it is not.",
+    "columns": [
+      {
+        "title": "Ad-hoc fixes when things break",
+        "bestFor": "Risky for: any software your business depends on",
+        "pros": ["No monthly commitment"],
+        "cons": ["Slow response when you need help most", "New developers must learn the code each time", "Security updates are often missed", "Small issues grow into costly failures", "No monitoring until customers complain"]
+      },
+      {
+        "title": "Maintenance & support plan",
+        "bestFor": "Best for: businesses that rely on their software",
+        "pros": ["Agreed response times and SLAs", "A team that already knows your code", "Regular security patches and updates", "Problems caught early through monitoring", "Predictable monthly cost"],
+        "cons": ["A fixed monthly fee"]
+      }
+    ],
+    "note": "Not sure what your software needs? Start with a free health check of your code, hosting and security. <contact>Request a health check</contact>."
+  },
+  "outsourcing": {
+    "badge": "Support Plans",
+    "title": "Flexible Maintenance & Support Plans",
+    "subtitle": "Choose the level of support that matches how critical your software is.",
+    "items": [
+      { "id": "fixed", "title": "On-Demand Support", "desc": "Pay only for the hours you use, ideal for stable software with occasional changes.", "bestFor": "Low-change systems" },
+      { "id": "subscription", "title": "Monthly Maintenance Plan", "desc": "A fixed number of hours each month for fixes, updates, monitoring and small enhancements.", "bestFor": "Most businesses" },
+      { "id": "dedicated", "title": "Dedicated Support Team", "desc": "Engineers dedicated to your systems for continuous maintenance and development.", "bestFor": "Large or growing platforms" },
+      { "id": "support", "title": "24/7 SLA Support", "desc": "Round-the-clock monitoring and incident response with guaranteed response times.", "bestFor": "Business-critical software" }
+    ],
+    "pointsTitle": "Every plan includes",
+    "points": [
+      "A ticketing system for every request",
+      "Agreed response and resolution times",
+      "Code reviews and testing before release",
+      "Monthly health and activity reports",
+      "Secure, audited access to your systems",
+      "No lock-in: your code stays yours"
+    ],
+    "note": "Unhappy with your current developer or vendor? We can take over your software smoothly after a short code audit. <contact>Talk to us</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How Our Software Maintenance Works",
+    "subtitle": "A structured onboarding and support process, even for software we did not build.",
+    "steps": [
+      { "title": "Code & system audit", "desc": "We review your code, infrastructure, security and documentation to understand risks and priorities." },
+      { "title": "Knowledge transfer", "desc": "We learn the system from your team or previous vendor and document how it works." },
+      { "title": "Monitoring setup", "desc": "Uptime, error and performance monitoring is configured so issues are spotted early." },
+      { "title": "Ticket triage & SLAs", "desc": "Requests are logged, prioritised and handled within agreed response times." },
+      { "title": "Fix, test & deploy", "desc": "Changes are made, tested and released safely, with rollback plans in place." },
+      { "title": "Report & improve", "desc": "Monthly reports on health, work done and recommended improvements." }
+    ]
+  },
+  "tech": {
+    "badge": "Maintenance Types",
+    "title": "Types of Software Maintenance We Provide",
+    "subtitle": "In software engineering, maintenance falls into four types. Our plans cover all of them, plus day-to-day operations.",
+    "groups": [
+      { "title": "Corrective", "items": ["Bug fixes", "Crash fixes", "Data corrections", "Error handling"] },
+      { "title": "Adaptive", "items": ["OS and browser updates", "API changes", "New devices", "Compliance changes"] },
+      { "title": "Perfective", "items": ["New features", "UX improvements", "Performance tuning", "Report changes"] },
+      { "title": "Preventive", "items": ["Refactoring", "Dependency updates", "Security hardening", "Documentation"] },
+      { "title": "Operations", "items": ["Monitoring", "Backups", "Uptime", "Incident response", "Health reports"] }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us for Software Maintenance & Support",
+    "subtitle": "Reliable support from engineers who care about your software as much as you do.",
+    "items": [
+      { "title": "Fast, reliable response", "desc": "Clear SLAs and a ticketing system so you always know the status of every request." },
+      { "title": "Senior engineers", "desc": "Experienced developers who can fix complex issues, not just log them." },
+      { "title": "We take over any codebase", "desc": "Smooth onboarding for software built by other teams or vendors." },
+      { "title": "Proactive, not reactive", "desc": "Monitoring, updates and preventive maintenance stop problems before they happen." },
+      { "title": "Transparent reporting", "desc": "Monthly reports on uptime, fixes, updates and hours used." },
+      { "title": "Predictable cost", "desc": "Fixed monthly plans that are cheaper than emergency fixes or hiring in-house." }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Do Software Maintenance Services Cost?",
+    "subtitle": "Cost depends on the size of your software, how critical it is and the response times you need. Typical monthly plans:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Response",
+    "tiers": [
+      { "name": "Essential Maintenance", "price": "$300 – $800 / month", "timeline": "Next business day", "desc": "Updates, backups, monitoring and a small block of hours for fixes and changes." },
+      { "name": "Business Support", "price": "$800 – $2,500 / month", "timeline": "Within 4 business hours", "desc": "More hours, priority bug fixes, enhancements and monthly health reports." },
+      { "name": "Enterprise 24/7 SLA", "price": "$2,500+ / month", "timeline": "24/7, within 1 hour for critical", "desc": "Round-the-clock monitoring, incident response and a dedicated support team." }
+    ],
+    "note": "Every plan starts with a free health check of your software. Fixed monthly quote, no long lock-in.",
+    "cta": "Get a Free Health Check"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Software Maintenance & Support FAQs",
+    "subtitle": "Quick answers about keeping your software healthy after launch.",
+    "items": [
+      {
+        "q": "What are software maintenance and support services?",
+        "a": "They are ongoing services that keep software working well after launch: fixing bugs, applying security patches and updates, monitoring uptime and performance, adapting to new platforms and making small improvements, with a support desk for user requests."
+      },
+      {
+        "q": "What are the types of software maintenance?",
+        "a": "In software engineering there are four types: corrective maintenance fixes bugs, adaptive maintenance keeps software compatible with new environments, perfective maintenance adds improvements and features, and preventive maintenance reduces future problems through refactoring and updates."
+      },
+      {
+        "q": "What is included in an application maintenance and support plan?",
+        "a": "Our plans include bug fixes, security patches, dependency and platform updates, backups, uptime and performance monitoring, a ticketing system with SLAs, monthly reports and a set number of hours for enhancements."
+      },
+      {
+        "q": "Can you maintain software built by another company?",
+        "a": "Yes. We start with a code and system audit and a knowledge transfer, document the system, then take over maintenance and support. We regularly take over projects from previous vendors and freelancers."
+      },
+      {
+        "q": "What response times do you offer?",
+        "a": "Response times depend on your plan, from next business day on essential plans to within one hour for critical issues on 24/7 enterprise plans. Every request is tracked in our ticketing system."
+      },
+      {
+        "q": "Do you offer website and mobile app maintenance?",
+        "a": "Yes. We maintain business and ecommerce websites, web applications and Android and iOS apps, including content updates, OS and browser compatibility, security and performance."
+      },
+      {
+        "q": "How much does software maintenance cost?",
+        "a": "Essential maintenance plans typically cost $300 to $800 per month, business support $800 to $2,500 per month, and 24/7 enterprise SLA support from $2,500 per month, depending on your software and needs."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      { "label": "Cloud & DevOps", "href": "/cloud-devops" },
+      { "label": "QA & software testing", "href": "/qa-testing" },
+      { "label": "Website redesign", "href": "/website-redesign" },
+      { "label": "Software development services", "href": "/software-development" },
+      { "label": "Custom enterprise software", "href": "/custom-enterprise-software" }
+    ]
+  },
+  "cta": {
+    "title": "Keep Your Software Secure, Fast and Up to Date",
+    "subtitle": "Book a free health check. We will review your software, hosting and security and recommend the right support plan.",
+    "primary": "Book a Free Health Check",
+    "secondary": "Send a Message"
+  }
+}

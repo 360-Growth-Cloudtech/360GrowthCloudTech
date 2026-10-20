@@ -8,7 +8,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
-  const [common, home, services, about, contact, industries, caseStudies, legal, softwareDevelopment, ecommerceSoftwareDevelopment, customSoftwareDevelopment, stockManagementSoftware, crmSoftwareDevelopment] =
+  const [common, home, services, about, contact, industries, caseStudies, legal, softwareDevelopment, ecommerceSoftwareDevelopment, customSoftwareDevelopment, stockManagementSoftware, crmSoftwareDevelopment, onlineComplaintManagementSystem, webApplicationDevelopment, itAssetManagementSoftware, qriDashboard, webDesign, websiteRedesign, staticWebsiteDesign, dynamicWebsiteDesign, mobileWebsiteDesign, customWebDesign, landingPageDesign, brandIdentityDesign, customEnterpriseSoftware, enterpriseApplicationDevelopment, mobileAppDevelopment, saasDevelopment, apiIntegration, cloudDevops, aiAutomation, qaTesting, maintenanceSupport] =
     await Promise.all([
       import(`../../messages/${locale}/common.json`),
       import(`../../messages/${locale}/home.json`),
@@ -23,6 +23,27 @@ export default getRequestConfig(async ({ requestLocale }) => {
       import(`../../messages/${locale}/customSoftwareDevelopment.json`),
       import(`../../messages/${locale}/stockManagementSoftware.json`),
       import(`../../messages/${locale}/crmSoftwareDevelopment.json`),
+      import(`../../messages/${locale}/onlineComplaintManagementSystem.json`),
+      import(`../../messages/${locale}/webApplicationDevelopment.json`),
+      import(`../../messages/${locale}/itAssetManagementSoftware.json`),
+      import(`../../messages/${locale}/qriDashboard.json`),
+      import(`../../messages/${locale}/webDesign.json`),
+      import(`../../messages/${locale}/websiteRedesign.json`),
+      import(`../../messages/${locale}/staticWebsiteDesign.json`),
+      import(`../../messages/${locale}/dynamicWebsiteDesign.json`),
+      import(`../../messages/${locale}/mobileWebsiteDesign.json`),
+      import(`../../messages/${locale}/customWebDesign.json`),
+      import(`../../messages/${locale}/landingPageDesign.json`),
+      import(`../../messages/${locale}/brandIdentityDesign.json`),
+      import(`../../messages/${locale}/customEnterpriseSoftware.json`),
+      import(`../../messages/${locale}/enterpriseApplicationDevelopment.json`),
+      import(`../../messages/${locale}/mobileAppDevelopment.json`),
+      import(`../../messages/${locale}/saasDevelopment.json`),
+      import(`../../messages/${locale}/apiIntegration.json`),
+      import(`../../messages/${locale}/cloudDevops.json`),
+      import(`../../messages/${locale}/aiAutomation.json`),
+      import(`../../messages/${locale}/qaTesting.json`),
+      import(`../../messages/${locale}/maintenanceSupport.json`),
     ]);
 
   return {
@@ -41,6 +62,27 @@ export default getRequestConfig(async ({ requestLocale }) => {
       customSoftwareDevelopment: customSoftwareDevelopment.default,
       stockManagementSoftware: stockManagementSoftware.default,
       crmSoftwareDevelopment: crmSoftwareDevelopment.default,
+      onlineComplaintManagementSystem: onlineComplaintManagementSystem.default,
+      webApplicationDevelopment: webApplicationDevelopment.default,
+      itAssetManagementSoftware: itAssetManagementSoftware.default,
+      qriDashboard: qriDashboard.default,
+      webDesign: webDesign.default,
+      websiteRedesign: websiteRedesign.default,
+      staticWebsiteDesign: staticWebsiteDesign.default,
+      dynamicWebsiteDesign: dynamicWebsiteDesign.default,
+      mobileWebsiteDesign: mobileWebsiteDesign.default,
+      customWebDesign: customWebDesign.default,
+      landingPageDesign: landingPageDesign.default,
+      brandIdentityDesign: brandIdentityDesign.default,
+      customEnterpriseSoftware: customEnterpriseSoftware.default,
+      enterpriseApplicationDevelopment: enterpriseApplicationDevelopment.default,
+      mobileAppDevelopment: mobileAppDevelopment.default,
+      saasDevelopment: saasDevelopment.default,
+      apiIntegration: apiIntegration.default,
+      cloudDevops: cloudDevops.default,
+      aiAutomation: aiAutomation.default,
+      qaTesting: qaTesting.default,
+      maintenanceSupport: maintenanceSupport.default,
     },
   };
 });

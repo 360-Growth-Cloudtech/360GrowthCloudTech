@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "title": "QRI Dashboard & QC Inspection Software",
+    "description": "Digital quality inspection software for manufacturers with a real-time QRI dashboard: batch, lot, shift and SKU-wise quality, defect photos, approvals and DPMO."
+  },
+  "breadcrumb": "QRI Dashboard",
+  "form": {
+    "topic": "the QRI Dashboard and quality inspection software",
+    "options": [
+      "Digital quality inspection for my plant",
+      "QRI dashboard for management",
+      "Batch and lot-wise quality tracking",
+      "Defect tracking with photos",
+      "Inspection approval workflow",
+      "Multi-plant quality reporting",
+      "Integrate with my ERP or production system"
+    ]
+  },
+  "hero": {
+    "label": "QRI Dashboard",
+    "title": "Manufacturing Quality Inspection Software With a",
+    "highlight": "Real-Time QRI Dashboard",
+    "subtitle": "Replace paper inspection sheets with digital checklists on the shop floor, catch defects early and see your Quality Rating Index for every line, shift, batch and SKU, live."
+  },
+  "intro": {
+    "badge": "Digital Quality Control",
+    "title": "Digitise Your Quality Inspection Process",
+    "paragraphs": [
+      "Consistent quality is what keeps customers loyal and recalls away. Yet many plants still record inspections on paper or in spreadsheets: results arrive late, defects are spotted after a whole batch is packed, and nobody can say for sure which line or shift is causing the problem.",
+      "Our manufacturing quality inspection software moves the whole process onto tablets and phones. Inspectors fill in digital inspection forms built around your quality standards, attach photos of defects and submit results instantly. Those results flow into an approval workflow and a real-time QRI dashboard, so supervisors, QA managers and plant heads see quality performance as it happens, not days later.",
+      "The QRI Dashboard is configured to your products, parameters and approval levels, so it fits the way your plant already works. It suits soap, detergent, cosmetics, pharmaceutical, chemical, plastics, food, FMCG and engineering manufacturers. Need it connected to your ERP or production systems? See our <csd>custom software development</csd> or <contact>talk to us about your plant</contact>."
+    ],
+    "highlightsTitle": "Problems it solves",
+    "highlights": [
+      "No more lost or unreadable paper records",
+      "Defects caught before the batch moves on",
+      "Full traceability of every batch and lot",
+      "Same inspection standard on every shift",
+      "Recurring issues spotted automatically",
+      "Audit reports ready in seconds",
+      "One live view of quality across lines",
+      "Less time spent compiling reports"
+    ]
+  },
+  "offerings": {
+    "badge": "Key Features",
+    "title": "Key Features of Our Quality Inspection Software",
+    "subtitle": "Everything quality teams need to inspect, record, approve and analyse product quality, in one connected system.",
+    "discuss": "Ask about this feature",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "inspection",
+        "title": "Digital Inspection Forms",
+        "desc": "Replace paper sheets with digital inspection forms that standardise checks across lines. Inspectors record measurements, observations and comments in seconds.",
+        "bullets": [
+          "Configurable inspection checklists",
+          "Measurement limits and tolerances",
+          "Works on tablets and phones"
+        ]
+      },
+      {
+        "id": "dashboard",
+        "title": "Real-Time QRI Dashboard",
+        "desc": "See the Quality Rating Index (QRI), Quality Defect Index (QDI), defect rates and DPMO the moment inspections are submitted, for every line and plant.",
+        "bullets": [
+          "QRI, QDI and DPMO",
+          "Live updates",
+          "Drill down to any batch"
+        ]
+      },
+      {
+        "id": "batchWise",
+        "title": "Batch-Wise Quality Inspection",
+        "desc": "Track quality for every production batch with complete traceability from raw materials to finished goods, and spot batches that need attention.",
+        "bullets": [
+          "Batch traceability",
+          "Raw material to finished goods",
+          "Batch quality history"
+        ]
+      },
+      {
+        "id": "lotWise",
+        "title": "Lot-Wise Inspection Management",
+        "desc": "Inspect each lot and generate lot-specific reports that make customer complaint investigations faster and simpler.",
+        "bullets": [
+          "Lot-specific reports",
+          "Sampling plans",
+          "Complaint investigation support"
+        ]
+      },
+      {
+        "id": "shiftWise",
+        "title": "Shift-Wise Quality Monitoring",
+        "desc": "Compare quality across production shifts to find variations, operator training needs and process improvements.",
+        "bullets": [
+          "Shift comparison",
+          "Operator performance",
+          "Consistent standards day and night"
+        ]
+      },
+      {
+        "id": "productionLine",
+        "title": "Production Line Monitoring",
+        "desc": "Track quality performance for each line in real time, so plant managers can see which line is underperforming and act immediately.",
+        "bullets": [
+          "Line-wise quality scores",
+          "Underperforming line alerts",
+          "Machine parameter checks"
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Brand & Product Variant Management",
+        "desc": "Multi-brand and multi-variant manufacturers can set different inspection parameters for each product while keeping one quality system.",
+        "bullets": [
+          "Parameters per product",
+          "Brand-specific standards",
+          "Variant-level reports"
+        ]
+      },
+      {
+        "id": "sku",
+        "title": "SKU-Wise Quality Analysis",
+        "desc": "Analyse quality at SKU level to understand defect trends, rejection rates and inspection history for every individual product.",
+        "bullets": [
+          "SKU defect trends",
+          "Rejection rate by SKU",
+          "Inspection history"
+        ]
+      },
+      {
+        "id": "defects",
+        "title": "Image-Based Defect Capture",
+        "desc": "Inspectors photograph defects directly during inspection, creating visual evidence for analysis, audits, customer complaints and corrective action.",
+        "bullets": [
+          "Defect photos",
+          "Severity and category",
+          "Visual audit trail"
+        ]
+      },
+      {
+        "id": "approval",
+        "title": "Quality Approval Workflow",
+        "desc": "Completed inspections route automatically through your approval levels. Rejected batches are flagged for rework or further investigation.",
+        "bullets": [
+          "Multi-level approvals",
+          "Rework and hold decisions",
+          "Notifications to approvers"
+        ]
+      },
+      {
+        "id": "capa",
+        "title": "Corrective Actions (CAPA)",
+        "desc": "Assign corrective and preventive actions for recurring defects, track them to closure and confirm the problem does not come back.",
+        "bullets": [
+          "Root cause records",
+          "Action owners and deadlines",
+          "Effectiveness checks"
+        ]
+      },
+      {
+        "id": "integrations",
+        "title": "Reports & ERP Integration",
+        "desc": "Export audit-ready quality reports and connect the system with your ERP, production planning or inventory software.",
+        "bullets": [
+          "Audit-ready reports",
+          "ERP and MES integration",
+          "Scheduled email reports"
+        ],
+        "href": "/stock-management-software"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "Quality Control Software for Manufacturers",
+    "subtitle": "The QRI Dashboard is configured to the quality parameters of your industry and products.",
+    "items": [
+      {
+        "id": "soap",
+        "title": "Soap & Detergents",
+        "desc": "Weight, fragrance, colour, stamping, wrapper and seal checks for every batch and line.",
+        "href": "/contact"
+      },
+      {
+        "id": "cosmetics",
+        "title": "Cosmetics & Personal Care",
+        "desc": "Fill levels, appearance, labelling and packaging integrity across brands and variants.",
+        "href": "/contact"
+      },
+      {
+        "id": "pharma",
+        "title": "Pharmaceuticals",
+        "desc": "Batch-wise in-process and packaging inspections with traceability for audits.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "chemicals",
+        "title": "Chemicals",
+        "desc": "Specification checks, sampling and batch approval records for every product.",
+        "href": "/contact"
+      },
+      {
+        "id": "plastics",
+        "title": "Plastics & Packaging",
+        "desc": "Dimensions, surface finish, printing quality and defect tracking by machine.",
+        "href": "/contact"
+      },
+      {
+        "id": "food",
+        "title": "Food & Beverage",
+        "desc": "Weight, seal integrity, labelling and hygiene checks on every shift.",
+        "href": "/contact"
+      },
+      {
+        "id": "fmcg",
+        "title": "FMCG",
+        "desc": "High-volume, multi-SKU quality monitoring across plants and contract manufacturers.",
+        "href": "/contact"
+      },
+      {
+        "id": "components",
+        "title": "Industrial Components",
+        "desc": "Dimensional inspection, tolerances and lot-wise acceptance for engineered parts.",
+        "href": "/industries#manufacturing"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Paper vs Digital",
+    "title": "Paper Inspection Sheets vs Digital Quality Inspection",
+    "subtitle": "Why manufacturers are moving quality control off paper and spreadsheets.",
+    "columns": [
+      {
+        "title": "Paper and spreadsheets",
+        "bestFor": "Common in: plants still running manual QC",
+        "pros": [
+          "Familiar to inspectors",
+          "No setup needed"
+        ],
+        "cons": [
+          "Records lost, damaged or hard to read",
+          "Defects identified late",
+          "Limited batch and lot traceability",
+          "Hours spent compiling reports",
+          "No live view for management"
+        ]
+      },
+      {
+        "title": "Digital quality inspection software",
+        "bestFor": "Best for: manufacturers serious about quality",
+        "pros": [
+          "Standard digital checklists on every shift",
+          "Instant defect alerts with photos",
+          "Full traceability by batch, lot and SKU",
+          "Live QRI dashboard for every level",
+          "Audit reports in one click"
+        ],
+        "cons": [
+          "Short setup and training period"
+        ]
+      }
+    ],
+    "note": "We configure the software around your existing inspection sheets, so inspectors switch over with minimal training. <contact>Ask for a walkthrough</contact>."
+  },
+  "process": {
+    "badge": "How It Works",
+    "title": "How Our Quality Inspection Software Works",
+    "subtitle": "A structured workflow makes sure every batch is inspected the same way, with complete traceability.",
+    "steps": [
+      {
+        "title": "Production begins",
+        "desc": "When a batch starts, production details such as batch number, lot number, line, shift, operator, product variant, SKU and date are recorded automatically."
+      },
+      {
+        "title": "Digital quality inspection",
+        "desc": "Inspectors use digital forms configured for the product: dimensions, appearance, weight, packaging, printing, surface finish, seal integrity and machine parameters. No paperwork."
+      },
+      {
+        "title": "Defect identification",
+        "desc": "Defects are recorded with type, severity, photos, comments and rejection reasons, corrective actions are assigned and supervisors are notified instantly."
+      },
+      {
+        "title": "Quality approval workflow",
+        "desc": "Results route through your approval levels, such as quality inspector, production supervisor, QA manager and plant manager. Rejected batches go to rework or investigation."
+      },
+      {
+        "title": "Real-time dashboard updates",
+        "desc": "The QRI Dashboard updates the moment results are submitted, showing quality by line, shift, product and inspector, with QRI, QDI and DPMO."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Dashboard & Parameters",
+    "title": "What the QRI Dashboard Tracks",
+    "subtitle": "Quality metrics, inspection parameters and approvals, all configured to your products.",
+    "groups": [
+      {
+        "title": "Quality KPIs",
+        "items": [
+          "Quality Rating Index (QRI)",
+          "Quality Defect Index (QDI)",
+          "DPMO",
+          "Defect rate",
+          "Rejection rate",
+          "First pass yield"
+        ]
+      },
+      {
+        "title": "Views",
+        "items": [
+          "Production line",
+          "Shift",
+          "Batch",
+          "Lot",
+          "SKU",
+          "Brand",
+          "Inspector"
+        ]
+      },
+      {
+        "title": "Inspection Parameters",
+        "items": [
+          "Dimensions",
+          "Appearance",
+          "Weight",
+          "Packaging",
+          "Printing",
+          "Surface finish",
+          "Seal integrity"
+        ]
+      },
+      {
+        "title": "Defect Actions",
+        "items": [
+          "Record defect type",
+          "Capture images",
+          "Comments",
+          "Rejection reasons",
+          "Corrective actions",
+          "Notify supervisors"
+        ]
+      },
+      {
+        "title": "Approval Levels",
+        "items": [
+          "Quality inspector",
+          "Production supervisor",
+          "QA manager",
+          "Plant manager"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why It Matters",
+    "title": "Why Manufacturers Need Digital Quality Inspection",
+    "subtitle": "Quality control directly affects customer satisfaction, costs and profit. Digital inspection makes it faster, more reliable and easier to improve.",
+    "items": [
+      {
+        "title": "Catch defects early",
+        "desc": "Real-time alerts stop defective batches before they are packed, shipped or recalled."
+      },
+      {
+        "title": "Consistent standards",
+        "desc": "Every inspector on every shift follows the same digital checklist and tolerances."
+      },
+      {
+        "title": "Complete traceability",
+        "desc": "Trace any product back to its batch, lot, line, shift, operator and raw materials."
+      },
+      {
+        "title": "Lower cost of poor quality",
+        "desc": "Less rework, scrap, returns and complaint handling as recurring issues are fixed at the source."
+      },
+      {
+        "title": "Faster audits",
+        "desc": "Customer and regulatory audits are easy with organised records and photo evidence."
+      },
+      {
+        "title": "Better decisions",
+        "desc": "Management sees quality trends across plants and acts on facts, not delayed reports."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Quality Inspection Software Cost?",
+    "subtitle": "Cost depends on the number of plants, lines, products, users and integrations. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Single Plant",
+        "price": "$4,000 – $10,000",
+        "timeline": "3–6 weeks",
+        "desc": "Digital inspection forms, defect capture, approvals and QRI dashboard for one plant."
+      },
+      {
+        "name": "Multi-Line & Multi-Brand",
+        "price": "$10,000 – $25,000",
+        "timeline": "1–3 months",
+        "desc": "Batch, lot, shift and SKU analytics, CAPA, mobile app and advanced reports."
+      },
+      {
+        "name": "Multi-Plant Enterprise",
+        "price": "$25,000+",
+        "timeline": "3+ months",
+        "desc": "Group-level dashboards, ERP and MES integration, and contract manufacturer access."
+      }
+    ],
+    "note": "Configured to your existing inspection process, with full ownership and no per-user monthly fees. Fixed quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "QRI Dashboard FAQs",
+    "subtitle": "Quick answers about quality inspection software and the QRI Dashboard.",
+    "items": [
+      {
+        "q": "What is the QRI Dashboard?",
+        "a": "The QRI Dashboard is a real-time quality dashboard for manufacturers. It collects digital inspection results from the shop floor and shows the Quality Rating Index, defect rates and trends by line, shift, batch, SKU and inspector."
+      },
+      {
+        "q": "What is manufacturing quality inspection software?",
+        "a": "It is software that lets manufacturers record, monitor, analyse and approve quality inspections digitally instead of on paper. It standardises checks, captures defects with photos, tracks batches and produces real-time reports."
+      },
+      {
+        "q": "What do QRI, QDI and DPMO mean?",
+        "a": "QRI (Quality Rating Index) is an overall quality score for a line, batch or product. QDI (Quality Defect Index) weighs defects by severity. DPMO (Defects Per Million Opportunities) measures how often defects occur relative to every chance for one."
+      },
+      {
+        "q": "Can the software match our existing inspection process?",
+        "a": "Yes. Inspection forms, parameters, tolerances, defect categories and approval levels are configured around your current process and quality standards, so your team does not have to change how it works."
+      },
+      {
+        "q": "Can inspectors use it on the shop floor?",
+        "a": "Yes. Inspectors use tablets or phones to fill in inspections, scan batch labels and take defect photos, and the app can keep working when the network is weak, syncing once connected."
+      },
+      {
+        "q": "How much does quality inspection software cost?",
+        "a": "Typical costs are $4,000 to $10,000 for a single plant, $10,000 to $25,000 for multi-line and multi-brand setups, and $25,000 or more for multi-plant enterprises. We share a fixed quote after a free consultation."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Stock management software",
+        "href": "/stock-management-software"
+      },
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "Manufacturing solutions",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "label": "Complaint management system",
+        "href": "/online-complaint-management-system"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Digitise Your Quality Inspection?",
+    "subtitle": "Book a free 30-minute walkthrough. See how the QRI Dashboard and digital inspection software can improve quality, reduce defects and cut paperwork in your plant.",
+    "primary": "Book a Free Walkthrough",
+    "secondary": "Send a Message"
+  }
+}

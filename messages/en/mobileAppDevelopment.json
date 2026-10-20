@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "title": "Mobile App Development Company",
+    "description": "Mobile app development company building Android, iOS, Flutter and React Native apps for startups and businesses. Design, development, launch and support."
+  },
+  "breadcrumb": "Mobile App Development",
+  "form": {
+    "topic": "mobile app development",
+    "options": [
+      "Android and iOS app",
+      "Android app",
+      "iPhone (iOS) app",
+      "Flutter or React Native app",
+      "Ecommerce app",
+      "Healthcare app",
+      "App for my existing website",
+      "Improve or rebuild my current app"
+    ]
+  },
+  "hero": {
+    "label": "Mobile App Development",
+    "title": "Mobile App Development Company Building",
+    "highlight": "Apps People Love to Use",
+    "subtitle": "Android, iOS and cross-platform apps designed, built, launched and supported by one senior team, from your first idea to the app stores and every update after."
+  },
+  "intro": {
+    "badge": "Mobile Application Development",
+    "title": "From App Idea to the App Store",
+    "paragraphs": [
+      "Your customers and employees spend most of their screen time in apps. A well-built mobile app puts your business on their home screen, makes ordering, booking or paying effortless and keeps people coming back with timely notifications. A poorly built one gets uninstalled within days.",
+      "As a mobile app development company, we handle every step: product strategy, UI/UX design, Android and iOS development, backend and APIs, testing on real devices, app store publishing and ongoing maintenance. We build native apps in Kotlin and Swift when performance matters most, and cross-platform apps in Flutter or React Native when you want one codebase for both platforms.",
+      "We work with startups launching an MVP and businesses adding apps to their existing systems, including ecommerce, healthcare, fintech, education and logistics apps. See <work>apps we have delivered</work>, explore our <webapp>web application development</webapp> or <contact>tell us about your app idea</contact>."
+    ],
+    "highlightsTitle": "Every app we build includes",
+    "highlights": [
+      "User-friendly, tested UI/UX",
+      "Fast, smooth performance",
+      "Secure login and data protection",
+      "Push notifications and analytics",
+      "Payments, maps and integrations",
+      "Testing on real Android and iOS devices",
+      "App Store and Play Store publishing",
+      "Post-launch updates and support"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Mobile App Development Services",
+    "subtitle": "Native, cross-platform or hybrid, consumer or enterprise, we build the right app for your goals and budget.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "android",
+        "title": "Android App Development",
+        "desc": "Native Android apps in Kotlin and Java, optimised for the wide range of Android phones and tablets your customers use.",
+        "bullets": [
+          "Kotlin and Jetpack Compose",
+          "Phone and tablet support",
+          "Play Store publishing"
+        ]
+      },
+      {
+        "id": "ios",
+        "title": "iOS App Development",
+        "desc": "Native iPhone and iPad apps in Swift with polished design, smooth animations and App Store-ready quality.",
+        "bullets": [
+          "Swift and SwiftUI",
+          "iPhone and iPad",
+          "App Store publishing"
+        ]
+      },
+      {
+        "id": "flutter",
+        "title": "Flutter App Development",
+        "desc": "Beautiful, high-performance Flutter apps for Android and iOS from one codebase, ideal for startups and fast-moving products.",
+        "bullets": [
+          "One codebase, two platforms",
+          "Near-native performance",
+          "Faster time to market"
+        ]
+      },
+      {
+        "id": "reactNative",
+        "title": "React Native App Development",
+        "desc": "React Native apps that share code with your React web app, giving you consistent features across web, Android and iOS.",
+        "bullets": [
+          "Shared code with web",
+          "Native modules when needed",
+          "Fast iterations"
+        ]
+      },
+      {
+        "id": "crossPlatform",
+        "title": "Hybrid & Cross-Platform Apps",
+        "desc": "Hybrid and cross-platform mobile app development, including Ionic and progressive web apps, when budget and speed matter most.",
+        "bullets": [
+          "Cost-effective builds",
+          "Web and mobile together",
+          "Easy maintenance"
+        ]
+      },
+      {
+        "id": "custom",
+        "title": "Custom Mobile App Development",
+        "desc": "Fully custom mobile applications built around your business processes, from customer apps to internal tools for your team.",
+        "bullets": [
+          "Customer-facing apps",
+          "Employee and field apps",
+          "Integration with your systems"
+        ],
+        "href": "/enterprise-application-development"
+      },
+      {
+        "id": "ecommerce",
+        "title": "Ecommerce App Development",
+        "desc": "Shopping apps with product catalogues, carts, secure checkout, wallets, loyalty and real-time order tracking.",
+        "bullets": [
+          "Catalogue and cart",
+          "UPI, cards and wallets",
+          "Order tracking and offers"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare App Development",
+        "desc": "Healthcare and telemedicine apps for appointments, consultations, reports and reminders, built with strong privacy and security.",
+        "bullets": [
+          "Appointments and video consults",
+          "Reports and prescriptions",
+          "Privacy-first design"
+        ],
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "ai",
+        "title": "AI App Development",
+        "desc": "Add AI features such as chat assistants, recommendations, image recognition and smart search to make your app more useful.",
+        "bullets": [
+          "AI chat and assistants",
+          "Recommendations",
+          "Image and voice features"
+        ],
+        "href": "/ai-automation"
+      },
+      {
+        "id": "design",
+        "title": "App UI/UX Design",
+        "desc": "User research, wireframes and app screen design that make your app simple to use and pleasant to come back to.",
+        "bullets": [
+          "User flows and wireframes",
+          "App screen design",
+          "Clickable prototypes"
+        ],
+        "href": "/mobile-website-design"
+      },
+      {
+        "id": "backend",
+        "title": "App Backend & APIs",
+        "desc": "Secure, scalable backends, admin panels and APIs that power your app, with cloud hosting and real-time data.",
+        "bullets": [
+          "Admin panel",
+          "REST and GraphQL APIs",
+          "Cloud and real-time database"
+        ]
+      },
+      {
+        "id": "maintenance",
+        "title": "App Maintenance & Support",
+        "desc": "OS updates, bug fixes, performance tuning, new features and store compliance to keep your app healthy after launch.",
+        "bullets": [
+          "OS and device updates",
+          "Crash monitoring",
+          "New features"
+        ],
+        "href": "/maintenance-support"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "Mobile Apps for Every Industry",
+    "subtitle": "We understand what users expect from apps in your industry, and the rules that come with it.",
+    "items": [
+      {
+        "id": "retail",
+        "title": "Ecommerce & Retail",
+        "desc": "Shopping, loyalty and store apps that drive repeat purchases.",
+        "href": "/case-studies/lifestyle-gifting-ecommerce-app"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Telemedicine, appointment, fitness and patient apps.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "fintech",
+        "title": "Fintech",
+        "desc": "Payments, wallets, lending and investment apps with strong security.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "E-learning, coaching and school apps with live classes and tests.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Property search, site visit booking and broker apps.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "restaurant",
+        "title": "Restaurants & Food",
+        "desc": "Ordering, delivery and table booking apps.",
+        "href": "/contact"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics & Transport",
+        "desc": "Driver, delivery tracking and fleet apps.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "startups",
+        "title": "Startups",
+        "desc": "MVP apps that validate your idea quickly and scale when it works.",
+        "href": "/software-development"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "App Builder vs Custom",
+    "title": "App Builders or Custom Mobile App Development?",
+    "subtitle": "No-code app makers can help you test an idea. Here is when a custom-built app is the better choice.",
+    "columns": [
+      {
+        "title": "No-code app makers",
+        "bestFor": "Works for: simple prototypes and internal tests",
+        "pros": [
+          "Quick to try",
+          "Low starting cost"
+        ],
+        "cons": [
+          "Template look and limited features",
+          "Slower performance on many devices",
+          "Monthly fees that grow with users",
+          "Hard to integrate with your systems",
+          "You may not own the code"
+        ]
+      },
+      {
+        "title": "Custom app development",
+        "bestFor": "Best for: real products and growing businesses",
+        "pros": [
+          "Unique design and any feature you need",
+          "Fast, native-quality performance",
+          "Integrates with payments, CRM and ERP",
+          "Scales to thousands of users",
+          "You own the code and the app listing"
+        ],
+        "cons": [
+          "Higher upfront investment"
+        ]
+      }
+    ],
+    "note": "Not sure where to start? We can build a lean MVP first and grow it as your users do. <contact>Discuss your idea</contact>."
+  },
+  "outsourcing": {
+    "badge": "Hire App Developers",
+    "title": "Outsource App Development With Confidence",
+    "subtitle": "Get a complete app built or add experienced mobile developers to your team.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Fixed-Price App Project",
+        "desc": "Scope, design, timeline and price agreed upfront. Ideal for MVPs and defined apps.",
+        "bestFor": "Startups and MVPs"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated App Team",
+        "desc": "Mobile developers, designer, QA and project manager working only on your app.",
+        "bestFor": "Growing products"
+      },
+      {
+        "id": "augmentation",
+        "title": "Hire Mobile App Developers",
+        "desc": "Experienced Android, iOS, Flutter or React Native developers who join your team.",
+        "bestFor": "Extra capacity"
+      },
+      {
+        "id": "offshore",
+        "title": "Offshore App Development",
+        "desc": "Senior offshore app developers with working-hour overlap for clients worldwide.",
+        "bestFor": "Cost-efficient scaling"
+      }
+    ],
+    "pointsTitle": "What you can expect",
+    "points": [
+      "Senior mobile developers only",
+      "Weekly builds you can install and test",
+      "Testing on real Android and iOS devices",
+      "App store publishing handled for you",
+      "NDA and 100% code ownership",
+      "Support and updates after launch"
+    ],
+    "note": "Looking for app developers near you? We work remotely with clients everywhere, meet in your time zone and share test builds every week. <contact>Start a conversation</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Mobile App Development Process",
+    "subtitle": "A clear, step-by-step process from idea to a live app in the stores.",
+    "steps": [
+      {
+        "title": "Discovery & strategy",
+        "desc": "We define your users, core features, platforms and success metrics, and agree scope and budget."
+      },
+      {
+        "title": "UX & UI design",
+        "desc": "User flows, wireframes and app screen designs, turned into a clickable prototype you can try."
+      },
+      {
+        "title": "Architecture",
+        "desc": "We choose native or cross-platform, design the backend and APIs, and plan security."
+      },
+      {
+        "title": "Development sprints",
+        "desc": "Two-week sprints with installable test builds, so you see real progress on your phone."
+      },
+      {
+        "title": "Testing on real devices",
+        "desc": "Functional, performance and security testing across Android and iOS phones and tablets."
+      },
+      {
+        "title": "App store launch",
+        "desc": "We prepare store listings and handle Play Store and App Store submission and approval."
+      },
+      {
+        "title": "Support & growth",
+        "desc": "Monitoring, OS updates, bug fixes and new features based on user feedback and analytics."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technologies",
+    "title": "Mobile App Development Technologies",
+    "subtitle": "We pick the right stack for your app's performance, budget and future plans.",
+    "groups": [
+      {
+        "title": "Android",
+        "items": [
+          "Kotlin",
+          "Java",
+          "Jetpack Compose"
+        ]
+      },
+      {
+        "title": "iOS",
+        "items": [
+          "Swift",
+          "SwiftUI",
+          "Objective-C"
+        ]
+      },
+      {
+        "title": "Cross-Platform",
+        "items": [
+          "Flutter",
+          "React Native",
+          "Ionic",
+          "PWA"
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": [
+          "Node.js",
+          "Python",
+          "Firebase",
+          "REST & GraphQL",
+          "Cloud hosting"
+        ]
+      },
+      {
+        "title": "App Features",
+        "items": [
+          "Push notifications",
+          "Payments",
+          "Maps & GPS",
+          "Chat",
+          "Offline mode",
+          "Analytics"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Mobile App Development Company",
+    "subtitle": "We build apps that people keep using, not apps that get deleted after a week.",
+    "items": [
+      {
+        "title": "Native and cross-platform experts",
+        "desc": "Honest advice on Kotlin, Swift, Flutter or React Native based on your goals, not our preference."
+      },
+      {
+        "title": "User-focused design",
+        "desc": "Apps designed and tested with real users so they feel simple and intuitive."
+      },
+      {
+        "title": "Weekly test builds",
+        "desc": "Install the latest build on your phone every week and give feedback early."
+      },
+      {
+        "title": "Store launch handled",
+        "desc": "We manage listings, submissions and approvals for the Play Store and App Store."
+      },
+      {
+        "title": "Transparent pricing",
+        "desc": "Fixed, itemised quotes with no hidden costs, from MVP to full product."
+      },
+      {
+        "title": "Long-term support",
+        "desc": "OS updates, new features and monitoring after launch from the team that built your app."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does It Cost to Develop an App?",
+    "subtitle": "Mobile app development cost depends on features, platforms, design and backend. Typical ranges for apps we build:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Simple App or MVP",
+        "price": "$8,000 – $25,000",
+        "timeline": "2–3 months",
+        "desc": "Core features, user login, admin panel and one platform or a cross-platform build."
+      },
+      {
+        "name": "Business App",
+        "price": "$25,000 – $60,000",
+        "timeline": "3–5 months",
+        "desc": "Android and iOS apps with payments, notifications, integrations and analytics."
+      },
+      {
+        "name": "Complex App",
+        "price": "$60,000+",
+        "timeline": "5+ months",
+        "desc": "Marketplaces, real-time, AI or enterprise apps with complex backends."
+      }
+    ],
+    "note": "Cross-platform apps often cost 30 to 40% less than building two separate native apps. Fixed quote after a free consultation.",
+    "cta": "Get My Free App Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Mobile App Development FAQs",
+    "subtitle": "Quick answers for anyone planning a mobile app.",
+    "items": [
+      {
+        "q": "How much does it cost to develop a mobile app?",
+        "a": "A simple app or MVP typically costs $8,000 to $25,000, a business app for Android and iOS $25,000 to $60,000, and complex apps $60,000 or more, depending on features, design and backend."
+      },
+      {
+        "q": "How long does it take to build an app?",
+        "a": "A simple app or MVP usually takes 2 to 3 months, a business app 3 to 5 months and complex apps 5 months or more, with test builds shared every week."
+      },
+      {
+        "q": "Should I choose native or cross-platform app development?",
+        "a": "Native apps in Kotlin or Swift give the best performance and access to every device feature. Cross-platform apps in Flutter or React Native share one codebase for Android and iOS, reducing cost and time. We recommend based on your features, budget and roadmap."
+      },
+      {
+        "q": "Can you build an app for both Android and iOS?",
+        "a": "Yes. We build for both platforms, either as two native apps or one cross-platform app, and publish them on the Google Play Store and Apple App Store."
+      },
+      {
+        "q": "Can you turn my website into a mobile app?",
+        "a": "Yes. We can create a progressive web app from your website, or build a proper native or cross-platform app that connects to your existing website, store or backend."
+      },
+      {
+        "q": "Do I own the app and source code?",
+        "a": "Yes. You own 100% of the source code, designs and app store listings. We sign an NDA before you share your idea, and offer maintenance and support after launch."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Enterprise application development",
+        "href": "/enterprise-application-development"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "SaaS development",
+        "href": "/saas-development"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Ecommerce app case study",
+        "href": "/case-studies/lifestyle-gifting-ecommerce-app"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Have an App Idea? Let's Build It.",
+    "subtitle": "Book a free consultation. Share your idea and get honest advice, the right platform choice and a fixed estimate.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

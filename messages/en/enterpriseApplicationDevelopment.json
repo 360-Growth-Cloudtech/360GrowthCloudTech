@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "title": "Enterprise Application Development",
+    "description": "Enterprise application development: secure, scalable enterprise web and mobile apps, portals and platforms built with React, .NET, Java, Node.js and Flutter."
+  },
+  "breadcrumb": "Enterprise Application Development",
+  "form": {
+    "topic": "enterprise application development",
+    "options": [
+      "Enterprise web application",
+      "Enterprise mobile app",
+      "Field workforce / mobility app",
+      "Enterprise portal or dashboard",
+      "Modernise a legacy application",
+      "Enterprise software product",
+      "Pilot or MVP for a new app"
+    ]
+  },
+  "hero": {
+    "label": "Enterprise Application Development",
+    "title": "Enterprise Application Development Company Building",
+    "highlight": "Secure, Scalable Web & Mobile Apps",
+    "subtitle": "Enterprise web applications, mobile apps and platforms engineered for thousands of users, strict security and deep integration, built on proven frameworks your IT team can maintain."
+  },
+  "intro": {
+    "badge": "Enterprise Apps",
+    "title": "Applications Built for the Demands of Large Organisations",
+    "paragraphs": [
+      "Enterprise application development is the design and engineering of software that large organisations depend on every day: internal operations apps, field workforce apps, customer and partner platforms, analytics tools and digital products. These applications must serve many users and roles, protect sensitive data, integrate with existing systems and stay reliable for years.",
+      "We build enterprise web applications and enterprise mobile apps end to end: architecture, UI/UX, frontend and backend engineering, mobile development, integrations, testing, cloud deployment and support. Applications are designed with single sign-on, role-based access, audit logging and high availability from the first sprint, and documented so your in-house team can extend them.",
+      "We choose frameworks for long-term maintainability, such as React or Angular on the front end and .NET, Java, Node.js, Django or Laravel on the back end, with Flutter, React Native or native code for mobile. If you need business systems like ERP or CRM, see our <ces>custom enterprise software</ces> services, or <contact>talk to an enterprise architect</contact>."
+    ],
+    "highlightsTitle": "Every enterprise app we build has",
+    "highlights": [
+      "Single sign-on and role-based access",
+      "Audit logs and data encryption",
+      "High availability and scalability",
+      "Integration with ERP, CRM and legacy systems",
+      "Clean, documented architecture",
+      "Automated testing and CI/CD",
+      "Responsive web and mobile experiences",
+      "Long-term support and SLAs"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Enterprise Application Development Services",
+    "subtitle": "From a single departmental app to an enterprise-wide platform, we design and build applications that scale.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "custom",
+        "title": "Custom Enterprise Application Development",
+        "desc": "Custom enterprise applications designed around your processes, users and compliance needs, from internal tools to mission-critical systems.",
+        "bullets": [
+          "Process-specific applications",
+          "Complex roles and permissions",
+          "Compliance-ready design"
+        ],
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "id": "web",
+        "title": "Enterprise Web Application Development",
+        "desc": "Enterprise web apps that handle large data volumes and many concurrent users, with fast, accessible interfaces.",
+        "bullets": [
+          "Scalable web architecture",
+          "Fast, accessible UI",
+          "Browser-based access anywhere"
+        ],
+        "href": "/web-application-development"
+      },
+      {
+        "id": "mobile",
+        "title": "Enterprise Mobile App Development",
+        "desc": "Secure iOS and Android enterprise mobile apps for employees, field teams, partners and customers.",
+        "bullets": [
+          "Native iOS and Android",
+          "Offline mode and sync",
+          "Device and data security"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "fieldTeams",
+        "title": "Enterprise Mobility Solutions",
+        "desc": "Mobility apps for sales, service and field workforces: tasks, inspections, approvals, GPS tracking and photo capture on the go.",
+        "bullets": [
+          "Field service and sales apps",
+          "GPS and geofencing",
+          "Device management ready"
+        ]
+      },
+      {
+        "id": "crossPlatform",
+        "title": "Cross-Platform Enterprise Apps",
+        "desc": "Flutter and React Native enterprise apps that share one codebase across iOS, Android and web, reducing cost and time to market.",
+        "bullets": [
+          "One codebase, many platforms",
+          "Native-like performance",
+          "Faster releases"
+        ]
+      },
+      {
+        "id": "saas",
+        "title": "Enterprise Software Product Development",
+        "desc": "Build enterprise SaaS products and platforms for B2B customers, with multi-tenancy, SSO, admin consoles and usage analytics.",
+        "bullets": [
+          "Multi-tenant architecture",
+          "Enterprise SSO",
+          "Usage and billing analytics"
+        ],
+        "href": "/saas-development"
+      },
+      {
+        "id": "portal",
+        "title": "Enterprise Portals & Dashboards",
+        "desc": "Employee, customer, vendor and partner portals plus real-time dashboards that bring information from many systems together.",
+        "bullets": [
+          "Self-service portals",
+          "Real-time dashboards",
+          "Personalised views by role"
+        ]
+      },
+      {
+        "id": "migration",
+        "title": "Legacy Application Modernisation",
+        "desc": "Re-engineer ageing desktop or monolithic applications into modern, cloud-ready web and mobile apps, without disrupting users.",
+        "bullets": [
+          "Monolith to modular",
+          "Desktop to web and mobile",
+          "Phased, zero-downtime migration"
+        ]
+      },
+      {
+        "id": "integrations",
+        "title": "Enterprise Integration & APIs",
+        "desc": "Connect applications with ERP, CRM, HRMS, identity providers and legacy databases through secure APIs and middleware.",
+        "bullets": [
+          "REST and GraphQL APIs",
+          "Middleware and message queues",
+          "Identity and SSO integration"
+        ],
+        "href": "/api-integration"
+      },
+      {
+        "id": "rapid",
+        "title": "Rapid Enterprise App Development",
+        "desc": "Validate ideas quickly with a pilot or MVP in weeks, then scale the proven solution across the organisation.",
+        "bullets": [
+          "Pilots and MVPs",
+          "Fast feedback loops",
+          "Scale what works"
+        ]
+      },
+      {
+        "id": "cloud",
+        "title": "Cloud-Native & Microservices",
+        "desc": "Cloud-native enterprise applications using containers and microservices for resilience, scalability and faster releases.",
+        "bullets": [
+          "Containers and Kubernetes",
+          "Microservices architecture",
+          "Auto-scaling"
+        ],
+        "href": "/cloud-devops"
+      },
+      {
+        "id": "design",
+        "title": "Enterprise App UI/UX Design",
+        "desc": "User research and interface design that make complex enterprise workflows simple, reducing training time and errors.",
+        "bullets": [
+          "User research",
+          "Design systems",
+          "Usability testing"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "Enterprise Apps Across Industries",
+    "subtitle": "We build enterprise applications that meet the security, compliance and scale needs of each sector.",
+    "items": [
+      {
+        "id": "manufacturing",
+        "title": "Manufacturing",
+        "desc": "Plant operations, quality, maintenance and supply chain apps.",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Clinical, patient and hospital operations applications.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "fintech",
+        "title": "BFSI",
+        "desc": "Secure banking, lending and insurance applications.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics",
+        "desc": "Fleet, dispatch, warehouse and driver mobility apps.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "retail",
+        "title": "Retail",
+        "desc": "Store operations, dealer and sales force apps.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Learning platforms and institution management apps.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Project, sales and facility management applications.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "government",
+        "title": "Government",
+        "desc": "Citizen services and internal workflow applications.",
+        "href": "/contact"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Low-Code vs Custom",
+    "title": "Low-Code Platforms or Custom Enterprise App Development?",
+    "subtitle": "Low-code enterprise platforms are popular for quick internal apps. Here is how they compare with custom development.",
+    "columns": [
+      {
+        "title": "Low-code platforms",
+        "bestFor": "Fits: simple internal apps and prototypes",
+        "pros": [
+          "Fast for simple forms and workflows",
+          "Citizen developers can contribute"
+        ],
+        "cons": [
+          "Per-user or per-app licensing that grows quickly",
+          "Limits on complex logic, UX and performance",
+          "Vendor lock-in for code and data",
+          "Harder to integrate deeply with legacy systems"
+        ]
+      },
+      {
+        "title": "Custom enterprise app development",
+        "bestFor": "Best for: core, complex or customer-facing apps",
+        "pros": [
+          "No platform licence fees",
+          "Any logic, UX and performance you need",
+          "Deep integration with existing systems",
+          "Full ownership of code and data",
+          "Standard frameworks your team can maintain"
+        ],
+        "cons": [
+          "Requires an experienced engineering team"
+        ]
+      }
+    ],
+    "note": "Already using a low-code platform? We can build custom components, integrations or migrate critical apps to custom code. <contact>Ask an architect</contact>."
+  },
+  "outsourcing": {
+    "badge": "Engagement Models",
+    "title": "Enterprise Application Outsourcing, Your Way",
+    "subtitle": "Flexible models that fit your governance, procurement and in-house capability.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Phased Fixed-Scope",
+        "desc": "Clearly scoped phases with milestones, acceptance criteria and sign-offs.",
+        "bestFor": "Budget control"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated Enterprise Team",
+        "desc": "Architects, developers, QA and a delivery manager focused on your applications.",
+        "bestFor": "Long-term programmes"
+      },
+      {
+        "id": "augmentation",
+        "title": "Enterprise App Developers",
+        "desc": "Senior web and mobile developers who join your team and follow your standards.",
+        "bestFor": "Extra capacity"
+      },
+      {
+        "id": "offshore",
+        "title": "Offshore Delivery Centre",
+        "desc": "An offshore enterprise development team with time-zone overlap and enterprise governance.",
+        "bestFor": "Cost-efficient scale"
+      }
+    ],
+    "pointsTitle": "Enterprise-grade delivery",
+    "points": [
+      "Security reviews and NDA before access",
+      "Architecture documentation and code reviews",
+      "Automated testing and CI/CD pipelines",
+      "UAT, performance and security testing",
+      "SLA-backed support and monitoring",
+      "100% IP and source code ownership"
+    ],
+    "note": "Comparing top enterprise app development companies? We are happy to start with a paid discovery or pilot so you can judge us on real work. <contact>Book a discovery call</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Enterprise Application Development Process",
+    "subtitle": "A disciplined, transparent process designed to reduce risk on large projects.",
+    "steps": [
+      {
+        "title": "Discovery & requirements",
+        "desc": "Stakeholder workshops to define users, processes, integrations, security and success measures."
+      },
+      {
+        "title": "Architecture & technology selection",
+        "desc": "We choose frameworks, design the architecture and data model, and plan security and scalability."
+      },
+      {
+        "title": "UX design & prototyping",
+        "desc": "User flows and clickable prototypes validated with real users before development."
+      },
+      {
+        "title": "Agile development",
+        "desc": "Two-week sprints with demos, code reviews and automated tests on every change."
+      },
+      {
+        "title": "Integration & testing",
+        "desc": "Integration with existing systems, plus performance, security and user acceptance testing."
+      },
+      {
+        "title": "Deployment & rollout",
+        "desc": "Cloud or on-premise deployment through CI/CD, with phased rollout and user training."
+      },
+      {
+        "title": "Support & evolution",
+        "desc": "Monitoring, SLA-backed support and new features as your needs grow."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technologies",
+    "title": "Frameworks and Technologies for Enterprise Applications",
+    "subtitle": "Proven, well-supported frameworks chosen for performance, security and long-term maintainability.",
+    "groups": [
+      {
+        "title": "Web Frontend",
+        "items": [
+          "React",
+          "Angular",
+          "Vue.js",
+          "Next.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": [
+          ".NET / C#",
+          "Java / Spring",
+          "Node.js",
+          "Python / Django",
+          "PHP / Laravel, Symfony",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "title": "Mobile",
+        "items": [
+          "Swift (iOS)",
+          "Kotlin (Android)",
+          "Flutter",
+          "React Native"
+        ]
+      },
+      {
+        "title": "Cloud & DevOps",
+        "items": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes",
+          "CI/CD"
+        ]
+      },
+      {
+        "title": "Security & Integration",
+        "items": [
+          "SSO / OAuth",
+          "Role-based access",
+          "API gateway",
+          "Message queues",
+          "Audit logging"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Enterprise Application Development Company",
+    "subtitle": "Enterprise discipline with the speed and attention of a focused engineering partner.",
+    "items": [
+      {
+        "title": "Senior architects",
+        "desc": "Experienced architects design for scale, security and maintainability from day one."
+      },
+      {
+        "title": "Web and mobile in one team",
+        "desc": "Enterprise web apps and mobile apps built together on shared APIs and design systems."
+      },
+      {
+        "title": "Security by design",
+        "desc": "SSO, encryption, audit logs and secure coding practices on every project."
+      },
+      {
+        "title": "Maintainable code",
+        "desc": "Standard frameworks, documentation and tests your IT team can confidently take over."
+      },
+      {
+        "title": "Transparent delivery",
+        "desc": "Sprint demos, shared boards and clear reporting for stakeholders."
+      },
+      {
+        "title": "Long-term support",
+        "desc": "SLA-backed maintenance and continuous improvement after launch."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Enterprise App Development Cost?",
+    "subtitle": "Enterprise app development cost depends on users, platforms, integrations, security and scale. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Pilot or MVP",
+        "price": "$20,000 – $50,000",
+        "timeline": "2–4 months",
+        "desc": "A focused enterprise app to validate a process or idea with real users."
+      },
+      {
+        "name": "Enterprise Web or Mobile App",
+        "price": "$50,000 – $150,000",
+        "timeline": "4–8 months",
+        "desc": "A production enterprise application with integrations, SSO and full security."
+      },
+      {
+        "name": "Enterprise Platform",
+        "price": "$150,000+",
+        "timeline": "8+ months",
+        "desc": "Multi-app platforms with web, mobile, portals and complex integrations."
+      }
+    ],
+    "note": "Phased delivery spreads cost over time and delivers value early. Detailed estimate after a discovery workshop.",
+    "cta": "Book a Discovery Call"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Enterprise Application Development FAQs",
+    "subtitle": "Quick answers about building enterprise applications.",
+    "items": [
+      {
+        "q": "What is enterprise application development?",
+        "a": "Enterprise application development is designing, building and maintaining software for large organisations, such as operations apps, mobile workforce apps, portals and platforms, with enterprise requirements for security, scale, integration and reliability."
+      },
+      {
+        "q": "What is the best framework for enterprise applications?",
+        "a": "There is no single best choice. React or Angular are strong for enterprise web frontends; .NET, Java Spring and Node.js are common enterprise backends; Django and Laravel suit data-heavy and business apps; and Flutter or React Native work well for cross-platform mobile. We choose based on your requirements and team skills."
+      },
+      {
+        "q": "Should we use a low-code platform or custom development?",
+        "a": "Low-code suits simple internal apps and quick prototypes. Custom development is better for core, complex or customer-facing applications that need specific UX, performance, deep integration and freedom from per-user platform licences."
+      },
+      {
+        "q": "How much does enterprise app development cost?",
+        "a": "A pilot or MVP typically costs $20,000 to $50,000, a production enterprise web or mobile app $50,000 to $150,000, and enterprise platforms $150,000 or more, depending on scope and integrations."
+      },
+      {
+        "q": "How long does it take to build an enterprise application?",
+        "a": "A pilot usually takes 2 to 4 months, a full enterprise application 4 to 8 months and larger platforms 8 months or more, delivered in phases so users benefit earlier."
+      },
+      {
+        "q": "How do you secure enterprise mobile apps?",
+        "a": "We use secure authentication and SSO, encrypted storage and transport, role-based access, remote session control, and support for mobile device management, along with regular security testing."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Custom enterprise software",
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Mobile app development",
+        "href": "/mobile-app-development"
+      },
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "CRM software development",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Planning an Enterprise Application?",
+    "subtitle": "Book a free discovery call with a senior architect and get a clear, phased plan for your enterprise web or mobile app.",
+    "primary": "Book a Discovery Call",
+    "secondary": "Send a Message"
+  }
+}

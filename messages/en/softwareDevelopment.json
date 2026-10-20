@@ -60,7 +60,7 @@
           "Legacy system modernisation",
           "High-availability architecture"
         ],
-        "href": "/services#enterprise-application-development"
+        "href": "/custom-enterprise-software"
       },
       {
         "id": "saas",
@@ -71,7 +71,7 @@
           "Subscriptions and billing",
           "Product engineering after launch"
         ],
-        "href": "/services#saas-development"
+        "href": "/saas-development"
       },
       {
         "id": "web",
@@ -82,7 +82,7 @@
           "Dashboards and reporting",
           "Progressive web apps"
         ],
-        "href": "/services#web-application-development"
+        "href": "/web-application-development"
       },
       {
         "id": "mobile",
@@ -93,7 +93,7 @@
           "Cross-platform apps",
           "Store publishing and updates"
         ],
-        "href": "/services#mobile-app-development"
+        "href": "/mobile-app-development"
       },
       {
         "id": "ai",
@@ -104,7 +104,7 @@
           "Document and data extraction",
           "Predictive analytics"
         ],
-        "href": "/services#ai-automation"
+        "href": "/ai-automation"
       },
       {
         "id": "erp",
@@ -115,7 +115,7 @@
           "Multi-branch and multi-warehouse",
           "Accounting and tax integrations"
         ],
-        "href": "/services#custom-enterprise-software"
+        "href": "/custom-enterprise-software"
       },
       {
         "id": "crm",
@@ -158,7 +158,8 @@
           "Customer self-service portal",
           "Auto-assignment and escalation",
           "SLA tracking and reports"
-        ]
+        ],
+        "href": "/online-complaint-management-system"
       },
       {
         "id": "embedded",

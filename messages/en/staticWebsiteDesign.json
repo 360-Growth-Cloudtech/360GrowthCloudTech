@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "title": "Static Website Design Services",
+    "description": "Static website design and development: fast, secure, SEO-friendly HTML websites for small businesses, portfolios and landing pages at affordable prices. Free quote."
+  },
+  "breadcrumb": "Static Website Design",
+  "form": {
+    "topic": "static website design",
+    "options": [
+      "Static website for my business",
+      "One-page website",
+      "Portfolio website",
+      "Landing or event page",
+      "Design to HTML conversion",
+      "Upgrade my static site later",
+      "Not sure: static or dynamic?"
+    ]
+  },
+  "hero": {
+    "label": "Static Web Designing",
+    "title": "Static Website Design Services for",
+    "highlight": "Fast, Secure, Affordable Websites",
+    "subtitle": "Professionally designed static websites that load instantly, are almost impossible to hack, cost very little to host and look great on every screen. Ideal for small businesses, portfolios and landing pages."
+  },
+  "intro": {
+    "badge": "What Is a Static Website?",
+    "title": "Simple Websites That Load Fast and Just Work",
+    "paragraphs": [
+      "A static website is made of fixed web pages built with HTML, CSS and a little JavaScript. Every visitor sees the same pages, delivered straight from the server or a global CDN, with no database or complex software running in the background. That makes static sites extremely fast, secure, reliable and inexpensive to run.",
+      "For many businesses that is exactly what they need: a professional online presence that explains who you are, what you offer and how to contact you. Our static web designing services cover layout design, responsive HTML and CSS development, on-page SEO, contact forms, WhatsApp and Google Maps, plus domain, hosting and SSL setup, so your site is ready to go live.",
+      "Need regular updates, logins, a blog or an online store instead? A <dynamic>dynamic website</dynamic> may suit you better, and a static site can be upgraded later. Compare options on our <wd>web design services</wd> page or <contact>ask us what fits your business</contact>."
+    ],
+    "highlightsTitle": "Why choose a static website",
+    "highlights": [
+      "Loads in under a second",
+      "Highly secure: no database to attack",
+      "Low design and development cost",
+      "Very cheap or free hosting",
+      "SEO-friendly clean code",
+      "Reliable, with almost no downtime",
+      "Quick to design and launch",
+      "Easy to upgrade later"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Static Website Design and Development Services",
+    "subtitle": "Everything you need for a professional static website, from design to launch.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "design",
+        "title": "Custom Static Website Design",
+        "desc": "Clean, modern static website layouts designed around your brand, with clear sections that guide visitors to call, message or visit.",
+        "bullets": [
+          "Brand-matched design",
+          "Clear page structure",
+          "Strong calls to action"
+        ]
+      },
+      {
+        "id": "html",
+        "title": "HTML & CSS Development",
+        "desc": "Hand-coded, standards-compliant HTML5 and CSS3 pages that are lightweight, accessible and easy to maintain.",
+        "bullets": [
+          "HTML5, CSS3 and JavaScript",
+          "Clean, validated code",
+          "Accessibility basics"
+        ]
+      },
+      {
+        "id": "responsive",
+        "title": "Responsive Static Pages",
+        "desc": "Every static web page is designed mobile-first, so it looks and works perfectly on phones, tablets and desktops.",
+        "bullets": [
+          "Mobile-first layouts",
+          "Tested on real devices",
+          "Touch-friendly navigation"
+        ]
+      },
+      {
+        "id": "corporate",
+        "title": "Business Brochure Websites",
+        "desc": "Five to fifteen page static websites that present your business, services, team, gallery and contact details professionally.",
+        "bullets": [
+          "Home, about and services",
+          "Gallery and testimonials",
+          "Contact and map"
+        ]
+      },
+      {
+        "id": "portfolio",
+        "title": "Portfolio & Personal Websites",
+        "desc": "Elegant static portfolio sites for photographers, designers, architects, doctors and consultants to showcase work and win clients.",
+        "bullets": [
+          "Image-rich galleries",
+          "Personal branding",
+          "Enquiry forms"
+        ]
+      },
+      {
+        "id": "landing",
+        "title": "One-Page & Landing Page Sites",
+        "desc": "Single-page sites and landing pages for launches, events and ad campaigns, designed to convert visitors quickly.",
+        "bullets": [
+          "One-page scrolling layouts",
+          "Event and launch pages",
+          "Lead capture forms"
+        ],
+        "href": "/landing-page-design"
+      },
+      {
+        "id": "convert",
+        "title": "Design to HTML Conversion",
+        "desc": "Already have a design? We convert your mockups into pixel-perfect, responsive static HTML pages.",
+        "bullets": [
+          "Pixel-perfect conversion",
+          "Responsive breakpoints",
+          "Optimised assets"
+        ]
+      },
+      {
+        "id": "headless",
+        "title": "Modern Static Site Generators",
+        "desc": "For larger content sites, we use static site generators and headless content tools, so you get static speed with easy content editing.",
+        "bullets": [
+          "Static site generators",
+          "Headless content editing",
+          "Blog-ready static sites"
+        ]
+      },
+      {
+        "id": "forms",
+        "title": "Forms, WhatsApp & Maps",
+        "desc": "Static does not mean basic: add working contact forms, WhatsApp chat, Google Maps, social feeds and analytics.",
+        "bullets": [
+          "Contact and quote forms",
+          "WhatsApp click-to-chat",
+          "Maps and analytics"
+        ]
+      },
+      {
+        "id": "seo",
+        "title": "SEO-Friendly Static Pages",
+        "desc": "Fast pages, clean URLs, meta tags, schema and a sitemap give your website a strong start on Google.",
+        "bullets": [
+          "Meta tags and schema",
+          "XML sitemap",
+          "Search Console setup"
+        ]
+      },
+      {
+        "id": "hosting",
+        "title": "Domain, Hosting & SSL",
+        "desc": "We set up your domain, fast CDN hosting and SSL certificate, so your static website is secure and online worldwide.",
+        "bullets": [
+          "Domain connection",
+          "CDN hosting",
+          "Free SSL setup"
+        ]
+      },
+      {
+        "id": "migration",
+        "title": "Upgrade to Dynamic Later",
+        "desc": "Start with a static website and add a CMS, blog, booking system or online store when your business needs it, without starting again.",
+        "bullets": [
+          "Add CMS or blog",
+          "Add booking or store",
+          "Keep design and rankings"
+        ],
+        "href": "/dynamic-website-design"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who It Is For",
+    "title": "Who a Static Website Is Perfect For",
+    "subtitle": "If your content does not change every day, a static site is often the smartest choice.",
+    "items": [
+      {
+        "id": "shops",
+        "title": "Small Businesses",
+        "desc": "Local shops, services and traders who need an affordable, professional online presence.",
+        "href": "/web-design"
+      },
+      {
+        "id": "startups",
+        "title": "Startups",
+        "desc": "Launch pages and simple product sites while you validate your idea.",
+        "href": "/software-development"
+      },
+      {
+        "id": "professional",
+        "title": "Consultants & Professionals",
+        "desc": "Doctors, lawyers, accountants and consultants who need a credible web presence.",
+        "href": "/contact"
+      },
+      {
+        "id": "portfolio",
+        "title": "Creatives & Portfolios",
+        "desc": "Photographers, designers and architects showcasing their work.",
+        "href": "/contact"
+      },
+      {
+        "id": "events",
+        "title": "Events & Launches",
+        "desc": "Fast event pages with schedules, speakers, venue maps and registration links.",
+        "href": "/contact"
+      },
+      {
+        "id": "restaurant",
+        "title": "Restaurants & Cafés",
+        "desc": "Menus, photos, timings and location for diners on the go.",
+        "href": "/contact"
+      },
+      {
+        "id": "ngo",
+        "title": "NGOs & Communities",
+        "desc": "Low-cost, low-maintenance websites for non-profits and associations.",
+        "href": "/contact"
+      },
+      {
+        "id": "construction",
+        "title": "Contractors & Trades",
+        "desc": "Project photos, services and quote requests for builders and tradespeople.",
+        "href": "/contact"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Static vs Dynamic",
+    "title": "Static or Dynamic Website: Which Do You Need?",
+    "subtitle": "Both are good choices for different needs. Here is a quick way to decide.",
+    "columns": [
+      {
+        "title": "Dynamic website",
+        "bestFor": "Best for: frequent updates, logins, blogs and stores",
+        "pros": [
+          "Update content through an admin panel",
+          "Supports users, bookings and ecommerce",
+          "Personalised content"
+        ],
+        "cons": [
+          "Higher development and hosting cost",
+          "Needs regular security updates",
+          "Can be slower without optimisation"
+        ]
+      },
+      {
+        "title": "Static website",
+        "bestFor": "Best for: business, portfolio and landing sites",
+        "pros": [
+          "Extremely fast loading",
+          "Very secure and reliable",
+          "Lowest cost to build and host",
+          "Great for SEO and Core Web Vitals",
+          "Almost no maintenance"
+        ],
+        "cons": [
+          "Content changes need a developer, unless a headless CMS is added"
+        ]
+      }
+    ],
+    "note": "Not sure? Many businesses start with a static website and upgrade to dynamic when they need to. <contact>Ask for a recommendation</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Design Your Static Website",
+    "subtitle": "A quick, simple process that gets your website live in days, not months.",
+    "steps": [
+      {
+        "title": "Requirements & content",
+        "desc": "We agree on pages, sections and features, and collect your text, logo and photos, or help you write them."
+      },
+      {
+        "title": "Layout & design",
+        "desc": "We design the website layout and visual style for desktop and mobile, and refine it with your feedback."
+      },
+      {
+        "title": "HTML & CSS development",
+        "desc": "We code fast, responsive static pages with clean HTML5, CSS3 and JavaScript."
+      },
+      {
+        "title": "Testing & SEO",
+        "desc": "We test on browsers and devices, check speed, and add meta tags, schema and a sitemap."
+      },
+      {
+        "title": "Launch & hosting",
+        "desc": "We connect your domain, set up hosting and SSL, and launch your website."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Included",
+    "title": "What Every Static Website Includes",
+    "subtitle": "No hidden charges for the essentials. These come with every site we build.",
+    "groups": [
+      {
+        "title": "Design",
+        "items": [
+          "Custom layout",
+          "Responsive design",
+          "Brand colours",
+          "Icons and imagery"
+        ]
+      },
+      {
+        "title": "Technology",
+        "items": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Static site generator"
+        ]
+      },
+      {
+        "title": "Performance",
+        "items": [
+          "Fast loading",
+          "CDN delivery",
+          "Optimised images",
+          "Minified code"
+        ]
+      },
+      {
+        "title": "SEO",
+        "items": [
+          "Meta tags",
+          "Schema",
+          "Sitemap",
+          "Clean URLs"
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          "Contact form",
+          "WhatsApp",
+          "Google Maps",
+          "Analytics",
+          "SSL"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us for Static Web Design",
+    "subtitle": "A static website should still look premium and bring in business. That is what we deliver.",
+    "items": [
+      {
+        "title": "Professional design",
+        "desc": "Custom designs that make a small website look like a serious business."
+      },
+      {
+        "title": "Lightning-fast pages",
+        "desc": "Optimised code and CDN hosting for near-instant loading everywhere."
+      },
+      {
+        "title": "Transparent pricing",
+        "desc": "Clear website charges per package, with no hidden costs."
+      },
+      {
+        "title": "Quick turnaround",
+        "desc": "Most sites go live within one to two weeks."
+      },
+      {
+        "title": "SEO from day one",
+        "desc": "Clean structure and on-page SEO help customers find you on Google."
+      },
+      {
+        "title": "Room to grow",
+        "desc": "Upgrade to a CMS, blog or store later without starting over."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does a Static Website Cost?",
+    "subtitle": "Static website design price depends on the number of pages, design and extras. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "One-Page Website",
+        "price": "$200 – $500",
+        "timeline": "3–5 days",
+        "desc": "A single scrolling page with your services, gallery, contact form and WhatsApp."
+      },
+      {
+        "name": "Business Static Website",
+        "price": "$500 – $1,200",
+        "timeline": "1–2 weeks",
+        "desc": "Up to 8 pages, custom design, responsive, basic SEO, forms and maps."
+      },
+      {
+        "name": "Larger Static Website",
+        "price": "$1,200 – $2,500",
+        "timeline": "2–4 weeks",
+        "desc": "10 to 20 pages or a static site generator setup with easy content editing."
+      }
+    ],
+    "note": "Hosting for these sites is very low-cost, and we can set it up for you. Fixed quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Static Website FAQs",
+    "subtitle": "Quick answers about static website design.",
+    "items": [
+      {
+        "q": "What is a static website?",
+        "a": "A static website is made of fixed HTML pages that show the same content to every visitor, without a database. It is fast, secure and inexpensive, and ideal for business, portfolio and landing page websites."
+      },
+      {
+        "q": "What is the difference between a static and a dynamic website?",
+        "a": "A static website serves fixed pages and is changed by editing the files. A dynamic website generates pages from a database and an admin panel, which suits blogs, logins, bookings and online stores but costs more to build and maintain."
+      },
+      {
+        "q": "How much does it cost to build a static website?",
+        "a": "A one-page static website typically costs $200 to $500, a business static website of up to 8 pages $500 to $1,200, and larger static sites $1,200 to $2,500, depending on design and features."
+      },
+      {
+        "q": "How long does it take to design a static website?",
+        "a": "A one-page site takes 3 to 5 days, and most business static websites go live in 1 to 2 weeks once content is ready."
+      },
+      {
+        "q": "Are static websites good for SEO?",
+        "a": "Yes. Static websites load very fast and have clean code, which helps Core Web Vitals and rankings. With good content, meta tags, schema and a sitemap, a static site can rank very well."
+      },
+      {
+        "q": "Can I update my static website or upgrade it later?",
+        "a": "Yes. We can make small updates for you, add a simple content editor, or upgrade your static website to a dynamic site with a CMS, blog or store whenever you need."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Web design & development",
+        "href": "/web-design"
+      },
+      {
+        "label": "Dynamic website design",
+        "href": "/dynamic-website-design"
+      },
+      {
+        "label": "Website redesign",
+        "href": "/website-redesign"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Get Your Static Website Live This Week",
+    "subtitle": "Book a free consultation. Tell us about your business and get a clear plan and a fixed, affordable quote.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

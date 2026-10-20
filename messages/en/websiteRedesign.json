@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "title": "Website Redesign Services",
+    "description": "Professional website redesign services: modern, mobile-friendly, faster and SEO-safe redesigns that bring more enquiries, without losing your Google rankings."
+  },
+  "breadcrumb": "Website Redesign",
+  "form": {
+    "topic": "a website redesign",
+    "options": [
+      "Complete website redesign",
+      "Small business website redesign",
+      "Mobile-friendly redesign",
+      "Speed and SEO improvement",
+      "B2B website redesign",
+      "Ecommerce website redesign",
+      "Content and brand refresh"
+    ]
+  },
+  "hero": {
+    "label": "Website Redesign Services",
+    "title": "Website Redesign Services That",
+    "highlight": "Turn Your Old Site Into a Growth Engine",
+    "subtitle": "We redesign outdated, slow or hard-to-use websites into modern, mobile-friendly, fast-loading sites that win trust and bring in more enquiries, without losing your Google rankings."
+  },
+  "intro": {
+    "badge": "Website Revamp",
+    "title": "Is It Time to Redesign Your Website?",
+    "paragraphs": [
+      "Websites age quickly. Design trends change, most visitors now arrive on phones, Google rewards fast pages, and your business has probably grown since the site was built. An outdated website does not just look old; it quietly loses enquiries, ranks lower and makes your business seem smaller than it is.",
+      "A professional website redesign fixes the root problems, not just the colours. We start with an audit of your current site, analytics and search rankings, find what is stopping visitors from becoming customers, and then redesign the structure, content, design and code to solve it. Pages that already rank well are protected with careful SEO migration and redirects.",
+      "Whether you need a quick website revamp for a small business, a complete B2B web redesign or an ecommerce store refresh, you get one team for strategy, design, development, content and SEO. See our <wd>web design services</wd>, browse <work>websites we have built</work> or <contact>request a free website audit</contact>."
+    ],
+    "highlightsTitle": "Signs you need a website redesign",
+    "highlights": [
+      "Your site looks dated next to competitors",
+      "It is hard to use on mobile phones",
+      "Pages load slowly",
+      "Visitors leave without enquiring",
+      "You cannot update content easily",
+      "Google rankings and traffic are falling",
+      "Your brand or services have changed",
+      "Security warnings or broken features"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Website Redesign Services We Offer",
+    "subtitle": "From a focused refresh to a complete rebuild, we improve what matters most for your visitors and your business.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "redesign",
+        "title": "Complete Website Redesign",
+        "desc": "A full redesign of structure, look, content and code, so your website reflects your business today and is ready for the next few years.",
+        "bullets": [
+          "New sitemap and navigation",
+          "Modern custom design",
+          "Rebuilt on a fast, secure stack"
+        ]
+      },
+      {
+        "id": "design",
+        "title": "UX & Conversion Redesign",
+        "desc": "We redesign page layouts, calls to action and forms based on how real visitors behave, so more of them call, enquire or buy.",
+        "bullets": [
+          "Clear calls to action",
+          "Simpler forms and journeys",
+          "Trust signals and social proof"
+        ]
+      },
+      {
+        "id": "responsive",
+        "title": "Mobile-Friendly Redesign",
+        "desc": "Affordable mobile website redesign that makes your site easy to read, tap and navigate on every phone and tablet.",
+        "bullets": [
+          "Mobile-first layouts",
+          "Touch-friendly menus",
+          "Click-to-call and WhatsApp"
+        ],
+        "href": "/mobile-website-design"
+      },
+      {
+        "id": "optimisation",
+        "title": "Speed & Performance Upgrade",
+        "desc": "Faster pages through optimised images, modern code, caching and better hosting, improving Core Web Vitals, rankings and conversions.",
+        "bullets": [
+          "Core Web Vitals improvements",
+          "Image and code optimisation",
+          "Better hosting and CDN"
+        ]
+      },
+      {
+        "id": "seo",
+        "title": "SEO-Safe Redesign & Migration",
+        "desc": "We map every old URL, set up redirects and carry over titles, content and schema, so your Google rankings are protected during the redesign.",
+        "bullets": [
+          "URL mapping and 301 redirects",
+          "On-page SEO carried over",
+          "Post-launch ranking monitoring"
+        ]
+      },
+      {
+        "id": "content",
+        "title": "Content Refresh & Copywriting",
+        "desc": "Clear, persuasive copy that explains what you do, who you help and why customers should choose you, written for people and search engines.",
+        "bullets": [
+          "Rewritten service pages",
+          "SEO-friendly headings",
+          "New photos and visuals"
+        ]
+      },
+      {
+        "id": "brand",
+        "title": "Brand Refresh",
+        "desc": "Update your logo, colours, typography and visual style so your website and brand feel modern and consistent everywhere.",
+        "bullets": [
+          "Logo and colour refresh",
+          "Typography and icon style",
+          "Brand guidelines"
+        ],
+        "href": "/brand-identity-design"
+      },
+      {
+        "id": "migration",
+        "title": "CMS & Platform Upgrade",
+        "desc": "Move from an old, hard-to-edit or insecure platform to a modern CMS your team can update easily, with all content migrated safely.",
+        "bullets": [
+          "Content migration",
+          "Easy editing for your team",
+          "Security and updates"
+        ]
+      },
+      {
+        "id": "smallBusiness",
+        "title": "Small Business Website Redesign",
+        "desc": "Affordable redesign packages for small businesses, shops, clinics and consultants that need a professional site without a big budget.",
+        "bullets": [
+          "Fixed, affordable packages",
+          "Fast turnaround",
+          "Google Maps and reviews"
+        ]
+      },
+      {
+        "id": "b2b",
+        "title": "B2B Website Redesign",
+        "desc": "B2B web redesign focused on lead generation: clear solutions pages, case studies, gated content and forms connected to your CRM.",
+        "bullets": [
+          "Solution and industry pages",
+          "Case studies and resources",
+          "CRM-connected lead forms"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "ecommerce",
+        "title": "Ecommerce Website Redesign",
+        "desc": "Redesign your online store for faster browsing, better product pages and a simpler checkout that lifts conversion rates.",
+        "bullets": [
+          "Product page redesign",
+          "Faster checkout",
+          "Search and filters"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "ai",
+        "title": "AI-Powered Website Redesign",
+        "desc": "Use AI where it helps: faster content drafting, smarter site search, personalised content and an AI chat assistant that captures leads around the clock.",
+        "bullets": [
+          "AI chat assistant",
+          "Smart search and personalisation",
+          "AI-assisted content updates"
+        ],
+        "href": "/ai-automation"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Help",
+    "title": "Website Redesign for Every Type of Business",
+    "subtitle": "We have redesigned websites for businesses of every size and sector.",
+    "items": [
+      {
+        "id": "shops",
+        "title": "Small Businesses",
+        "desc": "Affordable redesigns that make local businesses look established and easy to contact.",
+        "href": "/web-design"
+      },
+      {
+        "id": "b2b",
+        "title": "B2B Companies",
+        "desc": "Lead-focused redesigns with clear solutions, proof and conversion paths for sales teams.",
+        "href": "/contact"
+      },
+      {
+        "id": "healthcare",
+        "title": "Clinics & Hospitals",
+        "desc": "Redesigns for orthopaedic, dental and specialty clinics with doctor profiles and online booking.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Modern project pages, listings and enquiry flows for developers and brokers.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Clearer course pages, admissions journeys and student resources.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "retail",
+        "title": "Ecommerce Stores",
+        "desc": "Store redesigns that improve product discovery and checkout conversion.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "professional",
+        "title": "Professional Services",
+        "desc": "Credible redesigns for consultants, law firms, accountants and agencies.",
+        "href": "/contact"
+      },
+      {
+        "id": "startups",
+        "title": "Startups",
+        "desc": "Sharper messaging and design as your product and positioning mature.",
+        "href": "/software-development"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Fix or Redesign?",
+    "title": "Small Fixes or a Full Website Redesign?",
+    "subtitle": "Sometimes a few changes are enough. Here is how to decide.",
+    "columns": [
+      {
+        "title": "Patching the existing site",
+        "bestFor": "Enough when: the site is recent and mostly works",
+        "pros": [
+          "Lower cost",
+          "Quick to do"
+        ],
+        "cons": [
+          "Old structure and code remain",
+          "Mobile and speed issues often persist",
+          "Inconsistent look as patches pile up",
+          "Hard to improve rankings and conversions"
+        ]
+      },
+      {
+        "title": "Professional website redesign",
+        "bestFor": "Best when: the site is dated, slow or not converting",
+        "pros": [
+          "Modern design that builds trust",
+          "Mobile-first and fast",
+          "Structure planned for SEO and conversions",
+          "Easy-to-edit CMS",
+          "Rankings protected with SEO migration"
+        ],
+        "cons": [
+          "Bigger one-time investment"
+        ]
+      }
+    ],
+    "note": "Not sure which you need? Our free website audit tells you honestly whether fixes or a redesign will give you a better return. <contact>Request a free audit</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Website Redesign Process",
+    "subtitle": "A careful, step-by-step process that improves your website without putting your traffic at risk.",
+    "steps": [
+      {
+        "title": "Website audit",
+        "desc": "We review design, user experience, speed, SEO, analytics and content to find what is holding your site back."
+      },
+      {
+        "title": "Strategy & sitemap",
+        "desc": "We agree on goals, audiences and a new page structure, mapping every old URL to its new home."
+      },
+      {
+        "title": "Redesign",
+        "desc": "Fresh, modern design mockups for desktop and mobile, refined with your feedback."
+      },
+      {
+        "title": "Development",
+        "desc": "We rebuild the website on a fast, secure, easy-to-edit platform."
+      },
+      {
+        "title": "Content & SEO migration",
+        "desc": "Content is refreshed and moved, with 301 redirects, meta tags and schema in place."
+      },
+      {
+        "title": "Testing & launch",
+        "desc": "Device, browser, speed and form testing, followed by a smooth launch with no downtime."
+      },
+      {
+        "title": "Monitor & improve",
+        "desc": "We track rankings, traffic and enquiries after launch and keep improving."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Results",
+    "title": "What a Website Redesign Improves",
+    "subtitle": "A good redesign improves how your site looks, works and performs for your business.",
+    "groups": [
+      {
+        "title": "Design",
+        "items": [
+          "Modern look",
+          "Brand consistency",
+          "Clear layouts",
+          "Better visuals"
+        ]
+      },
+      {
+        "title": "Mobile",
+        "items": [
+          "Responsive pages",
+          "Easy navigation",
+          "Click-to-call",
+          "WhatsApp chat"
+        ]
+      },
+      {
+        "title": "Speed",
+        "items": [
+          "Faster loading",
+          "Core Web Vitals",
+          "Optimised images",
+          "Better hosting"
+        ]
+      },
+      {
+        "title": "SEO",
+        "items": [
+          "Clean structure",
+          "Redirects",
+          "Schema markup",
+          "Optimised content"
+        ]
+      },
+      {
+        "title": "Conversions",
+        "items": [
+          "Stronger calls to action",
+          "Simpler forms",
+          "Trust signals",
+          "Lead tracking"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Website Redesign Company",
+    "subtitle": "We redesign websites to perform better, not just to look different.",
+    "items": [
+      {
+        "title": "Audit-led decisions",
+        "desc": "Every change is based on data from your analytics, rankings and visitor behaviour."
+      },
+      {
+        "title": "Rankings protected",
+        "desc": "Careful SEO migration and redirects keep the traffic you have already earned."
+      },
+      {
+        "title": "Design that converts",
+        "desc": "Layouts and calls to action planned to turn visitors into enquiries and sales."
+      },
+      {
+        "title": "Affordable packages",
+        "desc": "Clear, fixed prices for small businesses and custom quotes for larger sites."
+      },
+      {
+        "title": "One complete team",
+        "desc": "Strategy, design, development, content and SEO under one roof."
+      },
+      {
+        "title": "Support after launch",
+        "desc": "Hosting, maintenance and ongoing improvements once your new site is live."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does a Website Redesign Cost?",
+    "subtitle": "The cost of a website redesign depends on the number of pages, design, content and features. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Small Business Redesign",
+        "price": "$600 – $2,000",
+        "timeline": "2–3 weeks",
+        "desc": "Up to 8 pages redesigned, mobile-friendly, faster, with basic SEO migration."
+      },
+      {
+        "name": "Business or B2B Redesign",
+        "price": "$2,000 – $7,000",
+        "timeline": "3–6 weeks",
+        "desc": "Full redesign with new structure, content refresh, CMS, speed and SEO migration."
+      },
+      {
+        "name": "Ecommerce or Large Website",
+        "price": "$7,000+",
+        "timeline": "6+ weeks",
+        "desc": "Large or ecommerce sites with complex migration, integrations and custom features."
+      }
+    ],
+    "note": "Every redesign starts with a free website audit, and you get a fixed, itemised quote before work begins.",
+    "cta": "Get My Free Website Audit"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Website Redesign FAQs",
+    "subtitle": "Quick answers about redesigning your website.",
+    "items": [
+      {
+        "q": "How much does a website redesign cost?",
+        "a": "A small business website redesign typically costs $600 to $2,000, a business or B2B redesign $2,000 to $7,000, and ecommerce or large sites from $7,000. The price depends on pages, content, design and features."
+      },
+      {
+        "q": "How long does a website redesign take?",
+        "a": "A small business redesign usually takes 2 to 3 weeks, a full business redesign 3 to 6 weeks, and large or ecommerce redesigns 6 weeks or more."
+      },
+      {
+        "q": "Will I lose my Google rankings after a redesign?",
+        "a": "Not if it is done properly. We map every old URL to its new page, set up 301 redirects, keep or improve titles, content and schema, and monitor rankings after launch."
+      },
+      {
+        "q": "How do I know if my website needs a redesign?",
+        "a": "Common signs are an outdated look, poor mobile experience, slow loading, falling traffic, few enquiries, difficulty updating content, or a site that no longer matches your business. A free audit will confirm it."
+      },
+      {
+        "q": "Can you redesign my website and keep my domain and content?",
+        "a": "Yes. Your domain stays the same and we can keep, improve or rewrite your existing content. We can also keep your current hosting or move you to faster hosting."
+      },
+      {
+        "q": "What is an AI website redesign?",
+        "a": "It is a redesign that uses AI where it adds value, such as an AI chat assistant that answers visitors and captures leads, smarter site search, personalised content and faster content updates, while design decisions stay human-led."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Web design & development",
+        "href": "/web-design"
+      },
+      {
+        "label": "Static website design",
+        "href": "/static-website-design"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Get a Website You Are Proud to Share",
+    "subtitle": "Book a free website audit. We will show you what is holding your current site back and how a redesign can bring in more customers.",
+    "primary": "Book a Free Website Audit",
+    "secondary": "Send a Message"
+  }
+}

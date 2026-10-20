@@ -1,0 +1,530 @@
+{
+  "meta": {
+    "title": "Cloud & DevOps Consulting Services",
+    "description": "DevOps consulting and managed cloud services: CI/CD automation, cloud migration, Kubernetes, infrastructure as code, cost optimisation and 24/7 monitoring."
+  },
+  "breadcrumb": "Cloud & DevOps",
+  "form": {
+    "topic": "cloud and DevOps services",
+    "options": [
+      "DevOps consulting / assessment",
+      "CI/CD pipeline setup",
+      "Cloud migration",
+      "Managed DevOps (DevOps as a service)",
+      "Kubernetes and containers",
+      "Reduce my cloud costs",
+      "24/7 monitoring and support"
+    ]
+  },
+  "hero": {
+    "label": "Cloud & DevOps Services",
+    "title": "Cloud & DevOps Services Company That Helps You",
+    "highlight": "Ship Faster and Scale Safely",
+    "subtitle": "DevOps consulting, CI/CD automation, cloud migration and managed cloud operations that make releases routine, infrastructure reliable and cloud bills predictable."
+  },
+  "intro": {
+    "badge": "DevOps & Cloud",
+    "title": "Faster Releases, Fewer Outages, Lower Cloud Bills",
+    "paragraphs": [
+      "Many teams still deploy by hand, fear release days, discover outages from customers and watch cloud bills climb every month. DevOps fixes this by automating how software is built, tested, deployed and monitored, and by treating infrastructure as code that can be versioned, reviewed and repeated.",
+      "As a DevOps service provider, we help you at whatever stage you are. Our DevOps consulting services assess your current setup and build a practical roadmap. Our engineers then implement CI/CD pipelines, containerise applications, migrate workloads to the cloud, set up monitoring and security, and optimise costs. If you prefer, we run it all for you as managed DevOps, also known as DevOps as a service.",
+      "We work with startups, SaaS companies and enterprises across public, private, hybrid and multi-cloud environments. Building a new product? See our <saas>SaaS development</saas> services, or <contact>book a free DevOps assessment</contact>."
+    ],
+    "highlightsTitle": "What DevOps and cloud services deliver",
+    "highlights": [
+      "Automated, repeatable deployments",
+      "Releases daily instead of monthly",
+      "Fewer outages and faster recovery",
+      "Infrastructure as code",
+      "Auto-scaling for traffic spikes",
+      "Lower, predictable cloud costs",
+      "Security built into pipelines",
+      "24/7 monitoring and alerts"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Cloud & DevOps Consulting Services",
+    "subtitle": "From a one-time DevOps assessment to fully managed cloud operations, choose the help you need.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "strategy",
+        "title": "DevOps Consulting & Assessment",
+        "desc": "We review your code, pipelines, infrastructure and processes, then deliver a clear DevOps roadmap with quick wins and long-term improvements.",
+        "bullets": [
+          "Current-state assessment",
+          "Maturity and gap analysis",
+          "Prioritised roadmap"
+        ]
+      },
+      {
+        "id": "cicd",
+        "title": "CI/CD Pipeline Automation",
+        "desc": "Continuous integration and continuous delivery pipelines that build, test and deploy every change automatically and safely.",
+        "bullets": [
+          "Automated builds and tests",
+          "One-click or automatic deployments",
+          "Rollbacks and approvals"
+        ]
+      },
+      {
+        "id": "cloudMigration",
+        "title": "Cloud Migration",
+        "desc": "Move applications and data from on-premise servers or another cloud with a planned, low-risk migration and minimal downtime.",
+        "bullets": [
+          "Migration assessment and plan",
+          "Rehost, replatform or refactor",
+          "Zero or minimal downtime cutover"
+        ]
+      },
+      {
+        "id": "managed",
+        "title": "Managed DevOps & Cloud Operations",
+        "desc": "DevOps as a service: our engineers run, patch, monitor and improve your cloud infrastructure, so your team can focus on the product.",
+        "bullets": [
+          "Day-to-day cloud management",
+          "Patching and upgrades",
+          "Monthly reports and reviews"
+        ]
+      },
+      {
+        "id": "iac",
+        "title": "Infrastructure as Code",
+        "desc": "Define servers, networks and services as code, so environments are consistent, documented and reproducible in minutes.",
+        "bullets": [
+          "Version-controlled infrastructure",
+          "Identical dev, staging and production",
+          "Faster environment setup"
+        ]
+      },
+      {
+        "id": "containers",
+        "title": "Containers & Kubernetes",
+        "desc": "Containerise applications and run them on managed Kubernetes for portability, efficient resource use and easy scaling.",
+        "bullets": [
+          "Containerisation",
+          "Kubernetes setup and management",
+          "Service mesh and ingress"
+        ]
+      },
+      {
+        "id": "costSaving",
+        "title": "Cloud Cost Optimisation",
+        "desc": "Find and remove waste in your cloud bill with right-sizing, reserved capacity, auto-scaling and cost monitoring.",
+        "bullets": [
+          "Cost audit and right-sizing",
+          "Reserved and spot capacity",
+          "Budgets and cost alerts"
+        ]
+      },
+      {
+        "id": "security",
+        "title": "DevSecOps & Cloud Security",
+        "desc": "Security checks inside your pipelines plus hardened cloud configuration, access control and secrets management.",
+        "bullets": [
+          "Vulnerability scanning in CI/CD",
+          "Identity and access management",
+          "Secrets and encryption"
+        ]
+      },
+      {
+        "id": "monitoring",
+        "title": "Monitoring, Observability & SRE",
+        "desc": "Metrics, logs, traces and alerts that show problems before customers notice, with site reliability practices for uptime.",
+        "bullets": [
+          "Dashboards and alerting",
+          "Centralised logging",
+          "Uptime and SLO tracking"
+        ]
+      },
+      {
+        "id": "dr",
+        "title": "Backup & Disaster Recovery",
+        "desc": "Automated backups and tested disaster recovery plans, so you can recover quickly from failures, mistakes or attacks.",
+        "bullets": [
+          "Automated backups",
+          "Multi-region recovery",
+          "Regular recovery drills"
+        ]
+      },
+      {
+        "id": "scaling",
+        "title": "Capacity Planning & Auto-Scaling",
+        "desc": "Plan for growth and traffic spikes with load testing, capacity planning and auto-scaling that adds resources only when needed.",
+        "bullets": [
+          "Load and stress testing",
+          "Capacity forecasts",
+          "Auto-scaling policies"
+        ]
+      },
+      {
+        "id": "qa",
+        "title": "DevOps Quality Assurance",
+        "desc": "Automated unit, integration and end-to-end tests built into your pipelines, so quality is checked on every release.",
+        "bullets": [
+          "Test automation in CI/CD",
+          "Quality gates",
+          "Performance testing"
+        ],
+        "href": "/qa-testing"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Help",
+    "title": "DevOps and Cloud for Every Kind of Team",
+    "subtitle": "From a two-person startup to a regulated enterprise, we adapt DevOps practices to your size and risk.",
+    "items": [
+      {
+        "id": "saas",
+        "title": "SaaS Companies",
+        "desc": "Multi-tenant cloud infrastructure, zero-downtime releases and cost control as customers grow.",
+        "href": "/saas-development"
+      },
+      {
+        "id": "startups",
+        "title": "Startups",
+        "desc": "Simple, affordable cloud setups and CI/CD from day one, ready to scale.",
+        "href": "/software-development"
+      },
+      {
+        "id": "retail",
+        "title": "Ecommerce",
+        "desc": "Auto-scaling infrastructure that stays up during sales and festive traffic.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "fintech",
+        "title": "Fintech",
+        "desc": "Secure, compliant cloud environments with strict access control and audit trails.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Privacy-focused cloud infrastructure with encryption and backups.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "enterprise",
+        "title": "Enterprises",
+        "desc": "Hybrid and multi-cloud DevOps transformation across many teams.",
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "id": "education",
+        "title": "EdTech",
+        "desc": "Scalable platforms for live classes, exams and peak-time traffic.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics",
+        "desc": "Reliable real-time tracking and integration infrastructure.",
+        "href": "/industries#logistics"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "In-House vs Managed",
+    "title": "In-House DevOps Team or DevOps as a Service?",
+    "subtitle": "Building a DevOps team takes time and money. Here is how managed DevOps compares.",
+    "columns": [
+      {
+        "title": "Hiring an in-house DevOps team",
+        "bestFor": "Fits: large organisations with steady, complex needs",
+        "pros": [
+          "Full-time internal knowledge",
+          "Direct day-to-day control"
+        ],
+        "cons": [
+          "Expensive and slow to hire senior engineers",
+          "Single points of failure when people leave",
+          "Hard to cover 24/7 support",
+          "Skills gaps across cloud, security and Kubernetes"
+        ]
+      },
+      {
+        "title": "DevOps as a service",
+        "bestFor": "Best for: startups, SaaS and growing teams",
+        "pros": [
+          "Senior DevOps expertise from day one",
+          "Predictable monthly cost",
+          "24/7 monitoring and on-call coverage",
+          "Broad cloud, security and Kubernetes skills",
+          "Scale support up or down as needed"
+        ],
+        "cons": [
+          "Requires clear communication and access policies"
+        ]
+      }
+    ],
+    "note": "Many clients start with a DevOps assessment, then choose managed DevOps or train their own team. <contact>Book a free assessment</contact>."
+  },
+  "outsourcing": {
+    "badge": "Engagement Models",
+    "title": "Flexible Ways to Work With Our DevOps Engineers",
+    "subtitle": "Choose project-based consulting, ongoing managed services or dedicated engineers.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "DevOps Consulting Project",
+        "desc": "A defined project such as CI/CD setup, Kubernetes migration or a cloud move, with fixed scope and price.",
+        "bestFor": "One-time improvements"
+      },
+      {
+        "id": "subscription",
+        "title": "Managed DevOps",
+        "desc": "Monthly managed cloud and DevOps services with monitoring, maintenance and improvements.",
+        "bestFor": "Ongoing operations"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated DevOps Engineers",
+        "desc": "Senior DevOps and cloud engineers working as part of your team.",
+        "bestFor": "Large or fast-moving teams"
+      },
+      {
+        "id": "support",
+        "title": "24/7 Support & On-Call",
+        "desc": "Round-the-clock monitoring, incident response and SLA-backed support.",
+        "bestFor": "Mission-critical systems"
+      }
+    ],
+    "pointsTitle": "What you can expect",
+    "points": [
+      "Certified, senior cloud engineers",
+      "Documented infrastructure and runbooks",
+      "Least-privilege, audited access",
+      "Clear SLAs and incident reports",
+      "Monthly cost and performance reviews",
+      "No lock-in: you own all code and accounts"
+    ],
+    "note": "Comparing DevOps consulting companies? Start with a short paid assessment and judge our work before committing long term. <contact>Talk to an engineer</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our DevOps and Cloud Process",
+    "subtitle": "A step-by-step approach that improves reliability without disrupting your releases.",
+    "steps": [
+      {
+        "title": "Assess",
+        "desc": "We review your applications, infrastructure, pipelines, security and cloud spend."
+      },
+      {
+        "title": "Plan",
+        "desc": "A prioritised roadmap with quick wins, target architecture and success metrics."
+      },
+      {
+        "title": "Automate",
+        "desc": "CI/CD pipelines, infrastructure as code and automated testing are put in place."
+      },
+      {
+        "title": "Migrate & containerise",
+        "desc": "Workloads move to the cloud or Kubernetes in planned phases with minimal downtime."
+      },
+      {
+        "title": "Secure & monitor",
+        "desc": "Security controls, monitoring, alerting, backups and disaster recovery are configured."
+      },
+      {
+        "title": "Optimise & support",
+        "desc": "Ongoing cost optimisation, performance tuning and 24/7 support."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technologies",
+    "title": "Cloud and DevOps Technologies We Use",
+    "subtitle": "Proven, widely supported tools so your setup is never dependent on us alone.",
+    "groups": [
+      {
+        "title": "Cloud Platforms",
+        "items": [
+          "AWS",
+          "Microsoft Azure",
+          "Google Cloud",
+          "Private cloud",
+          "Hybrid cloud"
+        ]
+      },
+      {
+        "title": "Containers",
+        "items": [
+          "Docker",
+          "Kubernetes",
+          "Helm",
+          "Service mesh"
+        ]
+      },
+      {
+        "title": "Infrastructure as Code",
+        "items": [
+          "Terraform",
+          "Ansible",
+          "Pulumi",
+          "GitOps"
+        ]
+      },
+      {
+        "title": "CI/CD",
+        "items": [
+          "GitHub Actions",
+          "GitLab CI",
+          "Jenkins",
+          "Automated testing"
+        ]
+      },
+      {
+        "title": "Observability & Security",
+        "items": [
+          "Prometheus",
+          "Grafana",
+          "Centralised logging",
+          "Secrets management",
+          "Vulnerability scanning"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your DevOps Service Provider",
+    "subtitle": "Practical DevOps that makes life easier for your developers and safer for your business.",
+    "items": [
+      {
+        "title": "Developer-friendly",
+        "desc": "We are software engineers too, so pipelines and environments are built for how developers really work."
+      },
+      {
+        "title": "Cloud-agnostic",
+        "desc": "Experience across major public clouds, private cloud, hybrid and multi-cloud setups."
+      },
+      {
+        "title": "Security built in",
+        "desc": "DevSecOps practices, least-privilege access and audit trails as standard."
+      },
+      {
+        "title": "Cost-conscious",
+        "desc": "We design for efficiency and regularly review your cloud bill for savings."
+      },
+      {
+        "title": "Documented and transferable",
+        "desc": "Infrastructure as code and runbooks your team can take over at any time."
+      },
+      {
+        "title": "Always-on support",
+        "desc": "24/7 monitoring and SLA-backed incident response for critical systems."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Do DevOps and Cloud Services Cost?",
+    "subtitle": "Cost depends on the size of your infrastructure, number of applications and level of support. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "DevOps Assessment",
+        "price": "$1,500 – $4,000",
+        "timeline": "1–2 weeks",
+        "desc": "Review of pipelines, infrastructure, security and costs with a prioritised roadmap."
+      },
+      {
+        "name": "DevOps Implementation",
+        "price": "$4,000 – $20,000",
+        "timeline": "2–8 weeks",
+        "desc": "CI/CD, infrastructure as code, containerisation or a cloud migration project."
+      },
+      {
+        "name": "Managed DevOps",
+        "price": "From $1,000 / month",
+        "timeline": "Ongoing",
+        "desc": "Monitoring, maintenance, cost optimisation and support for your cloud environment."
+      }
+    ],
+    "note": "Cloud cost optimisation often saves more than our fees. Fixed quote after a free assessment call.",
+    "cta": "Book a Free Assessment"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Cloud & DevOps FAQs",
+    "subtitle": "Quick answers about DevOps services and cloud.",
+    "items": [
+      {
+        "q": "What is DevOps as a service?",
+        "a": "DevOps as a service means an external team designs, runs and improves your CI/CD pipelines, cloud infrastructure, monitoring and security for a monthly fee, so you get senior DevOps expertise without hiring a full in-house team."
+      },
+      {
+        "q": "What do DevOps consulting services include?",
+        "a": "They typically include an assessment of your current setup, a DevOps roadmap, CI/CD pipeline automation, infrastructure as code, containerisation, cloud migration, monitoring, security and training for your team."
+      },
+      {
+        "q": "Can you migrate our application to the cloud without downtime?",
+        "a": "In most cases, yes. We plan migrations in phases, replicate data, test in parallel and switch traffic gradually, keeping downtime to zero or a few minutes in a planned window."
+      },
+      {
+        "q": "How can you reduce our cloud costs?",
+        "a": "We right-size servers, remove unused resources, use reserved or spot capacity, add auto-scaling, optimise storage and data transfer, and set budgets and alerts. Many clients cut their cloud bill by 20 to 40 percent."
+      },
+      {
+        "q": "Do you work with hybrid and multi-cloud environments?",
+        "a": "Yes. We work across major public clouds, private cloud and on-premise servers, and design hybrid or multi-cloud setups when they make sense for cost, compliance or resilience."
+      },
+      {
+        "q": "How much do DevOps services cost?",
+        "a": "A DevOps assessment typically costs $1,500 to $4,000, implementation projects $4,000 to $20,000, and managed DevOps starts from around $1,000 per month, depending on your infrastructure and support needs."
+      },
+      {
+        "q": "Do you provide 24/7 monitoring and support?",
+        "a": "Yes. Our managed DevOps plans include round-the-clock monitoring, alerting and incident response, with SLAs based on how critical your systems are."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "SaaS development",
+        "href": "/saas-development"
+      },
+      {
+        "label": "API integration",
+        "href": "/api-integration"
+      },
+      {
+        "label": "AI & automation",
+        "href": "/ai-automation"
+      },
+      {
+        "label": "Custom enterprise software",
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "QA & software testing",
+        "href": "/qa-testing"
+      },
+      {
+        "label": "Maintenance & support",
+        "href": "/maintenance-support"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Make Releases Boring and Uptime Reliable",
+    "subtitle": "Book a free DevOps and cloud assessment. We will review your setup and show you the fastest wins for speed, stability and cost.",
+    "primary": "Book a Free Assessment",
+    "secondary": "Send a Message"
+  }
+}

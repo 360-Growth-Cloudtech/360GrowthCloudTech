@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "title": "Dynamic Website Design & Development",
+    "description": "Dynamic website design and development: CMS websites with an admin panel, PHP & MySQL, logins, bookings and blogs. Responsive and SEO-ready. Free quote."
+  },
+  "breadcrumb": "Dynamic Website Design",
+  "form": {
+    "topic": "dynamic website design and development",
+    "options": [
+      "Dynamic business website with admin panel",
+      "Blog or news portal",
+      "Booking or appointment website",
+      "Membership or login website",
+      "Listings or directory website",
+      "Dynamic ecommerce website",
+      "Convert my static site to dynamic"
+    ]
+  },
+  "hero": {
+    "label": "Dynamic Website Designing",
+    "title": "Dynamic Website Design and Development for",
+    "highlight": "Sites You Can Update Yourself",
+    "subtitle": "Database-driven, responsive websites with an easy admin panel, so you can add pages, products, posts and offers anytime, plus logins, bookings and integrations when you need them."
+  },
+  "intro": {
+    "badge": "What Is a Dynamic Website?",
+    "title": "Websites That Grow and Change With Your Business",
+    "paragraphs": [
+      "A dynamic website builds its pages from a database at the moment someone visits. Content such as services, products, blog posts, property listings or course details is stored once and managed through an admin panel, so you can update the website yourself, without touching code or waiting for a developer.",
+      "Dynamic websites can also do far more than show information. They can let customers register and log in, book appointments, submit enquiries that land in your CRM, search listings, read personalised content or buy online. As a dynamic website development company, we design the look, build the front end and back end, and create an admin panel that your team actually finds easy to use.",
+      "We build dynamic websites with PHP and MySQL, Laravel, Node.js or modern frameworks like Next.js with a headless CMS, choosing what fits your budget and goals. Only need a simple brochure site? A <static>static website</static> may be enough. Otherwise, explore our <wd>web design services</wd> or <contact>tell us what your website needs to do</contact>."
+    ],
+    "highlightsTitle": "Why choose a dynamic website",
+    "highlights": [
+      "Update content anytime from an admin panel",
+      "Add pages, products and posts without coding",
+      "User logins, bookings and forms",
+      "Content stored safely in a database",
+      "Search, filters and listings",
+      "Fresh content that helps SEO",
+      "Integrates with CRM, payments and WhatsApp",
+      "Scales as your business grows"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Dynamic Website Design Services",
+    "subtitle": "From a business website with an admin panel to a full portal, we design and develop dynamic websites around what you need to manage.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "design",
+        "title": "Custom Dynamic Web Design",
+        "desc": "Modern, brand-led dynamic web page designs with reusable templates, so every new page or post you add looks consistent and professional.",
+        "bullets": [
+          "Custom page templates",
+          "Brand-consistent design",
+          "Conversion-focused layouts"
+        ],
+        "href": "/custom-web-design"
+      },
+      {
+        "id": "cms",
+        "title": "CMS & Admin Panel Development",
+        "desc": "An easy, secure admin panel to manage pages, menus, images, products, offers, enquiries and users, with permissions for each team member.",
+        "bullets": [
+          "Easy content editing",
+          "Role-based access",
+          "Enquiry management"
+        ]
+      },
+      {
+        "id": "php",
+        "title": "PHP & MySQL Dynamic Websites",
+        "desc": "Reliable, cost-effective dynamic websites built with PHP and MySQL or Laravel, easy to host and maintain for years.",
+        "bullets": [
+          "PHP and Laravel",
+          "MySQL database design",
+          "Affordable hosting"
+        ]
+      },
+      {
+        "id": "database",
+        "title": "Database-Driven Websites",
+        "desc": "Catalogues, property listings, course directories and member directories with search and filters, all managed from one database.",
+        "bullets": [
+          "Listings and catalogues",
+          "Search and filters",
+          "Import from spreadsheets"
+        ]
+      },
+      {
+        "id": "blog",
+        "title": "Blogs & News Portals",
+        "desc": "Blogs, news and magazine-style websites with categories, authors, scheduling and SEO tools to grow organic traffic.",
+        "bullets": [
+          "Categories and tags",
+          "Author roles",
+          "SEO-friendly posts"
+        ]
+      },
+      {
+        "id": "membership",
+        "title": "Login & Membership Websites",
+        "desc": "Websites with user registration, logins, member-only content, dashboards and subscriptions.",
+        "bullets": [
+          "User registration and login",
+          "Member-only areas",
+          "Subscriptions and renewals"
+        ]
+      },
+      {
+        "id": "booking",
+        "title": "Booking & Appointment Websites",
+        "desc": "Let customers book appointments, tables, classes or tours online, with calendar availability and email or WhatsApp confirmations.",
+        "bullets": [
+          "Online booking calendar",
+          "Payments and deposits",
+          "Automatic confirmations"
+        ]
+      },
+      {
+        "id": "ecommerce",
+        "title": "Dynamic Ecommerce Websites",
+        "desc": "Online stores with products, stock, offers, payments and order management, all updated from the admin panel.",
+        "bullets": [
+          "Product and offer management",
+          "Secure payments",
+          "Order tracking"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "responsive",
+        "title": "Dynamic Responsive Websites",
+        "desc": "Every dynamic website is fully responsive and mobile-first, so content you publish looks perfect on every device automatically.",
+        "bullets": [
+          "Mobile-first templates",
+          "Fast-loading pages",
+          "Tested on real devices"
+        ]
+      },
+      {
+        "id": "languages",
+        "title": "Multi-Language Websites",
+        "desc": "Publish content in multiple languages from one admin panel, with language switchers and SEO for each version.",
+        "bullets": [
+          "Multiple languages",
+          "Language switcher",
+          "Localised SEO"
+        ]
+      },
+      {
+        "id": "integrations",
+        "title": "CRM, Payment & WhatsApp Integration",
+        "desc": "Connect your website forms to your CRM, accept online payments and send instant WhatsApp or email alerts for every enquiry.",
+        "bullets": [
+          "CRM lead capture",
+          "Payment gateways",
+          "WhatsApp and email alerts"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "seo",
+        "title": "SEO, Speed & Security",
+        "desc": "SEO-friendly URLs and meta fields for every page, caching for speed, plus security hardening, SSL and regular backups.",
+        "bullets": [
+          "Editable meta tags",
+          "Caching and optimisation",
+          "Security updates and backups"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who It Is For",
+    "title": "Dynamic Websites for Every Industry",
+    "subtitle": "If your content changes often or customers need to do something on your site, a dynamic website is the right choice.",
+    "items": [
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Property listings with search, filters, project pages and enquiry tracking.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Courses, admissions, results, notices and student logins.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Doctor profiles, departments and online appointment booking.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "travel",
+        "title": "Travel & Tourism",
+        "desc": "Tour packages, itineraries and booking enquiries managed from an admin panel.",
+        "href": "/case-studies/mahasu-travels-website"
+      },
+      {
+        "id": "news",
+        "title": "News & Media",
+        "desc": "News portals and magazines with categories, authors and fast publishing.",
+        "href": "/contact"
+      },
+      {
+        "id": "restaurant",
+        "title": "Restaurants",
+        "desc": "Menus, offers, table bookings and online ordering.",
+        "href": "/contact"
+      },
+      {
+        "id": "ngo",
+        "title": "NGOs & Associations",
+        "desc": "Events, campaigns, member logins and online donations.",
+        "href": "/contact"
+      },
+      {
+        "id": "directory",
+        "title": "Directories & Job Portals",
+        "desc": "Business directories, classifieds and job boards with user listings.",
+        "href": "/web-application-development"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Static vs Dynamic",
+    "title": "Static or Dynamic Website: Which Is Right for You?",
+    "subtitle": "Both have their place. Here is a quick comparison to help you decide.",
+    "columns": [
+      {
+        "title": "Static website",
+        "bestFor": "Best for: small brochure sites that rarely change",
+        "pros": [
+          "Very fast and secure",
+          "Lowest cost to build and host"
+        ],
+        "cons": [
+          "A developer is needed for most updates",
+          "No logins, bookings or user features",
+          "Harder to grow content like blogs or listings"
+        ]
+      },
+      {
+        "title": "Dynamic website",
+        "bestFor": "Best for: growing businesses with changing content",
+        "pros": [
+          "Update everything yourself from an admin panel",
+          "Blogs, listings, bookings and logins",
+          "Fresh content that supports SEO",
+          "Integrates with CRM, payments and WhatsApp",
+          "Grows with your business"
+        ],
+        "cons": [
+          "Higher cost than a basic static site"
+        ]
+      }
+    ],
+    "note": "Already have a static website? We can convert it to a dynamic website and keep your design and rankings. <contact>Ask about an upgrade</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Develop Your Dynamic Website",
+    "subtitle": "A clear process from planning to launch, with training so your team can manage the site confidently.",
+    "steps": [
+      {
+        "title": "Discovery",
+        "desc": "We understand your business, audience and what your website must let you and your customers do."
+      },
+      {
+        "title": "Sitemap & database planning",
+        "desc": "We plan pages, content types, user roles and the database structure behind them."
+      },
+      {
+        "title": "Dynamic web page design",
+        "desc": "Custom designs for each page template on desktop and mobile, refined with your feedback."
+      },
+      {
+        "title": "Front end, back end & admin panel",
+        "desc": "We develop the website, database and admin panel, with weekly progress updates."
+      },
+      {
+        "title": "Content & SEO",
+        "desc": "Content is added, and meta tags, schema, sitemap and analytics are set up."
+      },
+      {
+        "title": "Testing, launch & training",
+        "desc": "We test thoroughly, launch on your domain and train your team to manage the website."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technologies",
+    "title": "Technologies We Use for Dynamic Websites",
+    "subtitle": "Proven technology chosen for your budget, performance needs and long-term maintenance.",
+    "groups": [
+      {
+        "title": "Front End",
+        "items": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "Next.js"
+        ]
+      },
+      {
+        "title": "Back End",
+        "items": [
+          "PHP",
+          "Laravel",
+          "Node.js",
+          "Python"
+        ]
+      },
+      {
+        "title": "Database",
+        "items": [
+          "MySQL",
+          "PostgreSQL",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "CMS & Admin",
+        "items": [
+          "Custom admin panel",
+          "Headless CMS",
+          "Role-based access",
+          "Media library"
+        ]
+      },
+      {
+        "title": "Hosting & Security",
+        "items": [
+          "Cloud hosting",
+          "SSL",
+          "Daily backups",
+          "CDN",
+          "Firewall"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Dynamic Website Development Company",
+    "subtitle": "We build dynamic websites that are easy to run, fast to load and ready to grow.",
+    "items": [
+      {
+        "title": "Admin panels people enjoy",
+        "desc": "Simple, clear screens so anyone on your team can update the website confidently."
+      },
+      {
+        "title": "Designed to convert",
+        "desc": "Layouts and calls to action that turn visitors into enquiries, bookings and sales."
+      },
+      {
+        "title": "Secure and fast",
+        "desc": "Security best practices, caching and optimised databases keep your site safe and quick."
+      },
+      {
+        "title": "Transparent pricing",
+        "desc": "Fixed, itemised quotes with no surprise charges."
+      },
+      {
+        "title": "Full ownership",
+        "desc": "Your website, database, content and code belong to you."
+      },
+      {
+        "title": "Ongoing support",
+        "desc": "Hosting, updates, new features and help whenever you need it."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does a Dynamic Website Cost?",
+    "subtitle": "Dynamic website design cost depends on pages, features, admin panel and integrations. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Dynamic Business Website",
+        "price": "$1,500 – $4,000",
+        "timeline": "3–5 weeks",
+        "desc": "Custom design, CMS admin panel, blog, enquiry forms, WhatsApp and basic SEO."
+      },
+      {
+        "name": "Advanced Dynamic Website",
+        "price": "$4,000 – $10,000",
+        "timeline": "5–8 weeks",
+        "desc": "Listings, search and filters, bookings, multi-language and CRM or payment integration."
+      },
+      {
+        "name": "Portal or Membership Site",
+        "price": "$10,000+",
+        "timeline": "8+ weeks",
+        "desc": "User logins, dashboards, subscriptions and complex custom features."
+      }
+    ],
+    "note": "Hosting, maintenance and support plans are available after launch. Fixed quote after a free consultation.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Dynamic Website FAQs",
+    "subtitle": "Quick answers about dynamic website design and development.",
+    "items": [
+      {
+        "q": "What is a dynamic website?",
+        "a": "A dynamic website generates its pages from a database and is managed through an admin panel. It lets you update content yourself and supports features like blogs, listings, user logins, bookings and online payments."
+      },
+      {
+        "q": "What is the difference between a static and a dynamic website?",
+        "a": "A static website shows fixed pages and usually needs a developer for changes. A dynamic website pulls content from a database, so you can update it yourself, and it can offer interactive features such as logins, search and bookings."
+      },
+      {
+        "q": "How much does a dynamic website cost?",
+        "a": "A dynamic business website typically costs $1,500 to $4,000, an advanced dynamic website $4,000 to $10,000, and portals or membership sites from $10,000, depending on features and integrations."
+      },
+      {
+        "q": "Can I update my dynamic website myself?",
+        "a": "Yes. You get an easy admin panel to edit pages, images, products, posts and offers, and we train your team so updates take minutes."
+      },
+      {
+        "q": "Do you build dynamic websites with PHP and MySQL?",
+        "a": "Yes. PHP with MySQL, including the Laravel framework, is a reliable and affordable choice for many dynamic websites. We also use Node.js, Python and Next.js with a headless CMS when they suit the project better."
+      },
+      {
+        "q": "Are dynamic websites good for SEO and secure?",
+        "a": "Yes, when built well. We add editable meta tags, clean URLs, schema and caching for speed, and protect the site with security hardening, SSL, updates and daily backups."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Static website design",
+        "href": "/static-website-design"
+      },
+      {
+        "label": "Web design & development",
+        "href": "/web-design"
+      },
+      {
+        "label": "Website redesign",
+        "href": "/website-redesign"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for a Website You Can Manage Yourself?",
+    "subtitle": "Book a free consultation. Tell us what you need to update and offer online, and get a clear plan and fixed quote.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

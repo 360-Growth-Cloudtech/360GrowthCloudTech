@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "title": "Mobile Website Design Services",
+    "description": "Mobile-first, responsive website design that looks and works perfectly on every phone and tablet. Make your site mobile-friendly, faster and better for SEO."
+  },
+  "breadcrumb": "Mobile Website Design",
+  "form": {
+    "topic": "mobile website design",
+    "options": [
+      "New mobile-first website",
+      "Make my existing website mobile-friendly",
+      "Mobile ecommerce design",
+      "Mobile homepage or landing page",
+      "Mobile app UI/UX design",
+      "Mockups and prototypes",
+      "Turn my website into an app (PWA)"
+    ]
+  },
+  "hero": {
+    "label": "Mobile Website Designing",
+    "title": "Mobile Website Design Services for",
+    "highlight": "Mobile-First, Responsive Websites",
+    "subtitle": "Most of your visitors are on their phones. We design mobile-friendly websites that load fast, are easy to tap and scroll, and turn phone visitors into calls, enquiries and sales."
+  },
+  "intro": {
+    "badge": "Mobile-First Web Design",
+    "title": "Why Mobile-Friendly Design Matters",
+    "paragraphs": [
+      "More than half of all web traffic now comes from smartphones, and for many local and retail businesses it is far higher. Google also uses the mobile version of your site for indexing and ranking. If your website is hard to read, slow or awkward to use on a phone, visitors leave within seconds and your rankings suffer.",
+      "Mobile-first web design starts with the smallest screen and builds up. We plan what a phone user needs most, design clear navigation and thumb-friendly buttons, keep pages light and fast, and make calling, messaging on WhatsApp or buying possible in a tap. The same design then adapts responsively to tablets, laptops and large desktop screens.",
+      "Whether you need a brand-new mobile-first website, want to convert a non-responsive site into a responsive one, or need UI/UX design for a mobile web app or ecommerce store, our designers handle it end to end. See our <wd>web design services</wd>, read about <redesign>website redesign</redesign> or <contact>get a free mobile audit of your site</contact>."
+    ],
+    "highlightsTitle": "What mobile-friendly design gives you",
+    "highlights": [
+      "Pages that fit every phone and tablet",
+      "Easy navigation with one thumb",
+      "Fast loading on cellular networks",
+      "Click-to-call and WhatsApp in one tap",
+      "Better Google rankings",
+      "Higher mobile conversions",
+      "Readable text without zooming",
+      "A modern, trustworthy first impression"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Mobile Website Design Services We Offer",
+    "subtitle": "Everything needed to give your visitors a great experience on mobile, from layout and navigation to speed and checkout.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "mobileFirst",
+        "title": "Mobile-First Web Design",
+        "desc": "New websites designed for phones first, then enhanced for tablets and desktops, so the mobile experience is never an afterthought.",
+        "bullets": [
+          "Phone-first layouts",
+          "Prioritised content",
+          "Thumb-friendly buttons"
+        ]
+      },
+      {
+        "id": "responsive",
+        "title": "Responsive Web Design",
+        "desc": "Fluid layouts that adapt smoothly to every screen size, from small phones to tablets, laptops and large monitors.",
+        "bullets": [
+          "Fluid grids and images",
+          "Tablet-optimised layouts",
+          "Tested on real devices"
+        ]
+      },
+      {
+        "id": "responsiveConvert",
+        "title": "Make Your Website Mobile-Friendly",
+        "desc": "Convert a non-responsive website into a mobile-friendly, responsive one, keeping your content, domain and search rankings.",
+        "bullets": [
+          "Responsive conversion",
+          "Fix layout and text issues",
+          "Keep URLs and SEO"
+        ],
+        "href": "/website-redesign"
+      },
+      {
+        "id": "navigation",
+        "title": "Mobile Navigation & Menu Design",
+        "desc": "Clear mobile menus, sticky headers, bottom navigation and search that help visitors find what they need in a couple of taps.",
+        "bullets": [
+          "Menu and nav bar",
+          "Sticky header with call button",
+          "Search on small screens"
+        ]
+      },
+      {
+        "id": "homepage",
+        "title": "Mobile Homepage & Landing Pages",
+        "desc": "Mobile homepage and landing page designs that explain your offer in seconds and make the next step obvious.",
+        "bullets": [
+          "Hero section for small screens",
+          "Short, scannable content",
+          "Sticky call to action"
+        ],
+        "href": "/landing-page-design"
+      },
+      {
+        "id": "ecommerce",
+        "title": "Mobile Ecommerce Design",
+        "desc": "Mobile-first shop design with easy product browsing, clear product pages and a short, secure checkout and payment page.",
+        "bullets": [
+          "Product pages for phones",
+          "One-page checkout",
+          "UPI, wallets and cards"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "design",
+        "title": "Mobile UI/UX Design for Web Apps",
+        "desc": "User interface and experience design for mobile web apps and portals: dashboards, forms and flows that are easy on a phone.",
+        "bullets": [
+          "User flows and wireframes",
+          "Easy forms",
+          "Accessible UI"
+        ],
+        "href": "/web-application-development"
+      },
+      {
+        "id": "app",
+        "title": "Mobile App UI/UX Design",
+        "desc": "Intuitive app screen design for Android and iOS, from onboarding and home screens to ecommerce, booking and payment flows.",
+        "bullets": [
+          "App screen design",
+          "Design systems",
+          "Developer-ready handoff"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "mockups",
+        "title": "Mobile Mockups & Prototypes",
+        "desc": "See your mobile website before it is built with realistic phone mockups and clickable prototypes you can test on your own device.",
+        "bullets": [
+          "Phone and tablet mockups",
+          "Clickable prototypes",
+          "Feedback before development"
+        ]
+      },
+      {
+        "id": "tablet",
+        "title": "Tablet & Multi-Device Design",
+        "desc": "Layouts tuned for tablets and foldables, where neither the phone nor the desktop design is quite right.",
+        "bullets": [
+          "Portrait and landscape",
+          "Touch-optimised controls",
+          "Foldable-ready layouts"
+        ]
+      },
+      {
+        "id": "optimisation",
+        "title": "Mobile Speed Optimisation",
+        "desc": "Faster pages through optimised images, lazy loading, lighter code and caching, improving Core Web Vitals and conversions.",
+        "bullets": [
+          "Image optimisation",
+          "Lazy loading",
+          "Core Web Vitals fixes"
+        ]
+      },
+      {
+        "id": "pwa",
+        "title": "Website to App (PWA)",
+        "desc": "Turn your responsive website into an installable progressive web app with offline access and push notifications.",
+        "bullets": [
+          "Add to home screen",
+          "Offline support",
+          "Push notifications"
+        ],
+        "href": "/web-application-development"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Help",
+    "title": "Mobile-Friendly Websites for Every Business",
+    "subtitle": "If your customers find you on their phones, your website needs to work beautifully there.",
+    "items": [
+      {
+        "id": "retail",
+        "title": "Ecommerce & Retail",
+        "desc": "Shop designs that make browsing and checkout effortless.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "restaurant",
+        "title": "Restaurants & Food",
+        "desc": "Menus, ordering and table booking designed for hungry thumbs.",
+        "href": "/contact"
+      },
+      {
+        "id": "healthcare",
+        "title": "Clinics & Hospitals",
+        "desc": "Appointment booking and doctor profiles that are easy on a phone.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Property photos, maps and enquiry buttons optimised for phones.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Course pages, admissions forms and student portals on any device.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "shops",
+        "title": "Local Businesses",
+        "desc": "Click-to-call, directions and WhatsApp for customers nearby.",
+        "href": "/web-design"
+      },
+      {
+        "id": "startups",
+        "title": "Startups & SaaS",
+        "desc": "Mobile landing pages and web app UIs that win sign-ups.",
+        "href": "/software-development"
+      },
+      {
+        "id": "travel",
+        "title": "Travel & Tourism",
+        "desc": "Tour packages and booking enquiries for travellers on the move.",
+        "href": "/case-studies/mahasu-travels-website"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Before & After",
+    "title": "Non-Responsive Website vs Mobile-First Design",
+    "subtitle": "Here is what changes when a website is designed properly for mobile.",
+    "columns": [
+      {
+        "title": "Non-responsive website",
+        "bestFor": "Common in: sites built several years ago",
+        "pros": [
+          "Already online"
+        ],
+        "cons": [
+          "Tiny text that needs zooming",
+          "Buttons too small to tap",
+          "Slow to load on cellular data",
+          "Visitors leave before enquiring",
+          "Lower Google rankings on mobile"
+        ]
+      },
+      {
+        "title": "Mobile-first responsive design",
+        "bestFor": "Best for: any business with phone visitors",
+        "pros": [
+          "Readable, tappable and fast on every phone",
+          "Click-to-call and WhatsApp in one tap",
+          "Better mobile SEO and Core Web Vitals",
+          "More enquiries and sales from mobile",
+          "Looks great on tablets and desktops too"
+        ],
+        "cons": [
+          "Requires a design or conversion project"
+        ]
+      }
+    ],
+    "note": "Not sure how your website performs on mobile? We will check it on real devices for free. <contact>Request a free mobile audit</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Mobile Website Design Process",
+    "subtitle": "Designed and tested on real phones, not just a shrunken desktop browser.",
+    "steps": [
+      {
+        "title": "Mobile UX audit",
+        "desc": "We review your current site or competitors on real phones and analytics to see where phone visitors struggle."
+      },
+      {
+        "title": "Mobile-first wireframes",
+        "desc": "We plan the mobile layout first: content order, navigation, header, footer and calls to action."
+      },
+      {
+        "title": "Mockups & prototype",
+        "desc": "Phone and tablet mockups and a clickable prototype you can try on your own device."
+      },
+      {
+        "title": "Responsive development",
+        "desc": "We build fluid, fast pages that adapt cleanly from phones to large screens."
+      },
+      {
+        "title": "Real-device testing",
+        "desc": "Testing on Android and iOS phones, tablets and browsers, plus speed and accessibility checks."
+      },
+      {
+        "title": "Launch & monitor",
+        "desc": "We launch, then track mobile speed, rankings and conversions and keep improving."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Best Practices",
+    "title": "Mobile Website Design Best Practices We Follow",
+    "subtitle": "The small details that make a mobile website feel effortless.",
+    "groups": [
+      {
+        "title": "Navigation",
+        "items": [
+          "Simple mobile menu",
+          "Bottom nav bar",
+          "Sticky header",
+          "Search on small screens",
+          "Clear back paths"
+        ]
+      },
+      {
+        "title": "Layout",
+        "items": [
+          "Single-column flow",
+          "Thumb-friendly zones",
+          "Readable 16px+ text",
+          "Generous spacing"
+        ]
+      },
+      {
+        "title": "Header & Footer",
+        "items": [
+          "Compact header",
+          "Click-to-call",
+          "WhatsApp button",
+          "Useful footer links"
+        ]
+      },
+      {
+        "title": "Speed",
+        "items": [
+          "Optimised images",
+          "Lazy loading",
+          "Core Web Vitals",
+          "Caching"
+        ]
+      },
+      {
+        "title": "Conversions",
+        "items": [
+          "Sticky call to action",
+          "Short forms",
+          "Autofill",
+          "One-tap payments"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us for Mobile Website Design",
+    "subtitle": "We design for the way people actually use their phones.",
+    "items": [
+      {
+        "title": "Mobile-first mindset",
+        "desc": "Every project starts on the smallest screen, so the small-screen experience is never compromised."
+      },
+      {
+        "title": "Tested on real devices",
+        "desc": "We test on real Android and iOS phones and tablets, not just browser simulators."
+      },
+      {
+        "title": "Speed focused",
+        "desc": "Lean pages and optimised media load quickly even on slower networks."
+      },
+      {
+        "title": "SEO-ready",
+        "desc": "Mobile-friendly, fast websites built to perform well in Google's mobile-first indexing."
+      },
+      {
+        "title": "Affordable packages",
+        "desc": "Clear, fixed prices for making existing sites responsive or designing new ones."
+      },
+      {
+        "title": "Web and app expertise",
+        "desc": "One team for mobile websites, web apps and mobile app UI/UX design."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Mobile Website Design Cost?",
+    "subtitle": "Cost depends on whether we convert an existing site or design a new one, and how many pages and features you need.",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Make My Site Responsive",
+        "price": "$300 – $1,000",
+        "timeline": "1–2 weeks",
+        "desc": "Convert an existing website to a mobile-friendly, responsive layout with key fixes."
+      },
+      {
+        "name": "New Mobile-First Website",
+        "price": "$800 – $3,000",
+        "timeline": "2–4 weeks",
+        "desc": "A custom mobile-first, responsive website with SEO and speed optimisation."
+      },
+      {
+        "name": "Mobile UI/UX Design",
+        "price": "$1,500 – $6,000",
+        "timeline": "2–5 weeks",
+        "desc": "Mobile ecommerce, web app or mobile app UI/UX design with prototypes."
+      }
+    ],
+    "note": "Every project starts with a free mobile audit, and you get a fixed quote before work begins.",
+    "cta": "Get My Free Mobile Audit"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Mobile Website Design FAQs",
+    "subtitle": "Quick answers about mobile-friendly and responsive web design.",
+    "items": [
+      {
+        "q": "What is mobile-first web design?",
+        "a": "Mobile-first web design means designing a website for phones first and then adapting it for larger screens. It keeps content focused, navigation simple and pages fast, which improves the experience for the majority of visitors who browse on a phone."
+      },
+      {
+        "q": "What is the difference between responsive, adaptive and mobile-first design?",
+        "a": "Responsive design uses fluid layouts that adjust to any screen. Adaptive design serves set layouts for specific screen sizes. Mobile-first is an approach where you design for phones first, usually combined with responsive design."
+      },
+      {
+        "q": "Can you make my existing website mobile-friendly?",
+        "a": "Yes. We can convert a non-responsive website into a mobile-friendly, responsive one while keeping your content, domain and search rankings, or recommend a redesign if the old site is too limited."
+      },
+      {
+        "q": "Why does a mobile-friendly website matter for SEO?",
+        "a": "Google primarily uses the mobile version of your site for indexing and ranking. A fast, mobile-friendly website with good Core Web Vitals is more likely to rank well and keep visitors engaged."
+      },
+      {
+        "q": "Do you also design mobile app UI/UX?",
+        "a": "Yes. We design mobile app screens and user flows for Android and iOS, including home screens, ecommerce, booking and payment flows, with clickable prototypes and developer-ready designs."
+      },
+      {
+        "q": "How much does mobile website design cost?",
+        "a": "Making an existing site responsive typically costs $300 to $1,000, a new mobile-first website $800 to $3,000, and mobile UI/UX design for apps or ecommerce $1,500 to $6,000."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Web design & development",
+        "href": "/web-design"
+      },
+      {
+        "label": "Website redesign",
+        "href": "/website-redesign"
+      },
+      {
+        "label": "Dynamic website design",
+        "href": "/dynamic-website-design"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Make Every Mobile Visit Count",
+    "subtitle": "Book a free mobile audit. We will test your website on real phones and show you exactly how to turn more phone visitors into customers.",
+    "primary": "Book a Free Mobile Audit",
+    "secondary": "Send a Message"
+  }
+}

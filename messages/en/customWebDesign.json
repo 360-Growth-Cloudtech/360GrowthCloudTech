@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "title": "Custom Web Design & Development",
+    "description": "Custom website design and development: unique, hand-crafted websites for businesses, ecommerce and real estate. No templates, fully yours. Affordable packages."
+  },
+  "breadcrumb": "Custom Web Design",
+  "form": {
+    "topic": "custom web design",
+    "options": [
+      "Custom business website",
+      "Custom website for my small business",
+      "Custom ecommerce website",
+      "Custom real estate website",
+      "Custom website with CMS",
+      "Customise my existing website",
+      "Branding and website design"
+    ]
+  },
+  "hero": {
+    "label": "Custom Web Designing",
+    "title": "Custom Web Design Services for",
+    "highlight": "Websites Made Only for You",
+    "subtitle": "No templates, no look-alike themes. We design and develop custom websites around your brand, customers and goals, so your business stands out and visitors turn into customers."
+  },
+  "intro": {
+    "badge": "What Is Custom Web Design?",
+    "title": "A Website Built Around Your Business, Not a Template",
+    "paragraphs": [
+      "Templates and website builders make it easy to get something online, but thousands of other businesses use the same layouts. Your site ends up looking generic, carrying features you do not need and missing the ones you do. Custom web design starts from a blank page: your brand, your customers and what you want them to do.",
+      "Our custom website design and development process covers strategy, unique visual design, hand-coded development, content, SEO and launch. Every page layout, graphic and interaction is created for your business, and the site is built cleanly without heavy themes or piles of plugins, so it loads fast and is easy to grow. You can still update content yourself through a simple CMS.",
+      "We create custom websites for small businesses, growing brands, online stores, real estate companies and professional firms, with affordable packages and clear pricing. Want to compare options? See our <wd>web design services</wd>, our <dynamic>dynamic websites with admin panel</dynamic> or <contact>tell us about your business</contact>."
+    ],
+    "highlightsTitle": "What makes a custom website better",
+    "highlights": [
+      "A unique design nobody else has",
+      "Built around your brand and goals",
+      "Only the features you need",
+      "Fast, lightweight code",
+      "Better SEO and Core Web Vitals",
+      "Easy to update and extend",
+      "Scales as your business grows",
+      "You own the design, code and domain"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Custom Web Design and Development Services",
+    "subtitle": "From a custom business website to a full online store, every project is designed and built from scratch for you.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "design",
+        "title": "Custom Website Design",
+        "desc": "Unique, professional website designs created from a blank canvas around your brand, audience and calls to action.",
+        "bullets": [
+          "No templates or themes",
+          "Brand-led visual style",
+          "Original graphics and icons"
+        ]
+      },
+      {
+        "id": "html",
+        "title": "Custom Website Development",
+        "desc": "Hand-coded, lightweight websites built with modern frameworks or PHP, with clean code and no unnecessary plugins.",
+        "bullets": [
+          "Clean, fast code",
+          "Tailored features",
+          "Secure and scalable"
+        ]
+      },
+      {
+        "id": "corporate",
+        "title": "Custom Business Websites",
+        "desc": "Professional business websites, designed just for you, that present your services, credentials and team with confidence.",
+        "bullets": [
+          "Service and about pages",
+          "Case studies and reviews",
+          "Lead capture forms"
+        ]
+      },
+      {
+        "id": "smallBusiness",
+        "title": "Custom Websites for Small Businesses",
+        "desc": "Affordable packages for small businesses that want to look established without an enterprise budget.",
+        "bullets": [
+          "Affordable fixed packages",
+          "Google Maps and WhatsApp",
+          "Quick turnaround"
+        ]
+      },
+      {
+        "id": "ecommerce",
+        "title": "Custom Ecommerce Website Design",
+        "desc": "Online stores with unique product pages, smooth checkout and the exact features your online shop needs.",
+        "bullets": [
+          "Unique shop design",
+          "Payments and shipping",
+          "Order and stock management"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "realEstate",
+        "title": "Custom Real Estate Websites",
+        "desc": "Real estate websites with property listings, project pages, search filters, maps and enquiry tracking.",
+        "bullets": [
+          "Listings and filters",
+          "Project and floor plans",
+          "Enquiry and CRM integration"
+        ]
+      },
+      {
+        "id": "cms",
+        "title": "Custom CMS Web Design",
+        "desc": "Your unique design on an easy content management system, so your team can update pages, posts and products without coding.",
+        "bullets": [
+          "Easy content editing",
+          "Page layouts made for you",
+          "Training included"
+        ],
+        "href": "/dynamic-website-design"
+      },
+      {
+        "id": "frontend",
+        "title": "Custom Web App Design",
+        "desc": "Tailor-made UI/UX and development for portals, dashboards and booking systems when your website needs logins and custom logic.",
+        "bullets": [
+          "Portals and dashboards",
+          "User accounts",
+          "Your own workflows"
+        ],
+        "href": "/web-application-development"
+      },
+      {
+        "id": "brand",
+        "title": "Branding & Website Design",
+        "desc": "Logo, colours and typography designed together with your website, so your brand looks consistent everywhere.",
+        "bullets": [
+          "Logo and brand identity",
+          "Brand style guide",
+          "Matching website design"
+        ],
+        "href": "/brand-identity-design"
+      },
+      {
+        "id": "customise",
+        "title": "Website Customisation",
+        "desc": "Already have a website on a ready-made platform? We customise its design, layout and features to fit your brand and needs.",
+        "bullets": [
+          "Theme and layout customisation",
+          "Custom sections and features",
+          "Speed and SEO fixes"
+        ]
+      },
+      {
+        "id": "responsive",
+        "title": "Responsive Custom Design",
+        "desc": "Every design is mobile-first and responsive, looking perfect on phones, tablets and desktops.",
+        "bullets": [
+          "Mobile-first layouts",
+          "Tested on real devices",
+          "Touch-friendly navigation"
+        ],
+        "href": "/mobile-website-design"
+      },
+      {
+        "id": "seo",
+        "title": "SEO & Performance",
+        "desc": "Websites built SEO-ready from the first line of code: fast pages, clean structure, schema and metadata.",
+        "bullets": [
+          "On-page and technical SEO",
+          "Core Web Vitals",
+          "Analytics setup"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Help",
+    "title": "Custom Websites for Every Industry",
+    "subtitle": "We design around the way your customers choose and buy in your industry.",
+    "items": [
+      {
+        "id": "shops",
+        "title": "Small Businesses",
+        "desc": "Websites that make local businesses look established and win more calls.",
+        "href": "/web-design"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Property websites with listings, projects and enquiry tracking.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "retail",
+        "title": "Online Shops",
+        "desc": "Ecommerce designs that reflect your brand and convert shoppers.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "professional",
+        "title": "Professional Services",
+        "desc": "Credible websites for consultants, lawyers, accountants and agencies.",
+        "href": "/contact"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Clinic and hospital websites with doctor profiles and online booking.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "Websites for schools, coaching institutes and online academies.",
+        "href": "/case-studies/skinfinity-academy"
+      },
+      {
+        "id": "travel",
+        "title": "Travel & Hospitality",
+        "desc": "Websites for tour operators, hotels and travel agencies.",
+        "href": "/case-studies/mahasu-travels-website"
+      },
+      {
+        "id": "startups",
+        "title": "Startups",
+        "desc": "Launch websites that explain your product and drive sign-ups.",
+        "href": "/software-development"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Template vs Custom",
+    "title": "Templates & Website Builders vs Custom Web Design",
+    "subtitle": "Designing your own website with a builder or template can work at the start. Here is when custom is worth it.",
+    "columns": [
+      {
+        "title": "Templates and website builders",
+        "bestFor": "Works for: personal sites and very early businesses",
+        "pros": [
+          "Low cost or free to start",
+          "Quick to set up yourself"
+        ],
+        "cons": [
+          "Same look as thousands of other sites",
+          "Heavy code that slows pages",
+          "Limited features and flexibility",
+          "Ongoing platform fees",
+          "Your time spent designing instead of selling"
+        ]
+      },
+      {
+        "title": "Custom web design",
+        "bestFor": "Best for: businesses that want to stand out and grow",
+        "pros": [
+          "Unique design that builds trust",
+          "Fast, clean, SEO-friendly code",
+          "Exactly the features you need",
+          "Professional content and conversion planning",
+          "You own everything, with no lock-in"
+        ],
+        "cons": [
+          "Higher upfront investment"
+        ]
+      }
+    ],
+    "note": "On a tight budget? Our small business packages make a custom website affordable. <contact>Ask for a quote</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "Our Custom Web Design Process",
+    "subtitle": "A collaborative process that turns your ideas into a website that is truly yours.",
+    "steps": [
+      {
+        "title": "Discovery",
+        "desc": "We learn about your business, customers, competitors and goals, and agree on pages and features."
+      },
+      {
+        "title": "Strategy & sitemap",
+        "desc": "We plan the structure, user journeys and key calls to action for every page."
+      },
+      {
+        "title": "Wireframes",
+        "desc": "Simple layouts for desktop and mobile, so content and flow are right before visuals."
+      },
+      {
+        "title": "Custom visual design",
+        "desc": "Unique designs in your brand style, refined with your feedback until they feel right."
+      },
+      {
+        "title": "Custom development",
+        "desc": "We hand-code the website with a CMS, forms and integrations, keeping it fast and secure."
+      },
+      {
+        "title": "Content, SEO & testing",
+        "desc": "Content is added and optimised, and the site is tested on browsers and devices."
+      },
+      {
+        "title": "Launch & support",
+        "desc": "We launch on your domain and support you with updates, hosting and improvements."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "What You Get",
+    "title": "What Makes Our Websites Truly Custom",
+    "subtitle": "Every part of the website is planned and built for your business.",
+    "groups": [
+      {
+        "title": "Design",
+        "items": [
+          "Unique layouts",
+          "Custom graphics",
+          "Brand typography",
+          "Custom icons"
+        ]
+      },
+      {
+        "title": "Development",
+        "items": [
+          "Hand-coded",
+          "No bloated plugins",
+          "Clean, documented code",
+          "Tailored features"
+        ]
+      },
+      {
+        "title": "Content",
+        "items": [
+          "Conversion copy",
+          "Professional imagery",
+          "Clear calls to action"
+        ]
+      },
+      {
+        "title": "SEO & Speed",
+        "items": [
+          "Fast loading",
+          "Schema markup",
+          "Clean URLs",
+          "Analytics"
+        ]
+      },
+      {
+        "title": "Ownership",
+        "items": [
+          "Your domain",
+          "Your code",
+          "Design files",
+          "No lock-in"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Custom Web Design Company",
+    "subtitle": "We design websites that look unique and work hard for your business.",
+    "items": [
+      {
+        "title": "Truly custom design",
+        "desc": "Every site is designed from scratch, never resold from a template library."
+      },
+      {
+        "title": "Design and development together",
+        "desc": "Designers and developers work as one team, so the finished site matches the design exactly."
+      },
+      {
+        "title": "Built to convert",
+        "desc": "Layouts, content and calls to action planned around enquiries and sales."
+      },
+      {
+        "title": "Affordable, clear pricing",
+        "desc": "Fixed prices and small business packages, with no hidden costs."
+      },
+      {
+        "title": "Easy to manage",
+        "desc": "A simple CMS and training so you can update your website yourself."
+      },
+      {
+        "title": "Long-term partner",
+        "desc": "Hosting, maintenance and improvements after launch from the team that built your site."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does a Custom Website Cost?",
+    "subtitle": "Custom web design pricing depends on pages, features, content and integrations. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Small Business Custom Website",
+        "price": "$1,000 – $3,000",
+        "timeline": "3–4 weeks",
+        "desc": "Up to 8 custom-designed pages, CMS, forms, WhatsApp and on-page SEO."
+      },
+      {
+        "name": "Business Custom Website",
+        "price": "$3,000 – $8,000",
+        "timeline": "4–8 weeks",
+        "desc": "Custom design and development with more pages, integrations, blog and advanced SEO."
+      },
+      {
+        "name": "Custom Ecommerce or Advanced",
+        "price": "$8,000+",
+        "timeline": "8+ weeks",
+        "desc": "Custom-built ecommerce, real estate listings or websites with complex custom features."
+      }
+    ],
+    "note": "You get a fixed, itemised quote after a free consultation, and you own the finished website outright.",
+    "cta": "Get My Free Quote"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Custom Web Design FAQs",
+    "subtitle": "Quick answers about custom website design and development.",
+    "items": [
+      {
+        "q": "What is custom web design?",
+        "a": "Custom web design means creating a website from scratch for your business instead of using a pre-made template. The layout, visuals, features and code are planned around your brand, customers and goals."
+      },
+      {
+        "q": "Is a custom website better than a template?",
+        "a": "A template is fine for a quick or personal site. A custom website gives you a unique look, faster and cleaner code, exactly the features you need and better room to grow, which usually means more trust and more enquiries."
+      },
+      {
+        "q": "How much does a custom website cost?",
+        "a": "A small business custom website typically costs $1,000 to $3,000, a larger business website $3,000 to $8,000, and custom ecommerce or advanced websites from $8,000, depending on pages and features."
+      },
+      {
+        "q": "How long does it take to build a custom website?",
+        "a": "Most small business custom websites take 3 to 4 weeks, larger business websites 4 to 8 weeks, and ecommerce or advanced builds 8 weeks or more, depending on content and feedback."
+      },
+      {
+        "q": "Do you offer affordable custom websites for small businesses?",
+        "a": "Yes. Our small business packages give you a professional, custom-designed website with CMS, WhatsApp, maps and SEO at a fixed, affordable price."
+      },
+      {
+        "q": "Can I update the website myself and use my own domain?",
+        "a": "Yes. Your custom website runs on your own domain and includes an easy CMS so you can update text, images and pages yourself. You own the design, code and content."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Web design & development",
+        "href": "/web-design"
+      },
+      {
+        "label": "Dynamic website design",
+        "href": "/dynamic-website-design"
+      },
+      {
+        "label": "Mobile website design",
+        "href": "/mobile-website-design"
+      },
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Website redesign",
+        "href": "/website-redesign"
+      },
+      {
+        "label": "Brand identity design",
+        "href": "/brand-identity-design"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's Design a Website That's Only Yours",
+    "subtitle": "Book a free consultation. Share your ideas and get a clear plan and a fixed quote for your custom website.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "title": "SaaS Development Company",
+    "description": "SaaS development company for startups and businesses: SaaS MVPs, multi-tenant platforms, subscription billing and cloud-native SaaS apps. Get a free estimate."
+  },
+  "breadcrumb": "SaaS Development",
+  "form": {
+    "topic": "SaaS development",
+    "options": [
+      "SaaS MVP for my startup",
+      "Full SaaS platform",
+      "SaaS mobile app",
+      "Multi-tenant architecture",
+      "Subscription billing",
+      "Convert my software to SaaS",
+      "Scale or improve my SaaS product"
+    ]
+  },
+  "hero": {
+    "label": "SaaS Development",
+    "title": "SaaS Development Company Building",
+    "highlight": "Products Customers Subscribe To",
+    "subtitle": "From SaaS MVP to a scalable, multi-tenant platform with subscriptions, onboarding and analytics, we design, build and grow software-as-a-service products with you."
+  },
+  "intro": {
+    "badge": "SaaS Product Development",
+    "title": "Turn Your Software Idea Into a Recurring-Revenue Product",
+    "paragraphs": [
+      "Software as a service lets customers sign up, pay monthly and use your product in the browser or on their phone, while you update it for everyone at once. Building a successful SaaS product takes more than code: it needs the right MVP scope, secure multi-tenant architecture, smooth onboarding, reliable billing and the ability to scale as customers arrive.",
+      "We are a SaaS development company that works with founders and established businesses on the whole journey: validating the idea, designing the product, building a SaaS MVP, launching to early customers, then iterating and scaling. Our SaaS developers handle frontend, backend, cloud infrastructure, subscriptions, analytics and integrations, so you can focus on customers and growth.",
+      "Whether you are developing a new SaaS product, adding a mobile app, or converting existing software into a cloud SaaS model, we bring the same senior team and transparent process. See <work>products we have built</work>, explore our <webapp>web application development</webapp> or <contact>share your SaaS idea</contact>."
+    ],
+    "highlightsTitle": "Every SaaS product we build has",
+    "highlights": [
+      "Secure multi-tenant architecture",
+      "Self-service sign-up and onboarding",
+      "Subscription plans and billing",
+      "Admin console and usage analytics",
+      "Role-based access and SSO",
+      "Cloud-native and auto-scaling",
+      "APIs and integrations",
+      "Continuous delivery of new features"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "SaaS Development Services",
+    "subtitle": "Everything you need to build, launch and grow a SaaS product, from the first prototype to thousands of paying customers.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "saas",
+        "title": "SaaS Product Development",
+        "desc": "End-to-end SaaS product development: strategy, UX, engineering, launch and ongoing product engineering as your customer base grows.",
+        "bullets": [
+          "Product strategy and roadmap",
+          "Full-stack development",
+          "Ongoing feature releases"
+        ]
+      },
+      {
+        "id": "mvp",
+        "title": "SaaS MVP Development",
+        "desc": "Launch a focused SaaS MVP in weeks, get real users and feedback, and invest further only in what works.",
+        "bullets": [
+          "MVP scope workshop",
+          "Launch in 8 to 12 weeks",
+          "Built to scale later"
+        ]
+      },
+      {
+        "id": "multiTenant",
+        "title": "Multi-Tenant Architecture",
+        "desc": "Secure multi-tenant SaaS architecture that isolates each customer's data while keeping hosting costs low and upgrades simple.",
+        "bullets": [
+          "Tenant data isolation",
+          "Custom domains and branding",
+          "Per-tenant configuration"
+        ]
+      },
+      {
+        "id": "web",
+        "title": "SaaS Web Application Development",
+        "desc": "Fast, intuitive SaaS web applications and dashboards that users enjoy every day, built with React, Next.js or Angular.",
+        "bullets": [
+          "Responsive web app",
+          "Real-time features",
+          "Accessible, modern UI"
+        ],
+        "href": "/web-application-development"
+      },
+      {
+        "id": "mobile",
+        "title": "SaaS Mobile App Development",
+        "desc": "iOS and Android companion apps for your SaaS, built natively or with Flutter or React Native and sharing the same backend.",
+        "bullets": [
+          "iOS and Android apps",
+          "Shared APIs and auth",
+          "Push notifications"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "payments",
+        "title": "Subscription Billing & Payments",
+        "desc": "Plans, trials, coupons, usage-based pricing, invoices and payment gateway integration for recurring revenue.",
+        "bullets": [
+          "Plans, trials and coupons",
+          "Usage-based billing",
+          "Invoices and dunning"
+        ]
+      },
+      {
+        "id": "design",
+        "title": "SaaS UX & Onboarding",
+        "desc": "SaaS design and development focused on activation: clear onboarding, empty states and in-app guidance that turn sign-ups into active users.",
+        "bullets": [
+          "Onboarding flows",
+          "Product UX design",
+          "In-app guidance"
+        ]
+      },
+      {
+        "id": "cloud",
+        "title": "Cloud & DevOps for SaaS",
+        "desc": "Cloud-native infrastructure with CI/CD, monitoring, backups and auto-scaling, so your SaaS stays fast and available as it grows.",
+        "bullets": [
+          "AWS, Azure or Google Cloud",
+          "CI/CD pipelines",
+          "Monitoring and auto-scaling"
+        ],
+        "href": "/cloud-devops"
+      },
+      {
+        "id": "integrations",
+        "title": "APIs & Integrations",
+        "desc": "Public APIs, webhooks and integrations with CRMs, payment, email and productivity tools that make your SaaS part of customers' workflows.",
+        "bullets": [
+          "Public REST APIs",
+          "Webhooks",
+          "Third-party integrations"
+        ],
+        "href": "/api-integration"
+      },
+      {
+        "id": "bi",
+        "title": "Admin, Analytics & Usage Tracking",
+        "desc": "Admin consoles, customer health and usage analytics, and revenue dashboards so you understand and grow your SaaS business.",
+        "bullets": [
+          "Super-admin console",
+          "Usage and feature analytics",
+          "MRR and churn dashboards"
+        ]
+      },
+      {
+        "id": "migration",
+        "title": "Convert Software to SaaS",
+        "desc": "Transform installed or single-tenant software into a cloud SaaS product with subscriptions, multi-tenancy and automatic updates.",
+        "bullets": [
+          "Single to multi-tenant",
+          "Cloud migration",
+          "Subscription model"
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security & Compliance",
+        "desc": "SaaS security built in: encryption, SSO, audit logs, backups and practices that support GDPR and SOC 2 readiness.",
+        "bullets": [
+          "Encryption and SSO",
+          "Audit logs",
+          "Compliance-ready practices"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "SaaS Products",
+    "title": "SaaS Products We Build",
+    "subtitle": "We have experience across many SaaS categories, from vertical B2B tools to platforms for consumers.",
+    "items": [
+      {
+        "id": "b2b",
+        "title": "B2B SaaS",
+        "desc": "Workflow, collaboration and productivity tools for business teams.",
+        "href": "/contact"
+      },
+      {
+        "id": "crm",
+        "title": "CRM & Marketing SaaS",
+        "desc": "Lead management, campaigns and customer engagement platforms.",
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "employee",
+        "title": "HR & Payroll SaaS",
+        "desc": "Recruitment, attendance, payroll and performance products.",
+        "href": "/contact"
+      },
+      {
+        "id": "fintech",
+        "title": "Fintech SaaS",
+        "desc": "Invoicing, expense, lending and accounting platforms.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare SaaS",
+        "desc": "Clinic management, telehealth and patient engagement software.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "education",
+        "title": "EdTech SaaS",
+        "desc": "Learning management, coaching and exam platforms.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "realEstate",
+        "title": "PropTech SaaS",
+        "desc": "Property, tenant and builder management platforms.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics SaaS",
+        "desc": "Fleet, dispatch and shipment tracking platforms.",
+        "href": "/industries#logistics"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "No-Code vs Custom",
+    "title": "No-Code SaaS Builders or Custom SaaS Development?",
+    "subtitle": "Low-code and no-code tools can help you test an idea. Here is when custom SaaS development makes more sense.",
+    "columns": [
+      {
+        "title": "No-code / low-code SaaS",
+        "bestFor": "Works for: early idea validation",
+        "pros": [
+          "Very fast to prototype",
+          "Low starting cost"
+        ],
+        "cons": [
+          "Platform fees grow with every customer",
+          "Limits on performance and complex logic",
+          "Hard to build true multi-tenancy and integrations",
+          "Investors may see lock-in risk",
+          "Difficult to migrate away later"
+        ]
+      },
+      {
+        "title": "Custom SaaS development",
+        "bestFor": "Best for: products you plan to scale and sell",
+        "pros": [
+          "Architecture designed to scale",
+          "Any feature, pricing model or integration",
+          "Lower cost per customer as you grow",
+          "You own the IP, a real company asset",
+          "Freedom to choose cloud and tools"
+        ],
+        "cons": [
+          "Higher upfront investment"
+        ]
+      }
+    ],
+    "note": "Built a prototype on a no-code tool already? We can rebuild it properly while keeping your users and data. <contact>Talk to us</contact>."
+  },
+  "outsourcing": {
+    "badge": "Engagement Models",
+    "title": "Work With Our SaaS Developers Your Way",
+    "subtitle": "Founders and product companies use us as their full product team or to add senior SaaS developers.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Fixed-Price SaaS MVP",
+        "desc": "A clearly scoped MVP with fixed price and timeline, ready for your first customers.",
+        "bestFor": "Founders and pilots"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated SaaS Team",
+        "desc": "Product manager, designers, developers and QA working only on your SaaS roadmap.",
+        "bestFor": "Growing products"
+      },
+      {
+        "id": "augmentation",
+        "title": "Hire SaaS Developers",
+        "desc": "Senior full-stack and DevOps engineers who join your team within days.",
+        "bestFor": "Extra capacity"
+      },
+      {
+        "id": "offshore",
+        "title": "Offshore & Nearshore SaaS Development",
+        "desc": "Senior SaaS developers with working-hour overlap for the US, UK, Europe and the Middle East.",
+        "bestFor": "Cost-efficient scaling"
+      }
+    ],
+    "pointsTitle": "What founders value most",
+    "points": [
+      "Product thinking, not just coding",
+      "Weekly demos on a live staging app",
+      "Clean, documented code investors can trust",
+      "Security and scalability from day one",
+      "NDA and 100% IP ownership",
+      "Long-term partnership as you grow"
+    ],
+    "note": "Planning your SaaS budget or investor pitch? We can help you scope the MVP and estimate costs for free. <contact>Book a call</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Develop Your SaaS Product",
+    "subtitle": "A proven path from idea to a scalable SaaS business.",
+    "steps": [
+      {
+        "title": "Discovery & validation",
+        "desc": "We clarify your target customers, problem, pricing model and the smallest product worth launching."
+      },
+      {
+        "title": "Product design",
+        "desc": "User flows, onboarding and interface design turned into a clickable prototype you can show customers."
+      },
+      {
+        "title": "Architecture",
+        "desc": "Multi-tenant data model, cloud infrastructure, security and billing planned for scale."
+      },
+      {
+        "title": "MVP development",
+        "desc": "Agile sprints build the core product, admin console and billing, with demos every two weeks."
+      },
+      {
+        "title": "Beta & feedback",
+        "desc": "Early customers use the product while we fix issues and refine features based on real usage."
+      },
+      {
+        "title": "Launch",
+        "desc": "Production launch with monitoring, analytics and support processes in place."
+      },
+      {
+        "title": "Scale & iterate",
+        "desc": "New features, performance tuning and infrastructure scaling as your customer base grows."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technologies",
+    "title": "Our SaaS Technology Stack",
+    "subtitle": "Proven technologies for building secure, scalable and maintainable SaaS products.",
+    "groups": [
+      {
+        "title": "Frontend",
+        "items": [
+          "React",
+          "Next.js",
+          "Angular",
+          "Vue.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "title": "Backend",
+        "items": [
+          "Node.js",
+          "Python / Django",
+          "PHP / Laravel",
+          "Ruby on Rails",
+          "Java",
+          ".NET"
+        ]
+      },
+      {
+        "title": "Data",
+        "items": [
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Redis",
+          "Data warehouse"
+        ]
+      },
+      {
+        "title": "Cloud & DevOps",
+        "items": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes",
+          "CI/CD"
+        ]
+      },
+      {
+        "title": "SaaS Essentials",
+        "items": [
+          "Multi-tenancy",
+          "Subscription billing",
+          "SSO",
+          "Usage metering",
+          "Feature flags",
+          "Audit logs"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your SaaS Development Company",
+    "subtitle": "We think like product owners and build SaaS that is ready for real customers and real growth.",
+    "items": [
+      {
+        "title": "Product mindset",
+        "desc": "We challenge scope, prioritise features that drive value and help you reach product-market fit faster."
+      },
+      {
+        "title": "Scalable from day one",
+        "desc": "Multi-tenant architecture and cloud-native infrastructure that grow without a rebuild."
+      },
+      {
+        "title": "Revenue-ready",
+        "desc": "Subscriptions, trials, invoices and analytics built in so you can charge from launch."
+      },
+      {
+        "title": "Senior full-stack team",
+        "desc": "Experienced SaaS developers across frontend, backend, mobile and DevOps."
+      },
+      {
+        "title": "Transparent and fast",
+        "desc": "Fixed MVP pricing, weekly demos and direct access to developers."
+      },
+      {
+        "title": "Long-term partner",
+        "desc": "Continuous product engineering after launch as your SaaS business grows."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does SaaS Development Cost?",
+    "subtitle": "The cost of developing a SaaS platform depends on features, integrations, design and scale. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "SaaS MVP",
+        "price": "$15,000 – $40,000",
+        "timeline": "2–4 months",
+        "desc": "Core features, multi-tenant setup, sign-up, billing and an admin console."
+      },
+      {
+        "name": "SaaS Platform v1",
+        "price": "$40,000 – $100,000",
+        "timeline": "4–7 months",
+        "desc": "Full product with integrations, analytics, roles, mobile app and polished UX."
+      },
+      {
+        "name": "Scale & Enterprise SaaS",
+        "price": "$100,000+",
+        "timeline": "7+ months",
+        "desc": "Enterprise features, SSO, compliance, advanced analytics and high-scale infrastructure."
+      }
+    ],
+    "note": "Starting with a focused MVP keeps initial costs low while you validate demand. Free scoping session and fixed MVP quote.",
+    "cta": "Get My Free SaaS Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "SaaS Development FAQs",
+    "subtitle": "Quick answers for founders and businesses planning a SaaS product.",
+    "items": [
+      {
+        "q": "What is SaaS development?",
+        "a": "SaaS development is building software that customers access online through a subscription instead of installing it. It includes the web and mobile apps, multi-tenant backend, billing, onboarding, cloud infrastructure and ongoing product updates."
+      },
+      {
+        "q": "How much does it cost to develop a SaaS platform?",
+        "a": "A SaaS MVP typically costs $15,000 to $40,000, a full SaaS platform v1 $40,000 to $100,000, and enterprise-scale SaaS $100,000 or more, depending on features, integrations and scale."
+      },
+      {
+        "q": "How long does it take to build a SaaS MVP?",
+        "a": "A focused SaaS MVP usually takes 2 to 4 months. A full first version of a SaaS platform takes 4 to 7 months, with demos every two weeks along the way."
+      },
+      {
+        "q": "What is multi-tenant SaaS architecture?",
+        "a": "Multi-tenancy means one SaaS application serves many customers (tenants) while keeping each customer's data separate and secure. It lowers hosting costs, simplifies updates and makes scaling easier."
+      },
+      {
+        "q": "What is the best tech stack for SaaS development?",
+        "a": "Common choices are React or Next.js for the frontend, Node.js, Python, Laravel or Ruby on Rails for the backend, PostgreSQL for data and AWS, Azure or Google Cloud for hosting. We recommend a stack based on your product, team and growth plans."
+      },
+      {
+        "q": "Can you convert my existing software into a SaaS product?",
+        "a": "Yes. We can move installed or single-tenant software to the cloud, add multi-tenancy, subscriptions and self-service onboarding, and migrate existing customers and data."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Mobile app development",
+        "href": "/mobile-app-development"
+      },
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "API integration",
+        "href": "/api-integration"
+      },
+      {
+        "label": "Cloud & DevOps services",
+        "href": "/cloud-devops"
+      },
+      {
+        "label": "Software development services",
+        "href": "/software-development"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Build Your SaaS Product?",
+    "subtitle": "Book a free scoping call. We will help you define your MVP, choose the right architecture and give you a fixed estimate.",
+    "primary": "Book a Free Scoping Call",
+    "secondary": "Send a Message"
+  }
+}

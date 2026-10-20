@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "title": "Custom Enterprise Software Development",
+    "description": "Custom enterprise software development: custom ERP, enterprise CRM, workflow automation, portals and integrations, built for security, scale and your processes."
+  },
+  "breadcrumb": "Custom Enterprise Software",
+  "form": {
+    "topic": "custom enterprise software",
+    "options": [
+      "Custom ERP software",
+      "Enterprise CRM",
+      "Workflow and process automation",
+      "Employee, vendor or partner portal",
+      "Modernise legacy enterprise software",
+      "Integrate our existing systems",
+      "Enterprise mobile app"
+    ]
+  },
+  "hero": {
+    "label": "Custom Enterprise Software",
+    "title": "Custom Enterprise Software Development for",
+    "highlight": "Complex, Growing Organisations",
+    "subtitle": "Custom ERP, enterprise CRM, workflow automation and portals designed around your processes, secured to enterprise standards and integrated with the systems you already run."
+  },
+  "intro": {
+    "badge": "Enterprise Software",
+    "title": "Enterprise Software Built Around How You Operate",
+    "paragraphs": [
+      "Large organisations rarely fit neatly into off-the-shelf software. Different departments, approval chains, regional rules and legacy systems mean teams end up working around their tools with spreadsheets, emails and manual re-entry. Licence fees grow with every user, and critical processes depend on a vendor's roadmap.",
+      "Custom enterprise software development solves this by building applications around your actual operations. We design and develop custom ERP systems, enterprise CRMs, workflow automation, employee and partner portals and reporting platforms that connect departments, remove manual work and give leadership one reliable view of the business.",
+      "Every custom enterprise application is built with role-based access, single sign-on, audit trails, encryption and high availability, and integrates with your existing ERP, CRM, HRMS and legacy databases. See how we approach <csd>custom software development</csd> in general, explore <crm>enterprise CRM development</crm> or <contact>talk to an enterprise architect</contact>."
+    ],
+    "highlightsTitle": "What enterprises gain",
+    "highlights": [
+      "Software that matches your processes",
+      "No per-user licence fees",
+      "One source of truth across departments",
+      "Automated approvals and workflows",
+      "Integration with ERP, CRM and legacy systems",
+      "Enterprise-grade security and audit trails",
+      "Scales across branches and regions",
+      "Full ownership of code and data"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Services",
+    "title": "Custom Enterprise Software Development Services",
+    "subtitle": "Enterprise solutions designed for scale, security and the way your organisation actually works.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "erp",
+        "title": "Custom ERP Development",
+        "desc": "Customized ERP software for finance, procurement, inventory, production, HR and sales, built around your processes instead of a generic template.",
+        "bullets": [
+          "Modules built to your workflows",
+          "Multi-company and multi-branch",
+          "Accounting and tax compliance"
+        ]
+      },
+      {
+        "id": "crm",
+        "title": "Enterprise CRM",
+        "desc": "Enterprise CRM software for large sales, service and partner teams, with complex territories, approvals and integrations.",
+        "bullets": [
+          "Territories and hierarchies",
+          "Quote and approval workflows",
+          "Service and SLA management"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "enterprise",
+        "title": "Enterprise Application Development",
+        "desc": "Custom enterprise applications for operations, compliance, field teams and management, built to handle high volumes and many users.",
+        "bullets": [
+          "Role-based applications",
+          "High availability",
+          "Audit-ready records"
+        ],
+        "href": "/enterprise-application-development"
+      },
+      {
+        "id": "custom",
+        "title": "Workflow & Process Automation",
+        "desc": "Digitise approvals, requests and multi-step business processes so work moves automatically between people and departments.",
+        "bullets": [
+          "Approval workflows",
+          "Rules and escalations",
+          "Paperless processes"
+        ]
+      },
+      {
+        "id": "portal",
+        "title": "Employee, Vendor & Partner Portals",
+        "desc": "Secure self-service portals for employees, suppliers, dealers and customers, connected to your core systems.",
+        "bullets": [
+          "Self-service requests",
+          "Vendor onboarding",
+          "Dealer and partner access"
+        ]
+      },
+      {
+        "id": "bi",
+        "title": "Business Intelligence & Reporting",
+        "desc": "Enterprise dashboards and reports that combine data from every department into one trusted view for leadership.",
+        "bullets": [
+          "Executive dashboards",
+          "Department KPIs",
+          "Scheduled reports"
+        ]
+      },
+      {
+        "id": "migration",
+        "title": "Legacy System Modernisation",
+        "desc": "Rebuild ageing enterprise systems on modern, cloud-ready technology while preserving data and business rules, with no disruption to operations.",
+        "bullets": [
+          "Phased migration",
+          "Data preservation",
+          "Zero-downtime cutover"
+        ]
+      },
+      {
+        "id": "integrations",
+        "title": "Enterprise Integration & APIs",
+        "desc": "Connect ERP, CRM, HRMS, payment, banking and legacy systems through secure APIs, so data flows once and stays consistent.",
+        "bullets": [
+          "API and middleware",
+          "Legacy database integration",
+          "Real-time data sync"
+        ],
+        "href": "/api-integration"
+      },
+      {
+        "id": "inventory",
+        "title": "Supply Chain & Inventory",
+        "desc": "Procurement, warehouse, inventory and distribution systems built for multi-location enterprises.",
+        "bullets": [
+          "Multi-warehouse inventory",
+          "Procurement workflows",
+          "Distribution tracking"
+        ],
+        "href": "/stock-management-software"
+      },
+      {
+        "id": "employee",
+        "title": "HRMS & Payroll",
+        "desc": "Human resource systems for attendance, leave, payroll, performance and onboarding, tailored to your policies.",
+        "bullets": [
+          "Attendance and leave",
+          "Payroll and compliance",
+          "Employee self-service"
+        ]
+      },
+      {
+        "id": "fintech",
+        "title": "Finance & Procurement",
+        "desc": "Budgeting, purchase requests, vendor management, invoicing and finance approvals in one controlled system.",
+        "bullets": [
+          "Purchase requests and POs",
+          "Budget controls",
+          "Invoice and payment approvals"
+        ]
+      },
+      {
+        "id": "mobile",
+        "title": "Enterprise Mobile Apps",
+        "desc": "Secure Android and iOS apps for field teams, managers and employees, connected to your enterprise systems.",
+        "bullets": [
+          "Field service apps",
+          "Mobile approvals",
+          "Offline sync"
+        ],
+        "href": "/mobile-app-development"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Industries",
+    "title": "Enterprise Solutions by Industry",
+    "subtitle": "We understand the regulations, scale and processes of large organisations in these sectors.",
+    "items": [
+      {
+        "id": "manufacturing",
+        "title": "Manufacturing",
+        "desc": "ERP, production planning, quality and plant maintenance across factories.",
+        "href": "/industries#manufacturing"
+      },
+      {
+        "id": "healthcare",
+        "title": "Healthcare",
+        "desc": "Hospital management, patient systems and compliance-ready records.",
+        "href": "/industries#healthcare"
+      },
+      {
+        "id": "fintech",
+        "title": "BFSI",
+        "desc": "Core operations, loan management and compliance workflows for financial institutions.",
+        "href": "/industries#finance"
+      },
+      {
+        "id": "logistics",
+        "title": "Logistics",
+        "desc": "Transport, warehousing and fleet systems for large logistics networks.",
+        "href": "/industries#logistics"
+      },
+      {
+        "id": "retail",
+        "title": "Retail & Distribution",
+        "desc": "Multi-store, dealer and distributor management at scale.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "desc": "University and school-group ERPs for admissions, academics and finance.",
+        "href": "/industries#education"
+      },
+      {
+        "id": "realEstate",
+        "title": "Real Estate",
+        "desc": "Project, sales, CRM and finance systems for developers.",
+        "href": "/industries#real-estate"
+      },
+      {
+        "id": "government",
+        "title": "Government & PSUs",
+        "desc": "Secure workflow, grievance and records systems for public organisations.",
+        "href": "/contact"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "Off-the-Shelf vs Custom",
+    "title": "Off-the-Shelf Enterprise Suites or Custom Enterprise Software?",
+    "subtitle": "Big-name ERP and CRM suites suit some organisations. Here is when custom makes more sense.",
+    "columns": [
+      {
+        "title": "Off-the-shelf enterprise suites",
+        "bestFor": "Fits: standard processes and large implementation budgets",
+        "pros": [
+          "Mature, proven modules",
+          "Large partner ecosystem"
+        ],
+        "cons": [
+          "High per-user licence and renewal costs",
+          "Long, costly customisation projects",
+          "Teams adapt to the software, not the reverse",
+          "Unused modules you still pay for",
+          "Dependence on the vendor's roadmap"
+        ]
+      },
+      {
+        "title": "Custom enterprise software",
+        "bestFor": "Best for: unique processes and long-term cost control",
+        "pros": [
+          "Built exactly around your workflows",
+          "No per-user licence fees",
+          "Integrates deeply with existing systems",
+          "Phased rollout, value from early releases",
+          "You own the code, data and roadmap"
+        ],
+        "cons": [
+          "Larger upfront build investment"
+        ]
+      }
+    ],
+    "note": "Already invested in an enterprise suite? We also build custom modules and integrations around it. <contact>Talk to an architect</contact>."
+  },
+  "outsourcing": {
+    "badge": "Engagement Models",
+    "title": "Flexible Engagement for Enterprise Projects",
+    "subtitle": "Choose a model that fits your governance, budget cycles and in-house capability.",
+    "items": [
+      {
+        "id": "fixed",
+        "title": "Phased Fixed-Scope Delivery",
+        "desc": "Large programmes broken into fixed-scope phases with clear milestones and sign-offs.",
+        "bestFor": "Budget control"
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated Enterprise Team",
+        "desc": "Architects, developers, QA and a delivery manager working only on your programme.",
+        "bestFor": "Long-term platforms"
+      },
+      {
+        "id": "augmentation",
+        "title": "Staff Augmentation",
+        "desc": "Senior engineers who join your IT team and follow your standards and tools.",
+        "bestFor": "Extra capacity"
+      },
+      {
+        "id": "bot",
+        "title": "Build-Operate-Transfer",
+        "desc": "We build and run the platform, then transfer the team and knowledge to you.",
+        "bestFor": "Building in-house capability"
+      }
+    ],
+    "pointsTitle": "Enterprise-ready delivery",
+    "points": [
+      "NDA and security reviews before access",
+      "Documentation and architecture decision records",
+      "UAT, security and performance testing",
+      "Change management and user training",
+      "SLA-backed support after go-live",
+      "100% IP and source code ownership"
+    ],
+    "note": "Working across time zones? Our teams overlap with India, the Middle East, Europe and the US. <contact>Schedule a discovery call</contact>."
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Deliver Custom Enterprise Software",
+    "subtitle": "A structured, low-risk delivery approach designed for large organisations.",
+    "steps": [
+      {
+        "title": "Discovery & process mapping",
+        "desc": "Workshops with stakeholders to map current processes, pain points, systems and success measures."
+      },
+      {
+        "title": "Architecture & security design",
+        "desc": "Solution architecture, data model, integrations, security and compliance planned and documented."
+      },
+      {
+        "title": "Phased development",
+        "desc": "Priority modules are built first in agile sprints, so teams see value early and give feedback."
+      },
+      {
+        "title": "Integration & data migration",
+        "desc": "Connections to existing systems and careful migration of master and historical data."
+      },
+      {
+        "title": "Testing & UAT",
+        "desc": "Functional, security, performance and user acceptance testing before each release."
+      },
+      {
+        "title": "Rollout & training",
+        "desc": "Department-by-department rollout with training and change management support."
+      },
+      {
+        "title": "Support & evolution",
+        "desc": "SLA-backed support, monitoring and continuous improvement as the business evolves."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Enterprise Standards",
+    "title": "Built to Enterprise Standards",
+    "subtitle": "Security, scalability and integration are designed in from the start.",
+    "groups": [
+      {
+        "title": "Security",
+        "items": [
+          "Single sign-on",
+          "Role-based access",
+          "Audit trails",
+          "Encryption",
+          "Data backups"
+        ]
+      },
+      {
+        "title": "Architecture",
+        "items": [
+          "Modular design",
+          "Microservices",
+          "High availability",
+          "Load balancing"
+        ]
+      },
+      {
+        "title": "Integration",
+        "items": [
+          "ERP",
+          "CRM",
+          "HRMS",
+          "Payment and banking",
+          "Legacy databases",
+          "REST APIs"
+        ]
+      },
+      {
+        "title": "Data & AI",
+        "items": [
+          "Data warehouse",
+          "BI dashboards",
+          "Predictive analytics",
+          "AI automation"
+        ]
+      },
+      {
+        "title": "Deployment",
+        "items": [
+          "Private cloud",
+          "Public cloud",
+          "On-premise",
+          "Hybrid"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose Us as Your Custom Enterprise Software Company",
+    "subtitle": "We combine enterprise discipline with the speed and flexibility of a focused engineering team.",
+    "items": [
+      {
+        "title": "Process-first approach",
+        "desc": "We understand your operations before writing code, so the software fits how people really work."
+      },
+      {
+        "title": "Senior architects",
+        "desc": "Experienced architects design for security, scale and long-term maintainability."
+      },
+      {
+        "title": "Phased, low-risk delivery",
+        "desc": "Value arrives in stages, with clear milestones and no big-bang surprises."
+      },
+      {
+        "title": "Integration expertise",
+        "desc": "Proven experience connecting new systems with ERP, CRM, HRMS and legacy platforms."
+      },
+      {
+        "title": "Lower total cost",
+        "desc": "No per-user licences and only the features you need, reducing long-term cost of ownership."
+      },
+      {
+        "title": "Long-term partnership",
+        "desc": "SLA-backed support and continuous evolution from the team that built your platform."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Custom Enterprise Software Cost?",
+    "subtitle": "Cost depends on modules, users, integrations, compliance and rollout scope. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Departmental Application",
+        "price": "$25,000 – $75,000",
+        "timeline": "3–5 months",
+        "desc": "A focused enterprise application for one department or process, with integrations."
+      },
+      {
+        "name": "Custom ERP or Enterprise Platform",
+        "price": "$75,000 – $250,000",
+        "timeline": "6–12 months",
+        "desc": "Multi-module ERP or enterprise platform across departments and branches."
+      },
+      {
+        "name": "Enterprise Transformation",
+        "price": "$250,000+",
+        "timeline": "12+ months",
+        "desc": "Large-scale modernisation and integration programmes delivered in phases."
+      }
+    ],
+    "note": "Phased delivery spreads investment over time and delivers value from the first release. Detailed estimate after a discovery workshop.",
+    "cta": "Book a Discovery Call"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Custom Enterprise Software FAQs",
+    "subtitle": "Quick answers for organisations considering custom enterprise software.",
+    "items": [
+      {
+        "q": "What is custom enterprise software?",
+        "a": "Custom enterprise software is software built specifically for a large organisation's processes, such as ERP, CRM, workflow automation, portals and reporting, instead of adapting a generic off-the-shelf suite."
+      },
+      {
+        "q": "Is custom ERP better than an off-the-shelf ERP?",
+        "a": "Off-the-shelf ERP suits organisations with standard processes and big implementation budgets. Custom ERP is better when your processes are unique, licence costs are high, or you need deep integration and full control of your roadmap."
+      },
+      {
+        "q": "How much does custom enterprise software development cost?",
+        "a": "A departmental application typically costs $25,000 to $75,000, a custom ERP or enterprise platform $75,000 to $250,000, and large transformation programmes $250,000 or more, usually delivered in phases."
+      },
+      {
+        "q": "How long does it take to build enterprise software?",
+        "a": "A focused departmental application takes 3 to 5 months, while custom ERP and enterprise platforms take 6 to 12 months. Priority modules go live earlier through phased delivery."
+      },
+      {
+        "q": "Can it integrate with our existing ERP, CRM and legacy systems?",
+        "a": "Yes. We integrate with existing ERP, CRM, HRMS, payment, banking and legacy databases through secure APIs and middleware, and migrate data carefully during rollout."
+      },
+      {
+        "q": "How do you handle security and ownership?",
+        "a": "We sign NDAs, follow secure development practices, implement SSO, role-based access, encryption and audit trails, and transfer full ownership of the source code, data and documentation to you."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Custom software development",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "Enterprise application development",
+        "href": "/enterprise-application-development"
+      },
+      {
+        "label": "CRM software development",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "Stock management software",
+        "href": "/stock-management-software"
+      },
+      {
+        "label": "Web application development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "Case studies",
+        "href": "/case-studies"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Simplify Your Enterprise Operations?",
+    "subtitle": "Book a free discovery call with a senior architect. We will map your challenges and outline a phased, low-risk plan.",
+    "primary": "Book a Discovery Call",
+    "secondary": "Send a Message"
+  }
+}

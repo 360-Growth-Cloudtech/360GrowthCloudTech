@@ -49,7 +49,7 @@
           "SSO and role-based access",
           "High availability and compliance"
         ],
-        "href": "/services#enterprise-application-development"
+        "href": "/custom-enterprise-software"
       },
       {
         "id": "custom",
@@ -70,7 +70,7 @@
           "Admin dashboards",
           "PHP, .NET, Node.js and Python"
         ],
-        "href": "/services#web-application-development"
+        "href": "/web-application-development"
       },
       {
         "id": "mobile",
@@ -81,7 +81,7 @@
           "Offline mode and push notifications",
           "App store publishing and updates"
         ],
-        "href": "/services#mobile-app-development"
+        "href": "/mobile-app-development"
       },
       {
         "id": "erp",
@@ -113,7 +113,7 @@
           "Multi-tenant SaaS platforms",
           "Subscriptions and billing"
         ],
-        "href": "/services#saas-development"
+        "href": "/saas-development"
       },
       {
         "id": "bi",
@@ -154,7 +154,7 @@
           "Extending existing software",
           "Data sync and automation"
         ],
-        "href": "/services#api-system-integration"
+        "href": "/api-integration"
       },
       {
         "id": "migration",
@@ -489,6 +489,10 @@
       {
         "label": "Software development services",
         "href": "/software-development"
+      },
+      {
+        "label": "Custom enterprise software",
+        "href": "/custom-enterprise-software"
       },
       {
         "label": "Ecommerce software development",
