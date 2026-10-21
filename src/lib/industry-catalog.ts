@@ -34,11 +34,26 @@ export const industryMeta: Record<IndustrySlug, IndustryMeta> = {
   realEstate: { icon: Building2, image: "/case-studies/atory-hub-home.jpg", caseStudy: "atory-hub" },
 };
 
-/** URL-friendly anchor for each industry on /industries. */
+/** Each industry's own landing page (src/app/[locale]/<path>, copy in messages/en/industry*.json). */
+export const INDUSTRY_PAGES: Record<IndustrySlug, string> = {
+  healthcare: "/healthcare-software-development",
+  finance: "/fintech-software-development",
+  manufacturing: "/manufacturing-software-development",
+  logistics: "/logistics-software-development",
+  travel: "/travel-software-development",
+  retail: "/retail-software-development",
+  education: "/education-software-development",
+  realEstate: "/real-estate-software-development",
+};
+
+export const INDUSTRY_PAGE_PATHS: string[] = Object.values(INDUSTRY_PAGES);
+
+/** URL-friendly anchor for each industry tab on /industries. */
 export const industryAnchor = (slug: IndustrySlug) =>
   slug.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`);
 
-export const industryHref = (slug: IndustrySlug) => `/industries#${industryAnchor(slug)}`;
+/** Where menus and links send visitors for an industry: its own landing page. */
+export const industryHref = (slug: IndustrySlug) => INDUSTRY_PAGES[slug];
 
 /**
  * Fired with the target hash (e.g. "#retail") when a menu link points at a

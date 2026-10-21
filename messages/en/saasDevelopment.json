@@ -202,31 +202,31 @@
         "id": "fintech",
         "title": "Fintech SaaS",
         "desc": "Invoicing, expense, lending and accounting platforms.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "healthcare",
         "title": "Healthcare SaaS",
         "desc": "Clinic management, telehealth and patient engagement software.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "education",
         "title": "EdTech SaaS",
         "desc": "Learning management, coaching and exam platforms.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "realEstate",
         "title": "PropTech SaaS",
         "desc": "Property, tenant and builder management platforms.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "logistics",
         "title": "Logistics SaaS",
         "desc": "Fleet, dispatch and shipment tracking platforms.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       }
     ]
   },

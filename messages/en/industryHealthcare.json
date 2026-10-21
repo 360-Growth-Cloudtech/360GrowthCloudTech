@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "title": "Healthcare Software Development Company",
+    "description": "Custom healthcare software development: hospital and clinic management, patient portals, telemedicine apps, EHR/EMR integration and HIPAA-ready security."
+  },
+  "breadcrumbParent": {
+    "label": "Industries",
+    "href": "/industries"
+  },
+  "breadcrumb": "Healthcare",
+  "form": {
+    "topic": "healthcare software development",
+    "options": [
+      "Hospital or clinic management system",
+      "Patient portal or app",
+      "Telemedicine platform",
+      "EHR / EMR integration",
+      "IVR and patient intake automation",
+      "Lab or pharmacy software",
+      "Healthcare AI or analytics"
+    ]
+  },
+  "hero": {
+    "label": "Healthcare Software Development",
+    "title": "Healthcare Software Development That",
+    "highlight": "Gives Clinicians Time Back",
+    "subtitle": "Secure hospital and clinic systems, patient portals, telemedicine apps and EHR integrations, built with privacy and compliance from the first sprint."
+  },
+  "intro": {
+    "badge": "Healthcare IT",
+    "title": "Technology That Puts Patients and Clinicians First",
+    "paragraphs": [
+      "Healthcare teams lose hours every day to paperwork, phone calls and systems that do not talk to each other. Patients wait on hold, records sit in silos and staff re-enter the same information again and again. The right software removes that friction, so clinicians spend more time on care.",
+      "We are a healthcare software development company building custom solutions for hospitals, clinics, diagnostic labs, pharmacies and health-tech startups. Our team designs hospital management systems, patient portals, telemedicine platforms, appointment and IVR automation, and integrations with EHR and EMR systems using standards like HL7 and FHIR.",
+      "Every project is built with patient data security at its core: encryption, role-based access, audit trails and HIPAA-aligned practices. See our <work>healthcare case studies</work>, explore <csd>custom software development</csd> or <contact>talk to us about your facility</contact>."
+    ],
+    "highlightsTitle": "What healthcare software delivers",
+    "highlights": [
+      "Less paperwork for clinical staff",
+      "Faster patient intake and scheduling",
+      "Secure, connected patient records",
+      "Online consultations and follow-ups",
+      "Fewer missed appointments",
+      "Accurate billing and claims",
+      "Real-time operational dashboards",
+      "HIPAA-aligned data protection"
+    ]
+  },
+  "offerings": {
+    "badge": "Healthcare Solutions",
+    "title": "Healthcare Software Development Services",
+    "subtitle": "Custom solutions for every part of the patient journey and hospital operations.",
+    "discuss": "Discuss this solution",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "healthcare",
+        "title": "Hospital Management Systems",
+        "desc": "Hospital and clinic management software covering OPD, IPD, beds, billing, pharmacy and reports in one system.",
+        "bullets": [
+          "OPD and IPD workflows",
+          "Billing and insurance",
+          "Pharmacy and inventory"
+        ]
+      },
+      {
+        "id": "portal",
+        "title": "Patient Portals",
+        "desc": "Secure portals where patients book appointments, view reports and prescriptions, pay bills and message their care team.",
+        "bullets": [
+          "Appointments and reports",
+          "Online payments",
+          "Secure messaging"
+        ]
+      },
+      {
+        "id": "mobile",
+        "title": "Telemedicine & Healthcare Apps",
+        "desc": "Video consultation, e-prescription and follow-up apps for doctors and patients on web, Android and iOS.",
+        "bullets": [
+          "Video consultations",
+          "E-prescriptions",
+          "Reminders and follow-ups"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "integrations",
+        "title": "EHR / EMR Integration",
+        "desc": "Connect EHR, EMR, lab and pharmacy systems using HL7 and FHIR so patient data flows securely between them.",
+        "bullets": [
+          "HL7 and FHIR interfaces",
+          "Lab and pharmacy integration",
+          "Data mapping and validation"
+        ],
+        "href": "/api-integration"
+      },
+      {
+        "id": "voice",
+        "title": "IVR & Patient Intake Automation",
+        "desc": "Automated phone and online intake that books appointments, sends reminders and collects patient details before the visit.",
+        "bullets": [
+          "Appointment IVR",
+          "Digital intake forms",
+          "SMS and call reminders"
+        ],
+        "href": "/case-studies/healthcare-ivr-platform"
+      },
+      {
+        "id": "booking",
+        "title": "Appointment & Queue Management",
+        "desc": "Online booking, doctor schedules and smart queues that reduce waiting times and no-shows.",
+        "bullets": [
+          "Doctor scheduling",
+          "Token and queue display",
+          "No-show reduction"
+        ]
+      },
+      {
+        "id": "chemicals",
+        "title": "Lab & Diagnostic Software",
+        "desc": "Laboratory information systems for sample tracking, results, report delivery and machine interfacing.",
+        "bullets": [
+          "Sample tracking",
+          "Machine interfacing",
+          "Online report delivery"
+        ]
+      },
+      {
+        "id": "pharma",
+        "title": "Pharmacy Management",
+        "desc": "Pharmacy software for stock, batches, expiry, billing and prescriptions, linked to your hospital system.",
+        "bullets": [
+          "Batch and expiry tracking",
+          "Prescription billing",
+          "Reorder alerts"
+        ],
+        "href": "/stock-management-software"
+      },
+      {
+        "id": "invoicing",
+        "title": "Medical Billing & Claims",
+        "desc": "Billing, insurance claims and payment tracking that reduce errors and speed up reimbursement.",
+        "bullets": [
+          "Insurance and TPA claims",
+          "Billing accuracy",
+          "Payment reconciliation"
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "Healthcare AI & Analytics",
+        "desc": "AI assistants, medical document processing and analytics dashboards for operations and clinical insight.",
+        "bullets": [
+          "AI patient assistants",
+          "Document processing",
+          "Operational analytics"
+        ],
+        "href": "/ai-automation"
+      },
+      {
+        "id": "complaint",
+        "title": "Patient Feedback & Grievances",
+        "desc": "Collect patient feedback and resolve complaints quickly with tracking and escalation.",
+        "bullets": [
+          "Feedback surveys",
+          "Complaint tracking",
+          "Service quality reports"
+        ],
+        "href": "/online-complaint-management-system"
+      },
+      {
+        "id": "security",
+        "title": "Healthcare Data Security",
+        "desc": "Encryption, access control, audit logs and secure hosting aligned with HIPAA and healthcare data protection practices.",
+        "bullets": [
+          "Encryption and access control",
+          "Audit trails",
+          "Secure backups"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Serve",
+    "title": "Software for Every Healthcare Provider",
+    "subtitle": "From single clinics to multi-specialty hospital groups and health-tech startups.",
+    "items": [
+      {
+        "id": "healthcare",
+        "title": "Hospitals",
+        "desc": "Integrated hospital management, EHR integration and patient engagement.",
+        "href": "/contact"
+      },
+      {
+        "id": "shops",
+        "title": "Clinics & Practices",
+        "desc": "Booking, records, billing and reminders for clinics and specialists.",
+        "href": "/contact"
+      },
+      {
+        "id": "chemicals",
+        "title": "Diagnostic Labs",
+        "desc": "Sample tracking, results and online report delivery.",
+        "href": "/contact"
+      },
+      {
+        "id": "pharma",
+        "title": "Pharmacies",
+        "desc": "Stock, prescriptions, billing and home delivery.",
+        "href": "/contact"
+      },
+      {
+        "id": "startups",
+        "title": "Health-Tech Startups",
+        "desc": "MVPs and scalable platforms for new digital health products.",
+        "href": "/saas-development"
+      },
+      {
+        "id": "mobile",
+        "title": "Telehealth Providers",
+        "desc": "Video consultations, e-prescriptions and remote monitoring.",
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "spa",
+        "title": "Wellness & Fitness",
+        "desc": "Booking, memberships and coaching apps for wellness businesses.",
+        "href": "/contact"
+      },
+      {
+        "id": "education",
+        "title": "Medical Education",
+        "desc": "Learning platforms and assessments for medical training.",
+        "href": "/education-software-development"
+      }
+    ]
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Build Healthcare Software",
+    "subtitle": "A proven process that respects the rules, risks and pace of the healthcare industry.",
+    "steps": [
+      {
+        "title": "Discovery & compliance review",
+        "desc": "We map your workflows, users, systems and the HIPAA-aligned privacy and data protection requirements your software must meet."
+      },
+      {
+        "title": "Solution design",
+        "desc": "Architecture, integrations, data model and a clickable prototype validated with your team."
+      },
+      {
+        "title": "Agile development",
+        "desc": "Two-week sprints with live demos, so you see progress and give feedback early."
+      },
+      {
+        "title": "Integration & data migration",
+        "desc": "Connections to your existing EHR/EMR, lab, billing and pharmacy systems and careful migration of current data."
+      },
+      {
+        "title": "Testing & security",
+        "desc": "Functional, performance and security testing before every release, with audit-ready records."
+      },
+      {
+        "title": "Launch, training & support",
+        "desc": "Phased rollout, staff training and SLA-backed support as you grow."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Standards & Integrations",
+    "title": "Healthcare Standards and Integrations",
+    "subtitle": "Built to work safely with the systems and standards healthcare relies on.",
+    "groups": [
+      {
+        "title": "Interoperability",
+        "items": [
+          "HL7",
+          "FHIR",
+          "DICOM",
+          "ICD codes"
+        ]
+      },
+      {
+        "title": "Security",
+        "items": [
+          "Encryption",
+          "Role-based access",
+          "Audit logs",
+          "Secure hosting"
+        ]
+      },
+      {
+        "title": "Integrations",
+        "items": [
+          "EHR / EMR",
+          "Lab systems",
+          "Pharmacy",
+          "Payment gateways",
+          "Insurance / TPA"
+        ]
+      },
+      {
+        "title": "Patient Channels",
+        "items": [
+          "Web portal",
+          "Mobile apps",
+          "IVR",
+          "SMS and email"
+        ]
+      },
+      {
+        "title": "Compliance",
+        "items": [
+          "HIPAA-aligned",
+          "Data privacy",
+          "Consent management",
+          "Backups"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Healthcare Businesses Choose Us",
+    "subtitle": "We combine software engineering with an understanding of how healthcare businesses actually run.",
+    "items": [
+      {
+        "title": "Industry understanding",
+        "desc": "We speak your language and know the workflows, regulations and customers of healthcare."
+      },
+      {
+        "title": "Compliance built in",
+        "desc": "Security and HIPAA-aligned privacy and data protection requirements are designed in from the first sprint, not patched later."
+      },
+      {
+        "title": "Integration experience",
+        "desc": "Proven integrations with the EHR/EMR, lab, billing and pharmacy systems you already use."
+      },
+      {
+        "title": "Senior team",
+        "desc": "Experienced engineers, designers and QA on every project."
+      },
+      {
+        "title": "Transparent delivery",
+        "desc": "Fixed-scope estimates, weekly demos and direct access to developers."
+      },
+      {
+        "title": "You own everything",
+        "desc": "Full ownership of source code, data and designs, with long-term support."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Healthcare Software Development Cost?",
+    "subtitle": "Cost depends on modules, integrations, compliance needs and platforms. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Clinic Software or Patient App",
+        "price": "$8,000 – $25,000",
+        "timeline": "2–3 months",
+        "desc": "Booking, records, reminders and billing for a clinic, or a patient-facing app."
+      },
+      {
+        "name": "Telemedicine or Portal Platform",
+        "price": "$25,000 – $70,000",
+        "timeline": "3–6 months",
+        "desc": "Video consultations, portals, e-prescriptions and EHR integration."
+      },
+      {
+        "name": "Hospital Management System",
+        "price": "$70,000+",
+        "timeline": "6+ months",
+        "desc": "Multi-department hospital software with integrations and compliance controls."
+      }
+    ],
+    "note": "Fixed, itemised quote after a free consultation, with HIPAA-aligned security included as standard.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Healthcare Software Development FAQs",
+    "subtitle": "Quick answers for healthcare providers and health-tech founders.",
+    "items": [
+      {
+        "q": "What is healthcare software development?",
+        "a": "Healthcare software development is building digital systems for hospitals, clinics, labs, pharmacies and health-tech companies, such as hospital management systems, patient portals, telemedicine apps and EHR integrations."
+      },
+      {
+        "q": "Do you build HIPAA-compliant healthcare software?",
+        "a": "We build healthcare software with HIPAA-aligned practices, including encryption, role-based access, audit trails and secure hosting, and work with your compliance team on policies and certification."
+      },
+      {
+        "q": "Can you integrate with our existing EHR or EMR system?",
+        "a": "Yes. We integrate with EHR, EMR, lab and pharmacy systems using HL7, FHIR or available APIs, and validate data mapping carefully to keep records accurate."
+      },
+      {
+        "q": "Do you develop telemedicine apps?",
+        "a": "Yes. We build telemedicine platforms with video consultations, appointment booking, e-prescriptions, payments and follow-up reminders on web, Android and iOS."
+      },
+      {
+        "q": "How much does healthcare software development cost?",
+        "a": "A clinic system or patient app typically costs $8,000 to $25,000, telemedicine or portal platforms $25,000 to $70,000, and hospital management systems $70,000 or more."
+      },
+      {
+        "q": "Can you help healthcare startups build an MVP?",
+        "a": "Yes. We help health-tech founders scope, design and launch an MVP quickly, with privacy and scalability in mind from the start."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Hospital IVR case study",
+        "href": "/case-studies/healthcare-ivr-platform"
+      },
+      {
+        "label": "Mobile app development",
+        "href": "/mobile-app-development"
+      },
+      {
+        "label": "AI & automation",
+        "href": "/ai-automation"
+      },
+      {
+        "label": "API integration",
+        "href": "/api-integration"
+      },
+      {
+        "label": "All industries",
+        "href": "/industries"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Build Healthcare Software Patients and Staff Love",
+    "subtitle": "Book a free 30-minute consultation. Tell us about your healthcare business and get a clear plan and transparent estimate.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

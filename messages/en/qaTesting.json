@@ -202,13 +202,13 @@
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Accurate, secure and compliant QA for patient and clinical software.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "fintech",
         "title": "Banking & Fintech",
         "desc": "Transaction accuracy, security and compliance checks.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "embedded",
@@ -226,7 +226,7 @@
         "id": "education",
         "title": "EdTech & LMS",
         "desc": "Learning platforms, exams and content delivery checks.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       }
     ]
   },

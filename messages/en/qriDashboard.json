@@ -193,7 +193,7 @@
         "id": "pharma",
         "title": "Pharmaceuticals",
         "desc": "Batch-wise in-process and packaging inspections with traceability for audits.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "chemicals",
@@ -223,7 +223,7 @@
         "id": "components",
         "title": "Industrial Components",
         "desc": "Dimensional inspection, tolerances and lot-wise acceptance for engineered parts.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       }
     ]
   },
@@ -457,7 +457,7 @@
       },
       {
         "label": "Manufacturing solutions",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "label": "Complaint management system",

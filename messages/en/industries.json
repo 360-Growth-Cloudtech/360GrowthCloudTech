@@ -1,10 +1,10 @@
 {
   "page": {
     "label": "Industries",
-    "title": "Software Built for the Way Your",
-    "subtitle": "Eight industries, one senior team. We start from your sector's rules, workflows and customers, then build the platform around them.",
+    "title": "Industry Software Solutions Built for the Way Your",
+    "subtitle": "Healthcare, fintech, manufacturing, logistics, travel, retail, education and real estate. We start from your sector's rules, workflows and customers, then build the software around them.",
     "showcaseBadge": "Industry Solutions",
-    "showcaseTitle": "Pick your industry",
+    "showcaseTitle": "See What We Build for Each Industry",
     "showcaseSubtitle": "See what we build for your sector and the projects behind it.",
     "statIndustries": "industries served",
     "statProjects": "case studies published",
@@ -13,12 +13,12 @@
     "titleHighlight": "Industry Works"
   },
   "cta": {
-    "title": "Discuss your industry needs.",
-    "subtitle": "Every industry is different. Let's find the right solution for yours."
+    "title": "Discuss Your Industry Needs",
+    "subtitle": "Every industry is different. Book a free consultation and get a plan built around your sector."
   },
   "meta": {
-    "title": "Industry Software: Healthcare, BFSI & More",
-    "description": "Custom software for healthcare, BFSI, manufacturing, logistics, travel, retail, education and real estate, built around each sector's rules and workflows."
+    "title": "Industry Software Solutions",
+    "description": "Industry-specific software development for healthcare, fintech, manufacturing, logistics, travel, retail, education and real estate businesses."
   },
   "showcase": {
     "getStarted": "Get started",
@@ -26,7 +26,8 @@
     "whatWeBuild": "What we build",
     "sampleDashboard": "Sample dashboard",
     "tablistLabel": "Industries",
-    "realProject": "Live project"
+    "realProject": "Live project",
+    "explore": "Explore {industry} solutions"
   },
   "catalog": {
     "healthcare": {
@@ -43,7 +44,8 @@
       "badges": [
         "HIPAA-ready",
         "HL7 / FHIR"
-      ]
+      ],
+      "menuDesc": "Hospitals, clinics & telehealth"
     },
     "finance": {
       "name": "BFSI",
@@ -76,7 +78,8 @@
             "value": "4 min"
           }
         ]
-      }
+      },
+      "menuDesc": "Banking, lending & insurance"
     },
     "manufacturing": {
       "name": "Manufacturing",
@@ -109,7 +112,8 @@
             "value": "7"
           }
         ]
-      }
+      },
+      "menuDesc": "Production, quality & IoT"
     },
     "logistics": {
       "name": "Logistics",
@@ -125,7 +129,8 @@
       "badges": [
         "Live dispatch",
         "Route planning"
-      ]
+      ],
+      "menuDesc": "Fleet, dispatch & warehousing"
     },
     "travel": {
       "name": "Travel & Tourism",
@@ -141,7 +146,8 @@
       "badges": [
         "SEO-first",
         "Instant quotes"
-      ]
+      ],
+      "menuDesc": "Bookings, travel CRM & apps"
     },
     "retail": {
       "name": "Retail & E-commerce",
@@ -157,7 +163,8 @@
       "badges": [
         "Headless commerce",
         "Payments"
-      ]
+      ],
+      "menuDesc": "POS, stores & online selling"
     },
     "education": {
       "name": "Education",
@@ -173,7 +180,8 @@
       "badges": [
         "LMS",
         "Admissions funnel"
-      ]
+      ],
+      "menuDesc": "LMS, e-learning & school ERP"
     },
     "realEstate": {
       "name": "Real Estate",
@@ -189,6 +197,104 @@
       "badges": [
         "Marketplace",
         "Lead routing"
+      ],
+      "menuDesc": "CRM, listings & property management"
+    }
+  },
+  "hub": {
+    "intro": {
+      "badge": "Industries We Serve",
+      "title": "Software Development That Understands Your Industry",
+      "paragraphs": [
+        "Generic software treats every business the same. But a hospital, a lender, a factory and a travel agency face completely different regulations, workflows and customer expectations. Industry-specific software development starts with those realities, so the result fits from day one instead of needing endless workarounds.",
+        "We build custom software, web and mobile apps, CRMs, ERPs and SaaS platforms for eight core industries. Each industry page below explains the solutions we build, the integrations and compliance standards we work with, typical costs and the questions clients ask most.",
+        "Do not see your industry? Our <services>software development services</services> adapt to any sector, or you can <contact>tell us about your business</contact>."
+      ]
+    },
+    "grid": {
+      "badge": "Choose Your Industry",
+      "title": "Industry-Specific Software Solutions",
+      "subtitle": "Pick your sector to see the solutions, integrations, pricing and FAQs for it.",
+      "explore": "Explore solutions",
+      "items": {
+        "healthcare": "Hospital management, patient portals, telemedicine and EHR integration with HIPAA-aligned security.",
+        "finance": "Digital banking, wallets, lending, payments and insurance platforms with KYC/AML and PCI-DSS practices.",
+        "manufacturing": "Production planning, quality inspection, inventory, maintenance and IoT dashboards linked to your ERP.",
+        "logistics": "Fleet management, dispatch, TMS, WMS, shipment tracking and driver apps.",
+        "travel": "Tour booking websites, travel CRMs, itinerary builders, cab apps and travel API integrations.",
+        "retail": "POS, omnichannel inventory, loyalty, retail apps and ecommerce across every channel.",
+        "education": "LMS, e-learning apps, live classes, online exams, school ERP and admission CRMs.",
+        "realEstate": "Real estate CRMs, property portals, unit booking, property management and tenant apps."
+      }
+    },
+    "services": {
+      "badge": "Across Every Industry",
+      "title": "Services We Bring to Every Sector",
+      "subtitle": "The same senior team and proven services, adapted to your industry.",
+      "items": [
+        {
+          "label": "Custom software development",
+          "href": "/custom-software-development"
+        },
+        {
+          "label": "Mobile app development",
+          "href": "/mobile-app-development"
+        },
+        {
+          "label": "Web application development",
+          "href": "/web-application-development"
+        },
+        {
+          "label": "CRM software development",
+          "href": "/crm-software-development"
+        },
+        {
+          "label": "Custom enterprise software",
+          "href": "/custom-enterprise-software"
+        },
+        {
+          "label": "AI & automation",
+          "href": "/ai-automation"
+        },
+        {
+          "label": "API integration",
+          "href": "/api-integration"
+        },
+        {
+          "label": "Cloud & DevOps",
+          "href": "/cloud-devops"
+        }
+      ]
+    },
+    "faqs": {
+      "badge": "FAQs",
+      "title": "Industry Software FAQs",
+      "subtitle": "Quick answers about industry-specific software.",
+      "items": [
+        {
+          "q": "Which industries do you build software for?",
+          "a": "We build software for healthcare, banking and fintech, manufacturing, logistics, travel and tourism, retail and ecommerce, education and real estate, and adapt our services to other sectors on request."
+        },
+        {
+          "q": "Why choose industry-specific software over generic tools?",
+          "a": "Industry-specific software follows your sector's workflows, regulations and integrations out of the box, so teams do not need workarounds, data stays compliant and the system grows with your business."
+        },
+        {
+          "q": "Do you understand industry compliance requirements?",
+          "a": "Yes. We design for the standards each sector needs, such as HIPAA-aligned practices in healthcare, PCI-DSS and KYC/AML in finance, traceability in manufacturing and student data privacy in education."
+        },
+        {
+          "q": "Can you integrate with the systems our industry already uses?",
+          "a": "Yes. We integrate with industry systems such as EHR/EMR, core banking, ERP, GPS and courier platforms, POS, LMS and property portals through secure APIs."
+        },
+        {
+          "q": "How much does industry software development cost?",
+          "a": "It depends on the industry and scope. Each industry page shows typical price ranges, and we provide a fixed, itemised quote after a free consultation."
+        },
+        {
+          "q": "Do you have experience in our industry?",
+          "a": "We have delivered live projects in healthcare, travel and transport, retail, education and real estate, which you can see in our case studies, and our team brings domain knowledge across all eight industries."
+        }
       ]
     }
   }

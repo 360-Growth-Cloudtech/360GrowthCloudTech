@@ -999,7 +999,7 @@
         "id": "iot",
         "title": "IoT & Industrial Software",
         "desc": "Telemetry pipelines, device dashboards and industrial software for plants, fleets and connected equipment.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "mvp",
@@ -1025,43 +1025,43 @@
         "id": "healthcare",
         "title": "Healthcare Software Development",
         "desc": "Patient portals, EHR integrations, telemedicine and IVR systems for clinics, hospitals and health-tech startups, with HIPAA-aware security reviewed every sprint.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "fintech",
         "title": "Fintech & Financial Software",
         "desc": "Lending, payments and insurance platforms with secure transactions, KYC flows and audit-ready reporting.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "logistics",
         "title": "Logistics Software",
         "desc": "Fleet tracking, dispatch, warehouse management and route planning, connected to your existing ERP.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "manufacturing",
         "title": "Manufacturing Software",
         "desc": "Production planning, quality control, maintenance (CMMS) systems and live plant dashboards.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "retail",
         "title": "Retail & E-commerce",
         "desc": "Online stores, POS integrations, loyalty programmes and omnichannel inventory in one place.",
-        "href": "/industries#retail"
+        "href": "/retail-software-development"
       },
       {
         "id": "education",
         "title": "Education & EdTech",
         "desc": "Learning platforms, student portals, online assessments and course marketplaces.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate & PropTech",
         "desc": "Property portals, broker CRMs, tenant apps and lease management tools tailored to the way your portfolio runs.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "agriculture",

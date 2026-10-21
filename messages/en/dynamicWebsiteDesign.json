@@ -183,19 +183,19 @@
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Property listings with search, filters, project pages and enquiry tracking.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "education",
         "title": "Education",
         "desc": "Courses, admissions, results, notices and student logins.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Doctor profiles, departments and online appointment booking.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "travel",

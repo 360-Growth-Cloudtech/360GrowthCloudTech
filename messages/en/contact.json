@@ -1,8 +1,9 @@
 {
   "page": {
     "label": "Contact Us",
-    "title": "Let's talk.",
-    "subtitle": "Whether you have an RFP or just an idea on a napkin — we're ready to help."
+    "title": "Let's Talk About",
+    "highlight": "Your Project",
+    "subtitle": "Whether you have a detailed brief or just an idea, a senior engineer will reply within 2 business hours with honest advice and next steps."
   },
   "getInTouch": {
     "title": "Get in touch.",
@@ -16,6 +17,85 @@
   },
   "meta": {
     "title": "Contact Us – Free Software Consultation",
-    "description": "Talk to a senior software architect. Get a free 30-minute consultation, a transparent estimate and an NDA-protected discussion. Reply within 2 business hours."
+    "description": "Contact 360GrowthCloudTech for software, app, website or cloud projects. Free 30-minute consultation, NDA on request and a reply within 2 business hours."
+  },
+  "channels": {
+    "title": "Choose how you want to reach us",
+    "whatsapp": {
+      "label": "WhatsApp",
+      "desc": "Fastest reply. Message us anytime."
+    },
+    "call": {
+      "label": "Call us",
+      "desc": "Mon–Sat, business hours (IST)."
+    },
+    "email": {
+      "label": "Email",
+      "desc": "Share briefs, RFPs and documents."
+    },
+    "meeting": {
+      "label": "Book a call",
+      "desc": "Free 30-minute consultation.",
+      "cta": "Pick a time"
+    }
+  },
+  "form": {
+    "title": "Send us your project details",
+    "subtitle": "Tell us what you are building. The more you share, the more useful our reply will be."
+  },
+  "trust": [
+    "Free consultation, no obligation",
+    "NDA signed on request",
+    "Reply within 2 business hours",
+    "Transparent, fixed-scope estimates"
+  ],
+  "nextSteps": {
+    "badge": "What Happens Next",
+    "title": "From Your Message to a Clear Plan",
+    "steps": [
+      {
+        "title": "We reply within 2 hours",
+        "desc": "A senior engineer reads your message and replies during business hours."
+      },
+      {
+        "title": "Free discovery call",
+        "desc": "A 30-minute call to understand your goals, users and constraints."
+      },
+      {
+        "title": "Proposal & estimate",
+        "desc": "A clear scope, timeline and fixed estimate, usually within 48 hours."
+      },
+      {
+        "title": "Kick-off",
+        "desc": "Once you are happy, we sign the agreement and start the first sprint."
+      }
+    ]
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Before You Get in Touch",
+    "subtitle": "Quick answers to common questions.",
+    "items": [
+      {
+        "q": "How quickly will you reply?",
+        "a": "We reply to every enquiry within 2 business hours, and usually faster on WhatsApp."
+      },
+      {
+        "q": "Is the first consultation really free?",
+        "a": "Yes. The 30-minute consultation and the estimate that follows are free, with no obligation to work with us."
+      },
+      {
+        "q": "Will you sign an NDA?",
+        "a": "Yes. We are happy to sign a non-disclosure agreement before you share detailed information about your idea or business."
+      },
+      {
+        "q": "What should I include in my message?",
+        "a": "A short description of what you want to build, who it is for, any deadlines and your rough budget if you have one. Do not worry if you are unsure; we will ask the right questions."
+      },
+      {
+        "q": "Do you work with clients outside India?",
+        "a": "Yes. We work with clients worldwide and schedule calls in your time zone."
+      }
+    ]
   }
 }

@@ -189,7 +189,7 @@
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Property listings, project pages, virtual tours and enquiry forms for developers and brokers.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "travel",
@@ -207,7 +207,7 @@
         "id": "healthcare",
         "title": "Healthcare & Clinics",
         "desc": "Doctor profiles, appointment booking and patient information for clinics and hospitals.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "education",

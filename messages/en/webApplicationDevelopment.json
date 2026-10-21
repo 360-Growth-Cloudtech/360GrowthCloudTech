@@ -199,13 +199,13 @@
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Patient portals, appointment booking and clinical dashboards with HIPAA-aware security.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "fintech",
         "title": "Fintech",
         "desc": "Lending, payments and investment web apps with secure transactions and audit trails.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "retail",
@@ -217,19 +217,19 @@
         "id": "education",
         "title": "Education",
         "desc": "Learning platforms, student portals and online exam systems.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "logistics",
         "title": "Logistics",
         "desc": "Shipment tracking, dispatch dashboards and customer portals.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Property portals, booking systems and broker dashboards.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       }
     ]
   },

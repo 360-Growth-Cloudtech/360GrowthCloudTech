@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import Industries from "@/views/Industries";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
-import { BreadcrumbJsonLd, ServiceListJsonLd } from "@/lib/seo/json-ld";
+import { BreadcrumbJsonLd, FaqJsonLd, ServiceListJsonLd } from "@/lib/seo/json-ld";
 import { INDUSTRY_SLUGS, industryHref } from "@/lib/industry-catalog";
 
 type Props = {
@@ -47,10 +47,11 @@ export default async function IndustriesPage({ params }: Props) {
         name={t("meta.title")}
         services={INDUSTRY_SLUGS.map((slug) => ({
           name: t(`catalog.${slug}.title`),
-          description: t(`catalog.${slug}.desc`),
+          description: t(`hub.grid.items.${slug}`),
           path: industryHref(slug),
         }))}
       />
+      <FaqJsonLd items={t.raw("hub.faqs.items") as { q: string; a: string }[]} />
       <Industries />
     </>
   );

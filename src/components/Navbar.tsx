@@ -23,7 +23,7 @@ import { SERVICE_MENU_GROUPS, isCatalogService, serviceHref } from "@/lib/servic
 import { INDUSTRY_SLUGS, announceHashNav, industryHref, industryMeta } from "@/lib/industry-catalog";
 import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP_URL } from "@/lib/contact";
 
-type MenuItem = { href: string; label: string; icon: LucideIcon };
+type MenuItem = { href: string; label: string; icon: LucideIcon; /** Short helper line under the label. */ desc?: string };
 
 type MenuGroup = { id: string; title: string; items: { href: string; label: string }[] };
 
@@ -126,19 +126,22 @@ function NavDropdown({ menu, active }: { menu: NavMenu; active: boolean }) {
                   ))}
                 </div>
               ) : (
-              <ul className="grid grid-cols-2 gap-1 p-3" aria-label={menu.menuLabel}>
-                {menu.items.map(({ href, label, icon: Icon }) => (
+              <ul className="grid grid-cols-2 gap-1.5 p-4" aria-label={menu.menuLabel}>
+                {menu.items.map(({ href, label, desc, icon: Icon }) => (
                   <li key={href}>
                     <Link
                       href={href}
                       onClick={() => choose(href)}
-                      className="group flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors hover:bg-brand-50 focus-visible:bg-brand-50 focus-visible:outline-none"
+                      className="group flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-slate-50 focus-visible:bg-slate-50 focus-visible:outline-none"
                     >
-                      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 to-brand-600 text-white shadow-sm shadow-brand-600/30">
-                        <Icon size={16} strokeWidth={1.9} />
+                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600 ring-1 ring-brand-100 transition-colors group-hover:bg-brand-500 group-hover:text-white group-hover:ring-brand-500">
+                        <Icon size={18} strokeWidth={1.8} />
                       </span>
-                      <span className="text-sm font-semibold leading-snug text-slate-700 group-hover:text-brand-700">
-                        {label}
+                      <span className="min-w-0">
+                        <span className="block text-sm font-semibold leading-snug text-slate-800 group-hover:text-brand-700">
+                          {label}
+                        </span>
+                        {desc && <span className="mt-0.5 block text-xs leading-snug text-slate-500">{desc}</span>}
                       </span>
                     </Link>
                   </li>
@@ -285,6 +288,7 @@ export function Navbar() {
       items: INDUSTRY_SLUGS.map((slug) => ({
         href: industryHref(slug),
         label: tIndustries(`${slug}.name`),
+        desc: tIndustries(`${slug}.menuDesc`),
         icon: industryMeta[slug].icon,
       })),
     },

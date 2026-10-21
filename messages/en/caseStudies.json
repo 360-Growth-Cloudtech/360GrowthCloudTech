@@ -1,9 +1,104 @@
 {
   "list": {
-    "label": "Work",
-    "title": "Case studies from products that ship.",
-    "subtitle": "Real builds from the 360GrowthCloudTech team — healthcare workflows, e-commerce, education, architecture, and travel ops — and the engineering decisions behind them.",
-    "readCaseStudy": "Read the case study"
+    "label": "Our Work",
+    "title": "Case Studies From",
+    "subtitle": "Real projects across healthcare, ecommerce, travel, education, real estate and design, with the problems we solved, the decisions we made and the results our clients saw.",
+    "readCaseStudy": "Read the case study",
+    "highlight": "Products That Ship",
+    "filterLabel": "Filter by industry",
+    "filters": [
+      {
+        "id": "all",
+        "label": "All projects",
+        "slugs": []
+      },
+      {
+        "id": "travel",
+        "label": "Travel & Transport",
+        "slugs": [
+          "mahasu-travels-website",
+          "himachal-tourism-google-ads",
+          "mahasu-travels-crm"
+        ]
+      },
+      {
+        "id": "ecommerce",
+        "label": "Ecommerce & Retail",
+        "slugs": [
+          "lifestyle-gifting-ecommerce-app",
+          "dermayoga"
+        ]
+      },
+      {
+        "id": "realEstate",
+        "label": "Real Estate & Architecture",
+        "slugs": [
+          "atory-hub",
+          "studio-atory"
+        ]
+      },
+      {
+        "id": "healthcare",
+        "label": "Healthcare",
+        "slugs": [
+          "healthcare-ivr-platform"
+        ]
+      },
+      {
+        "id": "education",
+        "label": "Education",
+        "slugs": [
+          "skinfinity-academy"
+        ]
+      },
+      {
+        "id": "design",
+        "label": "Portfolio & Branding",
+        "slugs": [
+          "geetha-studio",
+          "studio-atory"
+        ]
+      }
+    ],
+    "statProjects": "case studies",
+    "statIndustries": "industries",
+    "statLive": "live products",
+    "intro": {
+      "title": "Software Development Portfolio",
+      "paragraphs": [
+        "Every case study below is a real project built by our team, from the first workshop to launch and beyond. Each one explains the client's challenge, the solution we designed and engineered, the technology we chose and the measurable results.",
+        "Browse by industry, or explore the <services>services</services> and <industries>industries</industries> behind these projects. Have something similar in mind? <contact>Tell us about it</contact>."
+      ]
+    },
+    "faqs": {
+      "badge": "FAQs",
+      "title": "About Our Work",
+      "subtitle": "Questions clients often ask after reading our case studies.",
+      "items": [
+        {
+          "q": "Are these real client projects?",
+          "a": "Yes. Every case study is a real project delivered by our team. Several are live products you can visit from the case study page."
+        },
+        {
+          "q": "Can you build something similar for my business?",
+          "a": "Yes. Most of our work is reusable experience rather than reusable code, so we can build a similar solution tailored to your business, brand and workflows."
+        },
+        {
+          "q": "Can I speak to a previous client?",
+          "a": "Where clients have agreed to it, we can connect you with them as a reference during the proposal stage."
+        },
+        {
+          "q": "Do you sign NDAs for confidential projects?",
+          "a": "Yes. Some of our work is under NDA and not published. We are happy to sign an NDA before discussing your project."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want Results Like These?",
+      "subtitle": "Book a free consultation and get a clear plan and estimate for your project.",
+      "primary": "Book a Free Consultation",
+      "secondary": "Send a Message"
+    }
   },
   "detail": {
     "backLink": "All case studies",
@@ -358,7 +453,7 @@
         "Shopify GraphQL API"
       ],
       "imageAlt": "Illustration of a Flutter shopping app showing a product grid and checkout screen",
-      "seoTitle": "Flutter Shopping App for a Dubai Gift Brand",
+      "seoTitle": "Flutter Gifting App for a Dubai Brand",
       "seoDescription": "Case study: a Flutter e-commerce app for a Dubai lifestyle and gifting brand with Stripe and Tabby checkout, Shopify sync and push notifications."
     },
     "himachal-tourism-google-ads": {
@@ -471,7 +566,7 @@
         "Call Tracking"
       ],
       "imageAlt": "Google Ads conversion tracking and campaign performance dashboard for tourism",
-      "seoTitle": "Google Ads & CRO for a Himachal Cab Company",
+      "seoTitle": "Google Ads & CRO for Himachal Cab Firm",
       "seoDescription": "Case study: how we fixed conversion tracking, restructured Google Ads campaigns and optimised landing pages for a Himachal tourism cab company."
     },
     "geetha-studio": {
@@ -545,7 +640,7 @@
         "Responsive Images"
       ],
       "imageAlt": "Geetha Studio artist portfolio homepage with original artwork",
-      "seoTitle": "Artist Portfolio & Online Gallery Website",
+      "seoTitle": "Artist Portfolio & Online Gallery Site",
       "seoDescription": "Case study: an immersive fine-art portfolio website for Geetha Studio with gallery browsing and a private commission enquiry flow, built on Next.js."
     },
     "atory-hub": {
@@ -630,7 +725,7 @@
           "caption": "Professionals — directory with category filters, location search, and profiles"
         }
       ],
-      "seoTitle": "B2B Architecture & Interiors Marketplace",
+      "seoTitle": "B2B Architecture & Interior Marketplace",
       "seoDescription": "Case study: a PropTech marketplace connecting property owners with architects, interior designers and contractors, built with Next.js and Spring Boot."
     },
     "healthcare-ivr-platform": {
@@ -704,7 +799,7 @@
         "HIPAA Compliance"
       ],
       "imageAlt": "Healthcare IVR and patient assessment platform dashboard",
-      "seoTitle": "Healthcare IVR & Patient Intake Automation",
+      "seoTitle": "Healthcare IVR & Patient Intake System",
       "seoDescription": "Case study: automated IVR call routing, digital patient onboarding and clinical PGI assessments for a healthcare provider, built on Spring Boot and Twilio.",
       "gallery": [
         {
@@ -1034,7 +1129,7 @@
     }
   },
   "meta": {
-    "title": "Software Development Case Studies",
-    "description": "Real projects by 360GrowthCloudTech: e-commerce apps, healthcare automation, LMS platforms, travel CRMs and marketplaces, with the results they achieved."
+    "title": "Case Studies & Portfolio",
+    "description": "Software development case studies and portfolio: ecommerce apps, healthcare automation, travel websites and CRMs, LMS platforms and marketplaces, with real results."
   }
 }

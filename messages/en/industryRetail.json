@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "title": "Retail Software Development Company",
+    "description": "Retail software development: POS, omnichannel inventory, loyalty programmes, retail apps and ecommerce integrated across stores, warehouses and online."
+  },
+  "breadcrumbParent": {
+    "label": "Industries",
+    "href": "/industries"
+  },
+  "breadcrumb": "Retail & Ecommerce",
+  "form": {
+    "topic": "retail software development",
+    "options": [
+      "POS and billing software",
+      "Omnichannel inventory",
+      "Loyalty and rewards",
+      "Retail mobile app",
+      "Online store",
+      "Multi-store management",
+      "Retail analytics"
+    ]
+  },
+  "hero": {
+    "label": "Retail Software Development",
+    "title": "Retail Software Development for",
+    "highlight": "Stores, Online and Everywhere Between",
+    "subtitle": "POS, inventory, loyalty, mobile apps and ecommerce connected into one retail system, so stock, prices and customers stay in sync across every channel."
+  },
+  "intro": {
+    "badge": "Omnichannel Retail",
+    "title": "One Connected System for Every Channel",
+    "paragraphs": [
+      "Today's shoppers browse online, buy in store, return via courier and expect the same prices and loyalty points everywhere. Retailers running separate POS, inventory and online systems struggle with stock mismatches, lost sales and customers who feel like strangers in every channel.",
+      "We build retail software that connects it all: POS and billing, multi-store and warehouse inventory, loyalty and rewards, retail mobile apps, ecommerce storefronts and analytics. Every sale, return and stock movement updates instantly, so your teams and customers always see the truth.",
+      "We work with single-brand stores, retail chains, D2C brands and distributors. Selling mainly online? See our <eco>ecommerce software development</eco> services, browse <work>retail projects</work> or <contact>talk to us about your stores</contact>."
+    ],
+    "highlightsTitle": "What retail software delivers",
+    "highlights": [
+      "Real-time stock across stores and online",
+      "Faster checkout and billing",
+      "Loyalty that brings customers back",
+      "Fewer stock-outs and dead stock",
+      "Click-and-collect and returns anywhere",
+      "Consistent prices and offers",
+      "Store and staff performance data",
+      "GST-ready billing"
+    ]
+  },
+  "offerings": {
+    "badge": "Retail Solutions",
+    "title": "Retail Software Development Services",
+    "subtitle": "Software for selling, stocking and engaging customers across every channel.",
+    "discuss": "Discuss this solution",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "invoicing",
+        "title": "POS & Billing Software",
+        "desc": "Fast, reliable point-of-sale with barcode billing, GST invoices, payments and offline mode.",
+        "bullets": [
+          "Barcode billing",
+          "GST invoices",
+          "Offline mode"
+        ]
+      },
+      {
+        "id": "omnichannel",
+        "title": "Omnichannel Inventory",
+        "desc": "One inventory across stores, warehouses and online channels, updated in real time.",
+        "bullets": [
+          "Real-time stock sync",
+          "Transfers between stores",
+          "Low stock alerts"
+        ],
+        "href": "/stock-management-software"
+      },
+      {
+        "id": "ecommerce",
+        "title": "Ecommerce Storefronts",
+        "desc": "Online stores and marketplaces connected to your stores and inventory.",
+        "bullets": [
+          "Online store",
+          "Marketplace sync",
+          "Click and collect"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "app",
+        "title": "Retail Mobile Apps",
+        "desc": "Shopping apps with offers, loyalty, store locator and order tracking.",
+        "bullets": [
+          "Offers and push alerts",
+          "Store locator",
+          "Order tracking"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "personalisation",
+        "title": "Loyalty & Rewards",
+        "desc": "Points, tiers, coupons and referral programmes that work in store and online.",
+        "bullets": [
+          "Points and tiers",
+          "Coupons and referrals",
+          "Customer profiles"
+        ]
+      },
+      {
+        "id": "omnichannel",
+        "title": "Multi-Store Management",
+        "desc": "Central control of products, prices, staff and performance across all branches.",
+        "bullets": [
+          "Central pricing",
+          "Branch reports",
+          "Staff management"
+        ]
+      },
+      {
+        "id": "wholesale",
+        "title": "Distributor & Franchise Portals",
+        "desc": "Ordering, schemes and stock visibility for franchisees and distributors.",
+        "bullets": [
+          "Franchise ordering",
+          "Schemes and pricing",
+          "Royalty reports"
+        ]
+      },
+      {
+        "id": "crm",
+        "title": "Retail CRM & Marketing",
+        "desc": "Customer segments, campaigns and WhatsApp, SMS and email marketing from purchase history.",
+        "bullets": [
+          "Customer segments",
+          "Campaigns",
+          "Purchase history"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "orders",
+        "title": "Order & Returns Management",
+        "desc": "Unified order management for store, online and phone orders, including easy returns.",
+        "bullets": [
+          "Unified orders",
+          "Returns and exchanges",
+          "Delivery tracking"
+        ]
+      },
+      {
+        "id": "bi",
+        "title": "Retail Analytics",
+        "desc": "Sales, margin, stock ageing and store performance dashboards for smarter buying.",
+        "bullets": [
+          "Sales and margins",
+          "Stock ageing",
+          "Store comparison"
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "AI for Retail",
+        "desc": "Demand forecasting, product recommendations and shopping assistants.",
+        "bullets": [
+          "Demand forecasting",
+          "Recommendations",
+          "Shopping assistants"
+        ],
+        "href": "/ai-automation"
+      },
+      {
+        "id": "integrations",
+        "title": "Retail Integrations",
+        "desc": "Connect POS, ERP, accounting, payment and delivery partners into one flow.",
+        "bullets": [
+          "ERP and accounting",
+          "Payment gateways",
+          "Delivery partners"
+        ],
+        "href": "/api-integration"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Serve",
+    "title": "Software for Every Kind of Retailer",
+    "subtitle": "From one store to national chains and D2C brands.",
+    "items": [
+      {
+        "id": "shops",
+        "title": "Single Stores",
+        "desc": "Simple POS, stock and loyalty for independent retailers.",
+        "href": "/stock-management-software"
+      },
+      {
+        "id": "omnichannel",
+        "title": "Retail Chains",
+        "desc": "Multi-store control and omnichannel inventory.",
+        "href": "/contact"
+      },
+      {
+        "id": "d2c",
+        "title": "D2C Brands",
+        "desc": "Online stores, apps and marketplace sync.",
+        "href": "/case-studies/dermayoga"
+      },
+      {
+        "id": "fashion",
+        "title": "Fashion & Lifestyle",
+        "desc": "Size and colour variants, returns and loyalty.",
+        "href": "/case-studies/lifestyle-gifting-ecommerce-app"
+      },
+      {
+        "id": "grocery",
+        "title": "Grocery & Supermarkets",
+        "desc": "Fast billing, weighing and home delivery.",
+        "href": "/contact"
+      },
+      {
+        "id": "electronics",
+        "title": "Electronics",
+        "desc": "Serial numbers, warranties and EMI.",
+        "href": "/contact"
+      },
+      {
+        "id": "jewellery",
+        "title": "Jewellery",
+        "desc": "Weight, purity and tag-based inventory.",
+        "href": "/stock-management-software"
+      },
+      {
+        "id": "beauty",
+        "title": "Beauty & Pharmacy",
+        "desc": "Batch, expiry and repeat purchase reminders.",
+        "href": "/contact"
+      }
+    ]
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Build Retail Software",
+    "subtitle": "A proven process that respects the rules, risks and pace of the retail industry.",
+    "steps": [
+      {
+        "title": "Discovery & compliance review",
+        "desc": "We map your workflows, users, systems and the payment security and customer data protection requirements your software must meet."
+      },
+      {
+        "title": "Solution design",
+        "desc": "Architecture, integrations, data model and a clickable prototype validated with your team."
+      },
+      {
+        "title": "Agile development",
+        "desc": "Two-week sprints with live demos, so you see progress and give feedback early."
+      },
+      {
+        "title": "Integration & data migration",
+        "desc": "Connections to your existing POS, ERP, ecommerce and accounting systems and careful migration of current data."
+      },
+      {
+        "title": "Testing & security",
+        "desc": "Functional, performance and security testing before every release, with audit-ready records."
+      },
+      {
+        "title": "Launch, training & support",
+        "desc": "Phased rollout, staff training and SLA-backed support as you grow."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Integrations",
+    "title": "Retail Technology and Integrations",
+    "subtitle": "Connected hardware, channels and business systems.",
+    "groups": [
+      {
+        "title": "Store Hardware",
+        "items": [
+          "Barcode scanners",
+          "Receipt printers",
+          "Card terminals",
+          "Weighing scales"
+        ]
+      },
+      {
+        "title": "Channels",
+        "items": [
+          "Stores",
+          "Online store",
+          "Mobile app",
+          "Marketplaces"
+        ]
+      },
+      {
+        "title": "Payments",
+        "items": [
+          "UPI",
+          "Cards",
+          "Wallets",
+          "Buy now pay later"
+        ]
+      },
+      {
+        "title": "Business Systems",
+        "items": [
+          "ERP",
+          "Accounting",
+          "GST e-invoice",
+          "Delivery partners"
+        ]
+      },
+      {
+        "title": "Engagement",
+        "items": [
+          "Loyalty",
+          "WhatsApp and SMS",
+          "Email",
+          "Push notifications"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Retail Businesses Choose Us",
+    "subtitle": "We combine software engineering with an understanding of how retail businesses actually run.",
+    "items": [
+      {
+        "title": "Industry understanding",
+        "desc": "We speak your language and know the workflows, regulations and customers of retail."
+      },
+      {
+        "title": "Compliance built in",
+        "desc": "Security and payment security and customer data protection requirements are designed in from the first sprint, not patched later."
+      },
+      {
+        "title": "Integration experience",
+        "desc": "Proven integrations with the POS, ERP, ecommerce and accounting systems you already use."
+      },
+      {
+        "title": "Senior team",
+        "desc": "Experienced engineers, designers and QA on every project."
+      },
+      {
+        "title": "Transparent delivery",
+        "desc": "Fixed-scope estimates, weekly demos and direct access to developers."
+      },
+      {
+        "title": "You own everything",
+        "desc": "Full ownership of source code, data and designs, with long-term support."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Retail Software Cost?",
+    "subtitle": "Cost depends on stores, channels, hardware and integrations. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Store POS & Inventory",
+        "price": "$5,000 – $15,000",
+        "timeline": "1–2 months",
+        "desc": "POS, billing, stock and basic loyalty for one or a few stores."
+      },
+      {
+        "name": "Omnichannel Retail System",
+        "price": "$15,000 – $60,000",
+        "timeline": "2–5 months",
+        "desc": "Multi-store POS, inventory, ecommerce, app and loyalty integrated."
+      },
+      {
+        "name": "Retail Chain Platform",
+        "price": "$60,000+",
+        "timeline": "5+ months",
+        "desc": "Chain-wide platform with ERP, franchise portals and analytics."
+      }
+    ],
+    "note": "Fixed quote after a free consultation. Start with POS and inventory, then add channels.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Retail Software Development FAQs",
+    "subtitle": "Quick answers for retailers and D2C brands.",
+    "items": [
+      {
+        "q": "What is retail software development?",
+        "a": "It is building software for retailers, such as POS and billing, inventory, loyalty, mobile apps, ecommerce and analytics, connected so every channel shares the same data."
+      },
+      {
+        "q": "Can you connect our stores and online store inventory?",
+        "a": "Yes. We build omnichannel inventory that syncs stock across stores, warehouses, your online store and marketplaces in real time."
+      },
+      {
+        "q": "Does the POS work offline?",
+        "a": "Yes. Our POS keeps billing during internet outages and syncs sales and stock automatically when the connection returns."
+      },
+      {
+        "q": "Can you build a loyalty programme?",
+        "a": "Yes. We build points, tiers, coupons and referral programmes that customers can use in store, online and in your app."
+      },
+      {
+        "q": "How much does retail software cost?",
+        "a": "Store POS and inventory typically costs $5,000 to $15,000, an omnichannel retail system $15,000 to $60,000, and retail chain platforms $60,000 or more."
+      },
+      {
+        "q": "What is the difference between this and ecommerce development?",
+        "a": "Retail software connects physical stores, inventory and online channels. Ecommerce development focuses on online stores and apps. We can build either or both together."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Ecommerce software development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Stock management software",
+        "href": "/stock-management-software"
+      },
+      {
+        "label": "Retail case study",
+        "href": "/case-studies/dermayoga"
+      },
+      {
+        "label": "Mobile app development",
+        "href": "/mobile-app-development"
+      },
+      {
+        "label": "All industries",
+        "href": "/industries"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Build Retail Software That Sells Everywhere",
+    "subtitle": "Book a free 30-minute consultation. Tell us about your retail business and get a clear plan and transparent estimate.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

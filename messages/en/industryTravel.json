@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "title": "Travel Software Development Company",
+    "description": "Travel and tourism software development: tour booking websites, travel CRM, itinerary builders, cab booking and travel API integrations that win more bookings."
+  },
+  "breadcrumbParent": {
+    "label": "Industries",
+    "href": "/industries"
+  },
+  "breadcrumb": "Travel & Tourism",
+  "form": {
+    "topic": "travel software development",
+    "options": [
+      "Tour and package booking website",
+      "Travel CRM",
+      "Itinerary and quotation builder",
+      "Cab or taxi booking app",
+      "Hotel or homestay booking",
+      "Travel API integration",
+      "Travel marketing website"
+    ]
+  },
+  "hero": {
+    "label": "Travel Software Development",
+    "title": "Travel Software Development That",
+    "highlight": "Turns Enquiries Into Bookings",
+    "subtitle": "Tour booking websites, travel CRMs, itinerary and quote builders, cab booking apps and travel API integrations for tour operators, agencies and hospitality brands."
+  },
+  "intro": {
+    "badge": "Travel & Tourism Tech",
+    "title": "Software Built for How Travel Businesses Sell",
+    "paragraphs": [
+      "Travellers compare options quickly and book with whoever responds first with a clear, attractive quote. Travel businesses that still juggle enquiries in WhatsApp, quotes in documents and bookings in spreadsheets lose leads every season.",
+      "We build travel and tourism software that speeds up the whole journey: SEO-friendly tour and package websites, travel CRMs that track every enquiry, itinerary and quotation builders that create beautiful proposals in minutes, cab and taxi booking apps, hotel and homestay booking systems, and integrations with flight, hotel and activity APIs.",
+      "We have built travel websites and CRMs that are live today. See our <work>travel case studies</work>, explore <wd>web design services</wd> or <contact>tell us about your travel business</contact>."
+    ],
+    "highlightsTitle": "What travel software delivers",
+    "highlights": [
+      "More enquiries from search and ads",
+      "Instant, branded quotations",
+      "Every lead tracked to booking",
+      "Online payments and deposits",
+      "Automated reminders and follow-ups",
+      "Itineraries customers love",
+      "Peak-season ready performance",
+      "Clear sales and booking reports"
+    ]
+  },
+  "offerings": {
+    "badge": "Travel Solutions",
+    "title": "Travel & Tourism Software Services",
+    "subtitle": "Everything a modern travel business needs to attract, convert and serve travellers.",
+    "discuss": "Discuss this solution",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "website",
+        "title": "Tour & Package Booking Websites",
+        "desc": "Fast, SEO-friendly websites showcasing tours and packages with enquiry and online booking.",
+        "bullets": [
+          "Package and tour pages",
+          "Online booking and payments",
+          "SEO-first structure"
+        ],
+        "href": "/case-studies/mahasu-travels-website"
+      },
+      {
+        "id": "crm",
+        "title": "Travel CRM",
+        "desc": "Capture enquiries from every channel, assign agents, track follow-ups and convert more leads.",
+        "bullets": [
+          "Multi-channel lead capture",
+          "Agent assignment",
+          "Follow-up reminders"
+        ],
+        "href": "/case-studies/mahasu-travels-crm"
+      },
+      {
+        "id": "cms",
+        "title": "Itinerary & Quotation Builder",
+        "desc": "Create branded day-by-day itineraries and quotes in minutes and share them instantly.",
+        "bullets": [
+          "Day-wise itineraries",
+          "Instant PDF quotes",
+          "Reusable templates"
+        ]
+      },
+      {
+        "id": "mobile",
+        "title": "Cab & Taxi Booking Apps",
+        "desc": "Customer, driver and admin apps for cab and taxi booking, with fares, tracking and payments.",
+        "bullets": [
+          "Rider and driver apps",
+          "Fare management",
+          "Live tracking"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "booking",
+        "title": "Hotel & Homestay Booking",
+        "desc": "Room availability, rates, bookings and payments for hotels, resorts and homestays.",
+        "bullets": [
+          "Availability calendar",
+          "Rate management",
+          "Booking engine"
+        ]
+      },
+      {
+        "id": "integrations",
+        "title": "Travel API Integration",
+        "desc": "Integrate flight, hotel, activity and channel manager APIs into your website or app.",
+        "bullets": [
+          "Flight and hotel APIs",
+          "Channel manager sync",
+          "Activity inventory"
+        ],
+        "href": "/api-integration"
+      },
+      {
+        "id": "payments",
+        "title": "Online Payments & Deposits",
+        "desc": "Secure payment collection with deposits, part payments and refunds.",
+        "bullets": [
+          "Deposits and balances",
+          "Multiple gateways",
+          "Refund handling"
+        ]
+      },
+      {
+        "id": "ppc",
+        "title": "Travel Marketing & Lead Generation",
+        "desc": "Landing pages, conversion tracking and campaign setups that bring in quality travel enquiries.",
+        "bullets": [
+          "Campaign landing pages",
+          "Conversion tracking",
+          "Lead forms"
+        ],
+        "href": "/landing-page-design"
+      },
+      {
+        "id": "portal",
+        "title": "B2B Agent Portals",
+        "desc": "Portals for sub-agents and partners with net rates, bookings and commissions.",
+        "bullets": [
+          "Agent logins",
+          "Net rates and markups",
+          "Commission tracking"
+        ]
+      },
+      {
+        "id": "chatbot",
+        "title": "Travel Chatbots",
+        "desc": "AI assistants that answer common questions and collect trip details around the clock.",
+        "bullets": [
+          "24/7 enquiry handling",
+          "Trip detail capture",
+          "Handover to agents"
+        ],
+        "href": "/ai-automation"
+      },
+      {
+        "id": "bi",
+        "title": "Booking & Sales Analytics",
+        "desc": "Dashboards for enquiries, conversions, revenue and agent performance by season.",
+        "bullets": [
+          "Conversion funnels",
+          "Seasonal trends",
+          "Agent performance"
+        ]
+      },
+      {
+        "id": "redesign",
+        "title": "Travel Website Redesign",
+        "desc": "Modernise an old travel website for speed, mobile users and more bookings.",
+        "bullets": [
+          "Mobile-first redesign",
+          "Faster pages",
+          "SEO-safe migration"
+        ],
+        "href": "/website-redesign"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Serve",
+    "title": "Software for Every Travel Business",
+    "subtitle": "From local tour operators to growing travel brands.",
+    "items": [
+      {
+        "id": "travel",
+        "title": "Tour Operators",
+        "desc": "Packages, itineraries, bookings and CRM.",
+        "href": "/case-studies/mahasu-travels-website"
+      },
+      {
+        "id": "crm",
+        "title": "Travel Agencies",
+        "desc": "Lead management, quotes and supplier bookings.",
+        "href": "/case-studies/mahasu-travels-crm"
+      },
+      {
+        "id": "booking",
+        "title": "Hotels & Resorts",
+        "desc": "Booking engines and guest communication.",
+        "href": "/contact"
+      },
+      {
+        "id": "shops",
+        "title": "Homestays",
+        "desc": "Simple booking websites and calendars.",
+        "href": "/static-website-design"
+      },
+      {
+        "id": "mobile",
+        "title": "Cab & Taxi Operators",
+        "desc": "Booking apps, dispatch and driver management.",
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "events",
+        "title": "Adventure & Activities",
+        "desc": "Activity booking, slots and waivers.",
+        "href": "/contact"
+      },
+      {
+        "id": "startups",
+        "title": "Travel Startups",
+        "desc": "MVPs for new travel products and marketplaces.",
+        "href": "/saas-development"
+      },
+      {
+        "id": "logistics",
+        "title": "Bus & Transport",
+        "desc": "Seat booking and fleet scheduling.",
+        "href": "/logistics-software-development"
+      }
+    ]
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Build Travel Software",
+    "subtitle": "A proven process that respects the rules, risks and pace of the travel and tourism industry.",
+    "steps": [
+      {
+        "title": "Discovery & compliance review",
+        "desc": "We map your workflows, users, systems and the payment security and data protection requirements your software must meet."
+      },
+      {
+        "title": "Solution design",
+        "desc": "Architecture, integrations, data model and a clickable prototype validated with your team."
+      },
+      {
+        "title": "Agile development",
+        "desc": "Two-week sprints with live demos, so you see progress and give feedback early."
+      },
+      {
+        "title": "Integration & data migration",
+        "desc": "Connections to your existing booking engines, GDS, channel managers and payment systems and careful migration of current data."
+      },
+      {
+        "title": "Testing & security",
+        "desc": "Functional, performance and security testing before every release, with audit-ready records."
+      },
+      {
+        "title": "Launch, training & support",
+        "desc": "Phased rollout, staff training and SLA-backed support as you grow."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Integrations",
+    "title": "Travel Technology and Integrations",
+    "subtitle": "Connected to the tools and inventory travel businesses rely on.",
+    "groups": [
+      {
+        "title": "Inventory APIs",
+        "items": [
+          "Flights",
+          "Hotels",
+          "Activities",
+          "Transfers"
+        ]
+      },
+      {
+        "title": "Distribution",
+        "items": [
+          "Channel managers",
+          "B2B portals",
+          "Booking engines"
+        ]
+      },
+      {
+        "title": "Payments",
+        "items": [
+          "Payment gateways",
+          "Deposits",
+          "Multi-currency",
+          "Refunds"
+        ]
+      },
+      {
+        "title": "Marketing",
+        "items": [
+          "SEO",
+          "Ad conversion tracking",
+          "Landing pages",
+          "WhatsApp leads"
+        ]
+      },
+      {
+        "title": "Operations",
+        "items": [
+          "CRM",
+          "Itinerary builder",
+          "Supplier management",
+          "Reports"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Travel Businesses Choose Us",
+    "subtitle": "We combine software engineering with an understanding of how travel and tourism businesses actually run.",
+    "items": [
+      {
+        "title": "Industry understanding",
+        "desc": "We speak your language and know the workflows, regulations and customers of travel and tourism."
+      },
+      {
+        "title": "Compliance built in",
+        "desc": "Security and payment security and data protection requirements are designed in from the first sprint, not patched later."
+      },
+      {
+        "title": "Integration experience",
+        "desc": "Proven integrations with the booking engines, GDS, channel managers and payment systems you already use."
+      },
+      {
+        "title": "Senior team",
+        "desc": "Experienced engineers, designers and QA on every project."
+      },
+      {
+        "title": "Transparent delivery",
+        "desc": "Fixed-scope estimates, weekly demos and direct access to developers."
+      },
+      {
+        "title": "You own everything",
+        "desc": "Full ownership of source code, data and designs, with long-term support."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Travel Software Cost?",
+    "subtitle": "Cost depends on features, integrations and number of apps. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Travel Website",
+        "price": "$1,500 – $6,000",
+        "timeline": "3–6 weeks",
+        "desc": "SEO-friendly tour and package website with enquiry and booking forms."
+      },
+      {
+        "name": "Travel CRM or Booking System",
+        "price": "$6,000 – $25,000",
+        "timeline": "1–3 months",
+        "desc": "CRM, itinerary builder or booking engine with payments."
+      },
+      {
+        "name": "Travel Platform or App",
+        "price": "$25,000+",
+        "timeline": "3+ months",
+        "desc": "Cab booking apps, marketplaces or API-integrated booking platforms."
+      }
+    ],
+    "note": "Fixed quote after a free consultation. Start with a website or CRM and add more as you grow.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Travel Software Development FAQs",
+    "subtitle": "Quick answers for tour operators, agencies and hospitality brands.",
+    "items": [
+      {
+        "q": "What travel software do you develop?",
+        "a": "We build tour and package booking websites, travel CRMs, itinerary and quotation builders, cab and taxi booking apps, hotel booking systems, B2B agent portals and travel API integrations."
+      },
+      {
+        "q": "Do you build CRMs for travel agencies?",
+        "a": "Yes. Our travel CRMs capture enquiries from your website, ads and messaging, assign them to agents, track follow-ups and create quotes, so more leads turn into bookings."
+      },
+      {
+        "q": "Can you integrate flight and hotel APIs?",
+        "a": "Yes. We integrate flight, hotel, activity and channel manager APIs so your website or app can show live inventory and take bookings."
+      },
+      {
+        "q": "Can you build a cab or taxi booking app?",
+        "a": "Yes. We build rider, driver and admin apps with fare management, live tracking, payments and dispatch."
+      },
+      {
+        "q": "How much does travel software cost?",
+        "a": "A travel website typically costs $1,500 to $6,000, a travel CRM or booking system $6,000 to $25,000, and travel platforms or apps $25,000 or more."
+      },
+      {
+        "q": "Have you built travel software before?",
+        "a": "Yes. Our travel projects, including a tour website and a travel CRM, are live and featured in our case studies."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Travel website case study",
+        "href": "/case-studies/mahasu-travels-website"
+      },
+      {
+        "label": "Travel CRM case study",
+        "href": "/case-studies/mahasu-travels-crm"
+      },
+      {
+        "label": "Web design",
+        "href": "/web-design"
+      },
+      {
+        "label": "API integration",
+        "href": "/api-integration"
+      },
+      {
+        "label": "All industries",
+        "href": "/industries"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Build Travel Software That Gets More Bookings",
+    "subtitle": "Book a free 30-minute consultation. Tell us about your travel and tourism business and get a clear plan and transparent estimate.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

@@ -188,19 +188,19 @@
         "id": "fintech",
         "title": "Banks & Financial Services",
         "desc": "Bank complaint management with turnaround times, escalations and audit-ready records for regulators.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "healthcare",
         "title": "Hospitals & Clinics",
         "desc": "Patient complaint management software for feedback, grievances and service quality across departments.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "manufacturing",
         "title": "Manufacturing & Medical Devices",
         "desc": "Quality complaint handling with batch tracing, investigation, CAPA and documentation for audits.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "telecom",
@@ -224,7 +224,7 @@
         "id": "realEstate",
         "title": "Real Estate & Builders",
         "desc": "Post-possession snag and maintenance complaints from homeowners, tracked to closure.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       }
     ]
   },

@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "title": "Real Estate Software Development",
+    "description": "Real estate software development: property portals, real estate CRM, booking and inventory, property management, tenant apps and PropTech platforms."
+  },
+  "breadcrumbParent": {
+    "label": "Industries",
+    "href": "/industries"
+  },
+  "breadcrumb": "Real Estate",
+  "form": {
+    "topic": "real estate software development",
+    "options": [
+      "Real estate CRM",
+      "Property listing website or portal",
+      "Unit inventory and booking",
+      "Property management software",
+      "Tenant and owner app",
+      "Project marketing landing page",
+      "PropTech MVP"
+    ]
+  },
+  "hero": {
+    "label": "Real Estate Software Development",
+    "title": "Real Estate Software Development for",
+    "highlight": "Developers, Brokers and Property Managers",
+    "subtitle": "Real estate CRMs, property portals, unit booking and inventory, property management and tenant apps that help you sell faster and manage smarter."
+  },
+  "intro": {
+    "badge": "PropTech",
+    "title": "Software Built for How Property Is Sold and Managed",
+    "paragraphs": [
+      "Real estate runs on leads, site visits, follow-ups and paperwork. Enquiries arrive from portals, ads and walk-ins, unit availability changes daily, and payment schedules, agreements and possession updates must be tracked for every buyer. Spreadsheets and generic tools simply cannot keep up.",
+      "We build real estate software for developers, brokers, property managers and PropTech startups: real estate CRMs with site visit tracking, property listing websites and portals, unit inventory and booking systems, payment schedule tracking, property and rental management, tenant and owner apps, and channel partner portals.",
+      "Everything connects, so marketing, sales, CRM and post-sales teams work from the same data. See our <work>real estate case study</work>, explore our <crm>real estate CRM</crm> or <contact>talk to us about your projects</contact>."
+    ],
+    "highlightsTitle": "What real estate software delivers",
+    "highlights": [
+      "Every portal and ad lead captured",
+      "Faster follow-ups and site visits",
+      "Live unit availability",
+      "Booking and payment tracking",
+      "Channel partner management",
+      "Happier buyers and tenants",
+      "Fewer manual errors",
+      "Clear sales and collection reports"
+    ]
+  },
+  "offerings": {
+    "badge": "Real Estate Solutions",
+    "title": "Real Estate Software Development Services",
+    "subtitle": "Software for marketing, selling, managing and maintaining property.",
+    "discuss": "Discuss this solution",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "crm",
+        "title": "Real Estate CRM",
+        "desc": "Lead capture from portals and ads, site visit scheduling, follow-ups, bookings and sales reports.",
+        "bullets": [
+          "Portal and ad lead capture",
+          "Site visit tracking",
+          "Sales pipeline"
+        ],
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "website",
+        "title": "Property Listing Websites & Portals",
+        "desc": "Fast, SEO-friendly property websites and portals with search, filters, maps and enquiry forms.",
+        "bullets": [
+          "Search and filters",
+          "Maps and galleries",
+          "Enquiry forms"
+        ],
+        "href": "/case-studies/atory-hub"
+      },
+      {
+        "id": "inventory",
+        "title": "Unit Inventory & Booking",
+        "desc": "Live inventory of towers, floors and units with blocking, booking and price lists.",
+        "bullets": [
+          "Live availability",
+          "Unit blocking",
+          "Price lists"
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Payment Schedule & Collections",
+        "desc": "Track payment plans, demands, receipts and reminders for every buyer.",
+        "bullets": [
+          "Demand letters",
+          "Receipts",
+          "Payment reminders"
+        ]
+      },
+      {
+        "id": "realEstate",
+        "title": "Property & Rental Management",
+        "desc": "Manage properties, leases, rent collection, maintenance requests and owner statements.",
+        "bullets": [
+          "Leases and rent",
+          "Maintenance requests",
+          "Owner statements"
+        ]
+      },
+      {
+        "id": "mobile",
+        "title": "Tenant & Owner Apps",
+        "desc": "Apps for tenants and owners to pay rent, raise requests and receive updates.",
+        "bullets": [
+          "Rent payments",
+          "Service requests",
+          "Notices and updates"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "partners",
+        "title": "Channel Partner Portals",
+        "desc": "Portals for brokers to register leads, track bookings and view commissions.",
+        "bullets": [
+          "Lead registration",
+          "Booking status",
+          "Commission tracking"
+        ]
+      },
+      {
+        "id": "landing",
+        "title": "Project Launch Landing Pages",
+        "desc": "High-converting landing pages for project launches and ad campaigns.",
+        "bullets": [
+          "Project pages",
+          "Lead forms",
+          "Conversion tracking"
+        ],
+        "href": "/landing-page-design"
+      },
+      {
+        "id": "projects",
+        "title": "Construction Project Tracking",
+        "desc": "Track construction progress, milestones and updates shared with buyers.",
+        "bullets": [
+          "Milestone tracking",
+          "Progress photos",
+          "Buyer updates"
+        ]
+      },
+      {
+        "id": "complaint",
+        "title": "Post-Possession Service",
+        "desc": "Snag lists, maintenance and complaint tracking after handover.",
+        "bullets": [
+          "Snag tracking",
+          "Service requests",
+          "Resolution SLAs"
+        ],
+        "href": "/online-complaint-management-system"
+      },
+      {
+        "id": "bi",
+        "title": "Sales & Collection Analytics",
+        "desc": "Dashboards for leads, conversions, inventory and collections across projects.",
+        "bullets": [
+          "Lead-to-booking funnel",
+          "Inventory reports",
+          "Collection status"
+        ]
+      },
+      {
+        "id": "saas",
+        "title": "PropTech MVP & SaaS",
+        "desc": "Build and launch PropTech products such as listing marketplaces or management SaaS.",
+        "bullets": [
+          "MVP in weeks",
+          "Marketplace features",
+          "Scalable SaaS"
+        ],
+        "href": "/saas-development"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Serve",
+    "title": "Software for Every Real Estate Business",
+    "subtitle": "From individual brokers to large developers and property managers.",
+    "items": [
+      {
+        "id": "construction",
+        "title": "Real Estate Developers",
+        "desc": "CRM, inventory, bookings and collections.",
+        "href": "/crm-software-development"
+      },
+      {
+        "id": "leads",
+        "title": "Brokers & Agencies",
+        "desc": "Listings, leads and deal tracking.",
+        "href": "/contact"
+      },
+      {
+        "id": "realEstate",
+        "title": "Property Managers",
+        "desc": "Leases, rent, maintenance and owner reports.",
+        "href": "/contact"
+      },
+      {
+        "id": "corporate",
+        "title": "Commercial Real Estate",
+        "desc": "Leasing, tenants and facility management.",
+        "href": "/contact"
+      },
+      {
+        "id": "startups",
+        "title": "PropTech Startups",
+        "desc": "Marketplaces and management platforms.",
+        "href": "/saas-development"
+      },
+      {
+        "id": "booking",
+        "title": "Co-Living & Co-Working",
+        "desc": "Bookings, memberships and billing.",
+        "href": "/contact"
+      },
+      {
+        "id": "interior",
+        "title": "Interior & Home Services",
+        "desc": "Quotes, projects and customer updates.",
+        "href": "/contact"
+      },
+      {
+        "id": "travel",
+        "title": "Vacation Rentals",
+        "desc": "Booking calendars and guest management.",
+        "href": "/travel-software-development"
+      }
+    ]
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Build Real Estate Software",
+    "subtitle": "A proven process that respects the rules, risks and pace of the real estate industry.",
+    "steps": [
+      {
+        "title": "Discovery & compliance review",
+        "desc": "We map your workflows, users, systems and the data protection and payment security requirements your software must meet."
+      },
+      {
+        "title": "Solution design",
+        "desc": "Architecture, integrations, data model and a clickable prototype validated with your team."
+      },
+      {
+        "title": "Agile development",
+        "desc": "Two-week sprints with live demos, so you see progress and give feedback early."
+      },
+      {
+        "title": "Integration & data migration",
+        "desc": "Connections to your existing CRM, accounting, property portals and payment systems and careful migration of current data."
+      },
+      {
+        "title": "Testing & security",
+        "desc": "Functional, performance and security testing before every release, with audit-ready records."
+      },
+      {
+        "title": "Launch, training & support",
+        "desc": "Phased rollout, staff training and SLA-backed support as you grow."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Integrations",
+    "title": "Real Estate Technology and Integrations",
+    "subtitle": "Connected to the channels and systems real estate depends on.",
+    "groups": [
+      {
+        "title": "Lead Sources",
+        "items": [
+          "Property portals",
+          "Ad lead forms",
+          "Website",
+          "WhatsApp",
+          "Walk-ins"
+        ]
+      },
+      {
+        "title": "Sales",
+        "items": [
+          "Site visits",
+          "Unit inventory",
+          "Bookings",
+          "Price lists"
+        ]
+      },
+      {
+        "title": "Finance",
+        "items": [
+          "Payment plans",
+          "Receipts",
+          "Accounting",
+          "Payment gateways"
+        ]
+      },
+      {
+        "title": "Post-Sales",
+        "items": [
+          "Construction updates",
+          "Possession",
+          "Snag lists",
+          "Maintenance"
+        ]
+      },
+      {
+        "title": "Channels",
+        "items": [
+          "Web portal",
+          "Mobile apps",
+          "Partner portal",
+          "Email and SMS"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Real Estate Businesses Choose Us",
+    "subtitle": "We combine software engineering with an understanding of how real estate businesses actually run.",
+    "items": [
+      {
+        "title": "Industry understanding",
+        "desc": "We speak your language and know the workflows, regulations and customers of real estate."
+      },
+      {
+        "title": "Compliance built in",
+        "desc": "Security and data protection and payment security requirements are designed in from the first sprint, not patched later."
+      },
+      {
+        "title": "Integration experience",
+        "desc": "Proven integrations with the CRM, accounting, property portals and payment systems you already use."
+      },
+      {
+        "title": "Senior team",
+        "desc": "Experienced engineers, designers and QA on every project."
+      },
+      {
+        "title": "Transparent delivery",
+        "desc": "Fixed-scope estimates, weekly demos and direct access to developers."
+      },
+      {
+        "title": "You own everything",
+        "desc": "Full ownership of source code, data and designs, with long-term support."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Real Estate Software Cost?",
+    "subtitle": "Cost depends on modules, projects, users and integrations. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Property Website or Landing Pages",
+        "price": "$1,500 – $6,000",
+        "timeline": "2–6 weeks",
+        "desc": "Project website or launch landing pages with lead capture."
+      },
+      {
+        "name": "Real Estate CRM",
+        "price": "$6,000 – $30,000",
+        "timeline": "1–3 months",
+        "desc": "CRM with lead capture, site visits, inventory and bookings."
+      },
+      {
+        "name": "Property Platform",
+        "price": "$30,000+",
+        "timeline": "3+ months",
+        "desc": "Portals, property management or PropTech SaaS with apps."
+      }
+    ],
+    "note": "Fixed quote after a free consultation. Start with CRM or website and add modules project by project.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Real Estate Software Development FAQs",
+    "subtitle": "Quick answers for developers, brokers and property managers.",
+    "items": [
+      {
+        "q": "What real estate software do you develop?",
+        "a": "We build real estate CRMs, property listing websites and portals, unit inventory and booking systems, payment schedule tracking, property and rental management, tenant apps and channel partner portals."
+      },
+      {
+        "q": "Can your real estate CRM capture leads from property portals?",
+        "a": "Yes. We capture leads from property portals, ad forms, your website and WhatsApp into one CRM, assign them automatically and track every follow-up and site visit."
+      },
+      {
+        "q": "Do you build property management software?",
+        "a": "Yes. We build software for leases, rent collection, maintenance requests, owner statements and tenant communication, with tenant and owner apps."
+      },
+      {
+        "q": "Can buyers track payments and construction progress?",
+        "a": "Yes. Buyer portals and apps can show payment schedules, receipts, demand letters and construction updates with photos."
+      },
+      {
+        "q": "How much does real estate software cost?",
+        "a": "A property website or landing pages typically cost $1,500 to $6,000, a real estate CRM $6,000 to $30,000, and property platforms $30,000 or more."
+      },
+      {
+        "q": "Do you build PropTech startups' platforms?",
+        "a": "Yes. We help PropTech founders launch listing marketplaces, rental platforms and property management SaaS, starting with a focused MVP."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Real estate case study",
+        "href": "/case-studies/atory-hub"
+      },
+      {
+        "label": "CRM software development",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "Landing page design",
+        "href": "/landing-page-design"
+      },
+      {
+        "label": "Web design",
+        "href": "/web-design"
+      },
+      {
+        "label": "All industries",
+        "href": "/industries"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Build Real Estate Software That Sells More Units",
+    "subtitle": "Book a free 30-minute consultation. Tell us about your real estate business and get a clear plan and transparent estimate.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

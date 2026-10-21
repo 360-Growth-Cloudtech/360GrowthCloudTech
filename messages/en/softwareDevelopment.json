@@ -182,49 +182,49 @@
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Healthcare software development services for clinics, hospitals and health-tech companies: patient portals, telemedicine, EHR integrations and HIPAA-compliant software, plus medical device software support.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "fintech",
         "title": "Fintech & Banking",
         "desc": "Fintech software development for lenders, payment providers and banks: secure transactions, KYC, loan management and financial app development with audit-ready reporting.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "logistics",
         "title": "Logistics & Transportation",
         "desc": "Logistics software development for fleet tracking, dispatch, warehouse management and transportation apps for drivers and customers.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Real estate software development for developers and brokers: project management, sales and booking, property portals and development accounting software.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "manufacturing",
         "title": "Manufacturing & Automotive",
         "desc": "Production planning, quality inspection, maintenance and automotive software that connects machines, people and data on the shop floor.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "education",
         "title": "Education & E-learning",
         "desc": "E-learning app development, student portals, online assessments and course platforms for schools, coaching institutes and edtech startups.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "travel",
         "title": "Travel & Tourism",
         "desc": "Travel software development for booking engines, tour operator CRMs and itinerary apps that handle peak-season traffic.",
-        "href": "/industries#travel"
+        "href": "/travel-software-development"
       },
       {
         "id": "retail",
         "title": "Retail & Direct Selling",
         "desc": "POS software development, loyalty programmes and MLM software development for direct-selling businesses, with commission plans and distributor apps.",
-        "href": "/industries#retail"
+        "href": "/retail-software-development"
       }
     ]
   },

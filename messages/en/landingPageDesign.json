@@ -184,25 +184,25 @@
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Project launch pages with floor plans, price lists, site visit booking and lead capture.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "insurance",
         "title": "Insurance & Finance",
         "desc": "Quote request and comparison pages that build trust and capture qualified leads.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "healthcare",
         "title": "Medical & Clinics",
         "desc": "Treatment and consultation pages with doctor profiles and appointment booking.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "education",
         "title": "Education",
         "desc": "Admission and course pages that drive enquiries and counselling bookings.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "professional",

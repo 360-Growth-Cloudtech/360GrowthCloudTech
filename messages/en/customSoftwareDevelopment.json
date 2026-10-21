@@ -177,25 +177,25 @@
         "id": "healthcare",
         "title": "Healthcare & MedTech",
         "desc": "Custom healthcare software: EHR systems, telemedicine apps, patient portals and medical software built with HIPAA-aware security.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "fintech",
         "title": "Fintech & Finance",
         "desc": "Custom fintech solutions for lending, payments, wallets and financial reporting, with secure transactions and audit trails.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "logistics",
         "title": "Logistics",
         "desc": "Custom logistics software for dispatch, fleet tracking, warehousing and proof of delivery.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Real estate CRM, booking and inventory management, and project tracking software for developers and brokers.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "retail",
@@ -207,7 +207,7 @@
         "id": "manufacturing",
         "title": "Manufacturing",
         "desc": "Custom industrial software for production planning, quality control and CMMS maintenance.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "telecom",
@@ -219,7 +219,7 @@
         "id": "education",
         "title": "Education",
         "desc": "Learning platforms, student and fee management, online exams and institute ERPs.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       }
     ]
   },
@@ -500,7 +500,7 @@
       },
       {
         "label": "Healthcare software",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "label": "Case studies",

@@ -192,7 +192,7 @@
         "id": "omnichannel",
         "title": "Retail Chains",
         "desc": "Omnichannel retail software linking online orders, store POS and warehouse stock.",
-        "href": "/industries#retail"
+        "href": "/retail-software-development"
       },
       {
         "id": "grocery",
@@ -451,7 +451,7 @@
       },
       {
         "label": "Retail industry solutions",
-        "href": "/industries#retail"
+        "href": "/retail-software-development"
       },
       {
         "label": "Ecommerce case study",

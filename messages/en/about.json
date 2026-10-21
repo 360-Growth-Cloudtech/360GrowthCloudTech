@@ -1,8 +1,9 @@
 {
   "page": {
-    "label": "About",
-    "title": "A team that designs and engineers what it ships.",
-    "subtitle": "360GrowthCloudTech is a digital engineering studio focused on building modern web products, cloud systems, and growth-ready platforms — from first wireframe through production deployment."
+    "label": "About Us",
+    "title": "A Software Development Company That",
+    "highlight": "Designs and Engineers What It Ships",
+    "subtitle": "360GrowthCloudTech is a senior team of strategists, designers and engineers building custom software, apps, websites and cloud platforms for growing businesses in India and worldwide."
   },
   "sections": {
     "howWeWork": {
@@ -27,11 +28,187 @@
     }
   },
   "cta": {
-    "title": "Working with us.",
-    "subtitle": "Start with a free 30-minute discovery call. We'll learn about your product, timeline, and goals — then outline a clear path forward. No pitch deck, no pressure."
+    "title": "Let's Build Something Great Together",
+    "subtitle": "Start with a free 30-minute discovery call. We will learn about your product, timeline and goals, then outline a clear path forward. No pitch deck, no pressure."
   },
   "meta": {
-    "title": "About Us – AI Software Engineering Team",
-    "description": "Meet 360GrowthCloudTech: a senior engineering team building custom software, AI solutions and cloud platforms for startups and enterprises worldwide."
+    "title": "About Us – Software Development Company",
+    "description": "Meet 360GrowthCloudTech, a senior software development and design team building custom software, apps, websites and cloud platforms for clients worldwide."
+  },
+  "story": {
+    "badge": "Who We Are",
+    "title": "Built by Engineers Who Care About Outcomes",
+    "paragraphs": [
+      "360GrowthCloudTech started with a simple frustration: businesses were paying for software that looked good in demos but did not fit how they worked, and they were stuck juggling designers, developers and hosting providers who blamed each other when things went wrong.",
+      "So we built a different kind of software development company. Product strategy, UX design, engineering, testing, cloud and support sit in one team, so decisions stay connected from the first workshop to long after launch. We work in short sprints with weekly demos, explain trade-offs in plain language and measure success by what the software does for your business.",
+      "Today we build <services>custom software, web and mobile apps, SaaS platforms and business systems</services> for startups, SMEs and enterprises across healthcare, fintech, travel, retail, education, real estate and more. See the results in our <work>case studies</work>."
+    ]
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "26+",
+        "label": "Services under one roof"
+      },
+      {
+        "value": "8",
+        "label": "Industries served"
+      },
+      {
+        "value": "2 hrs",
+        "label": "Typical reply time"
+      },
+      {
+        "value": "100%",
+        "label": "Code and IP ownership"
+      }
+    ]
+  },
+  "values": {
+    "badge": "What We Believe",
+    "title": "Our Values",
+    "subtitle": "The principles that shape every project and every conversation.",
+    "items": [
+      {
+        "title": "Outcomes over output",
+        "desc": "We measure success by the problems your software solves, not the number of features shipped."
+      },
+      {
+        "title": "Honest advice",
+        "desc": "We tell you when a simpler or cheaper option will do, even if it means a smaller project for us."
+      },
+      {
+        "title": "Transparency",
+        "desc": "Fixed-scope estimates, weekly demos and direct access to the people doing the work."
+      },
+      {
+        "title": "Craftsmanship",
+        "desc": "Clean architecture, tested code and thoughtful design that your team can build on for years."
+      },
+      {
+        "title": "Ownership",
+        "desc": "You own the code, designs and data. No lock-in, ever."
+      },
+      {
+        "title": "Long-term partnership",
+        "desc": "We stay after launch to support, improve and grow what we built together."
+      }
+    ]
+  },
+  "howWeWork": {
+    "badge": "How We Work",
+    "title": "One Team From Idea to Launch and Beyond",
+    "steps": [
+      {
+        "title": "Understand",
+        "desc": "Workshops to learn your business, users, goals and constraints before any code is written."
+      },
+      {
+        "title": "Design",
+        "desc": "User flows, prototypes and architecture, validated with you and real users."
+      },
+      {
+        "title": "Build",
+        "desc": "Two-week sprints with live demos, code reviews and automated testing."
+      },
+      {
+        "title": "Launch",
+        "desc": "Secure, monitored deployment with training and documentation."
+      },
+      {
+        "title": "Grow",
+        "desc": "Maintenance, support and continuous improvement as your business evolves."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "badge": "What We Do",
+    "title": "Services and Industries",
+    "subtitle": "A full range of software, design, cloud and support services, adapted to your industry.",
+    "services": [
+      {
+        "label": "Software development",
+        "href": "/software-development"
+      },
+      {
+        "label": "Custom software",
+        "href": "/custom-software-development"
+      },
+      {
+        "label": "Mobile apps",
+        "href": "/mobile-app-development"
+      },
+      {
+        "label": "Web applications",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "SaaS development",
+        "href": "/saas-development"
+      },
+      {
+        "label": "Web design",
+        "href": "/web-design"
+      },
+      {
+        "label": "CRM software",
+        "href": "/crm-software-development"
+      },
+      {
+        "label": "AI & automation",
+        "href": "/ai-automation"
+      },
+      {
+        "label": "Cloud & DevOps",
+        "href": "/cloud-devops"
+      },
+      {
+        "label": "All services",
+        "href": "/services"
+      }
+    ],
+    "industriesTitle": "Industries we serve",
+    "allIndustries": "All industries"
+  },
+  "team": {
+    "badge": "Our Team",
+    "title": "A Remote-First Team of Specialists",
+    "paragraphs": [
+      "We are a distributed team of product strategists, designers, software engineers, QA specialists and cloud engineers, based in India and working with clients across India, the Middle East, Europe and the US.",
+      "Being remote-first means we hire for skill, not postcode, and schedule work around your time zone. You always know who is working on your project and can talk to them directly."
+    ],
+    "points": [
+      "Senior engineers on every project",
+      "Designers and developers in one team",
+      "Calls in your time zone",
+      "Reply within 2 business hours"
+    ]
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "About 360GrowthCloudTech",
+    "subtitle": "Common questions about who we are and how we work.",
+    "items": [
+      {
+        "q": "What does 360GrowthCloudTech do?",
+        "a": "We are a software development company that designs, builds and supports custom software, web and mobile apps, SaaS platforms, websites, business systems such as CRM and inventory software, and cloud and AI solutions."
+      },
+      {
+        "q": "Where is your team based?",
+        "a": "Our team is based in India and works remotely with clients across India and worldwide, with meetings scheduled in each client's time zone."
+      },
+      {
+        "q": "What size of businesses do you work with?",
+        "a": "We work with startups launching their first product, small and medium businesses digitising their operations, and enterprises modernising or extending their systems."
+      },
+      {
+        "q": "Do you work only with technical clients?",
+        "a": "No. Many of our clients are non-technical founders and business owners. We guide you through every decision in plain language."
+      },
+      {
+        "q": "How do we start working together?",
+        "a": "Book a free 30-minute consultation. We learn about your goals, recommend the right approach and share a transparent estimate, usually within 48 hours."
+      }
+    ]
   }
 }

@@ -132,7 +132,7 @@
           "Lab and pharmacy systems",
           "Secure patient data exchange"
         ],
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "travel",
@@ -143,7 +143,7 @@
           "Channel manager sync",
           "Booking and payments"
         ],
-        "href": "/industries#travel"
+        "href": "/travel-software-development"
       },
       {
         "id": "ai",
@@ -193,25 +193,25 @@
         "id": "logistics",
         "title": "Logistics & 3PL",
         "desc": "Courier, warehouse, fleet and tracking integrations for shippers and 3PLs.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "EHR, EMR, lab, pharmacy and telehealth integrations.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "travel",
         "title": "Travel & Hospitality",
         "desc": "Flight, hotel, tour, OTA and channel manager integrations.",
-        "href": "/industries#travel"
+        "href": "/travel-software-development"
       },
       {
         "id": "fintech",
         "title": "Finance & Fintech",
         "desc": "Payments, banking, credit check and accounting integrations.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "restaurant",
@@ -223,7 +223,7 @@
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Property portal, CRM, payment and property management integrations.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "employee",

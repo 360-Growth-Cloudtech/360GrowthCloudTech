@@ -197,19 +197,19 @@
         "id": "healthcare",
         "title": "Clinics & Hospitals",
         "desc": "Redesigns for orthopaedic, dental and specialty clinics with doctor profiles and online booking.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Modern project pages, listings and enquiry flows for developers and brokers.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "education",
         "title": "Education",
         "desc": "Clearer course pages, admissions journeys and student resources.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "retail",

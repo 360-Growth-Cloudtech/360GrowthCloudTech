@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import Contact from "@/views/Contact";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
-import { BreadcrumbJsonLd } from "@/lib/seo/json-ld";
+import { BreadcrumbJsonLd, FaqJsonLd } from "@/lib/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -31,6 +31,7 @@ export default async function ContactPage({ params }: Props) {
 
   setRequestLocale(locale);
   const tCrumbs = await getTranslations({ locale, namespace: "common.breadcrumbs" });
+  const tFaq = await getTranslations({ locale, namespace: "contact" });
 
   return (
     <>
@@ -39,6 +40,7 @@ export default async function ContactPage({ params }: Props) {
         homeLabel={tCrumbs("home")}
         items={[{ name: tCrumbs("contact"), path: "/contact" }]}
       />
+      <FaqJsonLd items={tFaq.raw("faqs.items") as { q: string; a: string }[]} />
       <Contact />
     </>
   );

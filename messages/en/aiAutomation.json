@@ -184,7 +184,7 @@
         "id": "fintech",
         "title": "Banking & Financial Services",
         "desc": "Intelligent automation for KYC, loan processing, underwriting and customer service.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "insurance",
@@ -196,7 +196,7 @@
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Patient queries, appointment automation and medical document processing.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "retail",
@@ -208,13 +208,13 @@
         "id": "logistics",
         "title": "Logistics",
         "desc": "Shipment documents, customs paperwork and delivery query automation.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "education",
         "title": "Education",
         "desc": "AI tutors, automated grading and online proctoring.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "government",

@@ -53,7 +53,12 @@ export function createServiceLandingRoute({ ns, path, leadSource }: ServiceLandi
         <BreadcrumbJsonLd
           locale={locale as Locale}
           homeLabel={tCrumbs("home")}
-          items={[{ name: t("breadcrumb"), path }]}
+          items={[
+            ...(t.has("breadcrumbParent")
+              ? [{ name: t("breadcrumbParent.label"), path: t("breadcrumbParent.href") }]
+              : []),
+            { name: t("breadcrumb"), path },
+          ]}
         />
         <FaqJsonLd items={t.raw("faqs.items") as { q: string; a: string }[]} />
         <ServiceListJsonLd

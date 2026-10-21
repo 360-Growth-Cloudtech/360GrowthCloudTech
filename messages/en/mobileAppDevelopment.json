@@ -131,7 +131,7 @@
           "Reports and prescriptions",
           "Privacy-first design"
         ],
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "ai",
@@ -193,25 +193,25 @@
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Telemedicine, appointment, fitness and patient apps.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "fintech",
         "title": "Fintech",
         "desc": "Payments, wallets, lending and investment apps with strong security.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "education",
         "title": "Education",
         "desc": "E-learning, coaching and school apps with live classes and tests.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Property search, site visit booking and broker apps.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "restaurant",
@@ -223,7 +223,7 @@
         "id": "logistics",
         "title": "Logistics & Transport",
         "desc": "Driver, delivery tracking and fleet apps.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "startups",

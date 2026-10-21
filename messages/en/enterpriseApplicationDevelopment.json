@@ -186,25 +186,25 @@
         "id": "manufacturing",
         "title": "Manufacturing",
         "desc": "Plant operations, quality, maintenance and supply chain apps.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Clinical, patient and hospital operations applications.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "fintech",
         "title": "BFSI",
         "desc": "Secure banking, lending and insurance applications.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "logistics",
         "title": "Logistics",
         "desc": "Fleet, dispatch, warehouse and driver mobility apps.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "retail",
@@ -216,13 +216,13 @@
         "id": "education",
         "title": "Education",
         "desc": "Learning platforms and institution management apps.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Project, sales and facility management applications.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "government",

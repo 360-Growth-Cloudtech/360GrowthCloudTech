@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "title": "Logistics Software Development Company",
+    "description": "Logistics software development: fleet management, dispatch, transport and warehouse management, shipment tracking and route optimisation apps."
+  },
+  "breadcrumbParent": {
+    "label": "Industries",
+    "href": "/industries"
+  },
+  "breadcrumb": "Logistics",
+  "form": {
+    "topic": "logistics software development",
+    "options": [
+      "Fleet management and dispatch",
+      "Transport management system",
+      "Warehouse management system",
+      "Shipment tracking portal",
+      "Driver / delivery app",
+      "Courier or 3PL integration",
+      "Route optimisation"
+    ]
+  },
+  "hero": {
+    "label": "Logistics Software Development",
+    "title": "Logistics Software Development for",
+    "highlight": "Faster, Visible Deliveries",
+    "subtitle": "Fleet management, dispatch, TMS, WMS, shipment tracking and driver apps that give you real-time control of every vehicle, parcel and pallet."
+  },
+  "intro": {
+    "badge": "Logistics & Fleet",
+    "title": "Real-Time Control of Every Shipment",
+    "paragraphs": [
+      "Logistics runs on time and information. When dispatch happens over phone calls, tracking means calling drivers and proof of delivery is a paper slip, costs rise and customers lose patience. Modern logistics software turns that chaos into a live, connected operation.",
+      "We build logistics and fleet software for transporters, 3PLs, couriers, distributors and companies with their own fleets: fleet management and dispatch, transport and warehouse management systems, shipment tracking portals, driver and delivery apps, and route optimisation. We integrate with GPS devices, courier APIs, ERPs and accounting tools.",
+      "Every system is designed for the realities of the road, with offline-friendly apps and simple screens for drivers and warehouse staff. See our <work>logistics projects</work>, explore <api>API integration</api> or <contact>talk to us about your operation</contact>."
+    ],
+    "highlightsTitle": "What logistics software delivers",
+    "highlights": [
+      "Live vehicle and shipment tracking",
+      "Faster dispatch and planning",
+      "Digital proof of delivery",
+      "Lower fuel and idle costs",
+      "Accurate warehouse inventory",
+      "Fewer customer calls",
+      "Automated billing",
+      "Performance dashboards"
+    ]
+  },
+  "offerings": {
+    "badge": "Logistics Solutions",
+    "title": "Logistics Software Development Services",
+    "subtitle": "Software for moving, storing and tracking goods end to end.",
+    "discuss": "Discuss this solution",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "logistics",
+        "title": "Fleet Management & Dispatch",
+        "desc": "Assign trips, track vehicles, manage drivers and monitor fuel and maintenance from one dashboard.",
+        "bullets": [
+          "Trip assignment",
+          "Live GPS tracking",
+          "Fuel and maintenance logs"
+        ]
+      },
+      {
+        "id": "erp",
+        "title": "Transport Management System (TMS)",
+        "desc": "Plan loads, book vehicles, manage freight rates and track consignments across routes.",
+        "bullets": [
+          "Load planning",
+          "Freight and rates",
+          "Consignment tracking"
+        ]
+      },
+      {
+        "id": "warehouse",
+        "title": "Warehouse Management System (WMS)",
+        "desc": "Inbound, putaway, picking, packing and dispatch with bin locations and barcode scanning.",
+        "bullets": [
+          "Bin and location control",
+          "Pick, pack, dispatch",
+          "Barcode scanning"
+        ],
+        "href": "/stock-management-software"
+      },
+      {
+        "id": "portal",
+        "title": "Shipment Tracking Portal",
+        "desc": "Customer portals and tracking links with live status, ETAs and delivery notifications.",
+        "bullets": [
+          "Live tracking links",
+          "ETA updates",
+          "Customer notifications"
+        ]
+      },
+      {
+        "id": "fieldTeams",
+        "title": "Driver & Delivery Apps",
+        "desc": "Driver apps for trips, navigation, proof of delivery, photos, signatures and cash collection.",
+        "bullets": [
+          "Proof of delivery",
+          "Photos and signatures",
+          "COD collection"
+        ],
+        "href": "/mobile-app-development"
+      },
+      {
+        "id": "integrations",
+        "title": "Courier & 3PL Integration",
+        "desc": "Connect courier partners, marketplaces and ERPs for rates, labels, pickups and tracking.",
+        "bullets": [
+          "Rate and label APIs",
+          "Pickup booking",
+          "Tracking sync"
+        ],
+        "href": "/api-integration"
+      },
+      {
+        "id": "scaling",
+        "title": "Route Optimisation",
+        "desc": "Plan efficient multi-stop routes that save fuel, time and vehicles.",
+        "bullets": [
+          "Multi-stop planning",
+          "Time windows",
+          "Load balancing"
+        ]
+      },
+      {
+        "id": "invoicing",
+        "title": "Freight Billing & Invoicing",
+        "desc": "Automatic freight calculation, invoicing and reconciliation with customers and vendors.",
+        "bullets": [
+          "Freight calculation",
+          "Invoices and credits",
+          "Vendor settlement"
+        ]
+      },
+      {
+        "id": "crm",
+        "title": "Logistics CRM",
+        "desc": "Manage enquiries, quotes, contracts and customer accounts for transport and courier businesses.",
+        "bullets": [
+          "Quotes and contracts",
+          "Customer accounts",
+          "Follow-ups"
+        ],
+        "href": "/case-studies/mahasu-travels-crm"
+      },
+      {
+        "id": "embedded",
+        "title": "IoT & Cold-Chain Monitoring",
+        "desc": "Temperature, door and location sensors with alerts for sensitive and high-value cargo.",
+        "bullets": [
+          "Temperature monitoring",
+          "Geofence alerts",
+          "Incident logs"
+        ]
+      },
+      {
+        "id": "bi",
+        "title": "Logistics Analytics",
+        "desc": "Dashboards for on-time delivery, utilisation, costs and driver performance.",
+        "bullets": [
+          "On-time performance",
+          "Fleet utilisation",
+          "Cost per trip"
+        ]
+      },
+      {
+        "id": "ai",
+        "title": "AI for Logistics",
+        "desc": "Demand forecasting, document processing for shipping papers and delivery query chatbots.",
+        "bullets": [
+          "Demand forecasting",
+          "Shipping document AI",
+          "Delivery chatbots"
+        ],
+        "href": "/ai-automation"
+      }
+    ]
+  },
+  "industries": {
+    "badge": "Who We Serve",
+    "title": "Software for Every Logistics Business",
+    "subtitle": "From local delivery fleets to national 3PLs.",
+    "items": [
+      {
+        "id": "logistics",
+        "title": "Transporters & Fleet Owners",
+        "desc": "Trip, driver, fuel and maintenance management.",
+        "href": "/contact"
+      },
+      {
+        "id": "warehouse",
+        "title": "3PL & Warehousing",
+        "desc": "Multi-client WMS and billing.",
+        "href": "/contact"
+      },
+      {
+        "id": "orders",
+        "title": "Courier & Last-Mile",
+        "desc": "Dispatch, rider apps and proof of delivery.",
+        "href": "/contact"
+      },
+      {
+        "id": "wholesale",
+        "title": "Distributors",
+        "desc": "Order, stock and delivery tracking.",
+        "href": "/contact"
+      },
+      {
+        "id": "retail",
+        "title": "Ecommerce Brands",
+        "desc": "Shipping integrations and tracking pages.",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "food",
+        "title": "Cold Chain",
+        "desc": "Temperature-controlled logistics monitoring.",
+        "href": "/contact"
+      },
+      {
+        "id": "manufacturing",
+        "title": "Manufacturers",
+        "desc": "Inbound and outbound logistics visibility.",
+        "href": "/manufacturing-software-development"
+      },
+      {
+        "id": "travel",
+        "title": "Passenger Transport",
+        "desc": "Cab, bus and fleet booking and dispatch.",
+        "href": "/travel-software-development"
+      }
+    ]
+  },
+  "process": {
+    "badge": "How We Work",
+    "title": "How We Build Logistics Software",
+    "subtitle": "A proven process that respects the rules, risks and pace of the logistics industry.",
+    "steps": [
+      {
+        "title": "Discovery & compliance review",
+        "desc": "We map your workflows, users, systems and the data security and operational compliance requirements your software must meet."
+      },
+      {
+        "title": "Solution design",
+        "desc": "Architecture, integrations, data model and a clickable prototype validated with your team."
+      },
+      {
+        "title": "Agile development",
+        "desc": "Two-week sprints with live demos, so you see progress and give feedback early."
+      },
+      {
+        "title": "Integration & data migration",
+        "desc": "Connections to your existing ERP, courier, GPS and accounting systems and careful migration of current data."
+      },
+      {
+        "title": "Testing & security",
+        "desc": "Functional, performance and security testing before every release, with audit-ready records."
+      },
+      {
+        "title": "Launch, training & support",
+        "desc": "Phased rollout, staff training and SLA-backed support as you grow."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Integrations",
+    "title": "Logistics Technology and Integrations",
+    "subtitle": "Built to connect everything that moves your goods.",
+    "groups": [
+      {
+        "title": "Tracking",
+        "items": [
+          "GPS devices",
+          "Mobile GPS",
+          "Geofencing",
+          "Live maps"
+        ]
+      },
+      {
+        "title": "Integrations",
+        "items": [
+          "Courier APIs",
+          "Marketplaces",
+          "ERP",
+          "Accounting",
+          "Payment gateways"
+        ]
+      },
+      {
+        "title": "Warehouse",
+        "items": [
+          "Barcode",
+          "RFID",
+          "Bin locations",
+          "Handheld scanners"
+        ]
+      },
+      {
+        "title": "Apps",
+        "items": [
+          "Driver app",
+          "Customer portal",
+          "Admin dashboard",
+          "Offline mode"
+        ]
+      },
+      {
+        "title": "Analytics",
+        "items": [
+          "On-time delivery",
+          "Utilisation",
+          "Cost per km",
+          "Forecasting"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why Choose Us",
+    "title": "Why Logistics Businesses Choose Us",
+    "subtitle": "We combine software engineering with an understanding of how logistics businesses actually run.",
+    "items": [
+      {
+        "title": "Industry understanding",
+        "desc": "We speak your language and know the workflows, regulations and customers of logistics."
+      },
+      {
+        "title": "Compliance built in",
+        "desc": "Security and data security and operational compliance requirements are designed in from the first sprint, not patched later."
+      },
+      {
+        "title": "Integration experience",
+        "desc": "Proven integrations with the ERP, courier, GPS and accounting systems you already use."
+      },
+      {
+        "title": "Senior team",
+        "desc": "Experienced engineers, designers and QA on every project."
+      },
+      {
+        "title": "Transparent delivery",
+        "desc": "Fixed-scope estimates, weekly demos and direct access to developers."
+      },
+      {
+        "title": "You own everything",
+        "desc": "Full ownership of source code, data and designs, with long-term support."
+      }
+    ]
+  },
+  "cost": {
+    "badge": "Pricing",
+    "title": "How Much Does Logistics Software Cost?",
+    "subtitle": "Cost depends on fleet size, modules, apps and integrations. Typical ranges:",
+    "budgetLabel": "Typical budget",
+    "timelineLabel": "Timeline",
+    "tiers": [
+      {
+        "name": "Tracking or Driver App",
+        "price": "$8,000 – $25,000",
+        "timeline": "2–3 months",
+        "desc": "Driver app, tracking portal and dispatch dashboard for one operation."
+      },
+      {
+        "name": "TMS or WMS Platform",
+        "price": "$25,000 – $80,000",
+        "timeline": "3–6 months",
+        "desc": "Full transport or warehouse management with integrations and billing."
+      },
+      {
+        "name": "Enterprise Logistics Platform",
+        "price": "$80,000+",
+        "timeline": "6+ months",
+        "desc": "Multi-branch fleet, warehouse and analytics platform with IoT."
+      }
+    ],
+    "note": "Start with the module that saves the most time and expand from there. Fixed quote after a free consultation.",
+    "cta": "Get My Free Estimate"
+  },
+  "faqs": {
+    "badge": "FAQs",
+    "title": "Logistics Software Development FAQs",
+    "subtitle": "Quick answers for transporters, 3PLs and courier businesses.",
+    "items": [
+      {
+        "q": "What is logistics software development?",
+        "a": "It is building software for moving and storing goods, such as fleet management, dispatch, transport and warehouse management systems, shipment tracking and driver apps."
+      },
+      {
+        "q": "Can you build a driver app with proof of delivery?",
+        "a": "Yes. Our driver apps support trip details, navigation, photos, signatures, OTP-based proof of delivery and cash collection, and keep working offline."
+      },
+      {
+        "q": "Can you integrate with courier partners and GPS devices?",
+        "a": "Yes. We integrate courier and 3PL APIs for rates, labels and tracking, and connect GPS devices or mobile GPS for live vehicle tracking."
+      },
+      {
+        "q": "Do you build warehouse management systems?",
+        "a": "Yes. We build WMS with inbound, putaway, picking, packing, dispatch, bin locations and barcode scanning, integrated with your ERP."
+      },
+      {
+        "q": "How much does logistics software cost?",
+        "a": "A tracking or driver app typically costs $8,000 to $25,000, a TMS or WMS $25,000 to $80,000, and enterprise logistics platforms $80,000 or more."
+      },
+      {
+        "q": "Can logistics software reduce fuel and delivery costs?",
+        "a": "Yes. Route optimisation, better dispatch and utilisation tracking reduce empty runs, idle time and fuel use, while tracking cuts customer calls."
+      }
+    ]
+  },
+  "related": {
+    "title": "Explore more",
+    "links": [
+      {
+        "label": "Transport CRM case study",
+        "href": "/case-studies/mahasu-travels-crm"
+      },
+      {
+        "label": "API integration",
+        "href": "/api-integration"
+      },
+      {
+        "label": "Stock management software",
+        "href": "/stock-management-software"
+      },
+      {
+        "label": "Mobile app development",
+        "href": "/mobile-app-development"
+      },
+      {
+        "label": "All industries",
+        "href": "/industries"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Build Logistics Software That Moves Faster",
+    "subtitle": "Book a free 30-minute consultation. Tell us about your logistics business and get a clear plan and transparent estimate.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  }
+}

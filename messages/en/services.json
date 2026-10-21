@@ -529,42 +529,42 @@
         {
           "id": "healthcare",
           "title": "Healthcare",
-          "href": "/industries#healthcare"
+          "href": "/healthcare-software-development"
         },
         {
           "id": "fintech",
           "title": "Banking & Fintech",
-          "href": "/industries#finance"
+          "href": "/fintech-software-development"
         },
         {
           "id": "manufacturing",
           "title": "Manufacturing",
-          "href": "/industries#manufacturing"
+          "href": "/manufacturing-software-development"
         },
         {
           "id": "logistics",
           "title": "Logistics",
-          "href": "/industries#logistics"
+          "href": "/logistics-software-development"
         },
         {
           "id": "travel",
           "title": "Travel & Tourism",
-          "href": "/industries#travel"
+          "href": "/travel-software-development"
         },
         {
           "id": "retail",
           "title": "Retail & Ecommerce",
-          "href": "/industries#retail"
+          "href": "/retail-software-development"
         },
         {
           "id": "education",
           "title": "Education",
-          "href": "/industries#education"
+          "href": "/education-software-development"
         },
         {
           "id": "realEstate",
           "title": "Real Estate",
-          "href": "/industries#real-estate"
+          "href": "/real-estate-software-development"
         }
       ]
     },

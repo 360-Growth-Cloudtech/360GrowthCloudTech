@@ -184,6 +184,7 @@ const ICONS: Record<string, LucideIcon> = {
   spa: Flower2,
   personal: User,
   bot: Handshake,
+  partners: Handshake,
   fieldTeams: MapPin,
   crossPlatform: MonitorSmartphone,
   rapid: Zap,
@@ -268,6 +269,9 @@ const inlineLinks = {
   sd: (chunks: ReactNode) => <Link href="/software-development" className={linkClass}>{chunks}</Link>,
   crm: (chunks: ReactNode) => <Link href="/crm-software-development" className={linkClass}>{chunks}</Link>,
   wd: (chunks: ReactNode) => <Link href="/web-design" className={linkClass}>{chunks}</Link>,
+  qri: (chunks: ReactNode) => <Link href="/qri-dashboard" className={linkClass}>{chunks}</Link>,
+  stock: (chunks: ReactNode) => <Link href="/stock-management-software" className={linkClass}>{chunks}</Link>,
+  eco: (chunks: ReactNode) => <Link href="/ecommerce-software-development" className={linkClass}>{chunks}</Link>,
   api: (chunks: ReactNode) => <Link href="/api-integration" className={linkClass}>{chunks}</Link>,
   saas: (chunks: ReactNode) => <Link href="/saas-development" className={linkClass}>{chunks}</Link>,
   ces: (chunks: ReactNode) => <Link href="/custom-enterprise-software" className={linkClass}>{chunks}</Link>,
@@ -461,6 +465,15 @@ export default function ServiceLanding({ ns, leadSource }: ServiceLandingProps) 
         <ol className="container mx-auto flex items-center gap-1.5 px-4 pt-2 text-sm text-slate-500 sm:px-6 lg:px-8">
           <li><Link href="/" className="hover:text-primary">{tCrumbs("home")}</Link></li>
           <li aria-hidden><ChevronRight size={14} /></li>
+          {/* Optional middle crumb, e.g. Home › Industries › Healthcare */}
+          {t.has("breadcrumbParent") && (
+            <>
+              <li>
+                <Link href={t("breadcrumbParent.href")} className="hover:text-primary">{t("breadcrumbParent.label")}</Link>
+              </li>
+              <li aria-hidden><ChevronRight size={14} /></li>
+            </>
+          )}
           <li aria-current="page" className="font-semibold text-slate-800">{t("breadcrumb")}</li>
         </ol>
       </nav>

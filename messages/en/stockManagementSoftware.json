@@ -188,13 +188,13 @@
         "id": "warehouse",
         "title": "Warehouses & Distributors",
         "desc": "Warehouse inventory management with bins, picking, packing, transfers and dispatch tracking.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "manufacturing",
         "title": "Manufacturing",
         "desc": "Raw materials, bill of materials, work in progress and finished goods inventory in one manufacturing system.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "retail",
@@ -212,7 +212,7 @@
         "id": "healthcare",
         "title": "Medical, Pharmacy & Labs",
         "desc": "Medical and laboratory inventory management with batch, expiry and temperature-sensitive stock tracking.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "jewellery",
@@ -464,7 +464,7 @@
       },
       {
         "label": "Manufacturing solutions",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "label": "Case studies",

@@ -199,13 +199,13 @@
         "id": "fintech",
         "title": "Fintech",
         "desc": "Secure, compliant cloud environments with strict access control and audit trails.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Privacy-focused cloud infrastructure with encryption and backups.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "enterprise",
@@ -217,13 +217,13 @@
         "id": "education",
         "title": "EdTech",
         "desc": "Scalable platforms for live classes, exams and peak-time traffic.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "logistics",
         "title": "Logistics",
         "desc": "Reliable real-time tracking and integration infrastructure.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       }
     ]
   },

@@ -198,19 +198,19 @@
         "id": "healthcare",
         "title": "Clinics & Hospitals",
         "desc": "Appointment booking and doctor profiles that are easy on a phone.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Property photos, maps and enquiry buttons optimised for phones.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "education",
         "title": "Education",
         "desc": "Course pages, admissions forms and student portals on any device.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "shops",

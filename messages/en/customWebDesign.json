@@ -191,7 +191,7 @@
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Property websites with listings, projects and enquiry tracking.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "retail",
@@ -209,7 +209,7 @@
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Clinic and hospital websites with doctor profiles and online booking.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "education",

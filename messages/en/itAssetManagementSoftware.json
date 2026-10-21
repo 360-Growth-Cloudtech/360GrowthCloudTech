@@ -132,9 +132,9 @@
       { "id": "smes", "title": "SMEs & Growing Companies", "desc": "Simple IT asset tracking that replaces spreadsheets as your team and device count grow.", "href": "/contact" },
       { "id": "enterprise", "title": "Enterprises", "desc": "Multi-location IT asset management with approvals, integrations and compliance reporting.", "href": "/enterprise-application-development" },
       { "id": "msp", "title": "IT Service Providers & MSPs", "desc": "Track client assets, contracts and support history across many customers.", "href": "/contact" },
-      { "id": "education", "title": "Schools & Universities", "desc": "Labs, classrooms and staff devices, with student and staff assignment.", "href": "/industries#education" },
-      { "id": "healthcare", "title": "Hospitals & Clinics", "desc": "Track IT and medical-adjacent equipment across departments with maintenance history.", "href": "/industries#healthcare" },
-      { "id": "fintech", "title": "Banks & Financial Services", "desc": "Strict asset control, license compliance and audit trails across branches.", "href": "/industries#finance" },
+      { "id": "education", "title": "Schools & Universities", "desc": "Labs, classrooms and staff devices, with student and staff assignment.", "href": "/education-software-development" },
+      { "id": "healthcare", "title": "Hospitals & Clinics", "desc": "Track IT and medical-adjacent equipment across departments with maintenance history.", "href": "/healthcare-software-development" },
+      { "id": "fintech", "title": "Banks & Financial Services", "desc": "Strict asset control, license compliance and audit trails across branches.", "href": "/fintech-software-development" },
       { "id": "government", "title": "Government Offices", "desc": "Asset registers, transfers between departments and audit-ready records.", "href": "/contact" },
       { "id": "bpo", "title": "BPOs & Call Centres", "desc": "Hundreds of desktops, headsets and seats tracked by floor, shift and team.", "href": "/contact" }
     ]

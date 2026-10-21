@@ -185,13 +185,13 @@
         "id": "realEstate",
         "title": "Real Estate Developers",
         "desc": "Real estate CRM for property developers and brokers: enquiries, site visits, unit inventory, bookings, payment schedules and channel partners.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "pharma",
         "title": "Pharma & Healthcare",
         "desc": "Pharma CRM for medical representatives: doctor visits, samples, territories and secondary sales, plus patient CRMs for clinics.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "itAgencies",
@@ -203,19 +203,19 @@
         "id": "fintech",
         "title": "Finance & Insurance",
         "desc": "Loan, insurance and investment CRMs with document collection, KYC, renewals and compliance-friendly records.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "education",
         "title": "Education",
         "desc": "Admission CRMs for schools, colleges and coaching institutes: enquiries, counselling, follow-ups and fee collection.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "manufacturing",
         "title": "Manufacturing & Distribution",
         "desc": "Dealer and distributor CRMs with orders, schemes, territories and stock visibility.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "government",
@@ -473,7 +473,7 @@
       },
       {
         "label": "Real estate solutions",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "label": "Case studies",

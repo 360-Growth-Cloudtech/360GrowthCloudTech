@@ -12,6 +12,7 @@ import {
   HASH_NAV_EVENT,
   INDUSTRY_SLUGS,
   industryAnchor,
+  industryHref,
   industryMeta,
   type IndustrySlug,
 } from "@/lib/industry-catalog";
@@ -237,6 +238,13 @@ export function IndustryShowcase({ badge, title, subtitle, syncHash = false }: I
                   >
                     {t("showcase.getStarted")} <ArrowUpRight size={16} />
                   </button>
+                  <Link
+                    href={industryHref(active)}
+                    className="group inline-flex items-center gap-1.5 text-sm font-bold text-brand-700 transition-colors hover:text-brand-600"
+                  >
+                    {t("showcase.explore", { industry: t(`catalog.${active}.name`) })}
+                    <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
+                  </Link>
                   {meta.caseStudy && (
                     <Link
                       href={`/case-studies/${meta.caseStudy}`}

@@ -185,25 +185,25 @@
         "id": "manufacturing",
         "title": "Manufacturing",
         "desc": "ERP, production planning, quality and plant maintenance across factories.",
-        "href": "/industries#manufacturing"
+        "href": "/manufacturing-software-development"
       },
       {
         "id": "healthcare",
         "title": "Healthcare",
         "desc": "Hospital management, patient systems and compliance-ready records.",
-        "href": "/industries#healthcare"
+        "href": "/healthcare-software-development"
       },
       {
         "id": "fintech",
         "title": "BFSI",
         "desc": "Core operations, loan management and compliance workflows for financial institutions.",
-        "href": "/industries#finance"
+        "href": "/fintech-software-development"
       },
       {
         "id": "logistics",
         "title": "Logistics",
         "desc": "Transport, warehousing and fleet systems for large logistics networks.",
-        "href": "/industries#logistics"
+        "href": "/logistics-software-development"
       },
       {
         "id": "retail",
@@ -215,13 +215,13 @@
         "id": "education",
         "title": "Education",
         "desc": "University and school-group ERPs for admissions, academics and finance.",
-        "href": "/industries#education"
+        "href": "/education-software-development"
       },
       {
         "id": "realEstate",
         "title": "Real Estate",
         "desc": "Project, sales, CRM and finance systems for developers.",
-        "href": "/industries#real-estate"
+        "href": "/real-estate-software-development"
       },
       {
         "id": "government",

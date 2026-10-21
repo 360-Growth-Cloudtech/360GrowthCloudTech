@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import CaseStudies from "@/views/CaseStudies";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
-import { BreadcrumbJsonLd, CaseStudyListJsonLd } from "@/lib/seo/json-ld";
+import { BreadcrumbJsonLd, CaseStudyListJsonLd, FaqJsonLd } from "@/lib/seo/json-ld";
 import { getAllCaseStudies } from "@/lib/case-studies-data";
 
 type Props = {
@@ -33,6 +33,7 @@ export default async function CaseStudiesPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "caseStudies" });
   const tCrumbs = await getTranslations({ locale, namespace: "common.breadcrumbs" });
+  const tFaq = await getTranslations({ locale, namespace: "caseStudies" });
 
   return (
     <>
@@ -46,6 +47,7 @@ export default async function CaseStudiesPage({ params }: Props) {
         name={t("meta.title")}
         studies={await getAllCaseStudies(locale)}
       />
+      <FaqJsonLd items={tFaq.raw("list.faqs.items") as { q: string; a: string }[]} />
       <CaseStudies />
     </>
   );
