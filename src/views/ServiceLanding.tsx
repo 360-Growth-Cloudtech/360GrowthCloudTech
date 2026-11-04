@@ -27,7 +27,7 @@ import { PageHero } from "@/components/PageHero";
 import { Reveal, Magnetic } from "@/components/motion";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { submitLead } from "@/lib/submit-lead";
-import { whatsappUrl } from "@/lib/contact";
+import { whatsappUrl, CONTACT_WHATSAPP_URL } from "@/lib/contact";
 
 /**
  * Shared layout for service landing pages (/software-development, /ecommerce-software-development, …).
@@ -782,6 +782,16 @@ export default function ServiceLanding({ ns, leadSource }: ServiceLandingProps) 
               <Magnetic strength={10}>
                 <button onClick={() => setOpen(true)} className="btn-primary">{t("cta.primary")}</button>
               </Magnetic>
+              <a
+                href={CONTACT_WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-emerald-950/20 transition-all hover:-translate-y-0.5 hover:bg-[#20ba59]"
+                data-testid="service-landing-whatsapp-cta"
+              >
+                <FaWhatsapp size={17} />
+                WhatsApp Us
+              </a>
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-bold text-white hover:bg-white/15"

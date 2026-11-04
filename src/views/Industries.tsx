@@ -11,6 +11,8 @@ import { Reveal, Magnetic } from "@/components/motion";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { INDUSTRY_SLUGS, industryHref, industryMeta } from "@/lib/industry-catalog";
 import { caseStudyMeta } from "@/lib/case-studies-meta";
+import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 
 const fadeUp = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 } };
 
@@ -226,6 +228,16 @@ export default function Industries() {
                   {t("showcase.getStarted")} <ArrowRight size={16} />
                 </button>
               </Magnetic>
+              <a
+                href={CONTACT_WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="industries-whatsapp-cta"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-7 py-3.5 text-sm font-bold text-white shadow-xl shadow-black/20 hover:bg-[#20ba59] transition-all"
+              >
+                <FaWhatsapp size={17} />
+                WhatsApp Us
+              </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 py-3.5 text-sm font-bold text-white hover:bg-white/20">
                 {tCrumbs("contact")}
               </Link>

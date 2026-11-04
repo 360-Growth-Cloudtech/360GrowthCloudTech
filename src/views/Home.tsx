@@ -41,6 +41,8 @@ import {
   ChoosePartner,
 } from "@/components/HomeSeoSections";
 import { toast } from "sonner";
+import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 // Outcome icon mapping helper
@@ -394,6 +396,19 @@ export default function Home() {
               <Lock size={12} />
               {t("hero.form.trustLine")}
             </p>
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
+              <span className="text-xs text-slate-500">Need instant consultation?</span>
+              <a
+                href={CONTACT_WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="hero-whatsapp-btn"
+                className="inline-flex items-center gap-2 rounded-full bg-emerald-50 border border-emerald-300 px-4 py-1.5 text-xs font-bold text-emerald-800 transition-all hover:bg-[#25D366] hover:text-white hover:border-[#25D366] shadow-sm"
+              >
+                <FaWhatsapp size={14} className="text-[#25D366] group-hover:text-white" />
+                Chat on WhatsApp for Instant Estimate
+              </a>
+            </div>
           </Reveal>
 
           {/* Proof row */}
@@ -1202,6 +1217,20 @@ export default function Home() {
             <p className="text-xs text-white/50">
               {t("finalConversion.guarantee")}
             </p>
+
+            <div className="mt-6 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-3">
+              <span className="text-xs text-white/70">Prefer instant messaging?</span>
+              <a
+                href={CONTACT_WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="home-bottom-whatsapp-btn"
+                className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-2.5 text-xs font-bold text-white shadow-lg shadow-emerald-950/30 transition-all hover:bg-[#20ba59] hover:-translate-y-0.5"
+              >
+                <FaWhatsapp size={16} />
+                Chat on WhatsApp
+              </a>
+            </div>
           </Reveal>
         </div>
       </section>

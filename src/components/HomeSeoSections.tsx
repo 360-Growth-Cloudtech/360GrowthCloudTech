@@ -11,6 +11,8 @@ import {
 import { Link } from "@/i18n/routing";
 import { Reveal, Magnetic } from "@/components/motion";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
+import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 
 type LinkedCard = { id: string; title: string; desc: string; href: string };
 
@@ -313,12 +315,22 @@ export function CostGuide() {
             </div>
             <div className="lg:col-span-5 flex flex-col justify-center text-left">
               <p className="text-sm text-white/75 leading-relaxed mb-6">{t("note")}</p>
-              <div className="flex flex-wrap items-center gap-4">
+              <div className="flex flex-wrap items-center gap-3">
                 <Magnetic strength={10}>
                   <button onClick={() => setOpen(true)} className="btn-primary">
                     {t("cta")}
                   </button>
                 </Magnetic>
+                <a
+                  href={CONTACT_WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-white shadow-lg hover:bg-[#20ba59] transition-all"
+                  data-testid="cost-guide-whatsapp-cta"
+                >
+                  <FaWhatsapp size={16} />
+                  WhatsApp
+                </a>
                 <Link href="/contact" className="inline-flex items-center gap-1.5 text-sm font-bold text-white hover:text-brand-300">
                   {t("secondaryCta")} <ArrowRight size={15} />
                 </Link>

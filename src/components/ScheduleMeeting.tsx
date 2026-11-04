@@ -5,7 +5,8 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
-import { CONTACT_PHONE } from "@/lib/contact";
+import { CONTACT_PHONE, CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 import {
   Dialog,
   DialogContent,
@@ -307,6 +308,23 @@ export function ScheduleMeeting({ open, onOpenChange }: ScheduleMeetingProps) {
                     tCta("confirmMeeting")
                   )}
                 </Button>
+
+                <div className="mt-4 pt-3.5 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-2.5 text-center sm:text-left">
+                  <div>
+                    <p className="text-xs font-bold text-slate-800">Prefer instant messaging?</p>
+                    <p className="text-[0.72rem] text-slate-500">Skip the form & chat directly with us</p>
+                  </div>
+                  <a
+                    href={CONTACT_WHATSAPP_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-testid="schedule-whatsapp-btn"
+                    className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-2 text-xs font-bold text-white shadow-md shadow-emerald-500/20 hover:bg-[#20ba59] transition-all shrink-0"
+                  >
+                    <FaWhatsapp size={15} />
+                    Chat on WhatsApp
+                  </a>
+                </div>
               </form>
             </Form>
           </div>

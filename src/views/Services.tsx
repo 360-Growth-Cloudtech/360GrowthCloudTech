@@ -19,6 +19,8 @@ import { CaseStudyPreviewImage } from "@/components/CaseStudyPreviewImage";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { IN_PRACTICE_KEYS, inPracticeImages } from "@/lib/services-data";
 import { QuoteForm } from "@/views/ServiceLanding";
+import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 
 type HubItem = { slug: string; title: string; desc: string };
 type HubGroup = { id: string; title: string; subtitle: string; items: HubItem[] };
@@ -363,6 +365,16 @@ export default function Services() {
                   {tHub("cta.primary")}
                 </button>
               </Magnetic>
+              <a
+                href={CONTACT_WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="services-whatsapp-cta"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-emerald-950/20 transition-all hover:-translate-y-0.5 hover:bg-[#20ba59]"
+              >
+                <FaWhatsapp size={17} />
+                WhatsApp Us
+              </a>
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-bold text-white hover:bg-white/15"

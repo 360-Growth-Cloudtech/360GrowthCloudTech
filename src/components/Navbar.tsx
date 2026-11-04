@@ -22,6 +22,7 @@ import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { SERVICE_MENU_GROUPS, isCatalogService, serviceHref } from "@/lib/service-catalog";
 import { INDUSTRY_SLUGS, announceHashNav, industryHref, industryMeta } from "@/lib/industry-catalog";
 import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 
 type MenuItem = { href: string; label: string; icon: LucideIcon; /** Short helper line under the label. */ desc?: string };
 
@@ -332,9 +333,9 @@ export function Navbar() {
               href={CONTACT_WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1 font-semibold text-white transition-colors hover:bg-brand-600"
+              className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/20 px-3 py-1 font-semibold text-emerald-300 transition-colors hover:bg-[#25D366] hover:text-white"
             >
-              <MessageCircle size={13} />
+              <FaWhatsapp size={14} className="text-[#25D366] group-hover:text-white" />
               {tTop("whatsapp")}
             </a>
           </div>
@@ -369,7 +370,7 @@ export function Navbar() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5 sm:gap-3">
             <a href={CONTACT_PHONE_TEL} className="group hidden items-center gap-3 xl:flex" data-testid="nav-call">
               <span className="relative flex h-11 w-11 items-center justify-center rounded-full bg-brand-50 text-brand-600 ring-1 ring-brand-200">
                 <span className="absolute inset-0 animate-ping rounded-full bg-brand-200/60 [animation-duration:2.4s]" aria-hidden />
@@ -379,6 +380,16 @@ export function Navbar() {
                 <span className="block text-[0.68rem] font-semibold uppercase tracking-[0.12em] text-slate-500">{t("callLabel")}</span>
                 <span className="block text-[0.95rem] font-extrabold text-slate-900 group-hover:text-brand-600">{CONTACT_PHONE}</span>
               </span>
+            </a>
+            <a
+              href={CONTACT_WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="nav-whatsapp-cta"
+              className="group hidden items-center gap-2 rounded-full border border-[#25D366]/30 bg-emerald-50/80 px-4 py-2.5 text-xs font-bold text-emerald-800 shadow-sm transition-all hover:-translate-y-0.5 hover:bg-[#25D366] hover:text-white hover:border-[#25D366] hover:shadow-md hover:shadow-emerald-500/20 lg:inline-flex"
+            >
+              <FaWhatsapp size={16} className="text-[#25D366] group-hover:text-white transition-colors" />
+              <span>WhatsApp</span>
             </a>
             <button
               type="button"
@@ -442,6 +453,16 @@ export function Navbar() {
                 </span>
               </a>
               <div className="mt-3 flex flex-col gap-2">
+                <a
+                  href={CONTACT_WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="nav-mobile-whatsapp-cta"
+                  className="flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-bold text-white shadow-md shadow-emerald-600/25 transition-all hover:bg-[#20ba59]"
+                >
+                  <FaWhatsapp size={18} />
+                  Chat on WhatsApp
+                </a>
                 <button
                   onClick={() => {
                     setMobileMenuOpen(false);

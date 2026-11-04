@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { ArrowRight, ArrowUp, CalendarDays, Clock3, Mail, MessageCircle, Phone, Star, MapPin } from "lucide-react";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP_URL } from "@/lib/contact";
@@ -40,7 +40,7 @@ export function Footer() {
   const contacts = [
     { icon: Mail, label: t("emailLabel"), value: CONTACT_EMAIL, href: `mailto:${CONTACT_EMAIL}` },
     { icon: Phone, label: t("phoneLabel"), value: CONTACT_PHONE, href: CONTACT_PHONE_TEL },
-    { icon: MessageCircle, label: t("whatsappLabel"), value: CONTACT_PHONE, href: CONTACT_WHATSAPP_URL, external: true },
+    { icon: FaWhatsapp, label: t("whatsappLabel"), value: CONTACT_PHONE, href: CONTACT_WHATSAPP_URL, external: true },
     { icon: Clock3, label: t("hoursLabel"), value: t("hours") },
   ];
 
@@ -84,10 +84,10 @@ export function Footer() {
                 href={CONTACT_WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-white/40 px-6 py-3.5 text-sm font-bold text-white transition-colors hover:bg-white/10"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3.5 text-sm font-bold text-white shadow-xl shadow-black/20 transition-all hover:-translate-y-0.5 hover:bg-[#20ba59]"
                 data-testid="footer-send-message-btn"
               >
-                <MessageCircle size={16} /> {t("sendMessage")}
+                <FaWhatsapp size={18} /> {t("sendMessage")}
               </a>
             </div>
           </div>

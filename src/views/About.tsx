@@ -10,6 +10,8 @@ import { useScheduleMeeting } from "@/hooks/useScheduleMeeting";
 import { Reveal, Magnetic } from "@/components/motion";
 import { Breadcrumb, FaqAccordion, SectionIntro } from "@/components/PageSections";
 import { INDUSTRY_SLUGS, industryHref, industryMeta } from "@/lib/industry-catalog";
+import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 
 const VALUE_ICONS: LucideIcon[] = [Target, MessageCircle, Compass, Gem, KeyRound, Handshake];
 
@@ -168,6 +170,16 @@ export default function About() {
                   {tCta("startConversation")}
                 </button>
               </Magnetic>
+              <a
+                href={CONTACT_WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="about-whatsapp-cta"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-emerald-950/20 transition-all hover:-translate-y-0.5 hover:bg-[#20ba59]"
+              >
+                <FaWhatsapp size={17} />
+                Chat on WhatsApp
+              </a>
               <Link href="/case-studies" className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-bold text-white hover:bg-white/15">
                 {tCta("recentProjects")} <ArrowRight size={15} />
               </Link>

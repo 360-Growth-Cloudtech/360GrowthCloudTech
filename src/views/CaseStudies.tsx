@@ -16,6 +16,8 @@ import {
   mergeCaseStudy,
   type CaseStudyContent,
 } from "@/lib/case-studies-meta";
+import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 
 type Filter = { id: string; label: string; slugs: string[] };
 
@@ -154,6 +156,16 @@ export default function CaseStudies() {
               <Magnetic strength={10}>
                 <button type="button" onClick={() => setOpen(true)} className="btn-primary">{t("list.cta.primary")}</button>
               </Magnetic>
+              <a
+                href={CONTACT_WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="case-studies-whatsapp-cta"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-bold text-white shadow-lg shadow-emerald-950/20 transition-all hover:-translate-y-0.5 hover:bg-[#20ba59]"
+              >
+                <FaWhatsapp size={17} />
+                WhatsApp Us
+              </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-bold text-white hover:bg-white/15">
                 {t("list.cta.secondary")} <ArrowRight size={15} />
               </Link>

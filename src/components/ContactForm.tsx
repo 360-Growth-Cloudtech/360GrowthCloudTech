@@ -5,7 +5,8 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
-import { CONTACT_PHONE } from "@/lib/contact";
+import { CONTACT_PHONE, CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -208,6 +209,20 @@ export function ContactForm() {
               tCta("requestConsultation")
             )}
           </Button>
+
+          <div className="mt-5 pt-5 border-t border-slate-100 text-center">
+            <p className="text-xs text-slate-500 mb-2.5">Prefer instant messaging without filling forms?</p>
+            <a
+              href={CONTACT_WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="contact-form-whatsapp-btn"
+              className="inline-flex items-center justify-center gap-2 w-full rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 py-3 text-sm font-bold text-[#15803d] hover:bg-[#25D366] hover:text-white transition-all shadow-sm"
+            >
+              <FaWhatsapp size={18} />
+              Chat with us on WhatsApp
+            </a>
+          </div>
         </form>
       </Form>
     </div>

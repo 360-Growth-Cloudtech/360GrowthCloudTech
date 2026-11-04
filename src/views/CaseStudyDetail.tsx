@@ -17,6 +17,8 @@ import {
   type CaseStudyContent,
 } from "@/lib/case-studies-meta";
 import { Reveal, Magnetic } from "@/components/motion";
+import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
   const t = useTranslations("caseStudies");
@@ -374,6 +376,16 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
             >
               {tCta("startConversation")}
             </button>
+            <a
+              href={CONTACT_WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="case-study-whatsapp-cta"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-black/20 hover:bg-[#20ba59] transition-all"
+            >
+              <FaWhatsapp size={16} />
+              WhatsApp Us
+            </a>
             <Link
               href="/contact"
               className="btn-outline text-white border-white/30 hover:bg-white/10"

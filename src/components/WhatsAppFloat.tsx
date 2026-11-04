@@ -1,7 +1,9 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { X } from "lucide-react";
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -18,17 +20,78 @@ function WhatsAppIcon({ className }: { className?: string }) {
 
 export function WhatsAppFloat() {
   const t = useTranslations("common.whatsapp");
+  const [showPrompt, setShowPrompt] = useState(false);
+  const [dismissed, setDismissed] = useState(false);
+
+  useEffect(() => {
+    // Show gentle chat prompt after 1.8s
+    const timer = setTimeout(() => {
+      if (!dismissed) setShowPrompt(true);
+    }, 1800);
+    return () => clearTimeout(timer);
+  }, [dismissed]);
 
   return (
-    <a
-      href={CONTACT_WHATSAPP_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label={t("chatLabel")}
-      data-testid="whatsapp-float"
-      className="fixed bottom-6 end-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 transition-transform duration-200 hover:scale-105 hover:shadow-xl hover:shadow-[#25D366]/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
-    >
-      <WhatsAppIcon className="h-7 w-7" />
-    </a>
+    <div className="fixed bottom-6 end-6 z-50 flex flex-col items-end gap-2.5">
+      {/* Gentle floating speech bubble prompt */}
+      {showPrompt && !dismissed && (
+        <div className="relative animate-in fade-in slide-in-from-bottom-2 duration-300 max-w-[260px] rounded-2xl bg-white p-3.5 shadow-xl shadow-slate-900/15 border border-slate-200/90 text-left">
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+              setDismissed(true);
+              setShowPrompt(false);
+            }}
+            aria-label="Close"
+            className="absolute top-2 right-2 flex h-5 w-5 items-center justify-center rounded-full text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors"
+          >
+            <X size={12} />
+          </button>
+          <a
+            href={CONTACT_WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block group"
+          >
+            <div className="flex items-center gap-1.5 mb-1">
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-[#25D366]" />
+              </span>
+              <span className="text-[0.68rem] font-bold uppercase tracking-wider text-[#15803d]">
+                Online • Immediate Reply
+              </span>
+            </div>
+            <p className="text-xs font-bold text-slate-800 group-hover:text-brand-600 transition-colors">
+              👋 Need quick project advice or quote?
+            </p>
+            <p className="mt-0.5 text-[0.72rem] text-slate-500">
+              Click to chat directly with our team on WhatsApp.
+            </p>
+          </a>
+        </div>
+      )}
+
+      {/* Main WhatsApp Floating Button with live pulse */}
+      <a
+        href={CONTACT_WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={t("chatLabel")}
+        data-testid="whatsapp-float"
+        className="group relative flex items-center gap-2.5 rounded-full bg-[#25D366] text-white p-3.5 sm:px-4.5 sm:py-3.5 shadow-lg shadow-[#25D366]/35 transition-all duration-300 hover:scale-105 hover:bg-[#20ba59] hover:shadow-xl hover:shadow-[#25D366]/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
+      >
+        <span
+          className="pointer-events-none absolute inset-0 animate-ping rounded-full bg-[#25D366]/40 [animation-duration:2.5s]"
+          aria-hidden
+        />
+        <WhatsAppIcon className="relative h-7 w-7 shrink-0 text-white" />
+        <span className="relative hidden text-sm font-bold tracking-tight text-white md:inline-block pr-1">
+          Chat on WhatsApp
+        </span>
+      </a>
+    </div>
   );
 }
