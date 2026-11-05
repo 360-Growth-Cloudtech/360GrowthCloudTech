@@ -8,5 +8,6 @@ export function whatsappUrl(text: string): string {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 }
 
-export const CONTACT_WHATSAPP_URL =
-  "https://wa.me/919643320521?text=Hi%20360GrowthCloudTech%2C%20I%27d%20like%20to%20discuss%20a%20project.";
+export const CONTACT_WHATSAPP_URL = whatsappUrl(
+  "Hello 360GrowthCloudTech team, I visited your website and would like to discuss a project requirement. Could we connect?"
+);

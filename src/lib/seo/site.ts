@@ -9,21 +9,24 @@ export const SITE_URL =
 export const SITE_NAME = "360GrowthCloudTech";
 
 export const SITE_DESCRIPTION =
-  "360GrowthCloudTech is an AI-first custom software development company building enterprise web, mobile, SaaS and cloud platforms with transparent delivery and full IP ownership.";
+  "360GrowthCloudTech is a custom software development company serving US and global businesses. We build enterprise web, mobile, SaaS and cloud platforms with US timezone overlap and 100% IP ownership.";
 
 export const SITE_KEYWORDS = [
+  "custom software development company USA",
+  "enterprise software development services",
   "custom software development company",
-  "enterprise software development",
-  "custom software development services",
-  "AI software development",
+  "software outsourcing to India with US timezone overlap",
+  "dedicated software development team",
+  "hire software developers",
+  "AI software development company",
   "SaaS development company",
-  "web application development",
-  "mobile app development",
+  "web application development USA",
+  "custom enterprise application development",
+  "mobile app development company",
   "cloud and DevOps services",
   "legacy application modernization",
-  "dedicated development team",
-  "staff augmentation",
-  "software outsourcing India",
+  "staff augmentation services",
+  "offshore software development USA",
 ];
 
 /** Generated 1200×630 share image (see src/app/og.png/route.tsx). */

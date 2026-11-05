@@ -5,41 +5,41 @@
   },
   "breadcrumb": "Enterprise Application Development",
   "form": {
-    "topic": "enterprise application development",
+    "topic": "enterprise application development services",
     "options": [
-      "Enterprise web application",
-      "Enterprise mobile app",
-      "Field workforce / mobility app",
-      "Enterprise portal or dashboard",
-      "Modernise a legacy application",
-      "Enterprise software product",
-      "Pilot or MVP for a new app"
+      "Custom Enterprise Web Application",
+      "Enterprise Mobile App (iOS & Android)",
+      "Custom Enterprise Software & ERP / CRM",
+      "Enterprise Portal or Analytics Dashboard",
+      "Cloud Solutions & Legacy App Modernization",
+      "Hire Dedicated Enterprise Application Developers",
+      "Pilot or MVP for Enterprise Product"
     ]
   },
   "hero": {
-    "label": "Enterprise Application Development",
+    "label": "Custom Enterprise Application Development Services",
     "title": "Enterprise Application Development Company Building",
-    "highlight": "Secure, Scalable Web & Mobile Apps",
-    "subtitle": "Enterprise web applications, mobile apps and platforms engineered for thousands of users, strict security and deep integration, built on proven frameworks your IT team can maintain."
+    "highlight": "Scalable, High-Security Web & Mobile Apps",
+    "subtitle": "We engineer custom enterprise application development solutions designed for high concurrency, zero downtime, and deep cloud integration. Trusted by growing companies and enterprises worldwide."
   },
   "intro": {
-    "badge": "Enterprise Apps",
-    "title": "Applications Built for the Demands of Large Organisations",
+    "badge": "Enterprise Solutions",
+    "title": "Custom Enterprise Application Development Built for Scale & Business Impact",
     "paragraphs": [
-      "Enterprise application development is the design and engineering of software that large organisations depend on every day: internal operations apps, field workforce apps, customer and partner platforms, analytics tools and digital products. These applications must serve many users and roles, protect sensitive data, integrate with existing systems and stay reliable for years.",
-      "We build enterprise web applications and enterprise mobile apps end to end: architecture, UI/UX, frontend and backend engineering, mobile development, integrations, testing, cloud deployment and support. Applications are designed with single sign-on, role-based access, audit logging and high availability from the first sprint, and documented so your in-house team can extend them.",
-      "We choose frameworks for long-term maintainability, such as React or Angular on the front end and .NET, Java, Node.js, Django or Laravel on the back end, with Flutter, React Native or native code for mobile. If you need business systems like ERP or CRM, see our <ces>custom enterprise software</ces> services, or <contact>talk to an enterprise architect</contact>."
+      "Modern enterprises outgrow off-the-shelf tools that impose expensive per-user licensing fees and rigid workflows. Our enterprise application development services are built to engineer high-velocity, secure software tailored precisely around your operational processes, multi-level approvals, and growth targets.",
+      "As a full-cycle enterprise application development company, we take your vision from blueprint to production: cloud-native backend engineering, high-performance web portals, and cross-platform enterprise mobile apps. Every application is built with single sign-on (SSO), role-based access control, bank-grade encryption, and automated CI/CD pipelines right from sprint one.",
+      "Whether you are modernizing a legacy system or launching custom enterprise software solutions across multi-location teams, our dedicated enterprise application developers deliver clean, maintainable architecture with 100% IP ownership. Explore our <ces>custom enterprise software</ces>, review our <work>cloud software development case studies</work>, or <contact>talk to an enterprise architect</contact>."
     ],
-    "highlightsTitle": "Every enterprise app we build has",
+    "highlightsTitle": "Enterprise-grade guarantees on every project",
     "highlights": [
-      "Single sign-on and role-based access",
-      "Audit logs and data encryption",
-      "High availability and scalability",
-      "Integration with ERP, CRM and legacy systems",
-      "Clean, documented architecture",
-      "Automated testing and CI/CD",
-      "Responsive web and mobile experiences",
-      "Long-term support and SLAs"
+      "100% full IP and source code ownership",
+      "Single sign-on (SSO) and role-based access",
+      "Multi-tenant and auto-scaling cloud architecture",
+      "Seamless integration with ERP, CRM, and legacy tools",
+      "Enterprise-grade audit logs and data encryption",
+      "Automated testing, CI/CD, and zero-downtime releases",
+      "Cross-platform responsive web and mobile apps",
+      "Dedicated senior developers & SLA-backed support"
     ]
   },
   "offerings": {
@@ -403,9 +403,9 @@
     ]
   },
   "why": {
-    "badge": "Why Choose Us",
-    "title": "Why Choose Us as Your Enterprise Application Development Company",
-    "subtitle": "Enterprise discipline with the speed and attention of a focused engineering partner.",
+    "badge": "Why 360GrowthCloudTech",
+    "title": "Why Choose 360GrowthCloudTech as Your Enterprise Application Development Company",
+    "subtitle": "Enterprise engineering discipline combined with the speed, responsiveness, and transparency of a dedicated technical partner.",
     "items": [
       {
         "title": "Senior architects",
@@ -465,31 +465,31 @@
   "faqs": {
     "badge": "FAQs",
     "title": "Enterprise Application Development FAQs",
-    "subtitle": "Quick answers about building enterprise applications.",
+    "subtitle": "Everything you need to know about our custom enterprise application development services.",
     "items": [
       {
-        "q": "What is enterprise application development?",
-        "a": "Enterprise application development is designing, building and maintaining software for large organisations, such as operations apps, mobile workforce apps, portals and platforms, with enterprise requirements for security, scale, integration and reliability."
+        "q": "What do your enterprise application development services include?",
+        "a": "Our enterprise application development services cover end-to-end delivery: technical discovery, scalable system architecture, UI/UX prototyping, enterprise web and mobile app development, legacy modernization, cloud infrastructure, and 24/7 SLA-backed support."
       },
       {
-        "q": "What is the best framework for enterprise applications?",
-        "a": "There is no single best choice. React or Angular are strong for enterprise web frontends; .NET, Java Spring and Node.js are common enterprise backends; Django and Laravel suit data-heavy and business apps; and Flutter or React Native work well for cross-platform mobile. We choose based on your requirements and team skills."
+        "q": "Why choose 360GrowthCloudTech as your enterprise application development company?",
+        "a": "We provide senior enterprise architects, dedicated agile teams, transparent two-week sprint demos, 100% full IP ownership, and enterprise-grade security protocols (SSO, audit trails, data encryption) with zero vendor lock-in."
       },
       {
-        "q": "Should we use a low-code platform or custom development?",
-        "a": "Low-code suits simple internal apps and quick prototypes. Custom development is better for core, complex or customer-facing applications that need specific UX, performance, deep integration and freedom from per-user platform licences."
+        "q": "How do custom enterprise software solutions differ from off-the-shelf software?",
+        "a": "Off-the-shelf software forces businesses into generic workflows and charges recurring per-user licensing fees. Custom enterprise software solutions are built precisely around your operational requirements, integrate with your existing systems, and scale without per-seat cost penalties."
       },
       {
-        "q": "How much does enterprise app development cost?",
-        "a": "A pilot or MVP typically costs $20,000 to $50,000, a production enterprise web or mobile app $50,000 to $150,000, and enterprise platforms $150,000 or more, depending on scope and integrations."
+        "q": "How much does custom enterprise application development cost?",
+        "a": "A targeted pilot or MVP typically costs $20,000 to $50,000, while a production-grade enterprise web or mobile app ranges from $50,000 to $150,000. Multi-system enterprise platforms start at $150,000+, with milestone-based, transparent pricing."
       },
       {
-        "q": "How long does it take to build an enterprise application?",
-        "a": "A pilot usually takes 2 to 4 months, a full enterprise application 4 to 8 months and larger platforms 8 months or more, delivered in phases so users benefit earlier."
+        "q": "Can you modernize our legacy systems and migrate them to custom cloud solutions?",
+        "a": "Yes. Our team specializes in re-architecting legacy monoliths into cloud-native microservices on AWS, Azure, and Google Cloud, ensuring zero downtime and complete data integrity during the migration."
       },
       {
-        "q": "How do you secure enterprise mobile apps?",
-        "a": "We use secure authentication and SSO, encrypted storage and transport, role-based access, remote session control, and support for mobile device management, along with regular security testing."
+        "q": "How quickly can we start with your enterprise application developers?",
+        "a": "We can onboard dedicated enterprise application developers or assemble a full cross-functional team within 1 to 2 weeks, working in your time zone under strict NDA and enterprise governance."
       }
     ]
   },

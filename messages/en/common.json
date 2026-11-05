@@ -23,7 +23,7 @@
   },
   "footer": {
     "brandName": "360GrowthCloudTech",
-    "tagline": "AI-first software studio building custom web, mobile, SaaS and cloud platforms for businesses that want to grow, with fixed scope and full IP ownership.",
+    "tagline": "AI-first custom software development company building enterprise web, mobile, SaaS and cloud platforms for businesses across the US, UK, Europe and India with full IP ownership.",
     "company": "Company",
     "services": "Services",
     "resources": "Resources",
@@ -49,7 +49,7 @@
     "phoneLabel": "Call",
     "whatsappLabel": "WhatsApp",
     "hoursLabel": "Response time",
-    "hours": "Within 2 business hours",
+    "hours": "Within 2 business hours (24/5 Global Coverage)",
     "followUs": "Follow us",
     "backToTop": "Back to top"
   },
@@ -160,8 +160,8 @@
     "caseStudies": "Case Studies"
   },
   "topbar": {
-    "studio": "AI-First Software Studio",
-    "reply": "Reply within 2 business hours",
+    "studio": "US & Global Engineering Partner",
+    "reply": "US (EST/PST) Timezone Overlap · 2h Response",
     "whatsapp": "WhatsApp us"
   },
   "serviceForm": {
@@ -175,6 +175,6 @@
     "trustLine": "Opens WhatsApp with your details · Reply within 2 business hours · No obligation",
     "missingFields": "Please add your name, phone, email and requirement.",
     "success": "WhatsApp opened with your details. Just press send!",
-    "whatsappMessage": "Hi 360GrowthCloudTech, I would like a free quote for {topic}.\n\nName: {name}\nPhone: {phone}\nEmail: {email}\nRequirement: {service}"
+     "whatsappMessage": "Hello 360GrowthCloudTech team, I visited your website and would like to discuss a project requirement for {topic}.\n\nName: {name}\nEmail: {email}\nPhone: {phone}\nRequirement: {service}\n\nCould we connect?"
   }
 }

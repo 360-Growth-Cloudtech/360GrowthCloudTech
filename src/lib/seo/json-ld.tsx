@@ -17,6 +17,15 @@ const LOGO_ID = `${SITE_URL}/#logo`;
 
 const AVAILABLE_LANGUAGES = ["English"];
 
+const TARGET_SERVICE_AREAS = [
+  { "@type": "Country", name: "United States" },
+  { "@type": "Country", name: "United Kingdom" },
+  { "@type": "Country", name: "Canada" },
+  { "@type": "Country", name: "Australia" },
+  { "@type": "Country", name: "Germany" },
+  { "@type": "Country", name: "India" },
+];
+
 export function OrganizationWebSiteJsonLd({ locale }: { locale: Locale }) {
   return (
     <JsonLd
@@ -40,7 +49,7 @@ export function OrganizationWebSiteJsonLd({ locale }: { locale: Locale }) {
             image: { "@id": LOGO_ID },
             email: CONTACT_EMAIL,
             telephone: CONTACT_PHONE,
-            areaServed: "Worldwide",
+            areaServed: TARGET_SERVICE_AREAS,
             knowsAbout: [
               "Custom software development",
               "Enterprise application development",
@@ -65,7 +74,7 @@ export function OrganizationWebSiteJsonLd({ locale }: { locale: Locale }) {
                 telephone: CONTACT_PHONE,
                 email: CONTACT_EMAIL,
                 contactType: "sales",
-                areaServed: "Worldwide",
+                areaServed: TARGET_SERVICE_AREAS,
                 availableLanguage: AVAILABLE_LANGUAGES,
               },
               {
@@ -73,6 +82,7 @@ export function OrganizationWebSiteJsonLd({ locale }: { locale: Locale }) {
                 telephone: CONTACT_PHONE,
                 email: CONTACT_EMAIL,
                 contactType: "customer support",
+                areaServed: TARGET_SERVICE_AREAS,
                 availableLanguage: AVAILABLE_LANGUAGES,
               },
             ],
@@ -171,7 +181,7 @@ export function ServiceListJsonLd({
             description: service.description,
             serviceType: service.name,
             provider: { "@id": ORGANIZATION_ID },
-            areaServed: "Worldwide",
+            areaServed: TARGET_SERVICE_AREAS,
             url: service.path ? localePath(locale, service.path) : url,
           },
         })),

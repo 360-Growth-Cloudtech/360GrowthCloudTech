@@ -35,7 +35,7 @@ export function WhatsAppFloat() {
     <div className="fixed bottom-6 end-6 z-50 flex flex-col items-end gap-2.5">
       {/* Gentle floating speech bubble prompt */}
       {showPrompt && !dismissed && (
-        <div className="relative animate-in fade-in slide-in-from-bottom-2 duration-300 max-w-[260px] rounded-2xl bg-white p-3.5 shadow-xl shadow-slate-900/15 border border-slate-200/90 text-left">
+        <div className="relative animate-in fade-in slide-in-from-bottom-2 duration-300 max-w-[280px] rounded-2xl bg-white p-3.5 shadow-xl shadow-slate-900/15 border border-slate-200/90 text-left">
           <button
             type="button"
             onClick={(e) => {
@@ -61,14 +61,14 @@ export function WhatsAppFloat() {
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-[#25D366]" />
               </span>
               <span className="text-[0.68rem] font-bold uppercase tracking-wider text-[#15803d]">
-                Online • Immediate Reply
+                Online • Replies in ~5 mins
               </span>
             </div>
             <p className="text-xs font-bold text-slate-800 group-hover:text-brand-600 transition-colors">
-              👋 Need quick project advice or quote?
+              👋 Have a project in mind? Let&apos;s talk.
             </p>
             <p className="mt-0.5 text-[0.72rem] text-slate-500">
-              Click to chat directly with our team on WhatsApp.
+              Connect with our tech consultants for a free architecture &amp; cost consultation.
             </p>
           </a>
         </div>

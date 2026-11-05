@@ -27,7 +27,7 @@
     },
     "call": {
       "label": "Call us",
-      "desc": "Mon–Sat, business hours (IST)."
+      "desc": "24/5 coverage with US (EST/PST) & global timezone overlap."
     },
     "email": {
       "label": "Email",
@@ -35,7 +35,7 @@
     },
     "meeting": {
       "label": "Book a call",
-      "desc": "Free 30-minute consultation.",
+      "desc": "Free 30-min strategy call with senior architects in your timezone.",
       "cta": "Pick a time"
     }
   },
