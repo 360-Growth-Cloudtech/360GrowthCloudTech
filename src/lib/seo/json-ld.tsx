@@ -3,6 +3,7 @@ import {
   absoluteUrl,
   BUSINESS_ADDRESS,
   localePath,
+  SITE_ALTERNATE_NAMES,
   SITE_DESCRIPTION,
   SITE_NAME,
   SITE_URL,
@@ -37,6 +38,7 @@ export function OrganizationWebSiteJsonLd({ locale }: { locale: Locale }) {
             "@id": ORGANIZATION_ID,
             name: SITE_NAME,
             legalName: SITE_NAME,
+            alternateName: SITE_ALTERNATE_NAMES,
             url: SITE_URL,
             description: SITE_DESCRIPTION,
             logo: {
@@ -145,6 +147,98 @@ export function FaqJsonLd({ items }: { items: { q: string; a: string }[] }) {
           name: item.q,
           acceptedAnswer: { "@type": "Answer", text: item.a },
         })),
+      }}
+    />
+  );
+}
+
+/**
+ * Primary Service schema for a dedicated landing page (/enterprise-application-development, etc.).
+ * Emits WebPage, Service (with provider, areaServed, offer catalog), and optional HowTo process.
+ */
+export function ServicePageJsonLd({
+  locale,
+  path,
+  title,
+  description,
+  serviceType,
+  steps,
+  tiers,
+}: {
+  locale: Locale;
+  path: string;
+  title: string;
+  description: string;
+  serviceType?: string;
+  steps?: { title: string; desc: string }[];
+  tiers?: { name: string; price: string; timeline: string; desc: string }[];
+}) {
+  const url = localePath(locale, path);
+  const serviceId = `${url}#service`;
+
+  const serviceEntity: Record<string, unknown> = {
+    "@type": "Service",
+    "@id": serviceId,
+    name: title,
+    description,
+    serviceType: serviceType || title,
+    url,
+    provider: { "@id": ORGANIZATION_ID },
+    areaServed: TARGET_SERVICE_AREAS,
+    termsOfService: `${SITE_URL}/terms-of-service`,
+  };
+
+  if (tiers && tiers.length > 0) {
+    serviceEntity.hasOfferCatalog = {
+      "@type": "OfferCatalog",
+      name: `${title} Engagement Models & Pricing`,
+      itemListElement: tiers.map((tier) => ({
+        "@type": "Offer",
+        name: tier.name,
+        description: `${tier.desc} (Timeline: ${tier.timeline})`,
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "USD",
+          description: tier.price,
+        },
+      })),
+    };
+  }
+
+  const graph: Record<string, unknown>[] = [
+    {
+      "@type": "WebPage",
+      "@id": url,
+      url,
+      name: title,
+      description,
+      isPartOf: { "@id": WEBSITE_ID },
+      about: { "@id": serviceId },
+      mainEntity: { "@id": serviceId },
+      inLanguage: "en",
+    },
+    serviceEntity,
+  ];
+
+  if (steps && steps.length > 0) {
+    graph.push({
+      "@type": "HowTo",
+      "@id": `${url}#process`,
+      name: `${title} Delivery Process`,
+      step: steps.map((step, idx) => ({
+        "@type": "HowToStep",
+        position: idx + 1,
+        name: step.title,
+        text: step.desc,
+      })),
+    });
+  }
+
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@graph": graph,
       }}
     />
   );

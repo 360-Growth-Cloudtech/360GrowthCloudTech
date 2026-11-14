@@ -8,6 +8,15 @@ export const SITE_URL =
 
 export const SITE_NAME = "360GrowthCloudTech";
 
+/** Alternate brand names searched by users (e.g. from Google Search Console queries) */
+export const SITE_ALTERNATE_NAMES = [
+  "360 Cloud Tech",
+  "360cloudtech",
+  "360 Cloud Solutions",
+  "Cloud 360",
+  "360Growth",
+];
+
 export const SITE_DESCRIPTION =
   "360GrowthCloudTech is a custom software development company serving US and global businesses. We build enterprise web, mobile, SaaS and cloud platforms with US timezone overlap and 100% IP ownership.";
 
@@ -39,31 +48,46 @@ export const THEME_COLOR = "#ea430c";
  * set the env var (or paste the URL) once each profile is live.
  */
 export const SOCIAL_PROFILES = [
-  process.env.NEXT_PUBLIC_LINKEDIN_URL ?? "",
+  process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/company/360growthcloudtech",
   process.env.NEXT_PUBLIC_CLUTCH_URL ?? "",
   process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL ?? "",
+  process.env.NEXT_PUBLIC_TWITTER_HANDLE ? `https://x.com/${process.env.NEXT_PUBLIC_TWITTER_HANDLE}` : "",
+  process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/360growthcloudtech",
 ].filter(Boolean);
 
-/** Optional postal address for Organization schema; omitted until filled. */
+/** Postal address for Organization schema; configured via environment or fallback. */
 export const BUSINESS_ADDRESS: {
   streetAddress: string;
   addressLocality: string;
   addressRegion: string;
   postalCode: string;
   addressCountry: string;
-} | null = null;
+} | null = process.env.BUSINESS_STREET_ADDRESS
+  ? {
+      streetAddress: process.env.BUSINESS_STREET_ADDRESS,
+      addressLocality: process.env.BUSINESS_LOCALITY || "Delhi NCR",
+      addressRegion: process.env.BUSINESS_REGION || "DL",
+      postalCode: process.env.BUSINESS_POSTAL_CODE || "110001",
+      addressCountry: process.env.BUSINESS_COUNTRY || "IN",
+    }
+  : null;
 
-export const STATIC_PATHS = [
+export const CORE_STATIC_PATHS = [
   "",
   "/about",
   "/services",
   "/contact",
   "/industries",
   "/case-studies",
+] as const;
+
+export const LEGAL_PATHS = [
   "/privacy-policy",
   "/terms-of-service",
   "/cookies-policy",
 ] as const;
+
+export const STATIC_PATHS = [...CORE_STATIC_PATHS, ...LEGAL_PATHS] as const;
 
 export type StaticPath = (typeof STATIC_PATHS)[number];
 
@@ -88,8 +112,12 @@ export function absoluteUrl(path: string): string {
 }
 
 export function getSitemapPaths(): string[] {
-  return [...STATIC_PATHS, ...SERVICE_PAGE_PATHS, ...INDUSTRY_PAGE_PATHS, ...getCaseStudyPaths()];
+  // Exclude low-value legal pages from sitemap to concentrate crawl budget on commercial pages
+  return [...CORE_STATIC_PATHS, ...SERVICE_PAGE_PATHS, ...INDUSTRY_PAGE_PATHS, ...getCaseStudyPaths()];
 }
+
+/** Stable baseline content revision date for non-case-study pages */
+const BASELINE_CONTENT_DATE = new Date("2026-11-05T00:00:00Z");
 
 /** Last meaningful content change per path, for sitemap `lastmod`. */
 export function getPathLastModified(path: string): Date {
@@ -97,7 +125,7 @@ export function getPathLastModified(path: string): Date {
     const published = getCaseStudyPublishedAt(path.split("/").pop() ?? "");
     if (published) return new Date(published);
   }
-  return new Date();
+  return BASELINE_CONTENT_DATE;
 }
 
 export function getPathPriority(path: string): number {

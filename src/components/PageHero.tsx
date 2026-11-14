@@ -1,7 +1,6 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { motion } from "framer-motion";
 import { HeroBackdrop } from "@/components/HeroBackdrop";
 
 interface PageHeroProps {
@@ -41,40 +40,22 @@ export function PageHero({
 
       <div className="container relative z-10 mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         {label && (
-          <motion.span
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: EASE }}
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/80 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-brand-700 shadow-sm backdrop-blur"
-          >
+          <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/80 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-brand-700 shadow-sm backdrop-blur">
             {label}
-          </motion.span>
+          </span>
         )}
-        <motion.h1
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.06, ease: EASE }}
-          className="display-heading mx-auto max-w-4xl text-4xl leading-[1.06] text-slate-900 md:text-6xl lg:text-7xl"
-        >
+        <h1 className="display-heading mx-auto max-w-4xl text-4xl leading-[1.06] text-slate-900 md:text-6xl lg:text-7xl">
           {lead && <>{lead} </>}
           <span className="bg-gradient-to-r from-amber-500 via-brand-500 to-brand-600 bg-clip-text text-transparent">{accent}</span>
-        </motion.h1>
-        <motion.span
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{ duration: 0.6, delay: 0.2, ease: EASE }}
+        </h1>
+        <span
           className="mx-auto mt-7 block h-1 w-16 rounded-full bg-gradient-to-r from-amber-400 to-brand-500"
           aria-hidden
         />
         {subtitle && (
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.14, ease: EASE }}
-            className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-slate-600 md:text-lg"
-          >
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-slate-600 md:text-lg">
             {subtitle}
-          </motion.p>
+          </p>
         )}
         {children && <div className="mt-10">{children}</div>}
       </div>

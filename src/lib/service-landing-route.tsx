@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import ServiceLanding from "@/views/ServiceLanding";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import { routing, type Locale } from "@/i18n/routing";
-import { BreadcrumbJsonLd, FaqJsonLd, ServiceListJsonLd } from "@/lib/seo/json-ld";
+import { BreadcrumbJsonLd, FaqJsonLd, ServiceListJsonLd, ServicePageJsonLd } from "@/lib/seo/json-ld";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -47,9 +47,20 @@ export function createServiceLandingRoute({ ns, path, leadSource }: ServiceLandi
     const t = await getTranslations({ locale, namespace: ns });
     const tCrumbs = await getTranslations({ locale, namespace: "common.breadcrumbs" });
     const offerings = t.raw("offerings.items") as { id: string; title: string; desc: string }[];
+    const steps = t.has("process.steps") ? (t.raw("process.steps") as { title: string; desc: string }[]) : undefined;
+    const tiers = t.has("cost.tiers") ? (t.raw("cost.tiers") as { name: string; price: string; timeline: string; desc: string }[]) : undefined;
 
     return (
       <>
+        <ServicePageJsonLd
+          locale={locale as Locale}
+          path={path}
+          title={t("meta.title")}
+          description={t("meta.description")}
+          serviceType={t.has("hero.label") ? t("hero.label") : undefined}
+          steps={steps}
+          tiers={tiers}
+        />
         <BreadcrumbJsonLd
           locale={locale as Locale}
           homeLabel={tCrumbs("home")}

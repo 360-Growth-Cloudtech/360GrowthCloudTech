@@ -319,27 +319,21 @@ export default function Home() {
         <HeroBackdrop />
 
         <div className="container relative z-10 mx-auto px-4 text-center sm:px-6 lg:px-8">
-          <Reveal delay={0} duration={0.5}>
-            <span className="mb-7 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/80 px-4 py-1.5 text-[0.68rem] font-bold uppercase tracking-[0.08em] text-brand-700 shadow-sm backdrop-blur sm:text-xs sm:tracking-[0.14em]">
-              <Sparkles size={14} />
-              {t("hero.badge")}
+          <span className="mb-7 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/80 px-4 py-1.5 text-[0.68rem] font-bold uppercase tracking-[0.08em] text-brand-700 shadow-sm backdrop-blur sm:text-xs sm:tracking-[0.14em]">
+            <Sparkles size={14} />
+            {t("hero.badge")}
+          </span>
+
+          <h1 className="display-heading mx-auto max-w-5xl text-4xl leading-[1.04] text-slate-900 sm:text-5xl md:text-6xl lg:text-7xl">
+            {t("hero.titlePrefix")}{" "}
+            <span className="bg-gradient-to-r from-amber-500 via-brand-500 to-brand-600 bg-clip-text text-transparent">
+              {t("hero.titleHighlight")}
             </span>
-          </Reveal>
+          </h1>
 
-          <Reveal delay={0.08} duration={0.6}>
-            <h1 className="display-heading mx-auto max-w-5xl text-4xl leading-[1.04] text-slate-900 sm:text-5xl md:text-6xl lg:text-7xl">
-              {t("hero.titlePrefix")}{" "}
-              <span className="bg-gradient-to-r from-amber-500 via-brand-500 to-brand-600 bg-clip-text text-transparent">
-                {t("hero.titleHighlight")}
-              </span>
-            </h1>
-          </Reveal>
-
-          <Reveal delay={0.16} duration={0.6}>
-            <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
-              {t("hero.subtitle")}
-            </p>
-          </Reveal>
+          <p className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
+            {t("hero.subtitle")}
+          </p>
 
           {/* Inline quote bar */}
           <Reveal delay={0.24} duration={0.6}>

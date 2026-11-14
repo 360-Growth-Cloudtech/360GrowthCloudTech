@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { CONTACT_WHATSAPP_URL } from "@/lib/contact";
+import { trackLeadEvent } from "@/lib/submit-lead";
 import { X } from "lucide-react";
 
 function WhatsAppIcon({ className }: { className?: string }) {
@@ -53,6 +54,7 @@ export function WhatsAppFloat() {
             href={CONTACT_WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackLeadEvent("whatsapp_click", { location: "float_prompt" })}
             className="block group"
           >
             <div className="flex items-center gap-1.5 mb-1">
@@ -79,6 +81,7 @@ export function WhatsAppFloat() {
         href={CONTACT_WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => trackLeadEvent("whatsapp_click", { location: "float_button" })}
         aria-label={t("chatLabel")}
         data-testid="whatsapp-float"
         className="group relative flex items-center gap-2.5 rounded-full bg-[#25D366] text-white p-3.5 sm:px-4.5 sm:py-3.5 shadow-lg shadow-[#25D366]/35 transition-all duration-300 hover:scale-105 hover:bg-[#20ba59] hover:shadow-xl hover:shadow-[#25D366]/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
