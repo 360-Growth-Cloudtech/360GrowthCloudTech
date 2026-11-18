@@ -352,35 +352,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Education Software Cost?",
-    "subtitle": "Cost depends on users, features, apps and integrations. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Course Platform or Website",
-        "price": "$3,000 – $15,000",
-        "timeline": "1–2 months",
-        "desc": "Course website or LMS with videos, quizzes and payments."
-      },
-      {
-        "name": "E-Learning App or Institute ERP",
-        "price": "$15,000 – $50,000",
-        "timeline": "2–5 months",
-        "desc": "Learning apps, live classes, exams or a full institute ERP."
-      },
-      {
-        "name": "EdTech Platform",
-        "price": "$50,000+",
-        "timeline": "5+ months",
-        "desc": "Multi-institute SaaS, large-scale learning and analytics platforms."
-      }
-    ],
-    "note": "Fixed quote after a free consultation. Start with the core platform and add apps and analytics later.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Education Software Development FAQs",
@@ -403,8 +374,8 @@
         "a": "Yes. Our school and college ERPs cover admissions, fees, attendance, timetables, exams, transport and parent communication."
       },
       {
-        "q": "How much does education software cost?",
-        "a": "A course platform or website typically costs $3,000 to $15,000, e-learning apps or institute ERPs $15,000 to $50,000, and edtech platforms $50,000 or more."
+        "q": "How is education software scoped and delivered?",
+        "a": "A course platform or website typically costs custom milestone-based tiers e-learning apps or institute ERPs custom milestone-based tiers and edtech platforms tailored enterprise plans."
       },
       {
         "q": "Can the platform handle thousands of students?",

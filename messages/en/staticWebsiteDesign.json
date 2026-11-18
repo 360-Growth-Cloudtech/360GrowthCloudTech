@@ -375,35 +375,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does a Static Website Cost?",
-    "subtitle": "Static website design price depends on the number of pages, design and extras. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "One-Page Website",
-        "price": "$200 – $500",
-        "timeline": "3–5 days",
-        "desc": "A single scrolling page with your services, gallery, contact form and WhatsApp."
-      },
-      {
-        "name": "Business Static Website",
-        "price": "$500 – $1,200",
-        "timeline": "1–2 weeks",
-        "desc": "Up to 8 pages, custom design, responsive, basic SEO, forms and maps."
-      },
-      {
-        "name": "Larger Static Website",
-        "price": "$1,200 – $2,500",
-        "timeline": "2–4 weeks",
-        "desc": "10 to 20 pages or a static site generator setup with easy content editing."
-      }
-    ],
-    "note": "Hosting for these sites is very low-cost, and we can set it up for you. Fixed quote after a free consultation.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Static Website FAQs",
@@ -418,8 +389,8 @@
         "a": "A static website serves fixed pages and is changed by editing the files. A dynamic website generates pages from a database and an admin panel, which suits blogs, logins, bookings and online stores but costs more to build and maintain."
       },
       {
-        "q": "How much does it cost to build a static website?",
-        "a": "A one-page static website typically costs $200 to $500, a business static website of up to 8 pages $500 to $1,200, and larger static sites $1,200 to $2,500, depending on design and features."
+        "q": "How is build a static website scoped and delivered?",
+        "a": "A one-page static website typically costs custom milestone-based tiers a business static website of up to 8 pages custom milestone-based tiers and larger static sites custom milestone-based tiers depending on design and features."
       },
       {
         "q": "How long does it take to design a static website?",

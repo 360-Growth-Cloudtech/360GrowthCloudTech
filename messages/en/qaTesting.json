@@ -437,35 +437,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Do QA Testing Services Cost?",
-    "subtitle": "Cost depends on the size of your application, types of testing and how often you release. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Testing Project",
-        "price": "$1,500 – $5,000",
-        "timeline": "1–3 weeks",
-        "desc": "A full test cycle, security test or performance test for one application."
-      },
-      {
-        "name": "Test Automation Setup",
-        "price": "$5,000 – $20,000",
-        "timeline": "3–8 weeks",
-        "desc": "Automated regression suites for web, mobile or APIs, integrated into CI/CD."
-      },
-      {
-        "name": "QA as a Service",
-        "price": "From $1,500 / month",
-        "timeline": "Ongoing",
-        "desc": "Continuous manual and automated testing for every sprint and release."
-      }
-    ],
-    "note": "Finding a bug before release costs a fraction of fixing it in production. Fixed quote after a free QA consultation.",
-    "cta": "Get My Free QA Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "QA & Software Testing FAQs",
@@ -496,8 +467,8 @@
         "a": "We verify work within each sprint, write test cases alongside development and run automated tests in your CI/CD pipeline on every change, so defects are found early. This is often called shift-left testing."
       },
       {
-        "q": "How much does QA outsourcing cost?",
-        "a": "A one-off testing project typically costs $1,500 to $5,000, test automation setup $5,000 to $20,000, and ongoing QA as a service starts from around $1,500 per month, depending on scope."
+        "q": "How is QA outsourcing scoped and delivered?",
+        "a": "A one-off testing project typically costs custom milestone-based tiers test automation setup custom milestone-based tiers and ongoing QA as a service starts from around tailored milestone budgets per month, depending on scope."
       }
     ]
   },

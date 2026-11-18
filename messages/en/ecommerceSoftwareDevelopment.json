@@ -378,35 +378,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Ecommerce Software Development Cost?",
-    "subtitle": "Ecommerce app and website development cost depends on features, integrations and catalogue size. Typical ranges for projects we deliver:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Ecommerce Website",
-        "price": "$5,000 – $15,000",
-        "timeline": "4–8 weeks",
-        "desc": "A custom, mobile-first store with catalogue, cart, payments, shipping and an admin dashboard."
-      },
-      {
-        "name": "Store + Mobile Apps",
-        "price": "$15,000 – $50,000",
-        "timeline": "2–4 months",
-        "desc": "Website plus Android and iOS apps on one backend, with loyalty, push offers and ERP integration."
-      },
-      {
-        "name": "B2B or Marketplace Platform",
-        "price": "$40,000+",
-        "timeline": "4+ months",
-        "desc": "Multi-vendor or B2B commerce with custom pricing, seller tools, payouts and complex integrations."
-      }
-    ],
-    "note": "You get a fixed, itemised estimate after a free discovery call, with no per-order fees and no hidden costs later.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Frequently Asked Questions",
@@ -421,8 +392,8 @@
         "a": "It depends on your business. Ready-made store builders suit new and small stores that need to launch quickly. Growing brands, B2B sellers and marketplaces usually get better speed, flexibility and lower long-term costs from a custom ecommerce platform they fully own."
       },
       {
-        "q": "How much does ecommerce app development cost?",
-        "a": "A custom ecommerce website typically costs $5,000 to $15,000. A website with Android and iOS apps costs $15,000 to $50,000, and B2B or multi-vendor platforms start around $40,000. We share a fixed, itemised estimate after a free discovery call."
+        "q": "How is ecommerce app development scoped and delivered?",
+        "a": "A custom ecommerce website typically costs custom milestone-based tiers. A website with Android and iOS apps costs custom milestone-based tiers and B2B or multi-vendor platforms start around tailored milestone budgets. We share a fixed, itemised estimate after a free discovery call."
       },
       {
         "q": "How long does it take to build an ecommerce store?",

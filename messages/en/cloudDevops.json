@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Cloud & DevOps Consulting Services",
-    "description": "DevOps consulting and managed cloud services: CI/CD automation, cloud migration, Kubernetes, infrastructure as code, cost optimisation and 24/7 monitoring."
+    "title": "Cloud Consulting & DevOps Services",
+    "description": "Enterprise cloud consulting and DevOps services. Accelerate software delivery with CI/CD automation, AWS & Azure cloud migration, Kubernetes, and 24/7 support.",
+    "keywords": "cloud consulting services, DevOps consulting services, cloud application development, cloud migration services, AWS cloud consulting, cloud software development company"
   },
   "breadcrumb": "Cloud & DevOps",
   "form": {
@@ -420,35 +421,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Do DevOps and Cloud Services Cost?",
-    "subtitle": "Cost depends on the size of your infrastructure, number of applications and level of support. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "DevOps Assessment",
-        "price": "$1,500 – $4,000",
-        "timeline": "1–2 weeks",
-        "desc": "Review of pipelines, infrastructure, security and costs with a prioritised roadmap."
-      },
-      {
-        "name": "DevOps Implementation",
-        "price": "$4,000 – $20,000",
-        "timeline": "2–8 weeks",
-        "desc": "CI/CD, infrastructure as code, containerisation or a cloud migration project."
-      },
-      {
-        "name": "Managed DevOps",
-        "price": "From $1,000 / month",
-        "timeline": "Ongoing",
-        "desc": "Monitoring, maintenance, cost optimisation and support for your cloud environment."
-      }
-    ],
-    "note": "Cloud cost optimisation often saves more than our fees. Fixed quote after a free assessment call.",
-    "cta": "Book a Free Assessment"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Cloud & DevOps FAQs",
@@ -475,8 +447,8 @@
         "a": "Yes. We work across major public clouds, private cloud and on-premise servers, and design hybrid or multi-cloud setups when they make sense for cost, compliance or resilience."
       },
       {
-        "q": "How much do DevOps services cost?",
-        "a": "A DevOps assessment typically costs $1,500 to $4,000, implementation projects $4,000 to $20,000, and managed DevOps starts from around $1,000 per month, depending on your infrastructure and support needs."
+        "q": "How are DevOps and cloud consulting services scoped and delivered?",
+        "a": "Engagements are scoped based on your cloud architecture, number of microservices, release cadence, security compliance (HIPAA/SOC-2/GDPR), and required SLA tiers. We offer structured architectural assessments, project-based implementations, and dedicated 24/7 managed DevOps teams."
       },
       {
         "q": "Do you provide 24/7 monitoring and support?",

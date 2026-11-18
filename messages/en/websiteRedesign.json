@@ -385,43 +385,14 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does a Website Redesign Cost?",
-    "subtitle": "The cost of a website redesign depends on the number of pages, design, content and features. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Small Business Redesign",
-        "price": "$600 – $2,000",
-        "timeline": "2–3 weeks",
-        "desc": "Up to 8 pages redesigned, mobile-friendly, faster, with basic SEO migration."
-      },
-      {
-        "name": "Business or B2B Redesign",
-        "price": "$2,000 – $7,000",
-        "timeline": "3–6 weeks",
-        "desc": "Full redesign with new structure, content refresh, CMS, speed and SEO migration."
-      },
-      {
-        "name": "Ecommerce or Large Website",
-        "price": "$7,000+",
-        "timeline": "6+ weeks",
-        "desc": "Large or ecommerce sites with complex migration, integrations and custom features."
-      }
-    ],
-    "note": "Every redesign starts with a free website audit, and you get a fixed, itemised quote before work begins.",
-    "cta": "Get My Free Website Audit"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Website Redesign FAQs",
     "subtitle": "Quick answers about redesigning your website.",
     "items": [
       {
-        "q": "How much does a website redesign cost?",
-        "a": "A small business website redesign typically costs $600 to $2,000, a business or B2B redesign $2,000 to $7,000, and ecommerce or large sites from $7,000. The price depends on pages, content, design and features."
+        "q": "How is a website redesign scoped and delivered?",
+        "a": "A small business website redesign typically costs custom milestone-based tiers a business or B2B redesign custom milestone-based tiers and ecommerce or large sites from tailored milestone budgets. The price depends on pages, content, design and features."
       },
       {
         "q": "How long does a website redesign take?",

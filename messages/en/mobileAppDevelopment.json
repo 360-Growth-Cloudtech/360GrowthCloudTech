@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Custom Mobile App Development Company & Services",
-    "description": "Top mobile app development company building iOS, Android, Flutter & React Native apps for US & global businesses. 100% IP & dedicated teams. Get a free quote!"
+    "title": "Mobile App Development Services",
+    "description": "Native and cross-platform mobile app development services. We design and engineer iOS, Android, Flutter, and React Native mobile applications built to scale.",
+    "keywords": "mobile app development company, mobile application development services, custom mobile app development, iOS app development company, Android app development company, enterprise mobile app development"
   },
   "breadcrumb": "Mobile App Development",
   "form": {
@@ -430,43 +431,14 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does It Cost to Develop an App?",
-    "subtitle": "Mobile app development cost depends on features, platforms, design and backend. Typical ranges for apps we build:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Simple App or MVP",
-        "price": "$8,000 – $25,000",
-        "timeline": "2–3 months",
-        "desc": "Core features, user login, admin panel and one platform or a cross-platform build."
-      },
-      {
-        "name": "Business App",
-        "price": "$25,000 – $60,000",
-        "timeline": "3–5 months",
-        "desc": "Android and iOS apps with payments, notifications, integrations and analytics."
-      },
-      {
-        "name": "Complex App",
-        "price": "$60,000+",
-        "timeline": "5+ months",
-        "desc": "Marketplaces, real-time, AI or enterprise apps with complex backends."
-      }
-    ],
-    "note": "Cross-platform apps often cost 30 to 40% less than building two separate native apps. Fixed quote after a free consultation.",
-    "cta": "Get My Free App Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Mobile App Development FAQs",
     "subtitle": "Quick answers for anyone planning a mobile app.",
     "items": [
       {
-        "q": "How much does it cost to develop a mobile app?",
-        "a": "A simple app or MVP typically costs $8,000 to $25,000, a business app for Android and iOS $25,000 to $60,000, and complex apps $60,000 or more, depending on features, design and backend."
+        "q": "How is mobile application development scoped and delivered?",
+        "a": "Every mobile app engagement is scoped based on platform requirements (native iOS/Android vs cross-platform Flutter/React Native), device capabilities, backend integrations, and user experience complexity. We provide clear milestone plans with weekly staging builds, NDA protection, and full intellectual property ownership."
       },
       {
         "q": "How long does it take to build an app?",

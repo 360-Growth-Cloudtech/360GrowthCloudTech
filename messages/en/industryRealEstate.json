@@ -351,35 +351,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Real Estate Software Cost?",
-    "subtitle": "Cost depends on modules, projects, users and integrations. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Property Website or Landing Pages",
-        "price": "$1,500 – $6,000",
-        "timeline": "2–6 weeks",
-        "desc": "Project website or launch landing pages with lead capture."
-      },
-      {
-        "name": "Real Estate CRM",
-        "price": "$6,000 – $30,000",
-        "timeline": "1–3 months",
-        "desc": "CRM with lead capture, site visits, inventory and bookings."
-      },
-      {
-        "name": "Property Platform",
-        "price": "$30,000+",
-        "timeline": "3+ months",
-        "desc": "Portals, property management or PropTech SaaS with apps."
-      }
-    ],
-    "note": "Fixed quote after a free consultation. Start with CRM or website and add modules project by project.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Real Estate Software Development FAQs",
@@ -402,8 +373,8 @@
         "a": "Yes. Buyer portals and apps can show payment schedules, receipts, demand letters and construction updates with photos."
       },
       {
-        "q": "How much does real estate software cost?",
-        "a": "A property website or landing pages typically cost $1,500 to $6,000, a real estate CRM $6,000 to $30,000, and property platforms $30,000 or more."
+        "q": "How is real estate software scoped and delivered?",
+        "a": "A property website or landing pages typically cost custom milestone-based tiers a real estate CRM custom milestone-based tiers and property platforms tailored enterprise plans."
       },
       {
         "q": "Do you build PropTech startups' platforms?",

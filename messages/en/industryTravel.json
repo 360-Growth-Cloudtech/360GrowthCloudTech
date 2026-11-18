@@ -350,35 +350,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Travel Software Cost?",
-    "subtitle": "Cost depends on features, integrations and number of apps. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Travel Website",
-        "price": "$1,500 – $6,000",
-        "timeline": "3–6 weeks",
-        "desc": "SEO-friendly tour and package website with enquiry and booking forms."
-      },
-      {
-        "name": "Travel CRM or Booking System",
-        "price": "$6,000 – $25,000",
-        "timeline": "1–3 months",
-        "desc": "CRM, itinerary builder or booking engine with payments."
-      },
-      {
-        "name": "Travel Platform or App",
-        "price": "$25,000+",
-        "timeline": "3+ months",
-        "desc": "Cab booking apps, marketplaces or API-integrated booking platforms."
-      }
-    ],
-    "note": "Fixed quote after a free consultation. Start with a website or CRM and add more as you grow.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Travel Software Development FAQs",
@@ -401,8 +372,8 @@
         "a": "Yes. We build rider, driver and admin apps with fare management, live tracking, payments and dispatch."
       },
       {
-        "q": "How much does travel software cost?",
-        "a": "A travel website typically costs $1,500 to $6,000, a travel CRM or booking system $6,000 to $25,000, and travel platforms or apps $25,000 or more."
+        "q": "How is travel software scoped and delivered?",
+        "a": "A travel website typically costs custom milestone-based tiers a travel CRM or booking system custom milestone-based tiers and travel platforms or apps tailored enterprise plans."
       },
       {
         "q": "Have you built travel software before?",

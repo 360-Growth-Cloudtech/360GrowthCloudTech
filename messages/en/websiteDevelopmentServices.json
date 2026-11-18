@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "Website Development Services",
+    "description": "High-performance website development services. We build custom, conversion-driven corporate websites, Next.js web applications, and scalable CMS platforms."
+  },
+  "breadcrumb": "Website Development Services",
+  "breadcrumbParent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "form": {
+    "topic": "custom website development services",
+    "options": [
+      "Enterprise Web Application",
+      "Next.js & Headless CMS Website",
+      "B2B / D2C eCommerce Store",
+      "SaaS Platform / Startup MVP",
+      "Corporate Business Website",
+      "Website Redesign & Speed Optimization",
+      "Dedicated Full-Stack Web Team",
+      "Annual Maintenance, DevOps & Security"
+    ],
+    "trustLine": "100% Code & IP Ownership · Non-Disclosure Agreement (NDA) · Senior Architect Consult within 2 Hours"
+  },
+  "hero": {
+    "label": "Modern Web Engineering • India · USA · Global",
+    "title": "Custom Website Development Services Engineered for",
+    "highlight": "Speed, Scale & Conversions",
+    "subtitle": "We engineer high-performance, secure, and SEO-dominant websites, SaaS platforms, and enterprise web applications for ambitious startups and global brands across the US, UK, Europe, and India. Sub-second load times with 100% IP ownership."
+  },
+  "intro": {
+    "badge": "Engineering-First Web Agency",
+    "title": "Modern Websites Built for Business Results, Not Just Vanity",
+    "paragraphs": [
+      "Your website is the single most critical touchpoint in your sales pipeline. Yet, over 80% of corporate websites suffer from slow load times, bloated page-builders, confusing navigation, and weak technical SEO that silently drive high-intent prospects directly into the arms of competitors.",
+      "At 360GrowthCloudTech, we discard cookie-cutter WordPress themes and bloated monolithic code. We engineer high-velocity digital experiences using Next.js, React, modern Headless CMS, and cloud-native backends. Every site is custom-crafted to achieve sub-second load times, flawless responsiveness across 20+ device breakpoints, and enterprise-grade OWASP security.",
+      "As a global technology partner with offices in India and clients across North America, the UK, Europe, and Asia-Pacific, we offer a strategic dual-shore delivery model: world-class Silicon Valley engineering standards combined with round-the-clock (24/7) agile sprint momentum and maximum engineering efficiency. Looking for a full web application or digital transformation? Explore our <webapp>web application development</webapp>, discover our <csd>custom software development</csd>, or <contact>schedule an architecture consultation</contact> today."
+    ],
+    "highlightsTitle": "The 360GrowthCloudTech Engineering Benchmark:",
+    "highlights": [
+      "Sub-1.2s Largest Contentful Paint (LCP) guarantee",
+      "Next.js 15 & React 19 Server-Side Rendering (SSR)",
+      "Clean TypeScript code with 100% Git repository ownership",
+      "Dual-shore agility: global standards with zero quality sacrifice",
+      "Pre-configured JSON-LD Schema & technical SEO out-of-the-box",
+      "Enterprise OWASP Top 10 security & SSL compliance",
+      "US (EST/CST/PST), UK (GMT) & India (IST) timezone overlap",
+      "90 days of complimentary post-launch hypercare & warranty"
+    ]
+  },
+  "offerings": {
+    "badge": "Our Core Capabilities",
+    "title": "Comprehensive Website Development Services",
+    "subtitle": "From high-converting corporate portals to complex cloud-native SaaS web apps, we deliver modern web solutions engineered for scale.",
+    "discuss": "Discuss this project",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "enterprise",
+        "title": "Custom Enterprise Web Portals",
+        "desc": "Secure, multi-tenant web portals engineered for high data volumes, role-based access control (RBAC), and deep enterprise integrations (SAP, Salesforce, Workday).",
+        "bullets": [
+          "Microservices & modular web architecture",
+          "Single Sign-On (SSO) & enterprise IAM",
+          "Automated cloud scaling on AWS & GCP"
+        ],
+        "href": "/custom-enterprise-software"
+      },
+      {
+        "id": "cms",
+        "title": "Headless CMS & High-Speed Marketing Sites",
+        "desc": "Decoupled marketing websites built with Next.js and headless platforms (Sanity, Strapi, Contentful, Headless WordPress) empowering non-technical teams to publish instantly.",
+        "bullets": [
+          "Instant static site generation (SSG) & ISR",
+          "Visual content editing with live preview",
+          "Zero render-blocking scripts & 95+ PageSpeed"
+        ],
+        "href": "/custom-web-design"
+      },
+      {
+        "id": "ecommerce",
+        "title": "Scalable B2B & D2C eCommerce Stores",
+        "desc": "High-converting online stores built on Shopify Plus, WooCommerce, or headless commerce with multi-currency checkouts, dynamic tax calculation, and automated ERP inventory sync.",
+        "bullets": [
+          "Frictionless 1-click checkout flows",
+          "Multi-warehouse & logistics API integration",
+          "Engineered for Black Friday peak traffic spikes"
+        ],
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "id": "web",
+        "title": "Full-Stack Web Application Development",
+        "desc": "Interactive, progressive web applications (PWAs) with complex business logic, real-time dashboards, automated notifications, and seamless third-party API connectivity.",
+        "bullets": [
+          "React, TypeScript, Node.js & Python FastAPI",
+          "Offline capabilities & service workers",
+          "GraphQL & RESTful API endpoints"
+        ],
+        "href": "/web-application-development"
+      },
+      {
+        "id": "redesign",
+        "title": "Legacy Modernization & Website Redesign",
+        "desc": "Transform sluggish, outdated websites into cutting-edge modern platforms with zero downtime and guaranteed zero SEO traffic loss through comprehensive 301 mapping.",
+        "bullets": [
+          "Monolith to modern Jamstack/SSR migration",
+          "Mobile-first UI/UX overhaul in Figma",
+          "Complete SEO equity & ranking preservation"
+        ],
+        "href": "/website-redesign"
+      },
+      {
+        "id": "maintenance",
+        "title": "24/7 Web Maintenance, Security & DevOps",
+        "desc": "Continuous monitoring, uptime SLA guarantees, security patching, Core Web Vitals optimization, and ongoing feature rollouts to keep your digital platform ahead.",
+        "bullets": [
+          "24/7 automated uptime & error monitoring",
+          "Regular security audits & vulnerability patches",
+          "Continuous CI/CD pipeline optimization"
+        ],
+        "href": "/maintenance-support"
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "The 360 Difference",
+    "title": "How 360GrowthCloudTech Beats Traditional Agencies",
+    "subtitle": "Compare what traditional agencies deliver versus our engineering-led digital transformation.",
+    "columns": [
+      {
+        "title": "Traditional Web Agencies",
+        "bestFor": "Slow, expensive & template-dependent",
+        "pros": [
+          "Standard off-the-shelf templates",
+          "Basic stock imagery layouts"
+        ],
+        "cons": [
+          "Slow 4-6 second load times with bloated plugins",
+          "Opaque billing structures and bureaucratic agency overheads",
+          "Hidden fees for maintenance and feature revisions",
+          "Spaghetti code with proprietary vendor lock-in",
+          "Basic cosmetic design with zero technical SEO depth",
+          "Handoff communication gaps between sales and developers"
+        ]
+      },
+      {
+        "title": "360GrowthCloudTech Modern Web Team",
+        "bestFor": "High-velocity, ROI-focused engineering",
+        "pros": [
+          "Sub-1.2s PageSpeed with modern Next.js 15 & SSR",
+          "Transparent sprint milestones with zero quality compromise",
+          "100% full source code, Git repo & IP ownership from Day 1",
+          "Built-in JSON-LD Schema & semantic SEO architecture",
+          "Dedicated English-speaking technical architects & PMs",
+          "Zero vendor lock-in with clean, maintainable TypeScript",
+          "90-day hypercare warranty & 2-hour emergency response SLA"
+        ],
+        "cons": []
+      }
+    ],
+    "note": "We operate a dual-shore model: enterprise engineering standards with global timezone overlap (EST, CST, PST, GMT, IST) and transparent sprint deliverables. Have questions about our approach? <contact>Schedule an engineering call</contact>."
+  },
+  "outsourcing": {
+    "badge": "Global Delivery Model",
+    "title": "Strategic Web Outsourcing for US, UK & Global Enterprises",
+    "subtitle": "Access elite engineering talent with seamless timezone overlap and full IP ownership.",
+    "items": [
+      {
+        "id": "dedicated",
+        "title": "Dedicated Engineering Squad",
+        "desc": "Full-time senior frontend and backend engineers, UI/UX designers, and QA specialists acting as an agile extension of your in-house product team.",
+        "bestFor": "Best for scaling SaaS & tech startups"
+      },
+      {
+        "id": "fixed",
+        "title": "Fixed-Scope Turnkey Sprints",
+        "desc": "Clear, milestone-based deliverables with defined timelines, locked budgets, and zero hidden scope-creep expenses.",
+        "bestFor": "Best for complete website redesigns & new product launches"
+      },
+      {
+        "id": "augmentation",
+        "title": "Staff Augmentation",
+        "desc": "On-demand senior React, Next.js, Node.js, and DevOps developers embedded into your sprints within 48 hours to accelerate roadmaps.",
+        "bestFor": "Best for breaking development bottlenecks"
+      },
+      {
+        "id": "subscription",
+        "title": "Managed Monthly Retainers",
+        "desc": "Predictable monthly hours for ongoing web feature development, CRO testing, Core Web Vitals maintenance, and server management.",
+        "bestFor": "Best for high-growth enterprises"
+      }
+    ],
+    "pointsTitle": "Why International Brands Choose Our Dual-Shore Execution:",
+    "points": [
+      "Overlapping working hours with US (EST/CST/PST), UK (GMT), and India (IST)",
+      "Fluent English-speaking technical project managers and solutions architects",
+      "Strict bilateral NDA, SOC-2 compliance alignment, and full IP protection",
+      "Direct Slack/Microsoft Teams workspace with weekly Zoom video demos",
+      "Transparent sprint management on Jira/Linear with continuous GitHub commits",
+      "Flexible milestone-based billing with domestic and international payment gateways"
+    ],
+    "note": "Looking for specialized dedicated software teams? Check out our <csd>custom software development</csd> or <contact>contact our delivery director</contact>."
+  },
+  "process": {
+    "badge": "Our Methodology",
+    "title": "Our 6-Stage Web Engineering Lifecycle",
+    "subtitle": "A structured, transparent framework designed to deliver high-converting websites on time and on budget.",
+    "steps": [
+      {
+        "title": "1. Discovery & Technical Blueprint (Days 1–5)",
+        "desc": "We analyze your business objectives, target buyer personas, competitive landscape, and technical requirements to create an exhaustive information architecture, tech stack specification, and SEO keyword map."
+      },
+      {
+        "title": "2. High-Fidelity UI/UX & Interactive Prototyping (Days 6–15)",
+        "desc": "Our designers craft responsive wireframes and clickable Figma prototypes following modern design systems. We iterate based on your feedback until the look, feel, and conversion flows are pixel-perfect."
+      },
+      {
+        "title": "3. Clean Agile Development & Sprint Demos (Sprints 1–4)",
+        "desc": "We build with Next.js, TypeScript, and clean modular components. You get staging server access, bi-weekly sprint demos, and daily code commits so you always have full visibility into development velocity."
+      },
+      {
+        "title": "4. QA, Cross-Device & OWASP Security Audit",
+        "desc": "Our dedicated QA engineers test every user journey across 20+ real mobile, tablet, and desktop viewports, running automated regression suites, accessibility (WCAG 2.1) checks, and OWASP Top 10 vulnerability scans."
+      },
+      {
+        "title": "5. Core Web Vitals & Technical SEO Optimization",
+        "desc": "Before launch, we pre-warm server caches, compress assets into next-gen formats (AVIF/WebP), configure dynamic JSON-LD schemas, and optimize critical rendering paths to guarantee 90+ PageSpeed scores."
+      },
+      {
+        "title": "6. Zero-Downtime Deployment & 90-Day Hypercare",
+        "desc": "We manage DNS migration, SSL certification, and live deployment with zero downtime. After launch, our team provides 90 days of complimentary hypercare support to monitor metrics and ensure smooth operations."
+      }
+    ]
+  },
+  "tech": {
+    "badge": "Technology Arsenal",
+    "title": "Modern Technologies We Engineer With",
+    "subtitle": "We never rely on outdated or slow technology stacks. We build on modern, future-proof frameworks.",
+    "groups": [
+      {
+        "title": "Frontend & SSR",
+        "items": ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS 4", "Vue.js", "HTML5 / CSS3", "Framer Motion"]
+      },
+      {
+        "title": "Backend & APIs",
+        "items": ["Node.js", "Python FastAPI", "NestJS", "Go", "GraphQL", "RESTful APIs", "WebSockets"]
+      },
+      {
+        "title": "Databases & Storage",
+        "items": ["PostgreSQL", "MongoDB", "Redis", "Supabase", "Prisma ORM", "MySQL", "AWS S3"]
+      },
+      {
+        "title": "Cloud & DevOps",
+        "items": ["Amazon Web Services", "Google Cloud", "Vercel", "Docker", "Kubernetes", "Cloudflare CDN", "GitHub Actions"]
+      },
+      {
+        "title": "CMS & Commerce",
+        "items": ["Sanity.io", "Strapi", "Contentful", "Headless WordPress", "Shopify Storefront API", "WooCommerce"]
+      }
+    ]
+  },
+  "why": {
+    "badge": "Why 360GrowthCloudTech",
+    "title": "Why Fast-Growing Brands Partner With Us",
+    "subtitle": "We don't just deliver websites; we build scalable digital growth engines that convert visitors into revenue.",
+    "items": [
+      {
+        "title": "Sub-1.2s Load Times (<100ms INP)",
+        "desc": "Engineered with server-side rendering and edge caching to score 95+ on Google PageSpeed, boosting both conversion rates and SEO rankings."
+      },
+      {
+        "title": "Strategic Dual-Shore Delivery Agility",
+        "desc": "Get Silicon Valley code quality and security standards delivered through our high-efficiency engineering center with seamless collaboration."
+      },
+      {
+        "title": "100% IP & Source Code Ownership",
+        "desc": "From the first sprint, you retain full intellectual property rights, repository access, and design assets with zero vendor lock-in or licensing fees."
+      },
+      {
+        "title": "Built-In Technical SEO & Schema Markup",
+        "desc": "Every page is shipped with semantic HTML5 hierarchy, OpenGraph tags, BreadcrumbList, FAQPage, and Service JSON-LD schema ready to capture Google Featured Snippets."
+      },
+      {
+        "title": "Enterprise-Grade OWASP Security",
+        "desc": "Strict input sanitization, CSRF/XSS protection, rate limiting, and encrypted databases designed to meet enterprise compliance standards."
+      },
+      {
+        "title": "Dedicated Account Director & 2-Hour SLA",
+        "desc": "Direct access to senior solutions architects with guaranteed 2-hour response times during business hours across US, European, and Indian time zones."
+      }
+    ]
+  },
+  "faqs": {
+    "badge": "Frequently Asked Questions",
+    "title": "Answers to Your Website Development Questions",
+    "subtitle": "Clear, honest answers to help you evaluate your web development partner.",
+    "items": [
+      {
+        "q": "How do you scope and deliver a custom website development project?",
+        "a": "Every project begins with a dedicated technical discovery session. Rather than using cookie-cutter estimates or generic templates, our senior architects evaluate your precise business requirements, feature roadmap, and performance criteria to provide a tailored, transparent milestone plan with zero hidden surprises."
+      },
+      {
+        "q": "How long will it take to build and deploy our website?",
+        "a": "A high-performance corporate marketing website typically launches in 2 to 3 weeks. Custom web applications and eCommerce platforms take approximately 4 to 8 weeks, while large-scale enterprise platforms run across 8 to 12 weeks of structured two-week agile sprints with bi-weekly live staging demos."
+      },
+      {
+        "q": "How do you ensure our website ranks high on Google search results?",
+        "a": "We build with an SEO-first architecture: server-side rendering (SSR) for instant crawler indexing, semantic HTML5 tags, optimized internal linking, next-gen WebP/AVIF image compression, sub-1.2s Largest Contentful Paint (LCP) performance, and automated Google Schema Markup (Organization, Service, BreadcrumbList, and FAQPage JSON-LD) to help you outrank competitors and capture Google Rich Snippets."
+      },
+      {
+        "q": "How does 360GrowthCloudTech support international clients across the US, UK, and India?",
+        "a": "We operate a seamless dual-shore model. Our technical leadership and dedicated project managers provide daily overlapping hours across US Eastern/Pacific (EST/PST), UK (GMT), and Indian Standard Time (IST). We collaborate directly in your dedicated Slack or Microsoft Teams channels, hold weekly Zoom sprint demos, and provide continuous updates on Jira or Linear."
+      },
+      {
+        "q": "Will our website be optimized for mobile devices and Core Web Vitals?",
+        "a": "Absolutely. Every website is engineered mobile-first and tested across 20+ physical screen sizes (iOS, Android, tablets, and desktops). We adhere strictly to Google's Core Web Vitals criteria, targeting 95+ PageSpeed scores, LCP under 1.2 seconds, Cumulative Layout Shift (CLS) near zero, and Interaction to Next Paint (INP) under 100 milliseconds."
+      },
+      {
+        "q": "Do we get 100% intellectual property (IP) and source code ownership?",
+        "a": "Yes. Upon project milestones and completion, 100% of the intellectual property, design assets (Figma), source code repositories (GitHub/GitLab), and database schemas are transferred directly to you. We never use proprietary vendor lock-in or hidden licensing fees."
+      },
+      {
+        "q": "What happens after the website is launched? Do you offer maintenance?",
+        "a": "Every project includes 90 days of complimentary post-launch hypercare warranty covering bug fixes, performance monitoring, and server maintenance. Beyond that, we offer flexible monthly maintenance and DevOps retainers that include 24/7 uptime monitoring, security updates, regular backups, and continuous feature enhancements."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Build a High-Performance Website?",
+    "subtitle": "Speak directly with a Senior Solutions Architect. Get an architecture blueprint, timeline, and transparent estimate within 2 business hours.",
+    "primary": "Book a Free Consultation",
+    "secondary": "Send a Message"
+  },
+  "related": {
+    "badge": "Related Capabilities",
+    "title": "Explore Complementary Digital Services",
+    "links": [
+      {
+        "label": "Custom Web Design",
+        "href": "/custom-web-design"
+      },
+      {
+        "label": "Web Application Development",
+        "href": "/web-application-development"
+      },
+      {
+        "label": "SaaS Platform Development",
+        "href": "/saas-development"
+      },
+      {
+        "label": "Ecommerce Software Development",
+        "href": "/ecommerce-software-development"
+      },
+      {
+        "label": "Website Redesign Services",
+        "href": "/website-redesign"
+      },
+      {
+        "label": "Custom Software Development",
+        "href": "/custom-software-development"
+      }
+    ]
+  }
+}

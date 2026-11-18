@@ -387,35 +387,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does API Integration Cost?",
-    "subtitle": "Cost depends on the number of systems, data volume, complexity and documentation quality of each API. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Single Integration",
-        "price": "$800 – $3,000",
-        "timeline": "1–3 weeks",
-        "desc": "One third-party API, such as a payment gateway, courier or messaging service."
-      },
-      {
-        "name": "Multi-System Integration",
-        "price": "$3,000 – $12,000",
-        "timeline": "3–8 weeks",
-        "desc": "Several systems connected, such as store, ERP, CRM and shipping, with two-way sync."
-      },
-      {
-        "name": "Integration Platform / Custom API",
-        "price": "$12,000+",
-        "timeline": "2+ months",
-        "desc": "Middleware, custom APIs and enterprise-scale integrations with monitoring."
-      }
-    ],
-    "note": "Maintenance plans keep your integrations updated as third-party APIs change. Fixed quote after a free consultation.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "API Integration FAQs",
@@ -430,8 +401,8 @@
         "a": "We build payment gateway, shipping and courier, ERP and accounting, CRM, ecommerce and marketplace, messaging and SMS, telephony, healthcare EHR/EMR, travel and booking, HR and payroll, and AI API integrations, plus custom APIs."
       },
       {
-        "q": "How much does API integration cost?",
-        "a": "A single third-party integration typically costs $800 to $3,000, multi-system integrations $3,000 to $12,000, and integration platforms or custom APIs from $12,000, depending on complexity."
+        "q": "How is API integration scoped and delivered?",
+        "a": "A single third-party integration typically costs custom milestone-based tiers multi-system integrations custom milestone-based tiers and integration platforms or custom APIs from tailored milestone budgets depending on complexity."
       },
       {
         "q": "How long does an API integration take?",

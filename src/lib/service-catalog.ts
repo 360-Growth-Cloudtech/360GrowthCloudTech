@@ -54,6 +54,7 @@ export const MENU_SERVICE_SLUGS = [
   "online-complaint-management-system",
   "it-asset-management-software",
   "qri-dashboard",
+  "website-development-services",
   "web-design",
   "website-redesign",
   "static-website-design",
@@ -85,6 +86,7 @@ export const SERVICE_MENU_GROUPS: { id: string; items: (ServiceSlug | MenuServic
   {
     id: "webDesign",
     items: [
+      "website-development-services",
       "web-design",
       "website-redesign",
       "static-website-design",
@@ -120,6 +122,7 @@ export const SERVICE_PAGE_SLUGS = [
   "web-application-development",
   "it-asset-management-software",
   "qri-dashboard",
+  "website-development-services",
   "web-design",
   "website-redesign",
   "static-website-design",
@@ -141,6 +144,7 @@ export const SERVICE_PAGE_SLUGS = [
 
 /** The service pages linked from the footer (it has room for about seven). */
 export const FOOTER_SERVICE_SLUGS: readonly (typeof SERVICE_PAGE_SLUGS)[number][] = [
+  "website-development-services",
   "software-development",
   "custom-software-development",
   "web-design",

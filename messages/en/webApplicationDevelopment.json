@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "Custom Web Application Development Company & Services",
-    "description": "Custom web application development company for US & global businesses. Scalable web apps, portals & PWAs built with modern stacks. Request a free quote today!"
+    "title": "Web Application Development Services",
+    "description": "Custom web application development services. We build scalable, high-concurrency web applications, interactive portals, PWAs, and SaaS platforms.",
+    "keywords": "web application development services, web application development company, custom web application development, web app development agency, enterprise web application development"
   },
   "breadcrumb": "Web Application Development",
   "form": {
@@ -431,35 +432,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Web Application Development Cost?",
-    "subtitle": "The cost of web application development depends on features, integrations, design and scale. Typical ranges for web apps we build:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Simple Web App or MVP",
-        "price": "$5,000 – $15,000",
-        "timeline": "4–8 weeks",
-        "desc": "Core features, user accounts, admin panel and responsive design. Ideal for startups and internal tools."
-      },
-      {
-        "name": "Business Web App",
-        "price": "$15,000 – $50,000",
-        "timeline": "2–4 months",
-        "desc": "Portals, dashboards and integrations with payments, CRM or ERP, plus an optional PWA or mobile app."
-      },
-      {
-        "name": "Enterprise or SaaS Platform",
-        "price": "$50,000+",
-        "timeline": "4+ months",
-        "desc": "Multi-tenant SaaS or enterprise platforms with complex roles, integrations and high availability."
-      }
-    ],
-    "note": "Web and mobile app together usually costs less than building them separately, because they share one backend. Fixed, itemised quote after a free consultation.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Frequently Asked Questions",
@@ -482,8 +454,8 @@
         "a": "It depends on your project. React or Angular are strong frontend choices; Python with Django suits data-heavy apps and fast MVPs, Java and .NET suit large enterprise systems, and PHP with Laravel is cost-effective for many business apps. We recommend the stack after understanding your needs."
       },
       {
-        "q": "How much does web app development cost and how long does it take?",
-        "a": "A simple web app or MVP typically costs $5,000 to $15,000 and takes 4 to 8 weeks. Business web apps cost $15,000 to $50,000 over 2 to 4 months, and enterprise or SaaS platforms start around $50,000."
+        "q": "How is web application development scoped and delivered?",
+        "a": "Web application projects are scoped based on feature architecture, third-party integrations, compliance requirements, and target user load. We operate on structured agile milestones with bi-weekly demos, NDA coverage, and full source code ownership delivered to your repository."
       },
       {
         "q": "Can you build a web app and a mobile app together?",

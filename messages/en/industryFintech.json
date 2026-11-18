@@ -353,35 +353,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Fintech Software Development Cost?",
-    "subtitle": "Cost depends on features, integrations, security and compliance needs. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Fintech MVP",
-        "price": "$20,000 – $50,000",
-        "timeline": "3–4 months",
-        "desc": "A focused wallet, lending or payment product with core integrations."
-      },
-      {
-        "name": "Lending or Insurance Platform",
-        "price": "$50,000 – $150,000",
-        "timeline": "4–8 months",
-        "desc": "End-to-end platform with KYC, workflows, integrations and reporting."
-      },
-      {
-        "name": "Enterprise Banking Solutions",
-        "price": "$150,000+",
-        "timeline": "8+ months",
-        "desc": "Large-scale digital banking, modernisation and compliance programmes."
-      }
-    ],
-    "note": "Security and compliance practices are included in every estimate. Fixed quote after a free consultation.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Fintech Software Development FAQs",
@@ -404,8 +375,8 @@
         "a": "Yes. We build loan origination, underwriting workflows, disbursement, EMI management and collections platforms for banks, NBFCs and lenders."
       },
       {
-        "q": "How much does fintech software development cost?",
-        "a": "A fintech MVP typically costs $20,000 to $50,000, lending or insurance platforms $50,000 to $150,000, and enterprise banking solutions $150,000 or more."
+        "q": "How is fintech software development scoped and delivered?",
+        "a": "A fintech MVP typically costs custom milestone-based tiers lending or insurance platforms custom milestone-based tiers and enterprise banking solutions tailored enterprise plans."
       },
       {
         "q": "Do you work with insurance companies?",

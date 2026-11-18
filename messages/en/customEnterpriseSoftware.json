@@ -1,7 +1,17 @@
 {
   "meta": {
-    "title": "Custom Enterprise Software Solutions & Development",
-    "description": "Scalable custom enterprise software solutions: custom ERP, CRM, cloud portals & workflow automation built for your business. Request a free architecture call!"
+    "title": "Custom Enterprise Software Development",
+    "description": "Tailor-made enterprise software development. We build custom ERPs, internal operations portals, and automated workflow systems engineered to scale securely.",
+    "keywords": [
+      "custom enterprise software",
+      "custom enterprise software development",
+      "enterprise software development company",
+      "enterprise software development services",
+      "enterprise software solutions",
+      "custom enterprise software solutions",
+      "custom ERP software development",
+      "enterprise workflow automation"
+    ]
   },
   "breadcrumb": "Custom Enterprise Software",
   "form": {
@@ -20,7 +30,7 @@
     "label": "Custom Enterprise Software",
     "title": "Custom Enterprise Software Development for",
     "highlight": "Complex, Growing Organisations",
-    "subtitle": "Custom ERP, enterprise CRM, workflow automation and portals designed around your processes, secured to enterprise standards and integrated with the systems you already run."
+    "subtitle": "Custom ERP, enterprise CRM, workflow automation and operations portals designed around your processes for growing organisations across the USA, UK, and India."
   },
   "intro": {
     "badge": "Enterprise Software",
@@ -430,35 +440,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Custom Enterprise Software Cost?",
-    "subtitle": "Cost depends on modules, users, integrations, compliance and rollout scope. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Departmental Application",
-        "price": "$25,000 – $75,000",
-        "timeline": "3–5 months",
-        "desc": "A focused enterprise application for one department or process, with integrations."
-      },
-      {
-        "name": "Custom ERP or Enterprise Platform",
-        "price": "$75,000 – $250,000",
-        "timeline": "6–12 months",
-        "desc": "Multi-module ERP or enterprise platform across departments and branches."
-      },
-      {
-        "name": "Enterprise Transformation",
-        "price": "$250,000+",
-        "timeline": "12+ months",
-        "desc": "Large-scale modernisation and integration programmes delivered in phases."
-      }
-    ],
-    "note": "Phased delivery spreads investment over time and delivers value from the first release. Detailed estimate after a discovery workshop.",
-    "cta": "Book a Discovery Call"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Custom Enterprise Software FAQs",
@@ -473,8 +454,8 @@
         "a": "Off-the-shelf ERP suits organisations with standard processes and big implementation budgets. Custom ERP is better when your processes are unique, licence costs are high, or you need deep integration and full control of your roadmap."
       },
       {
-        "q": "How much does custom enterprise software development cost?",
-        "a": "A departmental application typically costs $25,000 to $75,000, a custom ERP or enterprise platform $75,000 to $250,000, and large transformation programmes $250,000 or more, usually delivered in phases."
+        "q": "How do you scope and deliver custom enterprise software development?",
+        "a": "We scope custom enterprise software based on your departmental workflows, data integration requirements, user roles, and compliance standards. Following an initial architecture workshop, our senior enterprise consultants outline a modular, milestone-based implementation roadmap."
       },
       {
         "q": "How long does it take to build enterprise software?",

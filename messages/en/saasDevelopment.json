@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "SaaS Development Company",
-    "description": "SaaS development company for startups and businesses: SaaS MVPs, multi-tenant platforms, subscription billing and cloud-native SaaS apps. Get a free estimate."
+    "title": "SaaS Application Development Company",
+    "description": "End-to-end SaaS application development services. We build multi-tenant cloud platforms, scalable SaaS MVPs, subscription billing systems, and web apps.",
+    "keywords": "SaaS development company, SaaS development services, custom SaaS development, SaaS application development, SaaS product development company"
   },
   "breadcrumb": "SaaS Development",
   "form": {
@@ -434,35 +435,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does SaaS Development Cost?",
-    "subtitle": "The cost of developing a SaaS platform depends on features, integrations, design and scale. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "SaaS MVP",
-        "price": "$15,000 – $40,000",
-        "timeline": "2–4 months",
-        "desc": "Core features, multi-tenant setup, sign-up, billing and an admin console."
-      },
-      {
-        "name": "SaaS Platform v1",
-        "price": "$40,000 – $100,000",
-        "timeline": "4–7 months",
-        "desc": "Full product with integrations, analytics, roles, mobile app and polished UX."
-      },
-      {
-        "name": "Scale & Enterprise SaaS",
-        "price": "$100,000+",
-        "timeline": "7+ months",
-        "desc": "Enterprise features, SSO, compliance, advanced analytics and high-scale infrastructure."
-      }
-    ],
-    "note": "Starting with a focused MVP keeps initial costs low while you validate demand. Free scoping session and fixed MVP quote.",
-    "cta": "Get My Free SaaS Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "SaaS Development FAQs",
@@ -473,8 +445,8 @@
         "a": "SaaS development is building software that customers access online through a subscription instead of installing it. It includes the web and mobile apps, multi-tenant backend, billing, onboarding, cloud infrastructure and ongoing product updates."
       },
       {
-        "q": "How much does it cost to develop a SaaS platform?",
-        "a": "A SaaS MVP typically costs $15,000 to $40,000, a full SaaS platform v1 $40,000 to $100,000, and enterprise-scale SaaS $100,000 or more, depending on features, integrations and scale."
+        "q": "How is SaaS platform development scoped and delivered?",
+        "a": "SaaS projects are scoped by defining core tenant workflows, subscription tiers, payment gateways, self-service onboarding, and multi-tenant isolation models. We build in focused agile sprints, providing working demos every two weeks and full intellectual property ownership."
       },
       {
         "q": "How long does it take to build a SaaS MVP?",

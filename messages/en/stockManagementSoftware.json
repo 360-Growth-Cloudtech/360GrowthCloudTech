@@ -383,35 +383,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Stock Management Software Cost?",
-    "subtitle": "Pricing depends on the number of locations, users, features and integrations. Typical ranges for systems we set up:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Small Business",
-        "price": "$3,000 – $8,000",
-        "timeline": "3–6 weeks",
-        "desc": "Single location with products, stock, purchases, sales, billing, barcode scanning and core reports."
-      },
-      {
-        "name": "Multi-Location",
-        "price": "$8,000 – $25,000",
-        "timeline": "1–3 months",
-        "desc": "Multiple shops or warehouses, transfers, batch and expiry, mobile app and POS or online store sync."
-      },
-      {
-        "name": "Enterprise & Manufacturing",
-        "price": "$25,000+",
-        "timeline": "3+ months",
-        "desc": "Manufacturing inventory, RFID, advanced planning and integration with ERP and accounting systems."
-      }
-    ],
-    "note": "You get a fixed, itemised quote after a free consultation, and you own the software: no per-user monthly fees.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Frequently Asked Questions",

@@ -379,35 +379,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does a Dynamic Website Cost?",
-    "subtitle": "Dynamic website design cost depends on pages, features, admin panel and integrations. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Dynamic Business Website",
-        "price": "$1,500 – $4,000",
-        "timeline": "3–5 weeks",
-        "desc": "Custom design, CMS admin panel, blog, enquiry forms, WhatsApp and basic SEO."
-      },
-      {
-        "name": "Advanced Dynamic Website",
-        "price": "$4,000 – $10,000",
-        "timeline": "5–8 weeks",
-        "desc": "Listings, search and filters, bookings, multi-language and CRM or payment integration."
-      },
-      {
-        "name": "Portal or Membership Site",
-        "price": "$10,000+",
-        "timeline": "8+ weeks",
-        "desc": "User logins, dashboards, subscriptions and complex custom features."
-      }
-    ],
-    "note": "Hosting, maintenance and support plans are available after launch. Fixed quote after a free consultation.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Dynamic Website FAQs",
@@ -422,8 +393,8 @@
         "a": "A static website shows fixed pages and usually needs a developer for changes. A dynamic website pulls content from a database, so you can update it yourself, and it can offer interactive features such as logins, search and bookings."
       },
       {
-        "q": "How much does a dynamic website cost?",
-        "a": "A dynamic business website typically costs $1,500 to $4,000, an advanced dynamic website $4,000 to $10,000, and portals or membership sites from $10,000, depending on features and integrations."
+        "q": "How is a dynamic website scoped and delivered?",
+        "a": "A dynamic business website typically costs custom milestone-based tiers an advanced dynamic website custom milestone-based tiers and portals or membership sites from tailored milestone budgets depending on features and integrations."
       },
       {
         "q": "Can I update my dynamic website myself?",

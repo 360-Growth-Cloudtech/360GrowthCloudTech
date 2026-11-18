@@ -350,35 +350,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Retail Software Cost?",
-    "subtitle": "Cost depends on stores, channels, hardware and integrations. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Store POS & Inventory",
-        "price": "$5,000 – $15,000",
-        "timeline": "1–2 months",
-        "desc": "POS, billing, stock and basic loyalty for one or a few stores."
-      },
-      {
-        "name": "Omnichannel Retail System",
-        "price": "$15,000 – $60,000",
-        "timeline": "2–5 months",
-        "desc": "Multi-store POS, inventory, ecommerce, app and loyalty integrated."
-      },
-      {
-        "name": "Retail Chain Platform",
-        "price": "$60,000+",
-        "timeline": "5+ months",
-        "desc": "Chain-wide platform with ERP, franchise portals and analytics."
-      }
-    ],
-    "note": "Fixed quote after a free consultation. Start with POS and inventory, then add channels.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Retail Software Development FAQs",
@@ -401,8 +372,8 @@
         "a": "Yes. We build points, tiers, coupons and referral programmes that customers can use in store, online and in your app."
       },
       {
-        "q": "How much does retail software cost?",
-        "a": "Store POS and inventory typically costs $5,000 to $15,000, an omnichannel retail system $15,000 to $60,000, and retail chain platforms $60,000 or more."
+        "q": "How is retail software scoped and delivered?",
+        "a": "Store POS and inventory typically costs custom milestone-based tiers an omnichannel retail system custom milestone-based tiers and retail chain platforms tailored enterprise plans."
       },
       {
         "q": "What is the difference between this and ecommerce development?",

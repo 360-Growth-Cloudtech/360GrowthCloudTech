@@ -351,35 +351,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Healthcare Software Development Cost?",
-    "subtitle": "Cost depends on modules, integrations, compliance needs and platforms. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Clinic Software or Patient App",
-        "price": "$8,000 – $25,000",
-        "timeline": "2–3 months",
-        "desc": "Booking, records, reminders and billing for a clinic, or a patient-facing app."
-      },
-      {
-        "name": "Telemedicine or Portal Platform",
-        "price": "$25,000 – $70,000",
-        "timeline": "3–6 months",
-        "desc": "Video consultations, portals, e-prescriptions and EHR integration."
-      },
-      {
-        "name": "Hospital Management System",
-        "price": "$70,000+",
-        "timeline": "6+ months",
-        "desc": "Multi-department hospital software with integrations and compliance controls."
-      }
-    ],
-    "note": "Fixed, itemised quote after a free consultation, with HIPAA-aligned security included as standard.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Healthcare Software Development FAQs",
@@ -402,8 +373,8 @@
         "a": "Yes. We build telemedicine platforms with video consultations, appointment booking, e-prescriptions, payments and follow-up reminders on web, Android and iOS."
       },
       {
-        "q": "How much does healthcare software development cost?",
-        "a": "A clinic system or patient app typically costs $8,000 to $25,000, telemedicine or portal platforms $25,000 to $70,000, and hospital management systems $70,000 or more."
+        "q": "How is healthcare software development scoped and delivered?",
+        "a": "A clinic system or patient app typically costs custom milestone-based tiers telemedicine or portal platforms custom milestone-based tiers and hospital management systems tailored enterprise plans."
       },
       {
         "q": "Can you help healthcare startups build an MVP?",

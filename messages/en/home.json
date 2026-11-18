@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Custom Software Development Company | 360GrowthCloudTech",
-    "description": "Custom software development company serving US & global enterprises. High-performance web, mobile & SaaS apps with 100% IP ownership. Request a free quote!",
+    "title": "Custom Software Development Company",
+    "description": "Award-winning custom software development company. We engineer high-performance web, mobile, SaaS, and enterprise applications with dedicated agile squads.",
     "keywords": [
       "custom software development services",
       "custom software development company",
@@ -28,10 +28,10 @@
     "titlePrefix": "Custom Software Development Services That",
     "titleHighlight": "Grow Your Business",
     "titleSuffix": "",
-    "subtitle": "Trusted custom software development company for high-growth startups and enterprises across the USA, UK, Europe, and India. We engineer web, mobile, SaaS, and cloud platforms with US timezone overlap, fixed-scope delivery, and 100% IP ownership.",
+    "subtitle": "Trusted custom software development company for high-growth startups and enterprises across the USA, UK, and India. We engineer web, mobile, SaaS, and cloud platforms with US and UK timezone overlap, agile sprint delivery, and 100% IP ownership.",
     "checkpoints": [
       "100% IP & Code Ownership",
-      "US Timezone Overlap (EST/PST)",
+      "US & UK Timezone Overlap",
       "Dedicated Senior Engineers",
       "SOC 2 & HIPAA Ready",
       "Fixed Scope & Agile Sprints"
@@ -736,8 +736,8 @@
         "a": "Custom software development is designing, building and maintaining software made for one organisation's needs, instead of buying a ready-made product. Tailor-made software fits your exact workflows, integrates with your existing tools and evolves as your business changes."
       },
       {
-        "q": "How much does custom software development cost?",
-        "a": "Most projects we deliver fall between $8,000 and $25,000 for an MVP, $25,000 to $75,000 for a business application, and $75,000 or more for enterprise platforms. The final cost depends on features, integrations, platforms and compliance needs. We provide a free, fixed-scope estimate after a short discovery call."
+        "q": "How is custom software development scoped and delivered?",
+        "a": "Every custom software project is scoped around feature complexity, architecture, third-party integrations, and compliance needs. We offer flexible engagement models, including milestone-based project delivery and dedicated engineering squads, with full source code ownership and transparent sprint demos."
       },
       {
         "q": "How long does it take to develop custom software?",
@@ -1111,35 +1111,35 @@
     "note": "Outsourcing only works when the partner is transparent. Every engagement includes weekly demos, a shared task board and direct Slack or Teams access to the engineers writing your code. We are remote-first and schedule calls in your time zone, so working with us feels like working with a local team. Compare options on our <services>services page</services> or <contact>ask us which model fits</contact>."
   },
   "costGuide": {
-    "badge": "Pricing",
-    "title": "How Much Does Custom Software Development Cost?",
-    "subtitle": "It depends on scope, integrations and compliance needs. These are typical ranges for the projects we deliver, so you can plan a budget before we talk.",
-    "fromLabel": "Typical budget",
+    "badge": "Engagement Models",
+    "title": "How We Scope & Deliver Custom Software",
+    "subtitle": "Clear milestones, predictable delivery, and 100% intellectual property ownership tailored to your scale.",
+    "fromLabel": "Engagement Model",
     "timelineLabel": "Timeline",
     "tiers": [
       {
         "id": "mvp",
         "name": "MVP or Simple App",
-        "price": "$8,000 – $25,000",
+        "price": "Milestone Scoped",
         "timeline": "6–10 weeks",
         "desc": "A focused product with core features, user accounts, a clean interface and an admin panel. Ideal for validating an idea quickly."
       },
       {
         "id": "business",
         "name": "Business Application",
-        "price": "$25,000 – $75,000",
+        "price": "Dedicated Squad",
         "timeline": "3–5 months",
         "desc": "A web or mobile application with integrations, role-based access, dashboards, payments and automated workflows."
       },
       {
         "id": "enterprise",
         "name": "Enterprise Platform",
-        "price": "$75,000+",
+        "price": "Enterprise Partner",
         "timeline": "5+ months",
         "desc": "Multi-module enterprise software with complex integrations, compliance requirements, high availability and a dedicated team."
       }
     ],
-    "factorsTitle": "What drives the cost of custom software",
+    "factorsTitle": "What drives the scope of custom software",
     "factors": [
       "Number of features, screens and user roles",
       "Integrations with ERP, CRM, payment or legacy systems",

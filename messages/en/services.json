@@ -259,6 +259,7 @@
       "online-complaint-management-system": "Online Complaint Management System",
       "it-asset-management-software": "IT Asset Management Software",
       "qri-dashboard": "QRI Dashboard",
+      "website-development-services": "Website Development Services",
       "web-design": "Web Design",
       "website-redesign": "Website Redesigning",
       "static-website-design": "Static Web Designing",
@@ -388,6 +389,11 @@
           "title": "Web Design & Branding",
           "subtitle": "Websites and brand identities that build trust and bring in enquiries.",
           "items": [
+            {
+              "slug": "website-development-services",
+              "title": "Website Development Services",
+              "desc": "High-speed custom Next.js, headless CMS and enterprise web portals."
+            },
             {
               "slug": "web-design",
               "title": "Web Design & Development",

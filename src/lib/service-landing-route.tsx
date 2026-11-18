@@ -33,6 +33,7 @@ export function createServiceLandingRoute({ ns, path, leadSource }: ServiceLandi
       description: t("meta.description"),
       path,
       locale: locale as Locale,
+      keywords: t.has("meta.keywords") ? (t.raw("meta.keywords") as string[]) : undefined,
     });
   }
 

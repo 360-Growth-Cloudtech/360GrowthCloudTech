@@ -350,35 +350,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Logistics Software Cost?",
-    "subtitle": "Cost depends on fleet size, modules, apps and integrations. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Tracking or Driver App",
-        "price": "$8,000 – $25,000",
-        "timeline": "2–3 months",
-        "desc": "Driver app, tracking portal and dispatch dashboard for one operation."
-      },
-      {
-        "name": "TMS or WMS Platform",
-        "price": "$25,000 – $80,000",
-        "timeline": "3–6 months",
-        "desc": "Full transport or warehouse management with integrations and billing."
-      },
-      {
-        "name": "Enterprise Logistics Platform",
-        "price": "$80,000+",
-        "timeline": "6+ months",
-        "desc": "Multi-branch fleet, warehouse and analytics platform with IoT."
-      }
-    ],
-    "note": "Start with the module that saves the most time and expand from there. Fixed quote after a free consultation.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Logistics Software Development FAQs",
@@ -401,8 +372,8 @@
         "a": "Yes. We build WMS with inbound, putaway, picking, packing, dispatch, bin locations and barcode scanning, integrated with your ERP."
       },
       {
-        "q": "How much does logistics software cost?",
-        "a": "A tracking or driver app typically costs $8,000 to $25,000, a TMS or WMS $25,000 to $80,000, and enterprise logistics platforms $80,000 or more."
+        "q": "How is logistics software scoped and delivered?",
+        "a": "A tracking or driver app typically costs custom milestone-based tiers a TMS or WMS custom milestone-based tiers and enterprise logistics platforms tailored enterprise plans."
       },
       {
         "q": "Can logistics software reduce fuel and delivery costs?",

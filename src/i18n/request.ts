@@ -25,6 +25,7 @@ const NAMESPACES = [
   "itAssetManagementSoftware",
   "qriDashboard",
   "webDesign",
+  "websiteDevelopmentServices",
   "websiteRedesign",
   "staticWebsiteDesign",
   "dynamicWebsiteDesign",

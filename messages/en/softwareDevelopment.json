@@ -1,14 +1,24 @@
 {
   "meta": {
-    "title": "Custom Software Development Company & Services",
-    "description": "Leading custom software development company serving US & global clients. Custom web, mobile, SaaS & enterprise software with 100% IP. Request a free quote!"
+    "title": "Software Development Services & Outsourcing",
+    "description": "Full-cycle software development services and dedicated engineering teams. Scale your engineering capacity with senior full-stack developers and agile squads.",
+    "keywords": [
+      "software development services",
+      "software development company",
+      "software development outsourcing",
+      "dedicated software development team",
+      "hire software developers",
+      "software engineering services",
+      "software development company UK",
+      "software development services USA"
+    ]
   },
   "breadcrumb": "Software Development",
   "hero": {
     "label": "Software Development Services",
     "title": "Software Development Company That Builds",
     "highlight": "What Your Business Needs",
-    "subtitle": "Custom, enterprise, SaaS, AI and mobile software built by senior engineers in agile sprints. One team from feasibility study to launch and support, with fixed-scope pricing and full source-code ownership."
+    "subtitle": "Custom, enterprise, SaaS, and mobile software built by senior engineers in agile sprints for businesses in the USA, UK, and India with dedicated squads and full source-code ownership."
   },
   "form": {
     "topic": "software development"
@@ -394,35 +404,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Software Development Cost?",
-    "subtitle": "The cost of software development depends on features, integrations, platforms and compliance. Typical ranges for projects we deliver:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "MVP or Simple App",
-        "price": "$8,000 – $25,000",
-        "timeline": "6–10 weeks",
-        "desc": "Core features, user accounts and an admin panel. Ideal for startups validating an idea."
-      },
-      {
-        "name": "Business Application",
-        "price": "$25,000 – $75,000",
-        "timeline": "3–5 months",
-        "desc": "Web or mobile software with integrations, role-based access, dashboards and payments."
-      },
-      {
-        "name": "Enterprise Platform",
-        "price": "$75,000+",
-        "timeline": "5+ months",
-        "desc": "Multi-module enterprise software with complex integrations, compliance and high availability."
-      }
-    ],
-    "note": "Outsourcing to our offshore team typically costs 40–60% less than hiring an equivalent in-house team in the US or UK, without compromising on quality.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Frequently Asked Questions",
@@ -449,8 +430,8 @@
         "a": "A simple app or MVP usually takes 6 to 10 weeks, a business application 3 to 5 months, and an enterprise platform 5 months or more. You see working software at the end of every sprint, not just at launch."
       },
       {
-        "q": "How much does software development cost, and is outsourcing cheaper?",
-        "a": "Projects we deliver typically cost $8,000 to $25,000 for an MVP, $25,000 to $75,000 for a business application and $75,000 or more for enterprise platforms. Outsourcing to our offshore team usually costs 40 to 60% less than hiring in the US or UK, with an NDA, weekly demos and full IP ownership included."
+        "q": "How is custom software development scoped and delivered?",
+        "a": "Every software project is scoped based on your technical requirements, architectural complexity, integrations, and performance goals. We offer flexible engagement models including dedicated agile squads and milestone-based project delivery, complete with NDA protection, weekly demos, and 100% intellectual property ownership."
       }
     ]
   },

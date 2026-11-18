@@ -379,35 +379,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Landing Page Design Cost?",
-    "subtitle": "Landing page design price depends on page length, copywriting, integrations and testing. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Single Landing Page",
-        "price": "$250 – $800",
-        "timeline": "3–7 days",
-        "desc": "One focused page with design, development, form, WhatsApp and analytics."
-      },
-      {
-        "name": "Campaign Landing Page",
-        "price": "$800 – $2,000",
-        "timeline": "1–2 weeks",
-        "desc": "Copywriting, A/B variants, ad pixels, CRM integration and thank-you page."
-      },
-      {
-        "name": "Landing Page Program",
-        "price": "$2,000+",
-        "timeline": "Ongoing",
-        "desc": "Multiple campaign pages with continuous A/B testing and conversion optimisation."
-      }
-    ],
-    "note": "You get a fixed quote after a free consultation, and the page is yours to use for any campaign.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Landing Page Design FAQs",
@@ -422,8 +393,8 @@
         "a": "A homepage introduces your whole business and links to many pages. A landing page focuses on one offer and one call to action, with few distractions, so it converts campaign traffic much better."
       },
       {
-        "q": "How much does landing page design cost?",
-        "a": "A single landing page typically costs $250 to $800, a campaign page with copywriting, A/B variants and integrations $800 to $2,000, and ongoing page programs from $2,000."
+        "q": "How is landing page design scoped and delivered?",
+        "a": "A single landing page typically costs custom milestone-based tiers a campaign page with copywriting, A/B variants and integrations custom milestone-based tiers and ongoing page programs from tailored milestone budgets."
       },
       {
         "q": "How long does it take to design a landing page?",

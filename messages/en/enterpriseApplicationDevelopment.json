@@ -1,7 +1,17 @@
 {
   "meta": {
     "title": "Enterprise Application Development Services",
-    "description": "Enterprise application development services for US & global businesses. Scalable web & mobile apps, cloud architecture, 100% IP & US timezone overlap. Free quote!"
+    "description": "Scalable enterprise application development services. We build secure, cloud-native enterprise web and mobile applications with microservices architecture.",
+    "keywords": [
+      "enterprise application development services",
+      "enterprise application development company",
+      "custom enterprise application development",
+      "enterprise app development services",
+      "enterprise software development",
+      "custom enterprise application development services",
+      "enterprise applications development company",
+      "enterprise web application development"
+    ]
   },
   "breadcrumb": "Enterprise Application Development",
   "form": {
@@ -20,7 +30,7 @@
     "label": "Custom Enterprise Application Development Services",
     "title": "Enterprise Application Development Company Building",
     "highlight": "Scalable, High-Security Web & Mobile Apps",
-    "subtitle": "We engineer custom enterprise application development solutions designed for high concurrency, zero downtime, and deep cloud integration. Trusted by growing companies and enterprises worldwide."
+    "subtitle": "We engineer custom enterprise application development solutions designed for high concurrency, zero downtime, and deep cloud integration for enterprises and mid-market leaders across the USA, UK, and India."
   },
   "intro": {
     "badge": "Enterprise Solutions",
@@ -433,35 +443,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Enterprise App Development Cost?",
-    "subtitle": "Enterprise app development cost depends on users, platforms, integrations, security and scale. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Pilot or MVP",
-        "price": "$20,000 – $50,000",
-        "timeline": "2–4 months",
-        "desc": "A focused enterprise app to validate a process or idea with real users."
-      },
-      {
-        "name": "Enterprise Web or Mobile App",
-        "price": "$50,000 – $150,000",
-        "timeline": "4–8 months",
-        "desc": "A production enterprise application with integrations, SSO and full security."
-      },
-      {
-        "name": "Enterprise Platform",
-        "price": "$150,000+",
-        "timeline": "8+ months",
-        "desc": "Multi-app platforms with web, mobile, portals and complex integrations."
-      }
-    ],
-    "note": "Phased delivery spreads cost over time and delivers value early. Detailed estimate after a discovery workshop.",
-    "cta": "Book a Discovery Call"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Enterprise Application Development FAQs",
@@ -480,8 +461,8 @@
         "a": "Off-the-shelf software forces businesses into generic workflows and charges recurring per-user licensing fees. Custom enterprise software solutions are built precisely around your operational requirements, integrate with your existing systems, and scale without per-seat cost penalties."
       },
       {
-        "q": "How much does custom enterprise application development cost?",
-        "a": "A targeted pilot or MVP typically costs $20,000 to $50,000, while a production-grade enterprise web or mobile app ranges from $50,000 to $150,000. Multi-system enterprise platforms start at $150,000+, with milestone-based, transparent pricing."
+        "q": "How do you scope and deliver custom enterprise application development?",
+        "a": "Every enterprise project is scoped around functional workflows, security compliance (SSO, SOC-2, HIPAA), integration complexity, and user concurrency. Following an initial technical discovery session, our enterprise architects deliver a detailed architecture blueprint, phased milestone roadmap, and transparent deliverables."
       },
       {
         "q": "Can you modernize our legacy systems and migrate them to custom cloud solutions?",

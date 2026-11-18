@@ -385,35 +385,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does a Complaint Management System Cost?",
-    "subtitle": "Cost depends on users, channels, mobile apps and integrations. Typical ranges for systems we build:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Essential",
-        "price": "$3,000 – $8,000",
-        "timeline": "3–6 weeks",
-        "desc": "Customer portal, admin dashboard, engineer login, assignment, email and SMS updates, basic reports."
-      },
-      {
-        "name": "Advanced",
-        "price": "$8,000 – $20,000",
-        "timeline": "1–3 months",
-        "desc": "Engineer mobile app, SLAs and escalations, WhatsApp, multi-channel capture and detailed analytics."
-      },
-      {
-        "name": "Enterprise",
-        "price": "$20,000+",
-        "timeline": "3+ months",
-        "desc": "Multi-branch, compliance workflows, CRM and ERP integration and high-volume operations."
-      }
-    ],
-    "note": "One-time development with full code ownership, so you are not paying per user every month. Fixed, itemised quote after a free consultation.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Online Complaint Management System FAQs",
@@ -436,8 +407,8 @@
         "a": "An essential complaint management system usually takes 3 to 6 weeks. Adding an engineer mobile app, SLAs and WhatsApp takes 1 to 3 months, and enterprise systems take 3 months or more."
       },
       {
-        "q": "How much does it cost to develop a complaint management system?",
-        "a": "Typical costs are $3,000 to $8,000 for an essential system, $8,000 to $20,000 for an advanced system with a mobile app, and $20,000 or more for enterprise needs. We give a fixed quote after a free consultation."
+        "q": "How is develop a complaint management system scoped and delivered?",
+        "a": "Typical costs are custom milestone-based tiers for an essential system, custom milestone-based tiers for an advanced system with a mobile app, and tailored enterprise plans for enterprise needs. We give a fixed quote after a free consultation."
       },
       {
         "q": "Is there a mobile app, and can it connect to our CRM?",

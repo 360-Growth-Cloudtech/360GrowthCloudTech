@@ -85,7 +85,15 @@ export function buildPageMetadata({
     title: absoluteTitle ? { absolute: title } : title,
     description: metaDescription,
     ...(keywords?.length ? { keywords } : {}),
-    alternates: { canonical },
+    alternates: {
+      canonical,
+      languages: {
+        "en-US": canonical,
+        "en-GB": canonical,
+        "en-IN": canonical,
+        "x-default": canonical,
+      },
+    },
     robots: noindex ? ROBOTS_NOINDEX : ROBOTS_INDEX,
     openGraph: {
       title: fullTitle,

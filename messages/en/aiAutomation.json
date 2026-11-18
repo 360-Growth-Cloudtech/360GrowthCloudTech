@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "AI Automation Services",
-    "description": "AI automation services: AI chatbots, intelligent document and invoice processing, AI test automation, claims automation and custom LLM solutions for business."
+    "title": "Custom AI Software Development Services",
+    "description": "Enterprise AI software development services. We build custom generative AI applications, intelligent document processing pipelines, chatbots, and ML systems.",
+    "keywords": "AI development company, AI software development, custom AI development services, AI application development, enterprise AI solutions"
   },
   "breadcrumb": "AI & Automation",
   "form": {
@@ -385,35 +386,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does AI Automation Cost?",
-    "subtitle": "Cost depends on the use case, data, integrations and accuracy required. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "AI Pilot / Proof of Concept",
-        "price": "$5,000 – $15,000",
-        "timeline": "3–6 weeks",
-        "desc": "One use case, such as a chatbot or document extraction, tested on your real data."
-      },
-      {
-        "name": "AI Automation Solution",
-        "price": "$15,000 – $50,000",
-        "timeline": "2–4 months",
-        "desc": "A production solution integrated with your systems, with monitoring and human review."
-      },
-      {
-        "name": "Enterprise AI Programme",
-        "price": "$50,000+",
-        "timeline": "4+ months",
-        "desc": "Multiple AI use cases, custom models and organisation-wide automation."
-      }
-    ],
-    "note": "Most AI automation projects aim to pay for themselves through time saved. Fixed quote after a free use-case session.",
-    "cta": "Book a Free AI Consultation"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "AI Automation FAQs",
@@ -444,8 +416,8 @@
         "a": "Yes. We use private, enterprise-grade AI deployments, encryption, access control and data minimisation, and can keep sensitive data entirely in-house when required."
       },
       {
-        "q": "How much does AI automation cost?",
-        "a": "An AI pilot typically costs $5,000 to $15,000, a production AI automation solution $15,000 to $50,000, and enterprise AI programmes $50,000 or more, depending on use case and integrations."
+        "q": "How are AI software development and automation services scoped and delivered?",
+        "a": "AI engagements are scoped based on your specific use cases, existing data quality, integration endpoints, and target model accuracy. We begin with a structured Proof of Concept (PoC) to validate performance on your real data before engineering enterprise-grade, secure production pipelines."
       }
     ]
   },

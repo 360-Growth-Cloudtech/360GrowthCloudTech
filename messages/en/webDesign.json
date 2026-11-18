@@ -435,43 +435,14 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does a Website Cost?",
-    "subtitle": "Website development cost depends on the number of pages, design, features and content. Typical ranges for websites we build:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Starter Website",
-        "price": "$800 – $2,500",
-        "timeline": "2–3 weeks",
-        "desc": "Up to 8 pages, responsive design, contact and WhatsApp, basic SEO. Ideal for small businesses."
-      },
-      {
-        "name": "Business Website",
-        "price": "$2,500 – $8,000",
-        "timeline": "3–6 weeks",
-        "desc": "Custom design, CMS, blog, integrations, advanced SEO and performance optimisation."
-      },
-      {
-        "name": "Ecommerce or Portal",
-        "price": "$8,000+",
-        "timeline": "6+ weeks",
-        "desc": "Online store or web portal with payments, user accounts and custom features."
-      }
-    ],
-    "note": "Hosting and maintenance plans are available after launch. You get a fixed, itemised quote after a free consultation.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Web Design FAQs",
     "subtitle": "Quick answers about website design and development.",
     "items": [
       {
-        "q": "How much does it cost to design and develop a website?",
-        "a": "A starter website for a small business typically costs $800 to $2,500, a custom business website $2,500 to $8,000, and ecommerce sites or portals from $8,000. The price depends on pages, design, features and content."
+        "q": "How is design and develop a website scoped and delivered?",
+        "a": "A starter website for a small business typically costs custom milestone-based tiers a custom business website custom milestone-based tiers and ecommerce sites or portals from tailored milestone budgets. The price depends on pages, design, features and content."
       },
       {
         "q": "How long does it take to build a website?",

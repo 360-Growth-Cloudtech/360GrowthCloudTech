@@ -1,7 +1,8 @@
 {
   "meta": {
-    "title": "CRM Software Development Company",
-    "description": "Custom CRM software development for sales, service and real estate teams: lead management, pipelines, complaint tracking, mobile CRM apps and ERP integration."
+    "title": "Custom CRM Software Development",
+    "description": "Custom CRM software development services. We build tailored sales pipelines, customer service portals, mobile CRMs, and seamless ERP integrations.",
+    "keywords": "custom CRM development, CRM software development company, CRM development services, custom CRM software, enterprise CRM development"
   },
   "breadcrumb": "CRM Software Development",
   "form": {
@@ -392,35 +393,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Custom CRM Development Cost?",
-    "subtitle": "CRM development cost depends on modules, users, integrations and mobile apps. Typical ranges for CRMs we build:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Starter CRM",
-        "price": "$5,000 – $15,000",
-        "timeline": "4–8 weeks",
-        "desc": "Leads, contacts, follow-ups, pipeline, basic reports and website lead capture."
-      },
-      {
-        "name": "Business CRM",
-        "price": "$15,000 – $40,000",
-        "timeline": "2–4 months",
-        "desc": "Sales, service and complaint modules, mobile app, telephony and WhatsApp integration, MIS dashboards."
-      },
-      {
-        "name": "Enterprise CRM + ERP",
-        "price": "$40,000+",
-        "timeline": "4+ months",
-        "desc": "Multi-branch CRM with ERP, inventory and accounting integration, advanced automation and AI."
-      }
-    ],
-    "note": "You pay once and own the CRM, instead of paying per user every month. Fixed, itemised quote after a free consultation.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Frequently Asked Questions",
@@ -435,8 +407,8 @@
         "a": "A ready-made CRM is fine for small teams with a simple sales process. A custom CRM is better when your process is unique, you need industry features or deep integrations, or per-user fees are getting expensive as your team grows."
       },
       {
-        "q": "How much does custom CRM development cost?",
-        "a": "A starter CRM typically costs $5,000 to $15,000, a business CRM with mobile app and integrations $15,000 to $40,000, and an enterprise CRM with ERP integration $40,000 or more. We give a fixed, itemised quote after a free consultation."
+        "q": "How is custom CRM development scoped and delivered?",
+        "a": "Custom CRM development is scoped according to your operational pipelines, role hierarchy, communication channels (telephony, WhatsApp, email), and back-office ERP integrations. We deliver functional modules iteratively with full source code transfer and zero recurring per-user fees."
       },
       {
         "q": "How long does it take to develop a CRM?",

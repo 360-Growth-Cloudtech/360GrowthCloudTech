@@ -385,35 +385,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does a Custom Website Cost?",
-    "subtitle": "Custom web design pricing depends on pages, features, content and integrations. Typical ranges:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Small Business Custom Website",
-        "price": "$1,000 – $3,000",
-        "timeline": "3–4 weeks",
-        "desc": "Up to 8 custom-designed pages, CMS, forms, WhatsApp and on-page SEO."
-      },
-      {
-        "name": "Business Custom Website",
-        "price": "$3,000 – $8,000",
-        "timeline": "4–8 weeks",
-        "desc": "Custom design and development with more pages, integrations, blog and advanced SEO."
-      },
-      {
-        "name": "Custom Ecommerce or Advanced",
-        "price": "$8,000+",
-        "timeline": "8+ weeks",
-        "desc": "Custom-built ecommerce, real estate listings or websites with complex custom features."
-      }
-    ],
-    "note": "You get a fixed, itemised quote after a free consultation, and you own the finished website outright.",
-    "cta": "Get My Free Quote"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Custom Web Design FAQs",
@@ -428,8 +399,8 @@
         "a": "A template is fine for a quick or personal site. A custom website gives you a unique look, faster and cleaner code, exactly the features you need and better room to grow, which usually means more trust and more enquiries."
       },
       {
-        "q": "How much does a custom website cost?",
-        "a": "A small business custom website typically costs $1,000 to $3,000, a larger business website $3,000 to $8,000, and custom ecommerce or advanced websites from $8,000, depending on pages and features."
+        "q": "How is a custom website scoped and delivered?",
+        "a": "A small business custom website typically costs custom milestone-based tiers a larger business website custom milestone-based tiers and custom ecommerce or advanced websites from tailored milestone budgets depending on pages and features."
       },
       {
         "q": "How long does it take to build a custom website?",

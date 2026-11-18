@@ -383,35 +383,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Mobile Website Design Cost?",
-    "subtitle": "Cost depends on whether we convert an existing site or design a new one, and how many pages and features you need.",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "Make My Site Responsive",
-        "price": "$300 – $1,000",
-        "timeline": "1–2 weeks",
-        "desc": "Convert an existing website to a mobile-friendly, responsive layout with key fixes."
-      },
-      {
-        "name": "New Mobile-First Website",
-        "price": "$800 – $3,000",
-        "timeline": "2–4 weeks",
-        "desc": "A custom mobile-first, responsive website with SEO and speed optimisation."
-      },
-      {
-        "name": "Mobile UI/UX Design",
-        "price": "$1,500 – $6,000",
-        "timeline": "2–5 weeks",
-        "desc": "Mobile ecommerce, web app or mobile app UI/UX design with prototypes."
-      }
-    ],
-    "note": "Every project starts with a free mobile audit, and you get a fixed quote before work begins.",
-    "cta": "Get My Free Mobile Audit"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Mobile Website Design FAQs",
@@ -438,8 +409,8 @@
         "a": "Yes. We design mobile app screens and user flows for Android and iOS, including home screens, ecommerce, booking and payment flows, with clickable prototypes and developer-ready designs."
       },
       {
-        "q": "How much does mobile website design cost?",
-        "a": "Making an existing site responsive typically costs $300 to $1,000, a new mobile-first website $800 to $3,000, and mobile UI/UX design for apps or ecommerce $1,500 to $6,000."
+        "q": "How is mobile website design scoped and delivered?",
+        "a": "Making an existing site responsive typically costs custom milestone-based tiers a new mobile-first website custom milestone-based tiers and mobile UI/UX design for apps or ecommerce custom milestone-based tiers."
       }
     ]
   },

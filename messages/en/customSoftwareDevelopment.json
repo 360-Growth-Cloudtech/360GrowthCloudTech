@@ -1,7 +1,17 @@
 {
   "meta": {
-    "title": "Custom Software Development Company",
-    "description": "Custom software development for startups, SMEs and enterprises: tailor-made web, mobile, ERP, CRM and healthcare software. Fixed pricing, full code ownership."
+    "title": "Custom Software Development Services",
+    "description": "Custom software development services tailored to your business. We engineer bespoke web, mobile, SaaS, and cloud applications with full IP ownership.",
+    "keywords": [
+      "custom software development services",
+      "custom software development company",
+      "custom software solutions",
+      "custom software development agency",
+      "bespoke software development",
+      "custom software development company USA",
+      "software development company UK",
+      "custom software development India"
+    ]
   },
   "breadcrumb": "Custom Software Development",
   "form": {
@@ -11,7 +21,7 @@
     "label": "Custom Software Development",
     "title": "Custom Software Development Company for",
     "highlight": "Software Built Around You",
-    "subtitle": "Tailor-made web, mobile, enterprise and industry software that fits your workflows exactly. Built by senior engineers with fixed-scope pricing, weekly demos and 100% code ownership."
+    "subtitle": "Tailor-made web, mobile, enterprise and cloud software that fits your workflows exactly. Built by senior engineers for businesses in the USA, UK, and India with weekly demos and 100% code ownership."
   },
   "intro": {
     "badge": "What Is Custom Software?",
@@ -423,35 +433,6 @@
       }
     ]
   },
-  "cost": {
-    "badge": "Pricing",
-    "title": "How Much Does Custom Software Development Cost?",
-    "subtitle": "Custom software development pricing depends on features, integrations, platforms and compliance. Typical ranges for projects we deliver:",
-    "budgetLabel": "Typical budget",
-    "timelineLabel": "Timeline",
-    "tiers": [
-      {
-        "name": "MVP or Small Business Tool",
-        "price": "$8,000 – $25,000",
-        "timeline": "6–10 weeks",
-        "desc": "Core features, user accounts, reports and an admin panel. Ideal for startups and small businesses."
-      },
-      {
-        "name": "Business Application",
-        "price": "$25,000 – $75,000",
-        "timeline": "3–5 months",
-        "desc": "Web or mobile software with integrations, role-based access, dashboards and automation."
-      },
-      {
-        "name": "Enterprise Software",
-        "price": "$75,000+",
-        "timeline": "5+ months",
-        "desc": "Multi-module enterprise systems with complex integrations, compliance and high availability."
-      }
-    ],
-    "note": "Custom software usually pays for itself by removing licence fees and manual work. You get a fixed, itemised estimate after a free consultation.",
-    "cta": "Get My Free Estimate"
-  },
   "faqs": {
     "badge": "FAQs",
     "title": "Frequently Asked Questions",
@@ -466,8 +447,8 @@
         "a": "Ready-made software is faster to start for standard needs. Custom software is better when your processes are unique, you need deep integrations, or per-user fees keep rising. Over a few years it is often cheaper because you pay once and own it."
       },
       {
-        "q": "How much does custom software development cost?",
-        "a": "Most projects we deliver cost $8,000 to $25,000 for an MVP or small business tool, $25,000 to $75,000 for a business application and $75,000 or more for enterprise software. We provide a free, fixed-scope estimate after a short consultation."
+        "q": "How do you scope and deliver custom software development projects?",
+        "a": "We scope custom software projects based on feature specifications, system architecture, third-party integrations, and performance goals. After a 30-minute discovery call, our senior engineering leads provide an itemized sprint plan with clear deliverables."
       },
       {
         "q": "How long does it take to build custom software?",
