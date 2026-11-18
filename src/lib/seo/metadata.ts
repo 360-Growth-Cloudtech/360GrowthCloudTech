@@ -19,7 +19,7 @@ type BuildPageMetadataOptions = {
   locale: Locale;
   image?: string;
   type?: "website" | "article";
-  /** Skip the "| 360GrowthCloudTech" template (home page already carries the brand). */
+  /** Skip the "| 360CloudTech" template (home page already carries the brand). */
   absoluteTitle?: boolean;
   keywords?: string[];
   noindex?: boolean;

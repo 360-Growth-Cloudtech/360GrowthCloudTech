@@ -33,10 +33,10 @@
     "title": "Modern Websites Built for Business Results, Not Just Vanity",
     "paragraphs": [
       "Your website is the single most critical touchpoint in your sales pipeline. Yet, over 80% of corporate websites suffer from slow load times, bloated page-builders, confusing navigation, and weak technical SEO that silently drive high-intent prospects directly into the arms of competitors.",
-      "At 360GrowthCloudTech, we discard cookie-cutter WordPress themes and bloated monolithic code. We engineer high-velocity digital experiences using Next.js, React, modern Headless CMS, and cloud-native backends. Every site is custom-crafted to achieve sub-second load times, flawless responsiveness across 20+ device breakpoints, and enterprise-grade OWASP security.",
+      "At 360CloudTech, we discard cookie-cutter WordPress themes and bloated monolithic code. We engineer high-velocity digital experiences using Next.js, React, modern Headless CMS, and cloud-native backends. Every site is custom-crafted to achieve sub-second load times, flawless responsiveness across 20+ device breakpoints, and enterprise-grade OWASP security.",
       "As a global technology partner with offices in India and clients across North America, the UK, Europe, and Asia-Pacific, we offer a strategic dual-shore delivery model: world-class Silicon Valley engineering standards combined with round-the-clock (24/7) agile sprint momentum and maximum engineering efficiency. Looking for a full web application or digital transformation? Explore our <webapp>web application development</webapp>, discover our <csd>custom software development</csd>, or <contact>schedule an architecture consultation</contact> today."
     ],
-    "highlightsTitle": "The 360GrowthCloudTech Engineering Benchmark:",
+    "highlightsTitle": "The 360CloudTech Engineering Benchmark:",
     "highlights": [
       "Sub-1.2s Largest Contentful Paint (LCP) guarantee",
       "Next.js 15 & React 19 Server-Side Rendering (SSR)",
@@ -125,7 +125,7 @@
   },
   "comparison": {
     "badge": "The 360 Difference",
-    "title": "How 360GrowthCloudTech Beats Traditional Agencies",
+    "title": "How 360CloudTech Beats Traditional Agencies",
     "subtitle": "Compare what traditional agencies deliver versus our engineering-led digital transformation.",
     "columns": [
       {
@@ -145,7 +145,7 @@
         ]
       },
       {
-        "title": "360GrowthCloudTech Modern Web Team",
+        "title": "360CloudTech Modern Web Team",
         "bestFor": "High-velocity, ROI-focused engineering",
         "pros": [
           "Sub-1.2s PageSpeed with modern Next.js 15 & SSR",
@@ -261,7 +261,7 @@
     ]
   },
   "why": {
-    "badge": "Why 360GrowthCloudTech",
+    "badge": "Why 360CloudTech",
     "title": "Why Fast-Growing Brands Partner With Us",
     "subtitle": "We don't just deliver websites; we build scalable digital growth engines that convert visitors into revenue.",
     "items": [
@@ -309,7 +309,7 @@
         "a": "We build with an SEO-first architecture: server-side rendering (SSR) for instant crawler indexing, semantic HTML5 tags, optimized internal linking, next-gen WebP/AVIF image compression, sub-1.2s Largest Contentful Paint (LCP) performance, and automated Google Schema Markup (Organization, Service, BreadcrumbList, and FAQPage JSON-LD) to help you outrank competitors and capture Google Rich Snippets."
       },
       {
-        "q": "How does 360GrowthCloudTech support international clients across the US, UK, and India?",
+        "q": "How does 360CloudTech support international clients across the US, UK, and India?",
         "a": "We operate a seamless dual-shore model. Our technical leadership and dedicated project managers provide daily overlapping hours across US Eastern/Pacific (EST/PST), UK (GMT), and Indian Standard Time (IST). We collaborate directly in your dedicated Slack or Microsoft Teams channels, hold weekly Zoom sprint demos, and provide continuous updates on Jira or Linear."
       },
       {

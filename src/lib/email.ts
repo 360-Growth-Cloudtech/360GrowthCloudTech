@@ -17,11 +17,11 @@ function buildAutoReplyHtml(name: string): string {
       <table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:16px;overflow:hidden;border:1px solid rgba(15,23,42,0.08);">
         <tr><td style="background:#ea430c;height:4px;font-size:0;line-height:0;">&nbsp;</td></tr>
         <tr><td style="padding:32px 28px;">
-          <p style="margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#ea430c;">360GrowthCloudTech</p>
+          <p style="margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#ea430c;">360CloudTech</p>
           <h1 style="margin:0 0 20px;font-size:22px;font-weight:800;color:#0f172a;line-height:1.3;">Thank you for reaching out</h1>
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#4a4038;">Hi ${greeting},</p>
           <p style="margin:0 0 16px;font-size:15px;line-height:1.65;color:#4a4038;">
-            Thank you for contacting <strong style="color:#0f172a;">360GrowthCloudTech</strong>.
+            Thank you for contacting <strong style="color:#0f172a;">360CloudTech</strong>.
             We have received your message and a member of our team will get back to you shortly —
             typically within <strong style="color:#0f172a;">2 business hours</strong> during weekdays.
           </p>
@@ -32,13 +32,13 @@ function buildAutoReplyHtml(name: string): string {
           </p>
           <p style="margin:0;font-size:15px;line-height:1.65;color:#4a4038;">
             Best regards,<br>
-            <strong style="color:#0f172a;">360GrowthCloudTech Team</strong><br>
+            <strong style="color:#0f172a;">360CloudTech Team</strong><br>
             <a href="mailto:${CONTACT_EMAIL}" style="color:#ea430c;text-decoration:none;">${CONTACT_EMAIL}</a><br>
             <a href="${CONTACT_PHONE_TEL}" style="color:#ea430c;text-decoration:none;">${CONTACT_PHONE}</a>
           </p>
         </td></tr>
       </table>
-      <p style="margin:16px 0 0;font-size:12px;color:#8a7f75;">© ${new Date().getFullYear()} 360GrowthCloudTech. All rights reserved.</p>
+      <p style="margin:16px 0 0;font-size:12px;color:#8a7f75;">© ${new Date().getFullYear()} 360CloudTech. All rights reserved.</p>
     </td></tr>
   </table>
 </body>
@@ -49,12 +49,12 @@ function buildAutoReplyText(name: string): string {
   const greeting = firstName(name);
   return `Hi ${greeting},
 
-Thank you for contacting 360GrowthCloudTech. We have received your message and a member of our team will get back to you shortly — typically within 2 business hours during weekdays.
+Thank you for contacting 360CloudTech. We have received your message and a member of our team will get back to you shortly — typically within 2 business hours during weekdays.
 
 If your request is urgent, call us at ${CONTACT_PHONE} or reply directly to this email.
 
 Best regards,
-360GrowthCloudTech Team
+360CloudTech Team
 ${CONTACT_EMAIL}
 ${CONTACT_PHONE}`;
 }
@@ -79,7 +79,7 @@ function getTransporter() {
 
 export async function sendLeadAutoReply(lead: LeadPayload): Promise<void> {
   const fromEmail = process.env.CONTACT_FROM_EMAIL ?? "contact@360cloudtech.com";
-  const fromName = process.env.CONTACT_FROM_NAME ?? "360GrowthCloudTech";
+  const fromName = process.env.CONTACT_FROM_NAME ?? "360CloudTech";
 
   const transporter = getTransporter();
 
@@ -87,7 +87,7 @@ export async function sendLeadAutoReply(lead: LeadPayload): Promise<void> {
     from: `"${fromName}" <${fromEmail}>`,
     to: lead.email,
     replyTo: fromEmail,
-    subject: "Thank you for contacting 360GrowthCloudTech",
+    subject: "Thank you for contacting 360CloudTech",
     text: buildAutoReplyText(lead.name),
     html: buildAutoReplyHtml(lead.name),
   });

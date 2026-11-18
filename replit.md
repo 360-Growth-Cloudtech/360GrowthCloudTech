@@ -4,7 +4,7 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/360growthcloudtech run dev` — run the frontend application
+- `pnpm --filter @workspace/360 Cloud Techcloudtech run dev` — run the frontend application
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
 

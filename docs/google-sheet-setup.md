@@ -1,6 +1,6 @@
 # Google Sheet setup for lead forms
 
-Create a spreadsheet named **360GrowthCloudTech Leads** with this header row in row 1:
+Create a spreadsheet named **360CloudTech Leads** with this header row in row 1:
 
 | A | B | C | D | E | F | G | H | I | J |
 |---|---|---|---|---|---|---|---|---|---|

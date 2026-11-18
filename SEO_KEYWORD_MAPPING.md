@@ -1,4 +1,4 @@
-# Comprehensive SEO Keyword Mapping Matrix — 360GrowthCloudTech
+# Comprehensive SEO Keyword Mapping Matrix — 360CloudTech
 
 **Target Website:** https://360cloudtech.com/  
 **Target Geographies:** United States (USA), United Kingdom (UK), India  
@@ -11,7 +11,7 @@
 ## 1. Executive Summary & Methodology
 
 ### 1.1 Data Source & Extraction Standards
-The keyword strategy for 360GrowthCloudTech is derived from 18 Google Keyword Planner CSV exports spanning a full 12-month trailing cycle (1 November 2025 to 31 October 2026). Over 29,950 total keyword data points across the United States, United Kingdom, and India were extracted, normalized, and classified into commercial intent clusters.
+The keyword strategy for 360CloudTech is derived from 18 Google Keyword Planner CSV exports spanning a full 12-month trailing cycle (1 November 2025 to 31 October 2026). Over 29,950 total keyword data points across the United States, United Kingdom, and India were extracted, normalized, and classified into commercial intent clusters.
 
 - **Geographic Segmentation:** Each keyword record preserves its explicit country dataset mapping (USA, UK, India). Search volumes reflect local monthly query velocity in that specific territory.
 - **Reporting Currency Disclosure:** Bid metrics (Low Top-of-Page Bid and High Top-of-Page Bid) in the source files are denominated in INR (Indian Rupee, ₹), reflecting the exporting Google Ads billing currency. These are preserved verbatim to provide accurate commercial CPC intent indicators without currency conversion distortion.
@@ -756,15 +756,15 @@ Per business directives, **no separate geo-subfolder doorway pages** (e.g., `/us
 
 | URL | Rendered Browser Title (with Template) | Meta Description (Under 155 chars) | Primary Keyword |
 | :--- | :--- | :--- | :--- |
-| `/` | Custom Software Development Company \| 360GrowthCloudTech | Award-winning custom software development company. We engineer high-performance web, mobile, SaaS, and enterprise applications with dedicated agile squads. | custom software development company |
-| `/enterprise-application-development` | Enterprise Application Development Services \| 360GrowthCloudTech | Scalable enterprise application development services. We build secure, cloud-native enterprise web and mobile applications with microservices architecture. | enterprise application development services |
-| `/custom-enterprise-software` | Custom Enterprise Software Development \| 360GrowthCloudTech | Tailor-made enterprise software development. We build custom ERPs, internal operations portals, and automated workflow systems engineered to scale securely. | custom enterprise software development |
-| `/custom-software-development` | Custom Software Development Services \| 360GrowthCloudTech | Custom software development services tailored to your business. We engineer bespoke web, mobile, SaaS, and cloud applications with full IP ownership. | custom software development services |
-| `/software-development` | Software Development Services & Outsourcing \| 360GrowthCloudTech | Full-cycle software development services and dedicated engineering teams. Scale your engineering capacity with senior full-stack developers and agile squads. | software development services |
-| `/website-development-services` | Website Development Services \| 360GrowthCloudTech | High-performance website development services. We build custom, conversion-driven corporate websites, Next.js web applications, and scalable CMS platforms. | website development services |
-| `/web-application-development` | Web Application Development Services \| 360GrowthCloudTech | Custom web application development services. We build scalable, high-concurrency web applications, interactive portals, PWAs, and SaaS platforms. | web application development services |
-| `/mobile-app-development` | Mobile App Development Services \| 360GrowthCloudTech | Native and cross-platform mobile app development services. We design and engineer iOS, Android, Flutter, and React Native mobile applications built to scale. | mobile app development services |
-| `/saas-development` | SaaS Application Development Company \| 360GrowthCloudTech | End-to-end SaaS application development services. We build multi-tenant cloud platforms, scalable SaaS MVPs, subscription billing systems, and web apps. | SaaS development company |
-| `/crm-software-development` | Custom CRM Software Development \| 360GrowthCloudTech | Custom CRM software development services. We build tailored sales pipelines, customer service portals, mobile CRMs, and seamless ERP integrations. | custom CRM development |
-| `/cloud-devops` | Cloud Consulting & DevOps Services \| 360GrowthCloudTech | Enterprise cloud consulting and DevOps services. Accelerate software delivery with CI/CD automation, AWS & Azure cloud migration, Kubernetes, and 24/7 support. | cloud consulting services |
-| `/ai-automation` | Custom AI Software Development Services \| 360GrowthCloudTech | Enterprise AI software development services. We build custom generative AI applications, intelligent document processing pipelines, chatbots, and ML systems. | AI development company |
+| `/` | Custom Software Development Company \| 360CloudTech | Award-winning custom software development company. We engineer high-performance web, mobile, SaaS, and enterprise applications with dedicated agile squads. | custom software development company |
+| `/enterprise-application-development` | Enterprise Application Development Services \| 360CloudTech | Scalable enterprise application development services. We build secure, cloud-native enterprise web and mobile applications with microservices architecture. | enterprise application development services |
+| `/custom-enterprise-software` | Custom Enterprise Software Development \| 360CloudTech | Tailor-made enterprise software development. We build custom ERPs, internal operations portals, and automated workflow systems engineered to scale securely. | custom enterprise software development |
+| `/custom-software-development` | Custom Software Development Services \| 360CloudTech | Custom software development services tailored to your business. We engineer bespoke web, mobile, SaaS, and cloud applications with full IP ownership. | custom software development services |
+| `/software-development` | Software Development Services & Outsourcing \| 360CloudTech | Full-cycle software development services and dedicated engineering teams. Scale your engineering capacity with senior full-stack developers and agile squads. | software development services |
+| `/website-development-services` | Website Development Services \| 360CloudTech | High-performance website development services. We build custom, conversion-driven corporate websites, Next.js web applications, and scalable CMS platforms. | website development services |
+| `/web-application-development` | Web Application Development Services \| 360CloudTech | Custom web application development services. We build scalable, high-concurrency web applications, interactive portals, PWAs, and SaaS platforms. | web application development services |
+| `/mobile-app-development` | Mobile App Development Services \| 360CloudTech | Native and cross-platform mobile app development services. We design and engineer iOS, Android, Flutter, and React Native mobile applications built to scale. | mobile app development services |
+| `/saas-development` | SaaS Application Development Company \| 360CloudTech | End-to-end SaaS application development services. We build multi-tenant cloud platforms, scalable SaaS MVPs, subscription billing systems, and web apps. | SaaS development company |
+| `/crm-software-development` | Custom CRM Software Development \| 360CloudTech | Custom CRM software development services. We build tailored sales pipelines, customer service portals, mobile CRMs, and seamless ERP integrations. | custom CRM development |
+| `/cloud-devops` | Cloud Consulting & DevOps Services \| 360CloudTech | Enterprise cloud consulting and DevOps services. Accelerate software delivery with CI/CD automation, AWS & Azure cloud migration, Kubernetes, and 24/7 support. | cloud consulting services |
+| `/ai-automation` | Custom AI Software Development Services \| 360CloudTech | Enterprise AI software development services. We build custom generative AI applications, intelligent document processing pipelines, chatbots, and ML systems. | AI development company |

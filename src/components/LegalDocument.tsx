@@ -4,7 +4,7 @@ import { useFormatter, useTranslations } from "next-intl";
 import { PageHero } from "@/components/PageHero";
 import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL } from "@/lib/contact";
 
-const COMPANY = "360GrowthCloudTech";
+const COMPANY = "360CloudTech";
 const EMAIL = CONTACT_EMAIL;
 const PHONE = CONTACT_PHONE;
 const WEBSITE = "360cloudtech.com";

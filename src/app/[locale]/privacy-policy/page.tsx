@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return buildPageMetadata({
     title: t("privacy.title"),
-    description: t("privacy.subtitle", { company: "360GrowthCloudTech" }),
+    description: t("privacy.subtitle", { company: "360CloudTech" }),
     path: "/privacy-policy",
     locale: locale as Locale,
   });

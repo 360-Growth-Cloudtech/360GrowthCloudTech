@@ -14,7 +14,7 @@
     "allIndustries": "View all industries",
     "industriesMenu": "Industries menu",
     "about": "About",
-    "brandName": "360GrowthCloudTech",
+    "brandName": "360CloudTech",
     "tagline": "Software · Cloud · Growth",
     "callLabel": "Call or WhatsApp",
     "getQuote": "Get a Free Quote",
@@ -22,7 +22,7 @@
     "closeMenu": "Close menu"
   },
   "footer": {
-    "brandName": "360GrowthCloudTech",
+    "brandName": "360CloudTech",
     "tagline": "AI-first custom software development company building enterprise web, mobile, SaaS and cloud platforms for businesses across the US, UK, Europe and India with full IP ownership.",
     "company": "Company",
     "services": "Services",
@@ -38,7 +38,7 @@
     "scheduleDesc": "Tell us what you're building. A senior engineer replies within 2 business hours with next steps and a transparent estimate.",
     "scheduleMeeting": "Book a Free Call",
     "sendMessage": "WhatsApp Us",
-    "copyright": "© {year} 360GrowthCloudTech. All rights reserved.",
+    "copyright": "© {year} 360CloudTech. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookies Policy",
@@ -54,9 +54,9 @@
     "backToTop": "Back to top"
   },
   "brand": {
-    "full": "360GrowthCloudTech",
-    "short": "360GrowthCloudTech",
-    "logoAlt": "360GrowthCloudTech logo",
+    "full": "360CloudTech",
+    "short": "360CloudTech",
+    "logoAlt": "360CloudTech logo",
     "tagline": "Digital engineering & growth studio"
   },
   "ctas": {
@@ -175,6 +175,6 @@
     "trustLine": "Opens WhatsApp with your details · Reply within 2 business hours · No obligation",
     "missingFields": "Please add your name, phone, email and requirement.",
     "success": "WhatsApp opened with your details. Just press send!",
-     "whatsappMessage": "Hello 360GrowthCloudTech team, I visited your website and would like to discuss a project requirement for {topic}.\n\nName: {name}\nEmail: {email}\nPhone: {phone}\nRequirement: {service}\n\nCould we connect?"
+     "whatsappMessage": "Hello 360CloudTech team, I visited your website and would like to discuss a project requirement for {topic}.\n\nName: {name}\nEmail: {email}\nPhone: {phone}\nRequirement: {service}\n\nCould we connect?"
   }
 }

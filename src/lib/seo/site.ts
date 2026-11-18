@@ -6,7 +6,7 @@ import { INDUSTRY_PAGE_PATHS } from "@/lib/industry-catalog";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://360cloudtech.com";
 
-export const SITE_NAME = "360GrowthCloudTech";
+export const SITE_NAME = "360CloudTech";
 
 /** Alternate brand names searched by users (e.g. from Google Search Console queries) */
 export const SITE_ALTERNATE_NAMES = [
@@ -14,11 +14,11 @@ export const SITE_ALTERNATE_NAMES = [
   "360cloudtech",
   "360 Cloud Solutions",
   "Cloud 360",
-  "360Growth",
+  "360CloudTech",
 ];
 
 export const SITE_DESCRIPTION =
-  "360GrowthCloudTech is an enterprise custom software development company serving businesses across the USA, UK, and India. We engineer scalable web, mobile, SaaS, and cloud platforms with 100% IP ownership.";
+  "360CloudTech is an enterprise custom software development company serving businesses across the USA, UK, and India. We engineer scalable web, mobile, SaaS, and cloud platforms with 100% IP ownership.";
 
 export const SITE_KEYWORDS = [
   "custom software development company",
@@ -48,11 +48,11 @@ export const THEME_COLOR = "#ea430c";
  * set the env var (or paste the URL) once each profile is live.
  */
 export const SOCIAL_PROFILES = [
-  process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/company/360growthcloudtech",
+  process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/company/360cloudtech",
   process.env.NEXT_PUBLIC_CLUTCH_URL ?? "",
   process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL ?? "",
   process.env.NEXT_PUBLIC_TWITTER_HANDLE ? `https://x.com/${process.env.NEXT_PUBLIC_TWITTER_HANDLE}` : "",
-  process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/360growthcloudtech",
+  process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/360cloudtech",
 ].filter(Boolean);
 
 /** Postal address for Organization schema; configured via environment or fallback. */

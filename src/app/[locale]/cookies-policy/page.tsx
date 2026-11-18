@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return buildPageMetadata({
     title: t("cookies.title"),
-    description: t("cookies.subtitle", { company: "360GrowthCloudTech", website: "360cloudtech.com" }),
+    description: t("cookies.subtitle", { company: "360CloudTech", website: "360cloudtech.com" }),
     path: "/cookies-policy",
     locale: locale as Locale,
   });

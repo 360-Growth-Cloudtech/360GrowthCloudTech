@@ -3,7 +3,7 @@
     "label": "About Us",
     "title": "A Software Development Company That",
     "highlight": "Designs and Engineers What It Ships",
-    "subtitle": "360GrowthCloudTech is a senior team of strategists, designers and engineers building custom software, apps, websites and cloud platforms for growing businesses in India and worldwide."
+    "subtitle": "360CloudTech is a senior team of strategists, designers and engineers building custom software, apps, websites and cloud platforms for growing businesses in India and worldwide."
   },
   "sections": {
     "howWeWork": {
@@ -23,7 +23,7 @@
       "paragraphs": [
         "We're a distributed team of product strategists, designers, and engineers — building for founders and growing businesses across India and worldwide. Remote-first, async-friendly, and focused on outcomes over hours logged."
       ],
-      "companyName": "360GrowthCloudTech",
+      "companyName": "360CloudTech",
       "companyTagline": "Digital engineering & growth studio"
     }
   },
@@ -33,13 +33,13 @@
   },
   "meta": {
     "title": "About Us – Software Development Company",
-    "description": "Meet 360GrowthCloudTech, a senior software development and design team building custom software, apps, websites and cloud platforms for clients worldwide."
+    "description": "Meet 360CloudTech, a senior software development and design team building custom software, apps, websites and cloud platforms for clients worldwide."
   },
   "story": {
     "badge": "Who We Are",
     "title": "Built by Engineers Who Care About Outcomes",
     "paragraphs": [
-      "360GrowthCloudTech started with a simple frustration: businesses were paying for software that looked good in demos but did not fit how they worked, and they were stuck juggling designers, developers and hosting providers who blamed each other when things went wrong.",
+      "360CloudTech started with a simple frustration: businesses were paying for software that looked good in demos but did not fit how they worked, and they were stuck juggling designers, developers and hosting providers who blamed each other when things went wrong.",
       "So we built a different kind of software development company. Product strategy, UX design, engineering, testing, cloud and support sit in one team, so decisions stay connected from the first workshop to long after launch. We work in short sprints with weekly demos, explain trade-offs in plain language and measure success by what the software does for your business.",
       "Today we build <services>custom software, web and mobile apps, SaaS platforms and business systems</services> for startups, SMEs and enterprises across healthcare, fintech, travel, retail, education, real estate and more. See the results in our <work>case studies</work>."
     ]
@@ -186,11 +186,11 @@
   },
   "faqs": {
     "badge": "FAQs",
-    "title": "About 360GrowthCloudTech",
+    "title": "About 360CloudTech",
     "subtitle": "Common questions about who we are and how we work.",
     "items": [
       {
-        "q": "What does 360GrowthCloudTech do?",
+        "q": "What does 360CloudTech do?",
         "a": "We are a software development company that designs, builds and supports custom software, web and mobile apps, SaaS platforms, websites, business systems such as CRM and inventory software, and cloud and AI solutions."
       },
       {

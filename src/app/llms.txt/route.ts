@@ -4,12 +4,12 @@ import { SITE_URL } from "@/lib/seo/site";
 export const dynamic = "force-static";
 
 export function GET() {
-  const content = `# 360GrowthCloudTech
+  const content = `# 360CloudTech
 
 > Custom Software Development Company serving US, UK, and global businesses with US timezone overlap, fixed-scope delivery, and 100% IP ownership.
 
 ## Overview
-360GrowthCloudTech engineers mission-critical enterprise web, mobile, SaaS, and cloud applications. We work with high-growth startups and established enterprises across North America, Europe, Australia, and India, offering dedicated senior developer teams with full US Eastern/Pacific timezone alignment.
+360CloudTech engineers mission-critical enterprise web, mobile, SaaS, and cloud applications. We work with high-growth startups and established enterprises across North America, Europe, Australia, and India, offering dedicated senior developer teams with full US Eastern/Pacific timezone alignment.
 
 ## Core Capabilities & Service Offerings
 - [Enterprise Application Development](${SITE_URL}/enterprise-application-development): Scalable, secure custom enterprise web and mobile applications with SSO, role-based access control, bank-grade encryption, and cloud-native architecture.

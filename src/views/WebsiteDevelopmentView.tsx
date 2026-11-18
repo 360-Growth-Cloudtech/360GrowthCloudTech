@@ -237,7 +237,7 @@ export default function WebsiteDevelopmentView() {
       a: "We build with an SEO-first architecture: server-side rendering (SSR) for instant crawler indexing, semantic HTML5 tags, optimized internal linking, next-gen WebP/AVIF image compression, sub-1.2s Largest Contentful Paint (LCP) performance, and automated Google Schema Markup (Organization, Service, BreadcrumbList, and FAQPage JSON-LD) to help you outrank competitors and capture Google Rich Snippets.",
     },
     {
-      q: "How does 360GrowthCloudTech support international clients across the US, UK, and India?",
+      q: "How does 360CloudTech support international clients across the US, UK, and India?",
       a: "We operate a seamless dual-shore model. Our technical leadership and dedicated project managers provide daily overlapping hours across US Eastern/Pacific (EST/PST), UK (GMT), and Indian Standard Time (IST). We collaborate directly in your dedicated Slack or Microsoft Teams channels, hold weekly Zoom sprint demos, and provide continuous updates on Jira or Linear.",
     },
     {
@@ -403,7 +403,7 @@ export default function WebsiteDevelopmentView() {
       <section className="border-t border-slate-100 bg-white py-20 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Reveal className="mx-auto mb-14 max-w-2xl text-center">
-            <span className="section-label mb-3">Why 360GrowthCloudTech</span>
+            <span className="section-label mb-3">Why 360CloudTech</span>
             <h2 className="display-heading text-2xl font-bold text-slate-950 sm:text-3xl md:text-4xl">
               Engineered for Business Outcomes, Not Vanity
             </h2>

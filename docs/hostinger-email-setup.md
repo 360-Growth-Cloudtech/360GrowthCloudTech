@@ -22,7 +22,7 @@ SMTP_SECURE=true
 SMTP_USER=contact@360cloudtech.com
 SMTP_PASS=your-mailbox-password
 CONTACT_FROM_EMAIL=contact@360cloudtech.com
-CONTACT_FROM_NAME=360GrowthCloudTech
+CONTACT_FROM_NAME=360CloudTech
 ```
 
 If port 465 fails, try `SMTP_PORT=587` and `SMTP_SECURE=false`.

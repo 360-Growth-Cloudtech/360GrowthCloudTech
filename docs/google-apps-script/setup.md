@@ -4,7 +4,7 @@ Use this if you opened **Extensions → Apps Script** from your Google Sheet.
 
 ## Step 1 — Paste the code
 
-1. Open your **360GrowthCloudTech Leads** Google Sheet
+1. Open your **360CloudTech Leads** Google Sheet
 2. **Extensions → Apps Script**
 3. Delete the default `myFunction` code
 4. Copy everything from [`Code.gs`](./Code.gs) and paste into `Code.gs`

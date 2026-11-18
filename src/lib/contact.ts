@@ -9,5 +9,5 @@ export function whatsappUrl(text: string): string {
 }
 
 export const CONTACT_WHATSAPP_URL = whatsappUrl(
-  "Hello 360GrowthCloudTech team, I visited your website and would like to discuss a project requirement. Could we connect?"
+  "Hello 360CloudTech team, I visited your website and would like to discuss a project requirement. Could we connect?"
 );
